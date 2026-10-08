@@ -12,8 +12,6 @@ import {
   CheckCircle2,
   Lock,
   Check,
-  ChevronRight,
-  ChevronLeft,
 } from 'lucide-react';
 import api from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
@@ -35,7 +33,7 @@ export default function LessonDetailPage() {
   const [activeTab, setActiveTab] = useState('vocab');
   const [lockData, setLockData] = useState(null);
 
-  // Track the highest step index the user has unlocked sequentially (0 to 6)
+  // Track the highest step index the user has reached sequentially (0 to 6)
   const [unlockedStepIndex, setUnlockedStepIndex] = useState(0);
 
   useEffect(() => {
@@ -134,45 +132,25 @@ export default function LessonDetailPage() {
 
   const currentStepIndex = tabs.findIndex((t) => t.id === activeTab);
   const currentTab = tabs[currentStepIndex] || tabs[0];
-  const nextTab = currentStepIndex < tabs.length - 1 ? tabs[currentStepIndex + 1] : null;
-  const prevTab = currentStepIndex > 0 ? tabs[currentStepIndex - 1] : null;
-
-  const handleNextStep = () => {
-    if (nextTab) {
-      const nextIndex = currentStepIndex + 1;
-      setActiveTab(nextTab.id);
-
-      // Advance unlocked step index
-      if (nextIndex > unlockedStepIndex) {
-        setUnlockedStepIndex(nextIndex);
-        localStorage.setItem(`e4b_lesson_${id}_step`, nextIndex.toString());
-      }
-
-      window.scrollTo({ top: 120, behavior: 'smooth' });
-    }
-  };
-
-  const handlePrevStep = () => {
-    if (prevTab) {
-      setActiveTab(prevTab.id);
-      window.scrollTo({ top: 120, behavior: 'smooth' });
-    }
-  };
 
   const handleTabClick = (targetTabId, targetIndex) => {
-    // If completed or admin, all tabs are clickable
+    // If completed or admin, all tabs are freely accessible
     if (isCompleted || isAdmin) {
       setActiveTab(targetTabId);
       window.scrollTo({ top: 120, behavior: 'smooth' });
       return;
     }
 
-    // Must be unlocked sequentially
-    if (targetIndex <= unlockedStepIndex) {
+    // Must advance sequentially step-by-step
+    if (targetIndex <= unlockedStepIndex + 1) {
       setActiveTab(targetTabId);
+      if (targetIndex > unlockedStepIndex) {
+        setUnlockedStepIndex(targetIndex);
+        localStorage.setItem(`e4b_lesson_${id}_step`, targetIndex.toString());
+      }
       window.scrollTo({ top: 120, behavior: 'smooth' });
     } else {
-      alert(`Vui lòng hoàn thành lần lượt các bước trước đó để mở khóa bước ${targetIndex + 1}.`);
+      alert(`Vui lòng hoàn thành lần lượt các bước trước đó để mở khóa Bước ${targetIndex + 1}: ${tabs[targetIndex].title}.`);
     }
   };
 
@@ -242,8 +220,8 @@ export default function LessonDetailPage() {
         {tabs.map((tab, idx) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
-          const isTabUnlocked = isCompleted || isAdmin || idx <= unlockedStepIndex;
-          const isTabDone = isCompleted || idx < unlockedStepIndex;
+          const isTabUnlocked = isCompleted || isAdmin || idx <= unlockedStepIndex + 1;
+          const isTabDone = isCompleted || (idx <= unlockedStepIndex && idx !== currentStepIndex);
 
           return (
             <button
@@ -305,47 +283,6 @@ export default function LessonDetailPage() {
               setUnlockedStepIndex(6);
             }}
           />
-        )}
-      </div>
-
-      {/* Bottom Step Progression Navigation Controller */}
-      <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3">
-        {prevTab ? (
-          <button
-            type="button"
-            onClick={handlePrevStep}
-            className="w-full sm:w-auto px-5 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-700 font-bold text-xs transition flex items-center justify-center gap-2"
-          >
-            <ChevronLeft className="w-4 h-4" />
-            <span>Quay lại: {prevTab.title}</span>
-          </button>
-        ) : (
-          <div className="hidden sm:block" />
-        )}
-
-        <div className="text-xs font-semibold text-slate-500 text-center">
-          Đang ở <strong className="text-slate-800">Bước {currentStepIndex + 1} / 7: {currentTab.title}</strong>
-        </div>
-
-        {nextTab ? (
-          <button
-            type="button"
-            onClick={handleNextStep}
-            className="w-full sm:w-auto px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-xs transition shadow-md shadow-blue-500/25 active:scale-95 flex items-center justify-center gap-2"
-          >
-            <span>Hoàn thành & Sang Bước {nextTab.stepNum}: {nextTab.title}</span>
-            <ChevronRight className="w-4 h-4" />
-          </button>
-        ) : (
-          isCompleted && (
-            <Link
-              to="/lessons"
-              className="w-full sm:w-auto px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs transition shadow-md shadow-emerald-500/20 flex items-center justify-center gap-2"
-            >
-              <span>Về danh sách bài học</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          )
         )}
       </div>
     </div>
