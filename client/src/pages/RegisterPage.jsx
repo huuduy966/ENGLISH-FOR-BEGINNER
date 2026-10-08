@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import Logo from '../components/common/Logo';
 import { UserPlus, Mail, Lock, User, Target, AlertCircle } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -38,12 +39,9 @@ export default function RegisterPage() {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8 selection:bg-blue-600 selection:text-white">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center">
-        <Link to="/" className="inline-flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-2xl bg-blue-600 text-white flex items-center justify-center font-bold text-2xl shadow-lg shadow-blue-500/25">
-            E4B
-          </div>
-          <span className="text-2xl font-extrabold text-slate-900 tracking-tight">English Beginner</span>
-        </Link>
+        <div className="flex justify-center mb-6">
+          <Logo size="lg" to="/" />
+        </div>
         <h2 className="text-2xl font-bold text-slate-900">Tạo tài khoản mới</h2>
         <p className="mt-2 text-sm text-slate-600">
           Đã có tài khoản?{' '}

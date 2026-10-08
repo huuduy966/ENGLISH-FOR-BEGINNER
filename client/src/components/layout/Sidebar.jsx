@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Logo from '../common/Logo';
 import {
   Home,
   BookOpen,
@@ -52,14 +53,8 @@ export default function Sidebar({ isOpen, onClose }) {
         }`}
       >
         {/* Brand header */}
-        <div className="h-16 flex items-center px-6 border-b border-slate-100 gap-3">
-          <div className="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-xl shadow-md shadow-blue-500/20">
-            E4B
-          </div>
-          <div>
-            <h1 className="font-bold text-slate-800 leading-tight">English Beginner</h1>
-            <p className="text-xs text-blue-600 font-medium">Step by Step</p>
-          </div>
+        <div className="h-16 flex items-center px-5 border-b border-slate-100">
+          <Logo size="sm" to="/dashboard" />
         </div>
 
         {/* Navigation list */}
