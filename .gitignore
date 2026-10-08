@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+dev.db
+dev.db-journal
+.superpowers/
+extracted_doc.txt
