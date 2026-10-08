@@ -9,6 +9,8 @@ import {
   AlertCircle,
   ArrowRight,
   HelpCircle,
+  ArrowLeftRight,
+  GitFork,
 } from 'lucide-react';
 import api from '../../services/api';
 import { speakText } from '../../utils/speech';
@@ -429,6 +431,63 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
                   </div>
                 ))}
               </div>
+
+              {/* WordNet Lexical Semantic Relations */}
+              {data.wordnet && (
+                (data.wordnet.antonyms && data.wordnet.antonyms.length > 0) ||
+                (data.wordnet.hypernyms && data.wordnet.hypernyms.length > 0)
+              ) && (
+                <div className="pt-4 border-t border-slate-100 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
+                      <GitFork className="w-3 h-3 text-blue-600" />
+                      <span>Mạng lưới ngữ nghĩa WordNet</span>
+                    </span>
+                    <span className="text-[10px] font-bold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
+                      Princeton WordNet
+                    </span>
+                  </div>
+
+                  {data.wordnet.antonyms && data.wordnet.antonyms.length > 0 && (
+                    <div className="p-3 rounded-xl bg-rose-50/70 border border-rose-200/70 space-y-1.5 text-xs">
+                      <span className="font-bold text-rose-700 flex items-center gap-1">
+                        <ArrowLeftRight className="w-3 h-3" />
+                        <span>Từ trái nghĩa (Antonyms):</span>
+                      </span>
+                      <div className="flex flex-wrap gap-1">
+                        {data.wordnet.antonyms.map((ant, aIdx) => (
+                          <button
+                            key={aIdx}
+                            type="button"
+                            onClick={() => handleSelectWord(ant)}
+                            className="px-2.5 py-1 rounded-lg bg-white text-rose-700 border border-rose-200 text-xs font-bold hover:bg-rose-100 transition shadow-2xs"
+                          >
+                            {ant}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {data.wordnet.hypernyms && data.wordnet.hypernyms.length > 0 && (
+                    <div className="p-3 rounded-xl bg-purple-50/70 border border-purple-200/70 space-y-1.5 text-xs">
+                      <span className="font-bold text-purple-700">Thuộc nhóm (Hypernyms):</span>
+                      <div className="flex flex-wrap gap-1">
+                        {data.wordnet.hypernyms.map((hyp, hIdx) => (
+                          <button
+                            key={hIdx}
+                            type="button"
+                            onClick={() => handleSelectWord(hyp)}
+                            className="px-2.5 py-1 rounded-lg bg-white text-purple-700 border border-purple-200 text-xs font-medium hover:bg-purple-100 transition shadow-2xs"
+                          >
+                            {hyp}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
             </>
           )}
         </div>

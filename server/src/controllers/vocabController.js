@@ -1,6 +1,6 @@
 const prisma = require('../db');
 
-// High-speed In-Memory Cache for Dictionary Lookups
+// High-speed In-Memory Cache for Dictionary & WordNet Lookups
 const dictionaryCache = new Map();
 const MAX_CACHE_SIZE = 1000;
 
@@ -19,17 +19,29 @@ function getDictCache(key) {
 // Regex to detect if Datamuse definition is flagging a typo/misspelling
 const MISSPELLING_REGEX = /(?:Misspelling|Obsolete spelling|Pronunciation spelling|Alternative spelling) of ([a-zA-Z\-]+)/i;
 
-// Fetch structured word definitions, synonyms, and spelling checks from Datamuse API
+// Fetch structured word definitions, synonyms, and Princeton WordNet relations
 async function fetchDatamuseEntry(cleanWord) {
   try {
     const wordUrl = `https://api.datamuse.com/words?sp=${encodeURIComponent(cleanWord)}&md=dpf&max=1`;
     const synUrl = `https://api.datamuse.com/words?rel_syn=${encodeURIComponent(cleanWord)}&max=6`;
+    const antUrl = `https://api.datamuse.com/words?rel_ant=${encodeURIComponent(cleanWord)}&max=6`;
+    const genUrl = `https://api.datamuse.com/words?rel_gen=${encodeURIComponent(cleanWord)}&max=5`;
+    const spcUrl = `https://api.datamuse.com/words?rel_spc=${encodeURIComponent(cleanWord)}&max=5`;
 
-    const [wordRes, synRes] = await Promise.all([
+    const [wordRes, synRes, antRes, genRes, spcRes] = await Promise.all([
       fetch(wordUrl, { signal: AbortSignal.timeout(2000) })
         .then((r) => (r.ok ? r.json() : []))
         .catch(() => []),
       fetch(synUrl, { signal: AbortSignal.timeout(2000) })
+        .then((r) => (r.ok ? r.json() : []))
+        .catch(() => []),
+      fetch(antUrl, { signal: AbortSignal.timeout(2000) })
+        .then((r) => (r.ok ? r.json() : []))
+        .catch(() => []),
+      fetch(genUrl, { signal: AbortSignal.timeout(2000) })
+        .then((r) => (r.ok ? r.json() : []))
+        .catch(() => []),
+      fetch(spcUrl, { signal: AbortSignal.timeout(2000) })
         .then((r) => (r.ok ? r.json() : []))
         .catch(() => []),
     ]);
@@ -43,7 +55,6 @@ async function fetchDatamuseEntry(cleanWord) {
     }
 
     // Check if Datamuse definition itself indicates this is a misspelling of another word
-    // Example: "n\tMisspelling of extension." -> correct target is "extension"
     for (const rawDef of exact.defs) {
       const match = rawDef.match(MISSPELLING_REGEX);
       if (match && match[1] && match[1].toLowerCase() !== cleanWord) {
@@ -72,6 +83,9 @@ async function fetchDatamuseEntry(cleanWord) {
     }
 
     const synonymsList = Array.isArray(synRes) ? synRes.map((s) => s.word) : [];
+    const antonymsList = Array.isArray(antRes) ? antRes.map((a) => a.word) : [];
+    const hypernymsList = Array.isArray(genRes) ? genRes.map((g) => g.word) : [];
+    const hyponymsList = Array.isArray(spcRes) ? spcRes.map((s) => s.word) : [];
 
     const meanings = Object.keys(grouped).map((pos) => ({
       partOfSpeech: pos,
@@ -79,10 +93,19 @@ async function fetchDatamuseEntry(cleanWord) {
       synonyms: synonymsList.slice(0, 5),
     }));
 
+    // Princeton WordNet Lexical Semantic Network
+    const wordnet = {
+      synonyms: synonymsList,
+      antonyms: antonymsList,
+      hypernyms: hypernymsList,
+      hyponyms: hyponymsList,
+    };
+
     return {
       word: exact.word,
       meanings,
       synonyms: synonymsList,
+      wordnet,
     };
   } catch (err) {
     console.warn('Datamuse entry fetch error:', err.message);
@@ -249,7 +272,7 @@ async function lookupDictionary(req, res) {
       return res.json(cached);
     }
 
-    // 2. Parallel Fast Fetch: Local Database (Case-Insensitive) & Datamuse Engine
+    // 2. Parallel Fast Fetch: Local Database (Case-Insensitive) & Datamuse WordNet Engine
     const [allLocals, datamuseData] = await Promise.all([
       prisma.vocabulary.findMany().catch(() => []),
       fetchDatamuseEntry(cleanWord),
@@ -296,6 +319,13 @@ async function lookupDictionary(req, res) {
       },
     ];
 
+    const wordnet = datamuseData?.wordnet || {
+      synonyms: datamuseData?.synonyms || [],
+      antonyms: [],
+      hypernyms: [],
+      hyponyms: [],
+    };
+
     const payload = {
       word: datamuseData?.word || localWord?.word || wordParam,
       phonetic: phoneticText,
@@ -304,6 +334,7 @@ async function lookupDictionary(req, res) {
       localExampleMeaning: localWord?.exampleMeaning || null,
       meanings,
       synonyms: datamuseData?.synonyms || [],
+      wordnet,
       isLocallySaved: !!localWord,
     };
 
@@ -314,6 +345,43 @@ async function lookupDictionary(req, res) {
   } catch (error) {
     console.error('lookupDictionary error:', error);
     return res.status(500).json({ message: 'Lỗi tra cứu từ điển.' });
+  }
+}
+
+// Dedicated WordNet endpoint to query lexical semantic relations
+async function getWordNetRelations(req, res) {
+  try {
+    const wordParam = req.params.word.trim().toLowerCase();
+    if (!wordParam) {
+      return res.status(400).json({ message: 'Vui lòng nhập từ cần tra cứu WordNet.' });
+    }
+
+    const synUrl = `https://api.datamuse.com/words?rel_syn=${encodeURIComponent(wordParam)}&max=6`;
+    const antUrl = `https://api.datamuse.com/words?rel_ant=${encodeURIComponent(wordParam)}&max=6`;
+    const genUrl = `https://api.datamuse.com/words?rel_gen=${encodeURIComponent(wordParam)}&max=5`;
+    const spcUrl = `https://api.datamuse.com/words?rel_spc=${encodeURIComponent(wordParam)}&max=5`;
+
+    const [s, a, g, sp] = await Promise.all([
+      fetch(synUrl, { signal: AbortSignal.timeout(2000) }).then((r) => (r.ok ? r.json() : [])).catch(() => []),
+      fetch(antUrl, { signal: AbortSignal.timeout(2000) }).then((r) => (r.ok ? r.json() : [])).catch(() => []),
+      fetch(genUrl, { signal: AbortSignal.timeout(2000) }).then((r) => (r.ok ? r.json() : [])).catch(() => []),
+      fetch(spcUrl, { signal: AbortSignal.timeout(2000) }).then((r) => (r.ok ? r.json() : [])).catch(() => []),
+    ]);
+
+    const wordnet = {
+      synonyms: s.map((x) => x.word),
+      antonyms: a.map((x) => x.word),
+      hypernyms: g.map((x) => x.word),
+      hyponyms: sp.map((x) => x.word),
+    };
+
+    return res.json({
+      word: wordParam,
+      wordnet,
+    });
+  } catch (error) {
+    console.error('getWordNetRelations error:', error);
+    return res.status(500).json({ message: 'Lỗi truy vấn WordNet.' });
   }
 }
 
@@ -368,5 +436,6 @@ module.exports = {
   getVocabulary,
   updateVocabStatus,
   lookupDictionary,
+  getWordNetRelations,
   saveCustomVocabulary,
 };

@@ -11,6 +11,8 @@ import {
   Layers,
   ArrowRight,
   HelpCircle,
+  ArrowLeftRight,
+  GitFork,
 } from 'lucide-react';
 import { speakText } from '../utils/speech';
 import api from '../services/api';
@@ -474,6 +476,126 @@ export default function DictionaryPage() {
                   </div>
                 ))}
               </div>
+
+              {/* Princeton WordNet Lexical Semantic Network */}
+              {result.wordnet && (
+                (result.wordnet.antonyms && result.wordnet.antonyms.length > 0) ||
+                (result.wordnet.synonyms && result.wordnet.synonyms.length > 0) ||
+                (result.wordnet.hypernyms && result.wordnet.hypernyms.length > 0) ||
+                (result.wordnet.hyponyms && result.wordnet.hyponyms.length > 0)
+              ) && (
+                <div className="pt-5 border-t border-slate-100 space-y-4">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
+                      <GitFork className="w-3.5 h-3.5 text-blue-600" />
+                      <span>Mạng lưới ngữ nghĩa WordNet (Lexical Network)</span>
+                    </h3>
+                    <span className="text-[10px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
+                      Princeton WordNet
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    {/* 1. Antonyms (Từ trái nghĩa) */}
+                    {result.wordnet.antonyms && result.wordnet.antonyms.length > 0 && (
+                      <div className="p-3.5 rounded-2xl bg-rose-50/70 border border-rose-200/70 space-y-2">
+                        <div className="flex items-center gap-1.5 font-bold text-rose-700 text-xs">
+                          <ArrowLeftRight className="w-3.5 h-3.5" />
+                          <span>Từ trái nghĩa (Antonyms):</span>
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {result.wordnet.antonyms.map((ant, aIdx) => (
+                            <button
+                              key={aIdx}
+                              type="button"
+                              onClick={() => {
+                                setSearchTerm(ant);
+                                doSearch(ant);
+                              }}
+                              className="px-2.5 py-1 rounded-lg bg-white border border-rose-200 text-rose-700 hover:bg-rose-100 font-bold transition text-xs shadow-2xs"
+                            >
+                              {ant}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* 2. Synonyms (Từ đồng nghĩa) */}
+                    {result.wordnet.synonyms && result.wordnet.synonyms.length > 0 && (
+                      <div className="p-3.5 rounded-2xl bg-blue-50/70 border border-blue-200/70 space-y-2">
+                        <div className="flex items-center gap-1.5 font-bold text-blue-700 text-xs">
+                          <BookOpen className="w-3.5 h-3.5" />
+                          <span>Đồng nghĩa (Synsets):</span>
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {result.wordnet.synonyms.slice(0, 5).map((syn, sIdx) => (
+                            <button
+                              key={sIdx}
+                              type="button"
+                              onClick={() => {
+                                setSearchTerm(syn);
+                                doSearch(syn);
+                              }}
+                              className="px-2.5 py-1 rounded-lg bg-white border border-blue-200 text-blue-700 hover:bg-blue-100 font-bold transition text-xs shadow-2xs"
+                            >
+                              {syn}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* 3. Hypernyms (Thuộc nhóm / Cấp trên) */}
+                    {result.wordnet.hypernyms && result.wordnet.hypernyms.length > 0 && (
+                      <div className="p-3.5 rounded-2xl bg-purple-50/70 border border-purple-200/70 space-y-2">
+                        <div className="flex items-center gap-1.5 font-bold text-purple-700 text-xs">
+                          <span>Thuộc nhóm (Hypernyms):</span>
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {result.wordnet.hypernyms.map((hyp, hIdx) => (
+                            <button
+                              key={hIdx}
+                              type="button"
+                              onClick={() => {
+                                setSearchTerm(hyp);
+                                doSearch(hyp);
+                              }}
+                              className="px-2.5 py-1 rounded-lg bg-white border border-purple-200 text-purple-700 hover:bg-purple-100 font-medium transition text-xs shadow-2xs"
+                            >
+                              {hyp}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* 4. Hyponyms (Cụ thể hơn / Cấp dưới) */}
+                    {result.wordnet.hyponyms && result.wordnet.hyponyms.length > 0 && (
+                      <div className="p-3.5 rounded-2xl bg-emerald-50/70 border border-emerald-200/70 space-y-2">
+                        <div className="flex items-center gap-1.5 font-bold text-emerald-700 text-xs">
+                          <span>Cụ thể hơn (Hyponyms):</span>
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {result.wordnet.hyponyms.map((spc, spIdx) => (
+                            <button
+                              key={spIdx}
+                              type="button"
+                              onClick={() => {
+                                setSearchTerm(spc);
+                                doSearch(spc);
+                              }}
+                              className="px-2.5 py-1 rounded-lg bg-white border border-emerald-200 text-emerald-700 hover:bg-emerald-100 font-medium transition text-xs shadow-2xs"
+                            >
+                              {spc}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>
