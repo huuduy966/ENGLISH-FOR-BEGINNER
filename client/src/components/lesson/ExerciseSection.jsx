@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CheckCircle2, XCircle, ArrowRight, RotateCcw, HelpCircle } from 'lucide-react';
+import { CheckCircle2, XCircle, ArrowRight, RotateCcw, HelpCircle, Lightbulb, Sparkles } from 'lucide-react';
 
 export default function ExerciseSection({ exercises = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -208,12 +208,20 @@ export default function ExerciseSection({ exercises = [] }) {
               <XCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />
             )}
             <div>
-              <p className="font-bold">
-                {isCorrect ? 'Chính xác! Làm rất tốt 🎉' : `Chưa chính xác. Đáp án đúng: "${current.correctAnswer}"`}
+              <p className="font-bold flex items-center gap-1.5">
+                {isCorrect ? (
+                  <>
+                    <span>Chính xác! Làm rất tốt</span>
+                    <Sparkles className="w-4 h-4 text-emerald-600 inline" />
+                  </>
+                ) : (
+                  `Chưa chính xác. Đáp án đúng: "${current.correctAnswer}"`
+                )}
               </p>
               {showFeedback[currentIndex]?.explanation && (
-                <p className="text-xs mt-1 opacity-90">
-                  💡 {showFeedback[currentIndex].explanation}
+                <p className="text-xs mt-1 opacity-90 flex items-center gap-1">
+                  <Lightbulb className="w-3.5 h-3.5 text-amber-500 shrink-0 inline" />
+                  <span>{showFeedback[currentIndex].explanation}</span>
                 </p>
               )}
             </div>

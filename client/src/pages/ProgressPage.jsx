@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart2, Flame, Award, Clock, BookOpen, CheckCircle, TrendingUp } from 'lucide-react';
+import { BarChart2, Flame, Award, Clock, BookOpen, CheckCircle, TrendingUp, Layers, Headphones, Mic, Check, Lightbulb } from 'lucide-react';
 import api from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -108,7 +108,10 @@ export default function ProgressPage() {
           <div className="space-y-4">
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 mb-1.5">
-                <span>📚 Vocabulary (Từ vựng)</span>
+                <span className="flex items-center gap-1.5">
+                  <Layers className="w-3.5 h-3.5 text-blue-500" />
+                  <span>Vocabulary (Từ vựng)</span>
+                </span>
                 <span>{skills?.vocabulary || 75}%</span>
               </div>
               <div className="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden">
@@ -121,7 +124,10 @@ export default function ProgressPage() {
 
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 mb-1.5">
-                <span>📖 Grammar (Ngữ pháp)</span>
+                <span className="flex items-center gap-1.5">
+                  <BookOpen className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>Grammar (Ngữ pháp)</span>
+                </span>
                 <span>{skills?.grammar || 60}%</span>
               </div>
               <div className="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden">
@@ -134,7 +140,10 @@ export default function ProgressPage() {
 
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 mb-1.5">
-                <span>🎧 Listening (Luyện nghe)</span>
+                <span className="flex items-center gap-1.5">
+                  <Headphones className="w-3.5 h-3.5 text-purple-500" />
+                  <span>Listening (Luyện nghe)</span>
+                </span>
                 <span>{skills?.listening || 55}%</span>
               </div>
               <div className="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden">
@@ -147,7 +156,10 @@ export default function ProgressPage() {
 
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-700 mb-1.5">
-                <span>🗣 Speaking (Phát âm & Nói)</span>
+                <span className="flex items-center gap-1.5">
+                  <Mic className="w-3.5 h-3.5 text-amber-500" />
+                  <span>Speaking (Phát âm & Nói)</span>
+                </span>
                 <span>{skills?.speaking || 45}%</span>
               </div>
               <div className="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden">
@@ -183,14 +195,17 @@ export default function ProgressPage() {
                       : 'bg-slate-100 text-slate-400'
                   }`}
                 >
-                  {d.active ? '✓' : '•'}
+                  {d.active ? <Check className="w-4 h-4 stroke-[3]" /> : '•'}
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-xs text-slate-600 leading-relaxed">
-            💡 <strong>Mẹo duy trì động lực:</strong> Học đều đặn 15 phút mỗi ngày hiệu quả hơn gấp nhiều lần so với việc dồn 3 tiếng vào cuối tuần.
+          <div className="p-4 rounded-2xl bg-slate-50 border border-slate-100 text-xs text-slate-600 leading-relaxed flex items-start gap-2">
+            <Lightbulb className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
+            <div>
+              <strong>Mẹo duy trì động lực:</strong> Học đều đặn 15 phút mỗi ngày hiệu quả hơn gấp nhiều lần so với việc dồn 3 tiếng vào cuối tuần.
+            </div>
           </div>
         </div>
       </div>

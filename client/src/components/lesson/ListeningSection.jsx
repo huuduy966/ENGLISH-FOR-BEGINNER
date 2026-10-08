@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Headphones, Play, Pause, RotateCcw, Eye, EyeOff, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Headphones, Play, Pause, RotateCcw, Eye, EyeOff, CheckCircle2, AlertCircle, Lightbulb } from 'lucide-react';
 import { speakText } from '../../utils/speech';
 
 export default function ListeningSection({ listenings = [] }) {
@@ -134,8 +134,9 @@ export default function ListeningSection({ listenings = [] }) {
               </div>
 
               {checked && q.explanation && (
-                <p className="text-xs text-slate-500 bg-slate-50 p-2.5 rounded-lg">
-                  💡 {q.explanation}
+                <p className="text-xs text-slate-500 bg-slate-50 p-2.5 rounded-lg flex items-center gap-1.5">
+                  <Lightbulb className="w-3.5 h-3.5 text-amber-500 shrink-0 inline" />
+                  <span>{q.explanation}</span>
                 </p>
               )}
             </div>

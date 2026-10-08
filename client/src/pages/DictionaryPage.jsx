@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Volume2, BookmarkPlus, Sparkles, BookOpen } from 'lucide-react';
+import { Search, Volume2, BookmarkPlus, Sparkles, BookOpen, Check } from 'lucide-react';
 import { speakText } from '../utils/speech';
 import api from '../services/api';
 
@@ -166,7 +166,16 @@ export default function DictionaryPage() {
                 className="px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center gap-2 transition"
               >
                 <BookmarkPlus className="w-4 h-4 text-slate-600" />
-                <span>{savedSuccess ? 'Đã lưu ✓' : 'Lưu vào sổ từ'}</span>
+                <span className="flex items-center gap-1">
+                  {savedSuccess ? (
+                    <>
+                      <Check className="w-3.5 h-3.5 text-emerald-600 inline" />
+                      <span>Đã lưu</span>
+                    </>
+                  ) : (
+                    <span>Lưu vào sổ từ</span>
+                  )}
+                </span>
               </button>
             </div>
           </div>

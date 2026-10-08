@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, CheckCircle2, Clock, Sparkles, ArrowRight, Layers } from 'lucide-react';
+import { BookOpen, CheckCircle2, Clock, Sparkles, ArrowRight, Layers, Headphones, Award } from 'lucide-react';
 import api from '../services/api';
 
 export default function LessonsListPage() {
@@ -75,17 +75,21 @@ export default function LessonsListPage() {
 
                 {/* Micro Counts */}
                 <div className="flex flex-wrap gap-2 text-[11px] font-semibold text-slate-500 mb-6">
-                  <span className="px-2 py-1 rounded-md bg-slate-100">
-                    📚 {lesson.counts?.vocabularies || 8} từ vựng
+                  <span className="px-2.5 py-1 rounded-md bg-slate-100 flex items-center gap-1.5">
+                    <Layers className="w-3.5 h-3.5 text-blue-500" />
+                    <span>{lesson.counts?.vocabularies || 8} từ vựng</span>
                   </span>
-                  <span className="px-2 py-1 rounded-md bg-slate-100">
-                    📖 Ngữ pháp
+                  <span className="px-2.5 py-1 rounded-md bg-slate-100 flex items-center gap-1.5">
+                    <BookOpen className="w-3.5 h-3.5 text-emerald-500" />
+                    <span>Ngữ pháp</span>
                   </span>
-                  <span className="px-2 py-1 rounded-md bg-slate-100">
-                    🎧 Nghe & Nói
+                  <span className="px-2.5 py-1 rounded-md bg-slate-100 flex items-center gap-1.5">
+                    <Headphones className="w-3.5 h-3.5 text-purple-500" />
+                    <span>Nghe & Nói</span>
                   </span>
-                  <span className="px-2 py-1 rounded-md bg-slate-100">
-                    🎯 Quiz
+                  <span className="px-2.5 py-1 rounded-md bg-slate-100 flex items-center gap-1.5">
+                    <Award className="w-3.5 h-3.5 text-amber-500" />
+                    <span>Quiz</span>
                   </span>
                 </div>
               </div>

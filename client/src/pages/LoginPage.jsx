@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Logo from '../components/common/Logo';
-import { LogIn, Mail, Lock, AlertCircle, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { LogIn, Mail, Lock, AlertCircle, ArrowRight, CheckCircle2, User, ShieldCheck } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function LoginPage() {
@@ -126,7 +126,10 @@ export default function LoginPage() {
                 onClick={() => handleDemoLogin('student@e4b.com', 'student123')}
                 className="p-2.5 rounded-xl border border-blue-200 bg-blue-50/60 hover:bg-blue-100/80 text-left transition"
               >
-                <p className="text-xs font-bold text-blue-900">👤 Học viên mẫu</p>
+                <p className="text-xs font-bold text-blue-900 flex items-center gap-1.5">
+                  <User className="w-3.5 h-3.5 text-blue-600" />
+                  <span>Học viên mẫu</span>
+                </p>
                 <p className="text-[11px] text-blue-700">student@e4b.com</p>
               </button>
 
@@ -135,7 +138,10 @@ export default function LoginPage() {
                 onClick={() => handleDemoLogin('admin@e4b.com', 'admin123')}
                 className="p-2.5 rounded-xl border border-amber-200 bg-amber-50/60 hover:bg-amber-100/80 text-left transition"
               >
-                <p className="text-xs font-bold text-amber-900">🛡️ Quản trị Admin</p>
+                <p className="text-xs font-bold text-amber-900 flex items-center gap-1.5">
+                  <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+                  <span>Quản trị Admin</span>
+                </p>
                 <p className="text-[11px] text-amber-700">admin@e4b.com</p>
               </button>
             </div>

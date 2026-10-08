@@ -90,7 +90,7 @@ export default function PlacementTestPage() {
           Kiểm tra trình độ đầu vào
         </h1>
         <p className="mt-3 text-slate-600 text-base leading-relaxed max-w-lg mx-auto">
-          Chào bạn 👋 Hãy làm bài kiểm tra ngắn gồm <strong>{questions.length} câu hỏi</strong> tăng dần độ khó để hệ thống xác định trình độ và gợi ý lộ trình học tập tối ưu nhất cho bạn.
+          Hãy làm bài kiểm tra ngắn gồm <strong>{questions.length} câu hỏi</strong> tăng dần độ khó để hệ thống xác định trình độ và gợi ý lộ trình học tập tối ưu nhất cho bạn.
         </p>
 
         <div className="my-8 p-6 rounded-2xl bg-white border border-slate-200 text-left space-y-3 shadow-sm">

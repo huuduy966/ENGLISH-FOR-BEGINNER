@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Target, ArrowRight, BookOpen, Layers, CheckCircle2, Search } from 'lucide-react';
+import { Target, ArrowRight, BookOpen, Layers, CheckCircle2, Search, Headphones, Sparkles } from 'lucide-react';
 import api from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
 import TodaysLearningCard from '../components/dashboard/TodaysLearningCard';
@@ -35,8 +35,9 @@ export default function DashboardPage() {
       {/* Welcome Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-            Chào buổi sáng, {user?.name || 'bạn'} 👋
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight flex items-center gap-2">
+            <span>Chào buổi sáng, {user?.name || 'bạn'}</span>
+            <Sparkles className="w-6 h-6 text-amber-500 inline" />
           </h1>
           <p className="text-sm text-slate-500 mt-1">
             Mục tiêu học: <span className="font-semibold text-blue-600">{user?.goal || 'Lấy lại gốc từ đầu'}</span> • Cấp độ: <span className="font-bold text-slate-700">{user?.level || 'A1'}</span>
@@ -78,7 +79,10 @@ export default function DashboardPage() {
           <div className="space-y-4">
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-600 mb-1.5">
-                <span>📚 Học từ vựng</span>
+                <span className="flex items-center gap-1.5">
+                  <Layers className="w-3.5 h-3.5 text-blue-500" />
+                  <span>Học từ vựng</span>
+                </span>
                 <span>{todaysGoal?.vocabulary?.current || 0} / {todaysGoal?.vocabulary?.target || 15} từ</span>
               </div>
               <div className="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden">
@@ -91,7 +95,10 @@ export default function DashboardPage() {
 
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-600 mb-1.5">
-                <span>📖 Ngữ pháp nền tảng</span>
+                <span className="flex items-center gap-1.5">
+                  <BookOpen className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>Ngữ pháp nền tảng</span>
+                </span>
                 <span>{todaysGoal?.grammar?.current || 0} / {todaysGoal?.grammar?.target || 1} chủ điểm</span>
               </div>
               <div className="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden">
@@ -104,7 +111,10 @@ export default function DashboardPage() {
 
             <div>
               <div className="flex justify-between text-xs font-semibold text-slate-600 mb-1.5">
-                <span>🎧 Luyện nghe & Hội thoại</span>
+                <span className="flex items-center gap-1.5">
+                  <Headphones className="w-3.5 h-3.5 text-purple-500" />
+                  <span>Luyện nghe & Hội thoại</span>
+                </span>
                 <span>{todaysGoal?.listening?.current || 0} / {todaysGoal?.listening?.target || 1} bài</span>
               </div>
               <div className="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden">

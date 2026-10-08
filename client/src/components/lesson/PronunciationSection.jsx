@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mic, Volume2, Sparkles, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Mic, Volume2, Sparkles, AlertCircle, CheckCircle2, ThumbsUp } from 'lucide-react';
 import { speakText, createSpeechRecognizer } from '../../utils/speech';
 
 export default function PronunciationSection({ vocabularies = [] }) {
@@ -156,8 +156,9 @@ export default function PronunciationSection({ vocabularies = [] }) {
               </p>
               {score >= 70 ? (
                 <p className="text-xs font-bold text-emerald-600 mt-2 flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4" />
-                  Phát âm rất tốt! Hãy tiếp tục duy trì nhé 👍
+                  <CheckCircle2 className="w-4 h-4 shrink-0" />
+                  <span>Phát âm rất tốt! Hãy tiếp tục duy trì nhé</span>
+                  <ThumbsUp className="w-3.5 h-3.5 text-emerald-600 inline shrink-0" />
                 </p>
               ) : (
                 <p className="text-xs font-semibold text-amber-600 mt-2">
