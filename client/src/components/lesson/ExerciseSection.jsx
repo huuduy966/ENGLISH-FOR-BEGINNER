@@ -69,7 +69,7 @@ export default function ExerciseSection({ exercises = [] }) {
   };
 
   return (
-    <div className="max-w-2xl mx-auto space-y-6 py-4">
+    <div className="w-full space-y-6">
       {/* Progress tracker */}
       <div className="flex items-center justify-between text-xs font-semibold text-slate-500 mb-2">
         <span>Bài tập {currentIndex + 1} / {exercises.length}</span>

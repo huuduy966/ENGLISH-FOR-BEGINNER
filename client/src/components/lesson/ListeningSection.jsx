@@ -40,7 +40,7 @@ export default function ListeningSection({ listenings = [] }) {
   };
 
   return (
-    <div className="max-w-2xl mx-auto space-y-6 py-4">
+    <div className="w-full space-y-6">
       {/* Audio Player Card */}
       <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm text-center">
         <div className="w-16 h-16 mx-auto rounded-2xl bg-purple-100 text-purple-600 flex items-center justify-center mb-4">

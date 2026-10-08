@@ -55,7 +55,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
   // Result screen
   if (quizResult) {
     return (
-      <div className="max-w-2xl mx-auto py-6">
+      <div className="w-full">
         <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-xl text-center space-y-6">
           <div
             className={`w-20 h-20 mx-auto rounded-3xl flex items-center justify-center shadow-inner ${
@@ -170,7 +170,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
   const answeredCount = Object.keys(answers).length;
 
   return (
-    <div className="max-w-2xl mx-auto space-y-6 py-4">
+    <div className="w-full space-y-6">
       {/* Progress Tracker */}
       <div>
         <div className="flex items-center justify-between text-xs font-semibold text-slate-500 mb-2">

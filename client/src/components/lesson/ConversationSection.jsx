@@ -37,7 +37,7 @@ export default function ConversationSection({ conversations = [] }) {
   };
 
   return (
-    <div className="max-w-2xl mx-auto space-y-6 py-4">
+    <div className="w-full space-y-6">
       <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5">
           <div>

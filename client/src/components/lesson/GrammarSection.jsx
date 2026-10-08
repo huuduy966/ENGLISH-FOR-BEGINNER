@@ -13,7 +13,7 @@ export default function GrammarSection({ grammarPoints = [] }) {
   }
 
   return (
-    <div className="max-w-3xl mx-auto space-y-8 py-4">
+    <div className="w-full space-y-6">
       {grammarPoints.map((gp, idx) => (
         <div key={idx} className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
           <div className="flex items-center gap-3">

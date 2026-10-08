@@ -204,7 +204,7 @@ export default function PronunciationSection({ vocabularies = [] }) {
   const isCurrentWordFailed = score !== null && score < 80;
 
   return (
-    <div className="max-w-2xl mx-auto space-y-6 py-4">
+    <div className="w-full space-y-6">
       {/* Progress header & Word Picker Pill list */}
       <div className="space-y-2">
         <div className="flex items-center justify-between text-xs font-semibold text-slate-500 px-1">
