@@ -16,7 +16,81 @@ function getDictCache(key) {
   return dictionaryCache.get(key.toLowerCase());
 }
 
-// Fetch spelling and phonetic suggestions when a word is not found or misspelled
+// Regex to detect if Datamuse definition is flagging a typo/misspelling
+const MISSPELLING_REGEX = /(?:Misspelling|Obsolete spelling|Pronunciation spelling|Alternative spelling) of ([a-zA-Z\-]+)/i;
+
+// Fetch structured word definitions, synonyms, and spelling checks from Datamuse API
+async function fetchDatamuseEntry(cleanWord) {
+  try {
+    const wordUrl = `https://api.datamuse.com/words?sp=${encodeURIComponent(cleanWord)}&md=dpf&max=1`;
+    const synUrl = `https://api.datamuse.com/words?rel_syn=${encodeURIComponent(cleanWord)}&max=6`;
+
+    const [wordRes, synRes] = await Promise.all([
+      fetch(wordUrl, { signal: AbortSignal.timeout(2000) })
+        .then((r) => (r.ok ? r.json() : []))
+        .catch(() => []),
+      fetch(synUrl, { signal: AbortSignal.timeout(2000) })
+        .then((r) => (r.ok ? r.json() : []))
+        .catch(() => []),
+    ]);
+
+    const exact = Array.isArray(wordRes)
+      ? wordRes.find((x) => x.word.toLowerCase() === cleanWord)
+      : null;
+
+    if (!exact || !exact.defs || exact.defs.length === 0) {
+      return null;
+    }
+
+    // Check if Datamuse definition itself indicates this is a misspelling of another word
+    // Example: "n\tMisspelling of extension." -> correct target is "extension"
+    for (const rawDef of exact.defs) {
+      const match = rawDef.match(MISSPELLING_REGEX);
+      if (match && match[1] && match[1].toLowerCase() !== cleanWord) {
+        return {
+          isMisspelling: true,
+          correctWord: match[1].toLowerCase(),
+        };
+      }
+    }
+
+    const posMap = { n: 'noun', v: 'verb', adj: 'adjective', adv: 'adverb', u: 'general' };
+    const grouped = {};
+
+    for (const rawDef of exact.defs) {
+      const parts = rawDef.split('\t', 2);
+      const posCode = parts.length > 1 ? parts[0].trim() : 'n';
+      const pos = posMap[posCode] || posCode;
+      const text = parts.length > 1 ? parts[1].trim() : rawDef.trim();
+
+      if (!grouped[pos]) grouped[pos] = [];
+      grouped[pos].push({
+        definition: text,
+        example: `Common usage in daily conversation.`,
+        synonyms: [],
+      });
+    }
+
+    const synonymsList = Array.isArray(synRes) ? synRes.map((s) => s.word) : [];
+
+    const meanings = Object.keys(grouped).map((pos) => ({
+      partOfSpeech: pos,
+      definitions: grouped[pos].slice(0, 4),
+      synonyms: synonymsList.slice(0, 5),
+    }));
+
+    return {
+      word: exact.word,
+      meanings,
+      synonyms: synonymsList,
+    };
+  } catch (err) {
+    console.warn('Datamuse entry fetch error:', err.message);
+    return null;
+  }
+}
+
+// Fetch spelling and phonetic suggestions when a word is misspelled
 async function getSpellingSuggestions(word) {
   const clean = word.trim().toLowerCase();
   const suggestionsSet = new Set();
@@ -53,7 +127,7 @@ async function getSpellingSuggestions(word) {
     console.warn('Spelling suggestion fetch error:', err.message);
   }
 
-  // Also query local curriculum database for prefix/partial match
+  // Also query local curriculum database for partial match
   try {
     const prefix = clean.slice(0, Math.max(3, clean.length - 2));
     const localMatches = await prisma.vocabulary.findMany({
@@ -175,22 +249,29 @@ async function lookupDictionary(req, res) {
       return res.json(cached);
     }
 
-    // 2. Parallel Fast Fetch: Local Database & External Dictionary with 2.5s timeout
-    const [localWord, apiData] = await Promise.all([
-      prisma.vocabulary.findFirst({
-        where: { word: { equals: wordParam } },
-      }).catch(() => null),
-      fetch(
-        `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(cleanWord)}`,
-        { signal: AbortSignal.timeout(2500) }
-      )
-        .then((r) => (r.ok ? r.json() : null))
-        .then((arr) => (arr ? arr[0] : null))
-        .catch(() => null),
+    // 2. Parallel Fast Fetch: Local Database (Case-Insensitive) & Datamuse Engine
+    const [allLocals, datamuseData] = await Promise.all([
+      prisma.vocabulary.findMany().catch(() => []),
+      fetchDatamuseEntry(cleanWord),
     ]);
 
-    // 3. If word not found, compute smart spelling suggestions (e.g. extention -> extension)
-    if (!apiData && !localWord) {
+    const localWord = allLocals.find((v) => v.word.toLowerCase() === cleanWord);
+
+    // 3. Handle Misspelling Detection from Datamuse (e.g. "extention" -> "extension")
+    if (datamuseData && datamuseData.isMisspelling && datamuseData.correctWord) {
+      const correct = datamuseData.correctWord;
+      const { suggestions } = await getSpellingSuggestions(cleanWord);
+      const fullList = [correct, ...suggestions.filter((s) => s !== correct)].slice(0, 5);
+
+      return res.status(404).json({
+        message: `Từ "${wordParam}" có thể bị viết sai chính tả.`,
+        didYouMean: correct,
+        suggestions: fullList,
+      });
+    }
+
+    // 4. If word not found in either source, compute smart spelling suggestions via Datamuse
+    if (!datamuseData && !localWord) {
       const { didYouMean, suggestions } = await getSpellingSuggestions(cleanWord);
 
       return res.status(404).json({
@@ -200,20 +281,8 @@ async function lookupDictionary(req, res) {
       });
     }
 
-    // 4. Extract audio and phonetic
-    let audioUrl = null;
-    let phoneticText = apiData?.phonetic || localWord?.pronunciation || '';
-
-    if (apiData?.phonetics && Array.isArray(apiData.phonetics)) {
-      for (const p of apiData.phonetics) {
-        if (!phoneticText && p.text) phoneticText = p.text;
-        if (p.audio && !audioUrl) {
-          audioUrl = p.audio;
-        }
-      }
-    }
-
-    const meanings = apiData?.meanings || [
+    const phoneticText = localWord?.pronunciation || '';
+    const meanings = datamuseData?.meanings || [
       {
         partOfSpeech: localWord?.partOfSpeech || 'noun',
         definitions: [
@@ -223,17 +292,18 @@ async function lookupDictionary(req, res) {
             synonyms: [],
           },
         ],
+        synonyms: [],
       },
     ];
 
     const payload = {
-      word: apiData?.word || localWord?.word || wordParam,
+      word: datamuseData?.word || localWord?.word || wordParam,
       phonetic: phoneticText,
-      audioUrl,
       vietnameseMeaning: localWord?.meaning || null,
       localExample: localWord?.example || null,
       localExampleMeaning: localWord?.exampleMeaning || null,
       meanings,
+      synonyms: datamuseData?.synonyms || [],
       isLocallySaved: !!localWord,
     };
 
