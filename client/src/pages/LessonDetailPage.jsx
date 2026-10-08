@@ -158,40 +158,40 @@ export default function LessonDetailPage() {
 
   return (
     <div className="space-y-6">
-      {/* Top Header Navigation */}
-      <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
+      {/* Compact Top Header Navigation */}
+      <div className="bg-white px-4 py-3 sm:px-5 sm:py-3.5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2.5">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex items-center gap-2.5">
             <Link
               to="/lessons"
-              className="p-2.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-600 transition shrink-0"
+              className="p-2 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-500 transition shrink-0"
               title="Quay lại danh sách"
             >
-              <ArrowLeft className="w-5 h-5" />
+              <ArrowLeft className="w-4 h-4" />
             </Link>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md">
+                <span className="text-[11px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md">
                   Bài {lesson.orderNumber}
                 </span>
-                <span className="text-xs font-medium text-slate-400">
+                <span className="text-[11px] font-medium text-slate-400">
                   {lesson.category}
                 </span>
               </div>
-              <h1 className="text-2xl font-black text-slate-900 mt-1">
+              <h1 className="text-lg sm:text-xl font-bold text-slate-900 mt-0.5">
                 {lesson.title}
               </h1>
             </div>
           </div>
 
-          <div className="flex items-center gap-3 self-start sm:self-auto">
+          <div className="flex items-center gap-2 self-start sm:self-auto">
             {isCompleted ? (
-              <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                 <span>Đã hoàn thành bài học này</span>
               </div>
             ) : (
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
                 <span>Bước {currentStepIndex + 1} / 7: {currentTab.title}</span>
               </div>
             )}
@@ -199,12 +199,12 @@ export default function LessonDetailPage() {
         </div>
 
         {/* Lesson Step Progress Bar */}
-        <div className="space-y-1.5">
-          <div className="flex justify-between text-[11px] font-semibold text-slate-500">
+        <div className="space-y-1">
+          <div className="flex justify-between text-[10px] font-medium text-slate-400">
             <span>Tiến độ hoàn thành các bước trong bài</span>
             <span>{isCompleted ? '100%' : `${progressPercent}%`}</span>
           </div>
-          <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
+          <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
             <div
               className={`h-full rounded-full transition-all duration-500 ${
                 isCompleted ? 'bg-emerald-500' : 'bg-blue-600'

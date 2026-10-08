@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BookOpen, Headphones, MessageSquare, Play, Clock, ArrowRight, FileText } from 'lucide-react';
+import { BookOpen, Headphones, MessageSquare, Play, Clock, FileText } from 'lucide-react';
 
 export default function TodaysLearningCard({ packageData }) {
   const navigate = useNavigate();
@@ -8,75 +8,84 @@ export default function TodaysLearningCard({ packageData }) {
   if (!packageData) return null;
 
   return (
-    <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 via-indigo-600 to-blue-700 text-white p-6 sm:p-8 shadow-xl shadow-blue-500/20">
-      {/* Decorative background circle */}
-      <div className="absolute -right-12 -bottom-12 w-64 h-64 bg-white/10 rounded-full blur-2xl pointer-events-none" />
+    <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 via-indigo-600 to-blue-700 text-white p-4 sm:p-5 shadow-md shadow-blue-500/15">
+      {/* Subtle decorative background circle */}
+      <div className="absolute -right-8 -bottom-8 w-48 h-48 bg-white/10 rounded-full blur-2xl pointer-events-none" />
 
-      <div className="relative z-10">
-        <div className="flex items-center justify-between mb-4">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-xs font-bold tracking-wide uppercase">
-            <span>Today's Learning Package</span>
+      <div className="relative z-10 space-y-3">
+        {/* Top Mini Header */}
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="px-2.5 py-0.5 rounded-md bg-white/20 backdrop-blur-sm text-[10px] font-extrabold uppercase tracking-wider">
+              Today's Learning
+            </span>
+            <span className="text-xs text-blue-100 font-medium hidden sm:inline">
+              • {packageData.lessonTitle}
+            </span>
           </div>
 
           <div className="flex items-center gap-1.5 text-xs text-blue-100 font-medium">
-            <Clock className="w-4 h-4" />
+            <Clock className="w-3.5 h-3.5" />
             <span>~{packageData.estimatedMinutes || 15} phút</span>
           </div>
         </div>
 
-        <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-          Hôm nay học gì?
-        </h2>
-        <p className="mt-1 text-sm text-blue-100 font-medium">
-          {packageData.lessonTitle}
-        </p>
+        {/* Title row */}
+        <div>
+          <h2 className="text-lg sm:text-xl font-bold tracking-tight">
+            Hôm nay học gì?
+          </h2>
+          <p className="text-xs text-blue-100 sm:hidden">
+            {packageData.lessonTitle}
+          </p>
+        </div>
 
-        {/* Content Breakdown Grid */}
-        <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-            <div className="flex items-center gap-2 mb-1">
-              <BookOpen className="w-4 h-4 text-amber-300" />
-              <span className="text-xs text-blue-100 font-medium">Từ vựng</span>
+        {/* Compact Content Breakdown Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-0.5">
+          <div className="p-2.5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+            <div className="flex items-center gap-1.5 mb-0.5">
+              <BookOpen className="w-3.5 h-3.5 text-amber-300" />
+              <span className="text-[11px] text-blue-100 font-medium">Từ vựng</span>
             </div>
-            <p className="text-lg font-bold">{packageData.vocabCount} từ mới</p>
+            <p className="text-xs sm:text-sm font-bold">{packageData.vocabCount} từ mới</p>
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-            <div className="flex items-center gap-2 mb-1">
-              <FileText className="w-4 h-4 text-emerald-300" />
-              <span className="text-xs text-blue-100 font-medium">Ngữ pháp</span>
+          <div className="p-2.5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+            <div className="flex items-center gap-1.5 mb-0.5">
+              <FileText className="w-3.5 h-3.5 text-emerald-300" />
+              <span className="text-[11px] text-blue-100 font-medium">Ngữ pháp</span>
             </div>
-            <p className="text-sm font-bold truncate">{packageData.grammarTitle}</p>
+            <p className="text-xs sm:text-sm font-bold truncate">{packageData.grammarTitle}</p>
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-            <div className="flex items-center gap-2 mb-1">
-              <Headphones className="w-4 h-4 text-purple-300" />
-              <span className="text-xs text-blue-100 font-medium">Luyện nghe</span>
+          <div className="p-2.5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+            <div className="flex items-center gap-1.5 mb-0.5">
+              <Headphones className="w-3.5 h-3.5 text-purple-300" />
+              <span className="text-[11px] text-blue-100 font-medium">Luyện nghe</span>
             </div>
-            <p className="text-sm font-bold truncate">1 bài audio</p>
+            <p className="text-xs sm:text-sm font-bold truncate">1 bài audio</p>
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-            <div className="flex items-center gap-2 mb-1">
-              <MessageSquare className="w-4 h-4 text-rose-300" />
-              <span className="text-xs text-blue-100 font-medium">Hội thoại</span>
+          <div className="p-2.5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+            <div className="flex items-center gap-1.5 mb-0.5">
+              <MessageSquare className="w-3.5 h-3.5 text-rose-300" />
+              <span className="text-[11px] text-blue-100 font-medium">Hội thoại</span>
             </div>
-            <p className="text-sm font-bold truncate">1 tình huống</p>
+            <p className="text-xs sm:text-sm font-bold truncate">1 tình huống</p>
           </div>
         </div>
 
-        {/* CTA Button */}
-        <div className="mt-8 flex items-center justify-between">
-          <p className="text-xs text-blue-100 hidden sm:block">
-            Sẵn sàng mở rộng vốn tiếng Anh mỗi ngày từng bước nhỏ.
+        {/* Bottom CTA Row */}
+        <div className="pt-1 flex items-center justify-between">
+          <p className="text-[11px] text-blue-100/90 hidden sm:block">
+            Mở rộng vốn tiếng Anh mỗi ngày từng bước nhỏ.
           </p>
 
           <button
             onClick={() => navigate(`/lessons/${packageData.lessonId}`)}
-            className="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-white text-blue-700 font-extrabold text-sm hover:bg-blue-50 transition shadow-lg shadow-black/10 flex items-center justify-center gap-2.5 active:scale-95"
+            className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-white text-blue-700 font-bold text-xs hover:bg-blue-50 transition shadow-sm flex items-center justify-center gap-2 active:scale-95"
           >
-            <Play className="w-4 h-4 fill-blue-700" />
+            <Play className="w-3.5 h-3.5 fill-blue-700" />
             <span>BẮT ĐẦU NGAY (START)</span>
           </button>
         </div>
