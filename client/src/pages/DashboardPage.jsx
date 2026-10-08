@@ -150,11 +150,11 @@ export default function DashboardPage() {
                   <span>Mở Từ điển</span>
                 </Link>
                 <Link
-                  to="/vocabulary"
+                  to="/lessons"
                   className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center gap-2 transition"
                 >
-                  <Layers className="w-4 h-4 text-slate-600" />
-                  <span>Sổ tay từ vựng</span>
+                  <BookOpen className="w-4 h-4 text-slate-600" />
+                  <span>Danh sách bài học</span>
                 </Link>
               </div>
             </div>

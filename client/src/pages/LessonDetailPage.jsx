@@ -61,7 +61,7 @@ export default function LessonDetailPage() {
   }
 
   const tabs = [
-    { id: 'vocab', label: '1. Từ vựng & Flashcard', icon: Layers, count: lesson.vocabularies?.length },
+    { id: 'vocab', label: '1. Từ vựng bài học', icon: BookOpen, count: lesson.vocabularies?.length },
     { id: 'pronounce', label: '2. Phát âm', icon: Mic },
     { id: 'grammar', label: '3. Ngữ pháp', icon: BookOpen, count: lesson.grammarPoints?.length },
     { id: 'listen', label: '4. Luyện nghe', icon: Headphones, count: lesson.listenings?.length },

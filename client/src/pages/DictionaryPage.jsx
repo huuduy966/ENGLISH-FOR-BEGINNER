@@ -676,20 +676,20 @@ export default function DictionaryPage() {
             </div>
           </div>
 
-          {/* Sổ tay từ vựng Shortcut */}
+          {/* Lộ trình bài học Shortcut */}
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-6 border border-blue-100 shadow-sm space-y-3">
             <div className="flex items-center gap-2 text-blue-700 font-bold text-sm">
-              <Layers className="w-4 h-4" />
-              <span>Sổ tay từ vựng của bạn</span>
+              <BookOpen className="w-4 h-4" />
+              <span>Lộ trình 15 bài học</span>
             </div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Các từ bạn đã lưu sẽ tự động xuất hiện trong Sổ tay cá nhân để ôn tập bằng Flashcard 3D.
+              Áp dụng các từ vựng bạn vừa tra vào 15 bài học thực tế từ cơ bản đến nâng cao.
             </p>
             <Link
-              to="/vocabulary"
+              to="/lessons"
               className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-sm"
             >
-              <span>Xem Sổ tay từ vựng</span>
+              <span>Xem danh sách bài học</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>

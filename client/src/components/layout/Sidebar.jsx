@@ -4,7 +4,6 @@ import Logo from '../common/Logo';
 import {
   Home,
   BookOpen,
-  Layers,
   Search,
   CheckSquare,
   BarChart2,
@@ -21,7 +20,6 @@ export default function Sidebar({ isOpen, onClose }) {
   const navItems = [
     { name: 'Trang chủ', path: '/dashboard', icon: Home },
     { name: 'Bài học', path: '/lessons', icon: BookOpen },
-    { name: 'Từ vựng & Flashcards', path: '/vocabulary', icon: Layers },
     { name: 'Tra từ điển', path: '/dictionary', icon: Search },
     { name: 'Kiểm tra đầu vào', path: '/placement-test', icon: CheckSquare },
     { name: 'Tiến độ học', path: '/progress', icon: BarChart2 },
