@@ -37,22 +37,27 @@ export default function Header({ onToggleSidebar }) {
           </div>
         </div>
 
-        {/* Center: Global Quick Dictionary Search Bar (Free Dictionary API) */}
+        {/* Center: Global Quick Dictionary Search Bar */}
         <div className="flex-1 max-w-xs md:max-w-md mx-2">
-          <form onSubmit={handleHeaderSearch} className="relative">
+          <form
+            onSubmit={handleHeaderSearch}
+            className="flex items-center bg-slate-50 hover:bg-white focus-within:bg-white rounded-xl border border-slate-200 focus-within:border-blue-600 focus-within:ring-2 focus-within:ring-blue-500/10 transition p-1"
+          >
+            <div className="pl-2 pr-1.5 text-slate-400 flex items-center justify-center shrink-0">
+              <Search className="w-3.5 h-3.5" />
+            </div>
             <input
               type="text"
               value={headerSearch}
               onChange={(e) => setHeaderSearch(e.target.value)}
-              placeholder="Tra từ nhanh (Free Dictionary API)..."
-              className="w-full pl-9 pr-8 py-1.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-white focus:bg-white text-xs text-slate-800 placeholder-slate-400 focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10 outline-none transition"
+              placeholder="Tra nhanh từ vựng..."
+              className="flex-1 py-1 px-1 text-xs text-slate-800 placeholder-slate-400 bg-transparent outline-none"
             />
-            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5" />
             <button
               type="submit"
-              className="absolute right-1.5 top-1 bottom-1 px-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-[10px] transition hidden sm:inline-block"
+              className="px-2.5 py-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-[11px] transition hidden sm:inline-block shrink-0"
             >
-              Tra
+              Tra từ
             </button>
           </form>
         </div>

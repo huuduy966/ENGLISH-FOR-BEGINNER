@@ -4,11 +4,8 @@ import {
   Search,
   Volume2,
   BookmarkPlus,
-  Check,
-  Globe,
   BookOpen,
   AlertCircle,
-  ExternalLink,
 } from 'lucide-react';
 import api from '../../services/api';
 import { speakText } from '../../utils/speech';
@@ -49,28 +46,24 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
         if (extRes.ok) {
           const extJson = await extRes.json();
           const entry = extJson[0];
-          let audioUrl = null;
           let phonetic = entry.phonetic || '';
           if (entry.phonetics) {
             for (const p of entry.phonetics) {
               if (!phonetic && p.text) phonetic = p.text;
-              if (p.audio && !audioUrl) audioUrl = p.audio;
             }
           }
           setData({
             word: entry.word,
             phonetic,
-            audioUrl,
             vietnameseMeaning: null,
             meanings: entry.meanings || [],
-            source: 'Free Dictionary API',
           });
         } else {
-          setError(`Không tìm thấy từ "${term}" trong từ điển Free Dictionary API.`);
+          setError(`Không tìm thấy từ "${term}" trong từ điển.`);
           setData(null);
         }
       } catch (clientErr) {
-        setError('Lỗi kết nối đến Free Dictionary API.');
+        setError('Lỗi kết nối tra cứu từ điển.');
         setData(null);
       }
     } finally {
@@ -87,14 +80,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
   };
 
   const handlePlayAudio = () => {
-    if (data?.audioUrl) {
-      try {
-        const audio = new Audio(data.audioUrl);
-        audio.play().catch(() => speakText(data.word));
-      } catch {
-        speakText(data.word);
-      }
-    } else if (data?.word) {
+    if (data?.word) {
       speakText(data.word);
     }
   };
@@ -125,13 +111,13 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
       <div className="bg-white rounded-3xl max-w-xl w-full max-h-[85vh] shadow-2xl border border-slate-200 flex flex-col overflow-hidden">
         {/* Modal Top Bar */}
         <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
-          <div className="flex items-center gap-2">
-            <span className="p-1.5 rounded-lg bg-blue-100 text-blue-600">
-              <Globe className="w-4 h-4" />
+          <div className="flex items-center gap-2.5">
+            <span className="p-2 rounded-xl bg-blue-100 text-blue-600">
+              <BookOpen className="w-4 h-4" />
             </span>
             <div>
-              <h3 className="font-bold text-sm text-slate-800">Tra từ điển Free Dictionary API</h3>
-              <p className="text-[11px] text-slate-400">Tra nghĩa, phiên âm và phát âm chuẩn quốc tế</p>
+              <h3 className="font-bold text-sm text-slate-800">Từ điển tra cứu nhanh</h3>
+              <p className="text-[11px] text-slate-400">Tra nghĩa, phiên âm và phát âm chuẩn IPA</p>
             </div>
           </div>
 
@@ -143,20 +129,25 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
           </button>
         </div>
 
-        {/* Search Bar inside modal */}
+        {/* Search Bar inside modal (Clean Flex Alignment) */}
         <div className="p-4 border-b border-slate-100 bg-white">
-          <form onSubmit={handleSearchSubmit} className="relative">
+          <form
+            onSubmit={handleSearchSubmit}
+            className="flex items-center bg-slate-50 rounded-xl border border-slate-200 focus-within:border-blue-600 focus-within:ring-2 focus-within:ring-blue-500/10 p-1"
+          >
+            <div className="pl-3 pr-2 text-slate-400 flex items-center justify-center shrink-0">
+              <Search className="w-4 h-4" />
+            </div>
             <input
               type="text"
               value={inputWord}
               onChange={(e) => setInputWord(e.target.value)}
               placeholder="Nhập từ cần tra..."
-              className="w-full pl-9 pr-20 py-2.5 rounded-xl border border-slate-200 text-sm focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10 outline-none"
+              className="flex-1 py-1.5 px-1 text-sm bg-transparent outline-none text-slate-800 placeholder-slate-400"
             />
-            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
             <button
               type="submit"
-              className="absolute right-1.5 top-1.5 bottom-1.5 px-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition"
+              className="px-4 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shrink-0"
             >
               Tra từ
             </button>
@@ -192,15 +183,17 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
 
                 <div className="flex items-center gap-1.5">
                   <button
+                    type="button"
                     onClick={handlePlayAudio}
-                    className="p-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center gap-1.5 transition"
+                    className="p-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center gap-1.5 transition active:scale-95 shadow-sm"
                     title="Nghe audio phát âm"
                   >
                     <Volume2 className="w-4 h-4 text-blue-600" />
-                    <span className="hidden sm:inline">Phát âm</span>
+                    <span>Phát âm</span>
                   </button>
 
                   <button
+                    type="button"
                     onClick={handleSaveToNotebook}
                     className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center gap-1.5 transition"
                     title="Lưu vào sổ từ"

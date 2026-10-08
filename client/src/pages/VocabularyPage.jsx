@@ -135,7 +135,7 @@ export default function VocabularyPage() {
           <BookOpen className="w-12 h-12 text-slate-300 mx-auto" />
           <h3 className="text-base font-bold text-slate-700">Không tìm thấy từ vựng trong bài học</h3>
           <p className="text-xs text-slate-400 max-w-sm mx-auto">
-            {searchTerm ? `Từ "${searchTerm}" chưa có trong danh sách bài học của bạn. Bạn muốn tra cứu trên Free Dictionary API?` : 'Hãy thử tìm từ khác hoặc bỏ bộ lọc hiện tại.'}
+            {searchTerm ? `Từ "${searchTerm}" chưa có trong danh sách bài học của bạn. Bạn muốn tra cứu trong từ điển?` : 'Hãy thử tìm từ khác hoặc bỏ bộ lọc hiện tại.'}
           </p>
           {searchTerm && (
             <button
@@ -145,8 +145,8 @@ export default function VocabularyPage() {
               }}
               className="mt-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs inline-flex items-center gap-2 shadow-sm transition"
             >
-              <Globe className="w-4 h-4" />
-              <span>Tra "{searchTerm}" trên Free Dictionary API</span>
+              <BookOpen className="w-4 h-4" />
+              <span>Tra cứu "{searchTerm}" trong từ điển</span>
             </button>
           )}
         </div>
@@ -219,9 +219,9 @@ export default function VocabularyPage() {
                       setDictModalOpen(true);
                     }}
                     className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition"
-                    title="Tra cứu Free Dictionary API"
+                    title="Tra cứu từ điển chi tiết"
                   >
-                    <Globe className="w-3.5 h-3.5 text-blue-600" />
+                    <BookOpen className="w-3.5 h-3.5 text-blue-600" />
                     <span>Chi tiết</span>
                   </button>
 
@@ -239,7 +239,7 @@ export default function VocabularyPage() {
         </div>
       )}
 
-      {/* Quick Free Dictionary Modal */}
+      {/* Quick Dictionary Modal */}
       <QuickDictionaryModal
         word={selectedLookupWord}
         isOpen={dictModalOpen}

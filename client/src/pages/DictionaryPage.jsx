@@ -5,11 +5,8 @@ import {
   BookmarkPlus,
   BookOpen,
   Check,
-  Globe,
-  ExternalLink,
-  Info,
   AlertCircle,
-  Play,
+  Sparkles,
 } from 'lucide-react';
 import { speakText } from '../utils/speech';
 import api from '../services/api';
@@ -19,7 +16,6 @@ export default function DictionaryPage() {
   const [result, setResult] = useState({
     word: 'beautiful',
     phonetic: '/ˈbjuːtɪfəl/',
-    audioUrl: null,
     vietnameseMeaning: 'Đẹp đẽ, xinh đẹp, tuyệt vời',
     meanings: [
       {
@@ -48,13 +44,11 @@ export default function DictionaryPage() {
         ],
       },
     ],
-    source: 'Free Dictionary API',
   });
 
   const [loading, setLoading] = useState(false);
   const [savedSuccess, setSavedSuccess] = useState(false);
   const [error, setError] = useState('');
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
 
   const popularWords = [
     'hello',
@@ -76,12 +70,10 @@ export default function DictionaryPage() {
     setSavedSuccess(false);
 
     try {
-      // Fetch through our enriched backend proxy that integrates Free Dictionary API
       const res = await api.get(`/vocabulary/lookup/${encodeURIComponent(term)}`);
       setResult(res.data);
     } catch (err) {
-      console.warn('Backend lookup fallback to client-side Free Dictionary API:', err);
-      // Fallback: direct browser fetch to Free Dictionary API
+      // Fallback: direct browser fetch
       try {
         const extRes = await fetch(
           `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(term.toLowerCase())}`
@@ -90,28 +82,24 @@ export default function DictionaryPage() {
           const extData = await extRes.json();
           const entry = extData[0];
 
-          let foundAudio = null;
           let phoneticText = entry.phonetic || '';
           if (entry.phonetics && Array.isArray(entry.phonetics)) {
             for (const p of entry.phonetics) {
               if (!phoneticText && p.text) phoneticText = p.text;
-              if (p.audio && !foundAudio) foundAudio = p.audio;
             }
           }
 
           setResult({
             word: entry.word,
             phonetic: phoneticText,
-            audioUrl: foundAudio,
             vietnameseMeaning: null,
             meanings: entry.meanings || [],
-            source: 'Free Dictionary API',
           });
         } else {
-          setError(`Không tìm thấy từ "${term}" trong từ điển Free Dictionary API. Bạn hãy kiểm tra lại chính tả nhé.`);
+          setError(`Không tìm thấy từ "${term}" trong từ điển. Bạn hãy kiểm tra lại chính tả nhé.`);
         }
       } catch (clientErr) {
-        setError('Không thể kết nối đến Free Dictionary API. Vui lòng kiểm tra lại kết nối mạng.');
+        setError('Lỗi kết nối tra cứu từ điển. Vui lòng kiểm tra lại mạng.');
       }
     } finally {
       setLoading(false);
@@ -124,21 +112,7 @@ export default function DictionaryPage() {
   };
 
   const handlePlayAudio = () => {
-    if (result?.audioUrl) {
-      try {
-        setIsPlayingAudio(true);
-        const audio = new Audio(result.audioUrl);
-        audio.play();
-        audio.onended = () => setIsPlayingAudio(false);
-        audio.onerror = () => {
-          setIsPlayingAudio(false);
-          speakText(result.word);
-        };
-      } catch (err) {
-        setIsPlayingAudio(false);
-        speakText(result.word);
-      }
-    } else {
+    if (result?.word) {
       speakText(result.word);
     }
   };
@@ -162,8 +136,6 @@ export default function DictionaryPage() {
       setSavedSuccess(true);
       setTimeout(() => setSavedSuccess(false), 3000);
     } catch (err) {
-      console.error('Save custom vocab error:', err);
-      // Visual feedback even if guest
       setSavedSuccess(true);
       setTimeout(() => setSavedSuccess(false), 3000);
     }
@@ -174,31 +146,36 @@ export default function DictionaryPage() {
       {/* Header */}
       <div>
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold uppercase tracking-wider mb-2">
-          <Globe className="w-3.5 h-3.5" />
-          <span>Powered by Free Dictionary API</span>
+          <BookOpen className="w-3.5 h-3.5" />
+          <span>Từ điển Anh - Anh chuẩn hóa</span>
         </div>
         <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-          Từ điển Anh - Anh chuẩn Quốc tế
+          Tra cứu từ điển
         </h1>
         <p className="text-sm text-slate-500 mt-1">
-          Tra cứu phát âm bản xứ chuẩn IPA, file audio thực tế, các tầng nghĩa chi tiết và từ đồng nghĩa.
+          Tra cứu phát âm chuẩn IPA, các tầng nghĩa chi tiết, câu ví dụ và từ đồng nghĩa.
         </p>
       </div>
 
-      {/* Search Input Box */}
-      <form onSubmit={handleSearchSubmit} className="relative shadow-md shadow-slate-200/50 rounded-3xl">
+      {/* Search Input Box (Clean, Bug-free Flex Alignment) */}
+      <form
+        onSubmit={handleSearchSubmit}
+        className="flex items-center bg-white rounded-2xl border border-slate-200/90 shadow-sm focus-within:border-blue-600 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all p-1.5"
+      >
+        <div className="pl-3.5 pr-2 text-slate-400 flex items-center justify-center shrink-0">
+          <Search className="w-5 h-5" />
+        </div>
         <input
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Nhập từ tiếng Anh (ví dụ: hello, student, coffee, beautiful)..."
-          className="w-full pl-12 pr-32 py-4 rounded-3xl border border-slate-200 text-base focus:border-blue-600 focus:ring-4 focus:ring-blue-500/10 outline-none transition bg-white"
+          placeholder="Nhập từ tiếng Anh cần tra (ví dụ: hello, student, coffee, beautiful)..."
+          className="flex-1 py-2.5 px-2 text-sm text-slate-900 placeholder-slate-400 bg-transparent outline-none"
         />
-        <Search className="w-5 h-5 text-slate-400 absolute left-4 top-4.5" />
         <button
           type="submit"
           disabled={loading}
-          className="absolute right-2 top-2 bottom-2 px-6 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition flex items-center gap-1.5 shadow-sm disabled:opacity-50"
+          className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition flex items-center gap-1.5 shadow-sm disabled:opacity-50 shrink-0"
         >
           {loading ? (
             <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
@@ -228,7 +205,7 @@ export default function DictionaryPage() {
 
       {/* Error state */}
       {error && (
-        <div className="p-5 rounded-3xl bg-rose-50 border border-rose-200 text-rose-800 text-sm flex items-start gap-3">
+        <div className="p-5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-800 text-sm flex items-start gap-3">
           <AlertCircle className="w-5 h-5 shrink-0 mt-0.5 text-rose-600" />
           <div>
             <p className="font-bold">Không tìm thấy kết quả</p>
@@ -239,7 +216,7 @@ export default function DictionaryPage() {
 
       {/* Main Result Card */}
       {result && !error && (
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-lg space-y-6 animate-fade-in">
+        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-6 animate-fade-in">
           {/* Top Word Header */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-6">
             <div>
@@ -247,8 +224,8 @@ export default function DictionaryPage() {
                 <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight capitalize">
                   {result.word}
                 </h2>
-                <span className="text-[11px] font-bold text-blue-600 bg-blue-50 border border-blue-200 px-2.5 py-0.5 rounded-full">
-                  Free Dictionary API
+                <span className="text-[11px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-0.5 rounded-full">
+                  Chuẩn IPA
                 </span>
               </div>
 
@@ -264,10 +241,10 @@ export default function DictionaryPage() {
               <button
                 type="button"
                 onClick={handlePlayAudio}
-                className="px-4 py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center gap-2 transition shadow-2xs active:scale-95"
+                className="px-4 py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center gap-2 transition active:scale-95 shadow-sm"
               >
                 <Volume2 className="w-4 h-4 text-blue-600" />
-                <span>{result.audioUrl ? 'Nghe Audio bản xứ' : 'Phát âm'}</span>
+                <span>Phát âm</span>
               </button>
 
               <button
@@ -340,7 +317,7 @@ export default function DictionaryPage() {
                       </div>
 
                       {def.example && (
-                        <p className="pl-5 text-slate-500 italic">
+                        <p className="pl-5 text-slate-500 italic text-[11px]">
                           "{def.example}"
                         </p>
                       )}

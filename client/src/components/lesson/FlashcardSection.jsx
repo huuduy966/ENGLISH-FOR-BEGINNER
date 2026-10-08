@@ -105,9 +105,9 @@ export default function FlashcardSection({ vocabularies = [] }) {
                     setDictModalOpen(true);
                   }}
                   className="p-2 rounded-xl text-blue-600 bg-blue-50 hover:bg-blue-100 transition"
-                  title="Tra từ điển Free Dictionary API"
+                  title="Tra cứu từ điển chi tiết"
                 >
-                  <Globe className="w-5 h-5" />
+                  <BookOpen className="w-5 h-5" />
                 </button>
 
                 <button
@@ -223,7 +223,7 @@ export default function FlashcardSection({ vocabularies = [] }) {
         </button>
       </div>
 
-      {/* Free Dictionary API Quick Modal */}
+      {/* Quick Dictionary Modal */}
       <QuickDictionaryModal
         word={current.word}
         isOpen={dictModalOpen}

@@ -136,9 +136,9 @@ export default function DashboardPage() {
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
                   Luyện tập & Tra cứu
                 </span>
-                <h4 className="font-bold text-slate-900 mt-2 mb-1">Tra từ điển Free Dictionary</h4>
+                <h4 className="font-bold text-slate-900 mt-2 mb-1">Tra cứu từ điển</h4>
                 <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                  Tra cứu nghĩa chi tiết, phiên âm IPA, câu ví dụ và audio bản xứ thực tế từ Free Dictionary API.
+                  Tra cứu nghĩa chi tiết, phiên âm IPA, câu ví dụ thực tế và phát âm giọng bản xứ.
                 </p>
               </div>
               <div className="space-y-2">
@@ -146,8 +146,8 @@ export default function DashboardPage() {
                   to="/dictionary"
                   className="w-full py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center justify-center gap-2 transition"
                 >
-                  <Globe className="w-4 h-4 text-blue-600" />
-                  <span>Mở Từ điển Quốc tế</span>
+                  <BookOpen className="w-4 h-4 text-blue-600" />
+                  <span>Mở Từ điển</span>
                 </Link>
                 <Link
                   to="/vocabulary"

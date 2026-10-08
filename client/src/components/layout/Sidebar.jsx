@@ -22,7 +22,7 @@ export default function Sidebar({ isOpen, onClose }) {
     { name: 'Trang chủ', path: '/dashboard', icon: Home },
     { name: 'Bài học', path: '/lessons', icon: BookOpen },
     { name: 'Từ vựng & Flashcards', path: '/vocabulary', icon: Layers },
-    { name: 'Tra từ điển', path: '/dictionary', icon: Search, badge: 'API' },
+    { name: 'Tra từ điển', path: '/dictionary', icon: Search },
     { name: 'Kiểm tra đầu vào', path: '/placement-test', icon: CheckSquare },
     { name: 'Tiến độ học', path: '/progress', icon: BarChart2 },
     { name: 'Hồ sơ cá nhân', path: '/profile', icon: User },

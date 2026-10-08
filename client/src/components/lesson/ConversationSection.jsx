@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageSquare, Volume2, UserCheck, Play, Globe } from 'lucide-react';
+import { MessageSquare, Volume2, UserCheck, Play, BookOpen } from 'lucide-react';
 import { speakText } from '../../utils/speech';
 import QuickDictionaryModal from '../common/QuickDictionaryModal';
 
@@ -132,9 +132,9 @@ export default function ConversationSection({ conversations = [] }) {
                           setDictModalOpen(true);
                         }}
                         className="p-1.5 rounded-lg text-slate-400 hover:text-blue-600 hover:bg-white/80 transition"
-                        title="Tra từ điển Free Dictionary API"
+                        title="Tra cứu từ điển"
                       >
-                        <Globe className="w-4 h-4" />
+                        <BookOpen className="w-4 h-4" />
                       </button>
 
                       <button
@@ -158,7 +158,7 @@ export default function ConversationSection({ conversations = [] }) {
         </div>
       </div>
 
-      {/* Quick Free Dictionary Modal */}
+      {/* Quick Dictionary Modal */}
       <QuickDictionaryModal
         word={lookupWord}
         isOpen={dictModalOpen}

@@ -102,7 +102,7 @@ async function lookupDictionary(req, res) {
       },
     });
 
-    // 2. Fetch from Free Dictionary API
+    // 2. Fetch from external dictionary service
     let apiData = null;
     try {
       const response = await fetch(
@@ -113,12 +113,12 @@ async function lookupDictionary(req, res) {
         apiData = json[0];
       }
     } catch (apiErr) {
-      console.warn('Free Dictionary API fetch failed:', apiErr.message);
+      console.warn('Dictionary fetch failed:', apiErr.message);
     }
 
     if (!apiData && !localWord) {
       return res.status(404).json({
-        message: `Không tìm thấy từ "${wordParam}" trong từ điển Free Dictionary API.`,
+        message: `Không tìm thấy từ "${wordParam}" trong từ điển.`,
       });
     }
 
@@ -156,7 +156,6 @@ async function lookupDictionary(req, res) {
       localExample: localWord?.example || null,
       localExampleMeaning: localWord?.exampleMeaning || null,
       meanings,
-      source: 'Free Dictionary API',
       isLocallySaved: !!localWord,
     });
   } catch (error) {
