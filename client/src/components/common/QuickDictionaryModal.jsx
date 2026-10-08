@@ -25,10 +25,17 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
 
   useEffect(() => {
     if (isOpen) {
-      const initialWord = word || 'hello';
-      setCurrentWord(initialWord);
-      setInputWord(initialWord);
-      fetchWord(initialWord);
+      if (word && word.trim()) {
+        const initialWord = word.trim();
+        setCurrentWord(initialWord);
+        setInputWord(initialWord);
+        fetchWord(initialWord);
+      } else {
+        setCurrentWord('');
+        setInputWord('');
+        setData(null);
+        setError('');
+      }
       setTimeout(() => inputRef.current?.focus(), 100);
     }
   }, [isOpen, word]);
@@ -224,7 +231,20 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
             </div>
           )}
 
-          {/* 2. Error / Empty State */}
+          {/* 2. Initial Ready State */}
+          {!loading && !error && !data && (
+            <div className="py-10 text-center space-y-3 animate-fade-in">
+              <div className="w-12 h-12 mx-auto rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center shadow-inner">
+                <Search className="w-6 h-6" />
+              </div>
+              <h4 className="font-bold text-sm text-slate-800">Sẵn sàng tra cứu</h4>
+              <p className="text-xs text-slate-500 max-w-xs mx-auto leading-relaxed">
+                Nhập từ bạn muốn tra cứu vào ô phía trên hoặc chọn từ gợi ý nhanh.
+              </p>
+            </div>
+          )}
+
+          {/* 3. Error / Empty State */}
           {!loading && error && (
             <div className="py-8 text-center space-y-3">
               <div className="w-12 h-12 mx-auto rounded-2xl bg-rose-50 text-rose-500 flex items-center justify-center">
@@ -237,7 +257,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
             </div>
           )}
 
-          {/* 3. Word Data Display */}
+          {/* 4. Word Data Display */}
           {!loading && !error && data && (
             <>
               {/* Word Header & Audio/Save Actions */}
