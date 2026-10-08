@@ -1,0 +1,168 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id            Int             @id @default(autoincrement())
+  name          String
+  email         String          @unique
+  password      String
+  role          String          @default("STUDENT") // STUDENT | ADMIN
+  level         String          @default("A1")      // A1, A2, B1, B2...
+  goal          String          @default("Zero-foundation")
+  xp            Int             @default(0)
+  streakDays    Int             @default(0)
+  lastStudyDate DateTime?
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  progress      UserProgress[]
+  quizAttempts  QuizAttempt[]
+  savedWords    UserVocabulary[]
+}
+
+model Lesson {
+  id              Int             @id @default(autoincrement())
+  title           String
+  description     String
+  level           String          @default("A1")
+  category        String
+  orderNumber     Int             @default(1)
+  durationMinutes Int             @default(15)
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+
+  vocabularies    Vocabulary[]
+  grammarPoints   GrammarPoint[]
+  listenings      Listening[]
+  conversations   Conversation[]
+  exercises       Exercise[]
+  quizzes         QuizQuestion[]
+  userProgress    UserProgress[]
+}
+
+model Vocabulary {
+  id             Int              @id @default(autoincrement())
+  lessonId       Int?
+  lesson         Lesson?          @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  word           String
+  meaning        String
+  pronunciation  String           // Phiên âm IPA
+  partOfSpeech   String?          // noun, verb, adj...
+  example        String?
+  exampleMeaning String?
+  category       String           @default("General")
+  level          String           @default("A1")
+  createdAt      DateTime         @default(now())
+
+  userSaves      UserVocabulary[]
+}
+
+model UserVocabulary {
+  id           Int        @id @default(autoincrement())
+  userId       Int
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  vocabularyId Int
+  vocabulary   Vocabulary @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+  status       String     @default("LEARNING") // LEARNING | MASTERED | NEED_REVIEW
+  isFavorite   Boolean    @default(false)
+  updatedAt    DateTime   @updatedAt
+
+  @@unique([userId, vocabularyId])
+}
+
+model GrammarPoint {
+  id          Int      @id @default(autoincrement())
+  lessonId    Int
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  title       String
+  explanation String
+  formula     String?  // Công thức
+  examples    String   // JSON string of examples array
+  createdAt   DateTime @default(now())
+}
+
+model Listening {
+  id         Int      @id @default(autoincrement())
+  lessonId   Int
+  lesson     Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  title      String
+  transcript String
+  audioUrl   String?
+  questions  String   // JSON string of questions array
+  createdAt  DateTime @default(now())
+}
+
+model Conversation {
+  id        Int      @id @default(autoincrement())
+  lessonId  Int
+  lesson    Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  title     String
+  context   String
+  dialogue  String   // JSON string: [{ speaker, text, meaning }]
+  createdAt DateTime @default(now())
+}
+
+model Exercise {
+  id            Int      @id @default(autoincrement())
+  lessonId      Int
+  lesson        Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  type          String   // MULTIPLE_CHOICE | FILL_BLANK | WORD_ORDER | MATCHING
+  question      String
+  options       String?  // JSON string
+  correctAnswer String
+  explanation   String?
+  createdAt     DateTime @default(now())
+}
+
+model QuizQuestion {
+  id            Int      @id @default(autoincrement())
+  lessonId      Int
+  lesson        Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  question      String
+  options       String   // JSON string of 4 options
+  correctAnswer String
+  explanation   String?
+  createdAt     DateTime @default(now())
+}
+
+model UserProgress {
+  id          Int       @id @default(autoincrement())
+  userId      Int
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    Int
+  lesson      Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  progress    Int       @default(0) // 0 to 100%
+  completed   Boolean   @default(false)
+  score       Int       @default(0)
+  completedAt DateTime?
+  updatedAt   DateTime  @updatedAt
+
+  @@unique([userId, lessonId])
+}
+
+model QuizAttempt {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId  Int
+  score     Int
+  total     Int
+  passed    Boolean
+  createdAt DateTime @default(now())
+}
+
+model PlacementQuestion {
+  id            Int      @id @default(autoincrement())
+  orderNumber   Int      @default(1)
+  levelTarget   String   @default("A1") // A1, A2, B1, B2
+  question      String
+  options       String   // JSON string of options
+  correctAnswer String
+  category      String   // Vocabulary, Grammar, Reading, Listening
+}
