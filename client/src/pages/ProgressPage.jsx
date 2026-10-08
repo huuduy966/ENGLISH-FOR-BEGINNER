@@ -68,7 +68,7 @@ export default function ProgressPage() {
           <div>
             <p className="text-xs text-slate-500 font-medium">Bài học hoàn thành</p>
             <p className="text-xl font-bold text-slate-900 mt-0.5">
-              {overview?.completedLessons || 1} / {overview?.totalLessons || 5} bài
+              {overview?.completedLessons || 1} / {overview?.totalLessons || 15} bài
             </p>
           </div>
         </div>

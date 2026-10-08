@@ -27,13 +27,13 @@ export default function LessonsListPage() {
     <div className="space-y-8">
       <div>
         <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
-          Lộ trình A1 - Beginner
+          Lộ trình Toàn diện ({lessons.length} Bài học)
         </span>
         <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mt-2">
           Danh sách Bài học (Lessons)
         </h1>
         <p className="text-sm text-slate-500 mt-1">
-          Học theo từng chủ đề đời sống, kết hợp toàn diện Từ vựng, Ngữ pháp, Nghe, Phát âm và Hội thoại.
+          Lộ trình 15 chủ đề từ cơ bản đến nâng cao, kết hợp toàn diện Từ vựng, Ngữ pháp, Nghe, Phát âm và Hội thoại.
         </p>
       </div>
 
