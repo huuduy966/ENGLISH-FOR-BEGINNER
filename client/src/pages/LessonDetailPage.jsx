@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import {
-  Layers,
   Mic,
   BookOpen,
   Headphones,
@@ -12,8 +11,12 @@ import {
   ArrowRight,
   CheckCircle2,
   Lock,
+  Check,
+  ChevronRight,
+  ChevronLeft,
 } from 'lucide-react';
 import api from '../services/api';
+import { useAuth } from '../contexts/AuthContext';
 import FlashcardSection from '../components/lesson/FlashcardSection';
 import PronunciationSection from '../components/lesson/PronunciationSection';
 import GrammarSection from '../components/lesson/GrammarSection';
@@ -25,18 +28,32 @@ import QuizSection from '../components/lesson/QuizSection';
 export default function LessonDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { user } = useAuth();
 
   const [lesson, setLesson] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('vocab'); // vocab, pronounce, grammar, listen, conversation, exercise, quiz
+  const [activeTab, setActiveTab] = useState('vocab');
   const [lockData, setLockData] = useState(null);
+
+  // Track the highest step index the user has unlocked sequentially (0 to 6)
+  const [unlockedStepIndex, setUnlockedStepIndex] = useState(0);
 
   useEffect(() => {
     setLoading(true);
     setLockData(null);
+    setActiveTab('vocab');
+
+    // Retrieve saved step index if present
+    const saved = localStorage.getItem(`e4b_lesson_${id}_step`);
+    setUnlockedStepIndex(saved ? parseInt(saved, 10) : 0);
+
     api.get(`/lessons/${id}`)
       .then((res) => {
         setLesson(res.data.lesson);
+        // If lesson was already completed previously, unlock all steps
+        if (res.data.lesson?.userProgress?.completed) {
+          setUnlockedStepIndex(6);
+        }
       })
       .catch((err) => {
         if (err.response?.status === 403 && err.response?.data?.isLocked) {
@@ -57,7 +74,7 @@ export default function LessonDetailPage() {
     );
   }
 
-  // Locked State Screen when student tries to skip ahead
+  // Locked State Screen when student tries to skip ahead to a locked lesson
   if (lockData) {
     return (
       <div className="max-w-md mx-auto py-16 px-4 text-center space-y-5 animate-fade-in">
@@ -102,67 +119,154 @@ export default function LessonDetailPage() {
     );
   }
 
+  const isCompleted = lesson?.userProgress?.completed;
+  const isAdmin = user?.role === 'ADMIN';
+
   const tabs = [
-    { id: 'vocab', label: '1. Từ vựng bài học', icon: BookOpen, count: lesson.vocabularies?.length },
-    { id: 'pronounce', label: '2. Phát âm', icon: Mic },
-    { id: 'grammar', label: '3. Ngữ pháp', icon: BookOpen, count: lesson.grammarPoints?.length },
-    { id: 'listen', label: '4. Luyện nghe', icon: Headphones, count: lesson.listenings?.length },
-    { id: 'conversation', label: '5. Hội thoại', icon: MessageSquare, count: lesson.conversations?.length },
-    { id: 'exercise', label: '6. Bài tập', icon: CheckSquare, count: lesson.exercises?.length },
-    { id: 'quiz', label: '7. Quiz cuối bài', icon: Award, count: lesson.quizzes?.length },
+    { id: 'vocab', stepNum: 1, title: 'Từ vựng', label: '1. Từ vựng bài học', icon: BookOpen },
+    { id: 'pronounce', stepNum: 2, title: 'Phát âm', label: '2. Phát âm', icon: Mic },
+    { id: 'grammar', stepNum: 3, title: 'Ngữ pháp', label: '3. Ngữ pháp', icon: BookOpen },
+    { id: 'listen', stepNum: 4, title: 'Luyện nghe', label: '4. Luyện nghe', icon: Headphones },
+    { id: 'conversation', stepNum: 5, title: 'Hội thoại', label: '5. Hội thoại', icon: MessageSquare },
+    { id: 'exercise', stepNum: 6, title: 'Bài tập', label: '6. Bài tập', icon: CheckSquare },
+    { id: 'quiz', stepNum: 7, title: 'Quiz cuối bài', label: '7. Quiz cuối bài', icon: Award },
   ];
+
+  const currentStepIndex = tabs.findIndex((t) => t.id === activeTab);
+  const currentTab = tabs[currentStepIndex] || tabs[0];
+  const nextTab = currentStepIndex < tabs.length - 1 ? tabs[currentStepIndex + 1] : null;
+  const prevTab = currentStepIndex > 0 ? tabs[currentStepIndex - 1] : null;
+
+  const handleNextStep = () => {
+    if (nextTab) {
+      const nextIndex = currentStepIndex + 1;
+      setActiveTab(nextTab.id);
+
+      // Advance unlocked step index
+      if (nextIndex > unlockedStepIndex) {
+        setUnlockedStepIndex(nextIndex);
+        localStorage.setItem(`e4b_lesson_${id}_step`, nextIndex.toString());
+      }
+
+      window.scrollTo({ top: 120, behavior: 'smooth' });
+    }
+  };
+
+  const handlePrevStep = () => {
+    if (prevTab) {
+      setActiveTab(prevTab.id);
+      window.scrollTo({ top: 120, behavior: 'smooth' });
+    }
+  };
+
+  const handleTabClick = (targetTabId, targetIndex) => {
+    // If completed or admin, all tabs are clickable
+    if (isCompleted || isAdmin) {
+      setActiveTab(targetTabId);
+      window.scrollTo({ top: 120, behavior: 'smooth' });
+      return;
+    }
+
+    // Must be unlocked sequentially
+    if (targetIndex <= unlockedStepIndex) {
+      setActiveTab(targetTabId);
+      window.scrollTo({ top: 120, behavior: 'smooth' });
+    } else {
+      alert(`Vui lòng hoàn thành lần lượt các bước trước đó để mở khóa bước ${targetIndex + 1}.`);
+    }
+  };
+
+  const progressPercent = Math.round(((Math.min(unlockedStepIndex + 1, 7)) / 7) * 100);
 
   return (
     <div className="space-y-6">
       {/* Top Header Navigation */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm">
-        <div className="flex items-center gap-3">
-          <Link
-            to="/lessons"
-            className="p-2.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-600 transition"
-            title="Quay lại danh sách"
-          >
-            <ArrowLeft className="w-5 h-5" />
-          </Link>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md">
-                Bài {lesson.orderNumber}
-              </span>
-              <span className="text-xs font-medium text-slate-400">
-                {lesson.category}
-              </span>
+      <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <Link
+              to="/lessons"
+              className="p-2.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-600 transition shrink-0"
+              title="Quay lại danh sách"
+            >
+              <ArrowLeft className="w-5 h-5" />
+            </Link>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md">
+                  Bài {lesson.orderNumber}
+                </span>
+                <span className="text-xs font-medium text-slate-400">
+                  {lesson.category}
+                </span>
+              </div>
+              <h1 className="text-2xl font-black text-slate-900 mt-1">
+                {lesson.title}
+              </h1>
             </div>
-            <h1 className="text-2xl font-black text-slate-900 mt-1">
-              {lesson.title}
-            </h1>
+          </div>
+
+          <div className="flex items-center gap-3 self-start sm:self-auto">
+            {isCompleted ? (
+              <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                <span>Đã hoàn thành bài học này</span>
+              </div>
+            ) : (
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
+                <span>Bước {currentStepIndex + 1} / 7: {currentTab.title}</span>
+              </div>
+            )}
           </div>
         </div>
 
-        {lesson.userProgress?.completed && (
-          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold self-start sm:self-auto border border-emerald-200">
-            <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-            <span>Đã hoàn thành bài học này</span>
+        {/* Lesson Step Progress Bar */}
+        <div className="space-y-1.5">
+          <div className="flex justify-between text-[11px] font-semibold text-slate-500">
+            <span>Tiến độ hoàn thành các bước trong bài</span>
+            <span>{isCompleted ? '100%' : `${progressPercent}%`}</span>
           </div>
-        )}
+          <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
+            <div
+              className={`h-full rounded-full transition-all duration-500 ${
+                isCompleted ? 'bg-emerald-500' : 'bg-blue-600'
+              }`}
+              style={{ width: `${isCompleted ? 100 : progressPercent}%` }}
+            />
+          </div>
+        </div>
       </div>
 
-      {/* Tabs navigation bar */}
-      <div className="bg-white p-2 rounded-2xl border border-slate-200/80 shadow-sm flex gap-1.5 overflow-x-auto scrollbar-none">
-        {tabs.map((tab) => {
+      {/* Strict Sequential Tabs Navigation Bar */}
+      <div className="bg-white p-2.5 rounded-2xl border border-slate-200/80 shadow-sm flex gap-2 overflow-x-auto scrollbar-none">
+        {tabs.map((tab, idx) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
+          const isTabUnlocked = isCompleted || isAdmin || idx <= unlockedStepIndex;
+          const isTabDone = isCompleted || idx < unlockedStepIndex;
+
           return (
             <button
               key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
+              type="button"
+              onClick={() => handleTabClick(tab.id, idx)}
+              className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all select-none ${
                 isActive
                   ? 'bg-blue-600 text-white shadow-md shadow-blue-500/20'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                  : isTabDone
+                  ? 'bg-emerald-50/70 text-emerald-800 hover:bg-emerald-100/70 border border-emerald-200/60'
+                  : isTabUnlocked
+                  ? 'text-slate-700 hover:bg-slate-100 bg-white'
+                  : 'bg-slate-50 text-slate-400 cursor-not-allowed border border-slate-200/50 opacity-60'
               }`}
             >
-              <Icon className="w-4 h-4" />
+              {isTabDone && !isActive ? (
+                <Check className="w-3.5 h-3.5 text-emerald-600 stroke-[2.5]" />
+              ) : !isTabUnlocked ? (
+                <Lock className="w-3.5 h-3.5 text-slate-400" />
+              ) : (
+                <Icon className="w-3.5 h-3.5" />
+              )}
               <span>{tab.label}</span>
             </button>
           );
@@ -170,7 +274,7 @@ export default function LessonDetailPage() {
       </div>
 
       {/* Main Tab Content */}
-      <div className="min-h-[500px]">
+      <div className="min-h-[460px]">
         {activeTab === 'vocab' && (
           <FlashcardSection vocabularies={lesson.vocabularies} />
         )}
@@ -198,8 +302,50 @@ export default function LessonDetailPage() {
                 ...prev,
                 userProgress: { ...(prev.userProgress || {}), completed: true },
               }));
+              setUnlockedStepIndex(6);
             }}
           />
+        )}
+      </div>
+
+      {/* Bottom Step Progression Navigation Controller */}
+      <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3">
+        {prevTab ? (
+          <button
+            type="button"
+            onClick={handlePrevStep}
+            className="w-full sm:w-auto px-5 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-700 font-bold text-xs transition flex items-center justify-center gap-2"
+          >
+            <ChevronLeft className="w-4 h-4" />
+            <span>Quay lại: {prevTab.title}</span>
+          </button>
+        ) : (
+          <div className="hidden sm:block" />
+        )}
+
+        <div className="text-xs font-semibold text-slate-500 text-center">
+          Đang ở <strong className="text-slate-800">Bước {currentStepIndex + 1} / 7: {currentTab.title}</strong>
+        </div>
+
+        {nextTab ? (
+          <button
+            type="button"
+            onClick={handleNextStep}
+            className="w-full sm:w-auto px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-xs transition shadow-md shadow-blue-500/25 active:scale-95 flex items-center justify-center gap-2"
+          >
+            <span>Hoàn thành & Sang Bước {nextTab.stepNum}: {nextTab.title}</span>
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        ) : (
+          isCompleted && (
+            <Link
+              to="/lessons"
+              className="w-full sm:w-auto px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs transition shadow-md shadow-emerald-500/20 flex items-center justify-center gap-2"
+            >
+              <span>Về danh sách bài học</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          )
         )}
       </div>
     </div>
