@@ -50,48 +50,32 @@ export default function LandingPage() {
 
   const steps = [
     {
-      step: '01',
-      level: 'Pre-A1',
-      title: 'Khởi đầu từ số 0',
-      subtitle: 'Xây lại phát âm & chào hỏi',
-      desc: 'Làm quen bảng chữ cái, phát âm chuẩn IPA từng âm tiết, chào hỏi tự tin và làm chủ số đếm cơ bản.',
-      tags: ['Bảng chữ cái & IPA', 'Chào hỏi cơ bản', 'Số đếm 1-100'],
+      step: 'Giai đoạn 1',
       icon: Flag,
-      badgeColor: 'bg-blue-50 text-blue-700 border-blue-200',
-      accentColor: 'text-blue-600',
+      color: 'bg-blue-600 text-white',
+      title: 'Beginner (Khởi đầu từ số 0)',
+      desc: 'Làm quen bảng chữ cái, phát âm chuẩn IPA từng âm tiết, chào hỏi tự tin và làm chủ số đếm cơ bản.',
     },
     {
-      step: '02',
-      level: 'A1 Foundation',
-      title: 'Nền tảng căn bản',
-      subtitle: 'Ngữ pháp lõi & gia đình',
-      desc: 'Nắm chắc đại từ nhân xưng, động từ To Be, vốn từ vựng gia đình thân yêu và thì hiện tại đơn.',
-      tags: ['Đại từ & Động từ To Be', 'Gia đình & Quan hệ', 'Thì hiện tại đơn'],
+      step: 'Giai đoạn 2',
       icon: BookOpen,
-      badgeColor: 'bg-indigo-50 text-indigo-700 border-indigo-200',
-      accentColor: 'text-indigo-600',
+      color: 'bg-indigo-600 text-white',
+      title: 'Basic English (Nền tảng căn bản)',
+      desc: 'Nắm chắc đại từ nhân xưng, động từ To Be, vốn từ vựng gia đình thân yêu và thì hiện tại đơn.',
     },
     {
-      step: '03',
-      level: 'A1+ Everyday',
-      title: 'Tiếng Anh đời sống',
-      subtitle: 'Tình huống sinh hoạt thực tế',
-      desc: 'Xử lý các tình huống thực tiễn: hỏi giờ, mua sắm, gọi đồ uống tại quán cà phê và chỉ đường.',
-      tags: ['Xem giờ & Lịch trình', 'Gọi món tại Cafe', 'Mua sắm & Hỏi đường'],
+      step: 'Giai đoạn 3',
       icon: MessageSquare,
-      badgeColor: 'bg-emerald-50 text-emerald-700 border-emerald-200',
-      accentColor: 'text-emerald-600',
+      color: 'bg-emerald-600 text-white',
+      title: 'Everyday English (Tiếng Anh đời sống)',
+      desc: 'Xử lý các tình huống thực tiễn: hỏi giờ, mua sắm, gọi đồ uống tại quán cà phê và chỉ đường.',
     },
     {
-      step: '04',
-      level: 'A2 Elementary',
-      title: 'Giao tiếp chủ động',
-      subtitle: 'Phản xạ đàm thoại linh hoạt',
-      desc: 'Tự tin đàm thoại về thói quen hàng ngày, quá khứ đơn giản và phản xạ linh hoạt trong giao tiếp.',
-      tags: ['Hội thoại phản xạ', 'Thói quen mỗi ngày', 'Kể chuyện ngắn'],
+      step: 'Giai đoạn 4',
       icon: Target,
-      badgeColor: 'bg-amber-50 text-amber-700 border-amber-200',
-      accentColor: 'text-amber-600',
+      color: 'bg-amber-600 text-white',
+      title: 'Elementary (Tự tin giao tiếp sơ cấp)',
+      desc: 'Kể về thói quen hàng ngày, quá khứ đơn giản và phản xạ hội thoại linh hoạt, chủ động.',
     },
   ];
 
@@ -239,114 +223,39 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Lộ Trình Học Tập Chuẩn Hóa */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+      {/* Lộ Trình Học Tập (Phong cách đồng bộ với Trụ cột học tập) */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold uppercase tracking-wider mb-3">
-            <span>Lộ trình học tập từng bước</span>
-          </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Đi từ mất gốc đến tự tin giao tiếp
-          </h2>
-          <p className="text-slate-600 mt-3 text-base leading-relaxed">
-            Học tập có trình tự khoa học theo 4 cột mốc rõ ràng. Mỗi giai đoạn đều có mục tiêu cụ thể, giúp bạn không bao giờ bị lạc hướng.
-          </p>
+          <h2 className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-2">Lộ trình chuẩn hóa</h2>
+          <p className="text-3xl font-extrabold text-slate-900 tracking-tight">4 Giai đoạn làm chủ tiếng Anh</p>
+          <p className="text-slate-600 mt-3 text-base">Học có trình tự, đi từ số 0 đến tự tin phản xạ trong giao tiếp đời sống.</p>
         </div>
 
-        {/* Desktop Step Flow Indicator */}
-        <div className="hidden lg:grid grid-cols-4 gap-6 mb-4 px-4">
-          {steps.map((st, idx) => (
-            <div key={idx} className="flex items-center gap-3">
-              <span className="w-8 h-8 rounded-full bg-slate-900 text-white font-black text-xs flex items-center justify-center shrink-0 shadow-sm">
-                {st.step}
-              </span>
-              <span className="text-xs font-bold text-slate-700 tracking-wide uppercase">
-                {st.level}
-              </span>
-              {idx < steps.length - 1 && (
-                <div className="flex-1 h-px border-t border-dashed border-slate-300 ml-2" />
-              )}
-            </div>
-          ))}
-        </div>
-
-        {/* 4 Connected Milestone Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {steps.map((st, idx) => {
-            const Icon = st.icon;
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {steps.map((item, idx) => {
+            const Icon = item.icon;
             return (
               <div
                 key={idx}
-                className="group bg-white rounded-3xl border border-slate-200/90 hover:border-blue-400 p-6 sm:p-7 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between relative overflow-hidden"
+                className="p-6 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all group"
               >
-                {/* Subtle background stage watermark */}
-                <span className="absolute -right-2 -bottom-4 text-7xl font-black text-slate-100 select-none pointer-events-none group-hover:text-blue-50/60 transition-colors">
-                  {st.step}
-                </span>
-
-                <div className="relative z-10">
-                  {/* Top card pill & level indicator */}
-                  <div className="flex items-center justify-between mb-5">
-                    <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-xl text-xs font-black border ${st.badgeColor}`}>
-                      <Icon className="w-3.5 h-3.5" />
-                      <span>Giai đoạn {st.step}</span>
-                    </span>
-
-                    <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full border border-slate-200/60">
-                      {st.level}
-                    </span>
+                <div className="flex items-center justify-between mb-5">
+                  <div className={`w-12 h-12 rounded-xl ${item.color} flex items-center justify-center shadow-md`}>
+                    <Icon className="w-6 h-6" />
                   </div>
-
-                  {/* Main Titles */}
-                  <h3 className="font-extrabold text-xl text-slate-900 group-hover:text-blue-600 transition-colors">
-                    {st.title}
-                  </h3>
-                  <p className={`text-xs font-semibold ${st.accentColor} mt-1 mb-3.5`}>
-                    {st.subtitle}
-                  </p>
-
-                  <p className="text-xs text-slate-600 leading-relaxed mb-6">
-                    {st.desc}
-                  </p>
-                </div>
-
-                {/* Concrete Learning Tags */}
-                <div className="relative z-10 pt-4 border-t border-slate-100">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-2">
-                    Nội dung trọng tâm:
+                  <span className="text-xs font-extrabold text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-1 rounded-md">
+                    {item.step}
                   </span>
-                  <div className="flex flex-wrap gap-1.5">
-                    {st.tags.map((tag, tIdx) => (
-                      <span
-                        key={tIdx}
-                        className="text-[11px] font-medium bg-slate-50 text-slate-700 px-2.5 py-1 rounded-lg border border-slate-200/70"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
                 </div>
+                <h3 className="font-bold text-lg text-slate-900 mb-2 group-hover:text-blue-600 transition">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  {item.desc}
+                </p>
               </div>
             );
           })}
-        </div>
-
-        {/* Bottom Highlights Bar */}
-        <div className="mt-12 p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-center justify-around gap-4 text-xs font-semibold text-slate-600 text-center sm:text-left">
-          <div className="flex items-center gap-2">
-            <Clock className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>Mỗi ngày chỉ cần <strong>15 - 20 phút</strong></span>
-          </div>
-          <div className="hidden sm:block h-4 w-px bg-slate-200" />
-          <div className="flex items-center gap-2">
-            <Target className="w-4 h-4 text-emerald-600 shrink-0" />
-            <span>Đo lường tiến độ bằng <strong>Quiz & Placement Test</strong></span>
-          </div>
-          <div className="hidden sm:block h-4 w-px bg-slate-200" />
-          <div className="flex items-center gap-2">
-            <Award className="w-4 h-4 text-amber-500 shrink-0" />
-            <span>Tích lũy <strong>XP & duy trì Streak</strong> mỗi ngày</span>
-          </div>
         </div>
       </section>
 
