@@ -62,9 +62,6 @@ export default function LandingPage() {
             </div>
             <div>
               <span className="font-bold text-xl text-slate-900 tracking-tight">English for Beginner</span>
-              <span className="hidden sm:inline-block ml-2 text-xs text-blue-600 font-semibold bg-blue-50 px-2 py-0.5 rounded-full border border-blue-200">
-                Step by Step - Easy
-              </span>
             </div>
           </div>
 
