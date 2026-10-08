@@ -58,19 +58,19 @@ async function submitPlacementTest(req, res) {
       });
     });
 
-    // Level determination logic:
-    // 0-9 correct: A1 (Beginner)
-    // 10-15 correct: A2 (Elementary)
-    // 16-20 correct: B1 (Intermediate)
+    // Percentage-based Level determination logic:
+    const totalQuestions = allQuestions.length || 1;
+    const percentage = Math.round((correctCount / totalQuestions) * 100);
+
     let assignedLevel = 'A1';
     let levelTitle = 'A1 - Beginner (Người mới bắt đầu)';
     let recommendation = 'Bạn nên bắt đầu với các bài học cơ bản: Chào hỏi, Đại từ & Động từ To Be, Từ vựng đời sống thường ngày.';
 
-    if (correctCount >= 16) {
+    if (percentage >= 80) {
       assignedLevel = 'B1';
       levelTitle = 'B1 - Intermediate (Trung cấp)';
       recommendation = 'Nền tảng của bạn khá tốt! Bạn có thể bắt đầu với các chủ đề mở rộng và luyện phản xạ hội thoại nâng cao.';
-    } else if (correctCount >= 10) {
+    } else if (percentage >= 50) {
       assignedLevel = 'A2';
       levelTitle = 'A2 - Elementary (Sơ cấp)';
       recommendation = 'Bạn đã có ngữ pháp nền tảng. Hãy tập trung nâng cao phản xạ nghe và mở rộng vốn từ vựng thực tế.';

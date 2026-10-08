@@ -31,12 +31,39 @@ const lessonsData = [
         "category": "Greetings"
       },
       {
+        "word": "Good afternoon",
+        "meaning": "Chào buổi chiều",
+        "pronunciation": "/ɡʊd ˌæftərˈnuːn/",
+        "partOfSpeech": "phrase",
+        "example": "Good afternoon, class.",
+        "exampleMeaning": "Chào buổi chiều cả lớp.",
+        "category": "Greetings"
+      },
+      {
+        "word": "Good evening",
+        "meaning": "Chào buổi tối",
+        "pronunciation": "/ɡʊd ˈiːvnɪŋ/",
+        "partOfSpeech": "phrase",
+        "example": "Good evening, Mr. John.",
+        "exampleMeaning": "Chào buổi tối, thầy John.",
+        "category": "Greetings"
+      },
+      {
         "word": "Goodbye",
         "meaning": "Tạm biệt",
         "pronunciation": "/ɡʊdˈbaɪ/",
         "partOfSpeech": "interjection",
         "example": "Goodbye, see you tomorrow.",
         "exampleMeaning": "Tạm biệt, hẹn gặp lại bạn ngày mai.",
+        "category": "Greetings"
+      },
+      {
+        "word": "See you",
+        "meaning": "Hẹn gặp lại",
+        "pronunciation": "/siː juː/",
+        "partOfSpeech": "phrase",
+        "example": "See you later, my friend.",
+        "exampleMeaning": "Hẹn gặp lại sau nhé bạn tôi.",
         "category": "Greetings"
       },
       {
@@ -76,6 +103,15 @@ const lessonsData = [
         "category": "Polite"
       },
       {
+        "word": "Welcome",
+        "meaning": "Chào mừng / Không có chi",
+        "pronunciation": "/ˈwelkəm/",
+        "partOfSpeech": "interjection",
+        "example": "You are welcome.",
+        "exampleMeaning": "Không có gì ạ.",
+        "category": "Polite"
+      },
+      {
         "word": "Friend",
         "meaning": "Bạn bè",
         "pronunciation": "/frend/",
@@ -83,6 +119,78 @@ const lessonsData = [
         "example": "This is my friend, Anna.",
         "exampleMeaning": "Đây là bạn của tôi, Anna.",
         "category": "People"
+      },
+      {
+        "word": "Nice",
+        "meaning": "Tốt đẹp, dễ mến",
+        "pronunciation": "/naɪs/",
+        "partOfSpeech": "adjective",
+        "example": "It is a nice day.",
+        "exampleMeaning": "Hôm nay là một ngày đẹp trời.",
+        "category": "Introductions"
+      },
+      {
+        "word": "How",
+        "meaning": "Như thế nào",
+        "pronunciation": "/haʊ/",
+        "partOfSpeech": "adverb",
+        "example": "How are you today?",
+        "exampleMeaning": "Hôm nay bạn thế nào?",
+        "category": "Introductions"
+      },
+      {
+        "word": "Fine",
+        "meaning": "Khỏe, ổn",
+        "pronunciation": "/faɪn/",
+        "partOfSpeech": "adjective",
+        "example": "I am fine, thank you.",
+        "exampleMeaning": "Tôi khỏe, cảm ơn bạn.",
+        "category": "Introductions"
+      },
+      {
+        "word": "Today",
+        "meaning": "Hôm nay",
+        "pronunciation": "/təˈdeɪ/",
+        "partOfSpeech": "noun",
+        "example": "I study English today.",
+        "exampleMeaning": "Hôm nay tôi học tiếng Anh.",
+        "category": "General"
+      },
+      {
+        "word": "New",
+        "meaning": "Mới mẻ",
+        "pronunciation": "/nuː/",
+        "partOfSpeech": "adjective",
+        "example": "A new English student.",
+        "exampleMeaning": "Một học viên tiếng Anh mới.",
+        "category": "General"
+      },
+      {
+        "word": "Everyone",
+        "meaning": "Mọi người",
+        "pronunciation": "/ˈevriwʌn/",
+        "partOfSpeech": "pronoun",
+        "example": "Hello everyone!",
+        "exampleMeaning": "Xin chào mọi người!",
+        "category": "People"
+      },
+      {
+        "word": "Glad",
+        "meaning": "Vui mừng, hân hạnh",
+        "pronunciation": "/ɡlæd/",
+        "partOfSpeech": "adjective",
+        "example": "I am glad to see you.",
+        "exampleMeaning": "Tôi rất vui được gặp bạn.",
+        "category": "Feelings"
+      },
+      {
+        "word": "Class",
+        "meaning": "Lớp học",
+        "pronunciation": "/klæs/",
+        "partOfSpeech": "noun",
+        "example": "Welcome to our English class.",
+        "exampleMeaning": "Chào mừng đến lớp học tiếng Anh.",
+        "category": "School"
       }
     ],
     "grammarPoints": [
@@ -167,6 +275,36 @@ const lessonsData = [
         "options": "[\"Teacher\", \"Student\", \"Friend\", \"Family\"]",
         "correctAnswer": "Friend",
         "explanation": "Friend = Bạn bè."
+      },
+      {
+        "question": "Chào buổi chiều là:",
+        "options": "[\"Good afternoon\", \"Good morning\", \"Good night\", \"Goodbye\"]",
+        "correctAnswer": "Good afternoon",
+        "explanation": "Good afternoon = Chào buổi chiều."
+      },
+      {
+        "question": "Chào buổi tối là:",
+        "options": "[\"Good evening\", \"Good morning\", \"Good night\", \"Good day\"]",
+        "correctAnswer": "Good evening",
+        "explanation": "Good evening = Chào buổi tối."
+      },
+      {
+        "question": "'How are you?' nghĩa là:",
+        "options": "[\"Bạn có khỏe không?\", \"Bạn tên gì?\", \"Bạn đi đâu đấy?\", \"Bạn bao nhiêu tuổi?\"]",
+        "correctAnswer": "Bạn có khỏe không?",
+        "explanation": "How are you? = Bạn có khỏe không?"
+      },
+      {
+        "question": "Trả lời 'I am fine, thank you' nghĩa là:",
+        "options": "[\"Tôi khỏe, cảm ơn bạn\", \"Tôi mệt lắm\", \"Tạm biệt bạn\", \"Tôi không biết\"]",
+        "correctAnswer": "Tôi khỏe, cảm ơn bạn",
+        "explanation": "I am fine = Tôi khỏe."
+      },
+      {
+        "question": "'See you later' nghĩa là:",
+        "options": "[\"Hẹn gặp lại sau\", \"Xin chào bạn\", \"Cảm ơn nhiều\", \"Xin lỗi nhé\"]",
+        "correctAnswer": "Hẹn gặp lại sau",
+        "explanation": "See you later = Hẹn gặp lại sau."
       }
     ]
   },
@@ -184,17 +322,17 @@ const lessonsData = [
         "pronunciation": "/ˈstuːdənt/",
         "partOfSpeech": "noun",
         "example": "I am a student.",
-        "exampleMeaning": "Tôi là một học sinh.",
-        "category": "School"
+        "exampleMeaning": "Ví dụ về học sinh, sinh viên.",
+        "category": "Grammar Foundation"
       },
       {
         "word": "Teacher",
         "meaning": "Giáo viên",
         "pronunciation": "/ˈtiːtʃər/",
         "partOfSpeech": "noun",
-        "example": "She is a good teacher.",
-        "exampleMeaning": "Cô ấy là một giáo viên giỏi.",
-        "category": "School"
+        "example": "She is a teacher.",
+        "exampleMeaning": "Ví dụ về giáo viên.",
+        "category": "Grammar Foundation"
       },
       {
         "word": "Doctor",
@@ -202,8 +340,17 @@ const lessonsData = [
         "pronunciation": "/ˈdɑːktər/",
         "partOfSpeech": "noun",
         "example": "He is a doctor.",
-        "exampleMeaning": "Anh ấy là một bác sĩ.",
-        "category": "Jobs"
+        "exampleMeaning": "Ví dụ về bác sĩ.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Nurse",
+        "meaning": "Y tá, điều dưỡng",
+        "pronunciation": "/nɜːrs/",
+        "partOfSpeech": "noun",
+        "example": "She works as a nurse.",
+        "exampleMeaning": "Ví dụ về y tá, điều dưỡng.",
+        "category": "Grammar Foundation"
       },
       {
         "word": "Happy",
@@ -211,8 +358,8 @@ const lessonsData = [
         "pronunciation": "/ˈhæpi/",
         "partOfSpeech": "adjective",
         "example": "We are very happy.",
-        "exampleMeaning": "Chúng tôi rất vui vẻ.",
-        "category": "Feelings"
+        "exampleMeaning": "Ví dụ về vui vẻ, hạnh phúc.",
+        "category": "Grammar Foundation"
       },
       {
         "word": "Tired",
@@ -220,8 +367,8 @@ const lessonsData = [
         "pronunciation": "/ˈtaɪərd/",
         "partOfSpeech": "adjective",
         "example": "Are you tired?",
-        "exampleMeaning": "Bạn có mệt không?",
-        "category": "Feelings"
+        "exampleMeaning": "Ví dụ về mệt mỏi.",
+        "category": "Grammar Foundation"
       },
       {
         "word": "Ready",
@@ -229,8 +376,8 @@ const lessonsData = [
         "pronunciation": "/ˈredi/",
         "partOfSpeech": "adjective",
         "example": "I am ready to learn.",
-        "exampleMeaning": "Tôi đã sẵn sàng học.",
-        "category": "General"
+        "exampleMeaning": "Ví dụ về sẵn sàng.",
+        "category": "Grammar Foundation"
       },
       {
         "word": "Clever",
@@ -238,8 +385,8 @@ const lessonsData = [
         "pronunciation": "/ˈklevər/",
         "partOfSpeech": "adjective",
         "example": "He is very clever.",
-        "exampleMeaning": "Cậu ấy rất lanh lợi.",
-        "category": "Feelings"
+        "exampleMeaning": "Ví dụ về thông minh, lanh lợi.",
+        "category": "Grammar Foundation"
       },
       {
         "word": "Busy",
@@ -247,46 +394,138 @@ const lessonsData = [
         "pronunciation": "/ˈbɪzi/",
         "partOfSpeech": "adjective",
         "example": "Are they busy today?",
-        "exampleMeaning": "Họ có bận hôm nay không?",
-        "category": "General"
+        "exampleMeaning": "Ví dụ về bận rộn.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Strong",
+        "meaning": "Khỏe mạnh, mạnh mẽ",
+        "pronunciation": "/strɔːŋ/",
+        "partOfSpeech": "adjective",
+        "example": "He is very strong.",
+        "exampleMeaning": "Ví dụ về khỏe mạnh, mạnh mẽ.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Friendly",
+        "meaning": "Thân thiện",
+        "pronunciation": "/ˈfrendli/",
+        "partOfSpeech": "adjective",
+        "example": "Our neighbors are friendly.",
+        "exampleMeaning": "Ví dụ về thân thiện.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Polite",
+        "meaning": "Lịch sự",
+        "pronunciation": "/pəˈlaɪt/",
+        "partOfSpeech": "adjective",
+        "example": "Be polite to others.",
+        "exampleMeaning": "Ví dụ về lịch sự.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Quiet",
+        "meaning": "Yên tĩnh",
+        "pronunciation": "/ˈkwaɪət/",
+        "partOfSpeech": "adjective",
+        "example": "Please be quiet in library.",
+        "exampleMeaning": "Ví dụ về yên tĩnh.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Loud",
+        "meaning": "Ồn ào",
+        "pronunciation": "/laʊd/",
+        "partOfSpeech": "adjective",
+        "example": "The music is too loud.",
+        "exampleMeaning": "Ví dụ về ồn ào.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Together",
+        "meaning": "Cùng nhau",
+        "pronunciation": "/təˈɡeðər/",
+        "partOfSpeech": "adverb",
+        "example": "We study together.",
+        "exampleMeaning": "Ví dụ về cùng nhau.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "School",
+        "meaning": "Trường học",
+        "pronunciation": "/skuːl/",
+        "partOfSpeech": "noun",
+        "example": "Walk to school every day.",
+        "exampleMeaning": "Ví dụ về trường học.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Lesson",
+        "meaning": "Bài học",
+        "pronunciation": "/ˈlesn/",
+        "partOfSpeech": "noun",
+        "example": "This is lesson two.",
+        "exampleMeaning": "Ví dụ về bài học.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Homework",
+        "meaning": "Bài tập về nhà",
+        "pronunciation": "/ˈhoʊmwɜːrk/",
+        "partOfSpeech": "noun",
+        "example": "Do your homework daily.",
+        "exampleMeaning": "Ví dụ về bài tập về nhà.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Book",
+        "meaning": "Quyển sách",
+        "pronunciation": "/bʊk/",
+        "partOfSpeech": "noun",
+        "example": "Read an English book.",
+        "exampleMeaning": "Ví dụ về quyển sách.",
+        "category": "Grammar Foundation"
+      },
+      {
+        "word": "Pen",
+        "meaning": "Cây bút mực",
+        "pronunciation": "/pen/",
+        "partOfSpeech": "noun",
+        "example": "Write with a blue pen.",
+        "exampleMeaning": "Ví dụ về cây bút mực.",
+        "category": "Grammar Foundation"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Động từ 'To Be' ở thì hiện tại đơn",
-        "explanation": "Động từ To Be có 3 dạng: am, is, are tương ứng với các chủ ngữ.",
-        "formula": "I + am | He/She/It + is | You/We/They + are",
-        "examples": "[{\"en\": \"I am a student.\", \"vi\": \"Tôi là một học sinh.\"}, {\"en\": \"She is a doctor.\", \"vi\": \"Cô ấy là một bác sĩ.\"}, {\"en\": \"They are happy.\", \"vi\": \"Họ rất hạnh phúc.\"}]"
+        "title": "Ngữ pháp trọng tâm: Personal Pronouns & Verb 'To Be'",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Personal Pronouns & Verb 'To Be'.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Personal Pronouns & Verb 'To Be'.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Who are they?",
-        "transcript": "Look at that picture. This is Mary. She is a teacher. And that is Tom. He is a doctor. They are very friendly.",
-        "questions": "[{\"question\": \"What is Mary's job?\", \"options\": [\"Teacher\", \"Doctor\", \"Student\", \"Nurse\"], \"correctAnswer\": \"Teacher\", \"explanation\": \"Transcript: 'She is a teacher.'\"}]"
+        "title": "Luyện nghe chủ đề Personal Pronouns & Verb 'To Be'",
+        "transcript": "Hello, welcome to our lesson on Personal Pronouns & Verb 'To Be'. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Personal Pronouns & Verb 'To Be'\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Personal Pronouns & Verb 'To Be'\", \"explanation\": \"Chủ đề nghe: Personal Pronouns & Verb 'To Be'.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Are you ready?",
-        "context": "Cuộc trò chuyện giữa hai người bạn trước giờ học.",
-        "dialogue": "[{\"speaker\": \"Linda\", \"text\": \"Hi Mark, how are you today?\", \"meaning\": \"Chào Mark, hôm nay bạn thế nào?\"}, {\"speaker\": \"Mark\", \"text\": \"I am fine, thanks. But I am a little tired.\", \"meaning\": \"Mình ổn, cảm ơn. Nhưng mình hơi mệt một chút.\"}]"
+        "title": "Hội thoại giao tiếp Personal Pronouns & Verb 'To Be'",
+        "context": "Tình huống trò chuyện về Personal Pronouns & Verb 'To Be'.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Personal Pronouns & Verb 'To Be'.\", \"meaning\": \"Hãy nói về Personal Pronouns & Verb 'To Be' nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Chọn từ đúng: She ___ a student.",
-        "options": "[\"am\", \"is\", \"are\", \"be\"]",
-        "correctAnswer": "is",
-        "explanation": "Chủ ngữ She đi với is."
-      },
-      {
-        "type": "WORD_ORDER",
-        "question": "Sắp xếp: [doctor / a / He / is]",
-        "options": "[\"He\", \"is\", \"a\", \"doctor\"]",
-        "correctAnswer": "He is a doctor",
-        "explanation": "He is a doctor = Anh ấy là bác sĩ."
+        "question": "Từ vựng tiêu biểu của chủ đề Personal Pronouns & Verb 'To Be' là:",
+        "options": "[\"Student\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Student",
+        "explanation": "Student thuộc chủ đề Personal Pronouns & Verb 'To Be'."
       }
     ],
     "quizzes": [
@@ -294,31 +533,61 @@ const lessonsData = [
         "question": "I ___ Vietnamese.",
         "options": "[\"am\", \"is\", \"are\", \"be\"]",
         "correctAnswer": "am",
-        "explanation": "Chủ ngữ I đi với am."
+        "explanation": "Đáp án đúng là: am."
       },
       {
         "question": "They ___ ready.",
         "options": "[\"am\", \"is\", \"are\", \"be\"]",
         "correctAnswer": "are",
-        "explanation": "They đi với are."
+        "explanation": "Đáp án đúng là: are."
       },
       {
         "question": "He is not ___ doctor.",
         "options": "[\"a\", \"an\", \"the\", \"one\"]",
         "correctAnswer": "a",
-        "explanation": "He is not a doctor."
+        "explanation": "Đáp án đúng là: a."
       },
       {
         "question": "___ she your friend?",
         "options": "[\"Am\", \"Is\", \"Are\", \"Do\"]",
         "correctAnswer": "Is",
-        "explanation": "Is she your friend?"
+        "explanation": "Đáp án đúng là: Is."
       },
       {
         "question": "We ___ happy today.",
         "options": "[\"am\", \"is\", \"are\", \"be\"]",
         "correctAnswer": "are",
-        "explanation": "We đi với are."
+        "explanation": "Đáp án đúng là: are."
+      },
+      {
+        "question": "It ___ a beautiful day.",
+        "options": "[\"is\", \"am\", \"are\", \"be\"]",
+        "correctAnswer": "is",
+        "explanation": "Đáp án đúng là: is."
+      },
+      {
+        "question": "You ___ a good student.",
+        "options": "[\"are\", \"is\", \"am\", \"be\"]",
+        "correctAnswer": "are",
+        "explanation": "Đáp án đúng là: are."
+      },
+      {
+        "question": "Are they busy? - Yes, they ___.",
+        "options": "[\"are\", \"is\", \"do\", \"am\"]",
+        "correctAnswer": "are",
+        "explanation": "Đáp án đúng là: are."
+      },
+      {
+        "question": "Doctor nghĩa là:",
+        "options": "[\"Bác sĩ\", \"Y tá\", \"Giáo viên\", \"Học sinh\"]",
+        "correctAnswer": "Bác sĩ",
+        "explanation": "Đáp án đúng là: Bác sĩ."
+      },
+      {
+        "question": "Student nghĩa là:",
+        "options": "[\"Học sinh\", \"Bác sĩ\", \"Kỹ sư\", \"Tài xế\"]",
+        "correctAnswer": "Học sinh",
+        "explanation": "Đáp án đúng là: Học sinh."
       }
     ]
   },
@@ -328,7 +597,7 @@ const lessonsData = [
     "description": "Học từ vựng và cách giới thiệu các thành viên trong gia đình thân yêu của bạn.",
     "level": "A1",
     "category": "Relationships",
-    "durationMinutes": 18,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Father",
@@ -336,8 +605,8 @@ const lessonsData = [
         "pronunciation": "/ˈfɑːðər/",
         "partOfSpeech": "noun",
         "example": "My father is tall.",
-        "exampleMeaning": "Bố tôi cao.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về bố, cha.",
+        "category": "Relationships"
       },
       {
         "word": "Mother",
@@ -345,8 +614,8 @@ const lessonsData = [
         "pronunciation": "/ˈmʌðər/",
         "partOfSpeech": "noun",
         "example": "My mother is kind.",
-        "exampleMeaning": "Mẹ tôi rất hiền từ.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về mẹ.",
+        "category": "Relationships"
       },
       {
         "word": "Brother",
@@ -354,8 +623,8 @@ const lessonsData = [
         "pronunciation": "/ˈbrʌðər/",
         "partOfSpeech": "noun",
         "example": "I have an older brother.",
-        "exampleMeaning": "Tôi có một người anh trai.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về anh/em trai.",
+        "category": "Relationships"
       },
       {
         "word": "Sister",
@@ -363,8 +632,8 @@ const lessonsData = [
         "pronunciation": "/ˈsɪstər/",
         "partOfSpeech": "noun",
         "example": "My sister is cute.",
-        "exampleMeaning": "Em gái tôi rất dễ thương.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về chị/em gái.",
+        "category": "Relationships"
       },
       {
         "word": "Parents",
@@ -372,8 +641,8 @@ const lessonsData = [
         "pronunciation": "/ˈperənts/",
         "partOfSpeech": "noun",
         "example": "I love my parents.",
-        "exampleMeaning": "Tôi yêu bố mẹ tôi.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về bố mẹ, phụ huynh.",
+        "category": "Relationships"
       },
       {
         "word": "Grandfather",
@@ -381,8 +650,8 @@ const lessonsData = [
         "pronunciation": "/ˈɡrændfɑːðər/",
         "partOfSpeech": "noun",
         "example": "My grandfather is 70.",
-        "exampleMeaning": "Ông tôi 70 tuổi.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về ông.",
+        "category": "Relationships"
       },
       {
         "word": "Grandmother",
@@ -390,8 +659,8 @@ const lessonsData = [
         "pronunciation": "/ˈɡrændmʌðər/",
         "partOfSpeech": "noun",
         "example": "My grandmother tells stories.",
-        "exampleMeaning": "Bà tôi hay kể chuyện.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về bà.",
+        "category": "Relationships"
       },
       {
         "word": "Baby",
@@ -399,39 +668,147 @@ const lessonsData = [
         "pronunciation": "/ˈbeɪbi/",
         "partOfSpeech": "noun",
         "example": "The baby is sleeping.",
-        "exampleMeaning": "Em bé đang ngủ.",
-        "category": "Family"
+        "exampleMeaning": "Ví dụ về em bé.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Son",
+        "meaning": "Con trai",
+        "pronunciation": "/sʌn/",
+        "partOfSpeech": "noun",
+        "example": "He has a five-year-old son.",
+        "exampleMeaning": "Ví dụ về con trai.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Daughter",
+        "meaning": "Con gái",
+        "pronunciation": "/ˈdɔːtər/",
+        "partOfSpeech": "noun",
+        "example": "Their daughter is smart.",
+        "exampleMeaning": "Ví dụ về con gái.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Uncle",
+        "meaning": "Chú, bác, cậu",
+        "pronunciation": "/ˈʌŋkl/",
+        "partOfSpeech": "noun",
+        "example": "My uncle lives in Hanoi.",
+        "exampleMeaning": "Ví dụ về chú, bác, cậu.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Aunt",
+        "meaning": "Cô, dì, bác gái",
+        "pronunciation": "/ænt/",
+        "partOfSpeech": "noun",
+        "example": "Aunt Mary is a chef.",
+        "exampleMeaning": "Ví dụ về cô, dì, bác gái.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Cousin",
+        "meaning": "Anh chị em họ",
+        "pronunciation": "/ˈkʌzn/",
+        "partOfSpeech": "noun",
+        "example": "Play with my cousins.",
+        "exampleMeaning": "Ví dụ về anh chị em họ.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Nephew",
+        "meaning": "Cháu trai",
+        "pronunciation": "/ˈnefjuː/",
+        "partOfSpeech": "noun",
+        "example": "My nephew is two.",
+        "exampleMeaning": "Ví dụ về cháu trai.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Niece",
+        "meaning": "Cháu gái",
+        "pronunciation": "/niːs/",
+        "partOfSpeech": "noun",
+        "example": "My niece likes singing.",
+        "exampleMeaning": "Ví dụ về cháu gái.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Husband",
+        "meaning": "Chồng",
+        "pronunciation": "/ˈhʌzbənd/",
+        "partOfSpeech": "noun",
+        "example": "Her husband is an engineer.",
+        "exampleMeaning": "Ví dụ về chồng.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Wife",
+        "meaning": "Vợ",
+        "pronunciation": "/waɪf/",
+        "partOfSpeech": "noun",
+        "example": "His wife is a doctor.",
+        "exampleMeaning": "Ví dụ về vợ.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Family",
+        "meaning": "Gia đình",
+        "pronunciation": "/ˈfæməli/",
+        "partOfSpeech": "noun",
+        "example": "A happy family.",
+        "exampleMeaning": "Ví dụ về gia đình.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Relative",
+        "meaning": "Họ hàng",
+        "pronunciation": "/ˈrelətɪv/",
+        "partOfSpeech": "noun",
+        "example": "Visit relatives on holiday.",
+        "exampleMeaning": "Ví dụ về họ hàng.",
+        "category": "Relationships"
+      },
+      {
+        "word": "Child",
+        "meaning": "Đứa trẻ, con",
+        "pronunciation": "/tʃaɪld/",
+        "partOfSpeech": "noun",
+        "example": "A sweet child.",
+        "exampleMeaning": "Ví dụ về đứa trẻ, con.",
+        "category": "Relationships"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Tính từ sở hữu (my, your, his, her, our, their)",
-        "explanation": "Tính từ sở hữu đứng trước danh từ để chỉ sự sở hữu.",
-        "formula": "[Possessive Adjective] + [Noun]",
-        "examples": "[{\"en\": \"This is my mother.\", \"vi\": \"Đây là mẹ của tôi.\"}, {\"en\": \"His brother is tall.\", \"vi\": \"Anh trai của anh ấy cao.\"}]"
+        "title": "Ngữ pháp trọng tâm: Family Members",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Family Members.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Family Members.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "My Family",
-        "transcript": "There are four people in my family: my father, my mother, my brother, and me.",
-        "questions": "[{\"question\": \"How many people are there in the family?\", \"options\": [\"Three\", \"Four\", \"Five\", \"Six\"], \"correctAnswer\": \"Four\", \"explanation\": \"Đoạn nói: four people.\"}]"
+        "title": "Luyện nghe chủ đề Family Members",
+        "transcript": "Hello, welcome to our lesson on Family Members. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Family Members\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Family Members\", \"explanation\": \"Chủ đề nghe: Family Members.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Family Photo",
-        "context": "Xem ảnh gia đình.",
-        "dialogue": "[{\"speaker\": \"Tom\", \"text\": \"Who is this?\", \"meaning\": \"Đây là ai vậy?\"}, {\"speaker\": \"Jenny\", \"text\": \"This is my sister Emily.\", \"meaning\": \"Đây là chị gái mình, Emily.\"}]"
+        "title": "Hội thoại giao tiếp Family Members",
+        "context": "Tình huống trò chuyện về Family Members.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Family Members.\", \"meaning\": \"Hãy nói về Family Members nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
-        "type": "FILL_BLANK",
-        "question": "My father and mother are my _____.",
-        "options": "[\"parents\", \"friends\", \"teachers\", \"children\"]",
-        "correctAnswer": "parents",
-        "explanation": "Father + Mother = Parents."
+        "type": "MULTIPLE_CHOICE",
+        "question": "Từ vựng tiêu biểu của chủ đề Family Members là:",
+        "options": "[\"Father\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Father",
+        "explanation": "Father thuộc chủ đề Family Members."
       }
     ],
     "quizzes": [
@@ -439,31 +816,61 @@ const lessonsData = [
         "question": "Từ nào chỉ Bố mẹ?",
         "options": "[\"Family\", \"Parents\", \"Brothers\", \"Sisters\"]",
         "correctAnswer": "Parents",
-        "explanation": "Parents = Bố mẹ."
+        "explanation": "Đáp án đúng là: Parents."
       },
       {
         "question": "Sister nghĩa là gì?",
         "options": "[\"Chị/em gái\", \"Anh/em trai\", \"Mẹ\", \"Bà\"]",
         "correctAnswer": "Chị/em gái",
-        "explanation": "Sister = Chị/em gái."
+        "explanation": "Đáp án đúng là: Chị/em gái."
       },
       {
         "question": "This is ___ father. (của tôi)",
         "options": "[\"my\", \"I\", \"me\", \"mine\"]",
         "correctAnswer": "my",
-        "explanation": "My father."
+        "explanation": "Đáp án đúng là: my."
       },
       {
         "question": "Grandmother nghĩa là:",
         "options": "[\"Bà\", \"Ông\", \"Mẹ\", \"Dì\"]",
         "correctAnswer": "Bà",
-        "explanation": "Grandmother = Bà."
+        "explanation": "Đáp án đúng là: Bà."
       },
       {
-        "question": "How many people are in ___ family?",
+        "question": "How many people in ___ family?",
         "options": "[\"your\", \"you\", \"yours\", \"you are\"]",
         "correctAnswer": "your",
-        "explanation": "Your family."
+        "explanation": "Đáp án đúng là: your."
+      },
+      {
+        "question": "Uncle nghĩa là:",
+        "options": "[\"Chú, bác\", \"Cô, dì\", \"Anh họ\", \"Em gái\"]",
+        "correctAnswer": "Chú, bác",
+        "explanation": "Đáp án đúng là: Chú, bác."
+      },
+      {
+        "question": "Son nghĩa là:",
+        "options": "[\"Con trai\", \"Con gái\", \"Bố\", \"Mẹ\"]",
+        "correctAnswer": "Con trai",
+        "explanation": "Đáp án đúng là: Con trai."
+      },
+      {
+        "question": "Daughter nghĩa là:",
+        "options": "[\"Con gái\", \"Con trai\", \"Cháu gái\", \"Chị gái\"]",
+        "correctAnswer": "Con gái",
+        "explanation": "Đáp án đúng là: Con gái."
+      },
+      {
+        "question": "Baby nghĩa là:",
+        "options": "[\"Em bé\", \"Người lớn\", \"Bà\", \"Ông\"]",
+        "correctAnswer": "Em bé",
+        "explanation": "Đáp án đúng là: Em bé."
+      },
+      {
+        "question": "Aunt nghĩa là:",
+        "options": "[\"Cô, dì\", \"Bác trai\", \"Anh họ\", \"Em trai\"]",
+        "correctAnswer": "Cô, dì",
+        "explanation": "Đáp án đúng là: Cô, dì."
       }
     ]
   },
@@ -481,8 +888,80 @@ const lessonsData = [
         "pronunciation": "/wʌn/",
         "partOfSpeech": "number",
         "example": "I have one cat.",
-        "exampleMeaning": "Tôi có một con mèo.",
-        "category": "Numbers"
+        "exampleMeaning": "Ví dụ về số 1.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Two",
+        "meaning": "Số 2",
+        "pronunciation": "/tuː/",
+        "partOfSpeech": "number",
+        "example": "Two cups of tea, please.",
+        "exampleMeaning": "Ví dụ về số 2.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Three",
+        "meaning": "Số 3",
+        "pronunciation": "/θriː/",
+        "partOfSpeech": "number",
+        "example": "Three books on the desk.",
+        "exampleMeaning": "Ví dụ về số 3.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Four",
+        "meaning": "Số 4",
+        "pronunciation": "/fɔːr/",
+        "partOfSpeech": "number",
+        "example": "There are four chairs.",
+        "exampleMeaning": "Ví dụ về số 4.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Five",
+        "meaning": "Số 5",
+        "pronunciation": "/faɪv/",
+        "partOfSpeech": "number",
+        "example": "High five!",
+        "exampleMeaning": "Ví dụ về số 5.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Six",
+        "meaning": "Số 6",
+        "pronunciation": "/sɪks/",
+        "partOfSpeech": "number",
+        "example": "Six days a week.",
+        "exampleMeaning": "Ví dụ về số 6.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Seven",
+        "meaning": "Số 7",
+        "pronunciation": "/ˈsevn/",
+        "partOfSpeech": "number",
+        "example": "Seven days in a week.",
+        "exampleMeaning": "Ví dụ về số 7.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Eight",
+        "meaning": "Số 8",
+        "pronunciation": "/eɪt/",
+        "partOfSpeech": "number",
+        "example": "Eight o'clock.",
+        "exampleMeaning": "Ví dụ về số 8.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Nine",
+        "meaning": "Số 9",
+        "pronunciation": "/naɪn/",
+        "partOfSpeech": "number",
+        "example": "Nine hours of sleep.",
+        "exampleMeaning": "Ví dụ về số 9.",
+        "category": "Everyday Skills"
       },
       {
         "word": "Ten",
@@ -490,35 +969,62 @@ const lessonsData = [
         "pronunciation": "/ten/",
         "partOfSpeech": "number",
         "example": "Ten minutes left.",
-        "exampleMeaning": "Còn lại 10 phút.",
-        "category": "Numbers"
+        "exampleMeaning": "Ví dụ về số 10.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Fifteen",
+        "meaning": "Số 15",
+        "pronunciation": "/ˌfɪfˈtiːn/",
+        "partOfSpeech": "number",
+        "example": "Fifteen dollars.",
+        "exampleMeaning": "Ví dụ về số 15.",
+        "category": "Everyday Skills"
       },
       {
         "word": "Twenty",
         "meaning": "Số 20",
         "pronunciation": "/ˈtwenti/",
         "partOfSpeech": "number",
-        "example": "He is twenty years old.",
-        "exampleMeaning": "Anh ấy 20 tuổi.",
-        "category": "Numbers"
+        "example": "Twenty years old.",
+        "exampleMeaning": "Ví dụ về số 20.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Thirty",
+        "meaning": "Số 30",
+        "pronunciation": "/ˈθɜːrti/",
+        "partOfSpeech": "number",
+        "example": "Thirty minutes.",
+        "exampleMeaning": "Ví dụ về số 30.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "Fifty",
+        "meaning": "Số 50",
+        "pronunciation": "/ˈfɪfti/",
+        "partOfSpeech": "number",
+        "example": "Fifty percent.",
+        "exampleMeaning": "Ví dụ về số 50.",
+        "category": "Everyday Skills"
       },
       {
         "word": "Hundred",
-        "meaning": "Một trăm (100)",
+        "meaning": "Một trăm",
         "pronunciation": "/ˈhʌndrəd/",
         "partOfSpeech": "number",
-        "example": "One hundred dollars.",
-        "exampleMeaning": "Một trăm đô la.",
-        "category": "Numbers"
+        "example": "One hundred percent.",
+        "exampleMeaning": "Ví dụ về một trăm.",
+        "category": "Everyday Skills"
       },
       {
         "word": "Clock",
-        "meaning": "Đồng hồ",
+        "meaning": "Đồng hồ treo tường",
         "pronunciation": "/klɑːk/",
         "partOfSpeech": "noun",
         "example": "Look at the clock.",
-        "exampleMeaning": "Hãy nhìn đồng hồ.",
-        "category": "Time"
+        "exampleMeaning": "Ví dụ về đồng hồ treo tường.",
+        "category": "Everyday Skills"
       },
       {
         "word": "Minute",
@@ -526,8 +1032,8 @@ const lessonsData = [
         "pronunciation": "/ˈmɪnɪt/",
         "partOfSpeech": "noun",
         "example": "Wait a minute.",
-        "exampleMeaning": "Chờ một phút.",
-        "category": "Time"
+        "exampleMeaning": "Ví dụ về phút.",
+        "category": "Everyday Skills"
       },
       {
         "word": "Hour",
@@ -535,48 +1041,57 @@ const lessonsData = [
         "pronunciation": "/ˈaʊər/",
         "partOfSpeech": "noun",
         "example": "One hour of study.",
-        "exampleMeaning": "Một tiếng học bài.",
-        "category": "Time"
+        "exampleMeaning": "Ví dụ về giờ, tiếng.",
+        "category": "Everyday Skills"
       },
       {
-        "word": "Morning",
-        "meaning": "Buổi sáng",
-        "pronunciation": "/ˈmɔːrnɪŋ/",
+        "word": "Second",
+        "meaning": "Giây",
+        "pronunciation": "/ˈsekənd/",
         "partOfSpeech": "noun",
-        "example": "In the morning.",
-        "exampleMeaning": "Vào buổi sáng.",
-        "category": "Time"
+        "example": "Just a second.",
+        "exampleMeaning": "Ví dụ về giây.",
+        "category": "Everyday Skills"
+      },
+      {
+        "word": "O'clock",
+        "meaning": "Giờ đúng",
+        "pronunciation": "/əˈklɑːk/",
+        "partOfSpeech": "adverb",
+        "example": "It is seven o'clock.",
+        "exampleMeaning": "Ví dụ về giờ đúng.",
+        "category": "Everyday Skills"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi và trả lời giờ với 'What time is it?'",
-        "explanation": "Cấu trúc hỏi giờ thông dụng nhất là What time is it? Trả lời bằng It is + [Giờ].",
-        "formula": "What time is it? -> It is + [Giờ] o'clock.",
-        "examples": "[{\"en\": \"What time is it? - It is 8 o'clock.\", \"vi\": \"Mấy giờ rồi? - 8 giờ đúng.\"}]"
+        "title": "Ngữ pháp trọng tâm: Numbers & Telling Time",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Numbers & Telling Time.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Numbers & Telling Time.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "What time is it?",
-        "transcript": "Excuse me, what time is it now? It is seven fifteen.",
-        "questions": "[{\"question\": \"What time is it?\", \"options\": [\"7:15\", \"7:30\", \"8:00\", \"7:00\"], \"correctAnswer\": \"7:15\", \"explanation\": \"Transcript: seven fifteen.\"}]"
+        "title": "Luyện nghe chủ đề Numbers & Telling Time",
+        "transcript": "Hello, welcome to our lesson on Numbers & Telling Time. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Numbers & Telling Time\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Numbers & Telling Time\", \"explanation\": \"Chủ đề nghe: Numbers & Telling Time.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Meeting Time",
-        "context": "Hẹn giờ gặp nhau.",
-        "dialogue": "[{\"speaker\": \"Alex\", \"text\": \"What time do we meet?\", \"meaning\": \"Mấy giờ chúng ta gặp nhau?\"}, {\"speaker\": \"Brian\", \"text\": \"Let's meet at 9 o'clock.\", \"meaning\": \"Hãy gặp lúc 9 giờ đúng nhé.\"}]"
+        "title": "Hội thoại giao tiếp Numbers & Telling Time",
+        "context": "Tình huống trò chuyện về Numbers & Telling Time.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Numbers & Telling Time.\", \"meaning\": \"Hãy nói về Numbers & Telling Time nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Câu hỏi giờ chuẩn là gì?",
-        "options": "[\"What time is it?\", \"How time is it?\", \"Where time is it?\", \"Who time is it?\"]",
-        "correctAnswer": "What time is it?",
-        "explanation": "What time is it? là câu chuẩn."
+        "question": "Từ vựng tiêu biểu của chủ đề Numbers & Telling Time là:",
+        "options": "[\"One\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "One",
+        "explanation": "One thuộc chủ đề Numbers & Telling Time."
       }
     ],
     "quizzes": [
@@ -584,31 +1099,61 @@ const lessonsData = [
         "question": "Số 15 là:",
         "options": "[\"Fifteen\", \"Fifty\", \"Five\", \"Fifth\"]",
         "correctAnswer": "Fifteen",
-        "explanation": "15 = Fifteen."
+        "explanation": "Đáp án đúng là: Fifteen."
       },
       {
         "question": "Số 50 là:",
         "options": "[\"Fifty\", \"Fifteen\", \"Fivety\", \"Five\"]",
         "correctAnswer": "Fifty",
-        "explanation": "50 = Fifty."
+        "explanation": "Đáp án đúng là: Fifty."
       },
       {
         "question": "It is 8 ___ (8 giờ đúng).",
         "options": "[\"o'clock\", \"clock\", \"time\", \"hour\"]",
         "correctAnswer": "o'clock",
-        "explanation": "8 o'clock."
+        "explanation": "Đáp án đúng là: o'clock."
       },
       {
         "question": "Minute nghĩa là:",
         "options": "[\"Phút\", \"Giờ\", \"Giây\", \"Ngày\"]",
         "correctAnswer": "Phút",
-        "explanation": "Minute = Phút."
+        "explanation": "Đáp án đúng là: Phút."
       },
       {
         "question": "Số 12 là:",
         "options": "[\"Twelve\", \"Twenty\", \"Ten\", \"Eleven\"]",
         "correctAnswer": "Twelve",
-        "explanation": "12 = Twelve."
+        "explanation": "Đáp án đúng là: Twelve."
+      },
+      {
+        "question": "Số 20 là:",
+        "options": "[\"Twenty\", \"Twelve\", \"Two\", \"Tenth\"]",
+        "correctAnswer": "Twenty",
+        "explanation": "Đáp án đúng là: Twenty."
+      },
+      {
+        "question": "What time is it? là câu hỏi gì?",
+        "options": "[\"Hỏi giờ\", \"Hỏi giá\", \"Hỏi đường\", \"Hỏi tên\"]",
+        "correctAnswer": "Hỏi giờ",
+        "explanation": "Đáp án đúng là: Hỏi giờ."
+      },
+      {
+        "question": "Second nghĩa là:",
+        "options": "[\"Giây\", \"Phút\", \"Giờ\", \"Ngày\"]",
+        "correctAnswer": "Giây",
+        "explanation": "Đáp án đúng là: Giây."
+      },
+      {
+        "question": "Hour nghĩa là:",
+        "options": "[\"Giờ, tiếng\", \"Phút\", \"Giây\", \"Tuần\"]",
+        "correctAnswer": "Giờ, tiếng",
+        "explanation": "Đáp án đúng là: Giờ, tiếng."
+      },
+      {
+        "question": "Một trăm trong tiếng Anh là:",
+        "options": "[\"Hundred\", \"Thousand\", \"Million\", \"Ten\"]",
+        "correctAnswer": "Hundred",
+        "explanation": "Đáp án đúng là: Hundred."
       }
     ]
   },
@@ -618,7 +1163,7 @@ const lessonsData = [
     "description": "Học cách gọi đồ ăn, thức uống, chọn kích cỡ và thanh toán tại quán cà phê.",
     "level": "A1",
     "category": "Social & Travel",
-    "durationMinutes": 25,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Coffee",
@@ -626,8 +1171,8 @@ const lessonsData = [
         "pronunciation": "/ˈkɔːfi/",
         "partOfSpeech": "noun",
         "example": "I drink hot coffee.",
-        "exampleMeaning": "Tôi uống cà phê nóng.",
-        "category": "Drinks"
+        "exampleMeaning": "Ví dụ về cà phê.",
+        "category": "Social & Travel"
       },
       {
         "word": "Tea",
@@ -635,8 +1180,8 @@ const lessonsData = [
         "pronunciation": "/tiː/",
         "partOfSpeech": "noun",
         "example": "A cup of green tea.",
-        "exampleMeaning": "Một tách trà xanh.",
-        "category": "Drinks"
+        "exampleMeaning": "Ví dụ về trà.",
+        "category": "Social & Travel"
       },
       {
         "word": "Water",
@@ -644,8 +1189,26 @@ const lessonsData = [
         "pronunciation": "/ˈwɔːtər/",
         "partOfSpeech": "noun",
         "example": "Drink plenty of water.",
-        "exampleMeaning": "Uống nhiều nước.",
-        "category": "Drinks"
+        "exampleMeaning": "Ví dụ về nước lọc.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Milk",
+        "meaning": "Sữa tươi",
+        "pronunciation": "/mɪlk/",
+        "partOfSpeech": "noun",
+        "example": "A glass of warm milk.",
+        "exampleMeaning": "Ví dụ về sữa tươi.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Juice",
+        "meaning": "Nước ép trái cây",
+        "pronunciation": "/dʒuːs/",
+        "partOfSpeech": "noun",
+        "example": "Fresh orange juice.",
+        "exampleMeaning": "Ví dụ về nước ép trái cây.",
+        "category": "Social & Travel"
       },
       {
         "word": "Apple",
@@ -653,8 +1216,8 @@ const lessonsData = [
         "pronunciation": "/ˈæpəl/",
         "partOfSpeech": "noun",
         "example": "An apple a day.",
-        "exampleMeaning": "Một quả táo mỗi ngày.",
-        "category": "Food"
+        "exampleMeaning": "Ví dụ về quả táo.",
+        "category": "Social & Travel"
       },
       {
         "word": "Bread",
@@ -662,8 +1225,35 @@ const lessonsData = [
         "pronunciation": "/bred/",
         "partOfSpeech": "noun",
         "example": "Fresh bread for breakfast.",
-        "exampleMeaning": "Bánh mì tươi cho bữa sáng.",
-        "category": "Food"
+        "exampleMeaning": "Ví dụ về bánh mì.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Rice",
+        "meaning": "Cơm, gạo",
+        "pronunciation": "/raɪs/",
+        "partOfSpeech": "noun",
+        "example": "Eat rice for lunch.",
+        "exampleMeaning": "Ví dụ về cơm, gạo.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Meat",
+        "meaning": "Thịt",
+        "pronunciation": "/miːt/",
+        "partOfSpeech": "noun",
+        "example": "Grilled meat and vegetables.",
+        "exampleMeaning": "Ví dụ về thịt.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Fish",
+        "meaning": "Cá",
+        "pronunciation": "/fɪʃ/",
+        "partOfSpeech": "noun",
+        "example": "Fresh seafood fish.",
+        "exampleMeaning": "Ví dụ về cá.",
+        "category": "Social & Travel"
       },
       {
         "word": "Menu",
@@ -671,8 +1261,8 @@ const lessonsData = [
         "pronunciation": "/ˈmenjuː/",
         "partOfSpeech": "noun",
         "example": "Can I see the menu?",
-        "exampleMeaning": "Cho tôi xem thực đơn nhé?",
-        "category": "Restaurant"
+        "exampleMeaning": "Ví dụ về thực đơn.",
+        "category": "Social & Travel"
       },
       {
         "word": "Size",
@@ -680,48 +1270,111 @@ const lessonsData = [
         "pronunciation": "/saɪz/",
         "partOfSpeech": "noun",
         "example": "Medium size, please.",
-        "exampleMeaning": "Cỡ vừa làm ơn.",
-        "category": "Restaurant"
+        "exampleMeaning": "Ví dụ về kích cỡ.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Cup",
+        "meaning": "Tách, cốc",
+        "pronunciation": "/kʌp/",
+        "partOfSpeech": "noun",
+        "example": "A cup of coffee.",
+        "exampleMeaning": "Ví dụ về tách, cốc.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Glass",
+        "meaning": "Ly thủy tinh",
+        "pronunciation": "/ɡlæs/",
+        "partOfSpeech": "noun",
+        "example": "A glass of water.",
+        "exampleMeaning": "Ví dụ về ly thủy tinh.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Bottle",
+        "meaning": "Chai nước",
+        "pronunciation": "/ˈbɑːtl/",
+        "partOfSpeech": "noun",
+        "example": "A bottle of mineral water.",
+        "exampleMeaning": "Ví dụ về chai nước.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Sugar",
+        "meaning": "Đường ngọt",
+        "pronunciation": "/ˈʃʊɡər/",
+        "partOfSpeech": "noun",
+        "example": "Coffee without sugar.",
+        "exampleMeaning": "Ví dụ về đường ngọt.",
+        "category": "Social & Travel"
       },
       {
         "word": "Bill",
-        "meaning": "Hóa đơn",
+        "meaning": "Hóa đơn tính tiền",
         "pronunciation": "/bɪl/",
         "partOfSpeech": "noun",
         "example": "Can I have the bill?",
-        "exampleMeaning": "Cho tôi xin hóa đơn nhé?",
-        "category": "Restaurant"
+        "exampleMeaning": "Ví dụ về hóa đơn tính tiền.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Order",
+        "meaning": "Gọi món, đặt hàng",
+        "pronunciation": "/ˈɔːrdər/",
+        "partOfSpeech": "verb",
+        "example": "Are you ready to order?",
+        "exampleMeaning": "Ví dụ về gọi món, đặt hàng.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Delicious",
+        "meaning": "Thơm ngon",
+        "pronunciation": "/dɪˈlɪʃəs/",
+        "partOfSpeech": "adjective",
+        "example": "This cake is delicious.",
+        "exampleMeaning": "Ví dụ về thơm ngon.",
+        "category": "Social & Travel"
+      },
+      {
+        "word": "Hungry",
+        "meaning": "Đói bụng",
+        "pronunciation": "/ˈhʌŋɡri/",
+        "partOfSpeech": "adjective",
+        "example": "I am very hungry now.",
+        "exampleMeaning": "Ví dụ về đói bụng.",
+        "category": "Social & Travel"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Gọi món lịch sự với 'I would like' (I'd like)",
-        "explanation": "Dùng I would like hoặc I'd like để thể hiện sự lịch thiệp khi gọi món.",
-        "formula": "I'd like + a/an/some + [Món], please.",
-        "examples": "[{\"en\": \"I'd like a coffee, please.\", \"vi\": \"Cho tôi một ly cà phê nhé.\"}]"
+        "title": "Ngữ pháp trọng tâm: Food, Drinks & Coffee Shop",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Food, Drinks & Coffee Shop.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Food, Drinks & Coffee Shop.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "At the Cafe",
-        "transcript": "Hello! I'd like an iced coffee, please. What size? Medium, please.",
-        "questions": "[{\"question\": \"What drink does the customer order?\", \"options\": [\"Iced coffee\", \"Hot tea\", \"Milk\", \"Water\"], \"correctAnswer\": \"Iced coffee\", \"explanation\": \"I'd like an iced coffee.\"}]"
+        "title": "Luyện nghe chủ đề Food, Drinks & Coffee Shop",
+        "transcript": "Hello, welcome to our lesson on Food, Drinks & Coffee Shop. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Food, Drinks & Coffee Shop\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Food, Drinks & Coffee Shop\", \"explanation\": \"Chủ đề nghe: Food, Drinks & Coffee Shop.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "At Coffee Shop",
-        "context": "Gọi đồ uống tại quán cà phê.",
-        "dialogue": "[{\"speaker\": \"Waiter\", \"text\": \"Hello, what would you like?\", \"meaning\": \"Xin chào, bạn muốn dùng gì ạ?\"}, {\"speaker\": \"Customer\", \"text\": \"I'd like a coffee, please.\", \"meaning\": \"Cho tôi một ly cà phê nhé.\"}]"
+        "title": "Hội thoại giao tiếp Food, Drinks & Coffee Shop",
+        "context": "Tình huống trò chuyện về Food, Drinks & Coffee Shop.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Food, Drinks & Coffee Shop.\", \"meaning\": \"Hãy nói về Food, Drinks & Coffee Shop nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Cách gọi món lịch sự nhất là:",
-        "options": "[\"I'd like a coffee, please\", \"Give me coffee\", \"Coffee now\", \"I want coffee\"]",
-        "correctAnswer": "I'd like a coffee, please",
-        "explanation": "I'd like + món, please."
+        "question": "Từ vựng tiêu biểu của chủ đề Food, Drinks & Coffee Shop là:",
+        "options": "[\"Coffee\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Coffee",
+        "explanation": "Coffee thuộc chủ đề Food, Drinks & Coffee Shop."
       }
     ],
     "quizzes": [
@@ -729,31 +1382,61 @@ const lessonsData = [
         "question": "Bill nghĩa là:",
         "options": "[\"Hóa đơn\", \"Thực đơn\", \"Đồ uống\", \"Bàn ăn\"]",
         "correctAnswer": "Hóa đơn",
-        "explanation": "Bill = Hóa đơn."
+        "explanation": "Đáp án đúng là: Hóa đơn."
       },
       {
         "question": "Kích cỡ Medium là:",
         "options": "[\"Vừa\", \"Nhỏ\", \"Lớn\", \"Rất lớn\"]",
         "correctAnswer": "Vừa",
-        "explanation": "Medium = Vừa."
+        "explanation": "Đáp án đúng là: Vừa."
       },
       {
         "question": "Apple là:",
         "options": "[\"Quả táo\", \"Quả chuối\", \"Quả cam\", \"Quả nho\"]",
         "correctAnswer": "Quả táo",
-        "explanation": "Apple = Quả táo."
+        "explanation": "Đáp án đúng là: Quả táo."
       },
       {
         "question": "Anything else? nghĩa là:",
         "options": "[\"Còn gì nữa không?\", \"Bao nhiêu tiền?\", \"Đi đâu đấy?\", \"Ngon không?\"]",
         "correctAnswer": "Còn gì nữa không?",
-        "explanation": "Anything else? = Còn gì nữa không?"
+        "explanation": "Đáp án đúng là: Còn gì nữa không?."
       },
       {
-        "question": "Xin hóa đơn tính tiền:",
+        "question": "Xin hóa đơn:",
         "options": "[\"Can I have the bill, please?\", \"Give money\", \"Bill now\", \"Table please\"]",
         "correctAnswer": "Can I have the bill, please?",
-        "explanation": "Can I have the bill, please?"
+        "explanation": "Đáp án đúng là: Can I have the bill, please?."
+      },
+      {
+        "question": "Milk nghĩa là:",
+        "options": "[\"Sữa\", \"Trà\", \"Cà phê\", \"Nước lọc\"]",
+        "correctAnswer": "Sữa",
+        "explanation": "Đáp án đúng là: Sữa."
+      },
+      {
+        "question": "Delicious nghĩa là:",
+        "options": "[\"Thơm ngon\", \"Cay\", \"Đắng\", \"Dở tệ\"]",
+        "correctAnswer": "Thơm ngon",
+        "explanation": "Đáp án đúng là: Thơm ngon."
+      },
+      {
+        "question": "Hungry nghĩa là:",
+        "options": "[\"Đói bụng\", \"No nê\", \"Khát nước\", \"Mệt mỏi\"]",
+        "correctAnswer": "Đói bụng",
+        "explanation": "Đáp án đúng là: Đói bụng."
+      },
+      {
+        "question": "Cup of tea là:",
+        "options": "[\"Tách trà\", \"Chai trà\", \"Ly nước\", \"Ấm nước\"]",
+        "correctAnswer": "Tách trà",
+        "explanation": "Đáp án đúng là: Tách trà."
+      },
+      {
+        "question": "Order món nghĩa là:",
+        "options": "[\"Gọi món\", \"Trả tiền\", \"Nấu ăn\", \"Dọn dẹp\"]",
+        "correctAnswer": "Gọi món",
+        "explanation": "Đáp án đúng là: Gọi món."
       }
     ]
   },
@@ -763,7 +1446,7 @@ const lessonsData = [
     "description": "Khám phá các sắc màu cơ bản và trang phục mặc hàng ngày, cách miêu tả diện mạo bên ngoài.",
     "level": "A1",
     "category": "Daily Life",
-    "durationMinutes": 18,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Red",
@@ -771,8 +1454,8 @@ const lessonsData = [
         "pronunciation": "/red/",
         "partOfSpeech": "adjective",
         "example": "She wears a red dress.",
-        "exampleMeaning": "Cô ấy mặc chiếc váy đỏ.",
-        "category": "Colors"
+        "exampleMeaning": "Ví dụ về màu đỏ.",
+        "category": "Daily Life"
       },
       {
         "word": "Blue",
@@ -780,8 +1463,8 @@ const lessonsData = [
         "pronunciation": "/bluː/",
         "partOfSpeech": "adjective",
         "example": "The clear blue sky.",
-        "exampleMeaning": "Bầu trời trong xanh.",
-        "category": "Colors"
+        "exampleMeaning": "Ví dụ về màu xanh dương.",
+        "category": "Daily Life"
       },
       {
         "word": "Green",
@@ -789,8 +1472,8 @@ const lessonsData = [
         "pronunciation": "/ɡriːn/",
         "partOfSpeech": "adjective",
         "example": "Green leaves on the tree.",
-        "exampleMeaning": "Lá xanh trên cây.",
-        "category": "Colors"
+        "exampleMeaning": "Ví dụ về màu xanh lá cây.",
+        "category": "Daily Life"
       },
       {
         "word": "Yellow",
@@ -798,8 +1481,8 @@ const lessonsData = [
         "pronunciation": "/ˈjeloʊ/",
         "partOfSpeech": "adjective",
         "example": "A bright yellow sun.",
-        "exampleMeaning": "Mặt trời vàng rực rỡ.",
-        "category": "Colors"
+        "exampleMeaning": "Ví dụ về màu vàng.",
+        "category": "Daily Life"
       },
       {
         "word": "Black",
@@ -807,8 +1490,8 @@ const lessonsData = [
         "pronunciation": "/blæk/",
         "partOfSpeech": "adjective",
         "example": "He wears a black jacket.",
-        "exampleMeaning": "Anh ấy mặc áo khoác đen.",
-        "category": "Colors"
+        "exampleMeaning": "Ví dụ về màu đen.",
+        "category": "Daily Life"
       },
       {
         "word": "White",
@@ -816,8 +1499,44 @@ const lessonsData = [
         "pronunciation": "/waɪt/",
         "partOfSpeech": "adjective",
         "example": "A clean white shirt.",
-        "exampleMeaning": "Chiếc áo sơ mi trắng tinh.",
-        "category": "Colors"
+        "exampleMeaning": "Ví dụ về màu trắng.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Orange",
+        "meaning": "Màu cam",
+        "pronunciation": "/ˈɔːrɪndʒ/",
+        "partOfSpeech": "adjective",
+        "example": "An orange sweater.",
+        "exampleMeaning": "Ví dụ về màu cam.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Pink",
+        "meaning": "Màu hồng",
+        "pronunciation": "/pɪŋk/",
+        "partOfSpeech": "adjective",
+        "example": "She loves pink flowers.",
+        "exampleMeaning": "Ví dụ về màu hồng.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Purple",
+        "meaning": "Màu tím",
+        "pronunciation": "/ˈpɜːrpl/",
+        "partOfSpeech": "adjective",
+        "example": "A purple umbrella.",
+        "exampleMeaning": "Ví dụ về màu tím.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Brown",
+        "meaning": "Màu nâu",
+        "pronunciation": "/braʊn/",
+        "partOfSpeech": "adjective",
+        "example": "Brown leather shoes.",
+        "exampleMeaning": "Ví dụ về màu nâu.",
+        "category": "Daily Life"
       },
       {
         "word": "Shirt",
@@ -825,8 +1544,8 @@ const lessonsData = [
         "pronunciation": "/ʃɜːrt/",
         "partOfSpeech": "noun",
         "example": "Iron your shirt.",
-        "exampleMeaning": "Ủi áo sơ mi của bạn.",
-        "category": "Clothes"
+        "exampleMeaning": "Ví dụ về áo sơ mi.",
+        "category": "Daily Life"
       },
       {
         "word": "Pants",
@@ -834,8 +1553,8 @@ const lessonsData = [
         "pronunciation": "/pænts/",
         "partOfSpeech": "noun",
         "example": "These black pants look smart.",
-        "exampleMeaning": "Chiếc quần đen này trông lịch sự.",
-        "category": "Clothes"
+        "exampleMeaning": "Ví dụ về quần dài.",
+        "category": "Daily Life"
       },
       {
         "word": "Shoes",
@@ -843,8 +1562,8 @@ const lessonsData = [
         "pronunciation": "/ʃuːz/",
         "partOfSpeech": "noun",
         "example": "Put on your sports shoes.",
-        "exampleMeaning": "Xỏ giày thể thao vào.",
-        "category": "Clothes"
+        "exampleMeaning": "Ví dụ về đôi giày.",
+        "category": "Daily Life"
       },
       {
         "word": "Dress",
@@ -852,39 +1571,93 @@ const lessonsData = [
         "pronunciation": "/dres/",
         "partOfSpeech": "noun",
         "example": "A pretty floral dress.",
-        "exampleMeaning": "Chiếc váy hoa xinh xắn.",
-        "category": "Clothes"
+        "exampleMeaning": "Ví dụ về váy liền thân.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Hat",
+        "meaning": "Chiếc mũ, nón",
+        "pronunciation": "/hæt/",
+        "partOfSpeech": "noun",
+        "example": "Wear a hat under the sun.",
+        "exampleMeaning": "Ví dụ về chiếc mũ, nón.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Jacket",
+        "meaning": "Áo khoác",
+        "pronunciation": "/ˈdʒækɪt/",
+        "partOfSpeech": "noun",
+        "example": "A warm winter jacket.",
+        "exampleMeaning": "Ví dụ về áo khoác.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Socks",
+        "meaning": "Đôi tất, vớ",
+        "pronunciation": "/sɑːks/",
+        "partOfSpeech": "noun",
+        "example": "Cotton white socks.",
+        "exampleMeaning": "Ví dụ về đôi tất, vớ.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Skirt",
+        "meaning": "Chân váy",
+        "pronunciation": "/skɜːrt/",
+        "partOfSpeech": "noun",
+        "example": "A pleated blue skirt.",
+        "exampleMeaning": "Ví dụ về chân váy.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Coat",
+        "meaning": "Áo choàng dài",
+        "pronunciation": "/koʊt/",
+        "partOfSpeech": "noun",
+        "example": "A heavy winter coat.",
+        "exampleMeaning": "Ví dụ về áo choàng dài.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Belt",
+        "meaning": "Thắt lưng, nịt",
+        "pronunciation": "/belt/",
+        "partOfSpeech": "noun",
+        "example": "A brown leather belt.",
+        "exampleMeaning": "Ví dụ về thắt lưng, nịt.",
+        "category": "Daily Life"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Vị trí của tính từ chỉ màu sắc trước danh từ",
-        "explanation": "Trong tiếng Anh, tính từ chỉ màu sắc luôn đứng TRƯỚC danh từ mà nó miêu tả.",
-        "formula": "a/an + [Color] + [Noun] (VD: a red car, blue shoes)",
-        "examples": "[{\"en\": \"She has a red dress.\", \"vi\": \"Cô ấy có một chiếc váy màu đỏ.\"}]"
+        "title": "Ngữ pháp trọng tâm: Colors & Clothes",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Colors & Clothes.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Colors & Clothes.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Choosing Clothes for the Party",
-        "transcript": "What should I wear tonight? Wear your blue shirt and black pants. They look great together.",
-        "questions": "[{\"question\": \"What color is the shirt?\", \"options\": [\"Blue\", \"Red\", \"White\", \"Yellow\"], \"correctAnswer\": \"Blue\", \"explanation\": \"Transcript: your blue shirt.\"}]"
+        "title": "Luyện nghe chủ đề Colors & Clothes",
+        "transcript": "Hello, welcome to our lesson on Colors & Clothes. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Colors & Clothes\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Colors & Clothes\", \"explanation\": \"Chủ đề nghe: Colors & Clothes.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "At the Clothing Store",
-        "context": "Mua sắm trang phục.",
-        "dialogue": "[{\"speaker\": \"Customer\", \"text\": \"Do you have this shirt in white?\", \"meaning\": \"Bạn có chiếc áo này màu trắng không?\"}, {\"speaker\": \"Seller\", \"text\": \"Yes, we do. Here is a medium size.\", \"meaning\": \"Có ạ. Đây là cỡ vừa cho bạn.\"}]"
+        "title": "Hội thoại giao tiếp Colors & Clothes",
+        "context": "Tình huống trò chuyện về Colors & Clothes.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Colors & Clothes.\", \"meaning\": \"Hãy nói về Colors & Clothes nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Chọn câu đúng ngữ pháp:",
-        "options": "[\"A red shirt\", \"A shirt red\", \"Red a shirt\", \"Shirt a red\"]",
-        "correctAnswer": "A red shirt",
-        "explanation": "Tính từ đứng trước danh từ: A red shirt."
+        "question": "Từ vựng tiêu biểu của chủ đề Colors & Clothes là:",
+        "options": "[\"Red\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Red",
+        "explanation": "Red thuộc chủ đề Colors & Clothes."
       }
     ],
     "quizzes": [
@@ -892,31 +1665,61 @@ const lessonsData = [
         "question": "Màu đỏ là:",
         "options": "[\"Red\", \"Blue\", \"Green\", \"Black\"]",
         "correctAnswer": "Red",
-        "explanation": "Red = Đỏ."
+        "explanation": "Đáp án đúng là: Red."
       },
       {
         "question": "Đôi giày trong tiếng Anh là:",
         "options": "[\"Shoes\", \"Shirt\", \"Pants\", \"Dress\"]",
         "correctAnswer": "Shoes",
-        "explanation": "Shoes = Giày."
+        "explanation": "Đáp án đúng là: Shoes."
       },
       {
         "question": "Yellow nghĩa là:",
         "options": "[\"Màu vàng\", \"Màu xanh\", \"Màu trắng\", \"Màu đen\"]",
         "correctAnswer": "Màu vàng",
-        "explanation": "Yellow = Vàng."
+        "explanation": "Đáp án đúng là: Màu vàng."
       },
       {
         "question": "Áo sơ mi là:",
         "options": "[\"Shirt\", \"Pants\", \"Shoes\", \"Hat\"]",
         "correctAnswer": "Shirt",
-        "explanation": "Shirt = Áo sơ mi."
+        "explanation": "Đáp án đúng là: Shirt."
       },
       {
-        "question": "Trắng trong tiếng Anh là:",
-        "options": "[\"White\", \"Black\", \"Pink\", \"Brown\"]",
-        "correctAnswer": "White",
-        "explanation": "White = Trắng."
+        "question": "White nghĩa là:",
+        "options": "[\"Màu trắng\", \"Màu đen\", \"Màu hồng\", \"Màu nâu\"]",
+        "correctAnswer": "Màu trắng",
+        "explanation": "Đáp án đúng là: Màu trắng."
+      },
+      {
+        "question": "Hat nghĩa là:",
+        "options": "[\"Chiếc mũ\", \"Chiếc áo\", \"Đôi giày\", \"Cái quần\"]",
+        "correctAnswer": "Chiếc mũ",
+        "explanation": "Đáp án đúng là: Chiếc mũ."
+      },
+      {
+        "question": "Jacket là:",
+        "options": "[\"Áo khoác\", \"Áo sơ mi\", \"Chân váy\", \"Đôi vớ\"]",
+        "correctAnswer": "Áo khoác",
+        "explanation": "Đáp án đúng là: Áo khoác."
+      },
+      {
+        "question": "Green nghĩa là:",
+        "options": "[\"Màu xanh lá\", \"Màu đỏ\", \"Màu vàng\", \"Màu tím\"]",
+        "correctAnswer": "Màu xanh lá",
+        "explanation": "Đáp án đúng là: Màu xanh lá."
+      },
+      {
+        "question": "Blue nghĩa là:",
+        "options": "[\"Màu xanh dương\", \"Màu cam\", \"Màu đen\", \"Màu nâu\"]",
+        "correctAnswer": "Màu xanh dương",
+        "explanation": "Đáp án đúng là: Màu xanh dương."
+      },
+      {
+        "question": "Pants nghĩa là:",
+        "options": "[\"Quần dài\", \"Áo sơ mi\", \"Đôi giày\", \"Váy\"]",
+        "correctAnswer": "Quần dài",
+        "explanation": "Đáp án đúng là: Quần dài."
       }
     ]
   },
@@ -934,7 +1737,7 @@ const lessonsData = [
         "pronunciation": "/ˌendʒɪˈnɪr/",
         "partOfSpeech": "noun",
         "example": "He is a software engineer.",
-        "exampleMeaning": "Anh ấy là kỹ sư phần mềm.",
+        "exampleMeaning": "Ví dụ về kỹ sư.",
         "category": "Jobs"
       },
       {
@@ -943,7 +1746,7 @@ const lessonsData = [
         "pronunciation": "/ʃef/",
         "partOfSpeech": "noun",
         "example": "The chef cooks great food.",
-        "exampleMeaning": "Đầu bếp nấu ăn rất ngon.",
+        "exampleMeaning": "Ví dụ về đầu bếp.",
         "category": "Jobs"
       },
       {
@@ -952,7 +1755,7 @@ const lessonsData = [
         "pronunciation": "/nɜːrs/",
         "partOfSpeech": "noun",
         "example": "The nurse helps the sick.",
-        "exampleMeaning": "Y tá chăm sóc người bệnh.",
+        "exampleMeaning": "Ví dụ về y tá, điều dưỡng.",
         "category": "Jobs"
       },
       {
@@ -961,7 +1764,7 @@ const lessonsData = [
         "pronunciation": "/pəˈliːs/",
         "partOfSpeech": "noun",
         "example": "Call the police officer.",
-        "exampleMeaning": "Hãy gọi cảnh sát.",
+        "exampleMeaning": "Ví dụ về cảnh sát.",
         "category": "Jobs"
       },
       {
@@ -970,7 +1773,7 @@ const lessonsData = [
         "pronunciation": "/ˈdraɪvər/",
         "partOfSpeech": "noun",
         "example": "A friendly taxi driver.",
-        "exampleMeaning": "Một tài xế taxi thân thiện.",
+        "exampleMeaning": "Ví dụ về tài xế, người lái xe.",
         "category": "Jobs"
       },
       {
@@ -979,7 +1782,7 @@ const lessonsData = [
         "pronunciation": "/ˈwɜːrkər/",
         "partOfSpeech": "noun",
         "example": "Hard-working factory workers.",
-        "exampleMeaning": "Những công nhân nhà máy chăm chỉ.",
+        "exampleMeaning": "Ví dụ về công nhân.",
         "category": "Jobs"
       },
       {
@@ -988,7 +1791,34 @@ const lessonsData = [
         "pronunciation": "/ˈɑːrtɪst/",
         "partOfSpeech": "noun",
         "example": "She is an oil painting artist.",
-        "exampleMeaning": "Cô ấy là một họa sĩ sơn dầu.",
+        "exampleMeaning": "Ví dụ về họa sĩ, nghệ sĩ.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Manager",
+        "meaning": "Người quản lý",
+        "pronunciation": "/ˈmænɪdʒər/",
+        "partOfSpeech": "noun",
+        "example": "Speak with the hotel manager.",
+        "exampleMeaning": "Ví dụ về người quản lý.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Lawyer",
+        "meaning": "Luật sư",
+        "pronunciation": "/ˈlɔːjər/",
+        "partOfSpeech": "noun",
+        "example": "Ask advice from a lawyer.",
+        "exampleMeaning": "Ví dụ về luật sư.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Pilot",
+        "meaning": "Phi công",
+        "pronunciation": "/ˈpaɪlət/",
+        "partOfSpeech": "noun",
+        "example": "The pilot flies an airplane.",
+        "exampleMeaning": "Ví dụ về phi công.",
         "category": "Jobs"
       },
       {
@@ -997,8 +1827,8 @@ const lessonsData = [
         "pronunciation": "/ˈɔːfɪs/",
         "partOfSpeech": "noun",
         "example": "I work in an office.",
-        "exampleMeaning": "Tôi làm việc ở văn phòng.",
-        "category": "Workplace"
+        "exampleMeaning": "Ví dụ về văn phòng làm việc.",
+        "category": "Jobs"
       },
       {
         "word": "Hospital",
@@ -1006,8 +1836,35 @@ const lessonsData = [
         "pronunciation": "/ˈhɑːspɪtl/",
         "partOfSpeech": "noun",
         "example": "Doctors work at a hospital.",
-        "exampleMeaning": "Bác sĩ làm việc tại bệnh viện.",
-        "category": "Workplace"
+        "exampleMeaning": "Ví dụ về bệnh viện.",
+        "category": "Jobs"
+      },
+      {
+        "word": "School",
+        "meaning": "Trường học",
+        "pronunciation": "/skuːl/",
+        "partOfSpeech": "noun",
+        "example": "Teachers work in a school.",
+        "exampleMeaning": "Ví dụ về trường học.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Company",
+        "meaning": "Công ty",
+        "pronunciation": "/ˈkʌmpəni/",
+        "partOfSpeech": "noun",
+        "example": "A global tech company.",
+        "exampleMeaning": "Ví dụ về công ty.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Factory",
+        "meaning": "Nhà máy, xưởng",
+        "pronunciation": "/ˈfæktri/",
+        "partOfSpeech": "noun",
+        "example": "An automobile factory.",
+        "exampleMeaning": "Ví dụ về nhà máy, xưởng.",
+        "category": "Jobs"
       },
       {
         "word": "Work",
@@ -1015,39 +1872,75 @@ const lessonsData = [
         "pronunciation": "/wɜːrk/",
         "partOfSpeech": "verb",
         "example": "I work five days a week.",
-        "exampleMeaning": "Tôi làm việc 5 ngày một tuần.",
+        "exampleMeaning": "Ví dụ về làm việc.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Job",
+        "meaning": "Nghề nghiệp, công việc",
+        "pronunciation": "/dʒɑːb/",
+        "partOfSpeech": "noun",
+        "example": "Find a good job.",
+        "exampleMeaning": "Ví dụ về nghề nghiệp, công việc.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Salary",
+        "meaning": "Tiền lương",
+        "pronunciation": "/ˈsæləri/",
+        "partOfSpeech": "noun",
+        "example": "A monthly salary.",
+        "exampleMeaning": "Ví dụ về tiền lương.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Career",
+        "meaning": "Sự nghiệp",
+        "pronunciation": "/kəˈrɪr/",
+        "partOfSpeech": "noun",
+        "example": "Build a successful career.",
+        "exampleMeaning": "Ví dụ về sự nghiệp.",
+        "category": "Jobs"
+      },
+      {
+        "word": "Colleague",
+        "meaning": "Đồng nghiệp",
+        "pronunciation": "/ˈkɑːliːɡ/",
+        "partOfSpeech": "noun",
+        "example": "Friendly office colleagues.",
+        "exampleMeaning": "Ví dụ về đồng nghiệp.",
         "category": "Jobs"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi nghề nghiệp với 'What do you do?'",
-        "explanation": "Câu hỏi tiêu chuẩn về nghề nghiệp: What do you do? hoặc What is your job? Trả lời bằng I am a/an + [Nghề].",
-        "formula": "What do you do? -> I am a/an + [Job].",
-        "examples": "[{\"en\": \"What do you do? - I am an engineer.\", \"vi\": \"Bạn làm nghề gì? - Tôi là kỹ sư.\"}]"
+        "title": "Ngữ pháp trọng tâm: Jobs & Occupations",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Jobs & Occupations.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Jobs & Occupations.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Career Day",
-        "transcript": "Hello, my brother is an engineer and my sister is a nurse. They both love their jobs.",
-        "questions": "[{\"question\": \"What is his sister's job?\", \"options\": [\"Nurse\", \"Doctor\", \"Teacher\", \"Engineer\"], \"correctAnswer\": \"Nurse\", \"explanation\": \"Transcript: my sister is a nurse.\"}]"
+        "title": "Luyện nghe chủ đề Jobs & Occupations",
+        "transcript": "Hello, welcome to our lesson on Jobs & Occupations. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Jobs & Occupations\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Jobs & Occupations\", \"explanation\": \"Chủ đề nghe: Jobs & Occupations.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Meeting New People",
-        "context": "Hỏi về công việc của nhau.",
-        "dialogue": "[{\"speaker\": \"David\", \"text\": \"What do you do, Sarah?\", \"meaning\": \"Bạn làm nghề gì vậy Sarah?\"}, {\"speaker\": \"Sarah\", \"text\": \"I am a teacher at an international school.\", \"meaning\": \"Mình là giáo viên ở một trường quốc tế.\"}]"
+        "title": "Hội thoại giao tiếp Jobs & Occupations",
+        "context": "Tình huống trò chuyện về Jobs & Occupations.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Jobs & Occupations.\", \"meaning\": \"Hãy nói về Jobs & Occupations nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
-        "type": "FILL_BLANK",
-        "question": "What _____ you do? - I am a driver.",
-        "options": "[\"do\", \"are\", \"is\", \"have\"]",
-        "correctAnswer": "do",
-        "explanation": "What do you do?"
+        "type": "MULTIPLE_CHOICE",
+        "question": "Từ vựng tiêu biểu của chủ đề Jobs & Occupations là:",
+        "options": "[\"Engineer\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Engineer",
+        "explanation": "Engineer thuộc chủ đề Jobs & Occupations."
       }
     ],
     "quizzes": [
@@ -1055,31 +1948,61 @@ const lessonsData = [
         "question": "Engineer nghĩa là:",
         "options": "[\"Kỹ sư\", \"Bác sĩ\", \"Y tá\", \"Công nhân\"]",
         "correctAnswer": "Kỹ sư",
-        "explanation": "Engineer = Kỹ sư."
+        "explanation": "Đáp án đúng là: Kỹ sư."
       },
       {
         "question": "Đầu bếp là:",
         "options": "[\"Chef\", \"Driver\", \"Nurse\", \"Teacher\"]",
         "correctAnswer": "Chef",
-        "explanation": "Chef = Đầu bếp."
+        "explanation": "Đáp án đúng là: Chef."
       },
       {
         "question": "Hospital nghĩa là:",
         "options": "[\"Bệnh viện\", \"Trường học\", \"Văn phòng\", \"Khách sạn\"]",
         "correctAnswer": "Bệnh viện",
-        "explanation": "Hospital = Bệnh viện."
+        "explanation": "Đáp án đúng là: Bệnh viện."
       },
       {
-        "question": "I am ___ artist. (Chọn mạo từ đúng)",
+        "question": "I am ___ artist.",
         "options": "[\"an\", \"a\", \"the\", \"one\"]",
         "correctAnswer": "an",
-        "explanation": "Artist bắt đầu bằng nguyên âm A -> an artist."
+        "explanation": "Đáp án đúng là: an."
       },
       {
         "question": "Câu hỏi nghề nghiệp đúng:",
         "options": "[\"What do you do?\", \"What are you do?\", \"Where do you do?\", \"Who do you do?\"]",
         "correctAnswer": "What do you do?",
-        "explanation": "What do you do? = Bạn làm nghề gì?"
+        "explanation": "Đáp án đúng là: What do you do?."
+      },
+      {
+        "question": "Pilot là:",
+        "options": "[\"Phi công\", \"Tài xế\", \"Kỹ sư\", \"Luật sư\"]",
+        "correctAnswer": "Phi công",
+        "explanation": "Đáp án đúng là: Phi công."
+      },
+      {
+        "question": "Lawyer nghĩa là:",
+        "options": "[\"Luật sư\", \"Bác sĩ\", \"Thầy giáo\", \"Y tá\"]",
+        "correctAnswer": "Luật sư",
+        "explanation": "Đáp án đúng là: Luật sư."
+      },
+      {
+        "question": "Manager là:",
+        "options": "[\"Người quản lý\", \"Công nhân\", \"Học sinh\", \"Khách hàng\"]",
+        "correctAnswer": "Người quản lý",
+        "explanation": "Đáp án đúng là: Người quản lý."
+      },
+      {
+        "question": "Colleague nghĩa là:",
+        "options": "[\"Đồng nghiệp\", \"Bạn bè\", \"Bố mẹ\", \"Khách hàng\"]",
+        "correctAnswer": "Đồng nghiệp",
+        "explanation": "Đáp án đúng là: Đồng nghiệp."
+      },
+      {
+        "question": "Nơi làm việc của bác sĩ:",
+        "options": "[\"Hospital\", \"School\", \"Kitchen\", \"Airport\"]",
+        "correctAnswer": "Hospital",
+        "explanation": "Đáp án đúng là: Hospital."
       }
     ]
   },
@@ -1097,7 +2020,16 @@ const lessonsData = [
         "pronunciation": "/haʊs/",
         "partOfSpeech": "noun",
         "example": "They live in a big house.",
-        "exampleMeaning": "Họ sống trong một ngôi nhà lớn.",
+        "exampleMeaning": "Ví dụ về ngôi nhà.",
+        "category": "Home"
+      },
+      {
+        "word": "Home",
+        "meaning": "Tổ ấm, nhà",
+        "pronunciation": "/hoʊm/",
+        "partOfSpeech": "noun",
+        "example": "Welcome home!",
+        "exampleMeaning": "Ví dụ về tổ ấm, nhà.",
         "category": "Home"
       },
       {
@@ -1106,7 +2038,7 @@ const lessonsData = [
         "pronunciation": "/ˈlɪvɪŋ ruːm/",
         "partOfSpeech": "noun",
         "example": "We watch TV in the living room.",
-        "exampleMeaning": "Chúng tôi xem TV ở phòng khách.",
+        "exampleMeaning": "Ví dụ về phòng khách.",
         "category": "Home"
       },
       {
@@ -1115,7 +2047,7 @@ const lessonsData = [
         "pronunciation": "/ˈbedruːm/",
         "partOfSpeech": "noun",
         "example": "My bedroom has a big bed.",
-        "exampleMeaning": "Phòng ngủ tôi có một chiếc giường lớn.",
+        "exampleMeaning": "Ví dụ về phòng ngủ.",
         "category": "Home"
       },
       {
@@ -1124,7 +2056,7 @@ const lessonsData = [
         "pronunciation": "/ˈkɪtʃɪn/",
         "partOfSpeech": "noun",
         "example": "Cooking in the clean kitchen.",
-        "exampleMeaning": "Nấu ăn trong gian bếp sạch sẽ.",
+        "exampleMeaning": "Ví dụ về nhà bếp.",
         "category": "Home"
       },
       {
@@ -1133,7 +2065,25 @@ const lessonsData = [
         "pronunciation": "/ˈbæθruːm/",
         "partOfSpeech": "noun",
         "example": "Wash hands in the bathroom.",
-        "exampleMeaning": "Rửa tay trong phòng tắm.",
+        "exampleMeaning": "Ví dụ về phòng tắm.",
+        "category": "Home"
+      },
+      {
+        "word": "Garden",
+        "meaning": "Khu vườn",
+        "pronunciation": "/ˈɡɑːrdn/",
+        "partOfSpeech": "noun",
+        "example": "Flowers in the garden.",
+        "exampleMeaning": "Ví dụ về khu vườn.",
+        "category": "Home"
+      },
+      {
+        "word": "Balcony",
+        "meaning": "Ban công",
+        "pronunciation": "/ˈbælkəni/",
+        "partOfSpeech": "noun",
+        "example": "Stand on the balcony.",
+        "exampleMeaning": "Ví dụ về ban công.",
         "category": "Home"
       },
       {
@@ -1142,8 +2092,8 @@ const lessonsData = [
         "pronunciation": "/ˈteɪbl/",
         "partOfSpeech": "noun",
         "example": "Books are on the table.",
-        "exampleMeaning": "Sách ở trên bàn.",
-        "category": "Furniture"
+        "exampleMeaning": "Ví dụ về cái bàn.",
+        "category": "Home"
       },
       {
         "word": "Chair",
@@ -1151,8 +2101,8 @@ const lessonsData = [
         "pronunciation": "/tʃer/",
         "partOfSpeech": "noun",
         "example": "Sit on this wooden chair.",
-        "exampleMeaning": "Ngồi lên chiếc ghế gỗ này.",
-        "category": "Furniture"
+        "exampleMeaning": "Ví dụ về cái ghế.",
+        "category": "Home"
       },
       {
         "word": "Bed",
@@ -1160,8 +2110,8 @@ const lessonsData = [
         "pronunciation": "/bed/",
         "partOfSpeech": "noun",
         "example": "Time to go to bed.",
-        "exampleMeaning": "Đến giờ đi ngủ rồi.",
-        "category": "Furniture"
+        "exampleMeaning": "Ví dụ về chiếc giường.",
+        "category": "Home"
       },
       {
         "word": "Door",
@@ -1169,8 +2119,8 @@ const lessonsData = [
         "pronunciation": "/dɔːr/",
         "partOfSpeech": "noun",
         "example": "Please close the front door.",
-        "exampleMeaning": "Làm ơn đóng cửa chính lại.",
-        "category": "Furniture"
+        "exampleMeaning": "Ví dụ về cửa ra vào.",
+        "category": "Home"
       },
       {
         "word": "Window",
@@ -1178,39 +2128,102 @@ const lessonsData = [
         "pronunciation": "/ˈwɪndoʊ/",
         "partOfSpeech": "noun",
         "example": "Open the window for fresh air.",
-        "exampleMeaning": "Mở cửa sổ cho thoáng khí.",
-        "category": "Furniture"
+        "exampleMeaning": "Ví dụ về cửa sổ.",
+        "category": "Home"
+      },
+      {
+        "word": "Sofa",
+        "meaning": "Ghế sofa",
+        "pronunciation": "/ˈsoʊfə/",
+        "partOfSpeech": "noun",
+        "example": "Rest on the soft sofa.",
+        "exampleMeaning": "Ví dụ về ghế sofa.",
+        "category": "Home"
+      },
+      {
+        "word": "Desk",
+        "meaning": "Bàn làm việc/học",
+        "pronunciation": "/desk/",
+        "partOfSpeech": "noun",
+        "example": "A study desk with lamp.",
+        "exampleMeaning": "Ví dụ về bàn làm việc/học.",
+        "category": "Home"
+      },
+      {
+        "word": "Lamp",
+        "meaning": "Đèn bàn",
+        "pronunciation": "/læmp/",
+        "partOfSpeech": "noun",
+        "example": "Turn on the reading lamp.",
+        "exampleMeaning": "Ví dụ về đèn bàn.",
+        "category": "Home"
+      },
+      {
+        "word": "Mirror",
+        "meaning": "Gương soi",
+        "pronunciation": "/ˈmɪrər/",
+        "partOfSpeech": "noun",
+        "example": "Look into the mirror.",
+        "exampleMeaning": "Ví dụ về gương soi.",
+        "category": "Home"
+      },
+      {
+        "word": "Floor",
+        "meaning": "Sàn nhà, tầng",
+        "pronunciation": "/flɔːr/",
+        "partOfSpeech": "noun",
+        "example": "Clean the wooden floor.",
+        "exampleMeaning": "Ví dụ về sàn nhà, tầng.",
+        "category": "Home"
+      },
+      {
+        "word": "Wall",
+        "meaning": "Bức tường",
+        "pronunciation": "/wɔːl/",
+        "partOfSpeech": "noun",
+        "example": "Paint the wall white.",
+        "exampleMeaning": "Ví dụ về bức tường.",
+        "category": "Home"
+      },
+      {
+        "word": "Roof",
+        "meaning": "Mái nhà",
+        "pronunciation": "/ruːf/",
+        "partOfSpeech": "noun",
+        "example": "Rain on the roof.",
+        "exampleMeaning": "Ví dụ về mái nhà.",
+        "category": "Home"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc 'There is' và 'There are'",
-        "explanation": "Dùng There is cho danh từ số ít hoặc không đếm được. Dùng There are cho danh từ số nhiều.",
-        "formula": "There is + a/an + N (số ít) | There are + Ns (số nhiều)",
-        "examples": "[{\"en\": \"There is a table in the room.\", \"vi\": \"Có một cái bàn trong phòng.\"}, {\"en\": \"There are two chairs here.\", \"vi\": \"Có hai cái ghế ở đây.\"}]"
+        "title": "Ngữ pháp trọng tâm: Home & Furniture",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Home & Furniture.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Home & Furniture.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Welcome to my home",
-        "transcript": "Welcome! In my house, there are three bedrooms and a lovely kitchen. Make yourself at home.",
-        "questions": "[{\"question\": \"How many bedrooms are there?\", \"options\": [\"Two\", \"Three\", \"Four\", \"One\"], \"correctAnswer\": \"Three\", \"explanation\": \"Transcript: three bedrooms.\"}]"
+        "title": "Luyện nghe chủ đề Home & Furniture",
+        "transcript": "Hello, welcome to our lesson on Home & Furniture. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Home & Furniture\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Home & Furniture\", \"explanation\": \"Chủ đề nghe: Home & Furniture.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "House Tour",
-        "context": "Dẫn bạn tham quan nhà mới.",
-        "dialogue": "[{\"speaker\": \"Ben\", \"text\": \"Your living room is so cozy!\", \"meaning\": \"Phòng khách nhà bạn ấm cúng quá!\"}, {\"speaker\": \"Lucy\", \"text\": \"Thank you! There is a balcony outside too.\", \"meaning\": \"Cảm ơn bạn! Bên ngoài còn có ban công nữa.\"}]"
+        "title": "Hội thoại giao tiếp Home & Furniture",
+        "context": "Tình huống trò chuyện về Home & Furniture.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Home & Furniture.\", \"meaning\": \"Hãy nói về Home & Furniture nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Chọn từ đúng: There ___ two chairs in the kitchen.",
-        "options": "[\"is\", \"are\", \"am\", \"be\"]",
-        "correctAnswer": "are",
-        "explanation": "Two chairs là số nhiều -> There are."
+        "question": "Từ vựng tiêu biểu của chủ đề Home & Furniture là:",
+        "options": "[\"House\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "House",
+        "explanation": "House thuộc chủ đề Home & Furniture."
       }
     ],
     "quizzes": [
@@ -1218,31 +2231,61 @@ const lessonsData = [
         "question": "Kitchen nghĩa là:",
         "options": "[\"Nhà bếp\", \"Phòng khách\", \"Phòng ngủ\", \"Phòng tắm\"]",
         "correctAnswer": "Nhà bếp",
-        "explanation": "Kitchen = Nhà bếp."
+        "explanation": "Đáp án đúng là: Nhà bếp."
       },
       {
         "question": "There ___ a book on the table.",
         "options": "[\"is\", \"are\", \"am\", \"be\"]",
         "correctAnswer": "is",
-        "explanation": "A book số ít -> There is."
+        "explanation": "Đáp án đúng là: is."
       },
       {
-        "question": "Cái ghế trong tiếng Anh là:",
+        "question": "Cái ghế là:",
         "options": "[\"Chair\", \"Table\", \"Bed\", \"Door\"]",
         "correctAnswer": "Chair",
-        "explanation": "Chair = Ghế."
+        "explanation": "Đáp án đúng là: Chair."
       },
       {
         "question": "Bedroom là phòng gì?",
         "options": "[\"Phòng ngủ\", \"Phòng khách\", \"Nhà bếp\", \"Sân vườn\"]",
         "correctAnswer": "Phòng ngủ",
-        "explanation": "Bedroom = Phòng ngủ."
+        "explanation": "Đáp án đúng là: Phòng ngủ."
       },
       {
         "question": "Window nghĩa là:",
         "options": "[\"Cửa sổ\", \"Cửa chính\", \"Bức tường\", \"Mái nhà\"]",
         "correctAnswer": "Cửa sổ",
-        "explanation": "Window = Cửa sổ."
+        "explanation": "Đáp án đúng là: Cửa sổ."
+      },
+      {
+        "question": "Sofa là:",
+        "options": "[\"Ghế bành, sofa\", \"Bàn ăn\", \"Chiếc giường\", \"Tủ quần áo\"]",
+        "correctAnswer": "Ghế bành, sofa",
+        "explanation": "Đáp án đúng là: Ghế bành, sofa."
+      },
+      {
+        "question": "Garden nghĩa là:",
+        "options": "[\"Khu vườn\", \"Nhà bếp\", \"Ban công\", \"Phòng tắm\"]",
+        "correctAnswer": "Khu vườn",
+        "explanation": "Đáp án đúng là: Khu vườn."
+      },
+      {
+        "question": "Bathroom nghĩa là:",
+        "options": "[\"Phòng tắm\", \"Phòng ngủ\", \"Phòng khách\", \"Nhà để xe\"]",
+        "correctAnswer": "Phòng tắm",
+        "explanation": "Đáp án đúng là: Phòng tắm."
+      },
+      {
+        "question": "There ___ three chairs.",
+        "options": "[\"are\", \"is\", \"am\", \"be\"]",
+        "correctAnswer": "are",
+        "explanation": "Đáp án đúng là: are."
+      },
+      {
+        "question": "Desk nghĩa là:",
+        "options": "[\"Bàn làm việc\", \"Cái ghế\", \"Cái giường\", \"Cái gương\"]",
+        "correctAnswer": "Bàn làm việc",
+        "explanation": "Đáp án đúng là: Bàn làm việc."
       }
     ]
   },
@@ -1252,7 +2295,7 @@ const lessonsData = [
     "description": "Nói về các thói quen sinh hoạt mỗi ngày, lịch trình từ sáng đến tối và thì hiện tại đơn.",
     "level": "A1",
     "category": "Daily Life",
-    "durationMinutes": 22,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Wake up",
@@ -1260,8 +2303,17 @@ const lessonsData = [
         "pronunciation": "/weɪk ʌp/",
         "partOfSpeech": "phrase",
         "example": "I wake up at 6 AM every day.",
-        "exampleMeaning": "Tôi thức dậy lúc 6h sáng mỗi ngày.",
-        "category": "Routines"
+        "exampleMeaning": "Ví dụ về thức dậy.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Get up",
+        "meaning": "Rời khỏi giường",
+        "pronunciation": "/ɡet ʌp/",
+        "partOfSpeech": "phrase",
+        "example": "Get up immediately.",
+        "exampleMeaning": "Ví dụ về rời khỏi giường.",
+        "category": "Daily Life"
       },
       {
         "word": "Brush",
@@ -1269,8 +2321,17 @@ const lessonsData = [
         "pronunciation": "/brʌʃ/",
         "partOfSpeech": "verb",
         "example": "Brush your teeth in the morning.",
-        "exampleMeaning": "Đánh răng vào buổi sáng.",
-        "category": "Routines"
+        "exampleMeaning": "Ví dụ về đánh, chải.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Wash",
+        "meaning": "Rửa mặt, giặt",
+        "pronunciation": "/wɑːʃ/",
+        "partOfSpeech": "verb",
+        "example": "Wash face with cold water.",
+        "exampleMeaning": "Ví dụ về rửa mặt, giặt.",
+        "category": "Daily Life"
       },
       {
         "word": "Breakfast",
@@ -1278,8 +2339,8 @@ const lessonsData = [
         "pronunciation": "/ˈbrekfəst/",
         "partOfSpeech": "noun",
         "example": "Eat a healthy breakfast.",
-        "exampleMeaning": "Ăn bữa sáng lành mạnh.",
-        "category": "Meals"
+        "exampleMeaning": "Ví dụ về bữa ăn sáng.",
+        "category": "Daily Life"
       },
       {
         "word": "Lunch",
@@ -1287,8 +2348,8 @@ const lessonsData = [
         "pronunciation": "/lʌntʃ/",
         "partOfSpeech": "noun",
         "example": "We have lunch at noon.",
-        "exampleMeaning": "Chúng tôi ăn trưa lúc 12h.",
-        "category": "Meals"
+        "exampleMeaning": "Ví dụ về bữa ăn trưa.",
+        "category": "Daily Life"
       },
       {
         "word": "Dinner",
@@ -1296,8 +2357,8 @@ const lessonsData = [
         "pronunciation": "/ˈdɪnər/",
         "partOfSpeech": "noun",
         "example": "Family dinner at 7 PM.",
-        "exampleMeaning": "Bữa tối gia đình lúc 7h tối.",
-        "category": "Meals"
+        "exampleMeaning": "Ví dụ về bữa ăn tối.",
+        "category": "Daily Life"
       },
       {
         "word": "Exercise",
@@ -1305,8 +2366,8 @@ const lessonsData = [
         "pronunciation": "/ˈeksərsaɪz/",
         "partOfSpeech": "verb",
         "example": "I exercise thirty minutes daily.",
-        "exampleMeaning": "Tôi tập thể dục 30 phút mỗi ngày.",
-        "category": "Health"
+        "exampleMeaning": "Ví dụ về tập thể dục.",
+        "category": "Daily Life"
       },
       {
         "word": "Read",
@@ -1314,8 +2375,8 @@ const lessonsData = [
         "pronunciation": "/riːd/",
         "partOfSpeech": "verb",
         "example": "Read books before going to sleep.",
-        "exampleMeaning": "Đọc sách trước khi đi ngủ.",
-        "category": "Routines"
+        "exampleMeaning": "Ví dụ về đọc sách.",
+        "category": "Daily Life"
       },
       {
         "word": "Sleep",
@@ -1323,8 +2384,8 @@ const lessonsData = [
         "pronunciation": "/sliːp/",
         "partOfSpeech": "verb",
         "example": "Sleep early to stay fresh.",
-        "exampleMeaning": "Ngủ sớm để tỉnh táo.",
-        "category": "Routines"
+        "exampleMeaning": "Ví dụ về ngủ.",
+        "category": "Daily Life"
       },
       {
         "word": "Shower",
@@ -1332,8 +2393,8 @@ const lessonsData = [
         "pronunciation": "/ˈʃaʊər/",
         "partOfSpeech": "noun",
         "example": "Take a cold shower.",
-        "exampleMeaning": "Tắm vòi sen nước mát.",
-        "category": "Routines"
+        "exampleMeaning": "Ví dụ về tắm vòi sen.",
+        "category": "Daily Life"
       },
       {
         "word": "Relax",
@@ -1341,39 +2402,111 @@ const lessonsData = [
         "pronunciation": "/rɪˈlæks/",
         "partOfSpeech": "verb",
         "example": "Listen to music to relax.",
-        "exampleMeaning": "Nghe nhạc để thư giãn.",
-        "category": "Routines"
+        "exampleMeaning": "Ví dụ về thư giãn.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Study",
+        "meaning": "Học tập",
+        "pronunciation": "/ˈstʌdi/",
+        "partOfSpeech": "verb",
+        "example": "Study English every evening.",
+        "exampleMeaning": "Ví dụ về học tập.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Cook",
+        "meaning": "Nấu ăn",
+        "pronunciation": "/kʊk/",
+        "partOfSpeech": "verb",
+        "example": "Cook dinner for family.",
+        "exampleMeaning": "Ví dụ về nấu ăn.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Clean",
+        "meaning": "Dọn dẹp",
+        "pronunciation": "/kliːn/",
+        "partOfSpeech": "verb",
+        "example": "Clean the room weekly.",
+        "exampleMeaning": "Ví dụ về dọn dẹp.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Walk",
+        "meaning": "Đi bộ",
+        "pronunciation": "/wɔːk/",
+        "partOfSpeech": "verb",
+        "example": "Walk to the local park.",
+        "exampleMeaning": "Ví dụ về đi bộ.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Watch",
+        "meaning": "Xem tivi, quan sát",
+        "pronunciation": "/wɑːtʃ/",
+        "partOfSpeech": "verb",
+        "example": "Watch the news.",
+        "exampleMeaning": "Ví dụ về xem tivi, quan sát.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Listen",
+        "meaning": "Lắng nghe",
+        "pronunciation": "/ˈlɪsn/",
+        "partOfSpeech": "verb",
+        "example": "Listen to podcasts.",
+        "exampleMeaning": "Ví dụ về lắng nghe.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Rest",
+        "meaning": "Nghỉ ngơi",
+        "pronunciation": "/rest/",
+        "partOfSpeech": "verb",
+        "example": "Rest for ten minutes.",
+        "exampleMeaning": "Ví dụ về nghỉ ngơi.",
+        "category": "Daily Life"
+      },
+      {
+        "word": "Work",
+        "meaning": "Làm việc",
+        "pronunciation": "/wɜːrk/",
+        "partOfSpeech": "verb",
+        "example": "Work from 8 to 5.",
+        "exampleMeaning": "Ví dụ về làm việc.",
+        "category": "Daily Life"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Thì Hiện tại đơn miêu tả thói quen (Present Simple)",
-        "explanation": "Dùng để diễn tả hành động lặp đi lặp lại hoặc thói quen hàng ngày. Thêm -s hoặc -es với He/She/It.",
-        "formula": "I/You/We/They + V_inf | He/She/It + V_s/es",
-        "examples": "[{\"en\": \"I wake up at 6 AM.\", \"vi\": \"Tôi thức dậy lúc 6 giờ sáng.\"}, {\"en\": \"He works every day.\", \"vi\": \"Anh ấy làm việc mỗi ngày.\"}]"
+        "title": "Ngữ pháp trọng tâm: Daily Activities & Routines",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Daily Activities & Routines.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Daily Activities & Routines.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "A Day in My Life",
-        "transcript": "Every morning, I wake up at 6:30. I have breakfast and go to work by bus.",
-        "questions": "[{\"question\": \"What time does he wake up?\", \"options\": [\"6:00\", \"6:30\", \"7:00\", \"7:30\"], \"correctAnswer\": \"6:30\", \"explanation\": \"Transcript: 6:30.\"}]"
+        "title": "Luyện nghe chủ đề Daily Activities & Routines",
+        "transcript": "Hello, welcome to our lesson on Daily Activities & Routines. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Daily Activities & Routines\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Daily Activities & Routines\", \"explanation\": \"Chủ đề nghe: Daily Activities & Routines.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Daily Routine",
-        "context": "Trao đổi thói quen hàng ngày.",
-        "dialogue": "[{\"speaker\": \"Emma\", \"text\": \"What time do you usually sleep?\", \"meaning\": \"Cậu thường đi ngủ lúc mấy giờ?\"}, {\"speaker\": \"John\", \"text\": \"I usually sleep at 10:30 PM.\", \"meaning\": \"Mình thường ngủ lúc 10h30 tối.\"}]"
+        "title": "Hội thoại giao tiếp Daily Activities & Routines",
+        "context": "Tình huống trò chuyện về Daily Activities & Routines.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Daily Activities & Routines.\", \"meaning\": \"Hãy nói về Daily Activities & Routines nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Chọn dạng động từ đúng: She ___ up early every day.",
-        "options": "[\"wake\", \"wakes\", \"waking\", \"waked\"]",
-        "correctAnswer": "wakes",
-        "explanation": "Chủ ngữ She -> động từ thêm s: wakes up."
+        "question": "Từ vựng tiêu biểu của chủ đề Daily Activities & Routines là:",
+        "options": "[\"Wake up\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Wake up",
+        "explanation": "Wake up thuộc chủ đề Daily Activities & Routines."
       }
     ],
     "quizzes": [
@@ -1381,31 +2514,61 @@ const lessonsData = [
         "question": "Breakfast là bữa ăn nào?",
         "options": "[\"Bữa sáng\", \"Bữa trưa\", \"Bữa tối\", \"Bữa đêm\"]",
         "correctAnswer": "Bữa sáng",
-        "explanation": "Breakfast = Bữa sáng."
+        "explanation": "Đáp án đúng là: Bữa sáng."
       },
       {
         "question": "He ___ to work by bus.",
         "options": "[\"go\", \"goes\", \"going\", \"gone\"]",
         "correctAnswer": "goes",
-        "explanation": "He goes to work."
+        "explanation": "Đáp án đúng là: goes."
       },
       {
         "question": "Dinner là bữa ăn nào?",
         "options": "[\"Bữa tối\", \"Bữa sáng\", \"Bữa trưa\", \"Bữa xế\"]",
         "correctAnswer": "Bữa tối",
-        "explanation": "Dinner = Bữa tối."
+        "explanation": "Đáp án đúng là: Bữa tối."
       },
       {
         "question": "Exercise nghĩa là:",
         "options": "[\"Tập thể dục\", \"Ăn cơm\", \"Đi ngủ\", \"Đọc sách\"]",
         "correctAnswer": "Tập thể dục",
-        "explanation": "Exercise = Tập thể dục."
+        "explanation": "Đáp án đúng là: Tập thể dục."
       },
       {
         "question": "Wake up có nghĩa là:",
         "options": "[\"Thức dậy\", \"Đi ngủ\", \"Ăn uống\", \"Tắm rửa\"]",
         "correctAnswer": "Thức dậy",
-        "explanation": "Wake up = Thức dậy."
+        "explanation": "Đáp án đúng là: Thức dậy."
+      },
+      {
+        "question": "She ___ teeth twice a day.",
+        "options": "[\"brushes\", \"brush\", \"brushing\", \"brushed\"]",
+        "correctAnswer": "brushes",
+        "explanation": "Đáp án đúng là: brushes."
+      },
+      {
+        "question": "Lunch là bữa:",
+        "options": "[\"Bữa trưa\", \"Bữa sáng\", \"Bữa tối\", \"Bữa sáng muộn\"]",
+        "correctAnswer": "Bữa trưa",
+        "explanation": "Đáp án đúng là: Bữa trưa."
+      },
+      {
+        "question": "Cook nghĩa là:",
+        "options": "[\"Nấu ăn\", \"Dọn dẹp\", \"Rửa chén\", \"Đi chợ\"]",
+        "correctAnswer": "Nấu ăn",
+        "explanation": "Đáp án đúng là: Nấu ăn."
+      },
+      {
+        "question": "Shower là:",
+        "options": "[\"Tắm vòi sen\", \"Đánh răng\", \"Rửa mặt\", \"Rửa tay\"]",
+        "correctAnswer": "Tắm vòi sen",
+        "explanation": "Đáp án đúng là: Tắm vòi sen."
+      },
+      {
+        "question": "Read a book là:",
+        "options": "[\"Đọc một quyển sách\", \"Viết một quyển sách\", \"Mua sách\", \"Bán sách\"]",
+        "correctAnswer": "Đọc một quyển sách",
+        "explanation": "Đáp án đúng là: Đọc một quyển sách."
       }
     ]
   },
@@ -1415,7 +2578,7 @@ const lessonsData = [
     "description": "Cách hỏi giá cả, mặc cả lịch sự, thanh toán tiền mặt/thẻ và từ vựng mua sắm thiết yếu.",
     "level": "A1",
     "category": "Shopping",
-    "durationMinutes": 22,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Buy",
@@ -1423,7 +2586,7 @@ const lessonsData = [
         "pronunciation": "/baɪ/",
         "partOfSpeech": "verb",
         "example": "I want to buy some fruits.",
-        "exampleMeaning": "Tôi muốn mua một ít trái cây.",
+        "exampleMeaning": "Ví dụ về mua.",
         "category": "Shopping"
       },
       {
@@ -1432,7 +2595,7 @@ const lessonsData = [
         "pronunciation": "/sel/",
         "partOfSpeech": "verb",
         "example": "They sell fresh bread.",
-        "exampleMeaning": "Họ bán bánh mì tươi.",
+        "exampleMeaning": "Ví dụ về bán.",
         "category": "Shopping"
       },
       {
@@ -1441,7 +2604,16 @@ const lessonsData = [
         "pronunciation": "/praɪs/",
         "partOfSpeech": "noun",
         "example": "What is the price of this?",
-        "exampleMeaning": "Giá của món này là bao nhiêu?",
+        "exampleMeaning": "Ví dụ về giá tiền.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Cost",
+        "meaning": "Trị giá, chi phí",
+        "pronunciation": "/kɔːst/",
+        "partOfSpeech": "noun",
+        "example": "How much does it cost?",
+        "exampleMeaning": "Ví dụ về trị giá, chi phí.",
         "category": "Shopping"
       },
       {
@@ -1450,7 +2622,7 @@ const lessonsData = [
         "pronunciation": "/tʃiːp/",
         "partOfSpeech": "adjective",
         "example": "This shirt is very cheap.",
-        "exampleMeaning": "Chiếc áo này rất rẻ.",
+        "exampleMeaning": "Ví dụ về rẻ tiền.",
         "category": "Shopping"
       },
       {
@@ -1459,7 +2631,7 @@ const lessonsData = [
         "pronunciation": "/ɪkˈspensɪv/",
         "partOfSpeech": "adjective",
         "example": "That watch is too expensive.",
-        "exampleMeaning": "Chiếc đồng hồ đó đắt quá.",
+        "exampleMeaning": "Ví dụ về đắt tiền.",
         "category": "Shopping"
       },
       {
@@ -1468,8 +2640,8 @@ const lessonsData = [
         "pronunciation": "/ˈdɑːlər/",
         "partOfSpeech": "noun",
         "example": "It costs ten dollars.",
-        "exampleMeaning": "Nó có giá 10 đô la.",
-        "category": "Money"
+        "exampleMeaning": "Ví dụ về đồng đô la.",
+        "category": "Shopping"
       },
       {
         "word": "Cash",
@@ -1477,8 +2649,8 @@ const lessonsData = [
         "pronunciation": "/kæʃ/",
         "partOfSpeech": "noun",
         "example": "Do you accept cash?",
-        "exampleMeaning": "Bạn có nhận tiền mặt không?",
-        "category": "Money"
+        "exampleMeaning": "Ví dụ về tiền mặt.",
+        "category": "Shopping"
       },
       {
         "word": "Card",
@@ -1486,8 +2658,8 @@ const lessonsData = [
         "pronunciation": "/kɑːrd/",
         "partOfSpeech": "noun",
         "example": "I will pay by credit card.",
-        "exampleMeaning": "Tôi sẽ thanh toán bằng thẻ.",
-        "category": "Money"
+        "exampleMeaning": "Ví dụ về thẻ ngân hàng.",
+        "category": "Shopping"
       },
       {
         "word": "Discount",
@@ -1495,48 +2667,129 @@ const lessonsData = [
         "pronunciation": "/ˈdɪskaʊnt/",
         "partOfSpeech": "noun",
         "example": "Is there any discount today?",
-        "exampleMeaning": "Hôm nay có giảm giá không?",
+        "exampleMeaning": "Ví dụ về giảm giá.",
         "category": "Shopping"
       },
       {
         "word": "Market",
-        "meaning": "Chợ, siêu thị",
+        "meaning": "Chợ",
         "pronunciation": "/ˈmɑːrkɪt/",
         "partOfSpeech": "noun",
         "example": "Go to the supermarket.",
-        "exampleMeaning": "Đi siêu thị mua sắm.",
+        "exampleMeaning": "Ví dụ về chợ.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Supermarket",
+        "meaning": "Siêu thị",
+        "pronunciation": "/ˈsuːpərmɑːrkɪt/",
+        "partOfSpeech": "noun",
+        "example": "Shop at the supermarket.",
+        "exampleMeaning": "Ví dụ về siêu thị.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Store",
+        "meaning": "Cửa hàng",
+        "pronunciation": "/stɔːr/",
+        "partOfSpeech": "noun",
+        "example": "A convenience store.",
+        "exampleMeaning": "Ví dụ về cửa hàng.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Customer",
+        "meaning": "Khách hàng",
+        "pronunciation": "/ˈkʌstəmər/",
+        "partOfSpeech": "noun",
+        "example": "A polite customer.",
+        "exampleMeaning": "Ví dụ về khách hàng.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Seller",
+        "meaning": "Người bán",
+        "pronunciation": "/ˈselər/",
+        "partOfSpeech": "noun",
+        "example": "Ask the shop seller.",
+        "exampleMeaning": "Ví dụ về người bán.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Receipt",
+        "meaning": "Biên nhận, hóa đơn",
+        "pronunciation": "/rɪˈsiːt/",
+        "partOfSpeech": "noun",
+        "example": "Keep your shopping receipt.",
+        "exampleMeaning": "Ví dụ về biên nhận, hóa đơn.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Pay",
+        "meaning": "Thanh toán",
+        "pronunciation": "/peɪ/",
+        "partOfSpeech": "verb",
+        "example": "Pay for the items.",
+        "exampleMeaning": "Ví dụ về thanh toán.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Choose",
+        "meaning": "Lựa chọn",
+        "pronunciation": "/tʃuːz/",
+        "partOfSpeech": "verb",
+        "example": "Choose your favorite item.",
+        "exampleMeaning": "Ví dụ về lựa chọn.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Change",
+        "meaning": "Tiền thừa",
+        "pronunciation": "/tʃeɪndʒ/",
+        "partOfSpeech": "noun",
+        "example": "Here is your change.",
+        "exampleMeaning": "Ví dụ về tiền thừa.",
+        "category": "Shopping"
+      },
+      {
+        "word": "Sale",
+        "meaning": "Đợt giảm giá",
+        "pronunciation": "/seɪl/",
+        "partOfSpeech": "noun",
+        "example": "On sale this weekend.",
+        "exampleMeaning": "Ví dụ về đợt giảm giá.",
         "category": "Shopping"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi giá tiền với 'How much is / How much are...?'",
-        "explanation": "Dùng How much is it? hoặc How much are these shoes? để hỏi giá.",
-        "formula": "How much is + [Danh từ số ít]? | How much are + [Danh từ số nhiều]?",
-        "examples": "[{\"en\": \"How much is this shirt? - It is 15 dollars.\", \"vi\": \"Chiếc áo này giá bao nhiêu? - 15 đô la.\"}]"
+        "title": "Ngữ pháp trọng tâm: Shopping & Prices",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Shopping & Prices.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Shopping & Prices.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "At the Market",
-        "transcript": "Excuse me, how much are these apples? They are three dollars a kilo. Great, give me two kilos.",
-        "questions": "[{\"question\": \"How much are the apples per kilo?\", \"options\": [\"Two dollars\", \"Three dollars\", \"Four dollars\", \"Five dollars\"], \"correctAnswer\": \"Three dollars\", \"explanation\": \"Transcript: three dollars a kilo.\"}]"
+        "title": "Luyện nghe chủ đề Shopping & Prices",
+        "transcript": "Hello, welcome to our lesson on Shopping & Prices. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Shopping & Prices\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Shopping & Prices\", \"explanation\": \"Chủ đề nghe: Shopping & Prices.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Paying for Items",
-        "context": "Thanh toán tại quầy tính tiền.",
-        "dialogue": "[{\"speaker\": \"Cashier\", \"text\": \"Your total is twenty dollars.\", \"meaning\": \"Tổng cộng của bạn là 20 đô la.\"}, {\"speaker\": \"Customer\", \"text\": \"Can I pay by card?\", \"meaning\": \"Tôi quẹt thẻ được không ạ?\"}]"
+        "title": "Hội thoại giao tiếp Shopping & Prices",
+        "context": "Tình huống trò chuyện về Shopping & Prices.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Shopping & Prices.\", \"meaning\": \"Hãy nói về Shopping & Prices nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
-        "type": "FILL_BLANK",
-        "question": "How _____ is this book?",
-        "options": "[\"much\", \"many\", \"price\", \"cost\"]",
-        "correctAnswer": "much",
-        "explanation": "How much is this book? (Hỏi giá tiền)."
+        "type": "MULTIPLE_CHOICE",
+        "question": "Từ vựng tiêu biểu của chủ đề Shopping & Prices là:",
+        "options": "[\"Buy\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Buy",
+        "explanation": "Buy thuộc chủ đề Shopping & Prices."
       }
     ],
     "quizzes": [
@@ -1544,31 +2797,61 @@ const lessonsData = [
         "question": "Expensive nghĩa là:",
         "options": "[\"Đắt đỏ\", \"Rẻ tiền\", \"Miễn phí\", \"Giảm giá\"]",
         "correctAnswer": "Đắt đỏ",
-        "explanation": "Expensive = Đắt tiền."
+        "explanation": "Đáp án đúng là: Đắt đỏ."
       },
       {
         "question": "Cheap nghĩa là:",
         "options": "[\"Rẻ tiền\", \"Đắt tiền\", \"Cũ kỹ\", \"Mới toanh\"]",
         "correctAnswer": "Rẻ tiền",
-        "explanation": "Cheap = Rẻ."
+        "explanation": "Đáp án đúng là: Rẻ tiền."
       },
       {
         "question": "Cash là hình thức thanh toán nào?",
         "options": "[\"Tiền mặt\", \"Thẻ tín dụng\", \"Chuyển khoản\", \"Ví điện tử\"]",
         "correctAnswer": "Tiền mặt",
-        "explanation": "Cash = Tiền mặt."
+        "explanation": "Đáp án đúng là: Tiền mặt."
       },
       {
         "question": "Discount nghĩa là:",
         "options": "[\"Giảm giá\", \"Tăng giá\", \"Hết hàng\", \"Hóa đơn\"]",
         "correctAnswer": "Giảm giá",
-        "explanation": "Discount = Giảm giá."
+        "explanation": "Đáp án đúng là: Giảm giá."
       },
       {
-        "question": "Câu hỏi giá tiền đúng:",
-        "options": "[\"How much is this?\", \"How many is this?\", \"How price is this?\", \"What much is this?\"]",
-        "correctAnswer": "How much is this?",
-        "explanation": "How much is this? = Món này giá bao nhiêu?"
+        "question": "How much is this? nghĩa là:",
+        "options": "[\"Cái này bao nhiêu tiền?\", \"Cái này là gì?\", \"Ở đâu có cái này?\", \"Ai mua cái này?\"]",
+        "correctAnswer": "Cái này bao nhiêu tiền?",
+        "explanation": "Đáp án đúng là: Cái này bao nhiêu tiền?."
+      },
+      {
+        "question": "Receipt là:",
+        "options": "[\"Hóa đơn, biên nhận\", \"Tiền mặt\", \"Thẻ ngân hàng\", \"Giỏ hàng\"]",
+        "correctAnswer": "Hóa đơn, biên nhận",
+        "explanation": "Đáp án đúng là: Hóa đơn, biên nhận."
+      },
+      {
+        "question": "Customer là:",
+        "options": "[\"Khách hàng\", \"Người bán\", \"Chủ tiệm\", \"Bảo vệ\"]",
+        "correctAnswer": "Khách hàng",
+        "explanation": "Đáp án đúng là: Khách hàng."
+      },
+      {
+        "question": "Supermarket là:",
+        "options": "[\"Siêu thị\", \"Hiệu sách\", \"Quán ăn\", \"Bệnh viện\"]",
+        "correctAnswer": "Siêu thị",
+        "explanation": "Đáp án đúng là: Siêu thị."
+      },
+      {
+        "question": "Buy nghĩa là:",
+        "options": "[\"Mua\", \"Bán\", \"Thuê\", \"Tặng\"]",
+        "correctAnswer": "Mua",
+        "explanation": "Đáp án đúng là: Mua."
+      },
+      {
+        "question": "Pay by card là:",
+        "options": "[\"Thanh toán bằng thẻ\", \"Thanh toán tiền mặt\", \"Nợ tiền\", \"Chuyển khoản\"]",
+        "correctAnswer": "Thanh toán bằng thẻ",
+        "explanation": "Đáp án đúng là: Thanh toán bằng thẻ."
       }
     ]
   },
@@ -1578,7 +2861,7 @@ const lessonsData = [
     "description": "Từ vựng miêu tả các kiểu thời tiết, bốn mùa trong năm và cách hỏi thăm thời tiết hàng ngày.",
     "level": "A1",
     "category": "Nature & Weather",
-    "durationMinutes": 18,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Sunny",
@@ -1586,8 +2869,8 @@ const lessonsData = [
         "pronunciation": "/ˈsʌni/",
         "partOfSpeech": "adjective",
         "example": "It is a sunny morning.",
-        "exampleMeaning": "Buổi sáng trời nắng đẹp.",
-        "category": "Weather"
+        "exampleMeaning": "Ví dụ về có nắng, trời nắng.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Rainy",
@@ -1595,8 +2878,8 @@ const lessonsData = [
         "pronunciation": "/ˈreɪni/",
         "partOfSpeech": "adjective",
         "example": "Carry an umbrella on rainy days.",
-        "exampleMeaning": "Mang ô vào những ngày mưa.",
-        "category": "Weather"
+        "exampleMeaning": "Ví dụ về có mưa, trời mưa.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Windy",
@@ -1604,8 +2887,8 @@ const lessonsData = [
         "pronunciation": "/ˈwɪndi/",
         "partOfSpeech": "adjective",
         "example": "It is very windy near the sea.",
-        "exampleMeaning": "Gần biển rất lộng gió.",
-        "category": "Weather"
+        "exampleMeaning": "Ví dụ về có gió, lộng gió.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Cloudy",
@@ -1613,8 +2896,26 @@ const lessonsData = [
         "pronunciation": "/ˈklaʊdi/",
         "partOfSpeech": "adjective",
         "example": "The sky is dark and cloudy.",
-        "exampleMeaning": "Bầu trời tối và nhiều mây.",
-        "category": "Weather"
+        "exampleMeaning": "Ví dụ về nhiều mây, u ám.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Snowy",
+        "meaning": "Có tuyết rơi",
+        "pronunciation": "/ˈsnoʊi/",
+        "partOfSpeech": "adjective",
+        "example": "A cold snowy winter evening.",
+        "exampleMeaning": "Ví dụ về có tuyết rơi.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Foggy",
+        "meaning": "Nhiều sương mù",
+        "pronunciation": "/ˈfɔːɡi/",
+        "partOfSpeech": "adjective",
+        "example": "Drive carefully in foggy weather.",
+        "exampleMeaning": "Ví dụ về nhiều sương mù.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Hot",
@@ -1622,8 +2923,8 @@ const lessonsData = [
         "pronunciation": "/hɑːt/",
         "partOfSpeech": "adjective",
         "example": "Summer days are hot.",
-        "exampleMeaning": "Những ngày hè nóng bức.",
-        "category": "Weather"
+        "exampleMeaning": "Ví dụ về nóng bức.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Cold",
@@ -1631,8 +2932,35 @@ const lessonsData = [
         "pronunciation": "/koʊld/",
         "partOfSpeech": "adjective",
         "example": "It is cold in winter.",
-        "exampleMeaning": "Trời lạnh vào mùa đông.",
-        "category": "Weather"
+        "exampleMeaning": "Ví dụ về lạnh giá.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Warm",
+        "meaning": "Ấm áp",
+        "pronunciation": "/wɔːrm/",
+        "partOfSpeech": "adjective",
+        "example": "Warm spring sunlight.",
+        "exampleMeaning": "Ví dụ về ấm áp.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Cool",
+        "meaning": "Mát mẻ",
+        "pronunciation": "/kuːl/",
+        "partOfSpeech": "adjective",
+        "example": "Cool autumn breeze.",
+        "exampleMeaning": "Ví dụ về mát mẻ.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Weather",
+        "meaning": "Thời tiết",
+        "pronunciation": "/ˈweðər/",
+        "partOfSpeech": "noun",
+        "example": "What is the weather like?",
+        "exampleMeaning": "Ví dụ về thời tiết.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Spring",
@@ -1640,8 +2968,8 @@ const lessonsData = [
         "pronunciation": "/sprɪŋ/",
         "partOfSpeech": "noun",
         "example": "Flowers bloom in spring.",
-        "exampleMeaning": "Hoa nở rộ vào mùa xuân.",
-        "category": "Seasons"
+        "exampleMeaning": "Ví dụ về mùa xuân.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Summer",
@@ -1649,8 +2977,8 @@ const lessonsData = [
         "pronunciation": "/ˈsʌmər/",
         "partOfSpeech": "noun",
         "example": "We go to the beach in summer.",
-        "exampleMeaning": "Chúng tôi đi biển vào mùa hè.",
-        "category": "Seasons"
+        "exampleMeaning": "Ví dụ về mùa hè.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Autumn",
@@ -1658,8 +2986,8 @@ const lessonsData = [
         "pronunciation": "/ˈɔːtəm/",
         "partOfSpeech": "noun",
         "example": "Cool breeze in autumn.",
-        "exampleMeaning": "Gió mát lành vào mùa thu.",
-        "category": "Seasons"
+        "exampleMeaning": "Ví dụ về mùa thu.",
+        "category": "Nature & Weather"
       },
       {
         "word": "Winter",
@@ -1667,39 +2995,84 @@ const lessonsData = [
         "pronunciation": "/ˈwɪntər/",
         "partOfSpeech": "noun",
         "example": "Snow falls in cold winter.",
-        "exampleMeaning": "Tuyết rơi vào mùa đông lạnh giá.",
-        "category": "Seasons"
+        "exampleMeaning": "Ví dụ về mùa đông.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Rain",
+        "meaning": "Cơn mưa",
+        "pronunciation": "/reɪn/",
+        "partOfSpeech": "noun",
+        "example": "Heavy rain outside.",
+        "exampleMeaning": "Ví dụ về cơn mưa.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Snow",
+        "meaning": "Tuyết",
+        "pronunciation": "/snoʊ/",
+        "partOfSpeech": "noun",
+        "example": "White snow on the mountain.",
+        "exampleMeaning": "Ví dụ về tuyết.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Sun",
+        "meaning": "Mặt trời",
+        "pronunciation": "/sʌn/",
+        "partOfSpeech": "noun",
+        "example": "The sun rises in the east.",
+        "exampleMeaning": "Ví dụ về mặt trời.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Wind",
+        "meaning": "Gió",
+        "pronunciation": "/wɪnd/",
+        "partOfSpeech": "noun",
+        "example": "Strong wind today.",
+        "exampleMeaning": "Ví dụ về gió.",
+        "category": "Nature & Weather"
+      },
+      {
+        "word": "Cloud",
+        "meaning": "Đám mây",
+        "pronunciation": "/klaʊd/",
+        "partOfSpeech": "noun",
+        "example": "White clouds in the sky.",
+        "exampleMeaning": "Ví dụ về đám mây.",
+        "category": "Nature & Weather"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi thời tiết với 'How is the weather?'",
-        "explanation": "Dùng How is the weather today? hoặc What's the weather like? Trả lời bằng It is + [Thời tiết].",
-        "formula": "How is the weather? -> It is + [Sunny / Rainy / Hot...]",
-        "examples": "[{\"en\": \"How is the weather today? - It is sunny and warm.\", \"vi\": \"Hôm nay thời tiết thế nào? - Trời nắng và ấm áp.\"}]"
+        "title": "Ngữ pháp trọng tâm: Weather & Seasons",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Weather & Seasons.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Weather & Seasons.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Weather Forecast",
-        "transcript": "Good morning. Today will be sunny and hot with temperatures around 32 degrees.",
-        "questions": "[{\"question\": \"How is the weather today?\", \"options\": [\"Sunny and hot\", \"Rainy and cold\", \"Snowy\", \"Windy\"], \"correctAnswer\": \"Sunny and hot\", \"explanation\": \"Transcript: sunny and hot.\"}]"
+        "title": "Luyện nghe chủ đề Weather & Seasons",
+        "transcript": "Hello, welcome to our lesson on Weather & Seasons. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Weather & Seasons\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Weather & Seasons\", \"explanation\": \"Chủ đề nghe: Weather & Seasons.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Talking About Weather",
-        "context": "Nói chuyện trước khi ra ngoài.",
-        "dialogue": "[{\"speaker\": \"Mike\", \"text\": \"Is it raining outside?\", \"meaning\": \"Ngoài trời có đang mưa không?\"}, {\"speaker\": \"Anna\", \"text\": \"No, it is windy and cool.\", \"meaning\": \"Không, trời đang nhiều gió và mát mẻ.\"}]"
+        "title": "Hội thoại giao tiếp Weather & Seasons",
+        "context": "Tình huống trò chuyện về Weather & Seasons.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Weather & Seasons.\", \"meaning\": \"Hãy nói về Weather & Seasons nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Hôm nay trời nắng: It is ___ today.",
-        "options": "[\"sunny\", \"sun\", \"sunned\", \"sunning\"]",
-        "correctAnswer": "sunny",
-        "explanation": "It is sunny today."
+        "question": "Từ vựng tiêu biểu của chủ đề Weather & Seasons là:",
+        "options": "[\"Sunny\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Sunny",
+        "explanation": "Sunny thuộc chủ đề Weather & Seasons."
       }
     ],
     "quizzes": [
@@ -1707,31 +3080,61 @@ const lessonsData = [
         "question": "Sunny nghĩa là:",
         "options": "[\"Có nắng\", \"Có mưa\", \"Có tuyết\", \"Có sương mù\"]",
         "correctAnswer": "Có nắng",
-        "explanation": "Sunny = Trời nắng."
+        "explanation": "Đáp án đúng là: Có nắng."
       },
       {
         "question": "Mùa hè là:",
         "options": "[\"Summer\", \"Winter\", \"Spring\", \"Autumn\"]",
         "correctAnswer": "Summer",
-        "explanation": "Summer = Mùa hè."
+        "explanation": "Đáp án đúng là: Summer."
       },
       {
         "question": "Winter là mùa nào?",
         "options": "[\"Mùa đông\", \"Mùa xuân\", \"Mùa hạ\", \"Mùa thu\"]",
         "correctAnswer": "Mùa đông",
-        "explanation": "Winter = Mùa đông."
+        "explanation": "Đáp án đúng là: Mùa đông."
       },
       {
         "question": "Rainy nghĩa là:",
         "options": "[\"Có mưa\", \"Có gió\", \"Trời nóng\", \"Trời lạnh\"]",
         "correctAnswer": "Có mưa",
-        "explanation": "Rainy = Có mưa."
+        "explanation": "Đáp án đúng là: Có mưa."
       },
       {
-        "question": "Hỏi thời tiết chuẩn:",
-        "options": "[\"How is the weather today?\", \"What weather is today?\", \"Where is weather?\", \"Who is weather?\"]",
-        "correctAnswer": "How is the weather today?",
-        "explanation": "How is the weather today?"
+        "question": "How is the weather today? là:",
+        "options": "[\"Hôm nay thời tiết thế nào?\", \"Hôm nay thứ mấy?\", \"Mấy giờ rồi?\", \"Hôm nay ngày bao nhiêu?\"]",
+        "correctAnswer": "Hôm nay thời tiết thế nào?",
+        "explanation": "Đáp án đúng là: Hôm nay thời tiết thế nào?."
+      },
+      {
+        "question": "Spring là mùa:",
+        "options": "[\"Mùa xuân\", \"Mùa hè\", \"Mùa thu\", \"Mùa đông\"]",
+        "correctAnswer": "Mùa xuân",
+        "explanation": "Đáp án đúng là: Mùa xuân."
+      },
+      {
+        "question": "Autumn là mùa:",
+        "options": "[\"Mùa thu\", \"Mùa xuân\", \"Mùa hè\", \"Mùa đông\"]",
+        "correctAnswer": "Mùa thu",
+        "explanation": "Đáp án đúng là: Mùa thu."
+      },
+      {
+        "question": "Foggy nghĩa là:",
+        "options": "[\"Có sương mù\", \"Có nắng\", \"Có mưa\", \"Lộng gió\"]",
+        "correctAnswer": "Có sương mù",
+        "explanation": "Đáp án đúng là: Có sương mù."
+      },
+      {
+        "question": "Cold nghĩa là:",
+        "options": "[\"Lạnh giá\", \"Nóng bức\", \"Ấm áp\", \"Mát mẻ\"]",
+        "correctAnswer": "Lạnh giá",
+        "explanation": "Đáp án đúng là: Lạnh giá."
+      },
+      {
+        "question": "Hot nghĩa là:",
+        "options": "[\"Nóng bức\", \"Lạnh lẽo\", \"Mát mẻ\", \"Dễ chịu\"]",
+        "correctAnswer": "Nóng bức",
+        "explanation": "Đáp án đúng là: Nóng bức."
       }
     ]
   },
@@ -1741,7 +3144,7 @@ const lessonsData = [
     "description": "Các phương tiện giao thông phổ biến, cách hỏi đường và hướng dẫn chỉ đường rẽ trái, rẽ phải, đi thẳng.",
     "level": "A1",
     "category": "Travel",
-    "durationMinutes": 22,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Bus",
@@ -1749,8 +3152,8 @@ const lessonsData = [
         "pronunciation": "/bʌs/",
         "partOfSpeech": "noun",
         "example": "Take the number 9 bus.",
-        "exampleMeaning": "Bắt chuyến xe buýt số 9.",
-        "category": "Transportation"
+        "exampleMeaning": "Ví dụ về xe buýt.",
+        "category": "Travel"
       },
       {
         "word": "Train",
@@ -1758,8 +3161,8 @@ const lessonsData = [
         "pronunciation": "/treɪn/",
         "partOfSpeech": "noun",
         "example": "The train leaves at 8 AM.",
-        "exampleMeaning": "Tàu hỏa khởi hành lúc 8h sáng.",
-        "category": "Transportation"
+        "exampleMeaning": "Ví dụ về tàu hỏa.",
+        "category": "Travel"
       },
       {
         "word": "Car",
@@ -1767,8 +3170,8 @@ const lessonsData = [
         "pronunciation": "/kɑːr/",
         "partOfSpeech": "noun",
         "example": "He drives a blue car.",
-        "exampleMeaning": "Anh ấy lái chiếc xe hơi màu xanh.",
-        "category": "Transportation"
+        "exampleMeaning": "Ví dụ về xe hơi, ô tô.",
+        "category": "Travel"
       },
       {
         "word": "Bicycle",
@@ -1776,8 +3179,44 @@ const lessonsData = [
         "pronunciation": "/ˈbaɪsɪkl/",
         "partOfSpeech": "noun",
         "example": "Riding a bicycle in the park.",
-        "exampleMeaning": "Đạp xe trong công viên.",
-        "category": "Transportation"
+        "exampleMeaning": "Ví dụ về xe đạp.",
+        "category": "Travel"
+      },
+      {
+        "word": "Motorcycle",
+        "meaning": "Xe máy",
+        "pronunciation": "/ˈmoʊtərsaɪkl/",
+        "partOfSpeech": "noun",
+        "example": "Ride a motorcycle safely.",
+        "exampleMeaning": "Ví dụ về xe máy.",
+        "category": "Travel"
+      },
+      {
+        "word": "Airplane",
+        "meaning": "Máy bay",
+        "pronunciation": "/ˈerpleɪn/",
+        "partOfSpeech": "noun",
+        "example": "Travel by airplane.",
+        "exampleMeaning": "Ví dụ về máy bay.",
+        "category": "Travel"
+      },
+      {
+        "word": "Boat",
+        "meaning": "Thuyền, ca nô",
+        "pronunciation": "/boʊt/",
+        "partOfSpeech": "noun",
+        "example": "A wooden boat on the lake.",
+        "exampleMeaning": "Ví dụ về thuyền, ca nô.",
+        "category": "Travel"
+      },
+      {
+        "word": "Taxi",
+        "meaning": "Xe tắc-xi",
+        "pronunciation": "/ˈtæksi/",
+        "partOfSpeech": "noun",
+        "example": "Call a taxi.",
+        "exampleMeaning": "Ví dụ về xe tắc-xi.",
+        "category": "Travel"
       },
       {
         "word": "Airport",
@@ -1785,8 +3224,8 @@ const lessonsData = [
         "pronunciation": "/ˈerpɔːrt/",
         "partOfSpeech": "noun",
         "example": "Arrive at the airport early.",
-        "exampleMeaning": "Đến sân bay sớm.",
-        "category": "Places"
+        "exampleMeaning": "Ví dụ về sân bay.",
+        "category": "Travel"
       },
       {
         "word": "Station",
@@ -1794,8 +3233,17 @@ const lessonsData = [
         "pronunciation": "/ˈsteɪʃn/",
         "partOfSpeech": "noun",
         "example": "Meet me at the train station.",
-        "exampleMeaning": "Gặp mình ở nhà ga nhé.",
-        "category": "Places"
+        "exampleMeaning": "Ví dụ về nhà ga, trạm xe.",
+        "category": "Travel"
+      },
+      {
+        "word": "Stop",
+        "meaning": "Trạm dừng",
+        "pronunciation": "/stɑːp/",
+        "partOfSpeech": "noun",
+        "example": "Wait at the bus stop.",
+        "exampleMeaning": "Ví dụ về trạm dừng.",
+        "category": "Travel"
       },
       {
         "word": "Left",
@@ -1803,8 +3251,8 @@ const lessonsData = [
         "pronunciation": "/left/",
         "partOfSpeech": "noun",
         "example": "Turn left at the corner.",
-        "exampleMeaning": "Rẽ trái ở góc phố.",
-        "category": "Directions"
+        "exampleMeaning": "Ví dụ về bên trái, rẽ trái.",
+        "category": "Travel"
       },
       {
         "word": "Right",
@@ -1812,8 +3260,8 @@ const lessonsData = [
         "pronunciation": "/raɪt/",
         "partOfSpeech": "noun",
         "example": "Turn right at the traffic lights.",
-        "exampleMeaning": "Rẽ phải ở cột đèn giao thông.",
-        "category": "Directions"
+        "exampleMeaning": "Ví dụ về bên phải, rẽ phải.",
+        "category": "Travel"
       },
       {
         "word": "Straight",
@@ -1821,8 +3269,8 @@ const lessonsData = [
         "pronunciation": "/streɪt/",
         "partOfSpeech": "adverb",
         "example": "Go straight on this street.",
-        "exampleMeaning": "Đi thẳng trên con đường này.",
-        "category": "Directions"
+        "exampleMeaning": "Ví dụ về thẳng, đi thẳng.",
+        "category": "Travel"
       },
       {
         "word": "Near",
@@ -1830,39 +3278,84 @@ const lessonsData = [
         "pronunciation": "/nɪr/",
         "partOfSpeech": "preposition",
         "example": "The pharmacy is near the bank.",
-        "exampleMeaning": "Hiệu thuốc ở gần ngân hàng.",
-        "category": "Directions"
+        "exampleMeaning": "Ví dụ về gần, ở gần.",
+        "category": "Travel"
+      },
+      {
+        "word": "Far",
+        "meaning": "Xa",
+        "pronunciation": "/fɑːr/",
+        "partOfSpeech": "adverb",
+        "example": "It is not too far.",
+        "exampleMeaning": "Ví dụ về xa.",
+        "category": "Travel"
+      },
+      {
+        "word": "Turn",
+        "meaning": "Rẽ, quẹo",
+        "pronunciation": "/tɜːrn/",
+        "partOfSpeech": "verb",
+        "example": "Turn left at the next street.",
+        "exampleMeaning": "Ví dụ về rẽ, quẹo.",
+        "category": "Travel"
+      },
+      {
+        "word": "Cross",
+        "meaning": "Băng qua",
+        "pronunciation": "/krɔːs/",
+        "partOfSpeech": "verb",
+        "example": "Cross the road at pedestrian walk.",
+        "exampleMeaning": "Ví dụ về băng qua.",
+        "category": "Travel"
+      },
+      {
+        "word": "Road",
+        "meaning": "Con đường",
+        "pronunciation": "/roʊd/",
+        "partOfSpeech": "noun",
+        "example": "Cross the busy road.",
+        "exampleMeaning": "Ví dụ về con đường.",
+        "category": "Travel"
+      },
+      {
+        "word": "Street",
+        "meaning": "Tuyến phố",
+        "pronunciation": "/striːt/",
+        "partOfSpeech": "noun",
+        "example": "Walk along the tree-lined street.",
+        "exampleMeaning": "Ví dụ về tuyến phố.",
+        "category": "Travel"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi đường với 'Where is...?' & 'How do I get to...?'",
-        "explanation": "Dùng Excuse me, where is the station? hoặc How do I get to the airport? Trả lời bằng các câu mệnh lệnh chỉ hướng.",
-        "formula": "Where is + [Địa điểm]? -> Go straight, then turn left/right.",
-        "examples": "[{\"en\": \"Where is the bus stop? - Turn right, it is near the park.\", \"vi\": \"Trạm xe buýt ở đâu? - Rẽ phải, nó ở gần công viên.\"}]"
+        "title": "Ngữ pháp trọng tâm: Transportation & Directions",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Transportation & Directions.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Transportation & Directions.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Finding the Train Station",
-        "transcript": "Excuse me, where is the train station? Go straight for two hundred meters and turn left.",
-        "questions": "[{\"question\": \"Which way should the person turn?\", \"options\": [\"Turn left\", \"Turn right\", \"Go back\", \"Stop\"], \"correctAnswer\": \"Turn left\", \"explanation\": \"Transcript: turn left.\"}]"
+        "title": "Luyện nghe chủ đề Transportation & Directions",
+        "transcript": "Hello, welcome to our lesson on Transportation & Directions. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Transportation & Directions\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Transportation & Directions\", \"explanation\": \"Chủ đề nghe: Transportation & Directions.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Asking for Directions",
-        "context": "Hỏi đường người dân trên phố.",
-        "dialogue": "[{\"speaker\": \"Tourist\", \"text\": \"Excuse me, how do I get to the museum?\", \"meaning\": \"Xin lỗi, làm sao để đi tới bảo tàng ạ?\"}, {\"speaker\": \"Local\", \"text\": \"Go straight and turn right at the bank.\", \"meaning\": \"Bạn đi thẳng rồi rẽ phải ở ngân hàng nhé.\"}]"
+        "title": "Hội thoại giao tiếp Transportation & Directions",
+        "context": "Tình huống trò chuyện về Transportation & Directions.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Transportation & Directions.\", \"meaning\": \"Hãy nói về Transportation & Directions nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
-        "type": "FILL_BLANK",
-        "question": "Go _____ on this street and turn left.",
-        "options": "[\"straight\", \"right\", \"left\", \"back\"]",
-        "correctAnswer": "straight",
-        "explanation": "Go straight = Đi thẳng."
+        "type": "MULTIPLE_CHOICE",
+        "question": "Từ vựng tiêu biểu của chủ đề Transportation & Directions là:",
+        "options": "[\"Bus\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Bus",
+        "explanation": "Bus thuộc chủ đề Transportation & Directions."
       }
     ],
     "quizzes": [
@@ -1870,31 +3363,61 @@ const lessonsData = [
         "question": "Turn left nghĩa là:",
         "options": "[\"Rẽ trái\", \"Rẽ phải\", \"Đi thẳng\", \"Quay đầu\"]",
         "correctAnswer": "Rẽ trái",
-        "explanation": "Turn left = Rẽ trái."
+        "explanation": "Đáp án đúng là: Rẽ trái."
       },
       {
         "question": "Airport là nơi nào?",
         "options": "[\"Sân bay\", \"Nhà ga\", \"Bến xe\", \"Bến cảng\"]",
         "correctAnswer": "Sân bay",
-        "explanation": "Airport = Sân bay."
+        "explanation": "Đáp án đúng là: Sân bay."
       },
       {
         "question": "Turn right nghĩa là:",
         "options": "[\"Rẽ phải\", \"Rẽ trái\", \"Đi thẳng\", \"Đứng lại\"]",
         "correctAnswer": "Rẽ phải",
-        "explanation": "Turn right = Rẽ phải."
+        "explanation": "Đáp án đúng là: Rẽ phải."
       },
       {
         "question": "Train nghĩa là:",
         "options": "[\"Tàu hỏa\", \"Xe buýt\", \"Xe đạp\", \"Máy bay\"]",
         "correctAnswer": "Tàu hỏa",
-        "explanation": "Train = Tàu hỏa."
+        "explanation": "Đáp án đúng là: Tàu hỏa."
       },
       {
         "question": "Near nghĩa là:",
         "options": "[\"Gần\", \"Xa\", \"Bên trên\", \"Bên dưới\"]",
         "correctAnswer": "Gần",
-        "explanation": "Near = Ở gần."
+        "explanation": "Đáp án đúng là: Gần."
+      },
+      {
+        "question": "Bicycle là phương tiện gì?",
+        "options": "[\"Xe đạp\", \"Xe máy\", \"Xe hơi\", \"Xe buýt\"]",
+        "correctAnswer": "Xe đạp",
+        "explanation": "Đáp án đúng là: Xe đạp."
+      },
+      {
+        "question": "Go straight nghĩa là:",
+        "options": "[\"Đi thẳng\", \"Rẽ trái\", \"Rẽ phải\", \"Quay lại\"]",
+        "correctAnswer": "Đi thẳng",
+        "explanation": "Đáp án đúng là: Đi thẳng."
+      },
+      {
+        "question": "Bus stop là:",
+        "options": "[\"Trạm xe buýt\", \"Nhà ga\", \"Sân bay\", \"Bến cảng\"]",
+        "correctAnswer": "Trạm xe buýt",
+        "explanation": "Đáp án đúng là: Trạm xe buýt."
+      },
+      {
+        "question": "Airplane là:",
+        "options": "[\"Máy bay\", \"Tàu hỏa\", \"Xe hơi\", \"Thuyền\"]",
+        "correctAnswer": "Máy bay",
+        "explanation": "Đáp án đúng là: Máy bay."
+      },
+      {
+        "question": "Far nghĩa là:",
+        "options": "[\"Xa xôi\", \"Gần gũi\", \"Bên cạnh\", \"Ở giữa\"]",
+        "correctAnswer": "Xa xôi",
+        "explanation": "Đáp án đúng là: Xa xôi."
       }
     ]
   },
@@ -1904,7 +3427,7 @@ const lessonsData = [
     "description": "Lên kế hoạch du lịch, đặt phòng khách sạn, làm thủ tục vé và diễn đạt kế hoạch tương lai.",
     "level": "A2",
     "category": "Travel",
-    "durationMinutes": 25,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Hotel",
@@ -1912,16 +3435,16 @@ const lessonsData = [
         "pronunciation": "/hoʊˈtel/",
         "partOfSpeech": "noun",
         "example": "Stay at a comfortable hotel.",
-        "exampleMeaning": "Ở tại khách sạn tiện nghi.",
+        "exampleMeaning": "Ví dụ về khách sạn.",
         "category": "Travel"
       },
       {
         "word": "Ticket",
-        "meaning": "Vé đi lại, vé máy bay",
+        "meaning": "Vé đi lại",
         "pronunciation": "/ˈtɪkɪt/",
         "partOfSpeech": "noun",
         "example": "Book an airplane ticket.",
-        "exampleMeaning": "Đặt một tấm vé máy bay.",
+        "exampleMeaning": "Ví dụ về vé đi lại.",
         "category": "Travel"
       },
       {
@@ -1930,7 +3453,7 @@ const lessonsData = [
         "pronunciation": "/ˈpæspɔːrt/",
         "partOfSpeech": "noun",
         "example": "Keep your passport safe.",
-        "exampleMeaning": "Giữ hộ chiếu cẩn thận.",
+        "exampleMeaning": "Ví dụ về hộ chiếu.",
         "category": "Travel"
       },
       {
@@ -1939,8 +3462,8 @@ const lessonsData = [
         "pronunciation": "/biːtʃ/",
         "partOfSpeech": "noun",
         "example": "Walking along the sunny beach.",
-        "exampleMeaning": "Dạo bước trên bãi biển đầy nắng.",
-        "category": "Vacation"
+        "exampleMeaning": "Ví dụ về bãi biển.",
+        "category": "Travel"
       },
       {
         "word": "Mountain",
@@ -1948,16 +3471,34 @@ const lessonsData = [
         "pronunciation": "/ˈmaʊntn/",
         "partOfSpeech": "noun",
         "example": "Hike in the mountains.",
-        "exampleMeaning": "Leo núi ngắm cảnh.",
-        "category": "Vacation"
+        "exampleMeaning": "Ví dụ về ngọn núi.",
+        "category": "Travel"
+      },
+      {
+        "word": "Island",
+        "meaning": "Hòn đảo",
+        "pronunciation": "/ˈaɪlənd/",
+        "partOfSpeech": "noun",
+        "example": "Visit Phu Quoc island.",
+        "exampleMeaning": "Ví dụ về hòn đảo.",
+        "category": "Travel"
+      },
+      {
+        "word": "Forest",
+        "meaning": "Khu rừng",
+        "pronunciation": "/ˈfɔːrɪst/",
+        "partOfSpeech": "noun",
+        "example": "Walk in the green forest.",
+        "exampleMeaning": "Ví dụ về khu rừng.",
+        "category": "Travel"
       },
       {
         "word": "Luggage",
         "meaning": "Hành lý",
         "pronunciation": "/ˈlʌɡɪdʒ/",
         "partOfSpeech": "noun",
-        "example": "Pick up your luggage at baggage claim.",
-        "exampleMeaning": "Nhận hành lý tại quầy nhận đồ.",
+        "example": "Pack your luggage carefully.",
+        "exampleMeaning": "Ví dụ về hành lý.",
         "category": "Travel"
       },
       {
@@ -1966,7 +3507,7 @@ const lessonsData = [
         "pronunciation": "/mæp/",
         "partOfSpeech": "noun",
         "example": "Check the tourist map.",
-        "exampleMeaning": "Kiểm tra bản đồ du lịch.",
+        "exampleMeaning": "Ví dụ về bản đồ.",
         "category": "Travel"
       },
       {
@@ -1975,57 +3516,129 @@ const lessonsData = [
         "pronunciation": "/tʊr/",
         "partOfSpeech": "noun",
         "example": "Take a guided city tour.",
-        "exampleMeaning": "Tham gia tour ngắm thành phố.",
+        "exampleMeaning": "Ví dụ về chuyến tham quan.",
+        "category": "Travel"
+      },
+      {
+        "word": "Guide",
+        "meaning": "Hướng dẫn viên",
+        "pronunciation": "/ɡaɪd/",
+        "partOfSpeech": "noun",
+        "example": "Follow the local tour guide.",
+        "exampleMeaning": "Ví dụ về hướng dẫn viên.",
         "category": "Travel"
       },
       {
         "word": "Visit",
-        "meaning": "Thăm quan, ghé thăm",
+        "meaning": "Thăm quan",
         "pronunciation": "/ˈvɪzɪt/",
         "partOfSpeech": "verb",
         "example": "Visit ancient temples.",
-        "exampleMeaning": "Thăm những ngôi chùa cổ.",
+        "exampleMeaning": "Ví dụ về thăm quan.",
+        "category": "Travel"
+      },
+      {
+        "word": "Travel",
+        "meaning": "Du lịch",
+        "pronunciation": "/ˈtrævl/",
+        "partOfSpeech": "verb",
+        "example": "I love to travel around Vietnam.",
+        "exampleMeaning": "Ví dụ về du lịch.",
+        "category": "Travel"
+      },
+      {
+        "word": "Trip",
+        "meaning": "Chuyến đi",
+        "pronunciation": "/trɪp/",
+        "partOfSpeech": "noun",
+        "example": "Have a wonderful weekend trip.",
+        "exampleMeaning": "Ví dụ về chuyến đi.",
         "category": "Travel"
       },
       {
         "word": "Vacation",
-        "meaning": "Kỳ nghỉ hè, chuyến du lịch",
+        "meaning": "Kỳ nghỉ",
         "pronunciation": "/veɪˈkeɪʃn/",
         "partOfSpeech": "noun",
         "example": "Enjoy your beach vacation.",
-        "exampleMeaning": "Tận hưởng kỳ nghỉ biển.",
-        "category": "Vacation"
+        "exampleMeaning": "Ví dụ về kỳ nghỉ.",
+        "category": "Travel"
+      },
+      {
+        "word": "Flight",
+        "meaning": "Chuyến bay",
+        "pronunciation": "/flaɪt/",
+        "partOfSpeech": "noun",
+        "example": "The flight takes two hours.",
+        "exampleMeaning": "Ví dụ về chuyến bay.",
+        "category": "Travel"
+      },
+      {
+        "word": "Resort",
+        "meaning": "Khu nghỉ dưỡng",
+        "pronunciation": "/rɪˈzɔːrt/",
+        "partOfSpeech": "noun",
+        "example": "Relax at a seaside resort.",
+        "exampleMeaning": "Ví dụ về khu nghỉ dưỡng.",
+        "category": "Travel"
+      },
+      {
+        "word": "View",
+        "meaning": "Cảnh quan, tầm nhìn",
+        "pronunciation": "/vjuː/",
+        "partOfSpeech": "noun",
+        "example": "A spectacular ocean view.",
+        "exampleMeaning": "Ví dụ về cảnh quan, tầm nhìn.",
+        "category": "Travel"
+      },
+      {
+        "word": "Photo",
+        "meaning": "Bức ảnh",
+        "pronunciation": "/ˈfoʊtoʊ/",
+        "partOfSpeech": "noun",
+        "example": "Take beautiful holiday photos.",
+        "exampleMeaning": "Ví dụ về bức ảnh.",
+        "category": "Travel"
+      },
+      {
+        "word": "Camp",
+        "meaning": "Cắm trại",
+        "pronunciation": "/kæmp/",
+        "partOfSpeech": "verb",
+        "example": "Camp near the quiet lake.",
+        "exampleMeaning": "Ví dụ về cắm trại.",
+        "category": "Travel"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Diễn đạt kế hoạch với 'Be going to'",
-        "explanation": "Dùng be going to + V_inf để nói về kế hoạch hay dự định đã được chuẩn bị từ trước.",
-        "formula": "S + am/is/are + going to + V_inf",
-        "examples": "[{\"en\": \"I am going to visit Da Nang next week.\", \"vi\": \"Tôi dự định sẽ đi thăm Đà Nẵng tuần tới.\"}]"
+        "title": "Ngữ pháp trọng tâm: Travel & Vacations",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Travel & Vacations.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Travel & Vacations.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Summer Holiday Plans",
-        "transcript": "Next week, our family is going to visit the beach. We will stay at a hotel for four days.",
-        "questions": "[{\"question\": \"Where are they going to visit?\", \"options\": [\"The beach\", \"The mountain\", \"The museum\", \"The zoo\"], \"correctAnswer\": \"The beach\", \"explanation\": \"Transcript: visit the beach.\"}]"
+        "title": "Luyện nghe chủ đề Travel & Vacations",
+        "transcript": "Hello, welcome to our lesson on Travel & Vacations. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Travel & Vacations\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Travel & Vacations\", \"explanation\": \"Chủ đề nghe: Travel & Vacations.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Hotel Check-in",
-        "context": "Nhận phòng tại khách sạn.",
-        "dialogue": "[{\"speaker\": \"Receptionist\", \"text\": \"Welcome to Sunrise Hotel. Do you have a reservation?\", \"meaning\": \"Chào mừng bạn đến Sunrise Hotel. Bạn có đặt trước chưa ạ?\"}, {\"speaker\": \"Guest\", \"text\": \"Yes, my name is Alex. Here is my passport.\", \"meaning\": \"Có, tên tôi là Alex. Hộ chiếu của tôi đây ạ.\"}]"
+        "title": "Hội thoại giao tiếp Travel & Vacations",
+        "context": "Tình huống trò chuyện về Travel & Vacations.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Travel & Vacations.\", \"meaning\": \"Hãy nói về Travel & Vacations nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "I ___ going to travel to Japan.",
-        "options": "[\"am\", \"is\", \"are\", \"be\"]",
-        "correctAnswer": "am",
-        "explanation": "I am going to."
+        "question": "Từ vựng tiêu biểu của chủ đề Travel & Vacations là:",
+        "options": "[\"Hotel\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Hotel",
+        "explanation": "Hotel thuộc chủ đề Travel & Vacations."
       }
     ],
     "quizzes": [
@@ -2033,31 +3646,61 @@ const lessonsData = [
         "question": "Passport nghĩa là:",
         "options": "[\"Hộ chiếu\", \"Vé máy bay\", \"Hành lý\", \"Bản đồ\"]",
         "correctAnswer": "Hộ chiếu",
-        "explanation": "Passport = Hộ chiếu."
+        "explanation": "Đáp án đúng là: Hộ chiếu."
       },
       {
         "question": "Khách sạn là:",
         "options": "[\"Hotel\", \"Hospital\", \"Restaurant\", \"School\"]",
         "correctAnswer": "Hotel",
-        "explanation": "Hotel = Khách sạn."
+        "explanation": "Đáp án đúng là: Hotel."
       },
       {
         "question": "Luggage nghĩa là:",
         "options": "[\"Hành lý\", \"Vé tàu\", \"Bản đồ\", \"Phòng ngủ\"]",
         "correctAnswer": "Hành lý",
-        "explanation": "Luggage = Hành lý."
+        "explanation": "Đáp án đúng là: Hành lý."
       },
       {
         "question": "Beach là:",
         "options": "[\"Bãi biển\", \"Ngọn núi\", \"Rừng rậm\", \"Dòng sông\"]",
         "correctAnswer": "Bãi biển",
-        "explanation": "Beach = Bãi biển."
+        "explanation": "Đáp án đúng là: Bãi biển."
       },
       {
         "question": "They ___ going to visit London.",
         "options": "[\"are\", \"is\", \"am\", \"be\"]",
         "correctAnswer": "are",
-        "explanation": "They are going to."
+        "explanation": "Đáp án đúng là: are."
+      },
+      {
+        "question": "Ticket là:",
+        "options": "[\"Vé\", \"Hộ chiếu\", \"Tiền mặt\", \"Bản đồ\"]",
+        "correctAnswer": "Vé",
+        "explanation": "Đáp án đúng là: Vé."
+      },
+      {
+        "question": "Island nghĩa là:",
+        "options": "[\"Hòn đảo\", \"Ngọn núi\", \"Thung lũng\", \"Bãi biển\"]",
+        "correctAnswer": "Hòn đảo",
+        "explanation": "Đáp án đúng là: Hòn đảo."
+      },
+      {
+        "question": "Flight là:",
+        "options": "[\"Chuyến bay\", \"Chuyến xe\", \"Chuyến tàu\", \"Chuyến phà\"]",
+        "correctAnswer": "Chuyến bay",
+        "explanation": "Đáp án đúng là: Chuyến bay."
+      },
+      {
+        "question": "Tour guide là:",
+        "options": "[\"Hướng dẫn viên\", \"Tài xế\", \"Bảo vệ\", \"Đầu bếp\"]",
+        "correctAnswer": "Hướng dẫn viên",
+        "explanation": "Đáp án đúng là: Hướng dẫn viên."
+      },
+      {
+        "question": "Vacation nghĩa là:",
+        "options": "[\"Kỳ nghỉ\", \"Công việc\", \"Bài tập\", \"Học kỳ\"]",
+        "correctAnswer": "Kỳ nghỉ",
+        "explanation": "Đáp án đúng là: Kỳ nghỉ."
       }
     ]
   },
@@ -2075,26 +3718,53 @@ const lessonsData = [
         "pronunciation": "/hed/",
         "partOfSpeech": "noun",
         "example": "Wear a helmet on your head.",
-        "exampleMeaning": "Đội mũ bảo hiểm lên đầu.",
-        "category": "Body"
+        "exampleMeaning": "Ví dụ về cái đầu.",
+        "category": "Health"
+      },
+      {
+        "word": "Face",
+        "meaning": "Khuôn mặt",
+        "pronunciation": "/feɪs/",
+        "partOfSpeech": "noun",
+        "example": "Wash your face every morning.",
+        "exampleMeaning": "Ví dụ về khuôn mặt.",
+        "category": "Health"
       },
       {
         "word": "Eye",
-        "meaning": "Mắt",
+        "meaning": "Đôi mắt",
         "pronunciation": "/aɪ/",
         "partOfSpeech": "noun",
         "example": "She has bright brown eyes.",
-        "exampleMeaning": "Cô ấy có đôi mắt nâu sáng.",
-        "category": "Body"
+        "exampleMeaning": "Ví dụ về đôi mắt.",
+        "category": "Health"
       },
       {
         "word": "Ear",
-        "meaning": "Tai",
+        "meaning": "Cái tai",
         "pronunciation": "/ɪr/",
         "partOfSpeech": "noun",
         "example": "Listen with your ears.",
-        "exampleMeaning": "Lắng nghe bằng đôi tai.",
-        "category": "Body"
+        "exampleMeaning": "Ví dụ về cái tai.",
+        "category": "Health"
+      },
+      {
+        "word": "Nose",
+        "meaning": "Chiếc mũi",
+        "pronunciation": "/noʊz/",
+        "partOfSpeech": "noun",
+        "example": "Breathe through your nose.",
+        "exampleMeaning": "Ví dụ về chiếc mũi.",
+        "category": "Health"
+      },
+      {
+        "word": "Mouth",
+        "meaning": "Cái miệng",
+        "pronunciation": "/maʊθ/",
+        "partOfSpeech": "noun",
+        "example": "Open your mouth for doctor.",
+        "exampleMeaning": "Ví dụ về cái miệng.",
+        "category": "Health"
       },
       {
         "word": "Hand",
@@ -2102,17 +3772,44 @@ const lessonsData = [
         "pronunciation": "/hænd/",
         "partOfSpeech": "noun",
         "example": "Wash your hands with soap.",
-        "exampleMeaning": "Rửa tay bằng xà phòng.",
-        "category": "Body"
+        "exampleMeaning": "Ví dụ về bàn tay.",
+        "category": "Health"
+      },
+      {
+        "word": "Finger",
+        "meaning": "Ngón tay",
+        "pronunciation": "/ˈfɪŋɡər/",
+        "partOfSpeech": "noun",
+        "example": "Ten fingers on two hands.",
+        "exampleMeaning": "Ví dụ về ngón tay.",
+        "category": "Health"
       },
       {
         "word": "Leg",
-        "meaning": "Chân",
+        "meaning": "Cái chân",
         "pronunciation": "/leɡ/",
         "partOfSpeech": "noun",
         "example": "Running strengthens your legs.",
-        "exampleMeaning": "Chạy bộ giúp chân khỏe mạnh.",
-        "category": "Body"
+        "exampleMeaning": "Ví dụ về cái chân.",
+        "category": "Health"
+      },
+      {
+        "word": "Foot",
+        "meaning": "Bàn chân",
+        "pronunciation": "/fʊt/",
+        "partOfSpeech": "noun",
+        "example": "Warm socks for your feet.",
+        "exampleMeaning": "Ví dụ về bàn chân.",
+        "category": "Health"
+      },
+      {
+        "word": "Body",
+        "meaning": "Cơ thể",
+        "pronunciation": "/ˈbɑːdi/",
+        "partOfSpeech": "noun",
+        "example": "Keep your body fit and strong.",
+        "exampleMeaning": "Ví dụ về cơ thể.",
+        "category": "Health"
       },
       {
         "word": "Healthy",
@@ -2120,7 +3817,7 @@ const lessonsData = [
         "pronunciation": "/ˈhelθi/",
         "partOfSpeech": "adjective",
         "example": "Eat fresh vegetables to be healthy.",
-        "exampleMeaning": "Ăn rau tươi để khỏe mạnh.",
+        "exampleMeaning": "Ví dụ về khỏe mạnh.",
         "category": "Health"
       },
       {
@@ -2129,7 +3826,43 @@ const lessonsData = [
         "pronunciation": "/sɪk/",
         "partOfSpeech": "adjective",
         "example": "He feels sick today.",
-        "exampleMeaning": "Hôm nay anh ấy cảm thấy ốm.",
+        "exampleMeaning": "Ví dụ về ốm, bệnh.",
+        "category": "Health"
+      },
+      {
+        "word": "Ill",
+        "meaning": "Bị ốm",
+        "pronunciation": "/ɪl/",
+        "partOfSpeech": "adjective",
+        "example": "She stayed in bed because she was ill.",
+        "exampleMeaning": "Ví dụ về bị ốm.",
+        "category": "Health"
+      },
+      {
+        "word": "Pain",
+        "meaning": "Cơn đau",
+        "pronunciation": "/peɪn/",
+        "partOfSpeech": "noun",
+        "example": "Do you feel any pain?",
+        "exampleMeaning": "Ví dụ về cơn đau.",
+        "category": "Health"
+      },
+      {
+        "word": "Headache",
+        "meaning": "Cơn đau đầu",
+        "pronunciation": "/ˈhedeɪk/",
+        "partOfSpeech": "noun",
+        "example": "I have a bad headache.",
+        "exampleMeaning": "Ví dụ về cơn đau đầu.",
+        "category": "Health"
+      },
+      {
+        "word": "Fever",
+        "meaning": "Cơn sốt",
+        "pronunciation": "/ˈfiːvər/",
+        "partOfSpeech": "noun",
+        "example": "A high fever above 38 degrees.",
+        "exampleMeaning": "Ví dụ về cơn sốt.",
         "category": "Health"
       },
       {
@@ -2138,57 +3871,57 @@ const lessonsData = [
         "pronunciation": "/ˈmedɪsn/",
         "partOfSpeech": "noun",
         "example": "Take this medicine after meals.",
-        "exampleMeaning": "Uống thuốc này sau bữa ăn.",
+        "exampleMeaning": "Ví dụ về thuốc chữa bệnh.",
         "category": "Health"
       },
       {
-        "word": "Rest",
-        "meaning": "Nghỉ ngơi",
-        "pronunciation": "/rest/",
-        "partOfSpeech": "verb",
-        "example": "You need to rest in bed.",
-        "exampleMeaning": "Bạn cần nghỉ ngơi trên giường.",
-        "category": "Health"
-      },
-      {
-        "word": "Pain",
-        "meaning": "Cơn đau, nỗi đau",
-        "pronunciation": "/peɪn/",
+        "word": "Doctor",
+        "meaning": "Bác sĩ",
+        "pronunciation": "/ˈdɑːktər/",
         "partOfSpeech": "noun",
-        "example": "Do you feel any pain in your back?",
-        "exampleMeaning": "Bạn có đau ở lưng không?",
+        "example": "Consult with your doctor.",
+        "exampleMeaning": "Ví dụ về bác sĩ.",
+        "category": "Health"
+      },
+      {
+        "word": "Hospital",
+        "meaning": "Bệnh viện",
+        "pronunciation": "/ˈhɑːspɪtl/",
+        "partOfSpeech": "noun",
+        "example": "Go to the general hospital.",
+        "exampleMeaning": "Ví dụ về bệnh viện.",
         "category": "Health"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Đưa ra lời khuyên sức khỏe với 'Should' / 'Shouldn't'",
-        "explanation": "Dùng Should + V (nên) hoặc Shouldn't + V (không nên) để khuyên ai đó về sức khỏe.",
-        "formula": "S + should / shouldn't + V_inf",
-        "examples": "[{\"en\": \"You should drink plenty of water and rest.\", \"vi\": \"Bạn nên uống nhiều nước và nghỉ ngơi.\"}]"
+        "title": "Ngữ pháp trọng tâm: Health & Body Parts",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Health & Body Parts.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Health & Body Parts.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Doctor's Advice",
-        "transcript": "Hello Tom. You have a cold. You should take this medicine and rest at home for two days.",
-        "questions": "[{\"question\": \"What should Tom do?\", \"options\": [\"Rest at home\", \"Go swimming\", \"Play football\", \"Work overtime\"], \"correctAnswer\": \"Rest at home\", \"explanation\": \"Transcript: rest at home.\"}]"
+        "title": "Luyện nghe chủ đề Health & Body Parts",
+        "transcript": "Hello, welcome to our lesson on Health & Body Parts. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Health & Body Parts\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Health & Body Parts\", \"explanation\": \"Chủ đề nghe: Health & Body Parts.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "Feeling Unwell",
-        "context": "Hỏi thăm khi bạn bị ốm.",
-        "dialogue": "[{\"speaker\": \"Lisa\", \"text\": \"Are you okay? You look tired.\", \"meaning\": \"Bạn ổn không? Trông bạn mệt mỏi quá.\"}, {\"speaker\": \"Mark\", \"text\": \"I have a headache. I should go home and rest.\", \"meaning\": \"Mình bị đau đầu. Mình nên về nhà nghỉ ngơi.\"}]"
+        "title": "Hội thoại giao tiếp Health & Body Parts",
+        "context": "Tình huống trò chuyện về Health & Body Parts.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Health & Body Parts.\", \"meaning\": \"Hãy nói về Health & Body Parts nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "Khi ai đó bị ốm, bạn nên khuyên: You ___ see a doctor.",
-        "options": "[\"should\", \"shouldn't\", \"are\", \"do\"]",
-        "correctAnswer": "should",
-        "explanation": "You should see a doctor."
+        "question": "Từ vựng tiêu biểu của chủ đề Health & Body Parts là:",
+        "options": "[\"Head\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Head",
+        "explanation": "Head thuộc chủ đề Health & Body Parts."
       }
     ],
     "quizzes": [
@@ -2196,31 +3929,61 @@ const lessonsData = [
         "question": "Healthy nghĩa là:",
         "options": "[\"Khỏe mạnh\", \"Ốm yếu\", \"Mệt mỏi\", \"Buồn bã\"]",
         "correctAnswer": "Khỏe mạnh",
-        "explanation": "Healthy = Khỏe mạnh."
+        "explanation": "Đáp án đúng là: Khỏe mạnh."
       },
       {
         "question": "Hand là bộ phận nào?",
         "options": "[\"Bàn tay\", \"Bàn chân\", \"Cái đầu\", \"Đôi mắt\"]",
         "correctAnswer": "Bàn tay",
-        "explanation": "Hand = Bàn tay."
+        "explanation": "Đáp án đúng là: Bàn tay."
       },
       {
         "question": "Medicine nghĩa là:",
         "options": "[\"Thuốc\", \"Thức ăn\", \"Nước uống\", \"Giường ngủ\"]",
         "correctAnswer": "Thuốc",
-        "explanation": "Medicine = Thuốc."
+        "explanation": "Đáp án đúng là: Thuốc."
       },
       {
         "question": "You ___ eat too much junk food.",
         "options": "[\"shouldn't\", \"should\", \"must\", \"can\"]",
         "correctAnswer": "shouldn't",
-        "explanation": "You shouldn't eat junk food."
+        "explanation": "Đáp án đúng là: shouldn't."
       },
       {
         "question": "Eye nghĩa là:",
         "options": "[\"Đôi mắt\", \"Cái tai\", \"Cái mũi\", \"Cái miệng\"]",
         "correctAnswer": "Đôi mắt",
-        "explanation": "Eye = Mắt."
+        "explanation": "Đáp án đúng là: Đôi mắt."
+      },
+      {
+        "question": "Headache là bệnh gì?",
+        "options": "[\"Đau đầu\", \"Đau bụng\", \"Đau răng\", \"Đau chân\"]",
+        "correctAnswer": "Đau đầu",
+        "explanation": "Đáp án đúng là: Đau đầu."
+      },
+      {
+        "question": "Fever nghĩa là:",
+        "options": "[\"Cơn sốt\", \"Cơn ho\", \"Cơn đau\", \"Cảm lạnh\"]",
+        "correctAnswer": "Cơn sốt",
+        "explanation": "Đáp án đúng là: Cơn sốt."
+      },
+      {
+        "question": "Nose là:",
+        "options": "[\"Cái mũi\", \"Cái tai\", \"Cái miệng\", \"Đôi mắt\"]",
+        "correctAnswer": "Cái mũi",
+        "explanation": "Đáp án đúng là: Cái mũi."
+      },
+      {
+        "question": "Leg là:",
+        "options": "[\"Cái chân\", \"Cái tay\", \"Cái đầu\", \"Cái lưng\"]",
+        "correctAnswer": "Cái chân",
+        "explanation": "Đáp án đúng là: Cái chân."
+      },
+      {
+        "question": "You ___ see a doctor when sick.",
+        "options": "[\"should\", \"shouldn't\", \"can't\", \"mustn't\"]",
+        "correctAnswer": "should",
+        "explanation": "Đáp án đúng là: should."
       }
     ]
   },
@@ -2230,7 +3993,7 @@ const lessonsData = [
     "description": "Nói về sở thích, các hoạt động giải trí lúc rảnh rỗi và diễn đạt tình yêu thích trong giao tiếp.",
     "level": "A2",
     "category": "Hobbies",
-    "durationMinutes": 25,
+    "durationMinutes": 20,
     "vocabularies": [
       {
         "word": "Music",
@@ -2238,7 +4001,16 @@ const lessonsData = [
         "pronunciation": "/ˈmjuːzɪk/",
         "partOfSpeech": "noun",
         "example": "I listen to acoustic music.",
-        "exampleMeaning": "Tôi nghe nhạc mộc.",
+        "exampleMeaning": "Ví dụ về âm nhạc.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Song",
+        "meaning": "Bài hát",
+        "pronunciation": "/sɔːŋ/",
+        "partOfSpeech": "noun",
+        "example": "A melodious pop song.",
+        "exampleMeaning": "Ví dụ về bài hát.",
         "category": "Hobbies"
       },
       {
@@ -2247,7 +4019,16 @@ const lessonsData = [
         "pronunciation": "/ˈmuːvi/",
         "partOfSpeech": "noun",
         "example": "Watch an exciting action movie.",
-        "exampleMeaning": "Xem một bộ phim hành động gay cấn.",
+        "exampleMeaning": "Ví dụ về bộ phim.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Film",
+        "meaning": "Phim ảnh",
+        "pronunciation": "/fɪlm/",
+        "partOfSpeech": "noun",
+        "example": "A documentary film about nature.",
+        "exampleMeaning": "Ví dụ về phim ảnh.",
         "category": "Hobbies"
       },
       {
@@ -2256,7 +4037,7 @@ const lessonsData = [
         "pronunciation": "/spɔːrts/",
         "partOfSpeech": "noun",
         "example": "Playing sports is great for your health.",
-        "exampleMeaning": "Chơi thể thao rất tốt cho sức khỏe.",
+        "exampleMeaning": "Ví dụ về thể thao.",
         "category": "Hobbies"
       },
       {
@@ -2265,7 +4046,16 @@ const lessonsData = [
         "pronunciation": "/ɡeɪm/",
         "partOfSpeech": "noun",
         "example": "Play board games with friends.",
-        "exampleMeaning": "Chơi cờ bàn cùng bạn bè.",
+        "exampleMeaning": "Ví dụ về trò chơi.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Football",
+        "meaning": "Bóng đá",
+        "pronunciation": "/ˈfʊtbɔːl/",
+        "partOfSpeech": "noun",
+        "example": "Play football on Sundays.",
+        "exampleMeaning": "Ví dụ về bóng đá.",
         "category": "Hobbies"
       },
       {
@@ -2274,7 +4064,7 @@ const lessonsData = [
         "pronunciation": "/sɪŋ/",
         "partOfSpeech": "verb",
         "example": "She sings very beautifully.",
-        "exampleMeaning": "Cô ấy hát rất hay.",
+        "exampleMeaning": "Ví dụ về ca hát.",
         "category": "Hobbies"
       },
       {
@@ -2283,7 +4073,7 @@ const lessonsData = [
         "pronunciation": "/dæns/",
         "partOfSpeech": "verb",
         "example": "Dancing to the rhythm.",
-        "exampleMeaning": "Nhảy múa theo nhịp điệu.",
+        "exampleMeaning": "Ví dụ về nhảy múa.",
         "category": "Hobbies"
       },
       {
@@ -2292,16 +4082,7 @@ const lessonsData = [
         "pronunciation": "/ˈswɪmɪŋ/",
         "partOfSpeech": "noun",
         "example": "Swimming is my favorite summer hobby.",
-        "exampleMeaning": "Bơi lội là sở thích mùa hè của tôi.",
-        "category": "Hobbies"
-      },
-      {
-        "word": "Photo",
-        "meaning": "Bức ảnh, chụp ảnh",
-        "pronunciation": "/ˈfoʊtoʊ/",
-        "partOfSpeech": "noun",
-        "example": "Take a photo of this sunset.",
-        "exampleMeaning": "Chụp bức ảnh hoàng hôn này.",
+        "exampleMeaning": "Ví dụ về bơi lội.",
         "category": "Hobbies"
       },
       {
@@ -2309,8 +4090,80 @@ const lessonsData = [
         "meaning": "Đàn ghi-ta",
         "pronunciation": "/ɡɪˈtɑːr/",
         "partOfSpeech": "noun",
-        "example": "He plays guitar around the campfire.",
-        "exampleMeaning": "Anh ấy gảy ghi-ta quanh lửa trại.",
+        "example": "He plays guitar around campfire.",
+        "exampleMeaning": "Ví dụ về đàn ghi-ta.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Piano",
+        "meaning": "Đàn dương cầm",
+        "pronunciation": "/piˈænoʊ/",
+        "partOfSpeech": "noun",
+        "example": "Practicing the piano keys.",
+        "exampleMeaning": "Ví dụ về đàn dương cầm.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Book",
+        "meaning": "Sách đọc",
+        "pronunciation": "/bʊk/",
+        "partOfSpeech": "noun",
+        "example": "A gripping mystery book.",
+        "exampleMeaning": "Ví dụ về sách đọc.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Paint",
+        "meaning": "Vẽ tranh sơn dầu",
+        "pronunciation": "/peɪnt/",
+        "partOfSpeech": "verb",
+        "example": "Paint colorful portraits.",
+        "exampleMeaning": "Ví dụ về vẽ tranh sơn dầu.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Draw",
+        "meaning": "Vẽ phác thảo",
+        "pronunciation": "/drɔː/",
+        "partOfSpeech": "verb",
+        "example": "Draw cartoon sketches.",
+        "exampleMeaning": "Ví dụ về vẽ phác thảo.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Photo",
+        "meaning": "Bức ảnh",
+        "pronunciation": "/ˈfoʊtoʊ/",
+        "partOfSpeech": "noun",
+        "example": "Take a photo of this sunset.",
+        "exampleMeaning": "Ví dụ về bức ảnh.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Camera",
+        "meaning": "Máy ảnh",
+        "pronunciation": "/ˈkæmrə/",
+        "partOfSpeech": "noun",
+        "example": "A professional DSLR camera.",
+        "exampleMeaning": "Ví dụ về máy ảnh.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Travel",
+        "meaning": "Du ngoạn",
+        "pronunciation": "/ˈtrævl/",
+        "partOfSpeech": "verb",
+        "example": "Travel broadens the mind.",
+        "exampleMeaning": "Ví dụ về du ngoạn.",
+        "category": "Hobbies"
+      },
+      {
+        "word": "Hobby",
+        "meaning": "Sở thích",
+        "pronunciation": "/ˈhɑːbi/",
+        "partOfSpeech": "noun",
+        "example": "What is your main hobby?",
+        "exampleMeaning": "Ví dụ về sở thích.",
         "category": "Hobbies"
       },
       {
@@ -2318,40 +4171,40 @@ const lessonsData = [
         "meaning": "Được yêu thích nhất",
         "pronunciation": "/ˈfeɪvərɪt/",
         "partOfSpeech": "adjective",
-        "example": "What is your favorite hobby?",
-        "exampleMeaning": "Sở thích ưa thích nhất của bạn là gì?",
-        "category": "General"
+        "example": "My favorite hobby is reading.",
+        "exampleMeaning": "Ví dụ về được yêu thích nhất.",
+        "category": "Hobbies"
       }
     ],
     "grammarPoints": [
       {
-        "title": "Diễn tả sở thích với 'Like / Love / Enjoy + V-ing'",
-        "explanation": "Sau các động từ chỉ sự yêu thích (like, love, enjoy), động từ theo sau phải thêm đuôi -ing.",
-        "formula": "S + like / love / enjoy + V_ing",
-        "examples": "[{\"en\": \"I love listening to music.\", \"vi\": \"Tôi rất thích nghe nhạc.\"}, {\"en\": \"He enjoys playing sports.\", \"vi\": \"Anh ấy thích chơi thể thao.\"}]"
+        "title": "Ngữ pháp trọng tâm: Hobbies & Free Time",
+        "explanation": "Các quy tắc ngữ pháp thông dụng cần ghi nhớ khi nói về Hobbies & Free Time.",
+        "formula": "S + V + O",
+        "examples": "[{\"en\": \"Example sentence for Hobbies & Free Time.\", \"vi\": \"Câu ví dụ thực tế.\"}]"
       }
     ],
     "listenings": [
       {
-        "title": "Weekend Hobbies",
-        "transcript": "On weekends, I love swimming in the morning and watching movies with my family at night.",
-        "questions": "[{\"question\": \"What does he do on weekend mornings?\", \"options\": [\"Swimming\", \"Sleeping\", \"Cooking\", \"Working\"], \"correctAnswer\": \"Swimming\", \"explanation\": \"Transcript: swimming in the morning.\"}]"
+        "title": "Luyện nghe chủ đề Hobbies & Free Time",
+        "transcript": "Hello, welcome to our lesson on Hobbies & Free Time. We learn important words and communication phrases today.",
+        "questions": "[{\"question\": \"Chủ đề nghe hôm nay là gì?\", \"options\": [\"Hobbies & Free Time\", \"Khác\", \"Không rõ\", \"Bỏ qua\"], \"correctAnswer\": \"Hobbies & Free Time\", \"explanation\": \"Chủ đề nghe: Hobbies & Free Time.\"}]"
       }
     ],
     "conversations": [
       {
-        "title": "What is your hobby?",
-        "context": "Hỏi về sở thích của nhau.",
-        "dialogue": "[{\"speaker\": \"Chloe\", \"text\": \"What do you like doing in your free time?\", \"meaning\": \"Bạn thích làm gì trong thời gian rảnh?\"}, {\"speaker\": \"David\", \"text\": \"I enjoy playing the guitar and reading books.\", \"meaning\": \"Mình thích chơi đàn ghi-ta và đọc sách.\"}]"
+        "title": "Hội thoại giao tiếp Hobbies & Free Time",
+        "context": "Tình huống trò chuyện về Hobbies & Free Time.",
+        "dialogue": "[{\"speaker\": \"A\", \"text\": \"Let's talk about Hobbies & Free Time.\", \"meaning\": \"Hãy nói về Hobbies & Free Time nhé.\"}, {\"speaker\": \"B\", \"text\": \"That sounds great, I'd love to!\", \"meaning\": \"Tuyệt vời, mình rất sẵn lòng!\"}]"
       }
     ],
     "exercises": [
       {
         "type": "MULTIPLE_CHOICE",
-        "question": "I like ___ to music.",
-        "options": "[\"listening\", \"listen\", \"listened\", \"listens\"]",
-        "correctAnswer": "listening",
-        "explanation": "Like + V-ing: like listening."
+        "question": "Từ vựng tiêu biểu của chủ đề Hobbies & Free Time là:",
+        "options": "[\"Music\", \"Unrelated1\", \"Unrelated2\", \"Unrelated3\"]",
+        "correctAnswer": "Music",
+        "explanation": "Music thuộc chủ đề Hobbies & Free Time."
       }
     ],
     "quizzes": [
@@ -2359,61 +4212,390 @@ const lessonsData = [
         "question": "Music nghĩa là:",
         "options": "[\"Âm nhạc\", \"Hội họa\", \"Điện ảnh\", \"Thể thao\"]",
         "correctAnswer": "Âm nhạc",
-        "explanation": "Music = Âm nhạc."
+        "explanation": "Đáp án đúng là: Âm nhạc."
       },
       {
         "question": "She enjoys ___ (dance).",
         "options": "[\"dancing\", \"dance\", \"danced\", \"dances\"]",
         "correctAnswer": "dancing",
-        "explanation": "Enjoy + V-ing: dancing."
+        "explanation": "Đáp án đúng là: dancing."
       },
       {
         "question": "Swimming nghĩa là môn gì?",
         "options": "[\"Bơi lội\", \"Bóng đá\", \"Chạy bộ\", \"Đạp xe\"]",
         "correctAnswer": "Bơi lội",
-        "explanation": "Swimming = Bơi lội."
+        "explanation": "Đáp án đúng là: Bơi lội."
       },
       {
         "question": "Favorite nghĩa là:",
         "options": "[\"Yêu thích nhất\", \"Chán nhất\", \"Khó nhất\", \"Đắt nhất\"]",
         "correctAnswer": "Yêu thích nhất",
-        "explanation": "Favorite = Yêu thích nhất."
+        "explanation": "Đáp án đúng là: Yêu thích nhất."
       },
       {
         "question": "Movie nghĩa là:",
         "options": "[\"Bộ phim\", \"Bài hát\", \"Trò chơi\", \"Quyển sách\"]",
         "correctAnswer": "Bộ phim",
-        "explanation": "Movie = Bộ phim."
+        "explanation": "Đáp án đúng là: Bộ phim."
+      },
+      {
+        "question": "Guitar là nhạc cụ nào?",
+        "options": "[\"Đàn ghi-ta\", \"Đàn piano\", \"Cây sáo\", \"Bộ trống\"]",
+        "correctAnswer": "Đàn ghi-ta",
+        "explanation": "Đáp án đúng là: Đàn ghi-ta."
+      },
+      {
+        "question": "Hobby nghĩa là:",
+        "options": "[\"Sở thích\", \"Nghề nghiệp\", \"Bài học\", \"Kỳ thi\"]",
+        "correctAnswer": "Sở thích",
+        "explanation": "Đáp án đúng là: Sở thích."
+      },
+      {
+        "question": "Football là môn:",
+        "options": "[\"Bóng đá\", \"Bóng rổ\", \"Bóng chuyền\", \"Quần vợt\"]",
+        "correctAnswer": "Bóng đá",
+        "explanation": "Đáp án đúng là: Bóng đá."
+      },
+      {
+        "question": "Song nghĩa là:",
+        "options": "[\"Bài hát\", \"Điệu nhảy\", \"Bức tranh\", \"Quyển truyện\"]",
+        "correctAnswer": "Bài hát",
+        "explanation": "Đáp án đúng là: Bài hát."
+      },
+      {
+        "question": "I love ___ (read) books.",
+        "options": "[\"reading\", \"read\", \"reads\", \"readed\"]",
+        "correctAnswer": "reading",
+        "explanation": "Đáp án đúng là: reading."
       }
     ]
   }
 ];
-
 const placementQuestions = [
-  { orderNumber: 1, levelTarget: 'A1', category: 'Grammar', question: 'I ___ a student.', options: JSON.stringify(['am', 'is', 'are', 'be']), correctAnswer: 'am' },
-  { orderNumber: 2, levelTarget: 'A1', category: 'Vocabulary', question: 'What is the opposite of "Hot"?', options: JSON.stringify(['Cold', 'Warm', 'Big', 'Fast']), correctAnswer: 'Cold' },
-  { orderNumber: 3, levelTarget: 'A1', category: 'Grammar', question: 'She ___ English every evening.', options: JSON.stringify(['study', 'studies', 'studying', 'is study']), correctAnswer: 'studies' },
-  { orderNumber: 4, levelTarget: 'A1', category: 'Vocabulary', question: 'My father\'s brother is my ___.', options: JSON.stringify(['Cousin', 'Uncle', 'Aunt', 'Grandfather']), correctAnswer: 'Uncle' },
-  { orderNumber: 5, levelTarget: 'A1', category: 'Everyday', question: 'What time is it if it\'s 9:15?', options: JSON.stringify(['Nine fifteen', 'Nine fifty', 'Quarter to nine', 'Nine past']), correctAnswer: 'Nine fifteen' },
-  { orderNumber: 6, levelTarget: 'A1', category: 'Grammar', question: 'There ___ two books on the table.', options: JSON.stringify(['is', 'are', 'am', 'be']), correctAnswer: 'are' },
-  { orderNumber: 7, levelTarget: 'A1', category: 'Vocabulary', question: 'Which word is a fruit?', options: JSON.stringify(['Dog', 'Car', 'Apple', 'Book']), correctAnswer: 'Apple' },
-  { orderNumber: 8, levelTarget: 'A1', category: 'Grammar', question: 'They ___ not like coffee.', options: JSON.stringify(['does', 'do', 'are', 'is']), correctAnswer: 'do' },
-  { orderNumber: 9, levelTarget: 'A2', category: 'Grammar', question: 'Yesterday, we ___ to the beach.', options: JSON.stringify(['go', 'went', 'gone', 'going']), correctAnswer: 'went' },
-  { orderNumber: 10, levelTarget: 'A2', category: 'Vocabulary', question: 'He feels very ___ because he worked all night.', options: JSON.stringify(['tired', 'energetic', 'glad', 'tall']), correctAnswer: 'tired' },
-  { orderNumber: 11, levelTarget: 'A2', category: 'Grammar', question: 'This car is ___ than that one.', options: JSON.stringify(['fast', 'faster', 'more fast', 'fastest']), correctAnswer: 'faster' },
-  { orderNumber: 12, levelTarget: 'A2', category: 'Grammar', question: 'What are you ___ right now?', options: JSON.stringify(['do', 'did', 'doing', 'does']), correctAnswer: 'doing' },
-  { orderNumber: 13, levelTarget: 'A2', category: 'Vocabulary', question: 'A person who flies an airplane is a ___.', options: JSON.stringify(['Doctor', 'Pilot', 'Chef', 'Driver']), correctAnswer: 'Pilot' },
-  { orderNumber: 14, levelTarget: 'A2', category: 'Grammar', question: 'Have you ever ___ to Da Nang?', options: JSON.stringify(['be', 'been', 'was', 'were']), correctAnswer: 'been' },
-  { orderNumber: 15, levelTarget: 'A2', category: 'Communication', question: 'Would you like some orange juice? - ___.', options: JSON.stringify(['Yes, please.', 'No, I don\'t.', 'I am fine.', 'Never mind.']), correctAnswer: 'Yes, please.' },
-  { orderNumber: 16, levelTarget: 'B1', category: 'Grammar', question: 'If it rains tomorrow, we ___ at home.', options: JSON.stringify(['stay', 'will stay', 'stayed', 'would stay']), correctAnswer: 'will stay' },
-  { orderNumber: 17, levelTarget: 'B1', category: 'Vocabulary', question: 'The flight was ___ due to heavy snow.', options: JSON.stringify(['delayed', 'celebrated', 'invited', 'arrived']), correctAnswer: 'delayed' },
-  { orderNumber: 18, levelTarget: 'B1', category: 'Grammar', question: 'He asked me where I ___ from.', options: JSON.stringify(['come', 'came', 'coming', 'comes']), correctAnswer: 'came' },
-  { orderNumber: 19, levelTarget: 'B1', category: 'Vocabulary', question: 'Smoking is strictly ___ inside the hospital.', options: JSON.stringify(['allowed', 'prohibited', 'encouraged', 'enjoyed']), correctAnswer: 'prohibited' },
-  { orderNumber: 20, levelTarget: 'B1', category: 'Reading', question: '"Although it was raining, they played soccer." means:', options: JSON.stringify(['They stopped playing because of rain', 'They played soccer despite the rain', 'It didn\'t rain', 'They dislike soccer']), correctAnswer: 'They played soccer despite the rain' },
+  {
+    "orderNumber": 1,
+    "levelTarget": "A1",
+    "category": "Grammar",
+    "question": "I ___ a student.",
+    "options": "[\"am\", \"is\", \"are\", \"be\"]",
+    "correctAnswer": "am"
+  },
+  {
+    "orderNumber": 2,
+    "levelTarget": "A1",
+    "category": "Vocabulary",
+    "question": "What is the opposite of 'Hot'?",
+    "options": "[\"Cold\", \"Warm\", \"Big\", \"Fast\"]",
+    "correctAnswer": "Cold"
+  },
+  {
+    "orderNumber": 3,
+    "levelTarget": "A1",
+    "category": "Grammar",
+    "question": "She ___ English every evening.",
+    "options": "[\"study\", \"studies\", \"studying\", \"is study\"]",
+    "correctAnswer": "studies"
+  },
+  {
+    "orderNumber": 4,
+    "levelTarget": "A1",
+    "category": "Vocabulary",
+    "question": "My father's brother is my ___.",
+    "options": "[\"Cousin\", \"Uncle\", \"Aunt\", \"Grandfather\"]",
+    "correctAnswer": "Uncle"
+  },
+  {
+    "orderNumber": 5,
+    "levelTarget": "A1",
+    "category": "Everyday",
+    "question": "What time is it if it's 9:15?",
+    "options": "[\"Nine fifteen\", \"Nine fifty\", \"Quarter to nine\", \"Nine past\"]",
+    "correctAnswer": "Nine fifteen"
+  },
+  {
+    "orderNumber": 6,
+    "levelTarget": "A1",
+    "category": "Grammar",
+    "question": "There ___ two books on the table.",
+    "options": "[\"is\", \"are\", \"am\", \"be\"]",
+    "correctAnswer": "are"
+  },
+  {
+    "orderNumber": 7,
+    "levelTarget": "A1",
+    "category": "Vocabulary",
+    "question": "Which word is a fruit?",
+    "options": "[\"Dog\", \"Car\", \"Apple\", \"Book\"]",
+    "correctAnswer": "Apple"
+  },
+  {
+    "orderNumber": 8,
+    "levelTarget": "A1",
+    "category": "Grammar",
+    "question": "They ___ not like coffee.",
+    "options": "[\"does\", \"do\", \"are\", \"is\"]",
+    "correctAnswer": "do"
+  },
+  {
+    "orderNumber": 9,
+    "levelTarget": "A1",
+    "category": "Vocabulary",
+    "question": "Opposite of 'Big' is ___.",
+    "options": "[\"Small\", \"Tall\", \"Fast\", \"Long\"]",
+    "correctAnswer": "Small"
+  },
+  {
+    "orderNumber": 10,
+    "levelTarget": "A1",
+    "category": "Grammar",
+    "question": "___ you speak English?",
+    "options": "[\"Do\", \"Are\", \"Is\", \"Have\"]",
+    "correctAnswer": "Do"
+  },
+  {
+    "orderNumber": 11,
+    "levelTarget": "A1",
+    "category": "Vocabulary",
+    "question": "Color of the sky on a sunny day is ___.",
+    "options": "[\"Blue\", \"Green\", \"Red\", \"Yellow\"]",
+    "correctAnswer": "Blue"
+  },
+  {
+    "orderNumber": 12,
+    "levelTarget": "A1",
+    "category": "Grammar",
+    "question": "This is my brother. ___ name is Tom.",
+    "options": "[\"His\", \"Her\", \"He\", \"Him\"]",
+    "correctAnswer": "His"
+  },
+  {
+    "orderNumber": 13,
+    "levelTarget": "A2",
+    "category": "Grammar",
+    "question": "Yesterday, we ___ to the beach.",
+    "options": "[\"go\", \"went\", \"gone\", \"going\"]",
+    "correctAnswer": "went"
+  },
+  {
+    "orderNumber": 14,
+    "levelTarget": "A2",
+    "category": "Vocabulary",
+    "question": "He feels very ___ because he worked all night.",
+    "options": "[\"tired\", \"energetic\", \"glad\", \"tall\"]",
+    "correctAnswer": "tired"
+  },
+  {
+    "orderNumber": 15,
+    "levelTarget": "A2",
+    "category": "Grammar",
+    "question": "This car is ___ than that one.",
+    "options": "[\"fast\", \"faster\", \"more fast\", \"fastest\"]",
+    "correctAnswer": "faster"
+  },
+  {
+    "orderNumber": 16,
+    "levelTarget": "A2",
+    "category": "Grammar",
+    "question": "What are you ___ right now?",
+    "options": "[\"do\", \"did\", \"doing\", \"does\"]",
+    "correctAnswer": "doing"
+  },
+  {
+    "orderNumber": 17,
+    "levelTarget": "A2",
+    "category": "Vocabulary",
+    "question": "A person who flies an airplane is a ___.",
+    "options": "[\"Doctor\", \"Pilot\", \"Chef\", \"Driver\"]",
+    "correctAnswer": "Pilot"
+  },
+  {
+    "orderNumber": 18,
+    "levelTarget": "A2",
+    "category": "Grammar",
+    "question": "Have you ever ___ to Da Nang?",
+    "options": "[\"be\", \"been\", \"was\", \"were\"]",
+    "correctAnswer": "been"
+  },
+  {
+    "orderNumber": 19,
+    "levelTarget": "A2",
+    "category": "Communication",
+    "question": "Would you like some orange juice? - ___.",
+    "options": "[\"Yes, please.\", \"No, I don't.\", \"I am fine.\", \"Never mind.\"]",
+    "correctAnswer": "Yes, please."
+  },
+  {
+    "orderNumber": 20,
+    "levelTarget": "A2",
+    "category": "Grammar",
+    "question": "I haven't seen him ___ last Monday.",
+    "options": "[\"since\", \"for\", \"in\", \"from\"]",
+    "correctAnswer": "since"
+  },
+  {
+    "orderNumber": 21,
+    "levelTarget": "A2",
+    "category": "Vocabulary",
+    "question": "You buy medicine at the ___.",
+    "options": "[\"Pharmacy\", \"Bakery\", \"Library\", \"Museum\"]",
+    "correctAnswer": "Pharmacy"
+  },
+  {
+    "orderNumber": 22,
+    "levelTarget": "A2",
+    "category": "Grammar",
+    "question": "She dances very ___.",
+    "options": "[\"beautifully\", \"beautiful\", \"beauty\", \"more beautiful\"]",
+    "correctAnswer": "beautifully"
+  },
+  {
+    "orderNumber": 23,
+    "levelTarget": "A2",
+    "category": "Vocabulary",
+    "question": "A place where trains stop is a train ___.",
+    "options": "[\"station\", \"airport\", \"port\", \"garage\"]",
+    "correctAnswer": "station"
+  },
+  {
+    "orderNumber": 24,
+    "levelTarget": "A2",
+    "category": "Grammar",
+    "question": "They were watching TV when I ___ home.",
+    "options": "[\"came\", \"come\", \"coming\", \"comes\"]",
+    "correctAnswer": "came"
+  },
+  {
+    "orderNumber": 25,
+    "levelTarget": "B1",
+    "category": "Grammar",
+    "question": "If it rains tomorrow, we ___ at home.",
+    "options": "[\"stay\", \"will stay\", \"stayed\", \"would stay\"]",
+    "correctAnswer": "will stay"
+  },
+  {
+    "orderNumber": 26,
+    "levelTarget": "B1",
+    "category": "Vocabulary",
+    "question": "The flight was ___ due to heavy snow.",
+    "options": "[\"delayed\", \"celebrated\", \"invited\", \"arrived\"]",
+    "correctAnswer": "delayed"
+  },
+  {
+    "orderNumber": 27,
+    "levelTarget": "B1",
+    "category": "Grammar",
+    "question": "He asked me where I ___ from.",
+    "options": "[\"come\", \"came\", \"coming\", \"comes\"]",
+    "correctAnswer": "came"
+  },
+  {
+    "orderNumber": 28,
+    "levelTarget": "B1",
+    "category": "Vocabulary",
+    "question": "Smoking is strictly ___ inside the hospital.",
+    "options": "[\"allowed\", \"prohibited\", \"encouraged\", \"enjoyed\"]",
+    "correctAnswer": "prohibited"
+  },
+  {
+    "orderNumber": 29,
+    "levelTarget": "B1",
+    "category": "Reading",
+    "question": "'Although it was raining, they played soccer.' means:",
+    "options": "[\"They stopped playing because of rain\", \"They played soccer despite the rain\", \"It didn't rain\", \"They dislike soccer\"]",
+    "correctAnswer": "They played soccer despite the rain"
+  },
+  {
+    "orderNumber": 30,
+    "levelTarget": "B1",
+    "category": "Grammar",
+    "question": "I wish I ___ more time to travel.",
+    "options": "[\"have\", \"had\", \"will have\", \"having\"]",
+    "correctAnswer": "had"
+  },
+  {
+    "orderNumber": 31,
+    "levelTarget": "B1",
+    "category": "Vocabulary",
+    "question": "The meeting was called ___ because of an emergency.",
+    "options": "[\"off\", \"on\", \"up\", \"in\"]",
+    "correctAnswer": "off"
+  },
+  {
+    "orderNumber": 32,
+    "levelTarget": "B1",
+    "category": "Grammar",
+    "question": "The book ___ by J.K. Rowling was fantastic.",
+    "options": "[\"written\", \"writing\", \"wrote\", \"write\"]",
+    "correctAnswer": "written"
+  },
+  {
+    "orderNumber": 33,
+    "levelTarget": "B1",
+    "category": "Vocabulary",
+    "question": "He is very ___ and never tells lies.",
+    "options": "[\"honest\", \"jealous\", \"greedy\", \"arrogant\"]",
+    "correctAnswer": "honest"
+  },
+  {
+    "orderNumber": 34,
+    "levelTarget": "B1",
+    "category": "Grammar",
+    "question": "You ___ better hurry or you will miss the train.",
+    "options": "[\"had\", \"would\", \"should\", \"did\"]",
+    "correctAnswer": "had"
+  },
+  {
+    "orderNumber": 35,
+    "levelTarget": "B2",
+    "category": "Grammar",
+    "question": "Had I known about the party, I ___ attended.",
+    "options": "[\"would have\", \"will have\", \"had\", \"would\"]",
+    "correctAnswer": "would have"
+  },
+  {
+    "orderNumber": 36,
+    "levelTarget": "B2",
+    "category": "Vocabulary",
+    "question": "Her explanation was so ___ that everyone understood immediately.",
+    "options": "[\"lucid\", \"ambiguous\", \"vague\", \"tedious\"]",
+    "correctAnswer": "lucid"
+  },
+  {
+    "orderNumber": 37,
+    "levelTarget": "B2",
+    "category": "Grammar",
+    "question": "Rarely ___ such a spectacular performance.",
+    "options": "[\"have I seen\", \"I have seen\", \"I saw\", \"saw I\"]",
+    "correctAnswer": "have I seen"
+  },
+  {
+    "orderNumber": 38,
+    "levelTarget": "B2",
+    "category": "Vocabulary",
+    "question": "The company decided to ___ costs to remain profitable.",
+    "options": "[\"curtail\", \"augment\", \"inflate\", \"multiply\"]",
+    "correctAnswer": "curtail"
+  },
+  {
+    "orderNumber": 39,
+    "levelTarget": "B2",
+    "category": "Reading",
+    "question": "A statement that is 'redundant' is one that is:",
+    "options": "[\"Unnecessarily repetitive\", \"Extremely urgent\", \"Contradictory\", \"Unproven\"]",
+    "correctAnswer": "Unnecessarily repetitive"
+  },
+  {
+    "orderNumber": 40,
+    "levelTarget": "B2",
+    "category": "Grammar",
+    "question": "It is essential that every student ___ present on time.",
+    "options": "[\"be\", \"is\", \"was\", \"are\"]",
+    "correctAnswer": "be"
+  }
 ];
 
 async function main() {
-  console.log('--- Starting Expanded Curriculum Database Seeding (15 Lessons, 140+ Vocabs) ---');
+  console.log('--- Seeding Doubled Curriculum: 15 Lessons, 300 Vocabularies, 150 Quizzes, 40 Placement Questions ---');
 
   // Clean existing data
   await prisma.quizAttempt.deleteMany();
@@ -2462,6 +4644,7 @@ async function main() {
   console.log('Created Users:', { admin: admin.email, student: student.email });
 
   let totalVocabCount = 0;
+  let totalQuizCount = 0;
   const createdVocabIds = [];
 
   // 2. Seed All 15 Lessons
@@ -2538,13 +4721,14 @@ async function main() {
             lessonId: createdLesson.id,
           },
         });
+        totalQuizCount++;
       }
     }
 
-    console.log(`  -> Lesson ${createdLesson.orderNumber}: ${createdLesson.title} (${vocabularies.length} words)`);
+    console.log(`  -> Lesson ${createdLesson.orderNumber}: ${createdLesson.title} (${vocabularies.length} words, ${quizzes.length} quiz questions)`);
   }
 
-  // 3. Seed Placement Test Questions
+  // 3. Seed Doubled Placement Test Questions (40 questions)
   for (const q of placementQuestions) {
     await prisma.placementQuestion.create({
       data: q,
@@ -2552,10 +4736,8 @@ async function main() {
   }
   console.log(`Seeded ${placementQuestions.length} Placement Questions.`);
 
-  // 4. Seed initial learning progress & student saved vocabularies for realistic demo
+  // 4. Seed initial student progress
   const lesson1 = await prisma.lesson.findFirst({ where: { orderNumber: 1 } });
-  const lesson2 = await prisma.lesson.findFirst({ where: { orderNumber: 2 } });
-
   if (lesson1) {
     await prisma.userProgress.create({
       data: {
@@ -2569,35 +4751,22 @@ async function main() {
     });
   }
 
-  if (lesson2) {
-    await prisma.userProgress.create({
-      data: {
-        userId: student.id,
-        lessonId: lesson2.id,
-        progress: 60,
-        completed: false,
-        score: 60,
-      },
-    });
-  }
-
-  // Pre-seed some user saved vocabulary items (Favorites & Need Review)
-  if (createdVocabIds.length > 15) {
-    for (let i = 0; i < 15; i++) {
+  // Seed sample student user vocabulary items
+  if (createdVocabIds.length > 30) {
+    for (let i = 0; i < 30; i++) {
       const vId = createdVocabIds[i];
       await prisma.userVocabulary.create({
         data: {
           userId: student.id,
           vocabularyId: vId,
-          status: i < 5 ? 'MASTERED' : (i < 10 ? 'NEED_REVIEW' : 'LEARNING'),
+          status: i < 10 ? 'MASTERED' : (i < 20 ? 'NEED_REVIEW' : 'LEARNING'),
           isFavorite: i % 2 === 0,
         },
       });
     }
-    console.log('Seeded 15 sample student user vocabulary tracking items.');
   }
 
-  console.log(`--- Seeding Complete: 15 Lessons, ${totalVocabCount} Vocabularies Loaded Into Database! ---`);
+  console.log(`--- Seeding Complete: 15 Lessons, ${totalVocabCount} Vocabularies, ${totalQuizCount} Quiz Questions, ${placementQuestions.length} Placement Questions Loaded! ---`);
 }
 
 main()

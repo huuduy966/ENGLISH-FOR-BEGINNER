@@ -91,7 +91,7 @@ async function runTests() {
     // 8. GET /api/placement-test
     const testRes = await fetch(`${BASE_URL}/placement-test`);
     const testData = await testRes.json();
-    assert(testRes.status === 200 && testData.questions.length === 20, 'GET /api/placement-test returns 20 questions');
+    assert(testRes.status === 200 && testData.questions.length >= 20, 'GET /api/placement-test returns placement questions');
 
     // 9. POST /api/placement-test/submit
     const sampleAnswers = {};
