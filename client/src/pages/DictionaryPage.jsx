@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import {
   Search,
@@ -10,7 +10,7 @@ import {
   Clock,
   Layers,
   ArrowRight,
-  Sparkles,
+  HelpCircle,
 } from 'lucide-react';
 import { speakText } from '../utils/speech';
 import api from '../services/api';
@@ -22,6 +22,12 @@ export default function DictionaryPage() {
   const [loading, setLoading] = useState(false);
   const [savedSuccess, setSavedSuccess] = useState(false);
   const [error, setError] = useState('');
+  const [didYouMean, setDidYouMean] = useState(null);
+  const [suggestions, setSuggestions] = useState([]);
+
+  // Client-side instant cache
+  const clientCache = useRef(new Map());
+
   const [recentSearches, setRecentSearches] = useState(() => {
     const saved = localStorage.getItem('e4b_recent_lookups');
     return saved ? JSON.parse(saved) : [];
@@ -47,56 +53,64 @@ export default function DictionaryPage() {
     const term = wordToSearch.trim();
     if (!term) return;
 
+    const cleanTerm = term.toLowerCase();
+
+    // 1. Check instant client cache (0ms)
+    if (clientCache.current.has(cleanTerm)) {
+      setResult(clientCache.current.get(cleanTerm));
+      setError('');
+      setDidYouMean(null);
+      setSuggestions([]);
+      setLoading(false);
+      return;
+    }
+
     setLoading(true);
     setError('');
+    setDidYouMean(null);
+    setSuggestions([]);
     setSavedSuccess(false);
 
     try {
-      const res = await api.get(`/vocabulary/lookup/${encodeURIComponent(term)}`);
+      const res = await api.get(`/vocabulary/lookup/${encodeURIComponent(cleanTerm)}`);
       setResult(res.data);
+      clientCache.current.set(cleanTerm, res.data);
 
       // Update recent searches
       setRecentSearches((prev) => {
-        const filtered = prev.filter((w) => w.toLowerCase() !== term.toLowerCase());
-        const updated = [term.toLowerCase(), ...filtered].slice(0, 8);
+        const filtered = prev.filter((w) => w.toLowerCase() !== cleanTerm);
+        const updated = [cleanTerm, ...filtered].slice(0, 8);
         localStorage.setItem('e4b_recent_lookups', JSON.stringify(updated));
         return updated;
       });
     } catch (err) {
-      // Fallback direct browser lookup
-      try {
-        const extRes = await fetch(
-          `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(term.toLowerCase())}`
-        );
-        if (extRes.ok) {
-          const extData = await extRes.json();
-          const entry = extData[0];
-
-          let phoneticText = entry.phonetic || '';
-          if (entry.phonetics && Array.isArray(entry.phonetics)) {
-            for (const p of entry.phonetics) {
-              if (!phoneticText && p.text) phoneticText = p.text;
-            }
+      const errData = err.response?.data;
+      if (errData?.didYouMean || errData?.suggestions) {
+        setResult(null);
+        setError(errData.message || `Không tìm thấy từ "${term}".`);
+        setDidYouMean(errData.didYouMean || null);
+        setSuggestions(errData.suggestions || []);
+      } else {
+        // Fallback: Query suggestions from Datamuse directly if backend offline
+        try {
+          const sugRes = await fetch(
+            `https://api.datamuse.com/words?sp=${encodeURIComponent(cleanTerm)}&max=6`
+          );
+          if (sugRes.ok) {
+            const list = await sugRes.json();
+            const words = list.map((i) => i.word).filter((w) => w.toLowerCase() !== cleanTerm);
+            setResult(null);
+            setError(`Không tìm thấy từ "${term}".`);
+            setDidYouMean(words[0] || null);
+            setSuggestions(words.slice(0, 5));
+          } else {
+            setResult(null);
+            setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
           }
-
-          setResult({
-            word: entry.word,
-            phonetic: phoneticText,
-            vietnameseMeaning: null,
-            meanings: entry.meanings || [],
-          });
-
-          setRecentSearches((prev) => {
-            const filtered = prev.filter((w) => w.toLowerCase() !== term.toLowerCase());
-            const updated = [term.toLowerCase(), ...filtered].slice(0, 8);
-            localStorage.setItem('e4b_recent_lookups', JSON.stringify(updated));
-            return updated;
-          });
-        } else {
-          setError(`Không tìm thấy từ "${term}" trong từ điển. Bạn hãy kiểm tra lại chính tả nhé.`);
+        } catch {
+          setResult(null);
+          setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
         }
-      } catch (clientErr) {
-        setError('Lỗi kết nối tra cứu từ điển. Vui lòng kiểm tra lại mạng.');
       }
     } finally {
       setLoading(false);
@@ -149,7 +163,7 @@ export default function DictionaryPage() {
           Từ điển Anh - Việt & Anh - Anh
         </h1>
         <p className="text-sm text-slate-500 mt-1">
-          Tra cứu nhanh phát âm chuẩn IPA, các tầng nghĩa chi tiết, câu ví dụ thực tế và lưu vào sổ tay.
+          Tra cứu nhanh phát âm chuẩn IPA, các tầng nghĩa chi tiết, câu ví dụ thực tế và gợi ý từ thông minh khi viết sai chính tả.
         </p>
       </div>
 
@@ -162,7 +176,7 @@ export default function DictionaryPage() {
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Nhập từ tiếng Anh cần tra (ví dụ: hello, student, coffee)..."
+              placeholder="Nhập từ tiếng Anh cần tra (ví dụ: hello, student, coffee, extension)..."
               className="w-full pl-11 pr-4 py-3 rounded-2xl border border-slate-200 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-600 focus:ring-4 focus:ring-blue-500/10 outline-none transition bg-slate-50/50 focus:bg-white"
             />
           </div>
@@ -182,7 +196,7 @@ export default function DictionaryPage() {
         {/* Popular chips */}
         <div className="flex flex-wrap items-center gap-1.5 pt-1 text-xs">
           <span className="font-semibold text-slate-400 mr-1">Gợi ý nhanh:</span>
-          {['hello', 'apple', 'student', 'coffee', 'family', 'beautiful'].map((word) => (
+          {['hello', 'apple', 'student', 'coffee', 'extension', 'beautiful'].map((word) => (
             <button
               key={word}
               type="button"
@@ -198,14 +212,77 @@ export default function DictionaryPage() {
         </div>
       </div>
 
-      {/* 3. Error Alert */}
+      {/* 3. Spelling Suggestions Card (When Misspelled) */}
       {error && (
-        <div className="p-5 rounded-3xl bg-rose-50 border border-rose-200 text-rose-800 text-sm flex items-start gap-3 shadow-sm animate-fade-in">
-          <AlertCircle className="w-5 h-5 shrink-0 mt-0.5 text-rose-600" />
-          <div>
-            <p className="font-bold">Không tìm thấy từ vựng</p>
-            <p className="text-xs mt-1 text-rose-700 leading-relaxed">{error}</p>
+        <div className="p-6 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-4 animate-fade-in">
+          <div className="flex items-start gap-3">
+            <div className="p-2.5 rounded-2xl bg-amber-50 text-amber-600 shrink-0">
+              <HelpCircle className="w-5 h-5 text-amber-500" />
+            </div>
+            <div>
+              <p className="font-bold text-slate-900 text-base">
+                Không tìm thấy từ "{searchTerm}"
+              </p>
+              {didYouMean ? (
+                <p className="text-xs text-slate-500 mt-1 leading-relaxed">
+                  Có thể bạn đã viết nhầm chính tả. Hệ thống phát hiện từ đúng phù hợp nhất dưới đây:
+                </p>
+              ) : (
+                <p className="text-xs text-slate-500 mt-1 leading-relaxed">
+                  Vui lòng kiểm tra lại chính tả hoặc thử các từ viết gần giống.
+                </p>
+              )}
+            </div>
           </div>
+
+          {/* Primary "Did You Mean?" High Priority Banner */}
+          {didYouMean && (
+            <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700 block mb-0.5">
+                  Có phải bạn muốn tìm:
+                </span>
+                <span className="text-xl font-black text-blue-950 capitalize">
+                  {didYouMean}
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setSearchTerm(didYouMean);
+                  doSearch(didYouMean);
+                }}
+                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-sm flex items-center justify-center gap-1.5 self-start sm:self-auto"
+              >
+                <span>Xem từ "{didYouMean}"</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          )}
+
+          {/* Alternative Similar Suggestions */}
+          {suggestions && suggestions.length > 0 && (
+            <div className="pt-2 border-t border-slate-100">
+              <span className="text-xs font-semibold text-slate-500 block mb-2">
+                Các từ tương tự khác:
+              </span>
+              <div className="flex flex-wrap gap-2">
+                {suggestions.map((s, idx) => (
+                  <button
+                    key={idx}
+                    type="button"
+                    onClick={() => {
+                      setSearchTerm(s);
+                      doSearch(s);
+                    }}
+                    className="px-3.5 py-1.5 rounded-xl bg-slate-50 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 hover:border-blue-300 font-semibold text-xs transition"
+                  >
+                    {s}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
 
@@ -227,7 +304,7 @@ export default function DictionaryPage() {
               </p>
               <div className="pt-3 flex flex-wrap justify-center items-center gap-2">
                 <span className="text-xs font-semibold text-slate-400">Gợi ý thử:</span>
-                {['hello', 'coffee', 'student', 'family', 'travel'].map((w) => (
+                {['hello', 'coffee', 'student', 'family', 'extension'].map((w) => (
                   <button
                     key={w}
                     type="button"
@@ -403,7 +480,7 @@ export default function DictionaryPage() {
 
         {/* Right: Sidebar & Context Helpers (1 Col) */}
         <div className="space-y-6">
-          {/* Recent Lookups Card (Only shown when there are recent searches) */}
+          {/* Recent Lookups Card */}
           {recentSearches.length > 0 && (
             <div className="bg-white rounded-3xl p-6 border border-slate-200/80 shadow-sm space-y-4">
               <div className="flex items-center justify-between">

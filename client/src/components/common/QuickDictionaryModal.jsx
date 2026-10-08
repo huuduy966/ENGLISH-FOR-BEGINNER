@@ -7,7 +7,8 @@ import {
   BookOpen,
   Check,
   AlertCircle,
-  Sparkles,
+  ArrowRight,
+  HelpCircle,
 } from 'lucide-react';
 import api from '../../services/api';
 import { speakText } from '../../utils/speech';
@@ -18,10 +19,15 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [didYouMean, setDidYouMean] = useState(null);
+  const [suggestions, setSuggestions] = useState([]);
   const [savedSuccess, setSavedSuccess] = useState(false);
   const inputRef = useRef(null);
 
-  const quickWords = ['hello', 'student', 'coffee', 'apple', 'family', 'beautiful'];
+  // Client-side cache for sub-millisecond retrieval
+  const modalCache = useRef(new Map());
+
+  const quickWords = ['hello', 'student', 'coffee', 'apple', 'family', 'extension'];
 
   useEffect(() => {
     if (isOpen) {
@@ -35,6 +41,8 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
         setInputWord('');
         setData(null);
         setError('');
+        setDidYouMean(null);
+        setSuggestions([]);
       }
       setTimeout(() => inputRef.current?.focus(), 100);
     }
@@ -55,47 +63,57 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
     const term = searchWord.trim();
     if (!term) return;
 
+    const cleanTerm = term.toLowerCase();
+
+    // Check instant client cache
+    if (modalCache.current.has(cleanTerm)) {
+      setData(modalCache.current.get(cleanTerm));
+      setError('');
+      setDidYouMean(null);
+      setSuggestions([]);
+      setLoading(false);
+      return;
+    }
+
     setLoading(true);
     setError('');
+    setDidYouMean(null);
+    setSuggestions([]);
     setSavedSuccess(false);
 
     try {
-      const res = await api.get(`/vocabulary/lookup/${encodeURIComponent(term)}`);
+      const res = await api.get(`/vocabulary/lookup/${encodeURIComponent(cleanTerm)}`);
       setData(res.data);
+      modalCache.current.set(cleanTerm, res.data);
     } catch (err) {
-      // Fallback directly to client-side API with timeout
-      try {
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 3000);
-
-        const extRes = await fetch(
-          `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(term.toLowerCase())}`,
-          { signal: controller.signal }
-        );
-        clearTimeout(timeoutId);
-
-        if (extRes.ok) {
-          const extJson = await extRes.json();
-          const entry = extJson[0];
-          let phonetic = entry.phonetic || '';
-          if (entry.phonetics) {
-            for (const p of entry.phonetics) {
-              if (!phonetic && p.text) phonetic = p.text;
-            }
-          }
-          setData({
-            word: entry.word,
-            phonetic,
-            vietnameseMeaning: null,
-            meanings: entry.meanings || [],
-          });
-        } else {
-          setError(`Không tìm thấy từ "${term}" trong từ điển.`);
-          setData(null);
-        }
-      } catch (clientErr) {
-        setError(`Không tìm thấy kết quả phù hợp cho "${term}".`);
+      const errData = err.response?.data;
+      if (errData?.didYouMean || errData?.suggestions) {
         setData(null);
+        setError(errData.message || `Không tìm thấy từ "${term}".`);
+        setDidYouMean(errData.didYouMean || null);
+        setSuggestions(errData.suggestions || []);
+      } else {
+        // Fallback directly to Datamuse for spelling suggestions
+        try {
+          const sugRes = await fetch(
+            `https://api.datamuse.com/words?sp=${encodeURIComponent(cleanTerm)}&max=6`,
+            { signal: AbortSignal.timeout(1800) }
+          );
+          if (sugRes.ok) {
+            const list = await sugRes.json();
+            const words = list.map((i) => i.word).filter((w) => w.toLowerCase() !== cleanTerm);
+            setData(null);
+            setError(`Không tìm thấy từ "${term}".`);
+            setDidYouMean(words[0] || null);
+            setSuggestions(words.slice(0, 5));
+          } else {
+            setData(null);
+            setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
+          }
+        } catch {
+          setData(null);
+          setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
+        }
       }
     } finally {
       setLoading(false);
@@ -110,7 +128,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
     }
   };
 
-  const handleSelectQuickWord = (w) => {
+  const handleSelectWord = (w) => {
     setInputWord(w);
     setCurrentWord(w);
     fetchWord(w);
@@ -195,7 +213,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
               <button
                 key={w}
                 type="button"
-                onClick={() => handleSelectQuickWord(w)}
+                onClick={() => handleSelectWord(w)}
                 className={`px-2.5 py-0.5 rounded-lg text-xs font-medium shrink-0 transition ${
                   currentWord.toLowerCase() === w
                     ? 'bg-blue-50 text-blue-700 font-bold'
@@ -244,16 +262,69 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
             </div>
           )}
 
-          {/* 3. Error / Empty State */}
+          {/* 3. Error & Spelling Suggestions State */}
           {!loading && error && (
-            <div className="py-8 text-center space-y-3">
-              <div className="w-12 h-12 mx-auto rounded-2xl bg-rose-50 text-rose-500 flex items-center justify-center">
-                <BookOpen className="w-6 h-6" />
+            <div className="space-y-4 animate-fade-in">
+              <div className="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <HelpCircle className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
+                <div>
+                  <h4 className="font-bold text-sm text-slate-800">
+                    Không tìm thấy từ "{currentWord}"
+                  </h4>
+                  {didYouMean ? (
+                    <p className="text-xs text-slate-500 mt-0.5">
+                      Có thể bạn đã viết nhầm chính tả. Có phải bạn muốn tìm từ này?
+                    </p>
+                  ) : (
+                    <p className="text-xs text-slate-500 mt-0.5">
+                      Vui lòng kiểm tra lại chính tả hoặc thử các từ tương tự.
+                    </p>
+                  )}
+                </div>
               </div>
-              <h4 className="font-bold text-sm text-slate-800">Không tìm thấy kết quả</h4>
-              <p className="text-xs text-slate-500 max-w-xs mx-auto leading-relaxed">
-                {error} Hãy kiểm tra lại chính tả hoặc chọn các từ gợi ý phía trên.
-              </p>
+
+              {/* Primary Did You Mean Box */}
+              {didYouMean && (
+                <div className="p-3.5 rounded-2xl bg-blue-50 border border-blue-200 flex items-center justify-between gap-3">
+                  <div>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700 block">
+                      Gợi ý chính xác nhất:
+                    </span>
+                    <span className="text-base font-black text-blue-950 capitalize">
+                      {didYouMean}
+                    </span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => handleSelectWord(didYouMean)}
+                    className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-sm flex items-center gap-1.5"
+                  >
+                    <span>Xem từ này</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              )}
+
+              {/* Other Suggestions */}
+              {suggestions && suggestions.length > 0 && (
+                <div className="pt-1">
+                  <span className="text-xs font-semibold text-slate-400 block mb-2">
+                    Các từ viết gần giống:
+                  </span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {suggestions.map((s, idx) => (
+                      <button
+                        key={idx}
+                        type="button"
+                        onClick={() => handleSelectWord(s)}
+                        className="px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 text-xs font-medium transition"
+                      >
+                        {s}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
@@ -347,7 +418,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
                           <button
                             key={synIdx}
                             type="button"
-                            onClick={() => handleSelectQuickWord(syn)}
+                            onClick={() => handleSelectWord(syn)}
                             className="px-2 py-0.5 rounded bg-white text-blue-600 border border-slate-200 text-[10px] font-medium hover:bg-blue-50"
                           >
                             {syn}

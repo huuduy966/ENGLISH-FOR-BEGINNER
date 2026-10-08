@@ -1,5 +1,83 @@
 const prisma = require('../db');
 
+// High-speed In-Memory Cache for Dictionary Lookups
+const dictionaryCache = new Map();
+const MAX_CACHE_SIZE = 1000;
+
+function setDictCache(key, value) {
+  if (dictionaryCache.size >= MAX_CACHE_SIZE) {
+    const oldestKey = dictionaryCache.keys().next().value;
+    dictionaryCache.delete(oldestKey);
+  }
+  dictionaryCache.set(key.toLowerCase(), value);
+}
+
+function getDictCache(key) {
+  return dictionaryCache.get(key.toLowerCase());
+}
+
+// Fetch spelling and phonetic suggestions when a word is not found or misspelled
+async function getSpellingSuggestions(word) {
+  const clean = word.trim().toLowerCase();
+  const suggestionsSet = new Set();
+
+  try {
+    const spPromise = fetch(
+      `https://api.datamuse.com/words?sp=${encodeURIComponent(clean)}&max=6`,
+      { signal: AbortSignal.timeout(1800) }
+    ).then((r) => (r.ok ? r.json() : [])).catch(() => []);
+
+    const slPromise = fetch(
+      `https://api.datamuse.com/words?sl=${encodeURIComponent(clean)}&max=6`,
+      { signal: AbortSignal.timeout(1800) }
+    ).then((r) => (r.ok ? r.json() : [])).catch(() => []);
+
+    const [spList, slList] = await Promise.all([spPromise, slPromise]);
+
+    if (Array.isArray(spList)) {
+      for (const item of spList) {
+        if (item.word && item.word.toLowerCase() !== clean) {
+          suggestionsSet.add(item.word.toLowerCase());
+        }
+      }
+    }
+
+    if (Array.isArray(slList)) {
+      for (const item of slList) {
+        if (item.word && item.word.toLowerCase() !== clean) {
+          suggestionsSet.add(item.word.toLowerCase());
+        }
+      }
+    }
+  } catch (err) {
+    console.warn('Spelling suggestion fetch error:', err.message);
+  }
+
+  // Also query local curriculum database for prefix/partial match
+  try {
+    const prefix = clean.slice(0, Math.max(3, clean.length - 2));
+    const localMatches = await prisma.vocabulary.findMany({
+      where: {
+        word: { contains: prefix },
+      },
+      take: 4,
+    });
+    for (const lm of localMatches) {
+      if (lm.word.toLowerCase() !== clean) {
+        suggestionsSet.add(lm.word.toLowerCase());
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  const list = Array.from(suggestionsSet);
+  return {
+    didYouMean: list.length > 0 ? list[0] : null,
+    suggestions: list.slice(0, 5),
+  };
+}
+
 async function getVocabulary(req, res) {
   try {
     const userId = req.user.id;
@@ -60,10 +138,6 @@ async function updateVocabStatus(req, res) {
     const userId = req.user.id;
     const { isFavorite, status } = req.body;
 
-    const existing = await prisma.userVocabulary.findUnique({
-      where: { userId_vocabularyId: { userId, vocabularyId: vocabId } },
-    });
-
     const updateData = {};
     if (typeof isFavorite === 'boolean') updateData.isFavorite = isFavorite;
     if (status) updateData.status = status;
@@ -93,36 +167,40 @@ async function lookupDictionary(req, res) {
       return res.status(400).json({ message: 'Vui lòng cung cấp từ cần tra.' });
     }
 
-    // 1. Look up in local database
-    const localWord = await prisma.vocabulary.findFirst({
-      where: {
-        word: {
-          equals: wordParam,
-        },
-      },
-    });
+    const cleanWord = wordParam.toLowerCase();
 
-    // 2. Fetch from external dictionary service
-    let apiData = null;
-    try {
-      const response = await fetch(
-        `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(wordParam.toLowerCase())}`
-      );
-      if (response.ok) {
-        const json = await response.json();
-        apiData = json[0];
-      }
-    } catch (apiErr) {
-      console.warn('Dictionary fetch failed:', apiErr.message);
+    // 1. Instant Cache Hit (Sub-millisecond response)
+    const cached = getDictCache(cleanWord);
+    if (cached) {
+      return res.json(cached);
     }
 
+    // 2. Parallel Fast Fetch: Local Database & External Dictionary with 2.5s timeout
+    const [localWord, apiData] = await Promise.all([
+      prisma.vocabulary.findFirst({
+        where: { word: { equals: wordParam } },
+      }).catch(() => null),
+      fetch(
+        `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(cleanWord)}`,
+        { signal: AbortSignal.timeout(2500) }
+      )
+        .then((r) => (r.ok ? r.json() : null))
+        .then((arr) => (arr ? arr[0] : null))
+        .catch(() => null),
+    ]);
+
+    // 3. If word not found, compute smart spelling suggestions (e.g. extention -> extension)
     if (!apiData && !localWord) {
+      const { didYouMean, suggestions } = await getSpellingSuggestions(cleanWord);
+
       return res.status(404).json({
         message: `Không tìm thấy từ "${wordParam}" trong từ điển.`,
+        didYouMean,
+        suggestions,
       });
     }
 
-    // Extract native audio url
+    // 4. Extract audio and phonetic
     let audioUrl = null;
     let phoneticText = apiData?.phonetic || localWord?.pronunciation || '';
 
@@ -148,7 +226,7 @@ async function lookupDictionary(req, res) {
       },
     ];
 
-    return res.json({
+    const payload = {
       word: apiData?.word || localWord?.word || wordParam,
       phonetic: phoneticText,
       audioUrl,
@@ -157,7 +235,12 @@ async function lookupDictionary(req, res) {
       localExampleMeaning: localWord?.exampleMeaning || null,
       meanings,
       isLocallySaved: !!localWord,
-    });
+    };
+
+    // Store in cache for blazing fast subsequent lookups
+    setDictCache(cleanWord, payload);
+
+    return res.json(payload);
   } catch (error) {
     console.error('lookupDictionary error:', error);
     return res.status(500).json({ message: 'Lỗi tra cứu từ điển.' });
@@ -173,7 +256,6 @@ async function saveCustomVocabulary(req, res) {
       return res.status(400).json({ message: 'Từ và nghĩa không được để trống.' });
     }
 
-    // Check if vocabulary already exists
     let vocab = await prisma.vocabulary.findFirst({
       where: { word: { equals: word.trim() } },
     });
@@ -193,7 +275,6 @@ async function saveCustomVocabulary(req, res) {
       });
     }
 
-    // Link to user vocabulary
     const userVocab = await prisma.userVocabulary.upsert({
       where: { userId_vocabularyId: { userId, vocabularyId: vocab.id } },
       update: {
