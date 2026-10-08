@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Volume2, Heart, Bookmark, Filter, BookOpen } from 'lucide-react';
+import { Search, Volume2, Heart, Bookmark, Filter, BookOpen, Globe } from 'lucide-react';
 import api from '../services/api';
 import { speakText } from '../utils/speech';
+import QuickDictionaryModal from '../components/common/QuickDictionaryModal';
 
 export default function VocabularyPage() {
   const [vocabList, setVocabList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeFilter, setActiveFilter] = useState('all'); // all, favorites, need_review
+  const [dictModalOpen, setDictModalOpen] = useState(false);
+  const [selectedLookupWord, setSelectedLookupWord] = useState('');
 
   const fetchVocabulary = () => {
     setLoading(true);
@@ -128,10 +131,24 @@ export default function VocabularyPage() {
           <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
         </div>
       ) : vocabList.length === 0 ? (
-        <div className="p-12 text-center bg-white rounded-3xl border border-slate-200">
-          <BookOpen className="w-12 h-12 text-slate-300 mx-auto mb-3" />
-          <h3 className="text-base font-bold text-slate-700">Không tìm thấy từ vựng nào</h3>
-          <p className="text-xs text-slate-400 mt-1">Hãy thử tìm từ khác hoặc bỏ bộ lọc hiện tại.</p>
+        <div className="p-12 text-center bg-white rounded-3xl border border-slate-200 space-y-3">
+          <BookOpen className="w-12 h-12 text-slate-300 mx-auto" />
+          <h3 className="text-base font-bold text-slate-700">Không tìm thấy từ vựng trong bài học</h3>
+          <p className="text-xs text-slate-400 max-w-sm mx-auto">
+            {searchTerm ? `Từ "${searchTerm}" chưa có trong danh sách bài học của bạn. Bạn muốn tra cứu trên Free Dictionary API?` : 'Hãy thử tìm từ khác hoặc bỏ bộ lọc hiện tại.'}
+          </p>
+          {searchTerm && (
+            <button
+              onClick={() => {
+                setSelectedLookupWord(searchTerm);
+                setDictModalOpen(true);
+              }}
+              className="mt-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs inline-flex items-center gap-2 shadow-sm transition"
+            >
+              <Globe className="w-4 h-4" />
+              <span>Tra "{searchTerm}" trên Free Dictionary API</span>
+            </button>
+          )}
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -195,18 +212,39 @@ export default function VocabularyPage() {
                   ({v.partOfSpeech || 'từ vựng'})
                 </span>
 
-                <button
-                  onClick={() => speakText(v.word)}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs transition"
-                >
-                  <Volume2 className="w-3.5 h-3.5" />
-                  <span>Phát âm</span>
-                </button>
+                <div className="flex items-center gap-1.5">
+                  <button
+                    onClick={() => {
+                      setSelectedLookupWord(v.word);
+                      setDictModalOpen(true);
+                    }}
+                    className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition"
+                    title="Tra cứu Free Dictionary API"
+                  >
+                    <Globe className="w-3.5 h-3.5 text-blue-600" />
+                    <span>Chi tiết</span>
+                  </button>
+
+                  <button
+                    onClick={() => speakText(v.word)}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs transition"
+                  >
+                    <Volume2 className="w-3.5 h-3.5" />
+                    <span>Phát âm</span>
+                  </button>
+                </div>
               </div>
             </div>
           ))}
         </div>
       )}
+
+      {/* Quick Free Dictionary Modal */}
+      <QuickDictionaryModal
+        word={selectedLookupWord}
+        isOpen={dictModalOpen}
+        onClose={() => setDictModalOpen(false)}
+      />
     </div>
   );
 }

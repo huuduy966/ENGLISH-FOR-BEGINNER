@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Target, ArrowRight, BookOpen, Layers, CheckCircle2, Search, Headphones } from 'lucide-react';
+import { Target, ArrowRight, BookOpen, Layers, CheckCircle2, Search, Headphones, Globe } from 'lucide-react';
 import api from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
 import TodaysLearningCard from '../components/dashboard/TodaysLearningCard';
@@ -134,20 +134,29 @@ export default function DashboardPage() {
             <div className="rounded-3xl bg-white border border-slate-200/80 p-6 shadow-sm flex flex-col justify-between h-full">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                  Luyện tập thêm
+                  Luyện tập & Tra cứu
                 </span>
-                <h4 className="font-bold text-slate-900 mt-2 mb-1">Flashcard từ vựng</h4>
+                <h4 className="font-bold text-slate-900 mt-2 mb-1">Tra từ điển Free Dictionary</h4>
                 <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                  Ôn tập nhanh các từ đã lưu và tra từ điển các từ mới gặp trong ngày.
+                  Tra cứu nghĩa chi tiết, phiên âm IPA, câu ví dụ và audio bản xứ thực tế từ Free Dictionary API.
                 </p>
               </div>
-              <Link
-                to="/vocabulary"
-                className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center gap-2 transition"
-              >
-                <Layers className="w-4 h-4 text-blue-600" />
-                <span>Mở Sổ tay từ vựng</span>
-              </Link>
+              <div className="space-y-2">
+                <Link
+                  to="/dictionary"
+                  className="w-full py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center justify-center gap-2 transition"
+                >
+                  <Globe className="w-4 h-4 text-blue-600" />
+                  <span>Mở Từ điển Quốc tế</span>
+                </Link>
+                <Link
+                  to="/vocabulary"
+                  className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center gap-2 transition"
+                >
+                  <Layers className="w-4 h-4 text-slate-600" />
+                  <span>Sổ tay từ vựng</span>
+                </Link>
+              </div>
             </div>
           )}
         </div>

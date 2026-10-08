@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import { Volume2, Heart, Bookmark, RotateCw, ChevronLeft, ChevronRight, Check } from 'lucide-react';
+import { Volume2, Heart, Bookmark, RotateCw, ChevronLeft, ChevronRight, Check, Globe, BookOpen } from 'lucide-react';
 import { speakText } from '../../utils/speech';
 import api from '../../services/api';
+import QuickDictionaryModal from '../common/QuickDictionaryModal';
 
 export default function FlashcardSection({ vocabularies = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [vocabs, setVocabs] = useState(vocabularies);
+  const [dictModalOpen, setDictModalOpen] = useState(false);
 
   if (!vocabs || vocabs.length === 0) {
     return (
@@ -96,6 +98,18 @@ export default function FlashcardSection({ vocabularies = [] }) {
               </span>
 
               <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setDictModalOpen(true);
+                  }}
+                  className="p-2 rounded-xl text-blue-600 bg-blue-50 hover:bg-blue-100 transition"
+                  title="Tra từ điển Free Dictionary API"
+                >
+                  <Globe className="w-5 h-5" />
+                </button>
+
                 <button
                   type="button"
                   onClick={handleToggleFavorite}
@@ -208,6 +222,13 @@ export default function FlashcardSection({ vocabularies = [] }) {
           <ChevronRight className="w-5 h-5" />
         </button>
       </div>
+
+      {/* Free Dictionary API Quick Modal */}
+      <QuickDictionaryModal
+        word={current.word}
+        isOpen={dictModalOpen}
+        onClose={() => setDictModalOpen(false)}
+      />
     </div>
   );
 }

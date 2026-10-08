@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { MessageSquare, Volume2, UserCheck, Play } from 'lucide-react';
+import { MessageSquare, Volume2, UserCheck, Play, Globe } from 'lucide-react';
 import { speakText } from '../../utils/speech';
+import QuickDictionaryModal from '../common/QuickDictionaryModal';
 
 export default function ConversationSection({ conversations = [] }) {
   const [activeRole, setActiveRole] = useState('ALL'); // ALL | SpeakerA | SpeakerB
+  const [dictModalOpen, setDictModalOpen] = useState(false);
+  const [lookupWord, setLookupWord] = useState('');
 
   if (!conversations || conversations.length === 0) {
     return (
@@ -120,13 +123,28 @@ export default function ConversationSection({ conversations = [] }) {
                     <p className="text-sm font-semibold leading-relaxed">
                       {item.text}
                     </p>
-                    <button
-                      onClick={() => handlePlayLine(item.text)}
-                      className="p-1.5 rounded-lg text-slate-400 hover:text-blue-600 hover:bg-white/80 transition shrink-0"
-                      title="Nghe câu này"
-                    >
-                      <Volume2 className="w-4 h-4" />
-                    </button>
+                    <div className="flex items-center gap-1 shrink-0">
+                      <button
+                        onClick={() => {
+                          const words = item.text.replace(/[^a-zA-Z\s]/g, '').trim().split(/\s+/);
+                          const sampleWord = words[0] || 'hello';
+                          setLookupWord(sampleWord);
+                          setDictModalOpen(true);
+                        }}
+                        className="p-1.5 rounded-lg text-slate-400 hover:text-blue-600 hover:bg-white/80 transition"
+                        title="Tra từ điển Free Dictionary API"
+                      >
+                        <Globe className="w-4 h-4" />
+                      </button>
+
+                      <button
+                        onClick={() => handlePlayLine(item.text)}
+                        className="p-1.5 rounded-lg text-slate-400 hover:text-blue-600 hover:bg-white/80 transition"
+                        title="Nghe câu này"
+                      >
+                        <Volume2 className="w-4 h-4" />
+                      </button>
+                    </div>
                   </div>
                   {item.meaning && (
                     <p className="text-xs text-slate-500 mt-2 pt-2 border-t border-slate-100 italic">
@@ -139,6 +157,13 @@ export default function ConversationSection({ conversations = [] }) {
           })}
         </div>
       </div>
+
+      {/* Quick Free Dictionary Modal */}
+      <QuickDictionaryModal
+        word={lookupWord}
+        isOpen={dictModalOpen}
+        onClose={() => setDictModalOpen(false)}
+      />
     </div>
   );
 }
