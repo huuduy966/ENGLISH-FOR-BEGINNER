@@ -13,85 +13,75 @@ export default function Logo({ size = 'md', showText = true, to = '/' }) {
 
   const LogoIcon = (
     <div
-      className={`relative ${currentSize.icon} rounded-2xl flex items-center justify-center shadow-lg shadow-blue-500/25 shrink-0 overflow-hidden group-hover:scale-105 transition-transform duration-300`}
+      className={`relative ${currentSize.icon} rounded-2xl flex items-center justify-center shadow-lg shadow-blue-500/20 shrink-0 overflow-hidden group-hover:scale-105 transition-transform duration-300`}
       style={{
-        background: 'linear-gradient(135deg, #2563eb 0%, #4f46e5 50%, #06b6d4 100%)',
+        background: 'linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #06b6d4 100%)',
       }}
     >
-      {/* Decorative light reflection overlay */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/20 to-white/0 pointer-events-none" />
+      {/* Light sheen overlay */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/15 to-white/0 pointer-events-none" />
 
-      {/* Modern Vector SVG: Open Book + Spark of Knowledge */}
+      {/* Wise Owl Mascot with Graduation Cap Vector SVG */}
       <svg
-        viewBox="0 0 40 40"
+        viewBox="0 0 48 48"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-3/4 h-3/4 drop-shadow"
+        className="w-full h-full p-0.5 drop-shadow-sm"
       >
         <defs>
-          <linearGradient id="bookGrad" x1="6" y1="14" x2="34" y2="32" gradientUnits="userSpaceOnUse">
+          <linearGradient id="owlBodyGrad" x1="12" y1="16" x2="36" y2="44" gradientUnits="userSpaceOnUse">
             <stop stopColor="#FFFFFF" />
-            <stop offset="1" stopColor="#E0E7FF" />
+            <stop offset="1" stopColor="#E0F2FE" />
           </linearGradient>
-          <linearGradient id="sparkGrad" x1="16" y1="6" x2="24" y2="15" gradientUnits="userSpaceOnUse">
+          <linearGradient id="capGrad" x1="10" y1="6" x2="38" y2="16" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#1E1B4B" />
+            <stop offset="1" stopColor="#312E81" />
+          </linearGradient>
+          <linearGradient id="goldGrad" x1="20" y1="10" x2="38" y2="24" gradientUnits="userSpaceOnUse">
             <stop stopColor="#FDE047" />
             <stop offset="1" stopColor="#F59E0B" />
           </linearGradient>
         </defs>
 
-        {/* Central Rising Knowledge Spark */}
+        {/* Owl Ear Tufts */}
+        <path d="M12 21L14 14L19 19Z" fill="#DBEAFE" />
+        <path d="M36 21L34 14L29 19Z" fill="#DBEAFE" />
+
+        {/* Owl Body & Head Shape */}
+        <rect x="10" y="17" width="28" height="24" rx="14" fill="url(#owlBodyGrad)" />
+
+        {/* Owl Wings Accents */}
+        <path d="M11 26C11 32 14 37 17 38" stroke="#93C5FD" strokeWidth="2" strokeLinecap="round" />
+        <path d="M37 26C37 32 34 37 31 38" stroke="#93C5FD" strokeWidth="2" strokeLinecap="round" />
+
+        {/* Owl Big Wise Eyes (White Sockets) */}
+        <circle cx="18" cy="27" r="5.5" fill="#FFFFFF" stroke="#93C5FD" strokeWidth="1.5" />
+        <circle cx="30" cy="27" r="5.5" fill="#FFFFFF" stroke="#93C5FD" strokeWidth="1.5" />
+
+        {/* Pupils with Sparkle */}
+        <circle cx="18.5" cy="27" r="3.2" fill="#0F172A" />
+        <circle cx="17.5" cy="25.5" r="1.2" fill="#FFFFFF" />
+
+        <circle cx="29.5" cy="27" r="3.2" fill="#0F172A" />
+        <circle cx="28.5" cy="25.5" r="1.2" fill="#FFFFFF" />
+
+        {/* Cute Golden Beak */}
         <path
-          d="M20 5C20.5 8 22.5 10 25.5 10.5C22.5 11 20.5 13 20 16C19.5 13 17.5 11 14.5 10.5C17.5 10 19.5 8 20 5Z"
-          fill="url(#sparkGrad)"
+          d="M21.5 29.5C22.5 32.5 25.5 32.5 26.5 29.5C24.5 30.2 23.5 30.2 21.5 29.5Z"
+          fill="url(#goldGrad)"
         />
 
-        {/* Left Book Page */}
-        <path
-          d="M9 16.5C13 15 17.5 16.5 20 18.5V31.5C17.5 29.5 13 28.5 9 30V16.5Z"
-          fill="url(#bookGrad)"
-          fillOpacity="0.95"
-        />
+        {/* Mortarboard Graduation Cap (Mũ Cử Nhân) */}
+        {/* Diamond Cap Top */}
+        <path d="M24 6L38 11.5L24 17L10 11.5L24 6Z" fill="url(#capGrad)" />
 
-        {/* Right Book Page */}
-        <path
-          d="M31 16.5C27 15 22.5 16.5 20 18.5V31.5C22.5 29.5 27 28.5 31 30V16.5Z"
-          fill="url(#bookGrad)"
-          fillOpacity="0.95"
-        />
+        {/* Cap Skull Base */}
+        <path d="M16 13.5V17.5C16 19.8 19.6 21 24 21C28.4 21 32 19.8 32 17.5V13.5" fill="#1E1B4B" />
 
-        {/* Book Spine / Bookmark Accent */}
-        <path
-          d="M19.25 18.2C19.7 18.05 20.3 18.05 20.75 18.2V32C20.3 31.8 19.7 31.8 19.25 32V18.2Z"
-          fill="#38BDF8"
-        />
-
-        {/* Subtle Page Lines Left */}
-        <path
-          d="M12 21.5C14.5 20.5 17 21.2 18.5 22.2"
-          stroke="#93C5FD"
-          strokeWidth="1.2"
-          strokeLinecap="round"
-        />
-        <path
-          d="M12 25C14.5 24 17 24.7 18.5 25.7"
-          stroke="#93C5FD"
-          strokeWidth="1.2"
-          strokeLinecap="round"
-        />
-
-        {/* Subtle Page Lines Right */}
-        <path
-          d="M28 21.5C25.5 20.5 23 21.2 21.5 22.2"
-          stroke="#93C5FD"
-          strokeWidth="1.2"
-          strokeLinecap="round"
-        />
-        <path
-          d="M28 25C25.5 24 23 24.7 21.5 25.7"
-          stroke="#93C5FD"
-          strokeWidth="1.2"
-          strokeLinecap="round"
-        />
+        {/* Cap Golden Button & Tassel */}
+        <circle cx="24" cy="11.5" r="1.2" fill="#FDE047" />
+        <path d="M24 11.5L34 15.5V19.5" stroke="url(#goldGrad)" strokeWidth="1.2" strokeLinecap="round" />
+        <circle cx="34" cy="20.5" r="1" fill="#F59E0B" />
       </svg>
     </div>
   );
@@ -104,7 +94,7 @@ export default function Logo({ size = 'md', showText = true, to = '/' }) {
           Beginner
         </span>
       </div>
-      <span className={`${currentSize.sub} font-semibold text-slate-400 mt-0.5 tracking-wide uppercase`}>
+      <span className={`${currentSize.sub} font-bold text-blue-600/80 mt-0.5 tracking-wide uppercase`}>
         E4B • Học từ số 0
       </span>
     </div>
