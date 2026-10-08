@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, CheckCircle2, Clock, Sparkles, ArrowRight, Layers, Headphones, Award } from 'lucide-react';
+import { BookOpen, CheckCircle2, Clock, ArrowRight, Layers, Headphones, Award } from 'lucide-react';
 import api from '../services/api';
 
 export default function LessonsListPage() {

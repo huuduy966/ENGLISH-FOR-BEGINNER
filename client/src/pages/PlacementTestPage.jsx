@@ -7,7 +7,6 @@ import {
   AlertCircle,
   HelpCircle,
   Award,
-  Sparkles,
   RotateCcw,
 } from 'lucide-react';
 import api from '../services/api';
@@ -154,7 +153,7 @@ export default function PlacementTestPage() {
 
           <div className="p-5 rounded-2xl bg-blue-50 border border-blue-200 text-left max-w-xl mx-auto mb-8">
             <h4 className="font-bold text-blue-900 text-sm mb-1.5 flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-blue-600" />
+              <Compass className="w-4 h-4 text-blue-600" />
               Lộ trình đề xuất cho bạn:
             </h4>
             <p className="text-sm text-blue-800 leading-relaxed">{result.recommendation}</p>

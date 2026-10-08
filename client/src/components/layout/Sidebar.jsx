@@ -10,7 +10,7 @@ import {
   BarChart2,
   User,
   ShieldCheck,
-  Sparkles,
+  Star,
   LogOut,
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
@@ -100,7 +100,7 @@ export default function Sidebar({ isOpen, onClose }) {
               </span>
             </div>
             <div className="flex items-center gap-2 mt-2 pt-2 border-t border-blue-200/50 text-xs text-slate-600">
-              <Sparkles className="w-4 h-4 text-amber-500" />
+              <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
               <span>{user.xp || 0} XP tích lũy</span>
             </div>
           </div>

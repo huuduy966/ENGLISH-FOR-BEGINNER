@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Sparkles, BookOpen, Headphones, MessageSquare, Play, Clock, ArrowRight } from 'lucide-react';
+import { BookOpen, Headphones, MessageSquare, Play, Clock, ArrowRight, FileText } from 'lucide-react';
 
 export default function TodaysLearningCard({ packageData }) {
   const navigate = useNavigate();
@@ -14,8 +14,7 @@ export default function TodaysLearningCard({ packageData }) {
 
       <div className="relative z-10">
         <div className="flex items-center justify-between mb-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-xs font-bold tracking-wide uppercase">
-            <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-xs font-bold tracking-wide uppercase">
             <span>Today's Learning Package</span>
           </div>
 
@@ -44,7 +43,7 @@ export default function TodaysLearningCard({ packageData }) {
 
           <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
             <div className="flex items-center gap-2 mb-1">
-              <Sparkles className="w-4 h-4 text-emerald-300" />
+              <FileText className="w-4 h-4 text-emerald-300" />
               <span className="text-xs text-blue-100 font-medium">Ngữ pháp</span>
             </div>
             <p className="text-sm font-bold truncate">{packageData.grammarTitle}</p>

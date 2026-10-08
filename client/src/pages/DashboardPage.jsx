@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Target, ArrowRight, BookOpen, Layers, CheckCircle2, Search, Headphones, Sparkles } from 'lucide-react';
+import { Target, ArrowRight, BookOpen, Layers, CheckCircle2, Search, Headphones } from 'lucide-react';
 import api from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
 import TodaysLearningCard from '../components/dashboard/TodaysLearningCard';
@@ -35,9 +35,8 @@ export default function DashboardPage() {
       {/* Welcome Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight flex items-center gap-2">
-            <span>Chào buổi sáng, {user?.name || 'bạn'}</span>
-            <Sparkles className="w-6 h-6 text-amber-500 inline" />
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+            Chào buổi sáng, {user?.name || 'bạn'}
           </h1>
           <p className="text-sm text-slate-500 mt-1">
             Mục tiêu học: <span className="font-semibold text-blue-600">{user?.goal || 'Lấy lại gốc từ đầu'}</span> • Cấp độ: <span className="font-bold text-slate-700">{user?.level || 'A1'}</span>

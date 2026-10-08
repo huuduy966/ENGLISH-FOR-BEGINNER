@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Volume2, BookmarkPlus, Sparkles, BookOpen, Check } from 'lucide-react';
+import { Search, Volume2, BookmarkPlus, BookOpen, Check } from 'lucide-react';
 import { speakText } from '../utils/speech';
 import api from '../services/api';
 

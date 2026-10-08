@@ -8,7 +8,6 @@ import {
   Brain,
   ArrowRight,
   CheckCircle2,
-  Sparkles,
   Flame,
   Award,
   Compass,
@@ -91,7 +90,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full text-center">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs sm:text-sm font-semibold mb-6 animate-fade-in">
-          <Sparkles className="w-4 h-4 text-blue-600" />
+          <CheckCircle2 className="w-4 h-4 text-blue-600" />
           <span>Giải pháp hoàn hảo cho người mất gốc tiếng Anh</span>
         </div>
 

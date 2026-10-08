@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Award, CheckCircle2, XCircle, ArrowRight, RotateCcw, Sparkles, Lightbulb } from 'lucide-react';
+import { Award, CheckCircle2, XCircle, ArrowRight, RotateCcw, Lightbulb, Star } from 'lucide-react';
 import api from '../../services/api';
 import { useAuth } from '../../contexts/AuthContext';
 
@@ -97,7 +97,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
                 <div>
                   <p className="text-xs text-slate-500 font-medium">Thưởng XP</p>
                   <p className="text-xl font-black text-amber-500 flex items-center gap-1">
-                    <Sparkles className="w-4 h-4" />
+                    <Star className="w-4 h-4 fill-amber-500" />
                     +{quizResult.xpGained} XP
                   </p>
                 </div>

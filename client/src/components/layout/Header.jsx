@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Flame, Star, Bell, Sparkles } from 'lucide-react';
+import { Menu, Flame, Star, Bell } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { Link } from 'react-router-dom';
 
@@ -17,9 +17,8 @@ export default function Header({ onToggleSidebar }) {
           <Menu className="w-5 h-5" />
         </button>
         <div className="hidden sm:block">
-          <span className="text-sm font-semibold text-slate-700 flex items-center gap-1.5">
-            <span>Chào mừng, {user?.name || 'Học viên'}</span>
-            <Sparkles className="w-4 h-4 text-amber-500 inline" />
+          <span className="text-sm font-semibold text-slate-700">
+            Chào mừng, {user?.name || 'Học viên'}
           </span>
         </div>
       </div>

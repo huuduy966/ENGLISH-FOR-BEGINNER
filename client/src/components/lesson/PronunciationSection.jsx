@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mic, Volume2, Sparkles, AlertCircle, CheckCircle2, ThumbsUp } from 'lucide-react';
+import { Mic, Volume2, AlertCircle, CheckCircle2, ThumbsUp } from 'lucide-react';
 import { speakText, createSpeechRecognizer } from '../../utils/speech';
 
 export default function PronunciationSection({ vocabularies = [] }) {
