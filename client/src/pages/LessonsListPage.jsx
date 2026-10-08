@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, CheckCircle2, Clock, ArrowRight, Layers, Headphones, Award } from 'lucide-react';
+import {
+  BookOpen,
+  CheckCircle2,
+  Clock,
+  ArrowRight,
+  Layers,
+  Headphones,
+  Award,
+  Lock,
+  Play,
+} from 'lucide-react';
 import api from '../services/api';
 
 export default function LessonsListPage() {
@@ -27,33 +37,61 @@ export default function LessonsListPage() {
     <div className="space-y-8">
       <div>
         <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
-          Lộ trình Toàn diện ({lessons.length} Bài học)
+          Lộ trình Tuần tự ({lessons.length} Bài học)
         </span>
         <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mt-2">
           Danh sách Bài học (Lessons)
         </h1>
         <p className="text-sm text-slate-500 mt-1">
-          Lộ trình 15 chủ đề từ cơ bản đến nâng cao, kết hợp toàn diện Từ vựng, Ngữ pháp, Nghe, Phát âm và Hội thoại.
+          Học tập theo thứ tự từng bước: hoàn thành bài học và bài kiểm tra để tự động mở khóa các bài tiếp theo.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {lessons.map((lesson) => {
           const isDone = lesson.completed;
+          const isLocked = lesson.isLocked;
+          const isCurrentActive = lesson.isCurrentActive;
+
           return (
             <div
               key={lesson.id}
-              className="bg-white rounded-3xl border border-slate-200/80 p-6 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between group"
+              className={`rounded-3xl p-6 transition-all flex flex-col justify-between ${
+                isLocked
+                  ? 'bg-slate-50/70 border border-dashed border-slate-300 opacity-75'
+                  : isCurrentActive
+                  ? 'bg-white border-2 border-blue-500 shadow-md ring-4 ring-blue-500/10'
+                  : 'bg-white border border-slate-200/80 shadow-sm hover:shadow-lg'
+              }`}
             >
               <div>
+                {/* Header status bar */}
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg">
+                  <span
+                    className={`text-xs font-bold px-2.5 py-1 rounded-lg ${
+                      isLocked
+                        ? 'bg-slate-200 text-slate-500'
+                        : isCurrentActive
+                        ? 'bg-blue-600 text-white shadow-sm'
+                        : 'bg-blue-50 text-blue-600'
+                    }`}
+                  >
                     Bài {lesson.orderNumber}
                   </span>
+
                   {isDone ? (
-                    <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">
+                    <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200/60">
                       <CheckCircle2 className="w-3.5 h-3.5" />
                       <span>Đã hoàn thành</span>
+                    </span>
+                  ) : isLocked ? (
+                    <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-slate-500 bg-slate-200/80 px-2.5 py-1 rounded-full">
+                      <Lock className="w-3.5 h-3.5 text-slate-400" />
+                      <span>Cần làm Bài {lesson.orderNumber - 1}</span>
+                    </span>
+                  ) : isCurrentActive ? (
+                    <span className="inline-flex items-center gap-1 text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200 animate-pulse">
+                      <span>Đang học</span>
                     </span>
                   ) : (
                     <span className="text-xs text-slate-400 font-semibold flex items-center gap-1">
@@ -63,13 +101,17 @@ export default function LessonsListPage() {
                   )}
                 </div>
 
-                <h3 className="font-bold text-xl text-slate-900 group-hover:text-blue-600 transition">
+                <h3
+                  className={`font-bold text-xl transition ${
+                    isLocked ? 'text-slate-500' : 'text-slate-900 group-hover:text-blue-600'
+                  }`}
+                >
                   {lesson.title}
                 </h3>
-                <p className="text-xs text-slate-500 font-medium mt-1 mb-4">
+                <p className="text-xs text-slate-400 font-medium mt-1 mb-4">
                   {lesson.category}
                 </p>
-                <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed mb-6">
+                <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-6">
                   {lesson.description}
                 </p>
 
@@ -103,23 +145,34 @@ export default function LessonsListPage() {
                   </div>
                   <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
                     <div
-                      className={`h-full rounded-full transition-all duration-300 ${isDone ? 'bg-emerald-500' : 'bg-blue-600'}`}
+                      className={`h-full rounded-full transition-all duration-300 ${
+                        isDone ? 'bg-emerald-500' : isLocked ? 'bg-slate-300' : 'bg-blue-600'
+                      }`}
                       style={{ width: `${lesson.progress || 0}%` }}
                     />
                   </div>
                 </div>
 
-                <Link
-                  to={`/lessons/${lesson.id}`}
-                  className={`w-full py-3 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition shadow-sm ${
-                    isDone
-                      ? 'bg-slate-100 hover:bg-slate-200 text-slate-700'
-                      : 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-500/20'
-                  }`}
-                >
-                  <span>{isDone ? 'Học lại bài này' : 'Bắt đầu học'}</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
+                {isLocked ? (
+                  <div className="w-full py-3 px-4 rounded-xl bg-slate-100 text-slate-400 font-bold text-xs flex items-center justify-center gap-2 cursor-not-allowed border border-slate-200">
+                    <Lock className="w-3.5 h-3.5 text-slate-400" />
+                    <span>Chưa mở khóa (Học tuần tự)</span>
+                  </div>
+                ) : (
+                  <Link
+                    to={`/lessons/${lesson.id}`}
+                    className={`w-full py-3 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition shadow-sm ${
+                      isDone
+                        ? 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+                        : isCurrentActive
+                        ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-500/25 ring-2 ring-blue-500/20'
+                        : 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-500/20'
+                    }`}
+                  >
+                    <span>{isDone ? 'Ôn tập lại bài này' : 'Bắt đầu học'}</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                )}
               </div>
             </div>
           );

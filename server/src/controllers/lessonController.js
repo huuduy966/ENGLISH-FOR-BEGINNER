@@ -3,6 +3,7 @@ const prisma = require('../db');
 async function getLessons(req, res) {
   try {
     const userId = req.user ? req.user.id : null;
+    const isAdmin = req.user ? req.user.role === 'ADMIN' : false;
 
     const lessons = await prisma.lesson.findMany({
       orderBy: { orderNumber: 'asc' },
@@ -26,19 +27,34 @@ async function getLessons(req, res) {
       },
     });
 
-    const formatted = lessons.map((l) => ({
-      id: l.id,
-      title: l.title,
-      description: l.description,
-      level: l.level,
-      category: l.category,
-      orderNumber: l.orderNumber,
-      durationMinutes: l.durationMinutes,
-      counts: l._count,
-      progress: l.userProgress && l.userProgress[0] ? l.userProgress[0].progress : 0,
-      completed: l.userProgress && l.userProgress[0] ? l.userProgress[0].completed : false,
-      score: l.userProgress && l.userProgress[0] ? l.userProgress[0].score : 0,
-    }));
+    // Sequential progression logic: Lesson 1 is unlocked; Lesson N requires Lesson N-1 to be completed
+    let previousLessonCompleted = true;
+
+    const formatted = lessons.map((l, index) => {
+      const up = l.userProgress && l.userProgress[0];
+      const isCompleted = up ? up.completed : false;
+      const isLocked = !isAdmin && !previousLessonCompleted && index > 0;
+      const isCurrentActive = !isCompleted && previousLessonCompleted;
+
+      // The next lesson in sequence will only be unlocked if this current lesson is completed
+      previousLessonCompleted = isCompleted;
+
+      return {
+        id: l.id,
+        title: l.title,
+        description: l.description,
+        level: l.level,
+        category: l.category,
+        orderNumber: l.orderNumber,
+        durationMinutes: l.durationMinutes,
+        counts: l._count,
+        progress: up ? up.progress : 0,
+        completed: isCompleted,
+        score: up ? up.score : 0,
+        isLocked,
+        isCurrentActive,
+      };
+    });
 
     return res.json({ lessons: formatted });
   } catch (error) {
@@ -73,6 +89,27 @@ async function getLessonById(req, res) {
 
     if (!lesson) {
       return res.status(404).json({ message: 'Không tìm thấy bài học.' });
+    }
+
+    // Check sequential progression lock for non-admin students
+    if (userId && req.user.role !== 'ADMIN' && lesson.orderNumber > 1) {
+      const prevLesson = await prisma.lesson.findFirst({
+        where: { orderNumber: lesson.orderNumber - 1 },
+      });
+      if (prevLesson) {
+        const prevProgress = await prisma.userProgress.findUnique({
+          where: { userId_lessonId: { userId, lessonId: prevLesson.id } },
+        });
+        if (!prevProgress || !prevProgress.completed) {
+          return res.status(403).json({
+            message: `Bài học này đang bị khóa. Bạn cần hoàn thành Bài ${prevLesson.orderNumber}: "${prevLesson.title}" theo thứ tự trước.`,
+            isLocked: true,
+            requiredLessonId: prevLesson.id,
+            requiredLessonTitle: prevLesson.title,
+            requiredOrderNumber: prevLesson.orderNumber,
+          });
+        }
+      }
     }
 
     // Parse JSON fields
@@ -178,7 +215,7 @@ async function completeLesson(req, res) {
     }
 
     return res.json({
-      message: 'Hoàn thành bài học thành công!',
+      message: 'Hoàn thành bài học thành công! Bài học tiếp theo đã được mở khóa.',
       progress,
       xpGained,
     });

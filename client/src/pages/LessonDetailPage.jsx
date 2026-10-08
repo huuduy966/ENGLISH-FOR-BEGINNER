@@ -9,7 +9,9 @@ import {
   CheckSquare,
   Award,
   ArrowLeft,
+  ArrowRight,
   CheckCircle2,
+  Lock,
 } from 'lucide-react';
 import api from '../services/api';
 import FlashcardSection from '../components/lesson/FlashcardSection';
@@ -27,15 +29,21 @@ export default function LessonDetailPage() {
   const [lesson, setLesson] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('vocab'); // vocab, pronounce, grammar, listen, conversation, exercise, quiz
+  const [lockData, setLockData] = useState(null);
 
   useEffect(() => {
     setLoading(true);
+    setLockData(null);
     api.get(`/lessons/${id}`)
       .then((res) => {
         setLesson(res.data.lesson);
       })
       .catch((err) => {
-        console.error('Fetch lesson error:', err);
+        if (err.response?.status === 403 && err.response?.data?.isLocked) {
+          setLockData(err.response.data);
+        } else {
+          console.error('Fetch lesson error:', err);
+        }
       })
       .finally(() => setLoading(false));
   }, [id]);
@@ -45,6 +53,40 @@ export default function LessonDetailPage() {
       <div className="min-h-[60vh] flex flex-col items-center justify-center">
         <div className="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
         <p className="mt-4 text-slate-500 font-medium">Đang tải nội dung bài học...</p>
+      </div>
+    );
+  }
+
+  // Locked State Screen when student tries to skip ahead
+  if (lockData) {
+    return (
+      <div className="max-w-md mx-auto py-16 px-4 text-center space-y-5 animate-fade-in">
+        <div className="w-20 h-20 mx-auto rounded-3xl bg-amber-50 text-amber-600 flex items-center justify-center border border-amber-200 shadow-sm">
+          <Lock className="w-10 h-10" />
+        </div>
+        <h2 className="text-2xl font-black text-slate-900">
+          Bài học đang bị khóa
+        </h2>
+        <p className="text-sm text-slate-600 leading-relaxed">
+          {lockData.message || 'Bạn cần hoàn thành bài học trước đó theo thứ tự để mở khóa bài học này.'}
+        </p>
+        <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+          {lockData.requiredLessonId && (
+            <Link
+              to={`/lessons/${lockData.requiredLessonId}`}
+              className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-md shadow-blue-500/20 transition flex items-center justify-center gap-2"
+            >
+              <span>Vào học Bài {lockData.requiredOrderNumber}</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          )}
+          <Link
+            to="/lessons"
+            className="w-full sm:w-auto px-5 py-3.5 rounded-2xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition"
+          >
+            Quay lại danh sách
+          </Link>
+        </div>
       </div>
     );
   }
