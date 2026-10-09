@@ -10,7 +10,7 @@ module.exports = [
       {
         "word": "Discourse",
         "meaning": "Diễn ngôn học thuật",
-        "pronunciation": "/discourse/",
+        "pronunciation": "/ˈdɪ.skɔːrs/",
         "partOfSpeech": "noun",
         "example": "I use Discourse in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Discourse trong giao tiếp hàng ngày.",
@@ -20,7 +20,7 @@ module.exports = [
       {
         "word": "Scholarly",
         "meaning": "Mang tính uyên bác học giả",
-        "pronunciation": "/scholarly/",
+        "pronunciation": "/ˈskɑː.lər.li/",
         "partOfSpeech": "noun",
         "example": "I use Scholarly in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Scholarly trong giao tiếp hàng ngày.",
@@ -30,7 +30,7 @@ module.exports = [
       {
         "word": "Rigorous",
         "meaning": "Nghiêm ngặt, chặt chẽ",
-        "pronunciation": "/rigorous/",
+        "pronunciation": "/ˈrɪ.ɡər.əs/",
         "partOfSpeech": "noun",
         "example": "I use Rigorous in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rigorous trong giao tiếp hàng ngày.",
@@ -40,7 +40,7 @@ module.exports = [
       {
         "word": "Citation",
         "meaning": "Trích dẫn nguồn tài liệu",
-        "pronunciation": "/citation/",
+        "pronunciation": "/ˌsaɪˈteɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Citation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Citation trong giao tiếp hàng ngày.",
@@ -50,7 +50,7 @@ module.exports = [
       {
         "word": "Plagiarism",
         "meaning": "Hành vi đạo văn",
-        "pronunciation": "/plagiarism/",
+        "pronunciation": "/ˈpleɪ.dʒər.ɪ.zəm/",
         "partOfSpeech": "noun",
         "example": "I use Plagiarism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Plagiarism trong giao tiếp hàng ngày.",
@@ -60,7 +60,7 @@ module.exports = [
       {
         "word": "Peer review",
         "meaning": "Quy trình bình duyệt học thuật",
-        "pronunciation": "/peer review/",
+        "pronunciation": "/ˈpɪr rivˈjuː/",
         "partOfSpeech": "noun",
         "example": "I use Peer review in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Peer review trong giao tiếp hàng ngày.",
@@ -70,7 +70,7 @@ module.exports = [
       {
         "word": "Abstract",
         "meaning": "Bản tóm tắt bài báo khoa học",
-        "pronunciation": "/abstract/",
+        "pronunciation": "/æbsˈtrækt/",
         "partOfSpeech": "noun",
         "example": "I use Abstract in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Abstract trong giao tiếp hàng ngày.",
@@ -80,7 +80,7 @@ module.exports = [
       {
         "word": "Methodology",
         "meaning": "Phương pháp luận nghiên cứu",
-        "pronunciation": "/methodology/",
+        "pronunciation": "/ˌme.θəˈdɑː.lə.dʒi/",
         "partOfSpeech": "noun",
         "example": "I use Methodology in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Methodology trong giao tiếp hàng ngày.",
@@ -90,7 +90,7 @@ module.exports = [
       {
         "word": "Empirical",
         "meaning": "Dựa trên thực nghiệm",
-        "pronunciation": "/empirical/",
+        "pronunciation": "/ˌemˈpɪ.rɪ.kəl/",
         "partOfSpeech": "noun",
         "example": "I use Empirical in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Empirical trong giao tiếp hàng ngày.",
@@ -100,7 +100,7 @@ module.exports = [
       {
         "word": "Corroborate",
         "meaning": "Chứng thực củng cố luận cứ",
-        "pronunciation": "/corroborate/",
+        "pronunciation": "/ˌkərˈɑː.bər.eɪt/",
         "partOfSpeech": "noun",
         "example": "I use Corroborate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Corroborate trong giao tiếp hàng ngày.",
@@ -125,7 +125,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Discourse\\\" has a specific pronunciation: /discourse/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Discourse\\\" có phát âm cụ thể là /discourse/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Scholarly\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Scholarly\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Discourse\\\" has a specific pronunciation: /ˈdɪ.skɔːrs/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Discourse\\\" có phát âm cụ thể là /ˈdɪ.skɔːrs/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Scholarly\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Scholarly\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -156,7 +156,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Discourse\",\"I\",\"in\",\"use\",\"daily\",\"conversation\"]",
+        "options": "[\"daily\",\"I\",\"conversation\",\"use\",\"Discourse\",\"in\"]",
         "correctAnswer": "I use Discourse in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Discourse in daily conversation\"."
       },
@@ -172,7 +172,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Scholarly\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Scholarly",
-        "explanation": "Phát âm chuẩn IPA của từ là /scholarly/ - \"Scholarly\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈskɑː.lər.li/ - \"Scholarly\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -206,13 +206,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Discourse\" là gì?",
-        "options": "[\"Diễn ngôn học thuật\",\"Mang tính uyên bác học giả\",\"Nghiêm ngặt, chặt chẽ\",\"Trích dẫn nguồn tài liệu\"]",
+        "options": "[\"Trích dẫn nguồn tài liệu\",\"Nghiêm ngặt, chặt chẽ\",\"Mang tính uyên bác học giả\",\"Diễn ngôn học thuật\"]",
         "correctAnswer": "Diễn ngôn học thuật",
-        "explanation": "\"Discourse\" có phiên âm /discourse/ và mang nghĩa là \"Diễn ngôn học thuật\"."
+        "explanation": "\"Discourse\" có phiên âm /ˈdɪ.skɔːrs/ và mang nghĩa là \"Diễn ngôn học thuật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Academic Discourse & Scholarly Writing, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Scholarly\",\"umbrellas\"]",
+        "options": "[\"Scholarly\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Scholarly",
         "explanation": "\"Scholarly\" (Mang tính uyên bác học giả) là từ vựng chính xác trong ngữ cảnh chủ đề Academic Discourse & Scholarly Writing."
       },
@@ -224,13 +224,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Citation\" là gì?",
-        "options": "[\"Hành vi đạo văn\",\"Trích dẫn nguồn tài liệu\",\"Bản tóm tắt bài báo khoa học\",\"Quy trình bình duyệt học thuật\"]",
+        "options": "[\"Bản tóm tắt bài báo khoa học\",\"Quy trình bình duyệt học thuật\",\"Hành vi đạo văn\",\"Trích dẫn nguồn tài liệu\"]",
         "correctAnswer": "Trích dẫn nguồn tài liệu",
-        "explanation": "\"Citation\" có phiên âm /citation/ và mang nghĩa là \"Trích dẫn nguồn tài liệu\"."
+        "explanation": "\"Citation\" có phiên âm /ˌsaɪˈteɪ.ʃən/ và mang nghĩa là \"Trích dẫn nguồn tài liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Academic Discourse & Scholarly Writing, we need to practice _____.\"",
-        "options": "[\"Plagiarism\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Plagiarism\"]",
         "correctAnswer": "Plagiarism",
         "explanation": "\"Plagiarism\" (Hành vi đạo văn) là từ vựng chính xác trong ngữ cảnh chủ đề Academic Discourse & Scholarly Writing."
       },
@@ -242,13 +242,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Abstract\" là gì?",
-        "options": "[\"Bản tóm tắt bài báo khoa học\",\"Chứng thực củng cố luận cứ\",\"Phương pháp luận nghiên cứu\",\"Dựa trên thực nghiệm\"]",
+        "options": "[\"Chứng thực củng cố luận cứ\",\"Dựa trên thực nghiệm\",\"Phương pháp luận nghiên cứu\",\"Bản tóm tắt bài báo khoa học\"]",
         "correctAnswer": "Bản tóm tắt bài báo khoa học",
-        "explanation": "\"Abstract\" có phiên âm /abstract/ và mang nghĩa là \"Bản tóm tắt bài báo khoa học\"."
+        "explanation": "\"Abstract\" có phiên âm /æbsˈtrækt/ và mang nghĩa là \"Bản tóm tắt bài báo khoa học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Academic Discourse & Scholarly Writing, we need to practice _____.\"",
-        "options": "[\"Methodology\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Methodology\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Methodology",
         "explanation": "\"Methodology\" (Phương pháp luận nghiên cứu) là từ vựng chính xác trong ngữ cảnh chủ đề Academic Discourse & Scholarly Writing."
       },
@@ -260,13 +260,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Corroborate\" là gì?",
-        "options": "[\"Nghiêm ngặt, chặt chẽ\",\"Chứng thực củng cố luận cứ\",\"Diễn ngôn học thuật\",\"Mang tính uyên bác học giả\"]",
+        "options": "[\"Chứng thực củng cố luận cứ\",\"Nghiêm ngặt, chặt chẽ\",\"Diễn ngôn học thuật\",\"Mang tính uyên bác học giả\"]",
         "correctAnswer": "Chứng thực củng cố luận cứ",
-        "explanation": "\"Corroborate\" có phiên âm /corroborate/ và mang nghĩa là \"Chứng thực củng cố luận cứ\"."
+        "explanation": "\"Corroborate\" có phiên âm /ˌkərˈɑː.bər.eɪt/ và mang nghĩa là \"Chứng thực củng cố luận cứ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Academic Discourse & Scholarly Writing, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Discourse\"]",
+        "options": "[\"airplanes\",\"Discourse\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Discourse",
         "explanation": "\"Discourse\" (Diễn ngôn học thuật) là từ vựng chính xác trong ngữ cảnh chủ đề Academic Discourse & Scholarly Writing."
       },
@@ -278,13 +278,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Rigorous\" là gì?",
-        "options": "[\"Quy trình bình duyệt học thuật\",\"Hành vi đạo văn\",\"Trích dẫn nguồn tài liệu\",\"Nghiêm ngặt, chặt chẽ\"]",
+        "options": "[\"Quy trình bình duyệt học thuật\",\"Nghiêm ngặt, chặt chẽ\",\"Hành vi đạo văn\",\"Trích dẫn nguồn tài liệu\"]",
         "correctAnswer": "Nghiêm ngặt, chặt chẽ",
-        "explanation": "\"Rigorous\" có phiên âm /rigorous/ và mang nghĩa là \"Nghiêm ngặt, chặt chẽ\"."
+        "explanation": "\"Rigorous\" có phiên âm /ˈrɪ.ɡər.əs/ và mang nghĩa là \"Nghiêm ngặt, chặt chẽ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Academic Discourse & Scholarly Writing, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Citation\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Citation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Citation",
         "explanation": "\"Citation\" (Trích dẫn nguồn tài liệu) là từ vựng chính xác trong ngữ cảnh chủ đề Academic Discourse & Scholarly Writing."
       },
@@ -296,13 +296,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Peer review\" là gì?",
-        "options": "[\"Quy trình bình duyệt học thuật\",\"Bản tóm tắt bài báo khoa học\",\"Phương pháp luận nghiên cứu\",\"Dựa trên thực nghiệm\"]",
+        "options": "[\"Bản tóm tắt bài báo khoa học\",\"Quy trình bình duyệt học thuật\",\"Phương pháp luận nghiên cứu\",\"Dựa trên thực nghiệm\"]",
         "correctAnswer": "Quy trình bình duyệt học thuật",
-        "explanation": "\"Peer review\" có phiên âm /peer review/ và mang nghĩa là \"Quy trình bình duyệt học thuật\"."
+        "explanation": "\"Peer review\" có phiên âm /ˈpɪr rivˈjuː/ và mang nghĩa là \"Quy trình bình duyệt học thuật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Academic Discourse & Scholarly Writing, we need to practice _____.\"",
-        "options": "[\"Abstract\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Abstract\",\"airplanes\"]",
         "correctAnswer": "Abstract",
         "explanation": "\"Abstract\" (Bản tóm tắt bài báo khoa học) là từ vựng chính xác trong ngữ cảnh chủ đề Academic Discourse & Scholarly Writing."
       },
@@ -325,7 +325,7 @@ module.exports = [
       {
         "word": "Hypothesis",
         "meaning": "Giả thuyết khoa học",
-        "pronunciation": "/hypothesis/",
+        "pronunciation": "/ˌhaɪˈpɑː.θə.səs/",
         "partOfSpeech": "noun",
         "example": "I use Hypothesis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hypothesis trong giao tiếp hàng ngày.",
@@ -335,7 +335,7 @@ module.exports = [
       {
         "word": "Formulate",
         "meaning": "Xây dựng, phát biểu công thức",
-        "pronunciation": "/formulate/",
+        "pronunciation": "/ˈfɔːr.mjə.leɪt/",
         "partOfSpeech": "noun",
         "example": "I use Formulate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Formulate trong giao tiếp hàng ngày.",
@@ -345,7 +345,7 @@ module.exports = [
       {
         "word": "Variable",
         "meaning": "Biến số độc lập / phụ thuộc",
-        "pronunciation": "/variable/",
+        "pronunciation": "/ˈve.ri.ə.bəl/",
         "partOfSpeech": "noun",
         "example": "I use Variable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Variable trong giao tiếp hàng ngày.",
@@ -355,7 +355,7 @@ module.exports = [
       {
         "word": "Correlation",
         "meaning": "Mối tương quan tương hỗ",
-        "pronunciation": "/correlation/",
+        "pronunciation": "/ˌkɔː.rəˈleɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Correlation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Correlation trong giao tiếp hàng ngày.",
@@ -365,7 +365,7 @@ module.exports = [
       {
         "word": "Causation",
         "meaning": "Quan hệ nhân quả trực tiếp",
-        "pronunciation": "/causation/",
+        "pronunciation": "/ˌkɔːˈzeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Causation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Causation trong giao tiếp hàng ngày.",
@@ -375,7 +375,7 @@ module.exports = [
       {
         "word": "Testable",
         "meaning": "Có thể kiểm chứng được",
-        "pronunciation": "/testable/",
+        "pronunciation": "/ˈte.stə.bəl/",
         "partOfSpeech": "noun",
         "example": "I use Testable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Testable trong giao tiếp hàng ngày.",
@@ -385,7 +385,7 @@ module.exports = [
       {
         "word": "Scope",
         "meaning": "Phạm vi nghiên cứu",
-        "pronunciation": "/scope/",
+        "pronunciation": "/ˈskoʊp/",
         "partOfSpeech": "noun",
         "example": "I use Scope in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Scope trong giao tiếp hàng ngày.",
@@ -395,7 +395,7 @@ module.exports = [
       {
         "word": "Parameter",
         "meaning": "Tham số đo lường",
-        "pronunciation": "/parameter/",
+        "pronunciation": "/ˌpərˈæ.mə.tər/",
         "partOfSpeech": "noun",
         "example": "I use Parameter in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Parameter trong giao tiếp hàng ngày.",
@@ -405,7 +405,7 @@ module.exports = [
       {
         "word": "Assumptions",
         "meaning": "Các giả định làm tiền đề",
-        "pronunciation": "/assumptions/",
+        "pronunciation": "/ˌəˈsʌm.pʃənz/",
         "partOfSpeech": "noun",
         "example": "I use Assumptions in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Assumptions trong giao tiếp hàng ngày.",
@@ -415,7 +415,7 @@ module.exports = [
       {
         "word": "Significance",
         "meaning": "Ý nghĩa thống kê quan trọng",
-        "pronunciation": "/significance/",
+        "pronunciation": "/ˌsəɡˈnɪ.fɪ.kəns/",
         "partOfSpeech": "noun",
         "example": "I use Significance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Significance trong giao tiếp hàng ngày.",
@@ -440,7 +440,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Hypothesis\\\" has a specific pronunciation: /hypothesis/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Hypothesis\\\" có phát âm cụ thể là /hypothesis/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Formulate\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Formulate\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Hypothesis\\\" has a specific pronunciation: /ˌhaɪˈpɑː.θə.səs/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Hypothesis\\\" có phát âm cụ thể là /ˌhaɪˈpɑː.θə.səs/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Formulate\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Formulate\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -471,7 +471,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"daily\",\"Hypothesis\",\"conversation\",\"use\",\"I\"]",
+        "options": "[\"I\",\"use\",\"Hypothesis\",\"in\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Hypothesis in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Hypothesis in daily conversation\"."
       },
@@ -487,7 +487,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Formulate\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Formulate",
-        "explanation": "Phát âm chuẩn IPA của từ là /formulate/ - \"Formulate\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈfɔːr.mjə.leɪt/ - \"Formulate\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -521,13 +521,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hypothesis\" là gì?",
-        "options": "[\"Biến số độc lập / phụ thuộc\",\"Mối tương quan tương hỗ\",\"Xây dựng, phát biểu công thức\",\"Giả thuyết khoa học\"]",
+        "options": "[\"Giả thuyết khoa học\",\"Xây dựng, phát biểu công thức\",\"Biến số độc lập / phụ thuộc\",\"Mối tương quan tương hỗ\"]",
         "correctAnswer": "Giả thuyết khoa học",
-        "explanation": "\"Hypothesis\" có phiên âm /hypothesis/ và mang nghĩa là \"Giả thuyết khoa học\"."
+        "explanation": "\"Hypothesis\" có phiên âm /ˌhaɪˈpɑː.θə.səs/ và mang nghĩa là \"Giả thuyết khoa học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Formulating Hypotheses & Research Questions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Formulate\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Formulate\",\"airplanes\"]",
         "correctAnswer": "Formulate",
         "explanation": "\"Formulate\" (Xây dựng, phát biểu công thức) là từ vựng chính xác trong ngữ cảnh chủ đề Formulating Hypotheses & Research Questions."
       },
@@ -539,13 +539,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Correlation\" là gì?",
-        "options": "[\"Quan hệ nhân quả trực tiếp\",\"Mối tương quan tương hỗ\",\"Có thể kiểm chứng được\",\"Phạm vi nghiên cứu\"]",
+        "options": "[\"Quan hệ nhân quả trực tiếp\",\"Phạm vi nghiên cứu\",\"Mối tương quan tương hỗ\",\"Có thể kiểm chứng được\"]",
         "correctAnswer": "Mối tương quan tương hỗ",
-        "explanation": "\"Correlation\" có phiên âm /correlation/ và mang nghĩa là \"Mối tương quan tương hỗ\"."
+        "explanation": "\"Correlation\" có phiên âm /ˌkɔː.rəˈleɪ.ʃən/ và mang nghĩa là \"Mối tương quan tương hỗ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Formulating Hypotheses & Research Questions, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Causation\",\"bananas\"]",
+        "options": "[\"Causation\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Causation",
         "explanation": "\"Causation\" (Quan hệ nhân quả trực tiếp) là từ vựng chính xác trong ngữ cảnh chủ đề Formulating Hypotheses & Research Questions."
       },
@@ -557,13 +557,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Scope\" là gì?",
-        "options": "[\"Ý nghĩa thống kê quan trọng\",\"Tham số đo lường\",\"Phạm vi nghiên cứu\",\"Các giả định làm tiền đề\"]",
+        "options": "[\"Ý nghĩa thống kê quan trọng\",\"Các giả định làm tiền đề\",\"Tham số đo lường\",\"Phạm vi nghiên cứu\"]",
         "correctAnswer": "Phạm vi nghiên cứu",
-        "explanation": "\"Scope\" có phiên âm /scope/ và mang nghĩa là \"Phạm vi nghiên cứu\"."
+        "explanation": "\"Scope\" có phiên âm /ˈskoʊp/ và mang nghĩa là \"Phạm vi nghiên cứu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Formulating Hypotheses & Research Questions, we need to practice _____.\"",
-        "options": "[\"Parameter\",\"airplanes\",\"umbrellas\",\"bananas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Parameter\"]",
         "correctAnswer": "Parameter",
         "explanation": "\"Parameter\" (Tham số đo lường) là từ vựng chính xác trong ngữ cảnh chủ đề Formulating Hypotheses & Research Questions."
       },
@@ -575,13 +575,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Significance\" là gì?",
-        "options": "[\"Xây dựng, phát biểu công thức\",\"Giả thuyết khoa học\",\"Ý nghĩa thống kê quan trọng\",\"Biến số độc lập / phụ thuộc\"]",
+        "options": "[\"Giả thuyết khoa học\",\"Biến số độc lập / phụ thuộc\",\"Ý nghĩa thống kê quan trọng\",\"Xây dựng, phát biểu công thức\"]",
         "correctAnswer": "Ý nghĩa thống kê quan trọng",
-        "explanation": "\"Significance\" có phiên âm /significance/ và mang nghĩa là \"Ý nghĩa thống kê quan trọng\"."
+        "explanation": "\"Significance\" có phiên âm /ˌsəɡˈnɪ.fɪ.kəns/ và mang nghĩa là \"Ý nghĩa thống kê quan trọng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Formulating Hypotheses & Research Questions, we need to practice _____.\"",
-        "options": "[\"Hypothesis\",\"airplanes\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"Hypothesis\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Hypothesis",
         "explanation": "\"Hypothesis\" (Giả thuyết khoa học) là từ vựng chính xác trong ngữ cảnh chủ đề Formulating Hypotheses & Research Questions."
       },
@@ -593,13 +593,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Variable\" là gì?",
-        "options": "[\"Mối tương quan tương hỗ\",\"Biến số độc lập / phụ thuộc\",\"Quan hệ nhân quả trực tiếp\",\"Có thể kiểm chứng được\"]",
+        "options": "[\"Biến số độc lập / phụ thuộc\",\"Quan hệ nhân quả trực tiếp\",\"Có thể kiểm chứng được\",\"Mối tương quan tương hỗ\"]",
         "correctAnswer": "Biến số độc lập / phụ thuộc",
-        "explanation": "\"Variable\" có phiên âm /variable/ và mang nghĩa là \"Biến số độc lập / phụ thuộc\"."
+        "explanation": "\"Variable\" có phiên âm /ˈve.ri.ə.bəl/ và mang nghĩa là \"Biến số độc lập / phụ thuộc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Formulating Hypotheses & Research Questions, we need to practice _____.\"",
-        "options": "[\"Correlation\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Correlation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Correlation",
         "explanation": "\"Correlation\" (Mối tương quan tương hỗ) là từ vựng chính xác trong ngữ cảnh chủ đề Formulating Hypotheses & Research Questions."
       },
@@ -611,13 +611,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Testable\" là gì?",
-        "options": "[\"Phạm vi nghiên cứu\",\"Tham số đo lường\",\"Có thể kiểm chứng được\",\"Các giả định làm tiền đề\"]",
+        "options": "[\"Tham số đo lường\",\"Phạm vi nghiên cứu\",\"Có thể kiểm chứng được\",\"Các giả định làm tiền đề\"]",
         "correctAnswer": "Có thể kiểm chứng được",
-        "explanation": "\"Testable\" có phiên âm /testable/ và mang nghĩa là \"Có thể kiểm chứng được\"."
+        "explanation": "\"Testable\" có phiên âm /ˈte.stə.bəl/ và mang nghĩa là \"Có thể kiểm chứng được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Formulating Hypotheses & Research Questions, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Scope\"]",
+        "options": "[\"bananas\",\"Scope\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Scope",
         "explanation": "\"Scope\" (Phạm vi nghiên cứu) là từ vựng chính xác trong ngữ cảnh chủ đề Formulating Hypotheses & Research Questions."
       },
@@ -640,7 +640,7 @@ module.exports = [
       {
         "word": "Literature review",
         "meaning": "Tổng quan y văn, tài liệu",
-        "pronunciation": "/literature review/",
+        "pronunciation": "/ˈlɪ.tər.ə.tʃər rivˈjuː/",
         "partOfSpeech": "noun",
         "example": "I use Literature review in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Literature review trong giao tiếp hàng ngày.",
@@ -650,7 +650,7 @@ module.exports = [
       {
         "word": "Knowledge gap",
         "meaning": "Khoảng trống tri thức chưa ai giải",
-        "pronunciation": "/knowledge gap/",
+        "pronunciation": "/ˈnɑː.lədʒ ˈɡæp/",
         "partOfSpeech": "noun",
         "example": "I use Knowledge gap in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Knowledge gap trong giao tiếp hàng ngày.",
@@ -660,7 +660,7 @@ module.exports = [
       {
         "word": "Critique",
         "meaning": "Bài phê bình học thuật",
-        "pronunciation": "/critique/",
+        "pronunciation": "/krəˈtiːk/",
         "partOfSpeech": "noun",
         "example": "I use Critique in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Critique trong giao tiếp hàng ngày.",
@@ -670,7 +670,7 @@ module.exports = [
       {
         "word": "Synthesis",
         "meaning": "Sự tổng hợp đúc kết lý thuyết",
-        "pronunciation": "/synthesis/",
+        "pronunciation": "/ˈsɪn.θə.səs/",
         "partOfSpeech": "noun",
         "example": "I use Synthesis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Synthesis trong giao tiếp hàng ngày.",
@@ -680,7 +680,7 @@ module.exports = [
       {
         "word": "Discrepancy",
         "meaning": "Sự không nhất quán, mâu thuẫn",
-        "pronunciation": "/discrepancy/",
+        "pronunciation": "/ˌdɪsˈkre.pən.si/",
         "partOfSpeech": "noun",
         "example": "I use Discrepancy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Discrepancy trong giao tiếp hàng ngày.",
@@ -690,7 +690,7 @@ module.exports = [
       {
         "word": "Paucity",
         "meaning": "Sự khan hiếm tài liệu nghiên cứu",
-        "pronunciation": "/paucity/",
+        "pronunciation": "/ˈpɔː.sə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Paucity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Paucity trong giao tiếp hàng ngày.",
@@ -700,7 +700,7 @@ module.exports = [
       {
         "word": "Consensus",
         "meaning": "Sự đồng thuận trong giới học giả",
-        "pronunciation": "/consensus/",
+        "pronunciation": "/ˌkənˈsen.səs/",
         "partOfSpeech": "noun",
         "example": "I use Consensus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consensus trong giao tiếp hàng ngày.",
@@ -710,7 +710,7 @@ module.exports = [
       {
         "word": "Framework",
         "meaning": "Khung lý thuyết phân tích",
-        "pronunciation": "/framework/",
+        "pronunciation": "/ˈfreɪm.wərk/",
         "partOfSpeech": "noun",
         "example": "I use Framework in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Framework trong giao tiếp hàng ngày.",
@@ -720,7 +720,7 @@ module.exports = [
       {
         "word": "Seminal",
         "meaning": "Công trình kinh điển đặt nền móng",
-        "pronunciation": "/seminal/",
+        "pronunciation": "/ˈse.mə.nəl/",
         "partOfSpeech": "noun",
         "example": "I use Seminal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Seminal trong giao tiếp hàng ngày.",
@@ -730,7 +730,7 @@ module.exports = [
       {
         "word": "Relevance",
         "meaning": "Mức độ liên quan thiết thực",
-        "pronunciation": "/relevance/",
+        "pronunciation": "/ˈre.lə.vəns/",
         "partOfSpeech": "noun",
         "example": "I use Relevance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Relevance trong giao tiếp hàng ngày.",
@@ -755,7 +755,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Literature review\\\" has a specific pronunciation: /literature review/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Literature review\\\" có phát âm cụ thể là /literature review/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Knowledge gap\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Knowledge gap\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Literature review\\\" has a specific pronunciation: /ˈlɪ.tər.ə.tʃər rivˈjuː/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Literature review\\\" có phát âm cụ thể là /ˈlɪ.tər.ə.tʃər rivˈjuː/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Knowledge gap\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Knowledge gap\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -786,7 +786,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"daily\",\"review\",\"in\",\"Literature\",\"use\"]",
+        "options": "[\"daily\",\"in\",\"review\",\"Literature\",\"use\",\"I\"]",
         "correctAnswer": "I use Literature review in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Literature review in daily\"."
       },
@@ -802,7 +802,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Knowledge gap\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Knowledge gap",
-        "explanation": "Phát âm chuẩn IPA của từ là /knowledge gap/ - \"Knowledge gap\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈnɑː.lədʒ ˈɡæp/ - \"Knowledge gap\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -836,13 +836,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Literature review\" là gì?",
-        "options": "[\"Bài phê bình học thuật\",\"Tổng quan y văn, tài liệu\",\"Khoảng trống tri thức chưa ai giải\",\"Sự tổng hợp đúc kết lý thuyết\"]",
+        "options": "[\"Bài phê bình học thuật\",\"Khoảng trống tri thức chưa ai giải\",\"Tổng quan y văn, tài liệu\",\"Sự tổng hợp đúc kết lý thuyết\"]",
         "correctAnswer": "Tổng quan y văn, tài liệu",
-        "explanation": "\"Literature review\" có phiên âm /literature review/ và mang nghĩa là \"Tổng quan y văn, tài liệu\"."
+        "explanation": "\"Literature review\" có phiên âm /ˈlɪ.tər.ə.tʃər rivˈjuː/ và mang nghĩa là \"Tổng quan y văn, tài liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Review of Academic Literature, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Knowledge gap\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Knowledge gap\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Knowledge gap",
         "explanation": "\"Knowledge gap\" (Khoảng trống tri thức chưa ai giải) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Review of Academic Literature."
       },
@@ -856,11 +856,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Synthesis\" là gì?",
         "options": "[\"Sự tổng hợp đúc kết lý thuyết\",\"Sự không nhất quán, mâu thuẫn\",\"Sự khan hiếm tài liệu nghiên cứu\",\"Sự đồng thuận trong giới học giả\"]",
         "correctAnswer": "Sự tổng hợp đúc kết lý thuyết",
-        "explanation": "\"Synthesis\" có phiên âm /synthesis/ và mang nghĩa là \"Sự tổng hợp đúc kết lý thuyết\"."
+        "explanation": "\"Synthesis\" có phiên âm /ˈsɪn.θə.səs/ và mang nghĩa là \"Sự tổng hợp đúc kết lý thuyết\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Review of Academic Literature, we need to practice _____.\"",
-        "options": "[\"Discrepancy\",\"airplanes\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Discrepancy\"]",
         "correctAnswer": "Discrepancy",
         "explanation": "\"Discrepancy\" (Sự không nhất quán, mâu thuẫn) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Review of Academic Literature."
       },
@@ -872,13 +872,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consensus\" là gì?",
-        "options": "[\"Mức độ liên quan thiết thực\",\"Công trình kinh điển đặt nền móng\",\"Khung lý thuyết phân tích\",\"Sự đồng thuận trong giới học giả\"]",
+        "options": "[\"Khung lý thuyết phân tích\",\"Mức độ liên quan thiết thực\",\"Sự đồng thuận trong giới học giả\",\"Công trình kinh điển đặt nền móng\"]",
         "correctAnswer": "Sự đồng thuận trong giới học giả",
-        "explanation": "\"Consensus\" có phiên âm /consensus/ và mang nghĩa là \"Sự đồng thuận trong giới học giả\"."
+        "explanation": "\"Consensus\" có phiên âm /ˌkənˈsen.səs/ và mang nghĩa là \"Sự đồng thuận trong giới học giả\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Review of Academic Literature, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Framework\"]",
+        "options": "[\"Framework\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Framework",
         "explanation": "\"Framework\" (Khung lý thuyết phân tích) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Review of Academic Literature."
       },
@@ -890,13 +890,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Relevance\" là gì?",
-        "options": "[\"Tổng quan y văn, tài liệu\",\"Bài phê bình học thuật\",\"Mức độ liên quan thiết thực\",\"Khoảng trống tri thức chưa ai giải\"]",
+        "options": "[\"Mức độ liên quan thiết thực\",\"Tổng quan y văn, tài liệu\",\"Khoảng trống tri thức chưa ai giải\",\"Bài phê bình học thuật\"]",
         "correctAnswer": "Mức độ liên quan thiết thực",
-        "explanation": "\"Relevance\" có phiên âm /relevance/ và mang nghĩa là \"Mức độ liên quan thiết thực\"."
+        "explanation": "\"Relevance\" có phiên âm /ˈre.lə.vəns/ và mang nghĩa là \"Mức độ liên quan thiết thực\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Review of Academic Literature, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Literature review\",\"airplanes\"]",
+        "options": "[\"Literature review\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Literature review",
         "explanation": "\"Literature review\" (Tổng quan y văn, tài liệu) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Review of Academic Literature."
       },
@@ -908,13 +908,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Critique\" là gì?",
-        "options": "[\"Sự không nhất quán, mâu thuẫn\",\"Sự khan hiếm tài liệu nghiên cứu\",\"Bài phê bình học thuật\",\"Sự tổng hợp đúc kết lý thuyết\"]",
+        "options": "[\"Bài phê bình học thuật\",\"Sự không nhất quán, mâu thuẫn\",\"Sự khan hiếm tài liệu nghiên cứu\",\"Sự tổng hợp đúc kết lý thuyết\"]",
         "correctAnswer": "Bài phê bình học thuật",
-        "explanation": "\"Critique\" có phiên âm /critique/ và mang nghĩa là \"Bài phê bình học thuật\"."
+        "explanation": "\"Critique\" có phiên âm /krəˈtiːk/ và mang nghĩa là \"Bài phê bình học thuật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Review of Academic Literature, we need to practice _____.\"",
-        "options": "[\"Synthesis\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Synthesis\",\"airplanes\"]",
         "correctAnswer": "Synthesis",
         "explanation": "\"Synthesis\" (Sự tổng hợp đúc kết lý thuyết) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Review of Academic Literature."
       },
@@ -928,11 +928,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Paucity\" là gì?",
         "options": "[\"Công trình kinh điển đặt nền móng\",\"Khung lý thuyết phân tích\",\"Sự đồng thuận trong giới học giả\",\"Sự khan hiếm tài liệu nghiên cứu\"]",
         "correctAnswer": "Sự khan hiếm tài liệu nghiên cứu",
-        "explanation": "\"Paucity\" có phiên âm /paucity/ và mang nghĩa là \"Sự khan hiếm tài liệu nghiên cứu\"."
+        "explanation": "\"Paucity\" có phiên âm /ˈpɔː.sə.ti/ và mang nghĩa là \"Sự khan hiếm tài liệu nghiên cứu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Review of Academic Literature, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Consensus\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Consensus\"]",
         "correctAnswer": "Consensus",
         "explanation": "\"Consensus\" (Sự đồng thuận trong giới học giả) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Review of Academic Literature."
       },
@@ -955,7 +955,7 @@ module.exports = [
       {
         "word": "Quantitative",
         "meaning": "Thuộc về định lượng con số",
-        "pronunciation": "/quantitative/",
+        "pronunciation": "/ˈkwɑːn.tɪ.teɪ.tɪv/",
         "partOfSpeech": "noun",
         "example": "I use Quantitative in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Quantitative trong giao tiếp hàng ngày.",
@@ -965,7 +965,7 @@ module.exports = [
       {
         "word": "Deviation",
         "meaning": "Độ lệch chuẩn",
-        "pronunciation": "/deviation/",
+        "pronunciation": "/ˌdi.viˈeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Deviation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deviation trong giao tiếp hàng ngày.",
@@ -975,7 +975,7 @@ module.exports = [
       {
         "word": "Statistically significant",
         "meaning": "Có ý nghĩa thống kê",
-        "pronunciation": "/statistically significant/",
+        "pronunciation": "/ˌstəˈtɪ.stɪ.kə.li ˌsəɡˈnɪ.fɪ.kənt/",
         "partOfSpeech": "noun",
         "example": "I use Statistically significant in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Statistically significant trong giao tiếp hàng ngày.",
@@ -985,7 +985,7 @@ module.exports = [
       {
         "word": "Sample size",
         "meaning": "Quy mô mẫu khảo sát",
-        "pronunciation": "/sample size/",
+        "pronunciation": "/ˈsæm.pəl ˈsaɪz/",
         "partOfSpeech": "noun",
         "example": "I use Sample size in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sample size trong giao tiếp hàng ngày.",
@@ -995,7 +995,7 @@ module.exports = [
       {
         "word": "Variance",
         "meaning": "Phương sai thống kê",
-        "pronunciation": "/variance/",
+        "pronunciation": "/ˈve.ri.əns/",
         "partOfSpeech": "noun",
         "example": "I use Variance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Variance trong giao tiếp hàng ngày.",
@@ -1005,7 +1005,7 @@ module.exports = [
       {
         "word": "Distribution",
         "meaning": "Quy luật phân phối",
-        "pronunciation": "/distribution/",
+        "pronunciation": "/ˌdɪs.trəbˈjuː.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Distribution in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Distribution trong giao tiếp hàng ngày.",
@@ -1015,7 +1015,7 @@ module.exports = [
       {
         "word": "Regression",
         "meaning": "Hồi quy tương quan",
-        "pronunciation": "/regression/",
+        "pronunciation": "/ˌrəˈɡre.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Regression in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Regression trong giao tiếp hàng ngày.",
@@ -1025,7 +1025,7 @@ module.exports = [
       {
         "word": "Baseline",
         "meaning": "Đường cơ sở chuẩn so sánh",
-        "pronunciation": "/baseline/",
+        "pronunciation": "/ˈbeɪs.laɪn/",
         "partOfSpeech": "noun",
         "example": "I use Baseline in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Baseline trong giao tiếp hàng ngày.",
@@ -1035,7 +1035,7 @@ module.exports = [
       {
         "word": "Outlier",
         "meaning": "Giá trị ngoại lai dị biệt",
-        "pronunciation": "/outlier/",
+        "pronunciation": "/ˈaʊt.laɪ.ər/",
         "partOfSpeech": "noun",
         "example": "I use Outlier in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Outlier trong giao tiếp hàng ngày.",
@@ -1045,7 +1045,7 @@ module.exports = [
       {
         "word": "Interpret",
         "meaning": "Thông dịch, giải mã dữ liệu",
-        "pronunciation": "/interpret/",
+        "pronunciation": "/ˌɪnˈtɜːr.prət/",
         "partOfSpeech": "noun",
         "example": "I use Interpret in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Interpret trong giao tiếp hàng ngày.",
@@ -1070,7 +1070,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Quantitative\\\" has a specific pronunciation: /quantitative/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Quantitative\\\" có phát âm cụ thể là /quantitative/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Deviation\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Deviation\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Quantitative\\\" has a specific pronunciation: /ˈkwɑːn.tɪ.teɪ.tɪv/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Quantitative\\\" có phát âm cụ thể là /ˈkwɑːn.tɪ.teɪ.tɪv/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Deviation\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Deviation\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -1101,7 +1101,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"daily\",\"Quantitative\",\"conversation\",\"in\"]",
+        "options": "[\"daily\",\"conversation\",\"Quantitative\",\"I\",\"use\",\"in\"]",
         "correctAnswer": "I use Quantitative in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Quantitative in daily conversation\"."
       },
@@ -1117,7 +1117,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Deviation\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Deviation",
-        "explanation": "Phát âm chuẩn IPA của từ là /deviation/ - \"Deviation\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌdi.viˈeɪ.ʃən/ - \"Deviation\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1153,11 +1153,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Quantitative\" là gì?",
         "options": "[\"Quy mô mẫu khảo sát\",\"Có ý nghĩa thống kê\",\"Độ lệch chuẩn\",\"Thuộc về định lượng con số\"]",
         "correctAnswer": "Thuộc về định lượng con số",
-        "explanation": "\"Quantitative\" có phiên âm /quantitative/ và mang nghĩa là \"Thuộc về định lượng con số\"."
+        "explanation": "\"Quantitative\" có phiên âm /ˈkwɑːn.tɪ.teɪ.tɪv/ và mang nghĩa là \"Thuộc về định lượng con số\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Quantitative Data Analysis & Interpretation, we need to practice _____.\"",
-        "options": "[\"Deviation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Deviation\",\"airplanes\"]",
         "correctAnswer": "Deviation",
         "explanation": "\"Deviation\" (Độ lệch chuẩn) là từ vựng chính xác trong ngữ cảnh chủ đề Quantitative Data Analysis & Interpretation."
       },
@@ -1169,13 +1169,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sample size\" là gì?",
-        "options": "[\"Quy luật phân phối\",\"Phương sai thống kê\",\"Hồi quy tương quan\",\"Quy mô mẫu khảo sát\"]",
+        "options": "[\"Hồi quy tương quan\",\"Quy mô mẫu khảo sát\",\"Phương sai thống kê\",\"Quy luật phân phối\"]",
         "correctAnswer": "Quy mô mẫu khảo sát",
-        "explanation": "\"Sample size\" có phiên âm /sample size/ và mang nghĩa là \"Quy mô mẫu khảo sát\"."
+        "explanation": "\"Sample size\" có phiên âm /ˈsæm.pəl ˈsaɪz/ và mang nghĩa là \"Quy mô mẫu khảo sát\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Quantitative Data Analysis & Interpretation, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Variance\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Variance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Variance",
         "explanation": "\"Variance\" (Phương sai thống kê) là từ vựng chính xác trong ngữ cảnh chủ đề Quantitative Data Analysis & Interpretation."
       },
@@ -1187,13 +1187,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Regression\" là gì?",
-        "options": "[\"Thông dịch, giải mã dữ liệu\",\"Giá trị ngoại lai dị biệt\",\"Đường cơ sở chuẩn so sánh\",\"Hồi quy tương quan\"]",
+        "options": "[\"Đường cơ sở chuẩn so sánh\",\"Thông dịch, giải mã dữ liệu\",\"Hồi quy tương quan\",\"Giá trị ngoại lai dị biệt\"]",
         "correctAnswer": "Hồi quy tương quan",
-        "explanation": "\"Regression\" có phiên âm /regression/ và mang nghĩa là \"Hồi quy tương quan\"."
+        "explanation": "\"Regression\" có phiên âm /ˌrəˈɡre.ʃən/ và mang nghĩa là \"Hồi quy tương quan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Quantitative Data Analysis & Interpretation, we need to practice _____.\"",
-        "options": "[\"Baseline\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Baseline\",\"airplanes\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Baseline",
         "explanation": "\"Baseline\" (Đường cơ sở chuẩn so sánh) là từ vựng chính xác trong ngữ cảnh chủ đề Quantitative Data Analysis & Interpretation."
       },
@@ -1205,9 +1205,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Interpret\" là gì?",
-        "options": "[\"Thông dịch, giải mã dữ liệu\",\"Có ý nghĩa thống kê\",\"Thuộc về định lượng con số\",\"Độ lệch chuẩn\"]",
+        "options": "[\"Có ý nghĩa thống kê\",\"Độ lệch chuẩn\",\"Thuộc về định lượng con số\",\"Thông dịch, giải mã dữ liệu\"]",
         "correctAnswer": "Thông dịch, giải mã dữ liệu",
-        "explanation": "\"Interpret\" có phiên âm /interpret/ và mang nghĩa là \"Thông dịch, giải mã dữ liệu\"."
+        "explanation": "\"Interpret\" có phiên âm /ˌɪnˈtɜːr.prət/ và mang nghĩa là \"Thông dịch, giải mã dữ liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Quantitative Data Analysis & Interpretation, we need to practice _____.\"",
@@ -1223,13 +1223,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Statistically significant\" là gì?",
-        "options": "[\"Quy mô mẫu khảo sát\",\"Có ý nghĩa thống kê\",\"Phương sai thống kê\",\"Quy luật phân phối\"]",
+        "options": "[\"Có ý nghĩa thống kê\",\"Quy mô mẫu khảo sát\",\"Phương sai thống kê\",\"Quy luật phân phối\"]",
         "correctAnswer": "Có ý nghĩa thống kê",
-        "explanation": "\"Statistically significant\" có phiên âm /statistically significant/ và mang nghĩa là \"Có ý nghĩa thống kê\"."
+        "explanation": "\"Statistically significant\" có phiên âm /ˌstəˈtɪ.stɪ.kə.li ˌsəɡˈnɪ.fɪ.kənt/ và mang nghĩa là \"Có ý nghĩa thống kê\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Quantitative Data Analysis & Interpretation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Sample size\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Sample size\",\"umbrellas\"]",
         "correctAnswer": "Sample size",
         "explanation": "\"Sample size\" (Quy mô mẫu khảo sát) là từ vựng chính xác trong ngữ cảnh chủ đề Quantitative Data Analysis & Interpretation."
       },
@@ -1241,13 +1241,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Distribution\" là gì?",
-        "options": "[\"Đường cơ sở chuẩn so sánh\",\"Giá trị ngoại lai dị biệt\",\"Hồi quy tương quan\",\"Quy luật phân phối\"]",
+        "options": "[\"Hồi quy tương quan\",\"Quy luật phân phối\",\"Giá trị ngoại lai dị biệt\",\"Đường cơ sở chuẩn so sánh\"]",
         "correctAnswer": "Quy luật phân phối",
-        "explanation": "\"Distribution\" có phiên âm /distribution/ và mang nghĩa là \"Quy luật phân phối\"."
+        "explanation": "\"Distribution\" có phiên âm /ˌdɪs.trəbˈjuː.ʃən/ và mang nghĩa là \"Quy luật phân phối\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Quantitative Data Analysis & Interpretation, we need to practice _____.\"",
-        "options": "[\"Regression\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Regression\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Regression",
         "explanation": "\"Regression\" (Hồi quy tương quan) là từ vựng chính xác trong ngữ cảnh chủ đề Quantitative Data Analysis & Interpretation."
       },
@@ -1270,7 +1270,7 @@ module.exports = [
       {
         "word": "Qualitative",
         "meaning": "Thuộc về định tính nội dung",
-        "pronunciation": "/qualitative/",
+        "pronunciation": "/ˈkwɑː.lə.teɪ.tɪv/",
         "partOfSpeech": "noun",
         "example": "I use Qualitative in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Qualitative trong giao tiếp hàng ngày.",
@@ -1280,7 +1280,7 @@ module.exports = [
       {
         "word": "Thematic analysis",
         "meaning": "Phân tích theo chủ đề",
-        "pronunciation": "/thematic analysis/",
+        "pronunciation": "/ˌθiˈmæ.tɪk ˌəˈnæ.lə.səs/",
         "partOfSpeech": "noun",
         "example": "I use Thematic analysis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Thematic analysis trong giao tiếp hàng ngày.",
@@ -1290,7 +1290,7 @@ module.exports = [
       {
         "word": "Hermeneutics",
         "meaning": "Khoa giải thích học văn bản",
-        "pronunciation": "/hermeneutics/",
+        "pronunciation": "/ˌhərˈmenˈjuː.tɪks/",
         "partOfSpeech": "noun",
         "example": "I use Hermeneutics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hermeneutics trong giao tiếp hàng ngày.",
@@ -1300,7 +1300,7 @@ module.exports = [
       {
         "word": "In-depth interview",
         "meaning": "Phỏng vấn chuyên sâu",
-        "pronunciation": "/in-depth interview/",
+        "pronunciation": "/ɪn ˈɪn.tərv.ju/",
         "partOfSpeech": "noun",
         "example": "I use In-depth interview in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ In-depth interview trong giao tiếp hàng ngày.",
@@ -1310,7 +1310,7 @@ module.exports = [
       {
         "word": "Ethnography",
         "meaning": "Dân tộc học, quan sát thực địa",
-        "pronunciation": "/ethnography/",
+        "pronunciation": "/ˌeθˈnɑː.ɡrə.fi/",
         "partOfSpeech": "noun",
         "example": "I use Ethnography in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ethnography trong giao tiếp hàng ngày.",
@@ -1320,7 +1320,7 @@ module.exports = [
       {
         "word": "Phenomenology",
         "meaning": "Hiện tượng học",
-        "pronunciation": "/phenomenology/",
+        "pronunciation": "/ˌfəˈnɑː.mə.nɑː.lɑː.ɡi/",
         "partOfSpeech": "noun",
         "example": "I use Phenomenology in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Phenomenology trong giao tiếp hàng ngày.",
@@ -1330,7 +1330,7 @@ module.exports = [
       {
         "word": "Subjectivity",
         "meaning": "Tính chủ quan nhận thức",
-        "pronunciation": "/subjectivity/",
+        "pronunciation": "/ˌsəb.dʒekˈtɪ.vɪ.ti/",
         "partOfSpeech": "noun",
         "example": "I use Subjectivity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Subjectivity trong giao tiếp hàng ngày.",
@@ -1340,7 +1340,7 @@ module.exports = [
       {
         "word": "Transcript",
         "meaning": "Bản gỡ băng ghi âm chữ",
-        "pronunciation": "/transcript/",
+        "pronunciation": "/ˈtræns.krɪpt/",
         "partOfSpeech": "noun",
         "example": "I use Transcript in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Transcript trong giao tiếp hàng ngày.",
@@ -1350,7 +1350,7 @@ module.exports = [
       {
         "word": "Coding",
         "meaning": "Mã hóa dữ liệu định tính",
-        "pronunciation": "/coding/",
+        "pronunciation": "/ˈkoʊ.dɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Coding in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Coding trong giao tiếp hàng ngày.",
@@ -1360,7 +1360,7 @@ module.exports = [
       {
         "word": "Saturation",
         "meaning": "Điểm bão hòa dữ liệu",
-        "pronunciation": "/saturation/",
+        "pronunciation": "/ˌsæ.tʃərˈeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Saturation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Saturation trong giao tiếp hàng ngày.",
@@ -1385,7 +1385,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Qualitative\\\" has a specific pronunciation: /qualitative/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Qualitative\\\" có phát âm cụ thể là /qualitative/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Thematic analysis\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Thematic analysis\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Qualitative\\\" has a specific pronunciation: /ˈkwɑː.lə.teɪ.tɪv/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Qualitative\\\" có phát âm cụ thể là /ˈkwɑː.lə.teɪ.tɪv/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Thematic analysis\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Thematic analysis\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -1416,7 +1416,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"conversation\",\"use\",\"I\",\"in\",\"Qualitative\"]",
+        "options": "[\"I\",\"daily\",\"in\",\"Qualitative\",\"conversation\",\"use\"]",
         "correctAnswer": "I use Qualitative in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Qualitative in daily conversation\"."
       },
@@ -1432,7 +1432,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Thematic analysis\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Thematic analysis",
-        "explanation": "Phát âm chuẩn IPA của từ là /thematic analysis/ - \"Thematic analysis\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌθiˈmæ.tɪk ˌəˈnæ.lə.səs/ - \"Thematic analysis\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1468,11 +1468,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Qualitative\" là gì?",
         "options": "[\"Thuộc về định tính nội dung\",\"Phân tích theo chủ đề\",\"Khoa giải thích học văn bản\",\"Phỏng vấn chuyên sâu\"]",
         "correctAnswer": "Thuộc về định tính nội dung",
-        "explanation": "\"Qualitative\" có phiên âm /qualitative/ và mang nghĩa là \"Thuộc về định tính nội dung\"."
+        "explanation": "\"Qualitative\" có phiên âm /ˈkwɑː.lə.teɪ.tɪv/ và mang nghĩa là \"Thuộc về định tính nội dung\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Qualitative Research & Hermeneutics, we need to practice _____.\"",
-        "options": "[\"Thematic analysis\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Thematic analysis\"]",
         "correctAnswer": "Thematic analysis",
         "explanation": "\"Thematic analysis\" (Phân tích theo chủ đề) là từ vựng chính xác trong ngữ cảnh chủ đề Qualitative Research & Hermeneutics."
       },
@@ -1484,13 +1484,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"In-depth interview\" là gì?",
-        "options": "[\"Phỏng vấn chuyên sâu\",\"Dân tộc học, quan sát thực địa\",\"Hiện tượng học\",\"Tính chủ quan nhận thức\"]",
+        "options": "[\"Hiện tượng học\",\"Dân tộc học, quan sát thực địa\",\"Phỏng vấn chuyên sâu\",\"Tính chủ quan nhận thức\"]",
         "correctAnswer": "Phỏng vấn chuyên sâu",
-        "explanation": "\"In-depth interview\" có phiên âm /in-depth interview/ và mang nghĩa là \"Phỏng vấn chuyên sâu\"."
+        "explanation": "\"In-depth interview\" có phiên âm /ɪn ˈɪn.tərv.ju/ và mang nghĩa là \"Phỏng vấn chuyên sâu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Qualitative Research & Hermeneutics, we need to practice _____.\"",
-        "options": "[\"Ethnography\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Ethnography\"]",
         "correctAnswer": "Ethnography",
         "explanation": "\"Ethnography\" (Dân tộc học, quan sát thực địa) là từ vựng chính xác trong ngữ cảnh chủ đề Qualitative Research & Hermeneutics."
       },
@@ -1502,13 +1502,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Subjectivity\" là gì?",
-        "options": "[\"Mã hóa dữ liệu định tính\",\"Bản gỡ băng ghi âm chữ\",\"Điểm bão hòa dữ liệu\",\"Tính chủ quan nhận thức\"]",
+        "options": "[\"Điểm bão hòa dữ liệu\",\"Mã hóa dữ liệu định tính\",\"Tính chủ quan nhận thức\",\"Bản gỡ băng ghi âm chữ\"]",
         "correctAnswer": "Tính chủ quan nhận thức",
-        "explanation": "\"Subjectivity\" có phiên âm /subjectivity/ và mang nghĩa là \"Tính chủ quan nhận thức\"."
+        "explanation": "\"Subjectivity\" có phiên âm /ˌsəb.dʒekˈtɪ.vɪ.ti/ và mang nghĩa là \"Tính chủ quan nhận thức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Qualitative Research & Hermeneutics, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Transcript\",\"bananas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Transcript\"]",
         "correctAnswer": "Transcript",
         "explanation": "\"Transcript\" (Bản gỡ băng ghi âm chữ) là từ vựng chính xác trong ngữ cảnh chủ đề Qualitative Research & Hermeneutics."
       },
@@ -1520,13 +1520,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Saturation\" là gì?",
-        "options": "[\"Điểm bão hòa dữ liệu\",\"Thuộc về định tính nội dung\",\"Phân tích theo chủ đề\",\"Khoa giải thích học văn bản\"]",
+        "options": "[\"Khoa giải thích học văn bản\",\"Điểm bão hòa dữ liệu\",\"Phân tích theo chủ đề\",\"Thuộc về định tính nội dung\"]",
         "correctAnswer": "Điểm bão hòa dữ liệu",
-        "explanation": "\"Saturation\" có phiên âm /saturation/ và mang nghĩa là \"Điểm bão hòa dữ liệu\"."
+        "explanation": "\"Saturation\" có phiên âm /ˌsæ.tʃərˈeɪ.ʃən/ và mang nghĩa là \"Điểm bão hòa dữ liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Qualitative Research & Hermeneutics, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Qualitative\"]",
+        "options": "[\"umbrellas\",\"Qualitative\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Qualitative",
         "explanation": "\"Qualitative\" (Thuộc về định tính nội dung) là từ vựng chính xác trong ngữ cảnh chủ đề Qualitative Research & Hermeneutics."
       },
@@ -1538,13 +1538,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hermeneutics\" là gì?",
-        "options": "[\"Hiện tượng học\",\"Dân tộc học, quan sát thực địa\",\"Phỏng vấn chuyên sâu\",\"Khoa giải thích học văn bản\"]",
+        "options": "[\"Khoa giải thích học văn bản\",\"Phỏng vấn chuyên sâu\",\"Dân tộc học, quan sát thực địa\",\"Hiện tượng học\"]",
         "correctAnswer": "Khoa giải thích học văn bản",
-        "explanation": "\"Hermeneutics\" có phiên âm /hermeneutics/ và mang nghĩa là \"Khoa giải thích học văn bản\"."
+        "explanation": "\"Hermeneutics\" có phiên âm /ˌhərˈmenˈjuː.tɪks/ và mang nghĩa là \"Khoa giải thích học văn bản\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Qualitative Research & Hermeneutics, we need to practice _____.\"",
-        "options": "[\"In-depth interview\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"In-depth interview\"]",
         "correctAnswer": "In-depth interview",
         "explanation": "\"In-depth interview\" (Phỏng vấn chuyên sâu) là từ vựng chính xác trong ngữ cảnh chủ đề Qualitative Research & Hermeneutics."
       },
@@ -1556,13 +1556,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Phenomenology\" là gì?",
-        "options": "[\"Hiện tượng học\",\"Tính chủ quan nhận thức\",\"Mã hóa dữ liệu định tính\",\"Bản gỡ băng ghi âm chữ\"]",
+        "options": "[\"Mã hóa dữ liệu định tính\",\"Tính chủ quan nhận thức\",\"Hiện tượng học\",\"Bản gỡ băng ghi âm chữ\"]",
         "correctAnswer": "Hiện tượng học",
-        "explanation": "\"Phenomenology\" có phiên âm /phenomenology/ và mang nghĩa là \"Hiện tượng học\"."
+        "explanation": "\"Phenomenology\" có phiên âm /ˌfəˈnɑː.mə.nɑː.lɑː.ɡi/ và mang nghĩa là \"Hiện tượng học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Qualitative Research & Hermeneutics, we need to practice _____.\"",
-        "options": "[\"Subjectivity\",\"airplanes\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Subjectivity\"]",
         "correctAnswer": "Subjectivity",
         "explanation": "\"Subjectivity\" (Tính chủ quan nhận thức) là từ vựng chính xác trong ngữ cảnh chủ đề Qualitative Research & Hermeneutics."
       },
@@ -1585,7 +1585,7 @@ module.exports = [
       {
         "word": "Strategic leadership",
         "meaning": "Lãnh đạo mang tầm chiến lược",
-        "pronunciation": "/strategic leadership/",
+        "pronunciation": "/ˌstrəˈtiː.dʒɪk ˈliː.dər.ʃɪp/",
         "partOfSpeech": "noun",
         "example": "I use Strategic leadership in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Strategic leadership trong giao tiếp hàng ngày.",
@@ -1595,7 +1595,7 @@ module.exports = [
       {
         "word": "Change management",
         "meaning": "Quản trị sự thay đổi",
-        "pronunciation": "/change management/",
+        "pronunciation": "/ˈtʃeɪndʒ ˈmæ.nədʒ.mənt/",
         "partOfSpeech": "noun",
         "example": "I use Change management in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Change management trong giao tiếp hàng ngày.",
@@ -1605,7 +1605,7 @@ module.exports = [
       {
         "word": "Resistance",
         "meaning": "Lực cản, sự phản kháng đổi mới",
-        "pronunciation": "/resistance/",
+        "pronunciation": "/ˌrɪˈzɪ.stəns/",
         "partOfSpeech": "noun",
         "example": "I use Resistance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Resistance trong giao tiếp hàng ngày.",
@@ -1615,7 +1615,7 @@ module.exports = [
       {
         "word": "Transformation",
         "meaning": "Cuộc chuyển mình toàn diện",
-        "pronunciation": "/transformation/",
+        "pronunciation": "/ˌtræn.sfərˈmeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Transformation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Transformation trong giao tiếp hàng ngày.",
@@ -1625,7 +1625,7 @@ module.exports = [
       {
         "word": "Visionary",
         "meaning": "Người có tầm nhìn xa trông rộng",
-        "pronunciation": "/visionary/",
+        "pronunciation": "/ˈvɪ.ʒə.ne.ri/",
         "partOfSpeech": "noun",
         "example": "I use Visionary in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Visionary trong giao tiếp hàng ngày.",
@@ -1635,7 +1635,7 @@ module.exports = [
       {
         "word": "Agility",
         "meaning": "Sự nhạy bén linh hoạt",
-        "pronunciation": "/agility/",
+        "pronunciation": "/ˌəˈdʒɪ.lə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Agility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Agility trong giao tiếp hàng ngày.",
@@ -1645,7 +1645,7 @@ module.exports = [
       {
         "word": "Empowerment",
         "meaning": "Trao quyền tự chủ cho cấp dưới",
-        "pronunciation": "/empowerment/",
+        "pronunciation": "/ˌɪmˈpaʊ.ər.mənt/",
         "partOfSpeech": "noun",
         "example": "I use Empowerment in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Empowerment trong giao tiếp hàng ngày.",
@@ -1655,7 +1655,7 @@ module.exports = [
       {
         "word": "Stakeholder buy-in",
         "meaning": "Sự ủng hộ của các bên hữu quan",
-        "pronunciation": "/stakeholder buy-in/",
+        "pronunciation": "/ˈsteɪk.hoʊl.dər ˈbaɪ/",
         "partOfSpeech": "noun",
         "example": "I use Stakeholder buy-in in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stakeholder buy-in trong giao tiếp hàng ngày.",
@@ -1665,7 +1665,7 @@ module.exports = [
       {
         "word": "Execution",
         "meaning": "Khả năng thực thi quyết liệt",
-        "pronunciation": "/execution/",
+        "pronunciation": "/ˌek.səkˈjuː.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Execution in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Execution trong giao tiếp hàng ngày.",
@@ -1675,7 +1675,7 @@ module.exports = [
       {
         "word": "Resilience",
         "meaning": "Năng lực phục hồi kiên cường",
-        "pronunciation": "/resilience/",
+        "pronunciation": "/ˌrɪˈzɪ.li.əns/",
         "partOfSpeech": "noun",
         "example": "I use Resilience in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Resilience trong giao tiếp hàng ngày.",
@@ -1700,7 +1700,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Strategic leadership\\\" has a specific pronunciation: /strategic leadership/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Strategic leadership\\\" có phát âm cụ thể là /strategic leadership/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Change management\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Change management\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Strategic leadership\\\" has a specific pronunciation: /ˌstrəˈtiː.dʒɪk ˈliː.dər.ʃɪp/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Strategic leadership\\\" có phát âm cụ thể là /ˌstrəˈtiː.dʒɪk ˈliː.dər.ʃɪp/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Change management\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Change management\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -1731,7 +1731,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"I\",\"daily\",\"leadership\",\"in\",\"Strategic\"]",
+        "options": "[\"Strategic\",\"use\",\"leadership\",\"in\",\"I\",\"daily\"]",
         "correctAnswer": "I use Strategic leadership in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Strategic leadership in daily\"."
       },
@@ -1747,7 +1747,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Change management\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Change management",
-        "explanation": "Phát âm chuẩn IPA của từ là /change management/ - \"Change management\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈtʃeɪndʒ ˈmæ.nədʒ.mənt/ - \"Change management\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1781,13 +1781,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Strategic leadership\" là gì?",
-        "options": "[\"Lãnh đạo mang tầm chiến lược\",\"Cuộc chuyển mình toàn diện\",\"Quản trị sự thay đổi\",\"Lực cản, sự phản kháng đổi mới\"]",
+        "options": "[\"Lãnh đạo mang tầm chiến lược\",\"Quản trị sự thay đổi\",\"Lực cản, sự phản kháng đổi mới\",\"Cuộc chuyển mình toàn diện\"]",
         "correctAnswer": "Lãnh đạo mang tầm chiến lược",
-        "explanation": "\"Strategic leadership\" có phiên âm /strategic leadership/ và mang nghĩa là \"Lãnh đạo mang tầm chiến lược\"."
+        "explanation": "\"Strategic leadership\" có phiên âm /ˌstrəˈtiː.dʒɪk ˈliː.dər.ʃɪp/ và mang nghĩa là \"Lãnh đạo mang tầm chiến lược\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Strategic Leadership & Change Management, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Change management\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Change management\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Change management",
         "explanation": "\"Change management\" (Quản trị sự thay đổi) là từ vựng chính xác trong ngữ cảnh chủ đề Strategic Leadership & Change Management."
       },
@@ -1799,13 +1799,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Transformation\" là gì?",
-        "options": "[\"Người có tầm nhìn xa trông rộng\",\"Trao quyền tự chủ cho cấp dưới\",\"Cuộc chuyển mình toàn diện\",\"Sự nhạy bén linh hoạt\"]",
+        "options": "[\"Trao quyền tự chủ cho cấp dưới\",\"Sự nhạy bén linh hoạt\",\"Người có tầm nhìn xa trông rộng\",\"Cuộc chuyển mình toàn diện\"]",
         "correctAnswer": "Cuộc chuyển mình toàn diện",
-        "explanation": "\"Transformation\" có phiên âm /transformation/ và mang nghĩa là \"Cuộc chuyển mình toàn diện\"."
+        "explanation": "\"Transformation\" có phiên âm /ˌtræn.sfərˈmeɪ.ʃən/ và mang nghĩa là \"Cuộc chuyển mình toàn diện\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Strategic Leadership & Change Management, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Visionary\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Visionary\",\"airplanes\"]",
         "correctAnswer": "Visionary",
         "explanation": "\"Visionary\" (Người có tầm nhìn xa trông rộng) là từ vựng chính xác trong ngữ cảnh chủ đề Strategic Leadership & Change Management."
       },
@@ -1817,9 +1817,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Empowerment\" là gì?",
-        "options": "[\"Trao quyền tự chủ cho cấp dưới\",\"Sự ủng hộ của các bên hữu quan\",\"Khả năng thực thi quyết liệt\",\"Năng lực phục hồi kiên cường\"]",
+        "options": "[\"Năng lực phục hồi kiên cường\",\"Sự ủng hộ của các bên hữu quan\",\"Khả năng thực thi quyết liệt\",\"Trao quyền tự chủ cho cấp dưới\"]",
         "correctAnswer": "Trao quyền tự chủ cho cấp dưới",
-        "explanation": "\"Empowerment\" có phiên âm /empowerment/ và mang nghĩa là \"Trao quyền tự chủ cho cấp dưới\"."
+        "explanation": "\"Empowerment\" có phiên âm /ˌɪmˈpaʊ.ər.mənt/ và mang nghĩa là \"Trao quyền tự chủ cho cấp dưới\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Strategic Leadership & Change Management, we need to practice _____.\"",
@@ -1835,13 +1835,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Resilience\" là gì?",
-        "options": "[\"Lãnh đạo mang tầm chiến lược\",\"Năng lực phục hồi kiên cường\",\"Quản trị sự thay đổi\",\"Lực cản, sự phản kháng đổi mới\"]",
+        "options": "[\"Năng lực phục hồi kiên cường\",\"Lãnh đạo mang tầm chiến lược\",\"Quản trị sự thay đổi\",\"Lực cản, sự phản kháng đổi mới\"]",
         "correctAnswer": "Năng lực phục hồi kiên cường",
-        "explanation": "\"Resilience\" có phiên âm /resilience/ và mang nghĩa là \"Năng lực phục hồi kiên cường\"."
+        "explanation": "\"Resilience\" có phiên âm /ˌrɪˈzɪ.li.əns/ và mang nghĩa là \"Năng lực phục hồi kiên cường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Strategic Leadership & Change Management, we need to practice _____.\"",
-        "options": "[\"Strategic leadership\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Strategic leadership\"]",
         "correctAnswer": "Strategic leadership",
         "explanation": "\"Strategic leadership\" (Lãnh đạo mang tầm chiến lược) là từ vựng chính xác trong ngữ cảnh chủ đề Strategic Leadership & Change Management."
       },
@@ -1853,13 +1853,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Resistance\" là gì?",
-        "options": "[\"Cuộc chuyển mình toàn diện\",\"Người có tầm nhìn xa trông rộng\",\"Sự nhạy bén linh hoạt\",\"Lực cản, sự phản kháng đổi mới\"]",
+        "options": "[\"Sự nhạy bén linh hoạt\",\"Lực cản, sự phản kháng đổi mới\",\"Cuộc chuyển mình toàn diện\",\"Người có tầm nhìn xa trông rộng\"]",
         "correctAnswer": "Lực cản, sự phản kháng đổi mới",
-        "explanation": "\"Resistance\" có phiên âm /resistance/ và mang nghĩa là \"Lực cản, sự phản kháng đổi mới\"."
+        "explanation": "\"Resistance\" có phiên âm /ˌrɪˈzɪ.stəns/ và mang nghĩa là \"Lực cản, sự phản kháng đổi mới\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Strategic Leadership & Change Management, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Transformation\",\"airplanes\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Transformation\",\"umbrellas\"]",
         "correctAnswer": "Transformation",
         "explanation": "\"Transformation\" (Cuộc chuyển mình toàn diện) là từ vựng chính xác trong ngữ cảnh chủ đề Strategic Leadership & Change Management."
       },
@@ -1871,13 +1871,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Agility\" là gì?",
-        "options": "[\"Khả năng thực thi quyết liệt\",\"Sự ủng hộ của các bên hữu quan\",\"Trao quyền tự chủ cho cấp dưới\",\"Sự nhạy bén linh hoạt\"]",
+        "options": "[\"Sự nhạy bén linh hoạt\",\"Trao quyền tự chủ cho cấp dưới\",\"Sự ủng hộ của các bên hữu quan\",\"Khả năng thực thi quyết liệt\"]",
         "correctAnswer": "Sự nhạy bén linh hoạt",
-        "explanation": "\"Agility\" có phiên âm /agility/ và mang nghĩa là \"Sự nhạy bén linh hoạt\"."
+        "explanation": "\"Agility\" có phiên âm /ˌəˈdʒɪ.lə.ti/ và mang nghĩa là \"Sự nhạy bén linh hoạt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Strategic Leadership & Change Management, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Empowerment\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Empowerment\",\"airplanes\"]",
         "correctAnswer": "Empowerment",
         "explanation": "\"Empowerment\" (Trao quyền tự chủ cho cấp dưới) là từ vựng chính xác trong ngữ cảnh chủ đề Strategic Leadership & Change Management."
       },
@@ -1900,7 +1900,7 @@ module.exports = [
       {
         "word": "Uncertainty",
         "meaning": "Tính bất định mơ hồ",
-        "pronunciation": "/uncertainty/",
+        "pronunciation": "/ˌənˈsɜːr.tən.ti/",
         "partOfSpeech": "noun",
         "example": "I use Uncertainty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Uncertainty trong giao tiếp hàng ngày.",
@@ -1910,7 +1910,7 @@ module.exports = [
       {
         "word": "Ambiguity",
         "meaning": "Sự mập mờ đa nghĩa",
-        "pronunciation": "/ambiguity/",
+        "pronunciation": "/ˌæm.bɪɡˈjuː.ə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Ambiguity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ambiguity trong giao tiếp hàng ngày.",
@@ -1930,7 +1930,7 @@ module.exports = [
       {
         "word": "Contingency plan",
         "meaning": "Kế hoạch dự phòng tình huống xấu",
-        "pronunciation": "/contingency plan/",
+        "pronunciation": "/ˌkənˈtɪn.dʒən.si ˈplæn/",
         "partOfSpeech": "noun",
         "example": "I use Contingency plan in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Contingency plan trong giao tiếp hàng ngày.",
@@ -1940,7 +1940,7 @@ module.exports = [
       {
         "word": "Black swan",
         "meaning": "Sự kiện thiên nga đen hiếm gặp",
-        "pronunciation": "/black swan/",
+        "pronunciation": "/ˈblæk ˈswɑːn/",
         "partOfSpeech": "noun",
         "example": "I use Black swan in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Black swan trong giao tiếp hàng ngày.",
@@ -1950,7 +1950,7 @@ module.exports = [
       {
         "word": "Heuristic",
         "meaning": "Quy tắc ngón tay cái suy nghiệm",
-        "pronunciation": "/heuristic/",
+        "pronunciation": "/ˌhjʊˈrɪ.stɪk/",
         "partOfSpeech": "noun",
         "example": "I use Heuristic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Heuristic trong giao tiếp hàng ngày.",
@@ -1960,7 +1960,7 @@ module.exports = [
       {
         "word": "Probability",
         "meaning": "Xác suất xảy ra",
-        "pronunciation": "/probability/",
+        "pronunciation": "/ˌprɑː.bəˈbɪ.lə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Probability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Probability trong giao tiếp hàng ngày.",
@@ -1970,7 +1970,7 @@ module.exports = [
       {
         "word": "Mitigate",
         "meaning": "Giảm thiểu nhẹ tổn thất",
-        "pronunciation": "/mitigate/",
+        "pronunciation": "/ˈmɪ.tə.ɡeɪt/",
         "partOfSpeech": "noun",
         "example": "I use Mitigate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Mitigate trong giao tiếp hàng ngày.",
@@ -1980,7 +1980,7 @@ module.exports = [
       {
         "word": "Scenario planning",
         "meaning": "Hoạch định theo các kịch bản",
-        "pronunciation": "/scenario planning/",
+        "pronunciation": "/ˌsɪˈne.ri.oʊ ˈplæ.nɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Scenario planning in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Scenario planning trong giao tiếp hàng ngày.",
@@ -1990,7 +1990,7 @@ module.exports = [
       {
         "word": "Decisiveness",
         "meaning": "Tính quyết đoán dứt khoát",
-        "pronunciation": "/decisiveness/",
+        "pronunciation": "/ˌdɪˈsaɪ.sɪv.nəs/",
         "partOfSpeech": "noun",
         "example": "I use Decisiveness in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Decisiveness trong giao tiếp hàng ngày.",
@@ -2015,7 +2015,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Uncertainty\\\" has a specific pronunciation: /uncertainty/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Uncertainty\\\" có phát âm cụ thể là /uncertainty/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Ambiguity\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Ambiguity\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Uncertainty\\\" has a specific pronunciation: /ˌənˈsɜːr.tən.ti/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Uncertainty\\\" có phát âm cụ thể là /ˌənˈsɜːr.tən.ti/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Ambiguity\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Ambiguity\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2046,7 +2046,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"conversation\",\"I\",\"use\",\"daily\",\"Uncertainty\"]",
+        "options": "[\"I\",\"daily\",\"use\",\"in\",\"Uncertainty\",\"conversation\"]",
         "correctAnswer": "I use Uncertainty in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Uncertainty in daily conversation\"."
       },
@@ -2062,7 +2062,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Ambiguity\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Ambiguity",
-        "explanation": "Phát âm chuẩn IPA của từ là /ambiguity/ - \"Ambiguity\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌæm.bɪɡˈjuː.ə.ti/ - \"Ambiguity\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2096,13 +2096,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Uncertainty\" là gì?",
-        "options": "[\"Kế hoạch dự phòng tình huống xấu\",\"Khả năng hưởng lợi từ biến động\",\"Sự mập mờ đa nghĩa\",\"Tính bất định mơ hồ\"]",
+        "options": "[\"Kế hoạch dự phòng tình huống xấu\",\"Tính bất định mơ hồ\",\"Sự mập mờ đa nghĩa\",\"Khả năng hưởng lợi từ biến động\"]",
         "correctAnswer": "Tính bất định mơ hồ",
-        "explanation": "\"Uncertainty\" có phiên âm /uncertainty/ và mang nghĩa là \"Tính bất định mơ hồ\"."
+        "explanation": "\"Uncertainty\" có phiên âm /ˌənˈsɜːr.tən.ti/ và mang nghĩa là \"Tính bất định mơ hồ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Decision Making Under Deep Uncertainty, we need to practice _____.\"",
-        "options": "[\"Ambiguity\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Ambiguity\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Ambiguity",
         "explanation": "\"Ambiguity\" (Sự mập mờ đa nghĩa) là từ vựng chính xác trong ngữ cảnh chủ đề Decision Making Under Deep Uncertainty."
       },
@@ -2114,13 +2114,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Contingency plan\" là gì?",
-        "options": "[\"Kế hoạch dự phòng tình huống xấu\",\"Sự kiện thiên nga đen hiếm gặp\",\"Quy tắc ngón tay cái suy nghiệm\",\"Xác suất xảy ra\"]",
+        "options": "[\"Xác suất xảy ra\",\"Quy tắc ngón tay cái suy nghiệm\",\"Sự kiện thiên nga đen hiếm gặp\",\"Kế hoạch dự phòng tình huống xấu\"]",
         "correctAnswer": "Kế hoạch dự phòng tình huống xấu",
-        "explanation": "\"Contingency plan\" có phiên âm /contingency plan/ và mang nghĩa là \"Kế hoạch dự phòng tình huống xấu\"."
+        "explanation": "\"Contingency plan\" có phiên âm /ˌkənˈtɪn.dʒən.si ˈplæn/ và mang nghĩa là \"Kế hoạch dự phòng tình huống xấu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Decision Making Under Deep Uncertainty, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Black swan\",\"airplanes\",\"bananas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Black swan\"]",
         "correctAnswer": "Black swan",
         "explanation": "\"Black swan\" (Sự kiện thiên nga đen hiếm gặp) là từ vựng chính xác trong ngữ cảnh chủ đề Decision Making Under Deep Uncertainty."
       },
@@ -2132,13 +2132,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Probability\" là gì?",
-        "options": "[\"Tính quyết đoán dứt khoát\",\"Giảm thiểu nhẹ tổn thất\",\"Hoạch định theo các kịch bản\",\"Xác suất xảy ra\"]",
+        "options": "[\"Tính quyết đoán dứt khoát\",\"Xác suất xảy ra\",\"Giảm thiểu nhẹ tổn thất\",\"Hoạch định theo các kịch bản\"]",
         "correctAnswer": "Xác suất xảy ra",
-        "explanation": "\"Probability\" có phiên âm /probability/ và mang nghĩa là \"Xác suất xảy ra\"."
+        "explanation": "\"Probability\" có phiên âm /ˌprɑː.bəˈbɪ.lə.ti/ và mang nghĩa là \"Xác suất xảy ra\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Decision Making Under Deep Uncertainty, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Mitigate\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Mitigate\"]",
         "correctAnswer": "Mitigate",
         "explanation": "\"Mitigate\" (Giảm thiểu nhẹ tổn thất) là từ vựng chính xác trong ngữ cảnh chủ đề Decision Making Under Deep Uncertainty."
       },
@@ -2150,13 +2150,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Decisiveness\" là gì?",
-        "options": "[\"Tính bất định mơ hồ\",\"Tính quyết đoán dứt khoát\",\"Khả năng hưởng lợi từ biến động\",\"Sự mập mờ đa nghĩa\"]",
+        "options": "[\"Tính quyết đoán dứt khoát\",\"Sự mập mờ đa nghĩa\",\"Khả năng hưởng lợi từ biến động\",\"Tính bất định mơ hồ\"]",
         "correctAnswer": "Tính quyết đoán dứt khoát",
-        "explanation": "\"Decisiveness\" có phiên âm /decisiveness/ và mang nghĩa là \"Tính quyết đoán dứt khoát\"."
+        "explanation": "\"Decisiveness\" có phiên âm /ˌdɪˈsaɪ.sɪv.nəs/ và mang nghĩa là \"Tính quyết đoán dứt khoát\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Decision Making Under Deep Uncertainty, we need to practice _____.\"",
-        "options": "[\"Uncertainty\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Uncertainty\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Uncertainty",
         "explanation": "\"Uncertainty\" (Tính bất định mơ hồ) là từ vựng chính xác trong ngữ cảnh chủ đề Decision Making Under Deep Uncertainty."
       },
@@ -2168,13 +2168,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Antifragile\" là gì?",
-        "options": "[\"Khả năng hưởng lợi từ biến động\",\"Kế hoạch dự phòng tình huống xấu\",\"Sự kiện thiên nga đen hiếm gặp\",\"Quy tắc ngón tay cái suy nghiệm\"]",
+        "options": "[\"Sự kiện thiên nga đen hiếm gặp\",\"Khả năng hưởng lợi từ biến động\",\"Quy tắc ngón tay cái suy nghiệm\",\"Kế hoạch dự phòng tình huống xấu\"]",
         "correctAnswer": "Khả năng hưởng lợi từ biến động",
         "explanation": "\"Antifragile\" có phiên âm /antifragile/ và mang nghĩa là \"Khả năng hưởng lợi từ biến động\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Decision Making Under Deep Uncertainty, we need to practice _____.\"",
-        "options": "[\"Contingency plan\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Contingency plan\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Contingency plan",
         "explanation": "\"Contingency plan\" (Kế hoạch dự phòng tình huống xấu) là từ vựng chính xác trong ngữ cảnh chủ đề Decision Making Under Deep Uncertainty."
       },
@@ -2186,9 +2186,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Heuristic\" là gì?",
-        "options": "[\"Xác suất xảy ra\",\"Quy tắc ngón tay cái suy nghiệm\",\"Hoạch định theo các kịch bản\",\"Giảm thiểu nhẹ tổn thất\"]",
+        "options": "[\"Quy tắc ngón tay cái suy nghiệm\",\"Xác suất xảy ra\",\"Giảm thiểu nhẹ tổn thất\",\"Hoạch định theo các kịch bản\"]",
         "correctAnswer": "Quy tắc ngón tay cái suy nghiệm",
-        "explanation": "\"Heuristic\" có phiên âm /heuristic/ và mang nghĩa là \"Quy tắc ngón tay cái suy nghiệm\"."
+        "explanation": "\"Heuristic\" có phiên âm /ˌhjʊˈrɪ.stɪk/ và mang nghĩa là \"Quy tắc ngón tay cái suy nghiệm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Decision Making Under Deep Uncertainty, we need to practice _____.\"",
@@ -2215,7 +2215,7 @@ module.exports = [
       {
         "word": "Crisis management",
         "meaning": "Quản trị khủng hoảng",
-        "pronunciation": "/crisis management/",
+        "pronunciation": "/ˈkraɪ.səs ˈmæ.nədʒ.mənt/",
         "partOfSpeech": "noun",
         "example": "I use Crisis management in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Crisis management trong giao tiếp hàng ngày.",
@@ -2225,7 +2225,7 @@ module.exports = [
       {
         "word": "Public relations",
         "meaning": "Quan hệ công chúng (PR)",
-        "pronunciation": "/public relations/",
+        "pronunciation": "/ˈpʌb.lɪk ˌriˈleɪ.ʃənz/",
         "partOfSpeech": "noun",
         "example": "I use Public relations in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Public relations trong giao tiếp hàng ngày.",
@@ -2235,7 +2235,7 @@ module.exports = [
       {
         "word": "Damage control",
         "meaning": "Kiểm soát thiệt hại danh tiếng",
-        "pronunciation": "/damage control/",
+        "pronunciation": "/ˈdæ.mədʒ kənˈtroʊl/",
         "partOfSpeech": "noun",
         "example": "I use Damage control in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Damage control trong giao tiếp hàng ngày.",
@@ -2245,7 +2245,7 @@ module.exports = [
       {
         "word": "Spokesperson",
         "meaning": "Người phát ngôn chính thức",
-        "pronunciation": "/spokesperson/",
+        "pronunciation": "/ˈspoʊk.spər.sən/",
         "partOfSpeech": "noun",
         "example": "I use Spokesperson in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Spokesperson trong giao tiếp hàng ngày.",
@@ -2255,7 +2255,7 @@ module.exports = [
       {
         "word": "Accountability",
         "meaning": "Tinh thần chịu trách nhiệm cao",
-        "pronunciation": "/accountability/",
+        "pronunciation": "/ˌəˈkaʊn.tə.bɪ.lɪ.ti/",
         "partOfSpeech": "noun",
         "example": "I use Accountability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Accountability trong giao tiếp hàng ngày.",
@@ -2265,7 +2265,7 @@ module.exports = [
       {
         "word": "Reputation",
         "meaning": "Uy tín thanh danh tổ chức",
-        "pronunciation": "/reputation/",
+        "pronunciation": "/ˌrep.jəˈteɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Reputation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Reputation trong giao tiếp hàng ngày.",
@@ -2275,7 +2275,7 @@ module.exports = [
       {
         "word": "Apology",
         "meaning": "Lời xin lỗi chân thành",
-        "pronunciation": "/apology/",
+        "pronunciation": "/ˌəˈpɑː.lə.dʒi/",
         "partOfSpeech": "noun",
         "example": "I use Apology in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Apology trong giao tiếp hàng ngày.",
@@ -2285,7 +2285,7 @@ module.exports = [
       {
         "word": "Investigation",
         "meaning": "Cuộc điều tra độc lập",
-        "pronunciation": "/investigation/",
+        "pronunciation": "/ˌɪn.ve.stəˈɡeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Investigation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Investigation trong giao tiếp hàng ngày.",
@@ -2295,7 +2295,7 @@ module.exports = [
       {
         "word": "Restoration",
         "meaning": "Sự khôi phục lòng tin",
-        "pronunciation": "/restoration/",
+        "pronunciation": "/ˌre.stərˈeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Restoration in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Restoration trong giao tiếp hàng ngày.",
@@ -2305,7 +2305,7 @@ module.exports = [
       {
         "word": "Briefing",
         "meaning": "Buổi họp báo khẩn cấp",
-        "pronunciation": "/briefing/",
+        "pronunciation": "/ˈbriː.fɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Briefing in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Briefing trong giao tiếp hàng ngày.",
@@ -2330,7 +2330,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Crisis management\\\" has a specific pronunciation: /crisis management/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Crisis management\\\" có phát âm cụ thể là /crisis management/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Public relations\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Public relations\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Crisis management\\\" has a specific pronunciation: /ˈkraɪ.səs ˈmæ.nədʒ.mənt/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Crisis management\\\" có phát âm cụ thể là /ˈkraɪ.səs ˈmæ.nədʒ.mənt/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Public relations\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Public relations\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2361,7 +2361,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"in\",\"Crisis\",\"daily\",\"management\"]",
+        "options": "[\"management\",\"Crisis\",\"daily\",\"use\",\"I\",\"in\"]",
         "correctAnswer": "I use Crisis management in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Crisis management in daily\"."
       },
@@ -2377,7 +2377,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Public relations\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Public relations",
-        "explanation": "Phát âm chuẩn IPA của từ là /public relations/ - \"Public relations\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈpʌb.lɪk ˌriˈleɪ.ʃənz/ - \"Public relations\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2411,13 +2411,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Crisis management\" là gì?",
-        "options": "[\"Quản trị khủng hoảng\",\"Quan hệ công chúng (PR)\",\"Người phát ngôn chính thức\",\"Kiểm soát thiệt hại danh tiếng\"]",
+        "options": "[\"Quản trị khủng hoảng\",\"Quan hệ công chúng (PR)\",\"Kiểm soát thiệt hại danh tiếng\",\"Người phát ngôn chính thức\"]",
         "correctAnswer": "Quản trị khủng hoảng",
-        "explanation": "\"Crisis management\" có phiên âm /crisis management/ và mang nghĩa là \"Quản trị khủng hoảng\"."
+        "explanation": "\"Crisis management\" có phiên âm /ˈkraɪ.səs ˈmæ.nədʒ.mənt/ và mang nghĩa là \"Quản trị khủng hoảng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crisis Management & Strategic PR, we need to practice _____.\"",
-        "options": "[\"Public relations\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Public relations\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Public relations",
         "explanation": "\"Public relations\" (Quan hệ công chúng (PR)) là từ vựng chính xác trong ngữ cảnh chủ đề Crisis Management & Strategic PR."
       },
@@ -2429,13 +2429,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Spokesperson\" là gì?",
-        "options": "[\"Người phát ngôn chính thức\",\"Tinh thần chịu trách nhiệm cao\",\"Uy tín thanh danh tổ chức\",\"Lời xin lỗi chân thành\"]",
+        "options": "[\"Người phát ngôn chính thức\",\"Uy tín thanh danh tổ chức\",\"Tinh thần chịu trách nhiệm cao\",\"Lời xin lỗi chân thành\"]",
         "correctAnswer": "Người phát ngôn chính thức",
-        "explanation": "\"Spokesperson\" có phiên âm /spokesperson/ và mang nghĩa là \"Người phát ngôn chính thức\"."
+        "explanation": "\"Spokesperson\" có phiên âm /ˈspoʊk.spər.sən/ và mang nghĩa là \"Người phát ngôn chính thức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crisis Management & Strategic PR, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Accountability\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Accountability\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Accountability",
         "explanation": "\"Accountability\" (Tinh thần chịu trách nhiệm cao) là từ vựng chính xác trong ngữ cảnh chủ đề Crisis Management & Strategic PR."
       },
@@ -2447,13 +2447,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Apology\" là gì?",
-        "options": "[\"Buổi họp báo khẩn cấp\",\"Sự khôi phục lòng tin\",\"Cuộc điều tra độc lập\",\"Lời xin lỗi chân thành\"]",
+        "options": "[\"Sự khôi phục lòng tin\",\"Cuộc điều tra độc lập\",\"Lời xin lỗi chân thành\",\"Buổi họp báo khẩn cấp\"]",
         "correctAnswer": "Lời xin lỗi chân thành",
-        "explanation": "\"Apology\" có phiên âm /apology/ và mang nghĩa là \"Lời xin lỗi chân thành\"."
+        "explanation": "\"Apology\" có phiên âm /ˌəˈpɑː.lə.dʒi/ và mang nghĩa là \"Lời xin lỗi chân thành\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crisis Management & Strategic PR, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Investigation\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Investigation\",\"airplanes\"]",
         "correctAnswer": "Investigation",
         "explanation": "\"Investigation\" (Cuộc điều tra độc lập) là từ vựng chính xác trong ngữ cảnh chủ đề Crisis Management & Strategic PR."
       },
@@ -2465,13 +2465,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Briefing\" là gì?",
-        "options": "[\"Buổi họp báo khẩn cấp\",\"Kiểm soát thiệt hại danh tiếng\",\"Quản trị khủng hoảng\",\"Quan hệ công chúng (PR)\"]",
+        "options": "[\"Kiểm soát thiệt hại danh tiếng\",\"Quan hệ công chúng (PR)\",\"Quản trị khủng hoảng\",\"Buổi họp báo khẩn cấp\"]",
         "correctAnswer": "Buổi họp báo khẩn cấp",
-        "explanation": "\"Briefing\" có phiên âm /briefing/ và mang nghĩa là \"Buổi họp báo khẩn cấp\"."
+        "explanation": "\"Briefing\" có phiên âm /ˈbriː.fɪŋ/ và mang nghĩa là \"Buổi họp báo khẩn cấp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crisis Management & Strategic PR, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Crisis management\",\"airplanes\"]",
+        "options": "[\"Crisis management\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Crisis management",
         "explanation": "\"Crisis management\" (Quản trị khủng hoảng) là từ vựng chính xác trong ngữ cảnh chủ đề Crisis Management & Strategic PR."
       },
@@ -2483,13 +2483,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Damage control\" là gì?",
-        "options": "[\"Kiểm soát thiệt hại danh tiếng\",\"Uy tín thanh danh tổ chức\",\"Người phát ngôn chính thức\",\"Tinh thần chịu trách nhiệm cao\"]",
+        "options": "[\"Tinh thần chịu trách nhiệm cao\",\"Người phát ngôn chính thức\",\"Uy tín thanh danh tổ chức\",\"Kiểm soát thiệt hại danh tiếng\"]",
         "correctAnswer": "Kiểm soát thiệt hại danh tiếng",
-        "explanation": "\"Damage control\" có phiên âm /damage control/ và mang nghĩa là \"Kiểm soát thiệt hại danh tiếng\"."
+        "explanation": "\"Damage control\" có phiên âm /ˈdæ.mədʒ kənˈtroʊl/ và mang nghĩa là \"Kiểm soát thiệt hại danh tiếng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crisis Management & Strategic PR, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Spokesperson\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Spokesperson\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Spokesperson",
         "explanation": "\"Spokesperson\" (Người phát ngôn chính thức) là từ vựng chính xác trong ngữ cảnh chủ đề Crisis Management & Strategic PR."
       },
@@ -2501,13 +2501,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Reputation\" là gì?",
-        "options": "[\"Sự khôi phục lòng tin\",\"Cuộc điều tra độc lập\",\"Lời xin lỗi chân thành\",\"Uy tín thanh danh tổ chức\"]",
+        "options": "[\"Sự khôi phục lòng tin\",\"Uy tín thanh danh tổ chức\",\"Lời xin lỗi chân thành\",\"Cuộc điều tra độc lập\"]",
         "correctAnswer": "Uy tín thanh danh tổ chức",
-        "explanation": "\"Reputation\" có phiên âm /reputation/ và mang nghĩa là \"Uy tín thanh danh tổ chức\"."
+        "explanation": "\"Reputation\" có phiên âm /ˌrep.jəˈteɪ.ʃən/ và mang nghĩa là \"Uy tín thanh danh tổ chức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crisis Management & Strategic PR, we need to practice _____.\"",
-        "options": "[\"Apology\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Apology\",\"umbrellas\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Apology",
         "explanation": "\"Apology\" (Lời xin lỗi chân thành) là từ vựng chính xác trong ngữ cảnh chủ đề Crisis Management & Strategic PR."
       },
@@ -2530,7 +2530,7 @@ module.exports = [
       {
         "word": "Diplomacy",
         "meaning": "Thuật ngoại giao bang giao",
-        "pronunciation": "/diplomacy/",
+        "pronunciation": "/ˌdɪpˈloʊ.mə.si/",
         "partOfSpeech": "noun",
         "example": "I use Diplomacy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Diplomacy trong giao tiếp hàng ngày.",
@@ -2540,7 +2540,7 @@ module.exports = [
       {
         "word": "Treaty",
         "meaning": "Hiệp ước quốc tế có ràng buộc",
-        "pronunciation": "/treaty/",
+        "pronunciation": "/ˈtriː.ti/",
         "partOfSpeech": "noun",
         "example": "I use Treaty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Treaty trong giao tiếp hàng ngày.",
@@ -2550,7 +2550,7 @@ module.exports = [
       {
         "word": "Sovereignty",
         "meaning": "Chủ quyền quốc gia bất khả xâm phạm",
-        "pronunciation": "/sovereignty/",
+        "pronunciation": "/ˈsɑːv.rən.ti/",
         "partOfSpeech": "noun",
         "example": "I use Sovereignty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sovereignty trong giao tiếp hàng ngày.",
@@ -2560,7 +2560,7 @@ module.exports = [
       {
         "word": "Multilateral",
         "meaning": "Hợp tác đa phương nhiều bên",
-        "pronunciation": "/multilateral/",
+        "pronunciation": "/ˌməl.tɪˈlæ.tər.əl/",
         "partOfSpeech": "noun",
         "example": "I use Multilateral in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Multilateral trong giao tiếp hàng ngày.",
@@ -2570,7 +2570,7 @@ module.exports = [
       {
         "word": "Sanction",
         "meaning": "Biện pháp trừng phạt cấm vận",
-        "pronunciation": "/sanction/",
+        "pronunciation": "/ˈsæŋ.kʃən/",
         "partOfSpeech": "noun",
         "example": "I use Sanction in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sanction trong giao tiếp hàng ngày.",
@@ -2580,7 +2580,7 @@ module.exports = [
       {
         "word": "Envoy",
         "meaning": "Đặc phái viên ngoại giao",
-        "pronunciation": "/envoy/",
+        "pronunciation": "/ˈen.vɔɪ/",
         "partOfSpeech": "noun",
         "example": "I use Envoy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Envoy trong giao tiếp hàng ngày.",
@@ -2590,7 +2590,7 @@ module.exports = [
       {
         "word": "Accord",
         "meaning": "Hiệp định hòa bình chung",
-        "pronunciation": "/accord/",
+        "pronunciation": "/əˈkɔːrd/",
         "partOfSpeech": "noun",
         "example": "I use Accord in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Accord trong giao tiếp hàng ngày.",
@@ -2600,7 +2600,7 @@ module.exports = [
       {
         "word": "Protocol",
         "meaning": "Nghi thức ngoại giao chính thức",
-        "pronunciation": "/protocol/",
+        "pronunciation": "/ˈproʊ.tə.kɑːl/",
         "partOfSpeech": "noun",
         "example": "I use Protocol in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Protocol trong giao tiếp hàng ngày.",
@@ -2610,7 +2610,7 @@ module.exports = [
       {
         "word": "Deadlock",
         "meaning": "Thế bế tắc đàm phán",
-        "pronunciation": "/deadlock/",
+        "pronunciation": "/ˈded.lɑːk/",
         "partOfSpeech": "noun",
         "example": "I use Deadlock in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deadlock trong giao tiếp hàng ngày.",
@@ -2620,7 +2620,7 @@ module.exports = [
       {
         "word": "Ratification",
         "meaning": "Sự phê chuẩn của quốc hội",
-        "pronunciation": "/ratification/",
+        "pronunciation": "/ˌræ.tə.fəˈkeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Ratification in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ratification trong giao tiếp hàng ngày.",
@@ -2645,7 +2645,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Diplomacy\\\" has a specific pronunciation: /diplomacy/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Diplomacy\\\" có phát âm cụ thể là /diplomacy/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Treaty\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Treaty\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Diplomacy\\\" has a specific pronunciation: /ˌdɪpˈloʊ.mə.si/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Diplomacy\\\" có phát âm cụ thể là /ˌdɪpˈloʊ.mə.si/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Treaty\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Treaty\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2676,7 +2676,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Diplomacy\",\"conversation\",\"in\",\"use\",\"I\",\"daily\"]",
+        "options": "[\"in\",\"conversation\",\"use\",\"daily\",\"I\",\"Diplomacy\"]",
         "correctAnswer": "I use Diplomacy in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Diplomacy in daily conversation\"."
       },
@@ -2692,7 +2692,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Treaty\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Treaty",
-        "explanation": "Phát âm chuẩn IPA của từ là /treaty/ - \"Treaty\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈtriː.ti/ - \"Treaty\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2726,13 +2726,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Diplomacy\" là gì?",
-        "options": "[\"Thuật ngoại giao bang giao\",\"Hiệp ước quốc tế có ràng buộc\",\"Chủ quyền quốc gia bất khả xâm phạm\",\"Hợp tác đa phương nhiều bên\"]",
+        "options": "[\"Hợp tác đa phương nhiều bên\",\"Chủ quyền quốc gia bất khả xâm phạm\",\"Hiệp ước quốc tế có ràng buộc\",\"Thuật ngoại giao bang giao\"]",
         "correctAnswer": "Thuật ngoại giao bang giao",
-        "explanation": "\"Diplomacy\" có phiên âm /diplomacy/ và mang nghĩa là \"Thuật ngoại giao bang giao\"."
+        "explanation": "\"Diplomacy\" có phiên âm /ˌdɪpˈloʊ.mə.si/ và mang nghĩa là \"Thuật ngoại giao bang giao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on High-Stakes Diplomacy & Treaties, we need to practice _____.\"",
-        "options": "[\"Treaty\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Treaty\"]",
         "correctAnswer": "Treaty",
         "explanation": "\"Treaty\" (Hiệp ước quốc tế có ràng buộc) là từ vựng chính xác trong ngữ cảnh chủ đề High-Stakes Diplomacy & Treaties."
       },
@@ -2744,13 +2744,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Multilateral\" là gì?",
-        "options": "[\"Hợp tác đa phương nhiều bên\",\"Hiệp định hòa bình chung\",\"Biện pháp trừng phạt cấm vận\",\"Đặc phái viên ngoại giao\"]",
+        "options": "[\"Hợp tác đa phương nhiều bên\",\"Biện pháp trừng phạt cấm vận\",\"Đặc phái viên ngoại giao\",\"Hiệp định hòa bình chung\"]",
         "correctAnswer": "Hợp tác đa phương nhiều bên",
-        "explanation": "\"Multilateral\" có phiên âm /multilateral/ và mang nghĩa là \"Hợp tác đa phương nhiều bên\"."
+        "explanation": "\"Multilateral\" có phiên âm /ˌməl.tɪˈlæ.tər.əl/ và mang nghĩa là \"Hợp tác đa phương nhiều bên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on High-Stakes Diplomacy & Treaties, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Sanction\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Sanction\"]",
         "correctAnswer": "Sanction",
         "explanation": "\"Sanction\" (Biện pháp trừng phạt cấm vận) là từ vựng chính xác trong ngữ cảnh chủ đề High-Stakes Diplomacy & Treaties."
       },
@@ -2762,13 +2762,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Accord\" là gì?",
-        "options": "[\"Thế bế tắc đàm phán\",\"Sự phê chuẩn của quốc hội\",\"Nghi thức ngoại giao chính thức\",\"Hiệp định hòa bình chung\"]",
+        "options": "[\"Thế bế tắc đàm phán\",\"Nghi thức ngoại giao chính thức\",\"Sự phê chuẩn của quốc hội\",\"Hiệp định hòa bình chung\"]",
         "correctAnswer": "Hiệp định hòa bình chung",
-        "explanation": "\"Accord\" có phiên âm /accord/ và mang nghĩa là \"Hiệp định hòa bình chung\"."
+        "explanation": "\"Accord\" có phiên âm /əˈkɔːrd/ và mang nghĩa là \"Hiệp định hòa bình chung\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on High-Stakes Diplomacy & Treaties, we need to practice _____.\"",
-        "options": "[\"Protocol\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Protocol\"]",
         "correctAnswer": "Protocol",
         "explanation": "\"Protocol\" (Nghi thức ngoại giao chính thức) là từ vựng chính xác trong ngữ cảnh chủ đề High-Stakes Diplomacy & Treaties."
       },
@@ -2780,13 +2780,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ratification\" là gì?",
-        "options": "[\"Hiệp ước quốc tế có ràng buộc\",\"Chủ quyền quốc gia bất khả xâm phạm\",\"Thuật ngoại giao bang giao\",\"Sự phê chuẩn của quốc hội\"]",
+        "options": "[\"Chủ quyền quốc gia bất khả xâm phạm\",\"Sự phê chuẩn của quốc hội\",\"Thuật ngoại giao bang giao\",\"Hiệp ước quốc tế có ràng buộc\"]",
         "correctAnswer": "Sự phê chuẩn của quốc hội",
-        "explanation": "\"Ratification\" có phiên âm /ratification/ và mang nghĩa là \"Sự phê chuẩn của quốc hội\"."
+        "explanation": "\"Ratification\" có phiên âm /ˌræ.tə.fəˈkeɪ.ʃən/ và mang nghĩa là \"Sự phê chuẩn của quốc hội\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on High-Stakes Diplomacy & Treaties, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Diplomacy\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Diplomacy\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Diplomacy",
         "explanation": "\"Diplomacy\" (Thuật ngoại giao bang giao) là từ vựng chính xác trong ngữ cảnh chủ đề High-Stakes Diplomacy & Treaties."
       },
@@ -2800,11 +2800,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sovereignty\" là gì?",
         "options": "[\"Đặc phái viên ngoại giao\",\"Biện pháp trừng phạt cấm vận\",\"Hợp tác đa phương nhiều bên\",\"Chủ quyền quốc gia bất khả xâm phạm\"]",
         "correctAnswer": "Chủ quyền quốc gia bất khả xâm phạm",
-        "explanation": "\"Sovereignty\" có phiên âm /sovereignty/ và mang nghĩa là \"Chủ quyền quốc gia bất khả xâm phạm\"."
+        "explanation": "\"Sovereignty\" có phiên âm /ˈsɑːv.rən.ti/ và mang nghĩa là \"Chủ quyền quốc gia bất khả xâm phạm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on High-Stakes Diplomacy & Treaties, we need to practice _____.\"",
-        "options": "[\"Multilateral\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Multilateral\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Multilateral",
         "explanation": "\"Multilateral\" (Hợp tác đa phương nhiều bên) là từ vựng chính xác trong ngữ cảnh chủ đề High-Stakes Diplomacy & Treaties."
       },
@@ -2816,13 +2816,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Envoy\" là gì?",
-        "options": "[\"Hiệp định hòa bình chung\",\"Đặc phái viên ngoại giao\",\"Thế bế tắc đàm phán\",\"Nghi thức ngoại giao chính thức\"]",
+        "options": "[\"Hiệp định hòa bình chung\",\"Đặc phái viên ngoại giao\",\"Nghi thức ngoại giao chính thức\",\"Thế bế tắc đàm phán\"]",
         "correctAnswer": "Đặc phái viên ngoại giao",
-        "explanation": "\"Envoy\" có phiên âm /envoy/ và mang nghĩa là \"Đặc phái viên ngoại giao\"."
+        "explanation": "\"Envoy\" có phiên âm /ˈen.vɔɪ/ và mang nghĩa là \"Đặc phái viên ngoại giao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on High-Stakes Diplomacy & Treaties, we need to practice _____.\"",
-        "options": "[\"Accord\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Accord\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Accord",
         "explanation": "\"Accord\" (Hiệp định hòa bình chung) là từ vựng chính xác trong ngữ cảnh chủ đề High-Stakes Diplomacy & Treaties."
       },
@@ -2845,7 +2845,7 @@ module.exports = [
       {
         "word": "Tariff",
         "meaning": "Hàng rào thuế quan bảo hộ",
-        "pronunciation": "/tariff/",
+        "pronunciation": "/ˈte.rəf/",
         "partOfSpeech": "noun",
         "example": "I use Tariff in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tariff trong giao tiếp hàng ngày.",
@@ -2855,7 +2855,7 @@ module.exports = [
       {
         "word": "Protectionism",
         "meaning": "Chủ nghĩa bảo hộ mậu dịch",
-        "pronunciation": "/protectionism/",
+        "pronunciation": "/ˌprəˈtek.ʃə.nɪ.zəm/",
         "partOfSpeech": "noun",
         "example": "I use Protectionism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Protectionism trong giao tiếp hàng ngày.",
@@ -2865,7 +2865,7 @@ module.exports = [
       {
         "word": "Free trade agreement",
         "meaning": "Hiệp định thương mại tự do",
-        "pronunciation": "/free trade agreement/",
+        "pronunciation": "/ˈfriː ˈtreɪd ˌəˈɡriː.mənt/",
         "partOfSpeech": "noun",
         "example": "I use Free trade agreement in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Free trade agreement trong giao tiếp hàng ngày.",
@@ -2875,7 +2875,7 @@ module.exports = [
       {
         "word": "Quota",
         "meaning": "Hạn ngạch xuất nhập khẩu",
-        "pronunciation": "/quota/",
+        "pronunciation": "/ˈkwoʊ.tə/",
         "partOfSpeech": "noun",
         "example": "I use Quota in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Quota trong giao tiếp hàng ngày.",
@@ -2885,7 +2885,7 @@ module.exports = [
       {
         "word": "Supply chain",
         "meaning": "Chuỗi cung ứng toàn cầu",
-        "pronunciation": "/supply chain/",
+        "pronunciation": "/səpˈlaɪ ˈtʃeɪn/",
         "partOfSpeech": "noun",
         "example": "I use Supply chain in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Supply chain trong giao tiếp hàng ngày.",
@@ -2895,7 +2895,7 @@ module.exports = [
       {
         "word": "Deficit",
         "meaning": "Thâm hụt cán cân thương mại",
-        "pronunciation": "/deficit/",
+        "pronunciation": "/ˈde.fə.sət/",
         "partOfSpeech": "noun",
         "example": "I use Deficit in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deficit trong giao tiếp hàng ngày.",
@@ -2905,7 +2905,7 @@ module.exports = [
       {
         "word": "Surplus",
         "meaning": "Thặng dư thương mại",
-        "pronunciation": "/surplus/",
+        "pronunciation": "/ˈsɜːrp.ləs/",
         "partOfSpeech": "noun",
         "example": "I use Surplus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Surplus trong giao tiếp hàng ngày.",
@@ -2915,7 +2915,7 @@ module.exports = [
       {
         "word": "Embargo",
         "meaning": "Lệnh cấm vận thương mại",
-        "pronunciation": "/embargo/",
+        "pronunciation": "/ˌemˈbɑːr.ɡoʊ/",
         "partOfSpeech": "noun",
         "example": "I use Embargo in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Embargo trong giao tiếp hàng ngày.",
@@ -2925,7 +2925,7 @@ module.exports = [
       {
         "word": "Geoeconomics",
         "meaning": "Địa kinh tế học",
-        "pronunciation": "/geoeconomics/",
+        "pronunciation": "/ˌdʒi.oʊ.e.kəˈnɑː.mɪks/",
         "partOfSpeech": "noun",
         "example": "I use Geoeconomics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Geoeconomics trong giao tiếp hàng ngày.",
@@ -2935,7 +2935,7 @@ module.exports = [
       {
         "word": "Competitiveness",
         "meaning": "Năng lực cạnh tranh quốc gia",
-        "pronunciation": "/competitiveness/",
+        "pronunciation": "/ˌkəmˈpe.tɪ.tɪv.nɪs/",
         "partOfSpeech": "noun",
         "example": "I use Competitiveness in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Competitiveness trong giao tiếp hàng ngày.",
@@ -2960,7 +2960,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Tariff\\\" has a specific pronunciation: /tariff/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Tariff\\\" có phát âm cụ thể là /tariff/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Protectionism\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Protectionism\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Tariff\\\" has a specific pronunciation: /ˈte.rəf/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Tariff\\\" có phát âm cụ thể là /ˈte.rəf/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Protectionism\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Protectionism\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2991,7 +2991,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"daily\",\"conversation\",\"in\",\"Tariff\",\"use\"]",
+        "options": "[\"I\",\"use\",\"conversation\",\"daily\",\"in\",\"Tariff\"]",
         "correctAnswer": "I use Tariff in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Tariff in daily conversation\"."
       },
@@ -3007,7 +3007,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Protectionism\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Protectionism",
-        "explanation": "Phát âm chuẩn IPA của từ là /protectionism/ - \"Protectionism\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌprəˈtek.ʃə.nɪ.zəm/ - \"Protectionism\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3041,13 +3041,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Tariff\" là gì?",
-        "options": "[\"Hàng rào thuế quan bảo hộ\",\"Chủ nghĩa bảo hộ mậu dịch\",\"Hiệp định thương mại tự do\",\"Hạn ngạch xuất nhập khẩu\"]",
+        "options": "[\"Hàng rào thuế quan bảo hộ\",\"Chủ nghĩa bảo hộ mậu dịch\",\"Hạn ngạch xuất nhập khẩu\",\"Hiệp định thương mại tự do\"]",
         "correctAnswer": "Hàng rào thuế quan bảo hộ",
-        "explanation": "\"Tariff\" có phiên âm /tariff/ và mang nghĩa là \"Hàng rào thuế quan bảo hộ\"."
+        "explanation": "\"Tariff\" có phiên âm /ˈte.rəf/ và mang nghĩa là \"Hàng rào thuế quan bảo hộ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Trade & Economic Policy, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Protectionism\",\"umbrellas\",\"bananas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Protectionism\"]",
         "correctAnswer": "Protectionism",
         "explanation": "\"Protectionism\" (Chủ nghĩa bảo hộ mậu dịch) là từ vựng chính xác trong ngữ cảnh chủ đề Global Trade & Economic Policy."
       },
@@ -3059,13 +3059,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Quota\" là gì?",
-        "options": "[\"Chuỗi cung ứng toàn cầu\",\"Hạn ngạch xuất nhập khẩu\",\"Thâm hụt cán cân thương mại\",\"Thặng dư thương mại\"]",
+        "options": "[\"Thặng dư thương mại\",\"Hạn ngạch xuất nhập khẩu\",\"Chuỗi cung ứng toàn cầu\",\"Thâm hụt cán cân thương mại\"]",
         "correctAnswer": "Hạn ngạch xuất nhập khẩu",
-        "explanation": "\"Quota\" có phiên âm /quota/ và mang nghĩa là \"Hạn ngạch xuất nhập khẩu\"."
+        "explanation": "\"Quota\" có phiên âm /ˈkwoʊ.tə/ và mang nghĩa là \"Hạn ngạch xuất nhập khẩu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Trade & Economic Policy, we need to practice _____.\"",
-        "options": "[\"Supply chain\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Supply chain\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Supply chain",
         "explanation": "\"Supply chain\" (Chuỗi cung ứng toàn cầu) là từ vựng chính xác trong ngữ cảnh chủ đề Global Trade & Economic Policy."
       },
@@ -3077,13 +3077,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Surplus\" là gì?",
-        "options": "[\"Địa kinh tế học\",\"Lệnh cấm vận thương mại\",\"Thặng dư thương mại\",\"Năng lực cạnh tranh quốc gia\"]",
+        "options": "[\"Thặng dư thương mại\",\"Lệnh cấm vận thương mại\",\"Địa kinh tế học\",\"Năng lực cạnh tranh quốc gia\"]",
         "correctAnswer": "Thặng dư thương mại",
-        "explanation": "\"Surplus\" có phiên âm /surplus/ và mang nghĩa là \"Thặng dư thương mại\"."
+        "explanation": "\"Surplus\" có phiên âm /ˈsɜːrp.ləs/ và mang nghĩa là \"Thặng dư thương mại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Trade & Economic Policy, we need to practice _____.\"",
-        "options": "[\"Embargo\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Embargo\"]",
         "correctAnswer": "Embargo",
         "explanation": "\"Embargo\" (Lệnh cấm vận thương mại) là từ vựng chính xác trong ngữ cảnh chủ đề Global Trade & Economic Policy."
       },
@@ -3095,13 +3095,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Competitiveness\" là gì?",
-        "options": "[\"Chủ nghĩa bảo hộ mậu dịch\",\"Hiệp định thương mại tự do\",\"Hàng rào thuế quan bảo hộ\",\"Năng lực cạnh tranh quốc gia\"]",
+        "options": "[\"Hiệp định thương mại tự do\",\"Chủ nghĩa bảo hộ mậu dịch\",\"Hàng rào thuế quan bảo hộ\",\"Năng lực cạnh tranh quốc gia\"]",
         "correctAnswer": "Năng lực cạnh tranh quốc gia",
-        "explanation": "\"Competitiveness\" có phiên âm /competitiveness/ và mang nghĩa là \"Năng lực cạnh tranh quốc gia\"."
+        "explanation": "\"Competitiveness\" có phiên âm /ˌkəmˈpe.tɪ.tɪv.nɪs/ và mang nghĩa là \"Năng lực cạnh tranh quốc gia\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Trade & Economic Policy, we need to practice _____.\"",
-        "options": "[\"Tariff\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Tariff\"]",
         "correctAnswer": "Tariff",
         "explanation": "\"Tariff\" (Hàng rào thuế quan bảo hộ) là từ vựng chính xác trong ngữ cảnh chủ đề Global Trade & Economic Policy."
       },
@@ -3113,13 +3113,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Free trade agreement\" là gì?",
-        "options": "[\"Thâm hụt cán cân thương mại\",\"Hiệp định thương mại tự do\",\"Hạn ngạch xuất nhập khẩu\",\"Chuỗi cung ứng toàn cầu\"]",
+        "options": "[\"Chuỗi cung ứng toàn cầu\",\"Hạn ngạch xuất nhập khẩu\",\"Thâm hụt cán cân thương mại\",\"Hiệp định thương mại tự do\"]",
         "correctAnswer": "Hiệp định thương mại tự do",
-        "explanation": "\"Free trade agreement\" có phiên âm /free trade agreement/ và mang nghĩa là \"Hiệp định thương mại tự do\"."
+        "explanation": "\"Free trade agreement\" có phiên âm /ˈfriː ˈtreɪd ˌəˈɡriː.mənt/ và mang nghĩa là \"Hiệp định thương mại tự do\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Trade & Economic Policy, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Quota\"]",
+        "options": "[\"Quota\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Quota",
         "explanation": "\"Quota\" (Hạn ngạch xuất nhập khẩu) là từ vựng chính xác trong ngữ cảnh chủ đề Global Trade & Economic Policy."
       },
@@ -3131,13 +3131,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Deficit\" là gì?",
-        "options": "[\"Thặng dư thương mại\",\"Thâm hụt cán cân thương mại\",\"Lệnh cấm vận thương mại\",\"Địa kinh tế học\"]",
+        "options": "[\"Thâm hụt cán cân thương mại\",\"Thặng dư thương mại\",\"Lệnh cấm vận thương mại\",\"Địa kinh tế học\"]",
         "correctAnswer": "Thâm hụt cán cân thương mại",
-        "explanation": "\"Deficit\" có phiên âm /deficit/ và mang nghĩa là \"Thâm hụt cán cân thương mại\"."
+        "explanation": "\"Deficit\" có phiên âm /ˈde.fə.sət/ và mang nghĩa là \"Thâm hụt cán cân thương mại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Trade & Economic Policy, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Surplus\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Surplus\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Surplus",
         "explanation": "\"Surplus\" (Thặng dư thương mại) là từ vựng chính xác trong ngữ cảnh chủ đề Global Trade & Economic Policy."
       },
@@ -3160,7 +3160,7 @@ module.exports = [
       {
         "word": "Nuance",
         "meaning": "Sắc thái tinh tế tinh vi",
-        "pronunciation": "/nuance/",
+        "pronunciation": "/ˈnuː.ɑːns/",
         "partOfSpeech": "noun",
         "example": "I use Nuance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Nuance trong giao tiếp hàng ngày.",
@@ -3170,7 +3170,7 @@ module.exports = [
       {
         "word": "Tenuous",
         "meaning": "Mong manh, thiếu căn cứ vững chắc",
-        "pronunciation": "/tenuous/",
+        "pronunciation": "/ˈten.jə.wəs/",
         "partOfSpeech": "noun",
         "example": "I use Tenuous in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tenuous trong giao tiếp hàng ngày.",
@@ -3180,7 +3180,7 @@ module.exports = [
       {
         "word": "Elusive",
         "meaning": "Khó nắm bắt, thoắt ẩn thoắt hiện",
-        "pronunciation": "/elusive/",
+        "pronunciation": "/ˌɪˈluː.sɪv/",
         "partOfSpeech": "noun",
         "example": "I use Elusive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Elusive trong giao tiếp hàng ngày.",
@@ -3190,7 +3190,7 @@ module.exports = [
       {
         "word": "Subtle",
         "meaning": "Kín đáo tế nhị khó nhận biết",
-        "pronunciation": "/subtle/",
+        "pronunciation": "/ˈsʌ.təl/",
         "partOfSpeech": "noun",
         "example": "I use Subtle in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Subtle trong giao tiếp hàng ngày.",
@@ -3200,7 +3200,7 @@ module.exports = [
       {
         "word": "Ubiquitous",
         "meaning": "Phổ biến khắp nơi nơi",
-        "pronunciation": "/ubiquitous/",
+        "pronunciation": "/ˌjuˈbɪk.wɪ.təs/",
         "partOfSpeech": "noun",
         "example": "I use Ubiquitous in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ubiquitous trong giao tiếp hàng ngày.",
@@ -3210,7 +3210,7 @@ module.exports = [
       {
         "word": "Ephemeral",
         "meaning": "Phù du ngắn ngủi chóng tàn",
-        "pronunciation": "/ephemeral/",
+        "pronunciation": "/ˌɪˈfe.mər.əl/",
         "partOfSpeech": "noun",
         "example": "I use Ephemeral in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ephemeral trong giao tiếp hàng ngày.",
@@ -3220,7 +3220,7 @@ module.exports = [
       {
         "word": "Profound",
         "meaning": "Uyên thâm sâu sắc",
-        "pronunciation": "/profound/",
+        "pronunciation": "/proʊˈfaʊnd/",
         "partOfSpeech": "noun",
         "example": "I use Profound in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Profound trong giao tiếp hàng ngày.",
@@ -3230,7 +3230,7 @@ module.exports = [
       {
         "word": "Superficial",
         "meaning": "Nông cạn hời hợt bên ngoài",
-        "pronunciation": "/superficial/",
+        "pronunciation": "/ˌsu.pərˈfɪ.ʃəl/",
         "partOfSpeech": "noun",
         "example": "I use Superficial in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Superficial trong giao tiếp hàng ngày.",
@@ -3240,7 +3240,7 @@ module.exports = [
       {
         "word": "Ambivalent",
         "meaning": "Tâm trạng mâu thuẫn lưỡng lự",
-        "pronunciation": "/ambivalent/",
+        "pronunciation": "/ˌæmˈbɪ.və.lənt/",
         "partOfSpeech": "noun",
         "example": "I use Ambivalent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ambivalent trong giao tiếp hàng ngày.",
@@ -3250,7 +3250,7 @@ module.exports = [
       {
         "word": "Pragmatic",
         "meaning": "Thực tế, thực dụng hữu ích",
-        "pronunciation": "/pragmatic/",
+        "pronunciation": "/ˌpræɡˈmæ.tɪk/",
         "partOfSpeech": "noun",
         "example": "I use Pragmatic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pragmatic trong giao tiếp hàng ngày.",
@@ -3275,7 +3275,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Nuance\\\" has a specific pronunciation: /nuance/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Nuance\\\" có phát âm cụ thể là /nuance/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Tenuous\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Tenuous\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Nuance\\\" has a specific pronunciation: /ˈnuː.ɑːns/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Nuance\\\" có phát âm cụ thể là /ˈnuː.ɑːns/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Tenuous\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Tenuous\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -3306,7 +3306,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"Nuance\",\"use\",\"in\",\"I\",\"conversation\"]",
+        "options": "[\"in\",\"use\",\"I\",\"Nuance\",\"conversation\",\"daily\"]",
         "correctAnswer": "I use Nuance in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Nuance in daily conversation\"."
       },
@@ -3322,7 +3322,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Tenuous\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Tenuous",
-        "explanation": "Phát âm chuẩn IPA của từ là /tenuous/ - \"Tenuous\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈten.jə.wəs/ - \"Tenuous\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3356,13 +3356,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Nuance\" là gì?",
-        "options": "[\"Mong manh, thiếu căn cứ vững chắc\",\"Khó nắm bắt, thoắt ẩn thoắt hiện\",\"Sắc thái tinh tế tinh vi\",\"Kín đáo tế nhị khó nhận biết\"]",
+        "options": "[\"Kín đáo tế nhị khó nhận biết\",\"Khó nắm bắt, thoắt ẩn thoắt hiện\",\"Mong manh, thiếu căn cứ vững chắc\",\"Sắc thái tinh tế tinh vi\"]",
         "correctAnswer": "Sắc thái tinh tế tinh vi",
-        "explanation": "\"Nuance\" có phiên âm /nuance/ và mang nghĩa là \"Sắc thái tinh tế tinh vi\"."
+        "explanation": "\"Nuance\" có phiên âm /ˈnuː.ɑːns/ và mang nghĩa là \"Sắc thái tinh tế tinh vi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Lexical Nuance & Precision, we need to practice _____.\"",
-        "options": "[\"Tenuous\",\"airplanes\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Tenuous\"]",
         "correctAnswer": "Tenuous",
         "explanation": "\"Tenuous\" (Mong manh, thiếu căn cứ vững chắc) là từ vựng chính xác trong ngữ cảnh chủ đề Lexical Nuance & Precision."
       },
@@ -3374,13 +3374,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Subtle\" là gì?",
-        "options": "[\"Kín đáo tế nhị khó nhận biết\",\"Phổ biến khắp nơi nơi\",\"Phù du ngắn ngủi chóng tàn\",\"Uyên thâm sâu sắc\"]",
+        "options": "[\"Phù du ngắn ngủi chóng tàn\",\"Phổ biến khắp nơi nơi\",\"Kín đáo tế nhị khó nhận biết\",\"Uyên thâm sâu sắc\"]",
         "correctAnswer": "Kín đáo tế nhị khó nhận biết",
-        "explanation": "\"Subtle\" có phiên âm /subtle/ và mang nghĩa là \"Kín đáo tế nhị khó nhận biết\"."
+        "explanation": "\"Subtle\" có phiên âm /ˈsʌ.təl/ và mang nghĩa là \"Kín đáo tế nhị khó nhận biết\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Lexical Nuance & Precision, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Ubiquitous\"]",
+        "options": "[\"bananas\",\"Ubiquitous\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Ubiquitous",
         "explanation": "\"Ubiquitous\" (Phổ biến khắp nơi nơi) là từ vựng chính xác trong ngữ cảnh chủ đề Lexical Nuance & Precision."
       },
@@ -3392,13 +3392,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Profound\" là gì?",
-        "options": "[\"Tâm trạng mâu thuẫn lưỡng lự\",\"Thực tế, thực dụng hữu ích\",\"Nông cạn hời hợt bên ngoài\",\"Uyên thâm sâu sắc\"]",
+        "options": "[\"Uyên thâm sâu sắc\",\"Thực tế, thực dụng hữu ích\",\"Tâm trạng mâu thuẫn lưỡng lự\",\"Nông cạn hời hợt bên ngoài\"]",
         "correctAnswer": "Uyên thâm sâu sắc",
-        "explanation": "\"Profound\" có phiên âm /profound/ và mang nghĩa là \"Uyên thâm sâu sắc\"."
+        "explanation": "\"Profound\" có phiên âm /proʊˈfaʊnd/ và mang nghĩa là \"Uyên thâm sâu sắc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Lexical Nuance & Precision, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Superficial\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"Superficial\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Superficial",
         "explanation": "\"Superficial\" (Nông cạn hời hợt bên ngoài) là từ vựng chính xác trong ngữ cảnh chủ đề Lexical Nuance & Precision."
       },
@@ -3410,13 +3410,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pragmatic\" là gì?",
-        "options": "[\"Mong manh, thiếu căn cứ vững chắc\",\"Sắc thái tinh tế tinh vi\",\"Khó nắm bắt, thoắt ẩn thoắt hiện\",\"Thực tế, thực dụng hữu ích\"]",
+        "options": "[\"Thực tế, thực dụng hữu ích\",\"Sắc thái tinh tế tinh vi\",\"Mong manh, thiếu căn cứ vững chắc\",\"Khó nắm bắt, thoắt ẩn thoắt hiện\"]",
         "correctAnswer": "Thực tế, thực dụng hữu ích",
-        "explanation": "\"Pragmatic\" có phiên âm /pragmatic/ và mang nghĩa là \"Thực tế, thực dụng hữu ích\"."
+        "explanation": "\"Pragmatic\" có phiên âm /ˌpræɡˈmæ.tɪk/ và mang nghĩa là \"Thực tế, thực dụng hữu ích\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Lexical Nuance & Precision, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Nuance\"]",
+        "options": "[\"bananas\",\"Nuance\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Nuance",
         "explanation": "\"Nuance\" (Sắc thái tinh tế tinh vi) là từ vựng chính xác trong ngữ cảnh chủ đề Lexical Nuance & Precision."
       },
@@ -3428,13 +3428,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Elusive\" là gì?",
-        "options": "[\"Phù du ngắn ngủi chóng tàn\",\"Phổ biến khắp nơi nơi\",\"Kín đáo tế nhị khó nhận biết\",\"Khó nắm bắt, thoắt ẩn thoắt hiện\"]",
+        "options": "[\"Khó nắm bắt, thoắt ẩn thoắt hiện\",\"Kín đáo tế nhị khó nhận biết\",\"Phổ biến khắp nơi nơi\",\"Phù du ngắn ngủi chóng tàn\"]",
         "correctAnswer": "Khó nắm bắt, thoắt ẩn thoắt hiện",
-        "explanation": "\"Elusive\" có phiên âm /elusive/ và mang nghĩa là \"Khó nắm bắt, thoắt ẩn thoắt hiện\"."
+        "explanation": "\"Elusive\" có phiên âm /ˌɪˈluː.sɪv/ và mang nghĩa là \"Khó nắm bắt, thoắt ẩn thoắt hiện\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Lexical Nuance & Precision, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Subtle\"]",
+        "options": "[\"Subtle\",\"airplanes\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Subtle",
         "explanation": "\"Subtle\" (Kín đáo tế nhị khó nhận biết) là từ vựng chính xác trong ngữ cảnh chủ đề Lexical Nuance & Precision."
       },
@@ -3446,13 +3446,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ephemeral\" là gì?",
-        "options": "[\"Tâm trạng mâu thuẫn lưỡng lự\",\"Phù du ngắn ngủi chóng tàn\",\"Uyên thâm sâu sắc\",\"Nông cạn hời hợt bên ngoài\"]",
+        "options": "[\"Nông cạn hời hợt bên ngoài\",\"Uyên thâm sâu sắc\",\"Phù du ngắn ngủi chóng tàn\",\"Tâm trạng mâu thuẫn lưỡng lự\"]",
         "correctAnswer": "Phù du ngắn ngủi chóng tàn",
-        "explanation": "\"Ephemeral\" có phiên âm /ephemeral/ và mang nghĩa là \"Phù du ngắn ngủi chóng tàn\"."
+        "explanation": "\"Ephemeral\" có phiên âm /ˌɪˈfe.mər.əl/ và mang nghĩa là \"Phù du ngắn ngủi chóng tàn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Lexical Nuance & Precision, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Profound\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Profound\",\"airplanes\"]",
         "correctAnswer": "Profound",
         "explanation": "\"Profound\" (Uyên thâm sâu sắc) là từ vựng chính xác trong ngữ cảnh chủ đề Lexical Nuance & Precision."
       },
@@ -3475,7 +3475,7 @@ module.exports = [
       {
         "word": "Register",
         "meaning": "Văn phong ngữ vực phù hợp",
-        "pronunciation": "/register/",
+        "pronunciation": "/ˈre.dʒɪ.stər/",
         "partOfSpeech": "noun",
         "example": "I use Register in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Register trong giao tiếp hàng ngày.",
@@ -3485,7 +3485,7 @@ module.exports = [
       {
         "word": "Formal",
         "meaning": "Văn phong trang trọng nghi thức",
-        "pronunciation": "/formal/",
+        "pronunciation": "/ˈfɔːr.məl/",
         "partOfSpeech": "noun",
         "example": "I use Formal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Formal trong giao tiếp hàng ngày.",
@@ -3495,7 +3495,7 @@ module.exports = [
       {
         "word": "Colloquial",
         "meaning": "Khẩu ngữ thân mật đời thường",
-        "pronunciation": "/colloquial/",
+        "pronunciation": "/ˌkəˈloʊk.wi.əl/",
         "partOfSpeech": "noun",
         "example": "I use Colloquial in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Colloquial trong giao tiếp hàng ngày.",
@@ -3505,7 +3505,7 @@ module.exports = [
       {
         "word": "Vernacular",
         "meaning": "Tiếng địa phương bản xứ",
-        "pronunciation": "/vernacular/",
+        "pronunciation": "/ˌvərˈnæk.jə.lər/",
         "partOfSpeech": "noun",
         "example": "I use Vernacular in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Vernacular trong giao tiếp hàng ngày.",
@@ -3515,7 +3515,7 @@ module.exports = [
       {
         "word": "Jargon",
         "meaning": "Thuật ngữ chuyên ngành đặc thù",
-        "pronunciation": "/jargon/",
+        "pronunciation": "/ˈdʒɑːr.ɡən/",
         "partOfSpeech": "noun",
         "example": "I use Jargon in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Jargon trong giao tiếp hàng ngày.",
@@ -3525,7 +3525,7 @@ module.exports = [
       {
         "word": "Slang",
         "meaning": "Tiếng lóng đường phố",
-        "pronunciation": "/slang/",
+        "pronunciation": "/ˈslæŋ/",
         "partOfSpeech": "noun",
         "example": "I use Slang in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Slang trong giao tiếp hàng ngày.",
@@ -3535,7 +3535,7 @@ module.exports = [
       {
         "word": "Euphemism",
         "meaning": "Uyển ngữ nói giảm nói tránh",
-        "pronunciation": "/euphemism/",
+        "pronunciation": "/ˈjuː.fə.mɪ.zəm/",
         "partOfSpeech": "noun",
         "example": "I use Euphemism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Euphemism trong giao tiếp hàng ngày.",
@@ -3545,7 +3545,7 @@ module.exports = [
       {
         "word": "Tone",
         "meaning": "Giọng điệu cảm xúc văn bản",
-        "pronunciation": "/tone/",
+        "pronunciation": "/ˈtoʊn/",
         "partOfSpeech": "noun",
         "example": "I use Tone in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tone trong giao tiếp hàng ngày.",
@@ -3555,7 +3555,7 @@ module.exports = [
       {
         "word": "Appropriateness",
         "meaning": "Sự phù hợp với ngữ cảnh",
-        "pronunciation": "/appropriateness/",
+        "pronunciation": "/ˌəˈproʊ.pri.ət.nəs/",
         "partOfSpeech": "noun",
         "example": "I use Appropriateness in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Appropriateness trong giao tiếp hàng ngày.",
@@ -3565,7 +3565,7 @@ module.exports = [
       {
         "word": "Dexterity",
         "meaning": "Sự khéo léo linh hoạt",
-        "pronunciation": "/dexterity/",
+        "pronunciation": "/ˌdekˈste.rə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Dexterity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dexterity trong giao tiếp hàng ngày.",
@@ -3590,7 +3590,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Register\\\" has a specific pronunciation: /register/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Register\\\" có phát âm cụ thể là /register/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Formal\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Formal\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Register\\\" has a specific pronunciation: /ˈre.dʒɪ.stər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Register\\\" có phát âm cụ thể là /ˈre.dʒɪ.stər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Formal\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Formal\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -3621,7 +3621,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Register\",\"daily\",\"use\",\"in\",\"I\",\"conversation\"]",
+        "options": "[\"I\",\"use\",\"Register\",\"in\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Register in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Register in daily conversation\"."
       },
@@ -3637,7 +3637,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Formal\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Formal",
-        "explanation": "Phát âm chuẩn IPA của từ là /formal/ - \"Formal\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈfɔːr.məl/ - \"Formal\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3671,13 +3671,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Register\" là gì?",
-        "options": "[\"Khẩu ngữ thân mật đời thường\",\"Văn phong trang trọng nghi thức\",\"Tiếng địa phương bản xứ\",\"Văn phong ngữ vực phù hợp\"]",
+        "options": "[\"Văn phong ngữ vực phù hợp\",\"Văn phong trang trọng nghi thức\",\"Tiếng địa phương bản xứ\",\"Khẩu ngữ thân mật đời thường\"]",
         "correctAnswer": "Văn phong ngữ vực phù hợp",
-        "explanation": "\"Register\" có phiên âm /register/ và mang nghĩa là \"Văn phong ngữ vực phù hợp\"."
+        "explanation": "\"Register\" có phiên âm /ˈre.dʒɪ.stər/ và mang nghĩa là \"Văn phong ngữ vực phù hợp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Register Variation: Casual to Highly Formal, we need to practice _____.\"",
-        "options": "[\"Formal\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Formal\"]",
         "correctAnswer": "Formal",
         "explanation": "\"Formal\" (Văn phong trang trọng nghi thức) là từ vựng chính xác trong ngữ cảnh chủ đề Register Variation: Casual to Highly Formal."
       },
@@ -3689,13 +3689,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Vernacular\" là gì?",
-        "options": "[\"Tiếng địa phương bản xứ\",\"Thuật ngữ chuyên ngành đặc thù\",\"Tiếng lóng đường phố\",\"Uyển ngữ nói giảm nói tránh\"]",
+        "options": "[\"Uyển ngữ nói giảm nói tránh\",\"Tiếng địa phương bản xứ\",\"Thuật ngữ chuyên ngành đặc thù\",\"Tiếng lóng đường phố\"]",
         "correctAnswer": "Tiếng địa phương bản xứ",
-        "explanation": "\"Vernacular\" có phiên âm /vernacular/ và mang nghĩa là \"Tiếng địa phương bản xứ\"."
+        "explanation": "\"Vernacular\" có phiên âm /ˌvərˈnæk.jə.lər/ và mang nghĩa là \"Tiếng địa phương bản xứ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Register Variation: Casual to Highly Formal, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Jargon\",\"bananas\"]",
+        "options": "[\"Jargon\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Jargon",
         "explanation": "\"Jargon\" (Thuật ngữ chuyên ngành đặc thù) là từ vựng chính xác trong ngữ cảnh chủ đề Register Variation: Casual to Highly Formal."
       },
@@ -3707,13 +3707,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Euphemism\" là gì?",
-        "options": "[\"Sự khéo léo linh hoạt\",\"Sự phù hợp với ngữ cảnh\",\"Giọng điệu cảm xúc văn bản\",\"Uyển ngữ nói giảm nói tránh\"]",
+        "options": "[\"Sự khéo léo linh hoạt\",\"Uyển ngữ nói giảm nói tránh\",\"Sự phù hợp với ngữ cảnh\",\"Giọng điệu cảm xúc văn bản\"]",
         "correctAnswer": "Uyển ngữ nói giảm nói tránh",
-        "explanation": "\"Euphemism\" có phiên âm /euphemism/ và mang nghĩa là \"Uyển ngữ nói giảm nói tránh\"."
+        "explanation": "\"Euphemism\" có phiên âm /ˈjuː.fə.mɪ.zəm/ và mang nghĩa là \"Uyển ngữ nói giảm nói tránh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Register Variation: Casual to Highly Formal, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Tone\"]",
+        "options": "[\"Tone\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Tone",
         "explanation": "\"Tone\" (Giọng điệu cảm xúc văn bản) là từ vựng chính xác trong ngữ cảnh chủ đề Register Variation: Casual to Highly Formal."
       },
@@ -3727,11 +3727,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dexterity\" là gì?",
         "options": "[\"Văn phong trang trọng nghi thức\",\"Sự khéo léo linh hoạt\",\"Văn phong ngữ vực phù hợp\",\"Khẩu ngữ thân mật đời thường\"]",
         "correctAnswer": "Sự khéo léo linh hoạt",
-        "explanation": "\"Dexterity\" có phiên âm /dexterity/ và mang nghĩa là \"Sự khéo léo linh hoạt\"."
+        "explanation": "\"Dexterity\" có phiên âm /ˌdekˈste.rə.ti/ và mang nghĩa là \"Sự khéo léo linh hoạt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Register Variation: Casual to Highly Formal, we need to practice _____.\"",
-        "options": "[\"Register\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Register\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Register",
         "explanation": "\"Register\" (Văn phong ngữ vực phù hợp) là từ vựng chính xác trong ngữ cảnh chủ đề Register Variation: Casual to Highly Formal."
       },
@@ -3743,13 +3743,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Colloquial\" là gì?",
-        "options": "[\"Tiếng lóng đường phố\",\"Thuật ngữ chuyên ngành đặc thù\",\"Tiếng địa phương bản xứ\",\"Khẩu ngữ thân mật đời thường\"]",
+        "options": "[\"Tiếng lóng đường phố\",\"Khẩu ngữ thân mật đời thường\",\"Tiếng địa phương bản xứ\",\"Thuật ngữ chuyên ngành đặc thù\"]",
         "correctAnswer": "Khẩu ngữ thân mật đời thường",
-        "explanation": "\"Colloquial\" có phiên âm /colloquial/ và mang nghĩa là \"Khẩu ngữ thân mật đời thường\"."
+        "explanation": "\"Colloquial\" có phiên âm /ˌkəˈloʊk.wi.əl/ và mang nghĩa là \"Khẩu ngữ thân mật đời thường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Register Variation: Casual to Highly Formal, we need to practice _____.\"",
-        "options": "[\"Vernacular\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Vernacular\",\"umbrellas\"]",
         "correctAnswer": "Vernacular",
         "explanation": "\"Vernacular\" (Tiếng địa phương bản xứ) là từ vựng chính xác trong ngữ cảnh chủ đề Register Variation: Casual to Highly Formal."
       },
@@ -3761,13 +3761,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Slang\" là gì?",
-        "options": "[\"Tiếng lóng đường phố\",\"Uyển ngữ nói giảm nói tránh\",\"Giọng điệu cảm xúc văn bản\",\"Sự phù hợp với ngữ cảnh\"]",
+        "options": "[\"Sự phù hợp với ngữ cảnh\",\"Tiếng lóng đường phố\",\"Giọng điệu cảm xúc văn bản\",\"Uyển ngữ nói giảm nói tránh\"]",
         "correctAnswer": "Tiếng lóng đường phố",
-        "explanation": "\"Slang\" có phiên âm /slang/ và mang nghĩa là \"Tiếng lóng đường phố\"."
+        "explanation": "\"Slang\" có phiên âm /ˈslæŋ/ và mang nghĩa là \"Tiếng lóng đường phố\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Register Variation: Casual to Highly Formal, we need to practice _____.\"",
-        "options": "[\"Euphemism\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Euphemism\"]",
         "correctAnswer": "Euphemism",
         "explanation": "\"Euphemism\" (Uyển ngữ nói giảm nói tránh) là từ vựng chính xác trong ngữ cảnh chủ đề Register Variation: Casual to Highly Formal."
       },
@@ -3790,7 +3790,7 @@ module.exports = [
       {
         "word": "Subjunctive",
         "meaning": "Thể giả định bàng thái cách",
-        "pronunciation": "/subjunctive/",
+        "pronunciation": "/ˈsʌb.dʒəŋ.ktɪv/",
         "partOfSpeech": "noun",
         "example": "I use Subjunctive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Subjunctive trong giao tiếp hàng ngày.",
@@ -3800,7 +3800,7 @@ module.exports = [
       {
         "word": "Imperative",
         "meaning": "Cực kỳ cấp bách bắt buộc",
-        "pronunciation": "/imperative/",
+        "pronunciation": "/ˌɪmˈpe.rə.tɪv/",
         "partOfSpeech": "noun",
         "example": "I use Imperative in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Imperative trong giao tiếp hàng ngày.",
@@ -3810,7 +3810,7 @@ module.exports = [
       {
         "word": "Crucial",
         "meaning": "Mang tính quyết định sinh tử",
-        "pronunciation": "/crucial/",
+        "pronunciation": "/ˈkruː.ʃəl/",
         "partOfSpeech": "noun",
         "example": "I use Crucial in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Crucial trong giao tiếp hàng ngày.",
@@ -3820,7 +3820,7 @@ module.exports = [
       {
         "word": "Mandate",
         "meaning": "Sự ủy thác chỉ thị bắt buộc",
-        "pronunciation": "/mandate/",
+        "pronunciation": "/ˈmæn.deɪt/",
         "partOfSpeech": "noun",
         "example": "I use Mandate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Mandate trong giao tiếp hàng ngày.",
@@ -3830,7 +3830,7 @@ module.exports = [
       {
         "word": "Require",
         "meaning": "Yêu cầu quy chuẩn",
-        "pronunciation": "/require/",
+        "pronunciation": "/ˌrikˈwaɪ.ər/",
         "partOfSpeech": "noun",
         "example": "I use Require in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Require trong giao tiếp hàng ngày.",
@@ -3840,7 +3840,7 @@ module.exports = [
       {
         "word": "Propose",
         "meaning": "Đề xuất kiến nghị",
-        "pronunciation": "/propose/",
+        "pronunciation": "/prəˈpoʊz/",
         "partOfSpeech": "noun",
         "example": "I use Propose in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Propose trong giao tiếp hàng ngày.",
@@ -3850,7 +3850,7 @@ module.exports = [
       {
         "word": "Recommend",
         "meaning": "Khuyến nghị đề xuất",
-        "pronunciation": "/recommend/",
+        "pronunciation": "/ˌre.kəˈmend/",
         "partOfSpeech": "noun",
         "example": "I use Recommend in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Recommend trong giao tiếp hàng ngày.",
@@ -3860,7 +3860,7 @@ module.exports = [
       {
         "word": "Stipulate",
         "meaning": "Quy định rõ trong điều khoản",
-        "pronunciation": "/stipulate/",
+        "pronunciation": "/ˈstɪp.jə.leɪt/",
         "partOfSpeech": "noun",
         "example": "I use Stipulate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stipulate trong giao tiếp hàng ngày.",
@@ -3870,7 +3870,7 @@ module.exports = [
       {
         "word": "Dossier",
         "meaning": "Hồ sơ tài liệu mật",
-        "pronunciation": "/dossier/",
+        "pronunciation": "/dɔːsˈjeɪ/",
         "partOfSpeech": "noun",
         "example": "I use Dossier in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dossier trong giao tiếp hàng ngày.",
@@ -3880,7 +3880,7 @@ module.exports = [
       {
         "word": "Compliance",
         "meaning": "Sự tuân thủ chấp hành",
-        "pronunciation": "/compliance/",
+        "pronunciation": "/ˌkəmˈplaɪ.əns/",
         "partOfSpeech": "noun",
         "example": "I use Compliance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Compliance trong giao tiếp hàng ngày.",
@@ -3905,7 +3905,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Subjunctive\\\" has a specific pronunciation: /subjunctive/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Subjunctive\\\" có phát âm cụ thể là /subjunctive/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Imperative\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Imperative\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Subjunctive\\\" has a specific pronunciation: /ˈsʌb.dʒəŋ.ktɪv/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Subjunctive\\\" có phát âm cụ thể là /ˈsʌb.dʒəŋ.ktɪv/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Imperative\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Imperative\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -3936,7 +3936,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"use\",\"daily\",\"I\",\"Subjunctive\",\"conversation\"]",
+        "options": "[\"use\",\"I\",\"daily\",\"Subjunctive\",\"in\",\"conversation\"]",
         "correctAnswer": "I use Subjunctive in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Subjunctive in daily conversation\"."
       },
@@ -3952,7 +3952,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Imperative\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Imperative",
-        "explanation": "Phát âm chuẩn IPA của từ là /imperative/ - \"Imperative\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌɪmˈpe.rə.tɪv/ - \"Imperative\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3988,11 +3988,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Subjunctive\" là gì?",
         "options": "[\"Sự ủy thác chỉ thị bắt buộc\",\"Mang tính quyết định sinh tử\",\"Cực kỳ cấp bách bắt buộc\",\"Thể giả định bàng thái cách\"]",
         "correctAnswer": "Thể giả định bàng thái cách",
-        "explanation": "\"Subjunctive\" có phiên âm /subjunctive/ và mang nghĩa là \"Thể giả định bàng thái cách\"."
+        "explanation": "\"Subjunctive\" có phiên âm /ˈsʌb.dʒəŋ.ktɪv/ và mang nghĩa là \"Thể giả định bàng thái cách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Subjunctive Mood in Advanced Contexts, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Imperative\"]",
+        "options": "[\"bananas\",\"Imperative\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Imperative",
         "explanation": "\"Imperative\" (Cực kỳ cấp bách bắt buộc) là từ vựng chính xác trong ngữ cảnh chủ đề The Subjunctive Mood in Advanced Contexts."
       },
@@ -4004,13 +4004,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mandate\" là gì?",
-        "options": "[\"Khuyến nghị đề xuất\",\"Yêu cầu quy chuẩn\",\"Đề xuất kiến nghị\",\"Sự ủy thác chỉ thị bắt buộc\"]",
+        "options": "[\"Đề xuất kiến nghị\",\"Yêu cầu quy chuẩn\",\"Khuyến nghị đề xuất\",\"Sự ủy thác chỉ thị bắt buộc\"]",
         "correctAnswer": "Sự ủy thác chỉ thị bắt buộc",
-        "explanation": "\"Mandate\" có phiên âm /mandate/ và mang nghĩa là \"Sự ủy thác chỉ thị bắt buộc\"."
+        "explanation": "\"Mandate\" có phiên âm /ˈmæn.deɪt/ và mang nghĩa là \"Sự ủy thác chỉ thị bắt buộc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Subjunctive Mood in Advanced Contexts, we need to practice _____.\"",
-        "options": "[\"Require\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Require\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Require",
         "explanation": "\"Require\" (Yêu cầu quy chuẩn) là từ vựng chính xác trong ngữ cảnh chủ đề The Subjunctive Mood in Advanced Contexts."
       },
@@ -4022,13 +4022,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Recommend\" là gì?",
-        "options": "[\"Quy định rõ trong điều khoản\",\"Sự tuân thủ chấp hành\",\"Khuyến nghị đề xuất\",\"Hồ sơ tài liệu mật\"]",
+        "options": "[\"Sự tuân thủ chấp hành\",\"Khuyến nghị đề xuất\",\"Quy định rõ trong điều khoản\",\"Hồ sơ tài liệu mật\"]",
         "correctAnswer": "Khuyến nghị đề xuất",
-        "explanation": "\"Recommend\" có phiên âm /recommend/ và mang nghĩa là \"Khuyến nghị đề xuất\"."
+        "explanation": "\"Recommend\" có phiên âm /ˌre.kəˈmend/ và mang nghĩa là \"Khuyến nghị đề xuất\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Subjunctive Mood in Advanced Contexts, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"Stipulate\",\"bananas\"]",
+        "options": "[\"bananas\",\"Stipulate\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Stipulate",
         "explanation": "\"Stipulate\" (Quy định rõ trong điều khoản) là từ vựng chính xác trong ngữ cảnh chủ đề The Subjunctive Mood in Advanced Contexts."
       },
@@ -4040,13 +4040,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Compliance\" là gì?",
-        "options": "[\"Mang tính quyết định sinh tử\",\"Cực kỳ cấp bách bắt buộc\",\"Thể giả định bàng thái cách\",\"Sự tuân thủ chấp hành\"]",
+        "options": "[\"Sự tuân thủ chấp hành\",\"Thể giả định bàng thái cách\",\"Cực kỳ cấp bách bắt buộc\",\"Mang tính quyết định sinh tử\"]",
         "correctAnswer": "Sự tuân thủ chấp hành",
-        "explanation": "\"Compliance\" có phiên âm /compliance/ và mang nghĩa là \"Sự tuân thủ chấp hành\"."
+        "explanation": "\"Compliance\" có phiên âm /ˌkəmˈplaɪ.əns/ và mang nghĩa là \"Sự tuân thủ chấp hành\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Subjunctive Mood in Advanced Contexts, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Subjunctive\",\"umbrellas\",\"bananas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Subjunctive\"]",
         "correctAnswer": "Subjunctive",
         "explanation": "\"Subjunctive\" (Thể giả định bàng thái cách) là từ vựng chính xác trong ngữ cảnh chủ đề The Subjunctive Mood in Advanced Contexts."
       },
@@ -4058,13 +4058,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Crucial\" là gì?",
-        "options": "[\"Đề xuất kiến nghị\",\"Yêu cầu quy chuẩn\",\"Mang tính quyết định sinh tử\",\"Sự ủy thác chỉ thị bắt buộc\"]",
+        "options": "[\"Mang tính quyết định sinh tử\",\"Sự ủy thác chỉ thị bắt buộc\",\"Đề xuất kiến nghị\",\"Yêu cầu quy chuẩn\"]",
         "correctAnswer": "Mang tính quyết định sinh tử",
-        "explanation": "\"Crucial\" có phiên âm /crucial/ và mang nghĩa là \"Mang tính quyết định sinh tử\"."
+        "explanation": "\"Crucial\" có phiên âm /ˈkruː.ʃəl/ và mang nghĩa là \"Mang tính quyết định sinh tử\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Subjunctive Mood in Advanced Contexts, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Mandate\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Mandate\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Mandate",
         "explanation": "\"Mandate\" (Sự ủy thác chỉ thị bắt buộc) là từ vựng chính xác trong ngữ cảnh chủ đề The Subjunctive Mood in Advanced Contexts."
       },
@@ -4076,13 +4076,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Propose\" là gì?",
-        "options": "[\"Hồ sơ tài liệu mật\",\"Đề xuất kiến nghị\",\"Quy định rõ trong điều khoản\",\"Khuyến nghị đề xuất\"]",
+        "options": "[\"Quy định rõ trong điều khoản\",\"Đề xuất kiến nghị\",\"Hồ sơ tài liệu mật\",\"Khuyến nghị đề xuất\"]",
         "correctAnswer": "Đề xuất kiến nghị",
-        "explanation": "\"Propose\" có phiên âm /propose/ và mang nghĩa là \"Đề xuất kiến nghị\"."
+        "explanation": "\"Propose\" có phiên âm /prəˈpoʊz/ và mang nghĩa là \"Đề xuất kiến nghị\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Subjunctive Mood in Advanced Contexts, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Recommend\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"Recommend\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Recommend",
         "explanation": "\"Recommend\" (Khuyến nghị đề xuất) là từ vựng chính xác trong ngữ cảnh chủ đề The Subjunctive Mood in Advanced Contexts."
       },
@@ -4105,7 +4105,7 @@ module.exports = [
       {
         "word": "Cleft sentence",
         "meaning": "Câu chẻ nhấn mạnh thành phần",
-        "pronunciation": "/cleft sentence/",
+        "pronunciation": "/ˈkleft ˈsen.təns/",
         "partOfSpeech": "noun",
         "example": "I use Cleft sentence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cleft sentence trong giao tiếp hàng ngày.",
@@ -4115,7 +4115,7 @@ module.exports = [
       {
         "word": "Fronting",
         "meaning": "Đưa thành phần câu lên đầu",
-        "pronunciation": "/fronting/",
+        "pronunciation": "/ˈfrʌn.tɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Fronting in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fronting trong giao tiếp hàng ngày.",
@@ -4125,7 +4125,7 @@ module.exports = [
       {
         "word": "Focus",
         "meaning": "Tiêu điểm chú ý",
-        "pronunciation": "/focus/",
+        "pronunciation": "/ˈfoʊ.kəs/",
         "partOfSpeech": "noun",
         "example": "I use Focus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Focus trong giao tiếp hàng ngày.",
@@ -4135,7 +4135,7 @@ module.exports = [
       {
         "word": "Prominence",
         "meaning": "Sự nổi bật đáng chú ý",
-        "pronunciation": "/prominence/",
+        "pronunciation": "/ˈprɑː.mə.nəns/",
         "partOfSpeech": "noun",
         "example": "I use Prominence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Prominence trong giao tiếp hàng ngày.",
@@ -4145,7 +4145,7 @@ module.exports = [
       {
         "word": "Foreground",
         "meaning": "Đưa lên vị trí tiền cảnh",
-        "pronunciation": "/foreground/",
+        "pronunciation": "/ˈfɔːr.ɡraʊnd/",
         "partOfSpeech": "noun",
         "example": "I use Foreground in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Foreground trong giao tiếp hàng ngày.",
@@ -4155,7 +4155,7 @@ module.exports = [
       {
         "word": "Salience",
         "meaning": "Tính nổi trội vượt bậc",
-        "pronunciation": "/salience/",
+        "pronunciation": "/ˈseɪ.li.əns/",
         "partOfSpeech": "noun",
         "example": "I use Salience in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Salience trong giao tiếp hàng ngày.",
@@ -4165,7 +4165,7 @@ module.exports = [
       {
         "word": "Intonation",
         "meaning": "Ngữ điệu nhấn giọng",
-        "pronunciation": "/intonation/",
+        "pronunciation": "/ˌɪn.təˈneɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Intonation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Intonation trong giao tiếp hàng ngày.",
@@ -4175,7 +4175,7 @@ module.exports = [
       {
         "word": "Structure",
         "meaning": "Cấu trúc câu tinh vi",
-        "pronunciation": "/structure/",
+        "pronunciation": "/ˈstrʌk.tʃər/",
         "partOfSpeech": "noun",
         "example": "I use Structure in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Structure trong giao tiếp hàng ngày.",
@@ -4185,7 +4185,7 @@ module.exports = [
       {
         "word": "Clarify",
         "meaning": "Làm nổi bật thông điệp",
-        "pronunciation": "/clarify/",
+        "pronunciation": "/ˈkle.rə.faɪ/",
         "partOfSpeech": "noun",
         "example": "I use Clarify in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clarify trong giao tiếp hàng ngày.",
@@ -4195,7 +4195,7 @@ module.exports = [
       {
         "word": "Rhetorical impact",
         "meaning": "Tác động tu từ mạnh mẽ",
-        "pronunciation": "/rhetorical impact/",
+        "pronunciation": "/ˌrɪˈtɔː.rɪ.kəl ɪmˈpækt/",
         "partOfSpeech": "noun",
         "example": "I use Rhetorical impact in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rhetorical impact trong giao tiếp hàng ngày.",
@@ -4220,7 +4220,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Cleft sentence\\\" has a specific pronunciation: /cleft sentence/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Cleft sentence\\\" có phát âm cụ thể là /cleft sentence/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Fronting\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Fronting\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Cleft sentence\\\" has a specific pronunciation: /ˈkleft ˈsen.təns/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Cleft sentence\\\" có phát âm cụ thể là /ˈkleft ˈsen.təns/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Fronting\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Fronting\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -4251,7 +4251,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"I\",\"sentence\",\"in\",\"Cleft\",\"daily\"]",
+        "options": "[\"I\",\"sentence\",\"use\",\"daily\",\"in\",\"Cleft\"]",
         "correctAnswer": "I use Cleft sentence in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Cleft sentence in daily\"."
       },
@@ -4267,7 +4267,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Fronting\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Fronting",
-        "explanation": "Phát âm chuẩn IPA của từ là /fronting/ - \"Fronting\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈfrʌn.tɪŋ/ - \"Fronting\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4301,13 +4301,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cleft sentence\" là gì?",
-        "options": "[\"Sự nổi bật đáng chú ý\",\"Tiêu điểm chú ý\",\"Đưa thành phần câu lên đầu\",\"Câu chẻ nhấn mạnh thành phần\"]",
+        "options": "[\"Sự nổi bật đáng chú ý\",\"Đưa thành phần câu lên đầu\",\"Câu chẻ nhấn mạnh thành phần\",\"Tiêu điểm chú ý\"]",
         "correctAnswer": "Câu chẻ nhấn mạnh thành phần",
-        "explanation": "\"Cleft sentence\" có phiên âm /cleft sentence/ và mang nghĩa là \"Câu chẻ nhấn mạnh thành phần\"."
+        "explanation": "\"Cleft sentence\" có phiên âm /ˈkleft ˈsen.təns/ và mang nghĩa là \"Câu chẻ nhấn mạnh thành phần\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Fronting & Cleft Sentences for Emphasis, we need to practice _____.\"",
-        "options": "[\"Fronting\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Fronting\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Fronting",
         "explanation": "\"Fronting\" (Đưa thành phần câu lên đầu) là từ vựng chính xác trong ngữ cảnh chủ đề Fronting & Cleft Sentences for Emphasis."
       },
@@ -4319,13 +4319,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Prominence\" là gì?",
-        "options": "[\"Sự nổi bật đáng chú ý\",\"Đưa lên vị trí tiền cảnh\",\"Tính nổi trội vượt bậc\",\"Ngữ điệu nhấn giọng\"]",
+        "options": "[\"Tính nổi trội vượt bậc\",\"Sự nổi bật đáng chú ý\",\"Ngữ điệu nhấn giọng\",\"Đưa lên vị trí tiền cảnh\"]",
         "correctAnswer": "Sự nổi bật đáng chú ý",
-        "explanation": "\"Prominence\" có phiên âm /prominence/ và mang nghĩa là \"Sự nổi bật đáng chú ý\"."
+        "explanation": "\"Prominence\" có phiên âm /ˈprɑː.mə.nəns/ và mang nghĩa là \"Sự nổi bật đáng chú ý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Fronting & Cleft Sentences for Emphasis, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Foreground\",\"umbrellas\",\"bananas\"]",
+        "options": "[\"Foreground\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Foreground",
         "explanation": "\"Foreground\" (Đưa lên vị trí tiền cảnh) là từ vựng chính xác trong ngữ cảnh chủ đề Fronting & Cleft Sentences for Emphasis."
       },
@@ -4339,11 +4339,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Intonation\" là gì?",
         "options": "[\"Ngữ điệu nhấn giọng\",\"Cấu trúc câu tinh vi\",\"Làm nổi bật thông điệp\",\"Tác động tu từ mạnh mẽ\"]",
         "correctAnswer": "Ngữ điệu nhấn giọng",
-        "explanation": "\"Intonation\" có phiên âm /intonation/ và mang nghĩa là \"Ngữ điệu nhấn giọng\"."
+        "explanation": "\"Intonation\" có phiên âm /ˌɪn.təˈneɪ.ʃən/ và mang nghĩa là \"Ngữ điệu nhấn giọng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Fronting & Cleft Sentences for Emphasis, we need to practice _____.\"",
-        "options": "[\"Structure\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Structure\",\"airplanes\"]",
         "correctAnswer": "Structure",
         "explanation": "\"Structure\" (Cấu trúc câu tinh vi) là từ vựng chính xác trong ngữ cảnh chủ đề Fronting & Cleft Sentences for Emphasis."
       },
@@ -4355,13 +4355,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Rhetorical impact\" là gì?",
-        "options": "[\"Tác động tu từ mạnh mẽ\",\"Tiêu điểm chú ý\",\"Câu chẻ nhấn mạnh thành phần\",\"Đưa thành phần câu lên đầu\"]",
+        "options": "[\"Câu chẻ nhấn mạnh thành phần\",\"Tiêu điểm chú ý\",\"Đưa thành phần câu lên đầu\",\"Tác động tu từ mạnh mẽ\"]",
         "correctAnswer": "Tác động tu từ mạnh mẽ",
-        "explanation": "\"Rhetorical impact\" có phiên âm /rhetorical impact/ và mang nghĩa là \"Tác động tu từ mạnh mẽ\"."
+        "explanation": "\"Rhetorical impact\" có phiên âm /ˌrɪˈtɔː.rɪ.kəl ɪmˈpækt/ và mang nghĩa là \"Tác động tu từ mạnh mẽ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Fronting & Cleft Sentences for Emphasis, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Cleft sentence\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Cleft sentence\"]",
         "correctAnswer": "Cleft sentence",
         "explanation": "\"Cleft sentence\" (Câu chẻ nhấn mạnh thành phần) là từ vựng chính xác trong ngữ cảnh chủ đề Fronting & Cleft Sentences for Emphasis."
       },
@@ -4373,13 +4373,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Focus\" là gì?",
-        "options": "[\"Tính nổi trội vượt bậc\",\"Đưa lên vị trí tiền cảnh\",\"Sự nổi bật đáng chú ý\",\"Tiêu điểm chú ý\"]",
+        "options": "[\"Sự nổi bật đáng chú ý\",\"Tính nổi trội vượt bậc\",\"Tiêu điểm chú ý\",\"Đưa lên vị trí tiền cảnh\"]",
         "correctAnswer": "Tiêu điểm chú ý",
-        "explanation": "\"Focus\" có phiên âm /focus/ và mang nghĩa là \"Tiêu điểm chú ý\"."
+        "explanation": "\"Focus\" có phiên âm /ˈfoʊ.kəs/ và mang nghĩa là \"Tiêu điểm chú ý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Fronting & Cleft Sentences for Emphasis, we need to practice _____.\"",
-        "options": "[\"Prominence\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Prominence\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Prominence",
         "explanation": "\"Prominence\" (Sự nổi bật đáng chú ý) là từ vựng chính xác trong ngữ cảnh chủ đề Fronting & Cleft Sentences for Emphasis."
       },
@@ -4391,13 +4391,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Salience\" là gì?",
-        "options": "[\"Làm nổi bật thông điệp\",\"Cấu trúc câu tinh vi\",\"Ngữ điệu nhấn giọng\",\"Tính nổi trội vượt bậc\"]",
+        "options": "[\"Tính nổi trội vượt bậc\",\"Ngữ điệu nhấn giọng\",\"Cấu trúc câu tinh vi\",\"Làm nổi bật thông điệp\"]",
         "correctAnswer": "Tính nổi trội vượt bậc",
-        "explanation": "\"Salience\" có phiên âm /salience/ và mang nghĩa là \"Tính nổi trội vượt bậc\"."
+        "explanation": "\"Salience\" có phiên âm /ˈseɪ.li.əns/ và mang nghĩa là \"Tính nổi trội vượt bậc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Fronting & Cleft Sentences for Emphasis, we need to practice _____.\"",
-        "options": "[\"Intonation\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Intonation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Intonation",
         "explanation": "\"Intonation\" (Ngữ điệu nhấn giọng) là từ vựng chính xác trong ngữ cảnh chủ đề Fronting & Cleft Sentences for Emphasis."
       },
@@ -4420,7 +4420,7 @@ module.exports = [
       {
         "word": "By virtue of",
         "meaning": "Nhờ có, do bởi quyền năng",
-        "pronunciation": "/by virtue of/",
+        "pronunciation": "/ˈbaɪ ˈvɜːr.tʃu ˈʌv/",
         "partOfSpeech": "noun",
         "example": "I use By virtue of in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ By virtue of trong giao tiếp hàng ngày.",
@@ -4430,7 +4430,7 @@ module.exports = [
       {
         "word": "In light of",
         "meaning": "Xét trong bối cảnh thực tế",
-        "pronunciation": "/in light of/",
+        "pronunciation": "/ɪn ˈlaɪt ˈʌv/",
         "partOfSpeech": "noun",
         "example": "I use In light of in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ In light of trong giao tiếp hàng ngày.",
@@ -4440,7 +4440,7 @@ module.exports = [
       {
         "word": "With a view to",
         "meaning": "Với mục đích hướng tới",
-        "pronunciation": "/with a view to/",
+        "pronunciation": "/ˈwɪð ə ˈvjuː ˈtuː/",
         "partOfSpeech": "noun",
         "example": "I use With a view to in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ With a view to trong giao tiếp hàng ngày.",
@@ -4450,7 +4450,7 @@ module.exports = [
       {
         "word": "At the expense of",
         "meaning": "Phải trả giá bằng sự mất mát",
-        "pronunciation": "/at the expense of/",
+        "pronunciation": "/ˈæt ðə ɪkˈspens ˈʌv/",
         "partOfSpeech": "noun",
         "example": "I use At the expense of in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ At the expense of trong giao tiếp hàng ngày.",
@@ -4460,7 +4460,7 @@ module.exports = [
       {
         "word": "In lieu of",
         "meaning": "Thay thế vào vị trí của",
-        "pronunciation": "/in lieu of/",
+        "pronunciation": "/ɪn ˈluː ˈʌv/",
         "partOfSpeech": "noun",
         "example": "I use In lieu of in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ In lieu of trong giao tiếp hàng ngày.",
@@ -4470,7 +4470,7 @@ module.exports = [
       {
         "word": "Notwithstanding",
         "meaning": "Bất chấp điều đã nêu",
-        "pronunciation": "/notwithstanding/",
+        "pronunciation": "/ˌnɑːt.wɪθˈstæn.dɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Notwithstanding in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Notwithstanding trong giao tiếp hàng ngày.",
@@ -4480,7 +4480,7 @@ module.exports = [
       {
         "word": "On behalf of",
         "meaning": "Thay mặt cho toàn thể",
-        "pronunciation": "/on behalf of/",
+        "pronunciation": "/ˈɑːn bɪˈhæf ˈʌv/",
         "partOfSpeech": "noun",
         "example": "I use On behalf of in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ On behalf of trong giao tiếp hàng ngày.",
@@ -4490,7 +4490,7 @@ module.exports = [
       {
         "word": "With regard to",
         "meaning": "Liên quan đến vấn đề",
-        "pronunciation": "/with regard to/",
+        "pronunciation": "/ˈwɪð rəˈɡɑːrd ˈtuː/",
         "partOfSpeech": "noun",
         "example": "I use With regard to in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ With regard to trong giao tiếp hàng ngày.",
@@ -4500,7 +4500,7 @@ module.exports = [
       {
         "word": "Under the auspices of",
         "meaning": "Dưới sự bảo trợ của",
-        "pronunciation": "/under the auspices of/",
+        "pronunciation": "/ˈʌn.dər ðə ˈɔː.spɪ.sɪz ˈʌv/",
         "partOfSpeech": "noun",
         "example": "I use Under the auspices of in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Under the auspices of trong giao tiếp hàng ngày.",
@@ -4510,7 +4510,7 @@ module.exports = [
       {
         "word": "In accordance with",
         "meaning": "Phù hợp theo đúng quy định",
-        "pronunciation": "/in accordance with/",
+        "pronunciation": "/ɪn ˌəˈkɔːr.dəns ˈwɪð/",
         "partOfSpeech": "noun",
         "example": "I use In accordance with in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ In accordance with trong giao tiếp hàng ngày.",
@@ -4535,7 +4535,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"By virtue of\\\" has a specific pronunciation: /by virtue of/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"By virtue of\\\" có phát âm cụ thể là /by virtue of/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"In light of\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"In light of\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"By virtue of\\\" has a specific pronunciation: /ˈbaɪ ˈvɜːr.tʃu ˈʌv/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"By virtue of\\\" có phát âm cụ thể là /ˈbaɪ ˈvɜːr.tʃu ˈʌv/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"In light of\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"In light of\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -4566,7 +4566,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"of\",\"in\",\"use\",\"By\",\"virtue\"]",
+        "options": "[\"I\",\"of\",\"virtue\",\"in\",\"use\",\"By\"]",
         "correctAnswer": "I use By virtue of in",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use By virtue of in\"."
       },
@@ -4582,7 +4582,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"In light of\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "In light of",
-        "explanation": "Phát âm chuẩn IPA của từ là /in light of/ - \"In light of\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ɪn ˈlaɪt ˈʌv/ - \"In light of\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4616,13 +4616,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"By virtue of\" là gì?",
-        "options": "[\"Xét trong bối cảnh thực tế\",\"Phải trả giá bằng sự mất mát\",\"Với mục đích hướng tới\",\"Nhờ có, do bởi quyền năng\"]",
+        "options": "[\"Phải trả giá bằng sự mất mát\",\"Với mục đích hướng tới\",\"Xét trong bối cảnh thực tế\",\"Nhờ có, do bởi quyền năng\"]",
         "correctAnswer": "Nhờ có, do bởi quyền năng",
-        "explanation": "\"By virtue of\" có phiên âm /by virtue of/ và mang nghĩa là \"Nhờ có, do bởi quyền năng\"."
+        "explanation": "\"By virtue of\" có phiên âm /ˈbaɪ ˈvɜːr.tʃu ˈʌv/ và mang nghĩa là \"Nhờ có, do bởi quyền năng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sophisticated Idiomatic Prepositions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"In light of\"]",
+        "options": "[\"In light of\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "In light of",
         "explanation": "\"In light of\" (Xét trong bối cảnh thực tế) là từ vựng chính xác trong ngữ cảnh chủ đề Sophisticated Idiomatic Prepositions."
       },
@@ -4634,9 +4634,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"At the expense of\" là gì?",
-        "options": "[\"Phải trả giá bằng sự mất mát\",\"Thay mặt cho toàn thể\",\"Bất chấp điều đã nêu\",\"Thay thế vào vị trí của\"]",
+        "options": "[\"Bất chấp điều đã nêu\",\"Thay thế vào vị trí của\",\"Thay mặt cho toàn thể\",\"Phải trả giá bằng sự mất mát\"]",
         "correctAnswer": "Phải trả giá bằng sự mất mát",
-        "explanation": "\"At the expense of\" có phiên âm /at the expense of/ và mang nghĩa là \"Phải trả giá bằng sự mất mát\"."
+        "explanation": "\"At the expense of\" có phiên âm /ˈæt ðə ɪkˈspens ˈʌv/ và mang nghĩa là \"Phải trả giá bằng sự mất mát\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sophisticated Idiomatic Prepositions, we need to practice _____.\"",
@@ -4652,13 +4652,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"On behalf of\" là gì?",
-        "options": "[\"Thay mặt cho toàn thể\",\"Phù hợp theo đúng quy định\",\"Liên quan đến vấn đề\",\"Dưới sự bảo trợ của\"]",
+        "options": "[\"Phù hợp theo đúng quy định\",\"Dưới sự bảo trợ của\",\"Liên quan đến vấn đề\",\"Thay mặt cho toàn thể\"]",
         "correctAnswer": "Thay mặt cho toàn thể",
-        "explanation": "\"On behalf of\" có phiên âm /on behalf of/ và mang nghĩa là \"Thay mặt cho toàn thể\"."
+        "explanation": "\"On behalf of\" có phiên âm /ˈɑːn bɪˈhæf ˈʌv/ và mang nghĩa là \"Thay mặt cho toàn thể\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sophisticated Idiomatic Prepositions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"With regard to\"]",
+        "options": "[\"With regard to\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "With regard to",
         "explanation": "\"With regard to\" (Liên quan đến vấn đề) là từ vựng chính xác trong ngữ cảnh chủ đề Sophisticated Idiomatic Prepositions."
       },
@@ -4670,13 +4670,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"In accordance with\" là gì?",
-        "options": "[\"Với mục đích hướng tới\",\"Xét trong bối cảnh thực tế\",\"Nhờ có, do bởi quyền năng\",\"Phù hợp theo đúng quy định\"]",
+        "options": "[\"Phù hợp theo đúng quy định\",\"Nhờ có, do bởi quyền năng\",\"Với mục đích hướng tới\",\"Xét trong bối cảnh thực tế\"]",
         "correctAnswer": "Phù hợp theo đúng quy định",
-        "explanation": "\"In accordance with\" có phiên âm /in accordance with/ và mang nghĩa là \"Phù hợp theo đúng quy định\"."
+        "explanation": "\"In accordance with\" có phiên âm /ɪn ˌəˈkɔːr.dəns ˈwɪð/ và mang nghĩa là \"Phù hợp theo đúng quy định\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sophisticated Idiomatic Prepositions, we need to practice _____.\"",
-        "options": "[\"By virtue of\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"By virtue of\"]",
         "correctAnswer": "By virtue of",
         "explanation": "\"By virtue of\" (Nhờ có, do bởi quyền năng) là từ vựng chính xác trong ngữ cảnh chủ đề Sophisticated Idiomatic Prepositions."
       },
@@ -4688,9 +4688,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"With a view to\" là gì?",
-        "options": "[\"Bất chấp điều đã nêu\",\"Với mục đích hướng tới\",\"Phải trả giá bằng sự mất mát\",\"Thay thế vào vị trí của\"]",
+        "options": "[\"Phải trả giá bằng sự mất mát\",\"Bất chấp điều đã nêu\",\"Thay thế vào vị trí của\",\"Với mục đích hướng tới\"]",
         "correctAnswer": "Với mục đích hướng tới",
-        "explanation": "\"With a view to\" có phiên âm /with a view to/ và mang nghĩa là \"Với mục đích hướng tới\"."
+        "explanation": "\"With a view to\" có phiên âm /ˈwɪð ə ˈvjuː ˈtuː/ và mang nghĩa là \"Với mục đích hướng tới\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sophisticated Idiomatic Prepositions, we need to practice _____.\"",
@@ -4706,13 +4706,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Notwithstanding\" là gì?",
-        "options": "[\"Thay mặt cho toàn thể\",\"Bất chấp điều đã nêu\",\"Liên quan đến vấn đề\",\"Dưới sự bảo trợ của\"]",
+        "options": "[\"Thay mặt cho toàn thể\",\"Liên quan đến vấn đề\",\"Dưới sự bảo trợ của\",\"Bất chấp điều đã nêu\"]",
         "correctAnswer": "Bất chấp điều đã nêu",
-        "explanation": "\"Notwithstanding\" có phiên âm /notwithstanding/ và mang nghĩa là \"Bất chấp điều đã nêu\"."
+        "explanation": "\"Notwithstanding\" có phiên âm /ˌnɑːt.wɪθˈstæn.dɪŋ/ và mang nghĩa là \"Bất chấp điều đã nêu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sophisticated Idiomatic Prepositions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"On behalf of\",\"bananas\",\"airplanes\"]",
+        "options": "[\"On behalf of\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "On behalf of",
         "explanation": "\"On behalf of\" (Thay mặt cho toàn thể) là từ vựng chính xác trong ngữ cảnh chủ đề Sophisticated Idiomatic Prepositions."
       },
@@ -4735,7 +4735,7 @@ module.exports = [
       {
         "word": "Logical fallacy",
         "meaning": "Ngụy biện logic sai lầm",
-        "pronunciation": "/logical fallacy/",
+        "pronunciation": "/ˈlɑː.dʒɪ.kəl ˈfæ.lə.si/",
         "partOfSpeech": "noun",
         "example": "I use Logical fallacy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Logical fallacy trong giao tiếp hàng ngày.",
@@ -4745,7 +4745,7 @@ module.exports = [
       {
         "word": "Ad Hominem",
         "meaning": "Ngụy biện công kích cá nhân",
-        "pronunciation": "/ad hominem/",
+        "pronunciation": "/ˈæd hominem/",
         "partOfSpeech": "noun",
         "example": "I use Ad Hominem in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ad Hominem trong giao tiếp hàng ngày.",
@@ -4755,7 +4755,7 @@ module.exports = [
       {
         "word": "Straw Man",
         "meaning": "Ngụy biện bù nhìn rơm",
-        "pronunciation": "/straw man/",
+        "pronunciation": "/ˈstrɔː ˈmæn/",
         "partOfSpeech": "noun",
         "example": "I use Straw Man in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Straw Man trong giao tiếp hàng ngày.",
@@ -4765,7 +4765,7 @@ module.exports = [
       {
         "word": "False dichotomy",
         "meaning": "Ngụy biện nhị nguyên sai lệch",
-        "pronunciation": "/false dichotomy/",
+        "pronunciation": "/ˈfɔːls ˌdaɪˈkɑː.tə.mi/",
         "partOfSpeech": "noun",
         "example": "I use False dichotomy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ False dichotomy trong giao tiếp hàng ngày.",
@@ -4775,7 +4775,7 @@ module.exports = [
       {
         "word": "Slippery slope",
         "meaning": "Ngụy biện dốc trơn lún sâu",
-        "pronunciation": "/slippery slope/",
+        "pronunciation": "/ˈslɪ.pər.i ˈsloʊp/",
         "partOfSpeech": "noun",
         "example": "I use Slippery slope in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Slippery slope trong giao tiếp hàng ngày.",
@@ -4785,7 +4785,7 @@ module.exports = [
       {
         "word": "Premise",
         "meaning": "Tiền đề suy luận",
-        "pronunciation": "/premise/",
+        "pronunciation": "/ˈpre.mɪs/",
         "partOfSpeech": "noun",
         "example": "I use Premise in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Premise trong giao tiếp hàng ngày.",
@@ -4795,7 +4795,7 @@ module.exports = [
       {
         "word": "Valid",
         "meaning": "Có giá trị logic chặt chẽ",
-        "pronunciation": "/valid/",
+        "pronunciation": "/ˈvæ.ləd/",
         "partOfSpeech": "noun",
         "example": "I use Valid in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Valid trong giao tiếp hàng ngày.",
@@ -4805,7 +4805,7 @@ module.exports = [
       {
         "word": "Flawed",
         "meaning": "Có lỗ hổng sai sót",
-        "pronunciation": "/flawed/",
+        "pronunciation": "/ˈflɔːd/",
         "partOfSpeech": "noun",
         "example": "I use Flawed in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Flawed trong giao tiếp hàng ngày.",
@@ -4815,7 +4815,7 @@ module.exports = [
       {
         "word": "Rebuttal",
         "meaning": "Lập luận bẻ gãy phản biện",
-        "pronunciation": "/rebuttal/",
+        "pronunciation": "/ˌrɪˈbʌ.təl/",
         "partOfSpeech": "noun",
         "example": "I use Rebuttal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rebuttal trong giao tiếp hàng ngày.",
@@ -4825,7 +4825,7 @@ module.exports = [
       {
         "word": "Intellectual honesty",
         "meaning": "Tính trung thực trí thức",
-        "pronunciation": "/intellectual honesty/",
+        "pronunciation": "/ˌɪn.təˈlek.tʃu.əl ˈɑː.nə.sti/",
         "partOfSpeech": "noun",
         "example": "I use Intellectual honesty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Intellectual honesty trong giao tiếp hàng ngày.",
@@ -4850,7 +4850,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Logical fallacy\\\" has a specific pronunciation: /logical fallacy/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Logical fallacy\\\" có phát âm cụ thể là /logical fallacy/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Ad Hominem\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Ad Hominem\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Logical fallacy\\\" has a specific pronunciation: /ˈlɑː.dʒɪ.kəl ˈfæ.lə.si/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Logical fallacy\\\" có phát âm cụ thể là /ˈlɑː.dʒɪ.kəl ˈfæ.lə.si/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Ad Hominem\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Ad Hominem\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -4881,7 +4881,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"in\",\"daily\",\"fallacy\",\"use\",\"Logical\"]",
+        "options": "[\"in\",\"Logical\",\"fallacy\",\"daily\",\"use\",\"I\"]",
         "correctAnswer": "I use Logical fallacy in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Logical fallacy in daily\"."
       },
@@ -4897,7 +4897,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Ad Hominem\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Ad Hominem",
-        "explanation": "Phát âm chuẩn IPA của từ là /ad hominem/ - \"Ad Hominem\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈæd hominem/ - \"Ad Hominem\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4931,13 +4931,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Logical fallacy\" là gì?",
-        "options": "[\"Ngụy biện bù nhìn rơm\",\"Ngụy biện logic sai lầm\",\"Ngụy biện nhị nguyên sai lệch\",\"Ngụy biện công kích cá nhân\"]",
+        "options": "[\"Ngụy biện nhị nguyên sai lệch\",\"Ngụy biện bù nhìn rơm\",\"Ngụy biện công kích cá nhân\",\"Ngụy biện logic sai lầm\"]",
         "correctAnswer": "Ngụy biện logic sai lầm",
-        "explanation": "\"Logical fallacy\" có phiên âm /logical fallacy/ và mang nghĩa là \"Ngụy biện logic sai lầm\"."
+        "explanation": "\"Logical fallacy\" có phiên âm /ˈlɑː.dʒɪ.kəl ˈfæ.lə.si/ và mang nghĩa là \"Ngụy biện logic sai lầm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Thinking & Logical Fallacies, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Ad Hominem\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Ad Hominem\"]",
         "correctAnswer": "Ad Hominem",
         "explanation": "\"Ad Hominem\" (Ngụy biện công kích cá nhân) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Thinking & Logical Fallacies."
       },
@@ -4951,11 +4951,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"False dichotomy\" là gì?",
         "options": "[\"Có giá trị logic chặt chẽ\",\"Tiền đề suy luận\",\"Ngụy biện dốc trơn lún sâu\",\"Ngụy biện nhị nguyên sai lệch\"]",
         "correctAnswer": "Ngụy biện nhị nguyên sai lệch",
-        "explanation": "\"False dichotomy\" có phiên âm /false dichotomy/ và mang nghĩa là \"Ngụy biện nhị nguyên sai lệch\"."
+        "explanation": "\"False dichotomy\" có phiên âm /ˈfɔːls ˌdaɪˈkɑː.tə.mi/ và mang nghĩa là \"Ngụy biện nhị nguyên sai lệch\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Thinking & Logical Fallacies, we need to practice _____.\"",
-        "options": "[\"Slippery slope\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"Slippery slope\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Slippery slope",
         "explanation": "\"Slippery slope\" (Ngụy biện dốc trơn lún sâu) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Thinking & Logical Fallacies."
       },
@@ -4967,13 +4967,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Valid\" là gì?",
-        "options": "[\"Tính trung thực trí thức\",\"Có giá trị logic chặt chẽ\",\"Có lỗ hổng sai sót\",\"Lập luận bẻ gãy phản biện\"]",
+        "options": "[\"Có giá trị logic chặt chẽ\",\"Tính trung thực trí thức\",\"Có lỗ hổng sai sót\",\"Lập luận bẻ gãy phản biện\"]",
         "correctAnswer": "Có giá trị logic chặt chẽ",
-        "explanation": "\"Valid\" có phiên âm /valid/ và mang nghĩa là \"Có giá trị logic chặt chẽ\"."
+        "explanation": "\"Valid\" có phiên âm /ˈvæ.ləd/ và mang nghĩa là \"Có giá trị logic chặt chẽ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Thinking & Logical Fallacies, we need to practice _____.\"",
-        "options": "[\"Flawed\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Flawed\"]",
         "correctAnswer": "Flawed",
         "explanation": "\"Flawed\" (Có lỗ hổng sai sót) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Thinking & Logical Fallacies."
       },
@@ -4985,13 +4985,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Intellectual honesty\" là gì?",
-        "options": "[\"Ngụy biện bù nhìn rơm\",\"Ngụy biện công kích cá nhân\",\"Ngụy biện logic sai lầm\",\"Tính trung thực trí thức\"]",
+        "options": "[\"Tính trung thực trí thức\",\"Ngụy biện logic sai lầm\",\"Ngụy biện công kích cá nhân\",\"Ngụy biện bù nhìn rơm\"]",
         "correctAnswer": "Tính trung thực trí thức",
-        "explanation": "\"Intellectual honesty\" có phiên âm /intellectual honesty/ và mang nghĩa là \"Tính trung thực trí thức\"."
+        "explanation": "\"Intellectual honesty\" có phiên âm /ˌɪn.təˈlek.tʃu.əl ˈɑː.nə.sti/ và mang nghĩa là \"Tính trung thực trí thức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Thinking & Logical Fallacies, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Logical fallacy\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Logical fallacy\"]",
         "correctAnswer": "Logical fallacy",
         "explanation": "\"Logical fallacy\" (Ngụy biện logic sai lầm) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Thinking & Logical Fallacies."
       },
@@ -5003,13 +5003,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Straw Man\" là gì?",
-        "options": "[\"Ngụy biện nhị nguyên sai lệch\",\"Ngụy biện bù nhìn rơm\",\"Ngụy biện dốc trơn lún sâu\",\"Tiền đề suy luận\"]",
+        "options": "[\"Tiền đề suy luận\",\"Ngụy biện dốc trơn lún sâu\",\"Ngụy biện bù nhìn rơm\",\"Ngụy biện nhị nguyên sai lệch\"]",
         "correctAnswer": "Ngụy biện bù nhìn rơm",
-        "explanation": "\"Straw Man\" có phiên âm /straw man/ và mang nghĩa là \"Ngụy biện bù nhìn rơm\"."
+        "explanation": "\"Straw Man\" có phiên âm /ˈstrɔː ˈmæn/ và mang nghĩa là \"Ngụy biện bù nhìn rơm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Thinking & Logical Fallacies, we need to practice _____.\"",
-        "options": "[\"bananas\",\"False dichotomy\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"False dichotomy\"]",
         "correctAnswer": "False dichotomy",
         "explanation": "\"False dichotomy\" (Ngụy biện nhị nguyên sai lệch) là từ vựng chính xác trong ngữ cảnh chủ đề Critical Thinking & Logical Fallacies."
       },
@@ -5021,9 +5021,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Premise\" là gì?",
-        "options": "[\"Tiền đề suy luận\",\"Có lỗ hổng sai sót\",\"Có giá trị logic chặt chẽ\",\"Lập luận bẻ gãy phản biện\"]",
+        "options": "[\"Lập luận bẻ gãy phản biện\",\"Có lỗ hổng sai sót\",\"Có giá trị logic chặt chẽ\",\"Tiền đề suy luận\"]",
         "correctAnswer": "Tiền đề suy luận",
-        "explanation": "\"Premise\" có phiên âm /premise/ và mang nghĩa là \"Tiền đề suy luận\"."
+        "explanation": "\"Premise\" có phiên âm /ˈpre.mɪs/ và mang nghĩa là \"Tiền đề suy luận\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Critical Thinking & Logical Fallacies, we need to practice _____.\"",
@@ -5050,7 +5050,7 @@ module.exports = [
       {
         "word": "Neuroscience",
         "meaning": "Khoa học thần kinh",
-        "pronunciation": "/neuroscience/",
+        "pronunciation": "/ˈnjʊ.roʊ.saɪ.əns/",
         "partOfSpeech": "noun",
         "example": "I use Neuroscience in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Neuroscience trong giao tiếp hàng ngày.",
@@ -5060,7 +5060,7 @@ module.exports = [
       {
         "word": "Cognition",
         "meaning": "Quá trình nhận thức tư duy",
-        "pronunciation": "/cognition/",
+        "pronunciation": "/ˌkɑːɡˈnɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Cognition in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cognition trong giao tiếp hàng ngày.",
@@ -5070,7 +5070,7 @@ module.exports = [
       {
         "word": "Neuroplasticity",
         "meaning": "Tính mềm dẻo của tế bào não",
-        "pronunciation": "/neuroplasticity/",
+        "pronunciation": "/ˌnʊ.rəp.læˈstɪ.sə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Neuroplasticity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Neuroplasticity trong giao tiếp hàng ngày.",
@@ -5080,7 +5080,7 @@ module.exports = [
       {
         "word": "Synapse",
         "meaning": "Khớp thần kinh xi-náp",
-        "pronunciation": "/synapse/",
+        "pronunciation": "/ˈsɪ.æps/",
         "partOfSpeech": "noun",
         "example": "I use Synapse in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Synapse trong giao tiếp hàng ngày.",
@@ -5090,7 +5090,7 @@ module.exports = [
       {
         "word": "Neuron",
         "meaning": "Tế bào thần kinh nơ-ron",
-        "pronunciation": "/neuron/",
+        "pronunciation": "/ˈnʊ.rɑːn/",
         "partOfSpeech": "noun",
         "example": "I use Neuron in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Neuron trong giao tiếp hàng ngày.",
@@ -5100,7 +5100,7 @@ module.exports = [
       {
         "word": "Dopamine",
         "meaning": "Chất dẫn truyền thần kinh dopamine",
-        "pronunciation": "/dopamine/",
+        "pronunciation": "/ˈdoʊ.pə.min/",
         "partOfSpeech": "noun",
         "example": "I use Dopamine in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dopamine trong giao tiếp hàng ngày.",
@@ -5110,7 +5110,7 @@ module.exports = [
       {
         "word": "Cortex",
         "meaning": "Vỏ não điều hành",
-        "pronunciation": "/cortex/",
+        "pronunciation": "/ˈkɔːr.teks/",
         "partOfSpeech": "noun",
         "example": "I use Cortex in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cortex trong giao tiếp hàng ngày.",
@@ -5120,7 +5120,7 @@ module.exports = [
       {
         "word": "Memory consolidation",
         "meaning": "Sự củng cố khắc sâu trí nhớ",
-        "pronunciation": "/memory consolidation/",
+        "pronunciation": "/ˈme.mər.i ˌkən.sɑː.ləˈdeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Memory consolidation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Memory consolidation trong giao tiếp hàng ngày.",
@@ -5130,7 +5130,7 @@ module.exports = [
       {
         "word": "Perception",
         "meaning": "Tri giác cảm quan",
-        "pronunciation": "/perception/",
+        "pronunciation": "/ˌpərˈsep.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Perception in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Perception trong giao tiếp hàng ngày.",
@@ -5140,7 +5140,7 @@ module.exports = [
       {
         "word": "Consciousness",
         "meaning": "Ý thức bản thể con người",
-        "pronunciation": "/consciousness/",
+        "pronunciation": "/ˈkɑːn.ʃəs.nəs/",
         "partOfSpeech": "noun",
         "example": "I use Consciousness in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consciousness trong giao tiếp hàng ngày.",
@@ -5165,7 +5165,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Neuroscience\\\" has a specific pronunciation: /neuroscience/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Neuroscience\\\" có phát âm cụ thể là /neuroscience/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Cognition\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Cognition\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Neuroscience\\\" has a specific pronunciation: /ˈnjʊ.roʊ.saɪ.əns/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Neuroscience\\\" có phát âm cụ thể là /ˈnjʊ.roʊ.saɪ.əns/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Cognition\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Cognition\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -5196,7 +5196,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"I\",\"conversation\",\"daily\",\"use\",\"Neuroscience\"]",
+        "options": "[\"in\",\"use\",\"conversation\",\"daily\",\"I\",\"Neuroscience\"]",
         "correctAnswer": "I use Neuroscience in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Neuroscience in daily conversation\"."
       },
@@ -5212,7 +5212,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Cognition\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Cognition",
-        "explanation": "Phát âm chuẩn IPA của từ là /cognition/ - \"Cognition\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌkɑːɡˈnɪ.ʃən/ - \"Cognition\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5246,13 +5246,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Neuroscience\" là gì?",
-        "options": "[\"Khớp thần kinh xi-náp\",\"Khoa học thần kinh\",\"Quá trình nhận thức tư duy\",\"Tính mềm dẻo của tế bào não\"]",
+        "options": "[\"Khớp thần kinh xi-náp\",\"Quá trình nhận thức tư duy\",\"Tính mềm dẻo của tế bào não\",\"Khoa học thần kinh\"]",
         "correctAnswer": "Khoa học thần kinh",
-        "explanation": "\"Neuroscience\" có phiên âm /neuroscience/ và mang nghĩa là \"Khoa học thần kinh\"."
+        "explanation": "\"Neuroscience\" có phiên âm /ˈnjʊ.roʊ.saɪ.əns/ và mang nghĩa là \"Khoa học thần kinh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Neuroscience & Human Cognition, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Cognition\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Cognition\"]",
         "correctAnswer": "Cognition",
         "explanation": "\"Cognition\" (Quá trình nhận thức tư duy) là từ vựng chính xác trong ngữ cảnh chủ đề Neuroscience & Human Cognition."
       },
@@ -5264,13 +5264,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Synapse\" là gì?",
-        "options": "[\"Vỏ não điều hành\",\"Chất dẫn truyền thần kinh dopamine\",\"Tế bào thần kinh nơ-ron\",\"Khớp thần kinh xi-náp\"]",
+        "options": "[\"Tế bào thần kinh nơ-ron\",\"Khớp thần kinh xi-náp\",\"Vỏ não điều hành\",\"Chất dẫn truyền thần kinh dopamine\"]",
         "correctAnswer": "Khớp thần kinh xi-náp",
-        "explanation": "\"Synapse\" có phiên âm /synapse/ và mang nghĩa là \"Khớp thần kinh xi-náp\"."
+        "explanation": "\"Synapse\" có phiên âm /ˈsɪ.æps/ và mang nghĩa là \"Khớp thần kinh xi-náp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Neuroscience & Human Cognition, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Neuron\"]",
+        "options": "[\"Neuron\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Neuron",
         "explanation": "\"Neuron\" (Tế bào thần kinh nơ-ron) là từ vựng chính xác trong ngữ cảnh chủ đề Neuroscience & Human Cognition."
       },
@@ -5282,13 +5282,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cortex\" là gì?",
-        "options": "[\"Vỏ não điều hành\",\"Sự củng cố khắc sâu trí nhớ\",\"Ý thức bản thể con người\",\"Tri giác cảm quan\"]",
+        "options": "[\"Vỏ não điều hành\",\"Tri giác cảm quan\",\"Sự củng cố khắc sâu trí nhớ\",\"Ý thức bản thể con người\"]",
         "correctAnswer": "Vỏ não điều hành",
-        "explanation": "\"Cortex\" có phiên âm /cortex/ và mang nghĩa là \"Vỏ não điều hành\"."
+        "explanation": "\"Cortex\" có phiên âm /ˈkɔːr.teks/ và mang nghĩa là \"Vỏ não điều hành\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Neuroscience & Human Cognition, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Memory consolidation\"]",
+        "options": "[\"airplanes\",\"Memory consolidation\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Memory consolidation",
         "explanation": "\"Memory consolidation\" (Sự củng cố khắc sâu trí nhớ) là từ vựng chính xác trong ngữ cảnh chủ đề Neuroscience & Human Cognition."
       },
@@ -5300,13 +5300,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consciousness\" là gì?",
-        "options": "[\"Quá trình nhận thức tư duy\",\"Khoa học thần kinh\",\"Tính mềm dẻo của tế bào não\",\"Ý thức bản thể con người\"]",
+        "options": "[\"Tính mềm dẻo của tế bào não\",\"Quá trình nhận thức tư duy\",\"Khoa học thần kinh\",\"Ý thức bản thể con người\"]",
         "correctAnswer": "Ý thức bản thể con người",
-        "explanation": "\"Consciousness\" có phiên âm /consciousness/ và mang nghĩa là \"Ý thức bản thể con người\"."
+        "explanation": "\"Consciousness\" có phiên âm /ˈkɑːn.ʃəs.nəs/ và mang nghĩa là \"Ý thức bản thể con người\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Neuroscience & Human Cognition, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Neuroscience\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Neuroscience\"]",
         "correctAnswer": "Neuroscience",
         "explanation": "\"Neuroscience\" (Khoa học thần kinh) là từ vựng chính xác trong ngữ cảnh chủ đề Neuroscience & Human Cognition."
       },
@@ -5318,13 +5318,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Neuroplasticity\" là gì?",
-        "options": "[\"Khớp thần kinh xi-náp\",\"Tế bào thần kinh nơ-ron\",\"Tính mềm dẻo của tế bào não\",\"Chất dẫn truyền thần kinh dopamine\"]",
+        "options": "[\"Tính mềm dẻo của tế bào não\",\"Tế bào thần kinh nơ-ron\",\"Chất dẫn truyền thần kinh dopamine\",\"Khớp thần kinh xi-náp\"]",
         "correctAnswer": "Tính mềm dẻo của tế bào não",
-        "explanation": "\"Neuroplasticity\" có phiên âm /neuroplasticity/ và mang nghĩa là \"Tính mềm dẻo của tế bào não\"."
+        "explanation": "\"Neuroplasticity\" có phiên âm /ˌnʊ.rəp.læˈstɪ.sə.ti/ và mang nghĩa là \"Tính mềm dẻo của tế bào não\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Neuroscience & Human Cognition, we need to practice _____.\"",
-        "options": "[\"Synapse\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Synapse\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Synapse",
         "explanation": "\"Synapse\" (Khớp thần kinh xi-náp) là từ vựng chính xác trong ngữ cảnh chủ đề Neuroscience & Human Cognition."
       },
@@ -5336,13 +5336,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dopamine\" là gì?",
-        "options": "[\"Tri giác cảm quan\",\"Sự củng cố khắc sâu trí nhớ\",\"Chất dẫn truyền thần kinh dopamine\",\"Vỏ não điều hành\"]",
+        "options": "[\"Chất dẫn truyền thần kinh dopamine\",\"Sự củng cố khắc sâu trí nhớ\",\"Vỏ não điều hành\",\"Tri giác cảm quan\"]",
         "correctAnswer": "Chất dẫn truyền thần kinh dopamine",
-        "explanation": "\"Dopamine\" có phiên âm /dopamine/ và mang nghĩa là \"Chất dẫn truyền thần kinh dopamine\"."
+        "explanation": "\"Dopamine\" có phiên âm /ˈdoʊ.pə.min/ và mang nghĩa là \"Chất dẫn truyền thần kinh dopamine\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Neuroscience & Human Cognition, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Cortex\",\"umbrellas\"]",
+        "options": "[\"Cortex\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Cortex",
         "explanation": "\"Cortex\" (Vỏ não điều hành) là từ vựng chính xác trong ngữ cảnh chủ đề Neuroscience & Human Cognition."
       },
@@ -5365,7 +5365,7 @@ module.exports = [
       {
         "word": "Jurisprudence",
         "meaning": "Triết học pháp luật, án lệ",
-        "pronunciation": "/jurisprudence/",
+        "pronunciation": "/ˌdʒʊ.rəsˈpruː.dəns/",
         "partOfSpeech": "noun",
         "example": "I use Jurisprudence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Jurisprudence trong giao tiếp hàng ngày.",
@@ -5375,7 +5375,7 @@ module.exports = [
       {
         "word": "Intergenerational equity",
         "meaning": "Sự công bằng giữa các thế hệ",
-        "pronunciation": "/intergenerational equity/",
+        "pronunciation": "/ˌɪn.tərˈdʒe.nərˈeɪ.ʃə.nəl ˈek.wə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Intergenerational equity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Intergenerational equity trong giao tiếp hàng ngày.",
@@ -5385,7 +5385,7 @@ module.exports = [
       {
         "word": "Litigation",
         "meaning": "Vụ kiện tụng pháp lý",
-        "pronunciation": "/litigation/",
+        "pronunciation": "/ˌlɪ.təˈɡeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Litigation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Litigation trong giao tiếp hàng ngày.",
@@ -5395,7 +5395,7 @@ module.exports = [
       {
         "word": "Treaty",
         "meaning": "Công ước khí hậu quốc tế",
-        "pronunciation": "/treaty/",
+        "pronunciation": "/ˈtriː.ti/",
         "partOfSpeech": "noun",
         "example": "I use Treaty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Treaty trong giao tiếp hàng ngày.",
@@ -5405,7 +5405,7 @@ module.exports = [
       {
         "word": "Liability",
         "meaning": "Trách nhiệm bồi thường pháp lý",
-        "pronunciation": "/liability/",
+        "pronunciation": "/ˌlaɪ.əˈbɪ.lɪ.ti/",
         "partOfSpeech": "noun",
         "example": "I use Liability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Liability trong giao tiếp hàng ngày.",
@@ -5415,7 +5415,7 @@ module.exports = [
       {
         "word": "Ecocide",
         "meaning": "Tội ác hủy hoại sinh thái",
-        "pronunciation": "/ecocide/",
+        "pronunciation": "/e.kə.saɪd/",
         "partOfSpeech": "noun",
         "example": "I use Ecocide in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ecocide trong giao tiếp hàng ngày.",
@@ -5425,7 +5425,7 @@ module.exports = [
       {
         "word": "Remediation",
         "meaning": "Khắc phục hậu quả môi trường",
-        "pronunciation": "/remediation/",
+        "pronunciation": "/ˌrɪ.mi.diˈeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Remediation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Remediation trong giao tiếp hàng ngày.",
@@ -5435,7 +5435,7 @@ module.exports = [
       {
         "word": "Enforceability",
         "meaning": "Tính khả thi thực thi cưỡng chế",
-        "pronunciation": "/enforceability/",
+        "pronunciation": "/ˌen.fɔːr.səˈbɪ.lɪ.ti/",
         "partOfSpeech": "noun",
         "example": "I use Enforceability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Enforceability trong giao tiếp hàng ngày.",
@@ -5445,7 +5445,7 @@ module.exports = [
       {
         "word": "Precautionary principle",
         "meaning": "Nguyên tắc phòng ngừa rủi ro",
-        "pronunciation": "/precautionary principle/",
+        "pronunciation": "/ˌprɪˈkɔː.ʃə.ne.ri ˈprɪn.sə.pəl/",
         "partOfSpeech": "noun",
         "example": "I use Precautionary principle in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Precautionary principle trong giao tiếp hàng ngày.",
@@ -5455,7 +5455,7 @@ module.exports = [
       {
         "word": "Arbitration",
         "meaning": "Trọng tài phân xử quốc tế",
-        "pronunciation": "/arbitration/",
+        "pronunciation": "/ˌɑːr.bɪˈtreɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Arbitration in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Arbitration trong giao tiếp hàng ngày.",
@@ -5480,7 +5480,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Jurisprudence\\\" has a specific pronunciation: /jurisprudence/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Jurisprudence\\\" có phát âm cụ thể là /jurisprudence/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Intergenerational equity\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Intergenerational equity\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Jurisprudence\\\" has a specific pronunciation: /ˌdʒʊ.rəsˈpruː.dəns/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Jurisprudence\\\" có phát âm cụ thể là /ˌdʒʊ.rəsˈpruː.dəns/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Intergenerational equity\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Intergenerational equity\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -5511,7 +5511,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Jurisprudence\",\"in\",\"daily\",\"conversation\"]",
+        "options": "[\"I\",\"daily\",\"conversation\",\"use\",\"Jurisprudence\",\"in\"]",
         "correctAnswer": "I use Jurisprudence in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Jurisprudence in daily conversation\"."
       },
@@ -5527,7 +5527,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Intergenerational equity\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Intergenerational equity",
-        "explanation": "Phát âm chuẩn IPA của từ là /intergenerational equity/ - \"Intergenerational equity\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌɪn.tərˈdʒe.nərˈeɪ.ʃə.nəl ˈek.wə.ti/ - \"Intergenerational equity\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5561,13 +5561,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Jurisprudence\" là gì?",
-        "options": "[\"Triết học pháp luật, án lệ\",\"Sự công bằng giữa các thế hệ\",\"Công ước khí hậu quốc tế\",\"Vụ kiện tụng pháp lý\"]",
+        "options": "[\"Công ước khí hậu quốc tế\",\"Triết học pháp luật, án lệ\",\"Vụ kiện tụng pháp lý\",\"Sự công bằng giữa các thế hệ\"]",
         "correctAnswer": "Triết học pháp luật, án lệ",
-        "explanation": "\"Jurisprudence\" có phiên âm /jurisprudence/ và mang nghĩa là \"Triết học pháp luật, án lệ\"."
+        "explanation": "\"Jurisprudence\" có phiên âm /ˌdʒʊ.rəsˈpruː.dəns/ và mang nghĩa là \"Triết học pháp luật, án lệ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Environmental Jurisprudence & Climate Treaties, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Intergenerational equity\"]",
+        "options": "[\"Intergenerational equity\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Intergenerational equity",
         "explanation": "\"Intergenerational equity\" (Sự công bằng giữa các thế hệ) là từ vựng chính xác trong ngữ cảnh chủ đề Environmental Jurisprudence & Climate Treaties."
       },
@@ -5579,13 +5579,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Treaty\" là gì?",
-        "options": "[\"Công ước khí hậu quốc tế\",\"Trách nhiệm bồi thường pháp lý\",\"Tội ác hủy hoại sinh thái\",\"Khắc phục hậu quả môi trường\"]",
+        "options": "[\"Tội ác hủy hoại sinh thái\",\"Trách nhiệm bồi thường pháp lý\",\"Công ước khí hậu quốc tế\",\"Khắc phục hậu quả môi trường\"]",
         "correctAnswer": "Công ước khí hậu quốc tế",
-        "explanation": "\"Treaty\" có phiên âm /treaty/ và mang nghĩa là \"Công ước khí hậu quốc tế\"."
+        "explanation": "\"Treaty\" có phiên âm /ˈtriː.ti/ và mang nghĩa là \"Công ước khí hậu quốc tế\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Environmental Jurisprudence & Climate Treaties, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Liability\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Liability\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Liability",
         "explanation": "\"Liability\" (Trách nhiệm bồi thường pháp lý) là từ vựng chính xác trong ngữ cảnh chủ đề Environmental Jurisprudence & Climate Treaties."
       },
@@ -5597,13 +5597,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Remediation\" là gì?",
-        "options": "[\"Khắc phục hậu quả môi trường\",\"Tính khả thi thực thi cưỡng chế\",\"Nguyên tắc phòng ngừa rủi ro\",\"Trọng tài phân xử quốc tế\"]",
+        "options": "[\"Trọng tài phân xử quốc tế\",\"Nguyên tắc phòng ngừa rủi ro\",\"Tính khả thi thực thi cưỡng chế\",\"Khắc phục hậu quả môi trường\"]",
         "correctAnswer": "Khắc phục hậu quả môi trường",
-        "explanation": "\"Remediation\" có phiên âm /remediation/ và mang nghĩa là \"Khắc phục hậu quả môi trường\"."
+        "explanation": "\"Remediation\" có phiên âm /ˌrɪ.mi.diˈeɪ.ʃən/ và mang nghĩa là \"Khắc phục hậu quả môi trường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Environmental Jurisprudence & Climate Treaties, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Enforceability\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Enforceability\",\"umbrellas\"]",
         "correctAnswer": "Enforceability",
         "explanation": "\"Enforceability\" (Tính khả thi thực thi cưỡng chế) là từ vựng chính xác trong ngữ cảnh chủ đề Environmental Jurisprudence & Climate Treaties."
       },
@@ -5615,13 +5615,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Arbitration\" là gì?",
-        "options": "[\"Trọng tài phân xử quốc tế\",\"Triết học pháp luật, án lệ\",\"Vụ kiện tụng pháp lý\",\"Sự công bằng giữa các thế hệ\"]",
+        "options": "[\"Vụ kiện tụng pháp lý\",\"Sự công bằng giữa các thế hệ\",\"Trọng tài phân xử quốc tế\",\"Triết học pháp luật, án lệ\"]",
         "correctAnswer": "Trọng tài phân xử quốc tế",
-        "explanation": "\"Arbitration\" có phiên âm /arbitration/ và mang nghĩa là \"Trọng tài phân xử quốc tế\"."
+        "explanation": "\"Arbitration\" có phiên âm /ˌɑːr.bɪˈtreɪ.ʃən/ và mang nghĩa là \"Trọng tài phân xử quốc tế\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Environmental Jurisprudence & Climate Treaties, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Jurisprudence\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Jurisprudence\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Jurisprudence",
         "explanation": "\"Jurisprudence\" (Triết học pháp luật, án lệ) là từ vựng chính xác trong ngữ cảnh chủ đề Environmental Jurisprudence & Climate Treaties."
       },
@@ -5633,13 +5633,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Litigation\" là gì?",
-        "options": "[\"Tội ác hủy hoại sinh thái\",\"Trách nhiệm bồi thường pháp lý\",\"Công ước khí hậu quốc tế\",\"Vụ kiện tụng pháp lý\"]",
+        "options": "[\"Công ước khí hậu quốc tế\",\"Trách nhiệm bồi thường pháp lý\",\"Tội ác hủy hoại sinh thái\",\"Vụ kiện tụng pháp lý\"]",
         "correctAnswer": "Vụ kiện tụng pháp lý",
-        "explanation": "\"Litigation\" có phiên âm /litigation/ và mang nghĩa là \"Vụ kiện tụng pháp lý\"."
+        "explanation": "\"Litigation\" có phiên âm /ˌlɪ.təˈɡeɪ.ʃən/ và mang nghĩa là \"Vụ kiện tụng pháp lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Environmental Jurisprudence & Climate Treaties, we need to practice _____.\"",
-        "options": "[\"Treaty\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Treaty\",\"umbrellas\"]",
         "correctAnswer": "Treaty",
         "explanation": "\"Treaty\" (Công ước khí hậu quốc tế) là từ vựng chính xác trong ngữ cảnh chủ đề Environmental Jurisprudence & Climate Treaties."
       },
@@ -5651,13 +5651,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ecocide\" là gì?",
-        "options": "[\"Tội ác hủy hoại sinh thái\",\"Khắc phục hậu quả môi trường\",\"Tính khả thi thực thi cưỡng chế\",\"Nguyên tắc phòng ngừa rủi ro\"]",
+        "options": "[\"Nguyên tắc phòng ngừa rủi ro\",\"Tội ác hủy hoại sinh thái\",\"Khắc phục hậu quả môi trường\",\"Tính khả thi thực thi cưỡng chế\"]",
         "correctAnswer": "Tội ác hủy hoại sinh thái",
-        "explanation": "\"Ecocide\" có phiên âm /ecocide/ và mang nghĩa là \"Tội ác hủy hoại sinh thái\"."
+        "explanation": "\"Ecocide\" có phiên âm /e.kə.saɪd/ và mang nghĩa là \"Tội ác hủy hoại sinh thái\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Environmental Jurisprudence & Climate Treaties, we need to practice _____.\"",
-        "options": "[\"Remediation\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Remediation\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Remediation",
         "explanation": "\"Remediation\" (Khắc phục hậu quả môi trường) là từ vựng chính xác trong ngữ cảnh chủ đề Environmental Jurisprudence & Climate Treaties."
       },
@@ -5680,7 +5680,7 @@ module.exports = [
       {
         "word": "Superintelligence",
         "meaning": "Siêu trí tuệ nhân tạo",
-        "pronunciation": "/superintelligence/",
+        "pronunciation": "/ˈsuː.pər.ənˈte.lə.dʒəns/",
         "partOfSpeech": "noun",
         "example": "I use Superintelligence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Superintelligence trong giao tiếp hàng ngày.",
@@ -5690,7 +5690,7 @@ module.exports = [
       {
         "word": "Singularity",
         "meaning": "Điểm kỳ dị công nghệ",
-        "pronunciation": "/singularity/",
+        "pronunciation": "/ˈsɪŋ.ɡjəˈle.rə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Singularity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Singularity trong giao tiếp hàng ngày.",
@@ -5700,7 +5700,7 @@ module.exports = [
       {
         "word": "Alignment",
         "meaning": "Sự căn chỉnh đồng điệu giá trị",
-        "pronunciation": "/alignment/",
+        "pronunciation": "/ˌəˈlaɪn.mənt/",
         "partOfSpeech": "noun",
         "example": "I use Alignment in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Alignment trong giao tiếp hàng ngày.",
@@ -5710,7 +5710,7 @@ module.exports = [
       {
         "word": "Existential risk",
         "meaning": "Rủi ro sinh tồn của giống loài",
-        "pronunciation": "/existential risk/",
+        "pronunciation": "/ˌeɡ.zɪˈsten.tʃəl ˈrɪsk/",
         "partOfSpeech": "noun",
         "example": "I use Existential risk in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Existential risk trong giao tiếp hàng ngày.",
@@ -5720,7 +5720,7 @@ module.exports = [
       {
         "word": "Autonomous",
         "meaning": "Hệ thống tự hành độc lập",
-        "pronunciation": "/autonomous/",
+        "pronunciation": "/ˌɔːˈtɑː.nə.məs/",
         "partOfSpeech": "noun",
         "example": "I use Autonomous in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Autonomous trong giao tiếp hàng ngày.",
@@ -5730,7 +5730,7 @@ module.exports = [
       {
         "word": "Capabilities",
         "meaning": "Năng lực siêu phàm",
-        "pronunciation": "/capabilities/",
+        "pronunciation": "/ˌkeɪ.pəˈbɪ.lə.tiz/",
         "partOfSpeech": "noun",
         "example": "I use Capabilities in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Capabilities trong giao tiếp hàng ngày.",
@@ -5740,7 +5740,7 @@ module.exports = [
       {
         "word": "Safeguard",
         "meaning": "Cơ chế rào chắn bảo vệ",
-        "pronunciation": "/safeguard/",
+        "pronunciation": "/ˈseɪf.ɡɑːrd/",
         "partOfSpeech": "noun",
         "example": "I use Safeguard in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Safeguard trong giao tiếp hàng ngày.",
@@ -5750,7 +5750,7 @@ module.exports = [
       {
         "word": "Black-box",
         "meaning": "Hộp đen thuật toán không giải thích",
-        "pronunciation": "/black-box/",
+        "pronunciation": "/ˈblæk.bɑːks/",
         "partOfSpeech": "noun",
         "example": "I use Black-box in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Black-box trong giao tiếp hàng ngày.",
@@ -5760,7 +5760,7 @@ module.exports = [
       {
         "word": "Ethics",
         "meaning": "Đạo đức trí tuệ nhân tạo",
-        "pronunciation": "/ethics/",
+        "pronunciation": "/ˈe.θɪks/",
         "partOfSpeech": "noun",
         "example": "I use Ethics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ethics trong giao tiếp hàng ngày.",
@@ -5770,7 +5770,7 @@ module.exports = [
       {
         "word": "Oversight",
         "meaning": "Sự giám sát nghiêm ngặt",
-        "pronunciation": "/oversight/",
+        "pronunciation": "/ˈoʊ.vər.saɪt/",
         "partOfSpeech": "noun",
         "example": "I use Oversight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Oversight trong giao tiếp hàng ngày.",
@@ -5795,7 +5795,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Superintelligence\\\" has a specific pronunciation: /superintelligence/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Superintelligence\\\" có phát âm cụ thể là /superintelligence/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Singularity\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Singularity\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Superintelligence\\\" has a specific pronunciation: /ˈsuː.pər.ənˈte.lə.dʒəns/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Superintelligence\\\" có phát âm cụ thể là /ˈsuː.pər.ənˈte.lə.dʒəns/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Singularity\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Singularity\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -5826,7 +5826,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"Superintelligence\",\"conversation\",\"use\",\"daily\",\"I\"]",
+        "options": "[\"I\",\"use\",\"Superintelligence\",\"conversation\",\"daily\",\"in\"]",
         "correctAnswer": "I use Superintelligence in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Superintelligence in daily conversation\"."
       },
@@ -5842,7 +5842,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Singularity\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Singularity",
-        "explanation": "Phát âm chuẩn IPA của từ là /singularity/ - \"Singularity\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈsɪŋ.ɡjəˈle.rə.ti/ - \"Singularity\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5876,13 +5876,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Superintelligence\" là gì?",
-        "options": "[\"Sự căn chỉnh đồng điệu giá trị\",\"Điểm kỳ dị công nghệ\",\"Siêu trí tuệ nhân tạo\",\"Rủi ro sinh tồn của giống loài\"]",
+        "options": "[\"Rủi ro sinh tồn của giống loài\",\"Sự căn chỉnh đồng điệu giá trị\",\"Điểm kỳ dị công nghệ\",\"Siêu trí tuệ nhân tạo\"]",
         "correctAnswer": "Siêu trí tuệ nhân tạo",
-        "explanation": "\"Superintelligence\" có phiên âm /superintelligence/ và mang nghĩa là \"Siêu trí tuệ nhân tạo\"."
+        "explanation": "\"Superintelligence\" có phiên âm /ˈsuː.pər.ənˈte.lə.dʒəns/ và mang nghĩa là \"Siêu trí tuệ nhân tạo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Artificial Superintelligence & Alignment, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Singularity\",\"umbrellas\"]",
+        "options": "[\"Singularity\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Singularity",
         "explanation": "\"Singularity\" (Điểm kỳ dị công nghệ) là từ vựng chính xác trong ngữ cảnh chủ đề Artificial Superintelligence & Alignment."
       },
@@ -5896,11 +5896,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Existential risk\" là gì?",
         "options": "[\"Rủi ro sinh tồn của giống loài\",\"Hệ thống tự hành độc lập\",\"Năng lực siêu phàm\",\"Cơ chế rào chắn bảo vệ\"]",
         "correctAnswer": "Rủi ro sinh tồn của giống loài",
-        "explanation": "\"Existential risk\" có phiên âm /existential risk/ và mang nghĩa là \"Rủi ro sinh tồn của giống loài\"."
+        "explanation": "\"Existential risk\" có phiên âm /ˌeɡ.zɪˈsten.tʃəl ˈrɪsk/ và mang nghĩa là \"Rủi ro sinh tồn của giống loài\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Artificial Superintelligence & Alignment, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Autonomous\",\"airplanes\",\"bananas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Autonomous\"]",
         "correctAnswer": "Autonomous",
         "explanation": "\"Autonomous\" (Hệ thống tự hành độc lập) là từ vựng chính xác trong ngữ cảnh chủ đề Artificial Superintelligence & Alignment."
       },
@@ -5912,13 +5912,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Safeguard\" là gì?",
-        "options": "[\"Cơ chế rào chắn bảo vệ\",\"Hộp đen thuật toán không giải thích\",\"Đạo đức trí tuệ nhân tạo\",\"Sự giám sát nghiêm ngặt\"]",
+        "options": "[\"Sự giám sát nghiêm ngặt\",\"Cơ chế rào chắn bảo vệ\",\"Hộp đen thuật toán không giải thích\",\"Đạo đức trí tuệ nhân tạo\"]",
         "correctAnswer": "Cơ chế rào chắn bảo vệ",
-        "explanation": "\"Safeguard\" có phiên âm /safeguard/ và mang nghĩa là \"Cơ chế rào chắn bảo vệ\"."
+        "explanation": "\"Safeguard\" có phiên âm /ˈseɪf.ɡɑːrd/ và mang nghĩa là \"Cơ chế rào chắn bảo vệ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Artificial Superintelligence & Alignment, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Black-box\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"Black-box\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Black-box",
         "explanation": "\"Black-box\" (Hộp đen thuật toán không giải thích) là từ vựng chính xác trong ngữ cảnh chủ đề Artificial Superintelligence & Alignment."
       },
@@ -5930,9 +5930,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Oversight\" là gì?",
-        "options": "[\"Điểm kỳ dị công nghệ\",\"Sự căn chỉnh đồng điệu giá trị\",\"Siêu trí tuệ nhân tạo\",\"Sự giám sát nghiêm ngặt\"]",
+        "options": "[\"Sự giám sát nghiêm ngặt\",\"Siêu trí tuệ nhân tạo\",\"Điểm kỳ dị công nghệ\",\"Sự căn chỉnh đồng điệu giá trị\"]",
         "correctAnswer": "Sự giám sát nghiêm ngặt",
-        "explanation": "\"Oversight\" có phiên âm /oversight/ và mang nghĩa là \"Sự giám sát nghiêm ngặt\"."
+        "explanation": "\"Oversight\" có phiên âm /ˈoʊ.vər.saɪt/ và mang nghĩa là \"Sự giám sát nghiêm ngặt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Artificial Superintelligence & Alignment, we need to practice _____.\"",
@@ -5950,11 +5950,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Alignment\" là gì?",
         "options": "[\"Sự căn chỉnh đồng điệu giá trị\",\"Rủi ro sinh tồn của giống loài\",\"Hệ thống tự hành độc lập\",\"Năng lực siêu phàm\"]",
         "correctAnswer": "Sự căn chỉnh đồng điệu giá trị",
-        "explanation": "\"Alignment\" có phiên âm /alignment/ và mang nghĩa là \"Sự căn chỉnh đồng điệu giá trị\"."
+        "explanation": "\"Alignment\" có phiên âm /ˌəˈlaɪn.mənt/ và mang nghĩa là \"Sự căn chỉnh đồng điệu giá trị\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Artificial Superintelligence & Alignment, we need to practice _____.\"",
-        "options": "[\"Existential risk\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Existential risk\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Existential risk",
         "explanation": "\"Existential risk\" (Rủi ro sinh tồn của giống loài) là từ vựng chính xác trong ngữ cảnh chủ đề Artificial Superintelligence & Alignment."
       },
@@ -5966,13 +5966,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Capabilities\" là gì?",
-        "options": "[\"Năng lực siêu phàm\",\"Cơ chế rào chắn bảo vệ\",\"Hộp đen thuật toán không giải thích\",\"Đạo đức trí tuệ nhân tạo\"]",
+        "options": "[\"Cơ chế rào chắn bảo vệ\",\"Đạo đức trí tuệ nhân tạo\",\"Năng lực siêu phàm\",\"Hộp đen thuật toán không giải thích\"]",
         "correctAnswer": "Năng lực siêu phàm",
-        "explanation": "\"Capabilities\" có phiên âm /capabilities/ và mang nghĩa là \"Năng lực siêu phàm\"."
+        "explanation": "\"Capabilities\" có phiên âm /ˌkeɪ.pəˈbɪ.lə.tiz/ và mang nghĩa là \"Năng lực siêu phàm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Artificial Superintelligence & Alignment, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Safeguard\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Safeguard\"]",
         "correctAnswer": "Safeguard",
         "explanation": "\"Safeguard\" (Cơ chế rào chắn bảo vệ) là từ vựng chính xác trong ngữ cảnh chủ đề Artificial Superintelligence & Alignment."
       },
@@ -5995,7 +5995,7 @@ module.exports = [
       {
         "word": "Bioethics",
         "meaning": "Đạo đức sinh học y khoa",
-        "pronunciation": "/bioethics/",
+        "pronunciation": "/ˌbaɪ.oʊˈe.θɪks/",
         "partOfSpeech": "noun",
         "example": "I use Bioethics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bioethics trong giao tiếp hàng ngày.",
@@ -6005,7 +6005,7 @@ module.exports = [
       {
         "word": "Gene editing",
         "meaning": "Kỹ thuật chỉnh sửa gen",
-        "pronunciation": "/gene editing/",
+        "pronunciation": "/ˈdʒiːn ˈe.də.tɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Gene editing in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Gene editing trong giao tiếp hàng ngày.",
@@ -6015,7 +6015,7 @@ module.exports = [
       {
         "word": "Germline",
         "meaning": "Tế bào dòng mầm di truyền",
-        "pronunciation": "/germline/",
+        "pronunciation": "/ˈdʒɜːrm.laɪn/",
         "partOfSpeech": "noun",
         "example": "I use Germline in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Germline trong giao tiếp hàng ngày.",
@@ -6025,7 +6025,7 @@ module.exports = [
       {
         "word": "Enhancement",
         "meaning": "Sự nâng cấp cơ thể con người",
-        "pronunciation": "/enhancement/",
+        "pronunciation": "/ˌenˈhæn.smənt/",
         "partOfSpeech": "noun",
         "example": "I use Enhancement in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Enhancement trong giao tiếp hàng ngày.",
@@ -6035,7 +6035,7 @@ module.exports = [
       {
         "word": "Dignity",
         "meaning": "Phẩm giá thiêng liêng con người",
-        "pronunciation": "/dignity/",
+        "pronunciation": "/ˈdɪɡ.nə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Dignity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dignity trong giao tiếp hàng ngày.",
@@ -6045,7 +6045,7 @@ module.exports = [
       {
         "word": "Eugenics",
         "meaning": "Thuyết ưu sinh nguy hiểm",
-        "pronunciation": "/eugenics/",
+        "pronunciation": "/ˌjuˈdʒe.nɪks/",
         "partOfSpeech": "noun",
         "example": "I use Eugenics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eugenics trong giao tiếp hàng ngày.",
@@ -6055,7 +6055,7 @@ module.exports = [
       {
         "word": "Therapeutic",
         "meaning": "Mang tính trị bệnh thuần túy",
-        "pronunciation": "/therapeutic/",
+        "pronunciation": "/ˌθe.rəpˈjuː.tɪk/",
         "partOfSpeech": "noun",
         "example": "I use Therapeutic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Therapeutic trong giao tiếp hàng ngày.",
@@ -6065,7 +6065,7 @@ module.exports = [
       {
         "word": "Inequality",
         "meaning": "Bất bình đẳng sinh học",
-        "pronunciation": "/inequality/",
+        "pronunciation": "/ˌɪ.nɪkˈwɑː.lə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Inequality in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Inequality trong giao tiếp hàng ngày.",
@@ -6075,7 +6075,7 @@ module.exports = [
       {
         "word": "Moratorium",
         "meaning": "Lệnh tạm ngừng thi hành",
-        "pronunciation": "/moratorium/",
+        "pronunciation": "/ˌmɔː.rəˈtɔː.ri.əm/",
         "partOfSpeech": "noun",
         "example": "I use Moratorium in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Moratorium trong giao tiếp hàng ngày.",
@@ -6085,7 +6085,7 @@ module.exports = [
       {
         "word": "Consensus",
         "meaning": "Sự đồng thuận quốc tế",
-        "pronunciation": "/consensus/",
+        "pronunciation": "/ˌkənˈsen.səs/",
         "partOfSpeech": "noun",
         "example": "I use Consensus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consensus trong giao tiếp hàng ngày.",
@@ -6110,7 +6110,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Bioethics\\\" has a specific pronunciation: /bioethics/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bioethics\\\" có phát âm cụ thể là /bioethics/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Gene editing\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Gene editing\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Bioethics\\\" has a specific pronunciation: /ˌbaɪ.oʊˈe.θɪks/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bioethics\\\" có phát âm cụ thể là /ˌbaɪ.oʊˈe.θɪks/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Gene editing\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Gene editing\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -6141,7 +6141,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"in\",\"I\",\"daily\",\"Bioethics\",\"conversation\"]",
+        "options": "[\"Bioethics\",\"conversation\",\"use\",\"in\",\"daily\",\"I\"]",
         "correctAnswer": "I use Bioethics in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Bioethics in daily conversation\"."
       },
@@ -6157,7 +6157,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Gene editing\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Gene editing",
-        "explanation": "Phát âm chuẩn IPA của từ là /gene editing/ - \"Gene editing\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈdʒiːn ˈe.də.tɪŋ/ - \"Gene editing\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6191,13 +6191,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bioethics\" là gì?",
-        "options": "[\"Kỹ thuật chỉnh sửa gen\",\"Đạo đức sinh học y khoa\",\"Tế bào dòng mầm di truyền\",\"Sự nâng cấp cơ thể con người\"]",
+        "options": "[\"Kỹ thuật chỉnh sửa gen\",\"Đạo đức sinh học y khoa\",\"Sự nâng cấp cơ thể con người\",\"Tế bào dòng mầm di truyền\"]",
         "correctAnswer": "Đạo đức sinh học y khoa",
-        "explanation": "\"Bioethics\" có phiên âm /bioethics/ và mang nghĩa là \"Đạo đức sinh học y khoa\"."
+        "explanation": "\"Bioethics\" có phiên âm /ˌbaɪ.oʊˈe.θɪks/ và mang nghĩa là \"Đạo đức sinh học y khoa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Bioethics & Genetic Modification, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Gene editing\"]",
+        "options": "[\"Gene editing\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Gene editing",
         "explanation": "\"Gene editing\" (Kỹ thuật chỉnh sửa gen) là từ vựng chính xác trong ngữ cảnh chủ đề Bioethics & Genetic Modification."
       },
@@ -6209,13 +6209,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Enhancement\" là gì?",
-        "options": "[\"Mang tính trị bệnh thuần túy\",\"Thuyết ưu sinh nguy hiểm\",\"Phẩm giá thiêng liêng con người\",\"Sự nâng cấp cơ thể con người\"]",
+        "options": "[\"Thuyết ưu sinh nguy hiểm\",\"Phẩm giá thiêng liêng con người\",\"Sự nâng cấp cơ thể con người\",\"Mang tính trị bệnh thuần túy\"]",
         "correctAnswer": "Sự nâng cấp cơ thể con người",
-        "explanation": "\"Enhancement\" có phiên âm /enhancement/ và mang nghĩa là \"Sự nâng cấp cơ thể con người\"."
+        "explanation": "\"Enhancement\" có phiên âm /ˌenˈhæn.smənt/ và mang nghĩa là \"Sự nâng cấp cơ thể con người\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Bioethics & Genetic Modification, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Dignity\"]",
+        "options": "[\"Dignity\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Dignity",
         "explanation": "\"Dignity\" (Phẩm giá thiêng liêng con người) là từ vựng chính xác trong ngữ cảnh chủ đề Bioethics & Genetic Modification."
       },
@@ -6227,13 +6227,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Therapeutic\" là gì?",
-        "options": "[\"Sự đồng thuận quốc tế\",\"Mang tính trị bệnh thuần túy\",\"Bất bình đẳng sinh học\",\"Lệnh tạm ngừng thi hành\"]",
+        "options": "[\"Lệnh tạm ngừng thi hành\",\"Bất bình đẳng sinh học\",\"Sự đồng thuận quốc tế\",\"Mang tính trị bệnh thuần túy\"]",
         "correctAnswer": "Mang tính trị bệnh thuần túy",
-        "explanation": "\"Therapeutic\" có phiên âm /therapeutic/ và mang nghĩa là \"Mang tính trị bệnh thuần túy\"."
+        "explanation": "\"Therapeutic\" có phiên âm /ˌθe.rəpˈjuː.tɪk/ và mang nghĩa là \"Mang tính trị bệnh thuần túy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Bioethics & Genetic Modification, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Inequality\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Inequality\"]",
         "correctAnswer": "Inequality",
         "explanation": "\"Inequality\" (Bất bình đẳng sinh học) là từ vựng chính xác trong ngữ cảnh chủ đề Bioethics & Genetic Modification."
       },
@@ -6245,13 +6245,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consensus\" là gì?",
-        "options": "[\"Sự đồng thuận quốc tế\",\"Kỹ thuật chỉnh sửa gen\",\"Đạo đức sinh học y khoa\",\"Tế bào dòng mầm di truyền\"]",
+        "options": "[\"Sự đồng thuận quốc tế\",\"Đạo đức sinh học y khoa\",\"Kỹ thuật chỉnh sửa gen\",\"Tế bào dòng mầm di truyền\"]",
         "correctAnswer": "Sự đồng thuận quốc tế",
-        "explanation": "\"Consensus\" có phiên âm /consensus/ và mang nghĩa là \"Sự đồng thuận quốc tế\"."
+        "explanation": "\"Consensus\" có phiên âm /ˌkənˈsen.səs/ và mang nghĩa là \"Sự đồng thuận quốc tế\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Bioethics & Genetic Modification, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Bioethics\"]",
+        "options": "[\"Bioethics\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Bioethics",
         "explanation": "\"Bioethics\" (Đạo đức sinh học y khoa) là từ vựng chính xác trong ngữ cảnh chủ đề Bioethics & Genetic Modification."
       },
@@ -6263,13 +6263,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Germline\" là gì?",
-        "options": "[\"Thuyết ưu sinh nguy hiểm\",\"Sự nâng cấp cơ thể con người\",\"Phẩm giá thiêng liêng con người\",\"Tế bào dòng mầm di truyền\"]",
+        "options": "[\"Tế bào dòng mầm di truyền\",\"Sự nâng cấp cơ thể con người\",\"Phẩm giá thiêng liêng con người\",\"Thuyết ưu sinh nguy hiểm\"]",
         "correctAnswer": "Tế bào dòng mầm di truyền",
-        "explanation": "\"Germline\" có phiên âm /germline/ và mang nghĩa là \"Tế bào dòng mầm di truyền\"."
+        "explanation": "\"Germline\" có phiên âm /ˈdʒɜːrm.laɪn/ và mang nghĩa là \"Tế bào dòng mầm di truyền\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Bioethics & Genetic Modification, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Enhancement\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Enhancement\"]",
         "correctAnswer": "Enhancement",
         "explanation": "\"Enhancement\" (Sự nâng cấp cơ thể con người) là từ vựng chính xác trong ngữ cảnh chủ đề Bioethics & Genetic Modification."
       },
@@ -6281,13 +6281,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eugenics\" là gì?",
-        "options": "[\"Lệnh tạm ngừng thi hành\",\"Mang tính trị bệnh thuần túy\",\"Thuyết ưu sinh nguy hiểm\",\"Bất bình đẳng sinh học\"]",
+        "options": "[\"Thuyết ưu sinh nguy hiểm\",\"Mang tính trị bệnh thuần túy\",\"Bất bình đẳng sinh học\",\"Lệnh tạm ngừng thi hành\"]",
         "correctAnswer": "Thuyết ưu sinh nguy hiểm",
-        "explanation": "\"Eugenics\" có phiên âm /eugenics/ và mang nghĩa là \"Thuyết ưu sinh nguy hiểm\"."
+        "explanation": "\"Eugenics\" có phiên âm /ˌjuˈdʒe.nɪks/ và mang nghĩa là \"Thuyết ưu sinh nguy hiểm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Bioethics & Genetic Modification, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Therapeutic\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Therapeutic\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Therapeutic",
         "explanation": "\"Therapeutic\" (Mang tính trị bệnh thuần túy) là từ vựng chính xác trong ngữ cảnh chủ đề Bioethics & Genetic Modification."
       },
@@ -6310,7 +6310,7 @@ module.exports = [
       {
         "word": "Linguistic relativity",
         "meaning": "Thuyết tương đối ngôn ngữ",
-        "pronunciation": "/linguistic relativity/",
+        "pronunciation": "/ˌlɪŋˈɡwɪ.stɪk ˌre.ləˈtɪ.və.ti/",
         "partOfSpeech": "noun",
         "example": "I use Linguistic relativity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Linguistic relativity trong giao tiếp hàng ngày.",
@@ -6330,7 +6330,7 @@ module.exports = [
       {
         "word": "Perception",
         "meaning": "Tri giác thế giới khách quan",
-        "pronunciation": "/perception/",
+        "pronunciation": "/ˌpərˈsep.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Perception in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Perception trong giao tiếp hàng ngày.",
@@ -6340,7 +6340,7 @@ module.exports = [
       {
         "word": "Cognitive",
         "meaning": "Thuộc về nhận thức tâm trí",
-        "pronunciation": "/cognitive/",
+        "pronunciation": "/ˈkɑːɡ.nɪ.tɪv/",
         "partOfSpeech": "noun",
         "example": "I use Cognitive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cognitive trong giao tiếp hàng ngày.",
@@ -6350,7 +6350,7 @@ module.exports = [
       {
         "word": "Vocabulary",
         "meaning": "Hệ thống vốn từ vựng",
-        "pronunciation": "/vocabulary/",
+        "pronunciation": "/ˌvoʊˈkæb.jə.le.ri/",
         "partOfSpeech": "noun",
         "example": "I use Vocabulary in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Vocabulary trong giao tiếp hàng ngày.",
@@ -6360,7 +6360,7 @@ module.exports = [
       {
         "word": "Categorize",
         "meaning": "Phân loại thế giới xung quanh",
-        "pronunciation": "/categorize/",
+        "pronunciation": "/ˈkæ.tə.ɡər.aɪz/",
         "partOfSpeech": "noun",
         "example": "I use Categorize in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Categorize trong giao tiếp hàng ngày.",
@@ -6370,7 +6370,7 @@ module.exports = [
       {
         "word": "Worldview",
         "meaning": "Nhãn quan thế giới",
-        "pronunciation": "/worldview/",
+        "pronunciation": "/ˈwɜːrld.vju/",
         "partOfSpeech": "noun",
         "example": "I use Worldview in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Worldview trong giao tiếp hàng ngày.",
@@ -6380,7 +6380,7 @@ module.exports = [
       {
         "word": "Nuance",
         "meaning": "Sắc thái tinh vi của câu chữ",
-        "pronunciation": "/nuance/",
+        "pronunciation": "/ˈnuː.ɑːns/",
         "partOfSpeech": "noun",
         "example": "I use Nuance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Nuance trong giao tiếp hàng ngày.",
@@ -6390,7 +6390,7 @@ module.exports = [
       {
         "word": "Expressive",
         "meaning": "Tính biểu đạt sinh động",
-        "pronunciation": "/expressive/",
+        "pronunciation": "/ˌɪksˈpre.sɪv/",
         "partOfSpeech": "noun",
         "example": "I use Expressive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Expressive trong giao tiếp hàng ngày.",
@@ -6400,7 +6400,7 @@ module.exports = [
       {
         "word": "Universal",
         "meaning": "Tính phổ quát của ngôn ngữ",
-        "pronunciation": "/universal/",
+        "pronunciation": "/ˌju.nəˈvɜːr.səl/",
         "partOfSpeech": "noun",
         "example": "I use Universal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Universal trong giao tiếp hàng ngày.",
@@ -6425,7 +6425,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Linguistic relativity\\\" has a specific pronunciation: /linguistic relativity/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Linguistic relativity\\\" có phát âm cụ thể là /linguistic relativity/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sapir-Whorf\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sapir-Whorf\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Linguistic relativity\\\" has a specific pronunciation: /ˌlɪŋˈɡwɪ.stɪk ˌre.ləˈtɪ.və.ti/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Linguistic relativity\\\" có phát âm cụ thể là /ˌlɪŋˈɡwɪ.stɪk ˌre.ləˈtɪ.və.ti/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sapir-Whorf\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sapir-Whorf\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -6456,7 +6456,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Linguistic\",\"use\",\"daily\",\"I\",\"relativity\",\"in\"]",
+        "options": "[\"daily\",\"in\",\"relativity\",\"Linguistic\",\"use\",\"I\"]",
         "correctAnswer": "I use Linguistic relativity in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Linguistic relativity in daily\"."
       },
@@ -6506,9 +6506,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Linguistic relativity\" là gì?",
-        "options": "[\"Thuyết tương đối ngôn ngữ\",\"Giả thuyết Sapir-Whorf\",\"Thuộc về nhận thức tâm trí\",\"Tri giác thế giới khách quan\"]",
+        "options": "[\"Thuộc về nhận thức tâm trí\",\"Tri giác thế giới khách quan\",\"Giả thuyết Sapir-Whorf\",\"Thuyết tương đối ngôn ngữ\"]",
         "correctAnswer": "Thuyết tương đối ngôn ngữ",
-        "explanation": "\"Linguistic relativity\" có phiên âm /linguistic relativity/ và mang nghĩa là \"Thuyết tương đối ngôn ngữ\"."
+        "explanation": "\"Linguistic relativity\" có phiên âm /ˌlɪŋˈɡwɪ.stɪk ˌre.ləˈtɪ.və.ti/ và mang nghĩa là \"Thuyết tương đối ngôn ngữ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Linguistic Relativity & Thought, we need to practice _____.\"",
@@ -6524,13 +6524,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cognitive\" là gì?",
-        "options": "[\"Thuộc về nhận thức tâm trí\",\"Hệ thống vốn từ vựng\",\"Phân loại thế giới xung quanh\",\"Nhãn quan thế giới\"]",
+        "options": "[\"Hệ thống vốn từ vựng\",\"Thuộc về nhận thức tâm trí\",\"Phân loại thế giới xung quanh\",\"Nhãn quan thế giới\"]",
         "correctAnswer": "Thuộc về nhận thức tâm trí",
-        "explanation": "\"Cognitive\" có phiên âm /cognitive/ và mang nghĩa là \"Thuộc về nhận thức tâm trí\"."
+        "explanation": "\"Cognitive\" có phiên âm /ˈkɑːɡ.nɪ.tɪv/ và mang nghĩa là \"Thuộc về nhận thức tâm trí\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Linguistic Relativity & Thought, we need to practice _____.\"",
-        "options": "[\"Vocabulary\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Vocabulary\"]",
         "correctAnswer": "Vocabulary",
         "explanation": "\"Vocabulary\" (Hệ thống vốn từ vựng) là từ vựng chính xác trong ngữ cảnh chủ đề Linguistic Relativity & Thought."
       },
@@ -6542,13 +6542,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Worldview\" là gì?",
-        "options": "[\"Nhãn quan thế giới\",\"Sắc thái tinh vi của câu chữ\",\"Tính biểu đạt sinh động\",\"Tính phổ quát của ngôn ngữ\"]",
+        "options": "[\"Sắc thái tinh vi của câu chữ\",\"Nhãn quan thế giới\",\"Tính phổ quát của ngôn ngữ\",\"Tính biểu đạt sinh động\"]",
         "correctAnswer": "Nhãn quan thế giới",
-        "explanation": "\"Worldview\" có phiên âm /worldview/ và mang nghĩa là \"Nhãn quan thế giới\"."
+        "explanation": "\"Worldview\" có phiên âm /ˈwɜːrld.vju/ và mang nghĩa là \"Nhãn quan thế giới\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Linguistic Relativity & Thought, we need to practice _____.\"",
-        "options": "[\"Nuance\",\"airplanes\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Nuance\"]",
         "correctAnswer": "Nuance",
         "explanation": "\"Nuance\" (Sắc thái tinh vi của câu chữ) là từ vựng chính xác trong ngữ cảnh chủ đề Linguistic Relativity & Thought."
       },
@@ -6560,13 +6560,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Universal\" là gì?",
-        "options": "[\"Giả thuyết Sapir-Whorf\",\"Thuyết tương đối ngôn ngữ\",\"Tính phổ quát của ngôn ngữ\",\"Tri giác thế giới khách quan\"]",
+        "options": "[\"Giả thuyết Sapir-Whorf\",\"Tính phổ quát của ngôn ngữ\",\"Thuyết tương đối ngôn ngữ\",\"Tri giác thế giới khách quan\"]",
         "correctAnswer": "Tính phổ quát của ngôn ngữ",
-        "explanation": "\"Universal\" có phiên âm /universal/ và mang nghĩa là \"Tính phổ quát của ngôn ngữ\"."
+        "explanation": "\"Universal\" có phiên âm /ˌju.nəˈvɜːr.səl/ và mang nghĩa là \"Tính phổ quát của ngôn ngữ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Linguistic Relativity & Thought, we need to practice _____.\"",
-        "options": "[\"Linguistic relativity\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Linguistic relativity\"]",
         "correctAnswer": "Linguistic relativity",
         "explanation": "\"Linguistic relativity\" (Thuyết tương đối ngôn ngữ) là từ vựng chính xác trong ngữ cảnh chủ đề Linguistic Relativity & Thought."
       },
@@ -6578,13 +6578,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Perception\" là gì?",
-        "options": "[\"Hệ thống vốn từ vựng\",\"Thuộc về nhận thức tâm trí\",\"Phân loại thế giới xung quanh\",\"Tri giác thế giới khách quan\"]",
+        "options": "[\"Thuộc về nhận thức tâm trí\",\"Hệ thống vốn từ vựng\",\"Phân loại thế giới xung quanh\",\"Tri giác thế giới khách quan\"]",
         "correctAnswer": "Tri giác thế giới khách quan",
-        "explanation": "\"Perception\" có phiên âm /perception/ và mang nghĩa là \"Tri giác thế giới khách quan\"."
+        "explanation": "\"Perception\" có phiên âm /ˌpərˈsep.ʃən/ và mang nghĩa là \"Tri giác thế giới khách quan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Linguistic Relativity & Thought, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Cognitive\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"Cognitive\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Cognitive",
         "explanation": "\"Cognitive\" (Thuộc về nhận thức tâm trí) là từ vựng chính xác trong ngữ cảnh chủ đề Linguistic Relativity & Thought."
       },
@@ -6596,13 +6596,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Categorize\" là gì?",
-        "options": "[\"Phân loại thế giới xung quanh\",\"Tính biểu đạt sinh động\",\"Nhãn quan thế giới\",\"Sắc thái tinh vi của câu chữ\"]",
+        "options": "[\"Tính biểu đạt sinh động\",\"Phân loại thế giới xung quanh\",\"Nhãn quan thế giới\",\"Sắc thái tinh vi của câu chữ\"]",
         "correctAnswer": "Phân loại thế giới xung quanh",
-        "explanation": "\"Categorize\" có phiên âm /categorize/ và mang nghĩa là \"Phân loại thế giới xung quanh\"."
+        "explanation": "\"Categorize\" có phiên âm /ˈkæ.tə.ɡər.aɪz/ và mang nghĩa là \"Phân loại thế giới xung quanh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Linguistic Relativity & Thought, we need to practice _____.\"",
-        "options": "[\"Worldview\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Worldview\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Worldview",
         "explanation": "\"Worldview\" (Nhãn quan thế giới) là từ vựng chính xác trong ngữ cảnh chủ đề Linguistic Relativity & Thought."
       },
@@ -6625,7 +6625,7 @@ module.exports = [
       {
         "word": "Literary criticism",
         "meaning": "Phê bình văn học chuyên sâu",
-        "pronunciation": "/literary criticism/",
+        "pronunciation": "/ˈlɪ.tər.e.ri ˈkrɪ.tɪ.sɪ.zəm/",
         "partOfSpeech": "noun",
         "example": "I use Literary criticism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Literary criticism trong giao tiếp hàng ngày.",
@@ -6635,7 +6635,7 @@ module.exports = [
       {
         "word": "Deconstruction",
         "meaning": "Thuyết giải cấu trúc",
-        "pronunciation": "/deconstruction/",
+        "pronunciation": "/ˌdi.kənsˈtrʌk.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Deconstruction in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deconstruction trong giao tiếp hàng ngày.",
@@ -6645,7 +6645,7 @@ module.exports = [
       {
         "word": "Subtext",
         "meaning": "Tầng nghĩa ẩn dưới con chữ",
-        "pronunciation": "/subtext/",
+        "pronunciation": "/ˈsʌb.tekst/",
         "partOfSpeech": "noun",
         "example": "I use Subtext in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Subtext trong giao tiếp hàng ngày.",
@@ -6655,7 +6655,7 @@ module.exports = [
       {
         "word": "Motif",
         "meaning": "Mô-típ nghệ thuật lặp lại",
-        "pronunciation": "/motif/",
+        "pronunciation": "/moʊˈtiːf/",
         "partOfSpeech": "noun",
         "example": "I use Motif in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Motif trong giao tiếp hàng ngày.",
@@ -6665,7 +6665,7 @@ module.exports = [
       {
         "word": "Allegory",
         "meaning": "Câu chuyện mang tính ngụ ngôn",
-        "pronunciation": "/allegory/",
+        "pronunciation": "/ˈæ.lə.ɡɔː.ri/",
         "partOfSpeech": "noun",
         "example": "I use Allegory in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Allegory trong giao tiếp hàng ngày.",
@@ -6675,7 +6675,7 @@ module.exports = [
       {
         "word": "Metaphor",
         "meaning": "Ẩn dụ nghệ thuật sâu sắc",
-        "pronunciation": "/metaphor/",
+        "pronunciation": "/ˈme.tə.fɔːr/",
         "partOfSpeech": "noun",
         "example": "I use Metaphor in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Metaphor trong giao tiếp hàng ngày.",
@@ -6685,7 +6685,7 @@ module.exports = [
       {
         "word": "Irony",
         "meaning": "Nghệ thuật châm biếm mỉa mai",
-        "pronunciation": "/irony/",
+        "pronunciation": "/ˈaɪ.rə.ni/",
         "partOfSpeech": "noun",
         "example": "I use Irony in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Irony trong giao tiếp hàng ngày.",
@@ -6695,7 +6695,7 @@ module.exports = [
       {
         "word": "Canonical",
         "meaning": "Kinh điển được thừa nhận",
-        "pronunciation": "/canonical/",
+        "pronunciation": "/ˌkəˈnɑː.nə.kəl/",
         "partOfSpeech": "noun",
         "example": "I use Canonical in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Canonical trong giao tiếp hàng ngày.",
@@ -6705,7 +6705,7 @@ module.exports = [
       {
         "word": "Narrative",
         "meaning": "Cốt truyện tự sự",
-        "pronunciation": "/narrative/",
+        "pronunciation": "/ˈnæ.rə.tɪv/",
         "partOfSpeech": "noun",
         "example": "I use Narrative in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Narrative trong giao tiếp hàng ngày.",
@@ -6715,7 +6715,7 @@ module.exports = [
       {
         "word": "Interpretation",
         "meaning": "Sự diễn giải tác phẩm",
-        "pronunciation": "/interpretation/",
+        "pronunciation": "/ˌɪn.tər.prɪˈteɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Interpretation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Interpretation trong giao tiếp hàng ngày.",
@@ -6740,7 +6740,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Literary criticism\\\" has a specific pronunciation: /literary criticism/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Literary criticism\\\" có phát âm cụ thể là /literary criticism/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Deconstruction\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Deconstruction\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Literary criticism\\\" has a specific pronunciation: /ˈlɪ.tər.e.ri ˈkrɪ.tɪ.sɪ.zəm/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Literary criticism\\\" có phát âm cụ thể là /ˈlɪ.tər.e.ri ˈkrɪ.tɪ.sɪ.zəm/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Deconstruction\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Deconstruction\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -6771,7 +6771,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"in\",\"criticism\",\"Literary\",\"use\",\"I\"]",
+        "options": "[\"use\",\"in\",\"criticism\",\"daily\",\"Literary\",\"I\"]",
         "correctAnswer": "I use Literary criticism in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Literary criticism in daily\"."
       },
@@ -6787,7 +6787,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Deconstruction\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Deconstruction",
-        "explanation": "Phát âm chuẩn IPA của từ là /deconstruction/ - \"Deconstruction\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌdi.kənsˈtrʌk.ʃən/ - \"Deconstruction\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6821,13 +6821,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Literary criticism\" là gì?",
-        "options": "[\"Phê bình văn học chuyên sâu\",\"Tầng nghĩa ẩn dưới con chữ\",\"Mô-típ nghệ thuật lặp lại\",\"Thuyết giải cấu trúc\"]",
+        "options": "[\"Tầng nghĩa ẩn dưới con chữ\",\"Thuyết giải cấu trúc\",\"Mô-típ nghệ thuật lặp lại\",\"Phê bình văn học chuyên sâu\"]",
         "correctAnswer": "Phê bình văn học chuyên sâu",
-        "explanation": "\"Literary criticism\" có phiên âm /literary criticism/ và mang nghĩa là \"Phê bình văn học chuyên sâu\"."
+        "explanation": "\"Literary criticism\" có phiên âm /ˈlɪ.tər.e.ri ˈkrɪ.tɪ.sɪ.zəm/ và mang nghĩa là \"Phê bình văn học chuyên sâu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Literary Criticism & Deconstruction, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Deconstruction\",\"umbrellas\"]",
+        "options": "[\"Deconstruction\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Deconstruction",
         "explanation": "\"Deconstruction\" (Thuyết giải cấu trúc) là từ vựng chính xác trong ngữ cảnh chủ đề Literary Criticism & Deconstruction."
       },
@@ -6839,13 +6839,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Motif\" là gì?",
-        "options": "[\"Mô-típ nghệ thuật lặp lại\",\"Câu chuyện mang tính ngụ ngôn\",\"Ẩn dụ nghệ thuật sâu sắc\",\"Nghệ thuật châm biếm mỉa mai\"]",
+        "options": "[\"Mô-típ nghệ thuật lặp lại\",\"Câu chuyện mang tính ngụ ngôn\",\"Nghệ thuật châm biếm mỉa mai\",\"Ẩn dụ nghệ thuật sâu sắc\"]",
         "correctAnswer": "Mô-típ nghệ thuật lặp lại",
-        "explanation": "\"Motif\" có phiên âm /motif/ và mang nghĩa là \"Mô-típ nghệ thuật lặp lại\"."
+        "explanation": "\"Motif\" có phiên âm /moʊˈtiːf/ và mang nghĩa là \"Mô-típ nghệ thuật lặp lại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Literary Criticism & Deconstruction, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Allegory\",\"airplanes\",\"bananas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Allegory\"]",
         "correctAnswer": "Allegory",
         "explanation": "\"Allegory\" (Câu chuyện mang tính ngụ ngôn) là từ vựng chính xác trong ngữ cảnh chủ đề Literary Criticism & Deconstruction."
       },
@@ -6857,13 +6857,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Irony\" là gì?",
-        "options": "[\"Cốt truyện tự sự\",\"Kinh điển được thừa nhận\",\"Nghệ thuật châm biếm mỉa mai\",\"Sự diễn giải tác phẩm\"]",
+        "options": "[\"Sự diễn giải tác phẩm\",\"Nghệ thuật châm biếm mỉa mai\",\"Kinh điển được thừa nhận\",\"Cốt truyện tự sự\"]",
         "correctAnswer": "Nghệ thuật châm biếm mỉa mai",
-        "explanation": "\"Irony\" có phiên âm /irony/ và mang nghĩa là \"Nghệ thuật châm biếm mỉa mai\"."
+        "explanation": "\"Irony\" có phiên âm /ˈaɪ.rə.ni/ và mang nghĩa là \"Nghệ thuật châm biếm mỉa mai\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Literary Criticism & Deconstruction, we need to practice _____.\"",
-        "options": "[\"Canonical\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Canonical\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Canonical",
         "explanation": "\"Canonical\" (Kinh điển được thừa nhận) là từ vựng chính xác trong ngữ cảnh chủ đề Literary Criticism & Deconstruction."
       },
@@ -6875,13 +6875,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Interpretation\" là gì?",
-        "options": "[\"Tầng nghĩa ẩn dưới con chữ\",\"Thuyết giải cấu trúc\",\"Phê bình văn học chuyên sâu\",\"Sự diễn giải tác phẩm\"]",
+        "options": "[\"Phê bình văn học chuyên sâu\",\"Thuyết giải cấu trúc\",\"Sự diễn giải tác phẩm\",\"Tầng nghĩa ẩn dưới con chữ\"]",
         "correctAnswer": "Sự diễn giải tác phẩm",
-        "explanation": "\"Interpretation\" có phiên âm /interpretation/ và mang nghĩa là \"Sự diễn giải tác phẩm\"."
+        "explanation": "\"Interpretation\" có phiên âm /ˌɪn.tər.prɪˈteɪ.ʃən/ và mang nghĩa là \"Sự diễn giải tác phẩm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Literary Criticism & Deconstruction, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"Literary criticism\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Literary criticism\"]",
         "correctAnswer": "Literary criticism",
         "explanation": "\"Literary criticism\" (Phê bình văn học chuyên sâu) là từ vựng chính xác trong ngữ cảnh chủ đề Literary Criticism & Deconstruction."
       },
@@ -6893,13 +6893,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Subtext\" là gì?",
-        "options": "[\"Ẩn dụ nghệ thuật sâu sắc\",\"Tầng nghĩa ẩn dưới con chữ\",\"Mô-típ nghệ thuật lặp lại\",\"Câu chuyện mang tính ngụ ngôn\"]",
+        "options": "[\"Mô-típ nghệ thuật lặp lại\",\"Ẩn dụ nghệ thuật sâu sắc\",\"Câu chuyện mang tính ngụ ngôn\",\"Tầng nghĩa ẩn dưới con chữ\"]",
         "correctAnswer": "Tầng nghĩa ẩn dưới con chữ",
-        "explanation": "\"Subtext\" có phiên âm /subtext/ và mang nghĩa là \"Tầng nghĩa ẩn dưới con chữ\"."
+        "explanation": "\"Subtext\" có phiên âm /ˈsʌb.tekst/ và mang nghĩa là \"Tầng nghĩa ẩn dưới con chữ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Literary Criticism & Deconstruction, we need to practice _____.\"",
-        "options": "[\"Motif\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Motif\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Motif",
         "explanation": "\"Motif\" (Mô-típ nghệ thuật lặp lại) là từ vựng chính xác trong ngữ cảnh chủ đề Literary Criticism & Deconstruction."
       },
@@ -6911,13 +6911,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Metaphor\" là gì?",
-        "options": "[\"Ẩn dụ nghệ thuật sâu sắc\",\"Cốt truyện tự sự\",\"Nghệ thuật châm biếm mỉa mai\",\"Kinh điển được thừa nhận\"]",
+        "options": "[\"Ẩn dụ nghệ thuật sâu sắc\",\"Nghệ thuật châm biếm mỉa mai\",\"Cốt truyện tự sự\",\"Kinh điển được thừa nhận\"]",
         "correctAnswer": "Ẩn dụ nghệ thuật sâu sắc",
-        "explanation": "\"Metaphor\" có phiên âm /metaphor/ và mang nghĩa là \"Ẩn dụ nghệ thuật sâu sắc\"."
+        "explanation": "\"Metaphor\" có phiên âm /ˈme.tə.fɔːr/ và mang nghĩa là \"Ẩn dụ nghệ thuật sâu sắc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Literary Criticism & Deconstruction, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Irony\"]",
+        "options": "[\"Irony\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Irony",
         "explanation": "\"Irony\" (Nghệ thuật châm biếm mỉa mai) là từ vựng chính xác trong ngữ cảnh chủ đề Literary Criticism & Deconstruction."
       },
@@ -6940,7 +6940,7 @@ module.exports = [
       {
         "word": "Rhetoric",
         "meaning": "Nghệ thuật hùng biện tu từ",
-        "pronunciation": "/rhetoric/",
+        "pronunciation": "/ˈre.tər.ɪk/",
         "partOfSpeech": "noun",
         "example": "I use Rhetoric in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rhetoric trong giao tiếp hàng ngày.",
@@ -6950,7 +6950,7 @@ module.exports = [
       {
         "word": "Anaphora",
         "meaning": "Phép điệp từ đầu câu",
-        "pronunciation": "/anaphora/",
+        "pronunciation": "/ˌəˈnæ.fər.ə/",
         "partOfSpeech": "noun",
         "example": "I use Anaphora in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Anaphora trong giao tiếp hàng ngày.",
@@ -6960,7 +6960,7 @@ module.exports = [
       {
         "word": "Chiasmus",
         "meaning": "Cấu trúc chéo đối ngẫu",
-        "pronunciation": "/chiasmus/",
+        "pronunciation": "/ˌtʃiˈæs.məs/",
         "partOfSpeech": "noun",
         "example": "I use Chiasmus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Chiasmus trong giao tiếp hàng ngày.",
@@ -6970,7 +6970,7 @@ module.exports = [
       {
         "word": "Antithesis",
         "meaning": "Phép tương phản đối lập",
-        "pronunciation": "/antithesis/",
+        "pronunciation": "/ˌænˈtɪ.θə.səs/",
         "partOfSpeech": "noun",
         "example": "I use Antithesis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Antithesis trong giao tiếp hàng ngày.",
@@ -6980,7 +6980,7 @@ module.exports = [
       {
         "word": "Hyperbole",
         "meaning": "Phép nói quá cường điệu",
-        "pronunciation": "/hyperbole/",
+        "pronunciation": "/ˌhaɪˈpɜːr.bə.li/",
         "partOfSpeech": "noun",
         "example": "I use Hyperbole in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hyperbole trong giao tiếp hàng ngày.",
@@ -6990,7 +6990,7 @@ module.exports = [
       {
         "word": "Cadence",
         "meaning": "Nhịp điệu giọng đọc uyển chuyển",
-        "pronunciation": "/cadence/",
+        "pronunciation": "/ˈkeɪ.dəns/",
         "partOfSpeech": "noun",
         "example": "I use Cadence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cadence trong giao tiếp hàng ngày.",
@@ -7000,7 +7000,7 @@ module.exports = [
       {
         "word": "Eloquence",
         "meaning": "Tài hùng biện lưu loát",
-        "pronunciation": "/eloquence/",
+        "pronunciation": "/ˈe.lək.wəns/",
         "partOfSpeech": "noun",
         "example": "I use Eloquence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eloquence trong giao tiếp hàng ngày.",
@@ -7010,7 +7010,7 @@ module.exports = [
       {
         "word": "Oratory",
         "meaning": "Nghệ thuật diễn thuyết",
-        "pronunciation": "/oratory/",
+        "pronunciation": "/ˈɔː.rə.tɔː.ri/",
         "partOfSpeech": "noun",
         "example": "I use Oratory in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Oratory trong giao tiếp hàng ngày.",
@@ -7020,7 +7020,7 @@ module.exports = [
       {
         "word": "Persuasion",
         "meaning": "Sức thuyết phục mê hoặc",
-        "pronunciation": "/persuasion/",
+        "pronunciation": "/ˌpərsˈweɪ.ʒən/",
         "partOfSpeech": "noun",
         "example": "I use Persuasion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Persuasion trong giao tiếp hàng ngày.",
@@ -7030,7 +7030,7 @@ module.exports = [
       {
         "word": "Device",
         "meaning": "Biện pháp tu từ",
-        "pronunciation": "/device/",
+        "pronunciation": "/dɪˈvaɪs/",
         "partOfSpeech": "noun",
         "example": "I use Device in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Device trong giao tiếp hàng ngày.",
@@ -7055,7 +7055,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Rhetoric\\\" has a specific pronunciation: /rhetoric/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Rhetoric\\\" có phát âm cụ thể là /rhetoric/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Anaphora\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Anaphora\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Rhetoric\\\" has a specific pronunciation: /ˈre.tər.ɪk/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Rhetoric\\\" có phát âm cụ thể là /ˈre.tər.ɪk/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Anaphora\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Anaphora\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -7086,7 +7086,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Rhetoric\",\"daily\",\"in\",\"conversation\"]",
+        "options": "[\"I\",\"Rhetoric\",\"in\",\"conversation\",\"use\",\"daily\"]",
         "correctAnswer": "I use Rhetoric in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Rhetoric in daily conversation\"."
       },
@@ -7102,7 +7102,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Anaphora\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Anaphora",
-        "explanation": "Phát âm chuẩn IPA của từ là /anaphora/ - \"Anaphora\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌəˈnæ.fər.ə/ - \"Anaphora\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7136,13 +7136,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Rhetoric\" là gì?",
-        "options": "[\"Nghệ thuật hùng biện tu từ\",\"Phép tương phản đối lập\",\"Phép điệp từ đầu câu\",\"Cấu trúc chéo đối ngẫu\"]",
+        "options": "[\"Phép tương phản đối lập\",\"Cấu trúc chéo đối ngẫu\",\"Phép điệp từ đầu câu\",\"Nghệ thuật hùng biện tu từ\"]",
         "correctAnswer": "Nghệ thuật hùng biện tu từ",
-        "explanation": "\"Rhetoric\" có phiên âm /rhetoric/ và mang nghĩa là \"Nghệ thuật hùng biện tu từ\"."
+        "explanation": "\"Rhetoric\" có phiên âm /ˈre.tər.ɪk/ và mang nghĩa là \"Nghệ thuật hùng biện tu từ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Rhetorical Devices, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Anaphora\",\"airplanes\"]",
+        "options": "[\"Anaphora\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Anaphora",
         "explanation": "\"Anaphora\" (Phép điệp từ đầu câu) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Rhetorical Devices."
       },
@@ -7154,13 +7154,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Antithesis\" là gì?",
-        "options": "[\"Phép tương phản đối lập\",\"Tài hùng biện lưu loát\",\"Phép nói quá cường điệu\",\"Nhịp điệu giọng đọc uyển chuyển\"]",
+        "options": "[\"Phép nói quá cường điệu\",\"Phép tương phản đối lập\",\"Nhịp điệu giọng đọc uyển chuyển\",\"Tài hùng biện lưu loát\"]",
         "correctAnswer": "Phép tương phản đối lập",
-        "explanation": "\"Antithesis\" có phiên âm /antithesis/ và mang nghĩa là \"Phép tương phản đối lập\"."
+        "explanation": "\"Antithesis\" có phiên âm /ˌænˈtɪ.θə.səs/ và mang nghĩa là \"Phép tương phản đối lập\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Rhetorical Devices, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Hyperbole\",\"bananas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Hyperbole\",\"airplanes\"]",
         "correctAnswer": "Hyperbole",
         "explanation": "\"Hyperbole\" (Phép nói quá cường điệu) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Rhetorical Devices."
       },
@@ -7172,9 +7172,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eloquence\" là gì?",
-        "options": "[\"Tài hùng biện lưu loát\",\"Biện pháp tu từ\",\"Nghệ thuật diễn thuyết\",\"Sức thuyết phục mê hoặc\"]",
+        "options": "[\"Nghệ thuật diễn thuyết\",\"Tài hùng biện lưu loát\",\"Biện pháp tu từ\",\"Sức thuyết phục mê hoặc\"]",
         "correctAnswer": "Tài hùng biện lưu loát",
-        "explanation": "\"Eloquence\" có phiên âm /eloquence/ và mang nghĩa là \"Tài hùng biện lưu loát\"."
+        "explanation": "\"Eloquence\" có phiên âm /ˈe.lək.wəns/ và mang nghĩa là \"Tài hùng biện lưu loát\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Rhetorical Devices, we need to practice _____.\"",
@@ -7190,13 +7190,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Device\" là gì?",
-        "options": "[\"Phép điệp từ đầu câu\",\"Nghệ thuật hùng biện tu từ\",\"Cấu trúc chéo đối ngẫu\",\"Biện pháp tu từ\"]",
+        "options": "[\"Biện pháp tu từ\",\"Nghệ thuật hùng biện tu từ\",\"Cấu trúc chéo đối ngẫu\",\"Phép điệp từ đầu câu\"]",
         "correctAnswer": "Biện pháp tu từ",
-        "explanation": "\"Device\" có phiên âm /device/ và mang nghĩa là \"Biện pháp tu từ\"."
+        "explanation": "\"Device\" có phiên âm /dɪˈvaɪs/ và mang nghĩa là \"Biện pháp tu từ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Rhetorical Devices, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Rhetoric\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Rhetoric\"]",
         "correctAnswer": "Rhetoric",
         "explanation": "\"Rhetoric\" (Nghệ thuật hùng biện tu từ) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Rhetorical Devices."
       },
@@ -7208,13 +7208,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Chiasmus\" là gì?",
-        "options": "[\"Phép tương phản đối lập\",\"Nhịp điệu giọng đọc uyển chuyển\",\"Phép nói quá cường điệu\",\"Cấu trúc chéo đối ngẫu\"]",
+        "options": "[\"Cấu trúc chéo đối ngẫu\",\"Phép tương phản đối lập\",\"Phép nói quá cường điệu\",\"Nhịp điệu giọng đọc uyển chuyển\"]",
         "correctAnswer": "Cấu trúc chéo đối ngẫu",
-        "explanation": "\"Chiasmus\" có phiên âm /chiasmus/ và mang nghĩa là \"Cấu trúc chéo đối ngẫu\"."
+        "explanation": "\"Chiasmus\" có phiên âm /ˌtʃiˈæs.məs/ và mang nghĩa là \"Cấu trúc chéo đối ngẫu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Rhetorical Devices, we need to practice _____.\"",
-        "options": "[\"Antithesis\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Antithesis\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Antithesis",
         "explanation": "\"Antithesis\" (Phép tương phản đối lập) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Rhetorical Devices."
       },
@@ -7226,13 +7226,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cadence\" là gì?",
-        "options": "[\"Tài hùng biện lưu loát\",\"Sức thuyết phục mê hoặc\",\"Nhịp điệu giọng đọc uyển chuyển\",\"Nghệ thuật diễn thuyết\"]",
+        "options": "[\"Nghệ thuật diễn thuyết\",\"Tài hùng biện lưu loát\",\"Nhịp điệu giọng đọc uyển chuyển\",\"Sức thuyết phục mê hoặc\"]",
         "correctAnswer": "Nhịp điệu giọng đọc uyển chuyển",
-        "explanation": "\"Cadence\" có phiên âm /cadence/ và mang nghĩa là \"Nhịp điệu giọng đọc uyển chuyển\"."
+        "explanation": "\"Cadence\" có phiên âm /ˈkeɪ.dəns/ và mang nghĩa là \"Nhịp điệu giọng đọc uyển chuyển\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Rhetorical Devices, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Eloquence\"]",
+        "options": "[\"umbrellas\",\"Eloquence\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Eloquence",
         "explanation": "\"Eloquence\" (Tài hùng biện lưu loát) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Rhetorical Devices."
       },
@@ -7255,7 +7255,7 @@ module.exports = [
       {
         "word": "Keynote",
         "meaning": "Bài phát biểu chủ chốt khai mạc",
-        "pronunciation": "/keynote/",
+        "pronunciation": "/ˈkiː.noʊt/",
         "partOfSpeech": "noun",
         "example": "I use Keynote in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Keynote trong giao tiếp hàng ngày.",
@@ -7265,7 +7265,7 @@ module.exports = [
       {
         "word": "Stage presence",
         "meaning": "Thần thái làm chủ sân khấu",
-        "pronunciation": "/stage presence/",
+        "pronunciation": "/ˈsteɪdʒ ˈpre.zəns/",
         "partOfSpeech": "noun",
         "example": "I use Stage presence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stage presence trong giao tiếp hàng ngày.",
@@ -7275,7 +7275,7 @@ module.exports = [
       {
         "word": "Poise",
         "meaning": "Sự ung dung đĩnh đạc",
-        "pronunciation": "/poise/",
+        "pronunciation": "/ˈpɔɪz/",
         "partOfSpeech": "noun",
         "example": "I use Poise in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Poise trong giao tiếp hàng ngày.",
@@ -7285,7 +7285,7 @@ module.exports = [
       {
         "word": "Resonate",
         "meaning": "Gợi sự đồng cảm rung động",
-        "pronunciation": "/resonate/",
+        "pronunciation": "/ˈre.zə.neɪt/",
         "partOfSpeech": "noun",
         "example": "I use Resonate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Resonate trong giao tiếp hàng ngày.",
@@ -7295,7 +7295,7 @@ module.exports = [
       {
         "word": "Insight",
         "meaning": "Góc nhìn thấu suốt sâu sắc",
-        "pronunciation": "/insight/",
+        "pronunciation": "/ˈɪn.saɪt/",
         "partOfSpeech": "noun",
         "example": "I use Insight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Insight trong giao tiếp hàng ngày.",
@@ -7305,7 +7305,7 @@ module.exports = [
       {
         "word": "Captivate",
         "meaning": "Thu hút hớp hồn người nghe",
-        "pronunciation": "/captivate/",
+        "pronunciation": "/ˈkæp.tɪ.veɪt/",
         "partOfSpeech": "noun",
         "example": "I use Captivate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Captivate trong giao tiếp hàng ngày.",
@@ -7315,7 +7315,7 @@ module.exports = [
       {
         "word": "Delivery",
         "meaning": "Cách truyền tải thông điệp",
-        "pronunciation": "/delivery/",
+        "pronunciation": "/ˌdɪˈlɪ.vər.i/",
         "partOfSpeech": "noun",
         "example": "I use Delivery in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Delivery trong giao tiếp hàng ngày.",
@@ -7325,7 +7325,7 @@ module.exports = [
       {
         "word": "Audience engagement",
         "meaning": "Gắn kết khán thính giả",
-        "pronunciation": "/audience engagement/",
+        "pronunciation": "/ˈɑː.di.əns ˌenˈɡeɪdʒ.mənt/",
         "partOfSpeech": "noun",
         "example": "I use Audience engagement in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Audience engagement trong giao tiếp hàng ngày.",
@@ -7335,7 +7335,7 @@ module.exports = [
       {
         "word": "Impact",
         "meaning": "Dấu ấn sâu đậm để lại",
-        "pronunciation": "/impact/",
+        "pronunciation": "/ɪmˈpækt/",
         "partOfSpeech": "noun",
         "example": "I use Impact in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Impact trong giao tiếp hàng ngày.",
@@ -7345,7 +7345,7 @@ module.exports = [
       {
         "word": "Inspirational",
         "meaning": "Mang tính truyền cảm hứng lớn",
-        "pronunciation": "/inspirational/",
+        "pronunciation": "/ˌɪn.spərˈeɪ.ʃə.nəl/",
         "partOfSpeech": "noun",
         "example": "I use Inspirational in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Inspirational trong giao tiếp hàng ngày.",
@@ -7370,7 +7370,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Keynote\\\" has a specific pronunciation: /keynote/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Keynote\\\" có phát âm cụ thể là /keynote/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Stage presence\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Stage presence\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Keynote\\\" has a specific pronunciation: /ˈkiː.noʊt/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Keynote\\\" có phát âm cụ thể là /ˈkiː.noʊt/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Stage presence\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Stage presence\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -7401,7 +7401,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Keynote\",\"in\",\"daily\",\"use\",\"conversation\",\"I\"]",
+        "options": "[\"I\",\"use\",\"Keynote\",\"in\",\"conversation\",\"daily\"]",
         "correctAnswer": "I use Keynote in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Keynote in daily conversation\"."
       },
@@ -7417,7 +7417,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Stage presence\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Stage presence",
-        "explanation": "Phát âm chuẩn IPA của từ là /stage presence/ - \"Stage presence\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈsteɪdʒ ˈpre.zəns/ - \"Stage presence\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7451,13 +7451,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Keynote\" là gì?",
-        "options": "[\"Gợi sự đồng cảm rung động\",\"Bài phát biểu chủ chốt khai mạc\",\"Sự ung dung đĩnh đạc\",\"Thần thái làm chủ sân khấu\"]",
+        "options": "[\"Bài phát biểu chủ chốt khai mạc\",\"Thần thái làm chủ sân khấu\",\"Sự ung dung đĩnh đạc\",\"Gợi sự đồng cảm rung động\"]",
         "correctAnswer": "Bài phát biểu chủ chốt khai mạc",
-        "explanation": "\"Keynote\" có phiên âm /keynote/ và mang nghĩa là \"Bài phát biểu chủ chốt khai mạc\"."
+        "explanation": "\"Keynote\" có phiên âm /ˈkiː.noʊt/ và mang nghĩa là \"Bài phát biểu chủ chốt khai mạc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Delivering International Keynotes, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Stage presence\"]",
+        "options": "[\"umbrellas\",\"Stage presence\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Stage presence",
         "explanation": "\"Stage presence\" (Thần thái làm chủ sân khấu) là từ vựng chính xác trong ngữ cảnh chủ đề Delivering International Keynotes."
       },
@@ -7469,13 +7469,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Resonate\" là gì?",
-        "options": "[\"Góc nhìn thấu suốt sâu sắc\",\"Cách truyền tải thông điệp\",\"Gợi sự đồng cảm rung động\",\"Thu hút hớp hồn người nghe\"]",
+        "options": "[\"Thu hút hớp hồn người nghe\",\"Góc nhìn thấu suốt sâu sắc\",\"Cách truyền tải thông điệp\",\"Gợi sự đồng cảm rung động\"]",
         "correctAnswer": "Gợi sự đồng cảm rung động",
-        "explanation": "\"Resonate\" có phiên âm /resonate/ và mang nghĩa là \"Gợi sự đồng cảm rung động\"."
+        "explanation": "\"Resonate\" có phiên âm /ˈre.zə.neɪt/ và mang nghĩa là \"Gợi sự đồng cảm rung động\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Delivering International Keynotes, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Insight\"]",
+        "options": "[\"bananas\",\"Insight\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Insight",
         "explanation": "\"Insight\" (Góc nhìn thấu suốt sâu sắc) là từ vựng chính xác trong ngữ cảnh chủ đề Delivering International Keynotes."
       },
@@ -7489,7 +7489,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Delivery\" là gì?",
         "options": "[\"Mang tính truyền cảm hứng lớn\",\"Dấu ấn sâu đậm để lại\",\"Gắn kết khán thính giả\",\"Cách truyền tải thông điệp\"]",
         "correctAnswer": "Cách truyền tải thông điệp",
-        "explanation": "\"Delivery\" có phiên âm /delivery/ và mang nghĩa là \"Cách truyền tải thông điệp\"."
+        "explanation": "\"Delivery\" có phiên âm /ˌdɪˈlɪ.vər.i/ và mang nghĩa là \"Cách truyền tải thông điệp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Delivering International Keynotes, we need to practice _____.\"",
@@ -7505,13 +7505,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Inspirational\" là gì?",
-        "options": "[\"Sự ung dung đĩnh đạc\",\"Bài phát biểu chủ chốt khai mạc\",\"Thần thái làm chủ sân khấu\",\"Mang tính truyền cảm hứng lớn\"]",
+        "options": "[\"Mang tính truyền cảm hứng lớn\",\"Bài phát biểu chủ chốt khai mạc\",\"Thần thái làm chủ sân khấu\",\"Sự ung dung đĩnh đạc\"]",
         "correctAnswer": "Mang tính truyền cảm hứng lớn",
-        "explanation": "\"Inspirational\" có phiên âm /inspirational/ và mang nghĩa là \"Mang tính truyền cảm hứng lớn\"."
+        "explanation": "\"Inspirational\" có phiên âm /ˌɪn.spərˈeɪ.ʃə.nəl/ và mang nghĩa là \"Mang tính truyền cảm hứng lớn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Delivering International Keynotes, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Keynote\"]",
+        "options": "[\"Keynote\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Keynote",
         "explanation": "\"Keynote\" (Bài phát biểu chủ chốt khai mạc) là từ vựng chính xác trong ngữ cảnh chủ đề Delivering International Keynotes."
       },
@@ -7523,13 +7523,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Poise\" là gì?",
-        "options": "[\"Thu hút hớp hồn người nghe\",\"Góc nhìn thấu suốt sâu sắc\",\"Gợi sự đồng cảm rung động\",\"Sự ung dung đĩnh đạc\"]",
+        "options": "[\"Sự ung dung đĩnh đạc\",\"Thu hút hớp hồn người nghe\",\"Gợi sự đồng cảm rung động\",\"Góc nhìn thấu suốt sâu sắc\"]",
         "correctAnswer": "Sự ung dung đĩnh đạc",
-        "explanation": "\"Poise\" có phiên âm /poise/ và mang nghĩa là \"Sự ung dung đĩnh đạc\"."
+        "explanation": "\"Poise\" có phiên âm /ˈpɔɪz/ và mang nghĩa là \"Sự ung dung đĩnh đạc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Delivering International Keynotes, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Resonate\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Resonate\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Resonate",
         "explanation": "\"Resonate\" (Gợi sự đồng cảm rung động) là từ vựng chính xác trong ngữ cảnh chủ đề Delivering International Keynotes."
       },
@@ -7541,13 +7541,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Captivate\" là gì?",
-        "options": "[\"Gắn kết khán thính giả\",\"Cách truyền tải thông điệp\",\"Thu hút hớp hồn người nghe\",\"Dấu ấn sâu đậm để lại\"]",
+        "options": "[\"Thu hút hớp hồn người nghe\",\"Dấu ấn sâu đậm để lại\",\"Cách truyền tải thông điệp\",\"Gắn kết khán thính giả\"]",
         "correctAnswer": "Thu hút hớp hồn người nghe",
-        "explanation": "\"Captivate\" có phiên âm /captivate/ và mang nghĩa là \"Thu hút hớp hồn người nghe\"."
+        "explanation": "\"Captivate\" có phiên âm /ˈkæp.tɪ.veɪt/ và mang nghĩa là \"Thu hút hớp hồn người nghe\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Delivering International Keynotes, we need to practice _____.\"",
-        "options": "[\"Delivery\",\"umbrellas\",\"airplanes\",\"bananas\"]",
+        "options": "[\"umbrellas\",\"Delivery\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Delivery",
         "explanation": "\"Delivery\" (Cách truyền tải thông điệp) là từ vựng chính xác trong ngữ cảnh chủ đề Delivering International Keynotes."
       },
@@ -7570,7 +7570,7 @@ module.exports = [
       {
         "word": "Symposium",
         "meaning": "Hội nghị chuyên đề khoa học",
-        "pronunciation": "/symposium/",
+        "pronunciation": "/ˌsɪmˈpoʊ.zi.əm/",
         "partOfSpeech": "noun",
         "example": "I use Symposium in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Symposium trong giao tiếp hàng ngày.",
@@ -7580,7 +7580,7 @@ module.exports = [
       {
         "word": "Moderator",
         "meaning": "Người điều phối chương trình",
-        "pronunciation": "/moderator/",
+        "pronunciation": "/ˈmɑː.dər.eɪ.tər/",
         "partOfSpeech": "noun",
         "example": "I use Moderator in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Moderator trong giao tiếp hàng ngày.",
@@ -7590,7 +7590,7 @@ module.exports = [
       {
         "word": "Panelist",
         "meaning": "Khách mời tham gia tọa đàm",
-        "pronunciation": "/panelist/",
+        "pronunciation": "/ˈpæ.nə.ləst/",
         "partOfSpeech": "noun",
         "example": "I use Panelist in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Panelist trong giao tiếp hàng ngày.",
@@ -7600,7 +7600,7 @@ module.exports = [
       {
         "word": "Synthesize",
         "meaning": "Tổng hợp các luồng ý kiến",
-        "pronunciation": "/synthesize/",
+        "pronunciation": "/ˈsɪn.θə.saɪz/",
         "partOfSpeech": "noun",
         "example": "I use Synthesize in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Synthesize trong giao tiếp hàng ngày.",
@@ -7610,7 +7610,7 @@ module.exports = [
       {
         "word": "Divergent",
         "meaning": "Bất đồng, phân nhánh ý kiến",
-        "pronunciation": "/divergent/",
+        "pronunciation": "/ˌdaɪˈvɜːr.dʒənt/",
         "partOfSpeech": "noun",
         "example": "I use Divergent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Divergent trong giao tiếp hàng ngày.",
@@ -7620,7 +7620,7 @@ module.exports = [
       {
         "word": "Intervene",
         "meaning": "Can thiệp tế nhị khi quá giờ",
-        "pronunciation": "/intervene/",
+        "pronunciation": "/ˌɪn.tərˈviːn/",
         "partOfSpeech": "noun",
         "example": "I use Intervene in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Intervene trong giao tiếp hàng ngày.",
@@ -7630,7 +7630,7 @@ module.exports = [
       {
         "word": "Facilitate",
         "meaning": "Tạo điều kiện thảo luận thuận lợi",
-        "pronunciation": "/facilitate/",
+        "pronunciation": "/ˌfəˈsɪ.lə.teɪt/",
         "partOfSpeech": "noun",
         "example": "I use Facilitate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Facilitate trong giao tiếp hàng ngày.",
@@ -7640,7 +7640,7 @@ module.exports = [
       {
         "word": "Pacing",
         "meaning": "Nhịp độ diễn tiến chương trình",
-        "pronunciation": "/pacing/",
+        "pronunciation": "/ˈpeɪ.sɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Pacing in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pacing trong giao tiếp hàng ngày.",
@@ -7650,7 +7650,7 @@ module.exports = [
       {
         "word": "Wrap up",
         "meaning": "Đúc kết cô đọng kết thúc",
-        "pronunciation": "/wrap up/",
+        "pronunciation": "/ˈræp ˈʌp/",
         "partOfSpeech": "noun",
         "example": "I use Wrap up in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wrap up trong giao tiếp hàng ngày.",
@@ -7660,7 +7660,7 @@ module.exports = [
       {
         "word": "Consensus",
         "meaning": "Điểm chung đạt được",
-        "pronunciation": "/consensus/",
+        "pronunciation": "/ˌkənˈsen.səs/",
         "partOfSpeech": "noun",
         "example": "I use Consensus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consensus trong giao tiếp hàng ngày.",
@@ -7685,7 +7685,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Symposium\\\" has a specific pronunciation: /symposium/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Symposium\\\" có phát âm cụ thể là /symposium/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Moderator\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Moderator\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Symposium\\\" has a specific pronunciation: /ˌsɪmˈpoʊ.zi.əm/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Symposium\\\" có phát âm cụ thể là /ˌsɪmˈpoʊ.zi.əm/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Moderator\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Moderator\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -7716,7 +7716,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Symposium\",\"use\",\"daily\",\"conversation\",\"I\",\"in\"]",
+        "options": "[\"I\",\"daily\",\"in\",\"conversation\",\"use\",\"Symposium\"]",
         "correctAnswer": "I use Symposium in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Symposium in daily conversation\"."
       },
@@ -7732,7 +7732,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Moderator\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Moderator",
-        "explanation": "Phát âm chuẩn IPA của từ là /moderator/ - \"Moderator\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈmɑː.dər.eɪ.tər/ - \"Moderator\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7766,9 +7766,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Symposium\" là gì?",
-        "options": "[\"Hội nghị chuyên đề khoa học\",\"Tổng hợp các luồng ý kiến\",\"Người điều phối chương trình\",\"Khách mời tham gia tọa đàm\"]",
+        "options": "[\"Hội nghị chuyên đề khoa học\",\"Người điều phối chương trình\",\"Khách mời tham gia tọa đàm\",\"Tổng hợp các luồng ý kiến\"]",
         "correctAnswer": "Hội nghị chuyên đề khoa học",
-        "explanation": "\"Symposium\" có phiên âm /symposium/ và mang nghĩa là \"Hội nghị chuyên đề khoa học\"."
+        "explanation": "\"Symposium\" có phiên âm /ˌsɪmˈpoʊ.zi.əm/ và mang nghĩa là \"Hội nghị chuyên đề khoa học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Moderating High-Level Symposia, we need to practice _____.\"",
@@ -7784,13 +7784,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Synthesize\" là gì?",
-        "options": "[\"Can thiệp tế nhị khi quá giờ\",\"Tạo điều kiện thảo luận thuận lợi\",\"Bất đồng, phân nhánh ý kiến\",\"Tổng hợp các luồng ý kiến\"]",
+        "options": "[\"Tạo điều kiện thảo luận thuận lợi\",\"Can thiệp tế nhị khi quá giờ\",\"Bất đồng, phân nhánh ý kiến\",\"Tổng hợp các luồng ý kiến\"]",
         "correctAnswer": "Tổng hợp các luồng ý kiến",
-        "explanation": "\"Synthesize\" có phiên âm /synthesize/ và mang nghĩa là \"Tổng hợp các luồng ý kiến\"."
+        "explanation": "\"Synthesize\" có phiên âm /ˈsɪn.θə.saɪz/ và mang nghĩa là \"Tổng hợp các luồng ý kiến\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Moderating High-Level Symposia, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Divergent\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Divergent\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Divergent",
         "explanation": "\"Divergent\" (Bất đồng, phân nhánh ý kiến) là từ vựng chính xác trong ngữ cảnh chủ đề Moderating High-Level Symposia."
       },
@@ -7804,11 +7804,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Facilitate\" là gì?",
         "options": "[\"Điểm chung đạt được\",\"Đúc kết cô đọng kết thúc\",\"Nhịp độ diễn tiến chương trình\",\"Tạo điều kiện thảo luận thuận lợi\"]",
         "correctAnswer": "Tạo điều kiện thảo luận thuận lợi",
-        "explanation": "\"Facilitate\" có phiên âm /facilitate/ và mang nghĩa là \"Tạo điều kiện thảo luận thuận lợi\"."
+        "explanation": "\"Facilitate\" có phiên âm /ˌfəˈsɪ.lə.teɪt/ và mang nghĩa là \"Tạo điều kiện thảo luận thuận lợi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Moderating High-Level Symposia, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Pacing\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Pacing\"]",
         "correctAnswer": "Pacing",
         "explanation": "\"Pacing\" (Nhịp độ diễn tiến chương trình) là từ vựng chính xác trong ngữ cảnh chủ đề Moderating High-Level Symposia."
       },
@@ -7820,13 +7820,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consensus\" là gì?",
-        "options": "[\"Khách mời tham gia tọa đàm\",\"Hội nghị chuyên đề khoa học\",\"Điểm chung đạt được\",\"Người điều phối chương trình\"]",
+        "options": "[\"Hội nghị chuyên đề khoa học\",\"Điểm chung đạt được\",\"Khách mời tham gia tọa đàm\",\"Người điều phối chương trình\"]",
         "correctAnswer": "Điểm chung đạt được",
-        "explanation": "\"Consensus\" có phiên âm /consensus/ và mang nghĩa là \"Điểm chung đạt được\"."
+        "explanation": "\"Consensus\" có phiên âm /ˌkənˈsen.səs/ và mang nghĩa là \"Điểm chung đạt được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Moderating High-Level Symposia, we need to practice _____.\"",
-        "options": "[\"Symposium\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Symposium\"]",
         "correctAnswer": "Symposium",
         "explanation": "\"Symposium\" (Hội nghị chuyên đề khoa học) là từ vựng chính xác trong ngữ cảnh chủ đề Moderating High-Level Symposia."
       },
@@ -7838,13 +7838,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Panelist\" là gì?",
-        "options": "[\"Khách mời tham gia tọa đàm\",\"Tổng hợp các luồng ý kiến\",\"Bất đồng, phân nhánh ý kiến\",\"Can thiệp tế nhị khi quá giờ\"]",
+        "options": "[\"Khách mời tham gia tọa đàm\",\"Tổng hợp các luồng ý kiến\",\"Can thiệp tế nhị khi quá giờ\",\"Bất đồng, phân nhánh ý kiến\"]",
         "correctAnswer": "Khách mời tham gia tọa đàm",
-        "explanation": "\"Panelist\" có phiên âm /panelist/ và mang nghĩa là \"Khách mời tham gia tọa đàm\"."
+        "explanation": "\"Panelist\" có phiên âm /ˈpæ.nə.ləst/ và mang nghĩa là \"Khách mời tham gia tọa đàm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Moderating High-Level Symposia, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Synthesize\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Synthesize\"]",
         "correctAnswer": "Synthesize",
         "explanation": "\"Synthesize\" (Tổng hợp các luồng ý kiến) là từ vựng chính xác trong ngữ cảnh chủ đề Moderating High-Level Symposia."
       },
@@ -7856,9 +7856,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Intervene\" là gì?",
-        "options": "[\"Đúc kết cô đọng kết thúc\",\"Can thiệp tế nhị khi quá giờ\",\"Tạo điều kiện thảo luận thuận lợi\",\"Nhịp độ diễn tiến chương trình\"]",
+        "options": "[\"Can thiệp tế nhị khi quá giờ\",\"Tạo điều kiện thảo luận thuận lợi\",\"Nhịp độ diễn tiến chương trình\",\"Đúc kết cô đọng kết thúc\"]",
         "correctAnswer": "Can thiệp tế nhị khi quá giờ",
-        "explanation": "\"Intervene\" có phiên âm /intervene/ và mang nghĩa là \"Can thiệp tế nhị khi quá giờ\"."
+        "explanation": "\"Intervene\" có phiên âm /ˌɪn.tərˈviːn/ và mang nghĩa là \"Can thiệp tế nhị khi quá giờ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Moderating High-Level Symposia, we need to practice _____.\"",
@@ -7885,7 +7885,7 @@ module.exports = [
       {
         "word": "Grant proposal",
         "meaning": "Hồ sơ xin tài trợ nghiên cứu",
-        "pronunciation": "/grant proposal/",
+        "pronunciation": "/ˈɡrænt ˌprəˈpoʊ.zəl/",
         "partOfSpeech": "noun",
         "example": "I use Grant proposal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Grant proposal trong giao tiếp hàng ngày.",
@@ -7895,7 +7895,7 @@ module.exports = [
       {
         "word": "Funding",
         "meaning": "Khoản kinh phí được cấp",
-        "pronunciation": "/funding/",
+        "pronunciation": "/ˈfʌn.dɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Funding in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Funding trong giao tiếp hàng ngày.",
@@ -7905,7 +7905,7 @@ module.exports = [
       {
         "word": "Deliverable",
         "meaning": "Sản phẩm đầu ra cam kết",
-        "pronunciation": "/deliverable/",
+        "pronunciation": "/ˌdɪˈlɪ.vər.ə.bəl/",
         "partOfSpeech": "noun",
         "example": "I use Deliverable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deliverable trong giao tiếp hàng ngày.",
@@ -7915,7 +7915,7 @@ module.exports = [
       {
         "word": "Milestone",
         "meaning": "Mốc nghiệm thu từng giai đoạn",
-        "pronunciation": "/milestone/",
+        "pronunciation": "/ˈmaɪl.stoʊn/",
         "partOfSpeech": "noun",
         "example": "I use Milestone in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Milestone trong giao tiếp hàng ngày.",
@@ -7925,7 +7925,7 @@ module.exports = [
       {
         "word": "Feasibility",
         "meaning": "Tính khả thi thực tiễn",
-        "pronunciation": "/feasibility/",
+        "pronunciation": "/ˌfi.zəˈbɪ.lə.ti/",
         "partOfSpeech": "noun",
         "example": "I use Feasibility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Feasibility trong giao tiếp hàng ngày.",
@@ -7935,7 +7935,7 @@ module.exports = [
       {
         "word": "Budget allocation",
         "meaning": "Phân bổ ngân sách chi tiết",
-        "pronunciation": "/budget allocation/",
+        "pronunciation": "/ˈbʌ.dʒɪt ˌæ.ləˈkeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Budget allocation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Budget allocation trong giao tiếp hàng ngày.",
@@ -7945,7 +7945,7 @@ module.exports = [
       {
         "word": "Impact",
         "meaning": "Tác động xã hội sâu rộng",
-        "pronunciation": "/impact/",
+        "pronunciation": "/ɪmˈpækt/",
         "partOfSpeech": "noun",
         "example": "I use Impact in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Impact trong giao tiếp hàng ngày.",
@@ -7955,7 +7955,7 @@ module.exports = [
       {
         "word": "Investigator",
         "meaning": "Chủ nhiệm đề tài nghiên cứu",
-        "pronunciation": "/investigator/",
+        "pronunciation": "/ˌɪnˈve.stə.ɡeɪ.tər/",
         "partOfSpeech": "noun",
         "example": "I use Investigator in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Investigator trong giao tiếp hàng ngày.",
@@ -7965,7 +7965,7 @@ module.exports = [
       {
         "word": "Compliance",
         "meaning": "Tuân thủ quy chế tài chính",
-        "pronunciation": "/compliance/",
+        "pronunciation": "/ˌkəmˈplaɪ.əns/",
         "partOfSpeech": "noun",
         "example": "I use Compliance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Compliance trong giao tiếp hàng ngày.",
@@ -7975,7 +7975,7 @@ module.exports = [
       {
         "word": "Evaluation",
         "meaning": "Hội đồng nghiệm thu đánh giá",
-        "pronunciation": "/evaluation/",
+        "pronunciation": "/ˌɪ.væl.juˈeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Evaluation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Evaluation trong giao tiếp hàng ngày.",
@@ -8000,7 +8000,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Grant proposal\\\" has a specific pronunciation: /grant proposal/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Grant proposal\\\" có phát âm cụ thể là /grant proposal/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Funding\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Funding\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Grant proposal\\\" has a specific pronunciation: /ˈɡrænt ˌprəˈpoʊ.zəl/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Grant proposal\\\" có phát âm cụ thể là /ˈɡrænt ˌprəˈpoʊ.zəl/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Funding\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Funding\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -8031,7 +8031,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"proposal\",\"use\",\"Grant\",\"daily\",\"in\",\"I\"]",
+        "options": "[\"Grant\",\"I\",\"in\",\"proposal\",\"use\",\"daily\"]",
         "correctAnswer": "I use Grant proposal in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Grant proposal in daily\"."
       },
@@ -8047,7 +8047,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Funding\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Funding",
-        "explanation": "Phát âm chuẩn IPA của từ là /funding/ - \"Funding\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈfʌn.dɪŋ/ - \"Funding\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -8081,13 +8081,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Grant proposal\" là gì?",
-        "options": "[\"Hồ sơ xin tài trợ nghiên cứu\",\"Mốc nghiệm thu từng giai đoạn\",\"Khoản kinh phí được cấp\",\"Sản phẩm đầu ra cam kết\"]",
+        "options": "[\"Sản phẩm đầu ra cam kết\",\"Mốc nghiệm thu từng giai đoạn\",\"Khoản kinh phí được cấp\",\"Hồ sơ xin tài trợ nghiên cứu\"]",
         "correctAnswer": "Hồ sơ xin tài trợ nghiên cứu",
-        "explanation": "\"Grant proposal\" có phiên âm /grant proposal/ và mang nghĩa là \"Hồ sơ xin tài trợ nghiên cứu\"."
+        "explanation": "\"Grant proposal\" có phiên âm /ˈɡrænt ˌprəˈpoʊ.zəl/ và mang nghĩa là \"Hồ sơ xin tài trợ nghiên cứu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Grant Proposals & Executive Writing, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Funding\"]",
+        "options": "[\"Funding\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Funding",
         "explanation": "\"Funding\" (Khoản kinh phí được cấp) là từ vựng chính xác trong ngữ cảnh chủ đề Grant Proposals & Executive Writing."
       },
@@ -8099,13 +8099,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Milestone\" là gì?",
-        "options": "[\"Tính khả thi thực tiễn\",\"Tác động xã hội sâu rộng\",\"Mốc nghiệm thu từng giai đoạn\",\"Phân bổ ngân sách chi tiết\"]",
+        "options": "[\"Mốc nghiệm thu từng giai đoạn\",\"Tính khả thi thực tiễn\",\"Phân bổ ngân sách chi tiết\",\"Tác động xã hội sâu rộng\"]",
         "correctAnswer": "Mốc nghiệm thu từng giai đoạn",
-        "explanation": "\"Milestone\" có phiên âm /milestone/ và mang nghĩa là \"Mốc nghiệm thu từng giai đoạn\"."
+        "explanation": "\"Milestone\" có phiên âm /ˈmaɪl.stoʊn/ và mang nghĩa là \"Mốc nghiệm thu từng giai đoạn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Grant Proposals & Executive Writing, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Feasibility\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Feasibility\"]",
         "correctAnswer": "Feasibility",
         "explanation": "\"Feasibility\" (Tính khả thi thực tiễn) là từ vựng chính xác trong ngữ cảnh chủ đề Grant Proposals & Executive Writing."
       },
@@ -8117,13 +8117,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Impact\" là gì?",
-        "options": "[\"Chủ nhiệm đề tài nghiên cứu\",\"Tuân thủ quy chế tài chính\",\"Tác động xã hội sâu rộng\",\"Hội đồng nghiệm thu đánh giá\"]",
+        "options": "[\"Tác động xã hội sâu rộng\",\"Chủ nhiệm đề tài nghiên cứu\",\"Tuân thủ quy chế tài chính\",\"Hội đồng nghiệm thu đánh giá\"]",
         "correctAnswer": "Tác động xã hội sâu rộng",
-        "explanation": "\"Impact\" có phiên âm /impact/ và mang nghĩa là \"Tác động xã hội sâu rộng\"."
+        "explanation": "\"Impact\" có phiên âm /ɪmˈpækt/ và mang nghĩa là \"Tác động xã hội sâu rộng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Grant Proposals & Executive Writing, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Investigator\",\"bananas\"]",
+        "options": "[\"Investigator\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Investigator",
         "explanation": "\"Investigator\" (Chủ nhiệm đề tài nghiên cứu) là từ vựng chính xác trong ngữ cảnh chủ đề Grant Proposals & Executive Writing."
       },
@@ -8135,9 +8135,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Evaluation\" là gì?",
-        "options": "[\"Sản phẩm đầu ra cam kết\",\"Khoản kinh phí được cấp\",\"Hồ sơ xin tài trợ nghiên cứu\",\"Hội đồng nghiệm thu đánh giá\"]",
+        "options": "[\"Hội đồng nghiệm thu đánh giá\",\"Hồ sơ xin tài trợ nghiên cứu\",\"Khoản kinh phí được cấp\",\"Sản phẩm đầu ra cam kết\"]",
         "correctAnswer": "Hội đồng nghiệm thu đánh giá",
-        "explanation": "\"Evaluation\" có phiên âm /evaluation/ và mang nghĩa là \"Hội đồng nghiệm thu đánh giá\"."
+        "explanation": "\"Evaluation\" có phiên âm /ˌɪ.væl.juˈeɪ.ʃən/ và mang nghĩa là \"Hội đồng nghiệm thu đánh giá\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Grant Proposals & Executive Writing, we need to practice _____.\"",
@@ -8153,13 +8153,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Deliverable\" là gì?",
-        "options": "[\"Mốc nghiệm thu từng giai đoạn\",\"Sản phẩm đầu ra cam kết\",\"Tính khả thi thực tiễn\",\"Phân bổ ngân sách chi tiết\"]",
+        "options": "[\"Sản phẩm đầu ra cam kết\",\"Mốc nghiệm thu từng giai đoạn\",\"Tính khả thi thực tiễn\",\"Phân bổ ngân sách chi tiết\"]",
         "correctAnswer": "Sản phẩm đầu ra cam kết",
-        "explanation": "\"Deliverable\" có phiên âm /deliverable/ và mang nghĩa là \"Sản phẩm đầu ra cam kết\"."
+        "explanation": "\"Deliverable\" có phiên âm /ˌdɪˈlɪ.vər.ə.bəl/ và mang nghĩa là \"Sản phẩm đầu ra cam kết\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Grant Proposals & Executive Writing, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Milestone\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Milestone\"]",
         "correctAnswer": "Milestone",
         "explanation": "\"Milestone\" (Mốc nghiệm thu từng giai đoạn) là từ vựng chính xác trong ngữ cảnh chủ đề Grant Proposals & Executive Writing."
       },
@@ -8171,13 +8171,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Budget allocation\" là gì?",
-        "options": "[\"Tuân thủ quy chế tài chính\",\"Chủ nhiệm đề tài nghiên cứu\",\"Tác động xã hội sâu rộng\",\"Phân bổ ngân sách chi tiết\"]",
+        "options": "[\"Tác động xã hội sâu rộng\",\"Chủ nhiệm đề tài nghiên cứu\",\"Tuân thủ quy chế tài chính\",\"Phân bổ ngân sách chi tiết\"]",
         "correctAnswer": "Phân bổ ngân sách chi tiết",
-        "explanation": "\"Budget allocation\" có phiên âm /budget allocation/ và mang nghĩa là \"Phân bổ ngân sách chi tiết\"."
+        "explanation": "\"Budget allocation\" có phiên âm /ˈbʌ.dʒɪt ˌæ.ləˈkeɪ.ʃən/ và mang nghĩa là \"Phân bổ ngân sách chi tiết\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Grant Proposals & Executive Writing, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Impact\"]",
+        "options": "[\"Impact\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Impact",
         "explanation": "\"Impact\" (Tác động xã hội sâu rộng) là từ vựng chính xác trong ngữ cảnh chủ đề Grant Proposals & Executive Writing."
       },
@@ -8200,7 +8200,7 @@ module.exports = [
       {
         "word": "Policy brief",
         "meaning": "Bản tóm tắt khuyến nghị chính sách",
-        "pronunciation": "/policy brief/",
+        "pronunciation": "/ˈpɑː.lə.si ˈbriːf/",
         "partOfSpeech": "noun",
         "example": "I use Policy brief in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Policy brief trong giao tiếp hàng ngày.",
@@ -8210,7 +8210,7 @@ module.exports = [
       {
         "word": "White paper",
         "meaning": "Sách trắng phân tích chuyên sâu",
-        "pronunciation": "/white paper/",
+        "pronunciation": "/ˈwaɪt ˈpeɪ.pər/",
         "partOfSpeech": "noun",
         "example": "I use White paper in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ White paper trong giao tiếp hàng ngày.",
@@ -8220,7 +8220,7 @@ module.exports = [
       {
         "word": "Actionable",
         "meaning": "Có tính ứng dụng hành động ngay",
-        "pronunciation": "/actionable/",
+        "pronunciation": "/ˈæk.ʃə.nə.bəl/",
         "partOfSpeech": "noun",
         "example": "I use Actionable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Actionable trong giao tiếp hàng ngày.",
@@ -8230,7 +8230,7 @@ module.exports = [
       {
         "word": "Stakeholder",
         "meaning": "Bên hữu quan hưởng lợi",
-        "pronunciation": "/stakeholder/",
+        "pronunciation": "/ˈsteɪk.hoʊl.dər/",
         "partOfSpeech": "noun",
         "example": "I use Stakeholder in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stakeholder trong giao tiếp hàng ngày.",
@@ -8240,7 +8240,7 @@ module.exports = [
       {
         "word": "Recommendation",
         "meaning": "Khuyến nghị đắt giá",
-        "pronunciation": "/recommendation/",
+        "pronunciation": "/ˌre.kə.mənˈdeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Recommendation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Recommendation trong giao tiếp hàng ngày.",
@@ -8250,7 +8250,7 @@ module.exports = [
       {
         "word": "Implication",
         "meaning": "Hàm ý chính sách dài hạn",
-        "pronunciation": "/implication/",
+        "pronunciation": "/ˌɪm.pləˈkeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Implication in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Implication trong giao tiếp hàng ngày.",
@@ -8260,7 +8260,7 @@ module.exports = [
       {
         "word": "Policymaker",
         "meaning": "Nhà hoạch định chính sách",
-        "pronunciation": "/policymaker/",
+        "pronunciation": "/ˈpɑː.lə.si.meɪ.kər/",
         "partOfSpeech": "noun",
         "example": "I use Policymaker in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Policymaker trong giao tiếp hàng ngày.",
@@ -8270,7 +8270,7 @@ module.exports = [
       {
         "word": "Executive summary",
         "meaning": "Tóm lược cho ban điều hành",
-        "pronunciation": "/executive summary/",
+        "pronunciation": "/ˌɪɡˈzek.jə.tɪv ˈsʌ.mər.i/",
         "partOfSpeech": "noun",
         "example": "I use Executive summary in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Executive summary trong giao tiếp hàng ngày.",
@@ -8280,7 +8280,7 @@ module.exports = [
       {
         "word": "Evidence-based",
         "meaning": "Dựa trên chứng cứ xác thực",
-        "pronunciation": "/evidence-based/",
+        "pronunciation": "/ˈe.və.dən.sbeɪst/",
         "partOfSpeech": "noun",
         "example": "I use Evidence-based in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Evidence-based trong giao tiếp hàng ngày.",
@@ -8290,7 +8290,7 @@ module.exports = [
       {
         "word": "Reform",
         "meaning": "Cải cách thể chế quy mô",
-        "pronunciation": "/reform/",
+        "pronunciation": "/rəˈfɔːrm/",
         "partOfSpeech": "noun",
         "example": "I use Reform in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Reform trong giao tiếp hàng ngày.",
@@ -8315,7 +8315,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Policy brief\\\" has a specific pronunciation: /policy brief/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Policy brief\\\" có phát âm cụ thể là /policy brief/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"White paper\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"White paper\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Policy brief\\\" has a specific pronunciation: /ˈpɑː.lə.si ˈbriːf/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Policy brief\\\" có phát âm cụ thể là /ˈpɑː.lə.si ˈbriːf/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"White paper\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"White paper\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -8346,7 +8346,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"daily\",\"I\",\"Policy\",\"brief\",\"in\"]",
+        "options": "[\"Policy\",\"use\",\"brief\",\"in\",\"daily\",\"I\"]",
         "correctAnswer": "I use Policy brief in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Policy brief in daily\"."
       },
@@ -8362,7 +8362,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"White paper\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "White paper",
-        "explanation": "Phát âm chuẩn IPA của từ là /white paper/ - \"White paper\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈwaɪt ˈpeɪ.pər/ - \"White paper\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -8396,13 +8396,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Policy brief\" là gì?",
-        "options": "[\"Bên hữu quan hưởng lợi\",\"Có tính ứng dụng hành động ngay\",\"Sách trắng phân tích chuyên sâu\",\"Bản tóm tắt khuyến nghị chính sách\"]",
+        "options": "[\"Bản tóm tắt khuyến nghị chính sách\",\"Sách trắng phân tích chuyên sâu\",\"Có tính ứng dụng hành động ngay\",\"Bên hữu quan hưởng lợi\"]",
         "correctAnswer": "Bản tóm tắt khuyến nghị chính sách",
-        "explanation": "\"Policy brief\" có phiên âm /policy brief/ và mang nghĩa là \"Bản tóm tắt khuyến nghị chính sách\"."
+        "explanation": "\"Policy brief\" có phiên âm /ˈpɑː.lə.si ˈbriːf/ và mang nghĩa là \"Bản tóm tắt khuyến nghị chính sách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crafting Policy Briefs & White Papers, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"White paper\",\"airplanes\",\"bananas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"White paper\"]",
         "correctAnswer": "White paper",
         "explanation": "\"White paper\" (Sách trắng phân tích chuyên sâu) là từ vựng chính xác trong ngữ cảnh chủ đề Crafting Policy Briefs & White Papers."
       },
@@ -8414,13 +8414,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Stakeholder\" là gì?",
-        "options": "[\"Hàm ý chính sách dài hạn\",\"Khuyến nghị đắt giá\",\"Nhà hoạch định chính sách\",\"Bên hữu quan hưởng lợi\"]",
+        "options": "[\"Nhà hoạch định chính sách\",\"Bên hữu quan hưởng lợi\",\"Khuyến nghị đắt giá\",\"Hàm ý chính sách dài hạn\"]",
         "correctAnswer": "Bên hữu quan hưởng lợi",
-        "explanation": "\"Stakeholder\" có phiên âm /stakeholder/ và mang nghĩa là \"Bên hữu quan hưởng lợi\"."
+        "explanation": "\"Stakeholder\" có phiên âm /ˈsteɪk.hoʊl.dər/ và mang nghĩa là \"Bên hữu quan hưởng lợi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crafting Policy Briefs & White Papers, we need to practice _____.\"",
-        "options": "[\"Recommendation\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Recommendation\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Recommendation",
         "explanation": "\"Recommendation\" (Khuyến nghị đắt giá) là từ vựng chính xác trong ngữ cảnh chủ đề Crafting Policy Briefs & White Papers."
       },
@@ -8432,13 +8432,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Policymaker\" là gì?",
-        "options": "[\"Cải cách thể chế quy mô\",\"Tóm lược cho ban điều hành\",\"Nhà hoạch định chính sách\",\"Dựa trên chứng cứ xác thực\"]",
+        "options": "[\"Nhà hoạch định chính sách\",\"Tóm lược cho ban điều hành\",\"Dựa trên chứng cứ xác thực\",\"Cải cách thể chế quy mô\"]",
         "correctAnswer": "Nhà hoạch định chính sách",
-        "explanation": "\"Policymaker\" có phiên âm /policymaker/ và mang nghĩa là \"Nhà hoạch định chính sách\"."
+        "explanation": "\"Policymaker\" có phiên âm /ˈpɑː.lə.si.meɪ.kər/ và mang nghĩa là \"Nhà hoạch định chính sách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crafting Policy Briefs & White Papers, we need to practice _____.\"",
-        "options": "[\"Executive summary\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Executive summary\"]",
         "correctAnswer": "Executive summary",
         "explanation": "\"Executive summary\" (Tóm lược cho ban điều hành) là từ vựng chính xác trong ngữ cảnh chủ đề Crafting Policy Briefs & White Papers."
       },
@@ -8450,13 +8450,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Reform\" là gì?",
-        "options": "[\"Có tính ứng dụng hành động ngay\",\"Sách trắng phân tích chuyên sâu\",\"Bản tóm tắt khuyến nghị chính sách\",\"Cải cách thể chế quy mô\"]",
+        "options": "[\"Bản tóm tắt khuyến nghị chính sách\",\"Cải cách thể chế quy mô\",\"Sách trắng phân tích chuyên sâu\",\"Có tính ứng dụng hành động ngay\"]",
         "correctAnswer": "Cải cách thể chế quy mô",
-        "explanation": "\"Reform\" có phiên âm /reform/ và mang nghĩa là \"Cải cách thể chế quy mô\"."
+        "explanation": "\"Reform\" có phiên âm /rəˈfɔːrm/ và mang nghĩa là \"Cải cách thể chế quy mô\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crafting Policy Briefs & White Papers, we need to practice _____.\"",
-        "options": "[\"Policy brief\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Policy brief\",\"airplanes\"]",
         "correctAnswer": "Policy brief",
         "explanation": "\"Policy brief\" (Bản tóm tắt khuyến nghị chính sách) là từ vựng chính xác trong ngữ cảnh chủ đề Crafting Policy Briefs & White Papers."
       },
@@ -8468,9 +8468,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Actionable\" là gì?",
-        "options": "[\"Bên hữu quan hưởng lợi\",\"Khuyến nghị đắt giá\",\"Có tính ứng dụng hành động ngay\",\"Hàm ý chính sách dài hạn\"]",
+        "options": "[\"Có tính ứng dụng hành động ngay\",\"Bên hữu quan hưởng lợi\",\"Hàm ý chính sách dài hạn\",\"Khuyến nghị đắt giá\"]",
         "correctAnswer": "Có tính ứng dụng hành động ngay",
-        "explanation": "\"Actionable\" có phiên âm /actionable/ và mang nghĩa là \"Có tính ứng dụng hành động ngay\"."
+        "explanation": "\"Actionable\" có phiên âm /ˈæk.ʃə.nə.bəl/ và mang nghĩa là \"Có tính ứng dụng hành động ngay\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crafting Policy Briefs & White Papers, we need to practice _____.\"",
@@ -8486,13 +8486,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Implication\" là gì?",
-        "options": "[\"Dựa trên chứng cứ xác thực\",\"Hàm ý chính sách dài hạn\",\"Tóm lược cho ban điều hành\",\"Nhà hoạch định chính sách\"]",
+        "options": "[\"Nhà hoạch định chính sách\",\"Tóm lược cho ban điều hành\",\"Dựa trên chứng cứ xác thực\",\"Hàm ý chính sách dài hạn\"]",
         "correctAnswer": "Hàm ý chính sách dài hạn",
-        "explanation": "\"Implication\" có phiên âm /implication/ và mang nghĩa là \"Hàm ý chính sách dài hạn\"."
+        "explanation": "\"Implication\" có phiên âm /ˌɪm.pləˈkeɪ.ʃən/ và mang nghĩa là \"Hàm ý chính sách dài hạn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Crafting Policy Briefs & White Papers, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Policymaker\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Policymaker\",\"airplanes\"]",
         "correctAnswer": "Policymaker",
         "explanation": "\"Policymaker\" (Nhà hoạch định chính sách) là từ vựng chính xác trong ngữ cảnh chủ đề Crafting Policy Briefs & White Papers."
       },
@@ -8515,7 +8515,7 @@ module.exports = [
       {
         "word": "Mergers & Acquisitions",
         "meaning": "Thương vụ sáp nhập và mua lại",
-        "pronunciation": "/mergers & acquisitions/",
+        "pronunciation": "/ˈmɜːr.dʒərz & ˌæk.wəˈzɪ.ʃənz/",
         "partOfSpeech": "noun",
         "example": "I use Mergers & Acquisitions in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Mergers & Acquisitions trong giao tiếp hàng ngày.",
@@ -8525,7 +8525,7 @@ module.exports = [
       {
         "word": "Due diligence",
         "meaning": "Thẩm định doanh nghiệp chuyên sâu",
-        "pronunciation": "/due diligence/",
+        "pronunciation": "/ˈduː ˈdɪ.lə.dʒəns/",
         "partOfSpeech": "noun",
         "example": "I use Due diligence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Due diligence trong giao tiếp hàng ngày.",
@@ -8535,7 +8535,7 @@ module.exports = [
       {
         "word": "Valuation",
         "meaning": "Định giá tài sản công ty",
-        "pronunciation": "/valuation/",
+        "pronunciation": "/ˌvæl.juˈeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Valuation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Valuation trong giao tiếp hàng ngày.",
@@ -8545,7 +8545,7 @@ module.exports = [
       {
         "word": "Synergy",
         "meaning": "Hiệu ứng cộng hưởng sức mạnh",
-        "pronunciation": "/synergy/",
+        "pronunciation": "/ˈsɪ.nər.dʒi/",
         "partOfSpeech": "noun",
         "example": "I use Synergy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Synergy trong giao tiếp hàng ngày.",
@@ -8555,7 +8555,7 @@ module.exports = [
       {
         "word": "Hostile takeover",
         "meaning": "Tiếp quản thôn tính thù địch",
-        "pronunciation": "/hostile takeover/",
+        "pronunciation": "/ˈhɑː.stəl ˈteɪ.koʊ.vər/",
         "partOfSpeech": "noun",
         "example": "I use Hostile takeover in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hostile takeover trong giao tiếp hàng ngày.",
@@ -8565,7 +8565,7 @@ module.exports = [
       {
         "word": "Shareholder",
         "meaning": "Cổ đông sở hữu công ty",
-        "pronunciation": "/shareholder/",
+        "pronunciation": "/ˈʃer.hoʊl.dər/",
         "partOfSpeech": "noun",
         "example": "I use Shareholder in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shareholder trong giao tiếp hàng ngày.",
@@ -8575,7 +8575,7 @@ module.exports = [
       {
         "word": "Regulatory approval",
         "meaning": "Phê duyệt từ cơ quan quản lý",
-        "pronunciation": "/regulatory approval/",
+        "pronunciation": "/ˈreɡ.jə.lə.tɔː.ri ˌəˈpruː.vəl/",
         "partOfSpeech": "noun",
         "example": "I use Regulatory approval in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Regulatory approval trong giao tiếp hàng ngày.",
@@ -8585,7 +8585,7 @@ module.exports = [
       {
         "word": "Integration",
         "meaning": "Hợp nhất hệ thống sau sáp nhập",
-        "pronunciation": "/integration/",
+        "pronunciation": "/ˌɪn.təˈɡreɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Integration in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Integration trong giao tiếp hàng ngày.",
@@ -8595,7 +8595,7 @@ module.exports = [
       {
         "word": "Capital",
         "meaning": "Nguồn vốn lưu động lớn",
-        "pronunciation": "/capital/",
+        "pronunciation": "/ˈkæ.pə.təl/",
         "partOfSpeech": "noun",
         "example": "I use Capital in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Capital trong giao tiếp hàng ngày.",
@@ -8605,7 +8605,7 @@ module.exports = [
       {
         "word": "Transaction",
         "meaning": "Giao dịch chuyển nhượng lớn",
-        "pronunciation": "/transaction/",
+        "pronunciation": "/ˌtrænˈzæk.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Transaction in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Transaction trong giao tiếp hàng ngày.",
@@ -8630,7 +8630,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Mergers & Acquisitions\\\" has a specific pronunciation: /mergers & acquisitions/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Mergers & Acquisitions\\\" có phát âm cụ thể là /mergers & acquisitions/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Due diligence\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Due diligence\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Mergers & Acquisitions\\\" has a specific pronunciation: /ˈmɜːr.dʒərz & ˌæk.wəˈzɪ.ʃənz/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Mergers & Acquisitions\\\" có phát âm cụ thể là /ˈmɜːr.dʒərz & ˌæk.wəˈzɪ.ʃənz/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Due diligence\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Due diligence\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -8661,7 +8661,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"&\",\"Mergers\",\"use\",\"I\",\"Acquisitions\"]",
+        "options": "[\"I\",\"&\",\"use\",\"in\",\"Mergers\",\"Acquisitions\"]",
         "correctAnswer": "I use Mergers & Acquisitions in",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Mergers & Acquisitions in\"."
       },
@@ -8677,7 +8677,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Due diligence\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Due diligence",
-        "explanation": "Phát âm chuẩn IPA của từ là /due diligence/ - \"Due diligence\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈduː ˈdɪ.lə.dʒəns/ - \"Due diligence\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -8711,13 +8711,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mergers & Acquisitions\" là gì?",
-        "options": "[\"Định giá tài sản công ty\",\"Thẩm định doanh nghiệp chuyên sâu\",\"Hiệu ứng cộng hưởng sức mạnh\",\"Thương vụ sáp nhập và mua lại\"]",
+        "options": "[\"Hiệu ứng cộng hưởng sức mạnh\",\"Định giá tài sản công ty\",\"Thẩm định doanh nghiệp chuyên sâu\",\"Thương vụ sáp nhập và mua lại\"]",
         "correctAnswer": "Thương vụ sáp nhập và mua lại",
-        "explanation": "\"Mergers & Acquisitions\" có phiên âm /mergers & acquisitions/ và mang nghĩa là \"Thương vụ sáp nhập và mua lại\"."
+        "explanation": "\"Mergers & Acquisitions\" có phiên âm /ˈmɜːr.dʒərz & ˌæk.wəˈzɪ.ʃənz/ và mang nghĩa là \"Thương vụ sáp nhập và mua lại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Border Mergers & Acquisitions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Due diligence\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Due diligence\",\"airplanes\"]",
         "correctAnswer": "Due diligence",
         "explanation": "\"Due diligence\" (Thẩm định doanh nghiệp chuyên sâu) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Border Mergers & Acquisitions."
       },
@@ -8729,13 +8729,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Synergy\" là gì?",
-        "options": "[\"Phê duyệt từ cơ quan quản lý\",\"Cổ đông sở hữu công ty\",\"Tiếp quản thôn tính thù địch\",\"Hiệu ứng cộng hưởng sức mạnh\"]",
+        "options": "[\"Phê duyệt từ cơ quan quản lý\",\"Hiệu ứng cộng hưởng sức mạnh\",\"Cổ đông sở hữu công ty\",\"Tiếp quản thôn tính thù địch\"]",
         "correctAnswer": "Hiệu ứng cộng hưởng sức mạnh",
-        "explanation": "\"Synergy\" có phiên âm /synergy/ và mang nghĩa là \"Hiệu ứng cộng hưởng sức mạnh\"."
+        "explanation": "\"Synergy\" có phiên âm /ˈsɪ.nər.dʒi/ và mang nghĩa là \"Hiệu ứng cộng hưởng sức mạnh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Border Mergers & Acquisitions, we need to practice _____.\"",
-        "options": "[\"Hostile takeover\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hostile takeover\"]",
         "correctAnswer": "Hostile takeover",
         "explanation": "\"Hostile takeover\" (Tiếp quản thôn tính thù địch) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Border Mergers & Acquisitions."
       },
@@ -8747,13 +8747,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Regulatory approval\" là gì?",
-        "options": "[\"Giao dịch chuyển nhượng lớn\",\"Phê duyệt từ cơ quan quản lý\",\"Nguồn vốn lưu động lớn\",\"Hợp nhất hệ thống sau sáp nhập\"]",
+        "options": "[\"Hợp nhất hệ thống sau sáp nhập\",\"Giao dịch chuyển nhượng lớn\",\"Nguồn vốn lưu động lớn\",\"Phê duyệt từ cơ quan quản lý\"]",
         "correctAnswer": "Phê duyệt từ cơ quan quản lý",
-        "explanation": "\"Regulatory approval\" có phiên âm /regulatory approval/ và mang nghĩa là \"Phê duyệt từ cơ quan quản lý\"."
+        "explanation": "\"Regulatory approval\" có phiên âm /ˈreɡ.jə.lə.tɔː.ri ˌəˈpruː.vəl/ và mang nghĩa là \"Phê duyệt từ cơ quan quản lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Border Mergers & Acquisitions, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Integration\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Integration\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Integration",
         "explanation": "\"Integration\" (Hợp nhất hệ thống sau sáp nhập) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Border Mergers & Acquisitions."
       },
@@ -8765,13 +8765,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Transaction\" là gì?",
-        "options": "[\"Thương vụ sáp nhập và mua lại\",\"Giao dịch chuyển nhượng lớn\",\"Định giá tài sản công ty\",\"Thẩm định doanh nghiệp chuyên sâu\"]",
+        "options": "[\"Định giá tài sản công ty\",\"Giao dịch chuyển nhượng lớn\",\"Thương vụ sáp nhập và mua lại\",\"Thẩm định doanh nghiệp chuyên sâu\"]",
         "correctAnswer": "Giao dịch chuyển nhượng lớn",
-        "explanation": "\"Transaction\" có phiên âm /transaction/ và mang nghĩa là \"Giao dịch chuyển nhượng lớn\"."
+        "explanation": "\"Transaction\" có phiên âm /ˌtrænˈzæk.ʃən/ và mang nghĩa là \"Giao dịch chuyển nhượng lớn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Border Mergers & Acquisitions, we need to practice _____.\"",
-        "options": "[\"Mergers & Acquisitions\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Mergers & Acquisitions\",\"airplanes\"]",
         "correctAnswer": "Mergers & Acquisitions",
         "explanation": "\"Mergers & Acquisitions\" (Thương vụ sáp nhập và mua lại) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Border Mergers & Acquisitions."
       },
@@ -8785,11 +8785,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Valuation\" là gì?",
         "options": "[\"Cổ đông sở hữu công ty\",\"Tiếp quản thôn tính thù địch\",\"Hiệu ứng cộng hưởng sức mạnh\",\"Định giá tài sản công ty\"]",
         "correctAnswer": "Định giá tài sản công ty",
-        "explanation": "\"Valuation\" có phiên âm /valuation/ và mang nghĩa là \"Định giá tài sản công ty\"."
+        "explanation": "\"Valuation\" có phiên âm /ˌvæl.juˈeɪ.ʃən/ và mang nghĩa là \"Định giá tài sản công ty\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Border Mergers & Acquisitions, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Synergy\",\"airplanes\"]",
+        "options": "[\"Synergy\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Synergy",
         "explanation": "\"Synergy\" (Hiệu ứng cộng hưởng sức mạnh) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Border Mergers & Acquisitions."
       },
@@ -8801,13 +8801,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Shareholder\" là gì?",
-        "options": "[\"Phê duyệt từ cơ quan quản lý\",\"Cổ đông sở hữu công ty\",\"Hợp nhất hệ thống sau sáp nhập\",\"Nguồn vốn lưu động lớn\"]",
+        "options": "[\"Nguồn vốn lưu động lớn\",\"Phê duyệt từ cơ quan quản lý\",\"Cổ đông sở hữu công ty\",\"Hợp nhất hệ thống sau sáp nhập\"]",
         "correctAnswer": "Cổ đông sở hữu công ty",
-        "explanation": "\"Shareholder\" có phiên âm /shareholder/ và mang nghĩa là \"Cổ đông sở hữu công ty\"."
+        "explanation": "\"Shareholder\" có phiên âm /ˈʃer.hoʊl.dər/ và mang nghĩa là \"Cổ đông sở hữu công ty\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Border Mergers & Acquisitions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Regulatory approval\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Regulatory approval\",\"airplanes\"]",
         "correctAnswer": "Regulatory approval",
         "explanation": "\"Regulatory approval\" (Phê duyệt từ cơ quan quản lý) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Border Mergers & Acquisitions."
       },
@@ -8830,7 +8830,7 @@ module.exports = [
       {
         "word": "Intellectual property",
         "meaning": "Quyền sở hữu trí tuệ",
-        "pronunciation": "/intellectual property/",
+        "pronunciation": "/ˌɪn.təˈlek.tʃu.əl ˈprɑː.pər.ti/",
         "partOfSpeech": "noun",
         "example": "I use Intellectual property in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Intellectual property trong giao tiếp hàng ngày.",
@@ -8840,7 +8840,7 @@ module.exports = [
       {
         "word": "Patent",
         "meaning": "Bằng sáng chế độc quyền",
-        "pronunciation": "/patent/",
+        "pronunciation": "/ˈpæ.tənt/",
         "partOfSpeech": "noun",
         "example": "I use Patent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Patent trong giao tiếp hàng ngày.",
@@ -8850,7 +8850,7 @@ module.exports = [
       {
         "word": "Copyright",
         "meaning": "Bản quyền tác giả",
-        "pronunciation": "/copyright/",
+        "pronunciation": "/ˈkɑː.pɪ.raɪt/",
         "partOfSpeech": "noun",
         "example": "I use Copyright in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Copyright trong giao tiếp hàng ngày.",
@@ -8860,7 +8860,7 @@ module.exports = [
       {
         "word": "Trademark",
         "meaning": "Nhãn hiệu hàng hóa độc quyền",
-        "pronunciation": "/trademark/",
+        "pronunciation": "/ˈtreɪd.mɑːrk/",
         "partOfSpeech": "noun",
         "example": "I use Trademark in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Trademark trong giao tiếp hàng ngày.",
@@ -8870,7 +8870,7 @@ module.exports = [
       {
         "word": "Infringement",
         "meaning": "Hành vi xâm phạm bản quyền",
-        "pronunciation": "/infringement/",
+        "pronunciation": "/ˌɪnˈfrɪn.dʒmənt/",
         "partOfSpeech": "noun",
         "example": "I use Infringement in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Infringement trong giao tiếp hàng ngày.",
@@ -8880,7 +8880,7 @@ module.exports = [
       {
         "word": "Royalty",
         "meaning": "Tiền bản quyền tác giả",
-        "pronunciation": "/royalty/",
+        "pronunciation": "/ˈrɔɪ.əl.ti/",
         "partOfSpeech": "noun",
         "example": "I use Royalty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Royalty trong giao tiếp hàng ngày.",
@@ -8890,7 +8890,7 @@ module.exports = [
       {
         "word": "License",
         "meaning": "Hợp đồng cấp phép sử dụng",
-        "pronunciation": "/license/",
+        "pronunciation": "/ˈlaɪ.səns/",
         "partOfSpeech": "noun",
         "example": "I use License in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ License trong giao tiếp hàng ngày.",
@@ -8900,7 +8900,7 @@ module.exports = [
       {
         "word": "Trade secret",
         "meaning": "Bí mật kinh doanh cốt tử",
-        "pronunciation": "/trade secret/",
+        "pronunciation": "/ˈtreɪd ˈsiː.krət/",
         "partOfSpeech": "noun",
         "example": "I use Trade secret in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Trade secret trong giao tiếp hàng ngày.",
@@ -8910,7 +8910,7 @@ module.exports = [
       {
         "word": "Litigation",
         "meaning": "Kiện tụng sở hữu trí tuệ",
-        "pronunciation": "/litigation/",
+        "pronunciation": "/ˌlɪ.təˈɡeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Litigation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Litigation trong giao tiếp hàng ngày.",
@@ -8920,7 +8920,7 @@ module.exports = [
       {
         "word": "Exclusive",
         "meaning": "Quyền độc quyền khai thác",
-        "pronunciation": "/exclusive/",
+        "pronunciation": "/ˌɪksˈkluː.sɪv/",
         "partOfSpeech": "noun",
         "example": "I use Exclusive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Exclusive trong giao tiếp hàng ngày.",
@@ -8945,7 +8945,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Intellectual property\\\" has a specific pronunciation: /intellectual property/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Intellectual property\\\" có phát âm cụ thể là /intellectual property/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Patent\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Patent\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Intellectual property\\\" has a specific pronunciation: /ˌɪn.təˈlek.tʃu.əl ˈprɑː.pər.ti/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Intellectual property\\\" có phát âm cụ thể là /ˌɪn.təˈlek.tʃu.əl ˈprɑː.pər.ti/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Patent\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Patent\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -8976,7 +8976,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Intellectual\",\"use\",\"daily\",\"property\",\"I\",\"in\"]",
+        "options": "[\"I\",\"use\",\"Intellectual\",\"in\",\"property\",\"daily\"]",
         "correctAnswer": "I use Intellectual property in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Intellectual property in daily\"."
       },
@@ -8992,7 +8992,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Patent\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Patent",
-        "explanation": "Phát âm chuẩn IPA của từ là /patent/ - \"Patent\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈpæ.tənt/ - \"Patent\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -9026,13 +9026,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Intellectual property\" là gì?",
-        "options": "[\"Nhãn hiệu hàng hóa độc quyền\",\"Bằng sáng chế độc quyền\",\"Bản quyền tác giả\",\"Quyền sở hữu trí tuệ\"]",
+        "options": "[\"Quyền sở hữu trí tuệ\",\"Bằng sáng chế độc quyền\",\"Bản quyền tác giả\",\"Nhãn hiệu hàng hóa độc quyền\"]",
         "correctAnswer": "Quyền sở hữu trí tuệ",
-        "explanation": "\"Intellectual property\" có phiên âm /intellectual property/ và mang nghĩa là \"Quyền sở hữu trí tuệ\"."
+        "explanation": "\"Intellectual property\" có phiên âm /ˌɪn.təˈlek.tʃu.əl ˈprɑː.pər.ti/ và mang nghĩa là \"Quyền sở hữu trí tuệ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Intellectual Property & Digital Rights, we need to practice _____.\"",
-        "options": "[\"Patent\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Patent\"]",
         "correctAnswer": "Patent",
         "explanation": "\"Patent\" (Bằng sáng chế độc quyền) là từ vựng chính xác trong ngữ cảnh chủ đề Intellectual Property & Digital Rights."
       },
@@ -9044,13 +9044,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Trademark\" là gì?",
-        "options": "[\"Hợp đồng cấp phép sử dụng\",\"Tiền bản quyền tác giả\",\"Hành vi xâm phạm bản quyền\",\"Nhãn hiệu hàng hóa độc quyền\"]",
+        "options": "[\"Nhãn hiệu hàng hóa độc quyền\",\"Hợp đồng cấp phép sử dụng\",\"Tiền bản quyền tác giả\",\"Hành vi xâm phạm bản quyền\"]",
         "correctAnswer": "Nhãn hiệu hàng hóa độc quyền",
-        "explanation": "\"Trademark\" có phiên âm /trademark/ và mang nghĩa là \"Nhãn hiệu hàng hóa độc quyền\"."
+        "explanation": "\"Trademark\" có phiên âm /ˈtreɪd.mɑːrk/ và mang nghĩa là \"Nhãn hiệu hàng hóa độc quyền\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Intellectual Property & Digital Rights, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"Infringement\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"Infringement\",\"bananas\"]",
         "correctAnswer": "Infringement",
         "explanation": "\"Infringement\" (Hành vi xâm phạm bản quyền) là từ vựng chính xác trong ngữ cảnh chủ đề Intellectual Property & Digital Rights."
       },
@@ -9062,13 +9062,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"License\" là gì?",
-        "options": "[\"Kiện tụng sở hữu trí tuệ\",\"Quyền độc quyền khai thác\",\"Hợp đồng cấp phép sử dụng\",\"Bí mật kinh doanh cốt tử\"]",
+        "options": "[\"Kiện tụng sở hữu trí tuệ\",\"Hợp đồng cấp phép sử dụng\",\"Quyền độc quyền khai thác\",\"Bí mật kinh doanh cốt tử\"]",
         "correctAnswer": "Hợp đồng cấp phép sử dụng",
-        "explanation": "\"License\" có phiên âm /license/ và mang nghĩa là \"Hợp đồng cấp phép sử dụng\"."
+        "explanation": "\"License\" có phiên âm /ˈlaɪ.səns/ và mang nghĩa là \"Hợp đồng cấp phép sử dụng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Intellectual Property & Digital Rights, we need to practice _____.\"",
-        "options": "[\"Trade secret\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Trade secret\"]",
         "correctAnswer": "Trade secret",
         "explanation": "\"Trade secret\" (Bí mật kinh doanh cốt tử) là từ vựng chính xác trong ngữ cảnh chủ đề Intellectual Property & Digital Rights."
       },
@@ -9080,9 +9080,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Exclusive\" là gì?",
-        "options": "[\"Bản quyền tác giả\",\"Bằng sáng chế độc quyền\",\"Quyền sở hữu trí tuệ\",\"Quyền độc quyền khai thác\"]",
+        "options": "[\"Quyền độc quyền khai thác\",\"Quyền sở hữu trí tuệ\",\"Bản quyền tác giả\",\"Bằng sáng chế độc quyền\"]",
         "correctAnswer": "Quyền độc quyền khai thác",
-        "explanation": "\"Exclusive\" có phiên âm /exclusive/ và mang nghĩa là \"Quyền độc quyền khai thác\"."
+        "explanation": "\"Exclusive\" có phiên âm /ˌɪksˈkluː.sɪv/ và mang nghĩa là \"Quyền độc quyền khai thác\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Intellectual Property & Digital Rights, we need to practice _____.\"",
@@ -9098,13 +9098,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Copyright\" là gì?",
-        "options": "[\"Hành vi xâm phạm bản quyền\",\"Nhãn hiệu hàng hóa độc quyền\",\"Tiền bản quyền tác giả\",\"Bản quyền tác giả\"]",
+        "options": "[\"Bản quyền tác giả\",\"Nhãn hiệu hàng hóa độc quyền\",\"Hành vi xâm phạm bản quyền\",\"Tiền bản quyền tác giả\"]",
         "correctAnswer": "Bản quyền tác giả",
-        "explanation": "\"Copyright\" có phiên âm /copyright/ và mang nghĩa là \"Bản quyền tác giả\"."
+        "explanation": "\"Copyright\" có phiên âm /ˈkɑː.pɪ.raɪt/ và mang nghĩa là \"Bản quyền tác giả\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Intellectual Property & Digital Rights, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Trademark\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"Trademark\",\"airplanes\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Trademark",
         "explanation": "\"Trademark\" (Nhãn hiệu hàng hóa độc quyền) là từ vựng chính xác trong ngữ cảnh chủ đề Intellectual Property & Digital Rights."
       },
@@ -9116,9 +9116,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Royalty\" là gì?",
-        "options": "[\"Tiền bản quyền tác giả\",\"Kiện tụng sở hữu trí tuệ\",\"Hợp đồng cấp phép sử dụng\",\"Bí mật kinh doanh cốt tử\"]",
+        "options": "[\"Kiện tụng sở hữu trí tuệ\",\"Bí mật kinh doanh cốt tử\",\"Hợp đồng cấp phép sử dụng\",\"Tiền bản quyền tác giả\"]",
         "correctAnswer": "Tiền bản quyền tác giả",
-        "explanation": "\"Royalty\" có phiên âm /royalty/ và mang nghĩa là \"Tiền bản quyền tác giả\"."
+        "explanation": "\"Royalty\" có phiên âm /ˈrɔɪ.əl.ti/ và mang nghĩa là \"Tiền bản quyền tác giả\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Intellectual Property & Digital Rights, we need to practice _____.\"",
@@ -9145,7 +9145,7 @@ module.exports = [
       {
         "word": "Advanced",
         "meaning": "Trình độ cao cấp C1",
-        "pronunciation": "/advanced/",
+        "pronunciation": "/ədˈvænst/",
         "partOfSpeech": "noun",
         "example": "I use Advanced in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Advanced trong giao tiếp hàng ngày.",
@@ -9155,7 +9155,7 @@ module.exports = [
       {
         "word": "Mastery",
         "meaning": "Sự tinh thông bậc thầy",
-        "pronunciation": "/mastery/",
+        "pronunciation": "/ˈmæ.stər.i/",
         "partOfSpeech": "noun",
         "example": "I use Mastery in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Mastery trong giao tiếp hàng ngày.",
@@ -9165,7 +9165,7 @@ module.exports = [
       {
         "word": "Fluency",
         "meaning": "Lưu loát không tì vết",
-        "pronunciation": "/fluency/",
+        "pronunciation": "/ˈfluː.ən.si/",
         "partOfSpeech": "noun",
         "example": "I use Fluency in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fluency trong giao tiếp hàng ngày.",
@@ -9175,7 +9175,7 @@ module.exports = [
       {
         "word": "Sophistication",
         "meaning": "Vẻ đẹp uyên thâm của ngôn từ",
-        "pronunciation": "/sophistication/",
+        "pronunciation": "/ˌsə.fɪ.stəˈkeɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Sophistication in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sophistication trong giao tiếp hàng ngày.",
@@ -9185,7 +9185,7 @@ module.exports = [
       {
         "word": "Milestone",
         "meaning": "Cột mốc chói lọi",
-        "pronunciation": "/milestone/",
+        "pronunciation": "/ˈmaɪl.stoʊn/",
         "partOfSpeech": "noun",
         "example": "I use Milestone in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Milestone trong giao tiếp hàng ngày.",
@@ -9195,7 +9195,7 @@ module.exports = [
       {
         "word": "Articulate",
         "meaning": "Diễn ngôn xuất chúng",
-        "pronunciation": "/articulate/",
+        "pronunciation": "/ˌɑːrˈtɪk.jə.leɪt/",
         "partOfSpeech": "noun",
         "example": "I use Articulate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Articulate trong giao tiếp hàng ngày.",
@@ -9205,7 +9205,7 @@ module.exports = [
       {
         "word": "Excellence",
         "meaning": "Sự kiệt xuất tuyệt hảo",
-        "pronunciation": "/excellence/",
+        "pronunciation": "/ˈek.sə.ləns/",
         "partOfSpeech": "noun",
         "example": "I use Excellence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Excellence trong giao tiếp hàng ngày.",
@@ -9215,7 +9215,7 @@ module.exports = [
       {
         "word": "Intellect",
         "meaning": "Trí tuệ minh triết",
-        "pronunciation": "/intellect/",
+        "pronunciation": "/ˈɪn.tə.lekt/",
         "partOfSpeech": "noun",
         "example": "I use Intellect in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Intellect trong giao tiếp hàng ngày.",
@@ -9225,7 +9225,7 @@ module.exports = [
       {
         "word": "Leadership",
         "meaning": "Tầm vóc người lãnh đạo",
-        "pronunciation": "/leadership/",
+        "pronunciation": "/ˈliː.dər.ʃɪp/",
         "partOfSpeech": "noun",
         "example": "I use Leadership in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Leadership trong giao tiếp hàng ngày.",
@@ -9235,7 +9235,7 @@ module.exports = [
       {
         "word": "Preparedness",
         "meaning": "Sẵn sàng chinh phục đỉnh C2",
-        "pronunciation": "/preparedness/",
+        "pronunciation": "/ˌpriˈpe.rəd.nəs/",
         "partOfSpeech": "noun",
         "example": "I use Preparedness in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Preparedness trong giao tiếp hàng ngày.",
@@ -9260,7 +9260,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Advanced\\\" has a specific pronunciation: /advanced/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Advanced\\\" có phát âm cụ thể là /advanced/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Mastery\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Mastery\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Advanced\\\" has a specific pronunciation: /ədˈvænst/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Advanced\\\" có phát âm cụ thể là /ədˈvænst/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Mastery\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Mastery\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -9291,7 +9291,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"use\",\"I\",\"Advanced\",\"conversation\",\"daily\"]",
+        "options": "[\"daily\",\"in\",\"I\",\"use\",\"Advanced\",\"conversation\"]",
         "correctAnswer": "I use Advanced in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Advanced in daily conversation\"."
       },
@@ -9307,7 +9307,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Mastery\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Mastery",
-        "explanation": "Phát âm chuẩn IPA của từ là /mastery/ - \"Mastery\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈmæ.stər.i/ - \"Mastery\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -9341,13 +9341,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Advanced\" là gì?",
-        "options": "[\"Lưu loát không tì vết\",\"Sự tinh thông bậc thầy\",\"Vẻ đẹp uyên thâm của ngôn từ\",\"Trình độ cao cấp C1\"]",
+        "options": "[\"Sự tinh thông bậc thầy\",\"Lưu loát không tì vết\",\"Trình độ cao cấp C1\",\"Vẻ đẹp uyên thâm của ngôn từ\"]",
         "correctAnswer": "Trình độ cao cấp C1",
-        "explanation": "\"Advanced\" có phiên âm /advanced/ và mang nghĩa là \"Trình độ cao cấp C1\"."
+        "explanation": "\"Advanced\" có phiên âm /ədˈvænst/ và mang nghĩa là \"Trình độ cao cấp C1\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Advanced Mastery Milestone, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Mastery\"]",
+        "options": "[\"Mastery\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Mastery",
         "explanation": "\"Mastery\" (Sự tinh thông bậc thầy) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Advanced Mastery Milestone."
       },
@@ -9359,13 +9359,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sophistication\" là gì?",
-        "options": "[\"Diễn ngôn xuất chúng\",\"Cột mốc chói lọi\",\"Sự kiệt xuất tuyệt hảo\",\"Vẻ đẹp uyên thâm của ngôn từ\"]",
+        "options": "[\"Sự kiệt xuất tuyệt hảo\",\"Diễn ngôn xuất chúng\",\"Cột mốc chói lọi\",\"Vẻ đẹp uyên thâm của ngôn từ\"]",
         "correctAnswer": "Vẻ đẹp uyên thâm của ngôn từ",
-        "explanation": "\"Sophistication\" có phiên âm /sophistication/ và mang nghĩa là \"Vẻ đẹp uyên thâm của ngôn từ\"."
+        "explanation": "\"Sophistication\" có phiên âm /ˌsə.fɪ.stəˈkeɪ.ʃən/ và mang nghĩa là \"Vẻ đẹp uyên thâm của ngôn từ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Advanced Mastery Milestone, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Milestone\"]",
+        "options": "[\"Milestone\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Milestone",
         "explanation": "\"Milestone\" (Cột mốc chói lọi) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Advanced Mastery Milestone."
       },
@@ -9379,11 +9379,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Excellence\" là gì?",
         "options": "[\"Sự kiệt xuất tuyệt hảo\",\"Trí tuệ minh triết\",\"Tầm vóc người lãnh đạo\",\"Sẵn sàng chinh phục đỉnh C2\"]",
         "correctAnswer": "Sự kiệt xuất tuyệt hảo",
-        "explanation": "\"Excellence\" có phiên âm /excellence/ và mang nghĩa là \"Sự kiệt xuất tuyệt hảo\"."
+        "explanation": "\"Excellence\" có phiên âm /ˈek.sə.ləns/ và mang nghĩa là \"Sự kiệt xuất tuyệt hảo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Advanced Mastery Milestone, we need to practice _____.\"",
-        "options": "[\"Intellect\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Intellect\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Intellect",
         "explanation": "\"Intellect\" (Trí tuệ minh triết) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Advanced Mastery Milestone."
       },
@@ -9395,13 +9395,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Preparedness\" là gì?",
-        "options": "[\"Trình độ cao cấp C1\",\"Lưu loát không tì vết\",\"Sự tinh thông bậc thầy\",\"Sẵn sàng chinh phục đỉnh C2\"]",
+        "options": "[\"Sự tinh thông bậc thầy\",\"Sẵn sàng chinh phục đỉnh C2\",\"Trình độ cao cấp C1\",\"Lưu loát không tì vết\"]",
         "correctAnswer": "Sẵn sàng chinh phục đỉnh C2",
-        "explanation": "\"Preparedness\" có phiên âm /preparedness/ và mang nghĩa là \"Sẵn sàng chinh phục đỉnh C2\"."
+        "explanation": "\"Preparedness\" có phiên âm /ˌpriˈpe.rəd.nəs/ và mang nghĩa là \"Sẵn sàng chinh phục đỉnh C2\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Advanced Mastery Milestone, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Advanced\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Advanced\",\"airplanes\"]",
         "correctAnswer": "Advanced",
         "explanation": "\"Advanced\" (Trình độ cao cấp C1) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Advanced Mastery Milestone."
       },
@@ -9413,13 +9413,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Fluency\" là gì?",
-        "options": "[\"Diễn ngôn xuất chúng\",\"Cột mốc chói lọi\",\"Vẻ đẹp uyên thâm của ngôn từ\",\"Lưu loát không tì vết\"]",
+        "options": "[\"Vẻ đẹp uyên thâm của ngôn từ\",\"Lưu loát không tì vết\",\"Cột mốc chói lọi\",\"Diễn ngôn xuất chúng\"]",
         "correctAnswer": "Lưu loát không tì vết",
-        "explanation": "\"Fluency\" có phiên âm /fluency/ và mang nghĩa là \"Lưu loát không tì vết\"."
+        "explanation": "\"Fluency\" có phiên âm /ˈfluː.ən.si/ và mang nghĩa là \"Lưu loát không tì vết\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Advanced Mastery Milestone, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Sophistication\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Sophistication\"]",
         "correctAnswer": "Sophistication",
         "explanation": "\"Sophistication\" (Vẻ đẹp uyên thâm của ngôn từ) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Advanced Mastery Milestone."
       },
@@ -9431,13 +9431,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Articulate\" là gì?",
-        "options": "[\"Trí tuệ minh triết\",\"Sự kiệt xuất tuyệt hảo\",\"Diễn ngôn xuất chúng\",\"Tầm vóc người lãnh đạo\"]",
+        "options": "[\"Diễn ngôn xuất chúng\",\"Sự kiệt xuất tuyệt hảo\",\"Trí tuệ minh triết\",\"Tầm vóc người lãnh đạo\"]",
         "correctAnswer": "Diễn ngôn xuất chúng",
-        "explanation": "\"Articulate\" có phiên âm /articulate/ và mang nghĩa là \"Diễn ngôn xuất chúng\"."
+        "explanation": "\"Articulate\" có phiên âm /ˌɑːrˈtɪk.jə.leɪt/ và mang nghĩa là \"Diễn ngôn xuất chúng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Advanced Mastery Milestone, we need to practice _____.\"",
-        "options": "[\"Excellence\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Excellence\"]",
         "correctAnswer": "Excellence",
         "explanation": "\"Excellence\" (Sự kiệt xuất tuyệt hảo) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Advanced Mastery Milestone."
       },

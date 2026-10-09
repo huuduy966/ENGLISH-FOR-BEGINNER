@@ -1,4 +1,6 @@
 // helper.js - Lesson generation helper with 7-step roadmap data (Multi-point grammar, specific listening, reading comprehension)
+const ipaDictionary = require('./ipaDictionary.json');
+
 function createLesson({
   level,
   orderNumber,
@@ -24,16 +26,22 @@ function createLesson({
     C2: { quizQs: 20, exerciseQs: 10 },
   }[level] || { quizQs: 10, exerciseQs: 6 };
 
-  const vocabsFormatted = vocabularies.map((v) => ({
-    word: v.word,
-    meaning: v.meaning,
-    pronunciation: v.pronunciation || `/${v.word.toLowerCase()}/`,
-    partOfSpeech: v.partOfSpeech || 'noun',
-    example: v.example || `I use ${v.word} in daily conversation.`,
-    exampleMeaning: v.exampleMeaning || `Tôi sử dụng từ ${v.word} trong giao tiếp hàng ngày.`,
-    category: category,
-    level: level,
-  }));
+  const vocabsFormatted = vocabularies.map((v) => {
+    const cleanKey = v.word.toLowerCase().trim();
+    // Prioritize Cambridge standard IPA from dictionary with syllable dots
+    const ipa = ipaDictionary[cleanKey] || v.pronunciation || `/${cleanKey}/`;
+
+    return {
+      word: v.word,
+      meaning: v.meaning,
+      pronunciation: ipa,
+      partOfSpeech: v.partOfSpeech || 'noun',
+      example: v.example || `I use ${v.word} in daily conversation.`,
+      exampleMeaning: v.exampleMeaning || `Tôi sử dụng từ ${v.word} trong giao tiếp hàng ngày.`,
+      category: category,
+      level: level,
+    };
+  });
 
   const primaryVocab = vocabsFormatted[0] || { word: 'English', meaning: 'Tiếng Anh', pronunciation: '/ˈɪŋɡlɪʃ/' };
   const secondaryVocab = vocabsFormatted[1] || { word: 'Study', meaning: 'Học tập', pronunciation: '/ˈstʌdi/' };

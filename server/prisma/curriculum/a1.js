@@ -20,7 +20,7 @@ module.exports = [
       {
         "word": "Good morning",
         "meaning": "Chào buổi sáng",
-        "pronunciation": "/ɡʊd ˈmɔːrnɪŋ/",
+        "pronunciation": "/ˈɡʊd ˈmɔːr.nɪŋ/",
         "partOfSpeech": "phrase",
         "example": "Good morning, teacher!",
         "exampleMeaning": "Chào buổi sáng cô giáo!",
@@ -30,7 +30,7 @@ module.exports = [
       {
         "word": "Good afternoon",
         "meaning": "Chào buổi chiều",
-        "pronunciation": "/ɡʊd ˌæftərˈnuːn/",
+        "pronunciation": "/ˈɡʊd ˌæf.tərˈnuːn/",
         "partOfSpeech": "phrase",
         "example": "Good afternoon, class.",
         "exampleMeaning": "Chào buổi chiều cả lớp.",
@@ -40,7 +40,7 @@ module.exports = [
       {
         "word": "Good evening",
         "meaning": "Chào buổi tối",
-        "pronunciation": "/ɡʊd ˈiːvnɪŋ/",
+        "pronunciation": "/ˈɡʊd ˈiːv.nɪŋ/",
         "partOfSpeech": "phrase",
         "example": "Good evening, Mr. John.",
         "exampleMeaning": "Chào buổi tối, thầy John.",
@@ -60,7 +60,7 @@ module.exports = [
       {
         "word": "Name",
         "meaning": "Tên",
-        "pronunciation": "/neɪm/",
+        "pronunciation": "/ˈneɪm/",
         "partOfSpeech": "noun",
         "example": "My name is David.",
         "exampleMeaning": "Tên tôi là David.",
@@ -70,7 +70,7 @@ module.exports = [
       {
         "word": "Meet",
         "meaning": "Gặp gỡ",
-        "pronunciation": "/miːt/",
+        "pronunciation": "/ˈmiːt/",
         "partOfSpeech": "verb",
         "example": "Glad to meet you.",
         "exampleMeaning": "Rất vui được gặp bạn.",
@@ -80,7 +80,7 @@ module.exports = [
       {
         "word": "Please",
         "meaning": "Làm ơn / Xin vui lòng",
-        "pronunciation": "/pliːz/",
+        "pronunciation": "/ˈpliːz/",
         "partOfSpeech": "adverb",
         "example": "Come in, please.",
         "exampleMeaning": "Xin mời vào.",
@@ -90,7 +90,7 @@ module.exports = [
       {
         "word": "Thank you",
         "meaning": "Cảm ơn bạn",
-        "pronunciation": "/ˈθæŋk juː/",
+        "pronunciation": "/ˈθæŋk ˈjuː/",
         "partOfSpeech": "phrase",
         "example": "Thank you for your help.",
         "exampleMeaning": "Cảm ơn sự giúp đỡ của bạn.",
@@ -100,7 +100,7 @@ module.exports = [
       {
         "word": "Welcome",
         "meaning": "Chào mừng / Không có chi",
-        "pronunciation": "/ˈwelkəm/",
+        "pronunciation": "/ˈwel.kəm/",
         "partOfSpeech": "interjection",
         "example": "You are welcome.",
         "exampleMeaning": "Không có gì ạ.",
@@ -156,7 +156,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Hello\",\"nice\",\"meet\",\"to\",\"you\"]",
+        "options": "[\"Hello\",\"nice\",\"meet\",\"you\",\"to\"]",
         "correctAnswer": "Hello nice to meet you",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Hello nice to meet you\"."
       },
@@ -172,7 +172,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Good morning\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Good morning",
-        "explanation": "Phát âm chuẩn IPA của từ là /ɡʊd ˈmɔːrnɪŋ/ - \"Good morning\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈɡʊd ˈmɔːr.nɪŋ/ - \"Good morning\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -192,13 +192,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hello\" là gì?",
-        "options": "[\"Chào buổi chiều\",\"Xin chào\",\"Chào buổi sáng\",\"Chào buổi tối\"]",
+        "options": "[\"Chào buổi chiều\",\"Chào buổi tối\",\"Chào buổi sáng\",\"Xin chào\"]",
         "correctAnswer": "Xin chào",
         "explanation": "\"Hello\" có phiên âm /həˈloʊ/ và mang nghĩa là \"Xin chào\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Greetings & Introductions, we need to practice _____.\"",
-        "options": "[\"Good morning\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Good morning\",\"umbrellas\"]",
         "correctAnswer": "Good morning",
         "explanation": "\"Good morning\" (Chào buổi sáng) là từ vựng chính xác trong ngữ cảnh chủ đề Greetings & Introductions."
       },
@@ -210,13 +210,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Good evening\" là gì?",
-        "options": "[\"Chào buổi tối\",\"Tạm biệt\",\"Gặp gỡ\",\"Tên\"]",
+        "options": "[\"Gặp gỡ\",\"Tên\",\"Tạm biệt\",\"Chào buổi tối\"]",
         "correctAnswer": "Chào buổi tối",
-        "explanation": "\"Good evening\" có phiên âm /ɡʊd ˈiːvnɪŋ/ và mang nghĩa là \"Chào buổi tối\"."
+        "explanation": "\"Good evening\" có phiên âm /ˈɡʊd ˈiːv.nɪŋ/ và mang nghĩa là \"Chào buổi tối\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Greetings & Introductions, we need to practice _____.\"",
-        "options": "[\"Goodbye\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Goodbye\"]",
         "correctAnswer": "Goodbye",
         "explanation": "\"Goodbye\" (Tạm biệt) là từ vựng chính xác trong ngữ cảnh chủ đề Greetings & Introductions."
       },
@@ -228,13 +228,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Meet\" là gì?",
-        "options": "[\"Gặp gỡ\",\"Làm ơn / Xin vui lòng\",\"Cảm ơn bạn\",\"Chào mừng / Không có chi\"]",
+        "options": "[\"Chào mừng / Không có chi\",\"Cảm ơn bạn\",\"Làm ơn / Xin vui lòng\",\"Gặp gỡ\"]",
         "correctAnswer": "Gặp gỡ",
-        "explanation": "\"Meet\" có phiên âm /miːt/ và mang nghĩa là \"Gặp gỡ\"."
+        "explanation": "\"Meet\" có phiên âm /ˈmiːt/ và mang nghĩa là \"Gặp gỡ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Greetings & Introductions, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Please\",\"airplanes\"]",
+        "options": "[\"Please\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Please",
         "explanation": "\"Please\" (Làm ơn / Xin vui lòng) là từ vựng chính xác trong ngữ cảnh chủ đề Greetings & Introductions."
       },
@@ -246,9 +246,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Welcome\" là gì?",
-        "options": "[\"Chào mừng / Không có chi\",\"Xin chào\",\"Chào buổi sáng\",\"Chào buổi chiều\"]",
+        "options": "[\"Xin chào\",\"Chào mừng / Không có chi\",\"Chào buổi chiều\",\"Chào buổi sáng\"]",
         "correctAnswer": "Chào mừng / Không có chi",
-        "explanation": "\"Welcome\" có phiên âm /ˈwelkəm/ và mang nghĩa là \"Chào mừng / Không có chi\"."
+        "explanation": "\"Welcome\" có phiên âm /ˈwel.kəm/ và mang nghĩa là \"Chào mừng / Không có chi\"."
       }
     ]
   },
@@ -263,7 +263,7 @@ module.exports = [
       {
         "word": "I",
         "meaning": "Tôi",
-        "pronunciation": "/aɪ/",
+        "pronunciation": "/ˈaɪ/",
         "partOfSpeech": "pronoun",
         "example": "I am a student.",
         "exampleMeaning": "Tôi là một học sinh.",
@@ -273,7 +273,7 @@ module.exports = [
       {
         "word": "You",
         "meaning": "Bạn / Các bạn",
-        "pronunciation": "/juː/",
+        "pronunciation": "/ˈjuː/",
         "partOfSpeech": "pronoun",
         "example": "You are very kind.",
         "exampleMeaning": "Bạn rất tốt bụng.",
@@ -283,7 +283,7 @@ module.exports = [
       {
         "word": "He",
         "meaning": "Anh ấy / Cậu ấy",
-        "pronunciation": "/hiː/",
+        "pronunciation": "/ˈhiː/",
         "partOfSpeech": "pronoun",
         "example": "He is my brother.",
         "exampleMeaning": "Cậu ấy là anh trai tôi.",
@@ -293,7 +293,7 @@ module.exports = [
       {
         "word": "She",
         "meaning": "Cô ấy / Chị ấy",
-        "pronunciation": "/ʃiː/",
+        "pronunciation": "/ˈʃiː/",
         "partOfSpeech": "pronoun",
         "example": "She is a doctor.",
         "exampleMeaning": "Cô ấy là một bác sĩ.",
@@ -303,7 +303,7 @@ module.exports = [
       {
         "word": "It",
         "meaning": "Nó (con vật, đồ vật)",
-        "pronunciation": "/ɪt/",
+        "pronunciation": "/ˈɪt/",
         "partOfSpeech": "pronoun",
         "example": "It is a sunny day.",
         "exampleMeaning": "Đó là một ngày nắng.",
@@ -313,7 +313,7 @@ module.exports = [
       {
         "word": "We",
         "meaning": "Chúng tôi / Chúng ta",
-        "pronunciation": "/wiː/",
+        "pronunciation": "/ˈwiː/",
         "partOfSpeech": "pronoun",
         "example": "We are good friends.",
         "exampleMeaning": "Chúng tôi là bạn tốt.",
@@ -323,7 +323,7 @@ module.exports = [
       {
         "word": "They",
         "meaning": "Họ / Chúng nó",
-        "pronunciation": "/ðeɪ/",
+        "pronunciation": "/ˈðeɪ/",
         "partOfSpeech": "pronoun",
         "example": "They are students.",
         "exampleMeaning": "Họ là những học sinh.",
@@ -333,7 +333,7 @@ module.exports = [
       {
         "word": "Student",
         "meaning": "Học sinh, sinh viên",
-        "pronunciation": "/ˈstuːdənt/",
+        "pronunciation": "/ˈstuː.dənt/",
         "partOfSpeech": "noun",
         "example": "I am an English student.",
         "exampleMeaning": "Tôi là học viên tiếng Anh.",
@@ -343,7 +343,7 @@ module.exports = [
       {
         "word": "Teacher",
         "meaning": "Giáo viên",
-        "pronunciation": "/ˈtiːtʃər/",
+        "pronunciation": "/ˈtiː.tʃər/",
         "partOfSpeech": "noun",
         "example": "Our teacher is helpful.",
         "exampleMeaning": "Giáo viên của chúng tôi rất tận tâm.",
@@ -353,7 +353,7 @@ module.exports = [
       {
         "word": "Doctor",
         "meaning": "Bác sĩ",
-        "pronunciation": "/ˈdɑːktər/",
+        "pronunciation": "/ˈdɑːk.tər/",
         "partOfSpeech": "noun",
         "example": "My uncle is a doctor.",
         "exampleMeaning": "Chú tôi là bác sĩ.",
@@ -378,7 +378,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"I\\\" has a specific pronunciation: /aɪ/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"I\\\" có phát âm cụ thể là /aɪ/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"You\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"You\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"I\\\" has a specific pronunciation: /ˈaɪ/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"I\\\" có phát âm cụ thể là /ˈaɪ/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"You\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"You\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -409,7 +409,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"student\",\"a\",\"am\",\"I\"]",
+        "options": "[\"a\",\"am\",\"student\",\"I\"]",
         "correctAnswer": "I am a student",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I am a student\"."
       },
@@ -425,7 +425,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"You\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "You",
-        "explanation": "Phát âm chuẩn IPA của từ là /juː/ - \"You\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈjuː/ - \"You\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -445,13 +445,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"I\" là gì?",
-        "options": "[\"Cô ấy / Chị ấy\",\"Anh ấy / Cậu ấy\",\"Bạn / Các bạn\",\"Tôi\"]",
+        "options": "[\"Tôi\",\"Bạn / Các bạn\",\"Cô ấy / Chị ấy\",\"Anh ấy / Cậu ấy\"]",
         "correctAnswer": "Tôi",
-        "explanation": "\"I\" có phiên âm /aɪ/ và mang nghĩa là \"Tôi\"."
+        "explanation": "\"I\" có phiên âm /ˈaɪ/ và mang nghĩa là \"Tôi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Personal Pronouns & Verb To Be, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"You\"]",
+        "options": "[\"bananas\",\"airplanes\",\"You\",\"umbrellas\"]",
         "correctAnswer": "You",
         "explanation": "\"You\" (Bạn / Các bạn) là từ vựng chính xác trong ngữ cảnh chủ đề Personal Pronouns & Verb To Be."
       },
@@ -463,13 +463,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"She\" là gì?",
-        "options": "[\"Họ / Chúng nó\",\"Chúng tôi / Chúng ta\",\"Nó (con vật, đồ vật)\",\"Cô ấy / Chị ấy\"]",
+        "options": "[\"Họ / Chúng nó\",\"Chúng tôi / Chúng ta\",\"Cô ấy / Chị ấy\",\"Nó (con vật, đồ vật)\"]",
         "correctAnswer": "Cô ấy / Chị ấy",
-        "explanation": "\"She\" có phiên âm /ʃiː/ và mang nghĩa là \"Cô ấy / Chị ấy\"."
+        "explanation": "\"She\" có phiên âm /ˈʃiː/ và mang nghĩa là \"Cô ấy / Chị ấy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Personal Pronouns & Verb To Be, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"It\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"It\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "It",
         "explanation": "\"It\" (Nó (con vật, đồ vật)) là từ vựng chính xác trong ngữ cảnh chủ đề Personal Pronouns & Verb To Be."
       },
@@ -483,11 +483,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"They\" là gì?",
         "options": "[\"Họ / Chúng nó\",\"Học sinh, sinh viên\",\"Giáo viên\",\"Bác sĩ\"]",
         "correctAnswer": "Họ / Chúng nó",
-        "explanation": "\"They\" có phiên âm /ðeɪ/ và mang nghĩa là \"Họ / Chúng nó\"."
+        "explanation": "\"They\" có phiên âm /ˈðeɪ/ và mang nghĩa là \"Họ / Chúng nó\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Personal Pronouns & Verb To Be, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Student\"]",
+        "options": "[\"bananas\",\"Student\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Student",
         "explanation": "\"Student\" (Học sinh, sinh viên) là từ vựng chính xác trong ngữ cảnh chủ đề Personal Pronouns & Verb To Be."
       },
@@ -499,9 +499,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Doctor\" là gì?",
-        "options": "[\"Bác sĩ\",\"Tôi\",\"Anh ấy / Cậu ấy\",\"Bạn / Các bạn\"]",
+        "options": "[\"Bạn / Các bạn\",\"Anh ấy / Cậu ấy\",\"Tôi\",\"Bác sĩ\"]",
         "correctAnswer": "Bác sĩ",
-        "explanation": "\"Doctor\" có phiên âm /ˈdɑːktər/ và mang nghĩa là \"Bác sĩ\"."
+        "explanation": "\"Doctor\" có phiên âm /ˈdɑːk.tər/ và mang nghĩa là \"Bác sĩ\"."
       }
     ]
   },
@@ -516,7 +516,7 @@ module.exports = [
       {
         "word": "Letter",
         "meaning": "Chữ cái",
-        "pronunciation": "/ˈletər/",
+        "pronunciation": "/ˈle.tər/",
         "partOfSpeech": "noun",
         "example": "English has 26 letters.",
         "exampleMeaning": "Tiếng Anh có 26 chữ cái.",
@@ -526,7 +526,7 @@ module.exports = [
       {
         "word": "Alphabet",
         "meaning": "Bảng chữ cái",
-        "pronunciation": "/ˈælfəbet/",
+        "pronunciation": "/ˈæl.fə.bet/",
         "partOfSpeech": "noun",
         "example": "Learn the English alphabet.",
         "exampleMeaning": "Học bảng chữ cái tiếng Anh.",
@@ -536,7 +536,7 @@ module.exports = [
       {
         "word": "Spell",
         "meaning": "Đánh vần",
-        "pronunciation": "/spel/",
+        "pronunciation": "/ˈspel/",
         "partOfSpeech": "verb",
         "example": "How do you spell your name?",
         "exampleMeaning": "Bạn đánh vần tên bạn thế nào?",
@@ -546,7 +546,7 @@ module.exports = [
       {
         "word": "Vowel",
         "meaning": "Nguyên âm",
-        "pronunciation": "/ˈvaʊəl/",
+        "pronunciation": "/ˈvaʊ.əl/",
         "partOfSpeech": "noun",
         "example": "A, E, I, O, U are vowels.",
         "exampleMeaning": "A, E, I, O, U là các nguyên âm.",
@@ -556,7 +556,7 @@ module.exports = [
       {
         "word": "Consonant",
         "meaning": "Phụ âm",
-        "pronunciation": "/ˈkɑːnsənənt/",
+        "pronunciation": "/ˈkɑːn.sə.nənt/",
         "partOfSpeech": "noun",
         "example": "B and C are consonants.",
         "exampleMeaning": "B và C là các phụ âm.",
@@ -566,7 +566,7 @@ module.exports = [
       {
         "word": "Word",
         "meaning": "Từ ngữ",
-        "pronunciation": "/wɜːrd/",
+        "pronunciation": "/ˈwɜːrd/",
         "partOfSpeech": "noun",
         "example": "Write down this new word.",
         "exampleMeaning": "Hãy viết từ mới này xuống.",
@@ -576,7 +576,7 @@ module.exports = [
       {
         "word": "Sound",
         "meaning": "Âm thanh, phát âm",
-        "pronunciation": "/saʊnd/",
+        "pronunciation": "/ˈsaʊnd/",
         "partOfSpeech": "noun",
         "example": "Listen to the sound carefully.",
         "exampleMeaning": "Hãy lắng nghe âm thanh cẩn thận.",
@@ -586,7 +586,7 @@ module.exports = [
       {
         "word": "Read",
         "meaning": "Đọc",
-        "pronunciation": "/riːd/",
+        "pronunciation": "/ˈred/",
         "partOfSpeech": "verb",
         "example": "Read the alphabet out loud.",
         "exampleMeaning": "Hãy đọc to bảng chữ cái.",
@@ -596,7 +596,7 @@ module.exports = [
       {
         "word": "Write",
         "meaning": "Viết",
-        "pronunciation": "/raɪt/",
+        "pronunciation": "/ˈraɪt/",
         "partOfSpeech": "verb",
         "example": "Write your full name here.",
         "exampleMeaning": "Hãy viết họ tên bạn vào đây.",
@@ -631,7 +631,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Letter\\\" has a specific pronunciation: /ˈletər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Letter\\\" có phát âm cụ thể là /ˈletər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Alphabet\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Alphabet\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Letter\\\" has a specific pronunciation: /ˈle.tər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Letter\\\" có phát âm cụ thể là /ˈle.tər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Alphabet\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Alphabet\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -662,7 +662,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"English\",\"has\",\"26\",\"letters\"]",
+        "options": "[\"letters\",\"26\",\"has\",\"English\"]",
         "correctAnswer": "English has 26 letters",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"English has 26 letters\"."
       },
@@ -678,7 +678,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Alphabet\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Alphabet",
-        "explanation": "Phát âm chuẩn IPA của từ là /ˈælfəbet/ - \"Alphabet\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈæl.fə.bet/ - \"Alphabet\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -698,13 +698,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Letter\" là gì?",
-        "options": "[\"Nguyên âm\",\"Chữ cái\",\"Bảng chữ cái\",\"Đánh vần\"]",
+        "options": "[\"Chữ cái\",\"Bảng chữ cái\",\"Đánh vần\",\"Nguyên âm\"]",
         "correctAnswer": "Chữ cái",
-        "explanation": "\"Letter\" có phiên âm /ˈletər/ và mang nghĩa là \"Chữ cái\"."
+        "explanation": "\"Letter\" có phiên âm /ˈle.tər/ và mang nghĩa là \"Chữ cái\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Alphabet & Spelling, we need to practice _____.\"",
-        "options": "[\"Alphabet\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Alphabet\",\"umbrellas\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Alphabet",
         "explanation": "\"Alphabet\" (Bảng chữ cái) là từ vựng chính xác trong ngữ cảnh chủ đề Alphabet & Spelling."
       },
@@ -718,11 +718,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Vowel\" là gì?",
         "options": "[\"Nguyên âm\",\"Âm thanh, phát âm\",\"Phụ âm\",\"Từ ngữ\"]",
         "correctAnswer": "Nguyên âm",
-        "explanation": "\"Vowel\" có phiên âm /ˈvaʊəl/ và mang nghĩa là \"Nguyên âm\"."
+        "explanation": "\"Vowel\" có phiên âm /ˈvaʊ.əl/ và mang nghĩa là \"Nguyên âm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Alphabet & Spelling, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Consonant\",\"airplanes\"]",
+        "options": "[\"Consonant\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Consonant",
         "explanation": "\"Consonant\" (Phụ âm) là từ vựng chính xác trong ngữ cảnh chủ đề Alphabet & Spelling."
       },
@@ -734,13 +734,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sound\" là gì?",
-        "options": "[\"Viết\",\"Âm thanh, phát âm\",\"Đọc\",\"Nhắc lại\"]",
+        "options": "[\"Nhắc lại\",\"Viết\",\"Đọc\",\"Âm thanh, phát âm\"]",
         "correctAnswer": "Âm thanh, phát âm",
-        "explanation": "\"Sound\" có phiên âm /saʊnd/ và mang nghĩa là \"Âm thanh, phát âm\"."
+        "explanation": "\"Sound\" có phiên âm /ˈsaʊnd/ và mang nghĩa là \"Âm thanh, phát âm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Alphabet & Spelling, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Read\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Read\"]",
         "correctAnswer": "Read",
         "explanation": "\"Read\" (Đọc) là từ vựng chính xác trong ngữ cảnh chủ đề Alphabet & Spelling."
       },
@@ -752,7 +752,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Repeat\" là gì?",
-        "options": "[\"Bảng chữ cái\",\"Đánh vần\",\"Nhắc lại\",\"Chữ cái\"]",
+        "options": "[\"Bảng chữ cái\",\"Đánh vần\",\"Chữ cái\",\"Nhắc lại\"]",
         "correctAnswer": "Nhắc lại",
         "explanation": "\"Repeat\" có phiên âm /rɪˈpiːt/ và mang nghĩa là \"Nhắc lại\"."
       }
@@ -769,7 +769,7 @@ module.exports = [
       {
         "word": "One",
         "meaning": "Số một (1)",
-        "pronunciation": "/wʌn/",
+        "pronunciation": "/ˈwʌn/",
         "partOfSpeech": "number",
         "example": "I have one sister.",
         "exampleMeaning": "Tôi có một người chị gái.",
@@ -779,7 +779,7 @@ module.exports = [
       {
         "word": "Two",
         "meaning": "Số hai (2)",
-        "pronunciation": "/tuː/",
+        "pronunciation": "/ˈtuː/",
         "partOfSpeech": "number",
         "example": "Two cups of coffee, please.",
         "exampleMeaning": "Làm ơn cho hai tách cà phê.",
@@ -789,7 +789,7 @@ module.exports = [
       {
         "word": "Three",
         "meaning": "Số ba (3)",
-        "pronunciation": "/θriː/",
+        "pronunciation": "/ˈθriː/",
         "partOfSpeech": "number",
         "example": "Three books are on the desk.",
         "exampleMeaning": "Có ba quyển sách trên bàn.",
@@ -799,7 +799,7 @@ module.exports = [
       {
         "word": "Four",
         "meaning": "Số bốn (4)",
-        "pronunciation": "/fɔːr/",
+        "pronunciation": "/ˈfɔːr/",
         "partOfSpeech": "number",
         "example": "A car has four wheels.",
         "exampleMeaning": "Một chiếc ô tô có bốn bánh.",
@@ -809,7 +809,7 @@ module.exports = [
       {
         "word": "Five",
         "meaning": "Số năm (5)",
-        "pronunciation": "/faɪv/",
+        "pronunciation": "/ˈfaɪv/",
         "partOfSpeech": "number",
         "example": "I wake up at five.",
         "exampleMeaning": "Tôi thức dậy lúc năm giờ.",
@@ -819,7 +819,7 @@ module.exports = [
       {
         "word": "Ten",
         "meaning": "Số mười (10)",
-        "pronunciation": "/ten/",
+        "pronunciation": "/ˈten/",
         "partOfSpeech": "number",
         "example": "Ten students are here.",
         "exampleMeaning": "Mười học sinh đang có mặt.",
@@ -829,7 +829,7 @@ module.exports = [
       {
         "word": "Hundred",
         "meaning": "Một trăm (100)",
-        "pronunciation": "/ˈhʌndrəd/",
+        "pronunciation": "/ˈhʌn.drəd/",
         "partOfSpeech": "number",
         "example": "One hundred percent.",
         "exampleMeaning": "Một trăm phần trăm.",
@@ -839,7 +839,7 @@ module.exports = [
       {
         "word": "Number",
         "meaning": "Con số, số điện thoại",
-        "pronunciation": "/ˈnʌmbər/",
+        "pronunciation": "/ˈnʌm.bər/",
         "partOfSpeech": "noun",
         "example": "What is your phone number?",
         "exampleMeaning": "Số điện thoại của bạn là gì?",
@@ -849,7 +849,7 @@ module.exports = [
       {
         "word": "Count",
         "meaning": "Đếm",
-        "pronunciation": "/kaʊnt/",
+        "pronunciation": "/ˈkaʊnt/",
         "partOfSpeech": "verb",
         "example": "Count from one to ten.",
         "exampleMeaning": "Hãy đếm từ một đến mười.",
@@ -859,7 +859,7 @@ module.exports = [
       {
         "word": "Many",
         "meaning": "Nhiều",
-        "pronunciation": "/ˈmeni/",
+        "pronunciation": "/ˈme.ni/",
         "partOfSpeech": "adjective",
         "example": "How many pens do you have?",
         "exampleMeaning": "Bạn có bao nhiêu cái bút?",
@@ -884,7 +884,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"One\\\" has a specific pronunciation: /wʌn/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"One\\\" có phát âm cụ thể là /wʌn/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Two\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Two\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"One\\\" has a specific pronunciation: /ˈwʌn/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"One\\\" có phát âm cụ thể là /ˈwʌn/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Two\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Two\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -915,7 +915,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"sister\",\"have\",\"one\"]",
+        "options": "[\"have\",\"I\",\"one\",\"sister\"]",
         "correctAnswer": "I have one sister",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I have one sister\"."
       },
@@ -931,7 +931,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Two\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Two",
-        "explanation": "Phát âm chuẩn IPA của từ là /tuː/ - \"Two\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈtuː/ - \"Two\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -951,13 +951,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"One\" là gì?",
-        "options": "[\"Số một (1)\",\"Số hai (2)\",\"Số ba (3)\",\"Số bốn (4)\"]",
+        "options": "[\"Số bốn (4)\",\"Số ba (3)\",\"Số hai (2)\",\"Số một (1)\"]",
         "correctAnswer": "Số một (1)",
-        "explanation": "\"One\" có phiên âm /wʌn/ và mang nghĩa là \"Số một (1)\"."
+        "explanation": "\"One\" có phiên âm /ˈwʌn/ và mang nghĩa là \"Số một (1)\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Numbers & Counting, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Two\",\"bananas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Two\",\"airplanes\"]",
         "correctAnswer": "Two",
         "explanation": "\"Two\" (Số hai (2)) là từ vựng chính xác trong ngữ cảnh chủ đề Numbers & Counting."
       },
@@ -969,13 +969,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Four\" là gì?",
-        "options": "[\"Số bốn (4)\",\"Số năm (5)\",\"Số mười (10)\",\"Một trăm (100)\"]",
+        "options": "[\"Một trăm (100)\",\"Số bốn (4)\",\"Số năm (5)\",\"Số mười (10)\"]",
         "correctAnswer": "Số bốn (4)",
-        "explanation": "\"Four\" có phiên âm /fɔːr/ và mang nghĩa là \"Số bốn (4)\"."
+        "explanation": "\"Four\" có phiên âm /ˈfɔːr/ và mang nghĩa là \"Số bốn (4)\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Numbers & Counting, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Five\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Five\",\"umbrellas\"]",
         "correctAnswer": "Five",
         "explanation": "\"Five\" (Số năm (5)) là từ vựng chính xác trong ngữ cảnh chủ đề Numbers & Counting."
       },
@@ -987,13 +987,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hundred\" là gì?",
-        "options": "[\"Một trăm (100)\",\"Con số, số điện thoại\",\"Nhiều\",\"Đếm\"]",
+        "options": "[\"Con số, số điện thoại\",\"Một trăm (100)\",\"Đếm\",\"Nhiều\"]",
         "correctAnswer": "Một trăm (100)",
-        "explanation": "\"Hundred\" có phiên âm /ˈhʌndrəd/ và mang nghĩa là \"Một trăm (100)\"."
+        "explanation": "\"Hundred\" có phiên âm /ˈhʌn.drəd/ và mang nghĩa là \"Một trăm (100)\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Numbers & Counting, we need to practice _____.\"",
-        "options": "[\"Number\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Number\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Number",
         "explanation": "\"Number\" (Con số, số điện thoại) là từ vựng chính xác trong ngữ cảnh chủ đề Numbers & Counting."
       },
@@ -1005,9 +1005,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Many\" là gì?",
-        "options": "[\"Số ba (3)\",\"Số một (1)\",\"Nhiều\",\"Số hai (2)\"]",
+        "options": "[\"Nhiều\",\"Số một (1)\",\"Số ba (3)\",\"Số hai (2)\"]",
         "correctAnswer": "Nhiều",
-        "explanation": "\"Many\" có phiên âm /ˈmeni/ và mang nghĩa là \"Nhiều\"."
+        "explanation": "\"Many\" có phiên âm /ˈme.ni/ và mang nghĩa là \"Nhiều\"."
       }
     ]
   },
@@ -1022,7 +1022,7 @@ module.exports = [
       {
         "word": "Red",
         "meaning": "Màu đỏ",
-        "pronunciation": "/red/",
+        "pronunciation": "/ˈred/",
         "partOfSpeech": "adjective",
         "example": "She has a red apple.",
         "exampleMeaning": "Cô ấy có một quả táo đỏ.",
@@ -1032,7 +1032,7 @@ module.exports = [
       {
         "word": "Blue",
         "meaning": "Màu xanh da trời",
-        "pronunciation": "/bluː/",
+        "pronunciation": "/ˈbluː/",
         "partOfSpeech": "adjective",
         "example": "The sky is clear blue.",
         "exampleMeaning": "Bầu trời màu xanh trong.",
@@ -1042,7 +1042,7 @@ module.exports = [
       {
         "word": "Yellow",
         "meaning": "Màu vàng",
-        "pronunciation": "/ˈjeloʊ/",
+        "pronunciation": "/ˈje.loʊ/",
         "partOfSpeech": "adjective",
         "example": "The sun is bright yellow.",
         "exampleMeaning": "Mặt trời màu vàng rực.",
@@ -1052,7 +1052,7 @@ module.exports = [
       {
         "word": "Green",
         "meaning": "Màu xanh lá cây",
-        "pronunciation": "/ɡriːn/",
+        "pronunciation": "/ˈɡriːn/",
         "partOfSpeech": "adjective",
         "example": "Green leaves in spring.",
         "exampleMeaning": "Lá cây xanh mướt vào mùa xuân.",
@@ -1062,7 +1062,7 @@ module.exports = [
       {
         "word": "White",
         "meaning": "Màu trắng",
-        "pronunciation": "/waɪt/",
+        "pronunciation": "/ˈwaɪt/",
         "partOfSpeech": "adjective",
         "example": "A white clean shirt.",
         "exampleMeaning": "Một chiếc áo sơ mi trắng sạch sẽ.",
@@ -1072,7 +1072,7 @@ module.exports = [
       {
         "word": "Black",
         "meaning": "Màu đen",
-        "pronunciation": "/blæk/",
+        "pronunciation": "/ˈblæk/",
         "partOfSpeech": "adjective",
         "example": "He wears a black jacket.",
         "exampleMeaning": "Anh ấy mặc áo khoác đen.",
@@ -1082,7 +1082,7 @@ module.exports = [
       {
         "word": "Circle",
         "meaning": "Hình tròn",
-        "pronunciation": "/ˈsɜːrkl/",
+        "pronunciation": "/ˈsɜːr.kəl/",
         "partOfSpeech": "noun",
         "example": "Draw a small circle.",
         "exampleMeaning": "Hãy vẽ một hình tròn nhỏ.",
@@ -1092,7 +1092,7 @@ module.exports = [
       {
         "word": "Square",
         "meaning": "Hình vuông",
-        "pronunciation": "/skwer/",
+        "pronunciation": "/ˈskwer/",
         "partOfSpeech": "noun",
         "example": "The table is square.",
         "exampleMeaning": "Cái bàn có hình vuông.",
@@ -1102,7 +1102,7 @@ module.exports = [
       {
         "word": "Color",
         "meaning": "Màu sắc",
-        "pronunciation": "/ˈkʌlər/",
+        "pronunciation": "/ˈkʌ.lər/",
         "partOfSpeech": "noun",
         "example": "What is your favorite color?",
         "exampleMeaning": "Màu sắc yêu thích của bạn là gì?",
@@ -1112,7 +1112,7 @@ module.exports = [
       {
         "word": "Bright",
         "meaning": "Sáng sủa, tươi sáng",
-        "pronunciation": "/braɪt/",
+        "pronunciation": "/ˈbraɪt/",
         "partOfSpeech": "adjective",
         "example": "Bright colors bring joy.",
         "exampleMeaning": "Màu sắc tươi sáng mang lại niềm vui.",
@@ -1137,7 +1137,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Red\\\" has a specific pronunciation: /red/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Red\\\" có phát âm cụ thể là /red/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Blue\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Blue\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Red\\\" has a specific pronunciation: /ˈred/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Red\\\" có phát âm cụ thể là /ˈred/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Blue\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Blue\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -1168,7 +1168,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"a\",\"has\",\"She\",\"apple\",\"red\"]",
+        "options": "[\"She\",\"has\",\"apple\",\"a\",\"red\"]",
         "correctAnswer": "She has a red apple",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"She has a red apple\"."
       },
@@ -1184,7 +1184,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Blue\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Blue",
-        "explanation": "Phát âm chuẩn IPA của từ là /bluː/ - \"Blue\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈbluː/ - \"Blue\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1204,13 +1204,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Red\" là gì?",
-        "options": "[\"Màu vàng\",\"Màu xanh da trời\",\"Màu đỏ\",\"Màu xanh lá cây\"]",
+        "options": "[\"Màu vàng\",\"Màu xanh lá cây\",\"Màu xanh da trời\",\"Màu đỏ\"]",
         "correctAnswer": "Màu đỏ",
-        "explanation": "\"Red\" có phiên âm /red/ và mang nghĩa là \"Màu đỏ\"."
+        "explanation": "\"Red\" có phiên âm /ˈred/ và mang nghĩa là \"Màu đỏ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Colors & Shapes, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Blue\",\"umbrellas\"]",
+        "options": "[\"Blue\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Blue",
         "explanation": "\"Blue\" (Màu xanh da trời) là từ vựng chính xác trong ngữ cảnh chủ đề Colors & Shapes."
       },
@@ -1222,13 +1222,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Green\" là gì?",
-        "options": "[\"Hình tròn\",\"Màu đen\",\"Màu trắng\",\"Màu xanh lá cây\"]",
+        "options": "[\"Màu xanh lá cây\",\"Màu trắng\",\"Màu đen\",\"Hình tròn\"]",
         "correctAnswer": "Màu xanh lá cây",
-        "explanation": "\"Green\" có phiên âm /ɡriːn/ và mang nghĩa là \"Màu xanh lá cây\"."
+        "explanation": "\"Green\" có phiên âm /ˈɡriːn/ và mang nghĩa là \"Màu xanh lá cây\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Colors & Shapes, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"White\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"White\"]",
         "correctAnswer": "White",
         "explanation": "\"White\" (Màu trắng) là từ vựng chính xác trong ngữ cảnh chủ đề Colors & Shapes."
       },
@@ -1242,7 +1242,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Circle\" là gì?",
         "options": "[\"Sáng sủa, tươi sáng\",\"Màu sắc\",\"Hình vuông\",\"Hình tròn\"]",
         "correctAnswer": "Hình tròn",
-        "explanation": "\"Circle\" có phiên âm /ˈsɜːrkl/ và mang nghĩa là \"Hình tròn\"."
+        "explanation": "\"Circle\" có phiên âm /ˈsɜːr.kəl/ và mang nghĩa là \"Hình tròn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Colors & Shapes, we need to practice _____.\"",
@@ -1258,9 +1258,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bright\" là gì?",
-        "options": "[\"Màu xanh da trời\",\"Sáng sủa, tươi sáng\",\"Màu đỏ\",\"Màu vàng\"]",
+        "options": "[\"Màu đỏ\",\"Màu vàng\",\"Sáng sủa, tươi sáng\",\"Màu xanh da trời\"]",
         "correctAnswer": "Sáng sủa, tươi sáng",
-        "explanation": "\"Bright\" có phiên âm /braɪt/ và mang nghĩa là \"Sáng sủa, tươi sáng\"."
+        "explanation": "\"Bright\" có phiên âm /ˈbraɪt/ và mang nghĩa là \"Sáng sủa, tươi sáng\"."
       }
     ]
   },
@@ -1275,7 +1275,7 @@ module.exports = [
       {
         "word": "Father",
         "meaning": "Bố, cha",
-        "pronunciation": "/ˈfɑːðər/",
+        "pronunciation": "/ˈfɑː.ðər/",
         "partOfSpeech": "noun",
         "example": "My father is an engineer.",
         "exampleMeaning": "Bố tôi là kỹ sư.",
@@ -1285,7 +1285,7 @@ module.exports = [
       {
         "word": "Mother",
         "meaning": "Mẹ",
-        "pronunciation": "/ˈmʌðər/",
+        "pronunciation": "/ˈmʌ.ðər/",
         "partOfSpeech": "noun",
         "example": "My mother cooks very well.",
         "exampleMeaning": "Mẹ tôi nấu ăn rất ngon.",
@@ -1295,7 +1295,7 @@ module.exports = [
       {
         "word": "Parents",
         "meaning": "Bố mẹ, phụ huynh",
-        "pronunciation": "/ˈperənts/",
+        "pronunciation": "/ˈpe.rənts/",
         "partOfSpeech": "noun",
         "example": "I love my parents.",
         "exampleMeaning": "Tôi yêu thương bố mẹ tôi.",
@@ -1305,7 +1305,7 @@ module.exports = [
       {
         "word": "Brother",
         "meaning": "Anh trai / Em trai",
-        "pronunciation": "/ˈbrʌðər/",
+        "pronunciation": "/ˈbrʌ.ðər/",
         "partOfSpeech": "noun",
         "example": "I have one younger brother.",
         "exampleMeaning": "Tôi có một người em trai.",
@@ -1315,7 +1315,7 @@ module.exports = [
       {
         "word": "Sister",
         "meaning": "Chị gái / Em gái",
-        "pronunciation": "/ˈsɪstər/",
+        "pronunciation": "/ˈsɪ.stər/",
         "partOfSpeech": "noun",
         "example": "My sister is a student.",
         "exampleMeaning": "Chị gái tôi là sinh viên.",
@@ -1325,7 +1325,7 @@ module.exports = [
       {
         "word": "Son",
         "meaning": "Con trai",
-        "pronunciation": "/sʌn/",
+        "pronunciation": "/ˈsʌn/",
         "partOfSpeech": "noun",
         "example": "They have a young son.",
         "exampleMeaning": "Họ có một đứa con trai nhỏ.",
@@ -1335,7 +1335,7 @@ module.exports = [
       {
         "word": "Daughter",
         "meaning": "Con gái",
-        "pronunciation": "/ˈdɔːtər/",
+        "pronunciation": "/ˈdɔː.tər/",
         "partOfSpeech": "noun",
         "example": "She is their daughter.",
         "exampleMeaning": "Cô bé là con gái của họ.",
@@ -1345,7 +1345,7 @@ module.exports = [
       {
         "word": "Grandfather",
         "meaning": "Ông nội / Ông ngoại",
-        "pronunciation": "/ˈɡrænfɑːðər/",
+        "pronunciation": "/ˈɡræn.dfɑː.ðər/",
         "partOfSpeech": "noun",
         "example": "My grandfather is 75.",
         "exampleMeaning": "Ông tôi 75 tuổi.",
@@ -1355,7 +1355,7 @@ module.exports = [
       {
         "word": "Grandmother",
         "meaning": "Bà nội / Bà ngoại",
-        "pronunciation": "/ˈɡrænmʌðər/",
+        "pronunciation": "/ˈɡræn.dmə.ðər/",
         "partOfSpeech": "noun",
         "example": "Grandmother tells stories.",
         "exampleMeaning": "Bà kể những câu chuyện cổ tích.",
@@ -1365,7 +1365,7 @@ module.exports = [
       {
         "word": "Family",
         "meaning": "Gia đình",
-        "pronunciation": "/ˈfæməli/",
+        "pronunciation": "/ˈfæ.mə.li/",
         "partOfSpeech": "noun",
         "example": "I have a happy family.",
         "exampleMeaning": "Tôi có một gia đình hạnh phúc.",
@@ -1390,7 +1390,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Father\\\" has a specific pronunciation: /ˈfɑːðər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Father\\\" có phát âm cụ thể là /ˈfɑːðər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Mother\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Mother\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Father\\\" has a specific pronunciation: /ˈfɑː.ðər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Father\\\" có phát âm cụ thể là /ˈfɑː.ðər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Mother\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Mother\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -1421,7 +1421,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"engineer\",\"an\",\"is\",\"father\",\"My\"]",
+        "options": "[\"is\",\"father\",\"an\",\"My\",\"engineer\"]",
         "correctAnswer": "My father is an engineer",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"My father is an engineer\"."
       },
@@ -1437,7 +1437,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Mother\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Mother",
-        "explanation": "Phát âm chuẩn IPA của từ là /ˈmʌðər/ - \"Mother\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈmʌ.ðər/ - \"Mother\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1457,13 +1457,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Father\" là gì?",
-        "options": "[\"Bố, cha\",\"Mẹ\",\"Bố mẹ, phụ huynh\",\"Anh trai / Em trai\"]",
+        "options": "[\"Anh trai / Em trai\",\"Bố mẹ, phụ huynh\",\"Mẹ\",\"Bố, cha\"]",
         "correctAnswer": "Bố, cha",
-        "explanation": "\"Father\" có phiên âm /ˈfɑːðər/ và mang nghĩa là \"Bố, cha\"."
+        "explanation": "\"Father\" có phiên âm /ˈfɑː.ðər/ và mang nghĩa là \"Bố, cha\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Family & Relatives, we need to practice _____.\"",
-        "options": "[\"Mother\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Mother\"]",
         "correctAnswer": "Mother",
         "explanation": "\"Mother\" (Mẹ) là từ vựng chính xác trong ngữ cảnh chủ đề Family & Relatives."
       },
@@ -1475,13 +1475,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Brother\" là gì?",
-        "options": "[\"Con gái\",\"Con trai\",\"Chị gái / Em gái\",\"Anh trai / Em trai\"]",
+        "options": "[\"Anh trai / Em trai\",\"Chị gái / Em gái\",\"Con trai\",\"Con gái\"]",
         "correctAnswer": "Anh trai / Em trai",
-        "explanation": "\"Brother\" có phiên âm /ˈbrʌðər/ và mang nghĩa là \"Anh trai / Em trai\"."
+        "explanation": "\"Brother\" có phiên âm /ˈbrʌ.ðər/ và mang nghĩa là \"Anh trai / Em trai\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Family & Relatives, we need to practice _____.\"",
-        "options": "[\"Sister\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Sister\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Sister",
         "explanation": "\"Sister\" (Chị gái / Em gái) là từ vựng chính xác trong ngữ cảnh chủ đề Family & Relatives."
       },
@@ -1493,9 +1493,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Daughter\" là gì?",
-        "options": "[\"Gia đình\",\"Bà nội / Bà ngoại\",\"Ông nội / Ông ngoại\",\"Con gái\"]",
+        "options": "[\"Gia đình\",\"Ông nội / Ông ngoại\",\"Con gái\",\"Bà nội / Bà ngoại\"]",
         "correctAnswer": "Con gái",
-        "explanation": "\"Daughter\" có phiên âm /ˈdɔːtər/ và mang nghĩa là \"Con gái\"."
+        "explanation": "\"Daughter\" có phiên âm /ˈdɔː.tər/ và mang nghĩa là \"Con gái\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Family & Relatives, we need to practice _____.\"",
@@ -1511,9 +1511,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Family\" là gì?",
-        "options": "[\"Bố mẹ, phụ huynh\",\"Mẹ\",\"Bố, cha\",\"Gia đình\"]",
+        "options": "[\"Gia đình\",\"Bố, cha\",\"Bố mẹ, phụ huynh\",\"Mẹ\"]",
         "correctAnswer": "Gia đình",
-        "explanation": "\"Family\" có phiên âm /ˈfæməli/ và mang nghĩa là \"Gia đình\"."
+        "explanation": "\"Family\" có phiên âm /ˈfæ.mə.li/ và mang nghĩa là \"Gia đình\"."
       }
     ]
   },
@@ -1528,7 +1528,7 @@ module.exports = [
       {
         "word": "House",
         "meaning": "Ngôi nhà",
-        "pronunciation": "/haʊs/",
+        "pronunciation": "/ˈhaʊs/",
         "partOfSpeech": "noun",
         "example": "We live in a small house.",
         "exampleMeaning": "Chúng tôi sống trong ngôi nhà nhỏ.",
@@ -1538,7 +1538,7 @@ module.exports = [
       {
         "word": "Room",
         "meaning": "Căn phòng",
-        "pronunciation": "/ruːm/",
+        "pronunciation": "/ˈruːm/",
         "partOfSpeech": "noun",
         "example": "My room is on the second floor.",
         "exampleMeaning": "Phòng của tôi ở tầng hai.",
@@ -1548,7 +1548,7 @@ module.exports = [
       {
         "word": "Living room",
         "meaning": "Phòng khách",
-        "pronunciation": "/ˈlɪvɪŋ ruːm/",
+        "pronunciation": "/ˈlɪ.vɪŋ ˈruːm/",
         "partOfSpeech": "noun",
         "example": "We watch TV in the living room.",
         "exampleMeaning": "Chúng tôi xem TV ở phòng khách.",
@@ -1558,7 +1558,7 @@ module.exports = [
       {
         "word": "Bedroom",
         "meaning": "Phòng ngủ",
-        "pronunciation": "/ˈbedruːm/",
+        "pronunciation": "/ˈbe.drum/",
         "partOfSpeech": "noun",
         "example": "The bedroom has a big window.",
         "exampleMeaning": "Phòng ngủ có một cửa sổ lớn.",
@@ -1568,7 +1568,7 @@ module.exports = [
       {
         "word": "Kitchen",
         "meaning": "Nhà bếp",
-        "pronunciation": "/ˈkɪtʃɪn/",
+        "pronunciation": "/ˈkɪ.tʃən/",
         "partOfSpeech": "noun",
         "example": "Mom is cooking in the kitchen.",
         "exampleMeaning": "Mẹ đang nấu ăn trong bếp.",
@@ -1578,7 +1578,7 @@ module.exports = [
       {
         "word": "Bathroom",
         "meaning": "Phòng tắm, vệ sinh",
-        "pronunciation": "/ˈbæθruːm/",
+        "pronunciation": "/ˈbæ.θrum/",
         "partOfSpeech": "noun",
         "example": "Wash your hands in the bathroom.",
         "exampleMeaning": "Rửa tay bạn trong phòng tắm.",
@@ -1588,7 +1588,7 @@ module.exports = [
       {
         "word": "Door",
         "meaning": "Cửa ra vào",
-        "pronunciation": "/dɔːr/",
+        "pronunciation": "/ˈdɔːr/",
         "partOfSpeech": "noun",
         "example": "Close the door, please.",
         "exampleMeaning": "Làm ơn đóng cửa lại.",
@@ -1598,7 +1598,7 @@ module.exports = [
       {
         "word": "Window",
         "meaning": "Cửa sổ",
-        "pronunciation": "/ˈwɪndoʊ/",
+        "pronunciation": "/ˈwɪn.doʊ/",
         "partOfSpeech": "noun",
         "example": "Open the window for fresh air.",
         "exampleMeaning": "Mở cửa sổ để đón không khí trong lành.",
@@ -1608,7 +1608,7 @@ module.exports = [
       {
         "word": "Garden",
         "meaning": "Khu vườn",
-        "pronunciation": "/ˈɡɑːrdn/",
+        "pronunciation": "/ˈɡɑːr.dən/",
         "partOfSpeech": "noun",
         "example": "Flowers bloom in the garden.",
         "exampleMeaning": "Hoa nở rộ trong vườn.",
@@ -1618,7 +1618,7 @@ module.exports = [
       {
         "word": "Home",
         "meaning": "Tổ ấm, mái nhà",
-        "pronunciation": "/hoʊm/",
+        "pronunciation": "/ˈhoʊm/",
         "partOfSpeech": "noun",
         "example": "There is no place like home.",
         "exampleMeaning": "Không nơi đâu bằng nhà mình.",
@@ -1643,7 +1643,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"House\\\" has a specific pronunciation: /haʊs/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"House\\\" có phát âm cụ thể là /haʊs/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Room\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Room\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"House\\\" has a specific pronunciation: /ˈhaʊs/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"House\\\" có phát âm cụ thể là /ˈhaʊs/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Room\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Room\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -1674,7 +1674,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"live\",\"small\",\"We\",\"a\",\"house\"]",
+        "options": "[\"in\",\"live\",\"We\",\"a\",\"small\",\"house\"]",
         "correctAnswer": "We live in a small house",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"We live in a small house\"."
       },
@@ -1690,7 +1690,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Room\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Room",
-        "explanation": "Phát âm chuẩn IPA của từ là /ruːm/ - \"Room\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈruːm/ - \"Room\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1710,13 +1710,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"House\" là gì?",
-        "options": "[\"Căn phòng\",\"Ngôi nhà\",\"Phòng khách\",\"Phòng ngủ\"]",
+        "options": "[\"Ngôi nhà\",\"Căn phòng\",\"Phòng khách\",\"Phòng ngủ\"]",
         "correctAnswer": "Ngôi nhà",
-        "explanation": "\"House\" có phiên âm /haʊs/ và mang nghĩa là \"Ngôi nhà\"."
+        "explanation": "\"House\" có phiên âm /ˈhaʊs/ và mang nghĩa là \"Ngôi nhà\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Home & Rooms, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Room\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Room\",\"umbrellas\"]",
         "correctAnswer": "Room",
         "explanation": "\"Room\" (Căn phòng) là từ vựng chính xác trong ngữ cảnh chủ đề Home & Rooms."
       },
@@ -1728,13 +1728,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bedroom\" là gì?",
-        "options": "[\"Phòng ngủ\",\"Cửa ra vào\",\"Nhà bếp\",\"Phòng tắm, vệ sinh\"]",
+        "options": "[\"Phòng tắm, vệ sinh\",\"Nhà bếp\",\"Cửa ra vào\",\"Phòng ngủ\"]",
         "correctAnswer": "Phòng ngủ",
-        "explanation": "\"Bedroom\" có phiên âm /ˈbedruːm/ và mang nghĩa là \"Phòng ngủ\"."
+        "explanation": "\"Bedroom\" có phiên âm /ˈbe.drum/ và mang nghĩa là \"Phòng ngủ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Home & Rooms, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"Kitchen\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Kitchen\"]",
         "correctAnswer": "Kitchen",
         "explanation": "\"Kitchen\" (Nhà bếp) là từ vựng chính xác trong ngữ cảnh chủ đề Home & Rooms."
       },
@@ -1746,13 +1746,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Door\" là gì?",
-        "options": "[\"Cửa ra vào\",\"Cửa sổ\",\"Tổ ấm, mái nhà\",\"Khu vườn\"]",
+        "options": "[\"Khu vườn\",\"Tổ ấm, mái nhà\",\"Cửa ra vào\",\"Cửa sổ\"]",
         "correctAnswer": "Cửa ra vào",
-        "explanation": "\"Door\" có phiên âm /dɔːr/ và mang nghĩa là \"Cửa ra vào\"."
+        "explanation": "\"Door\" có phiên âm /ˈdɔːr/ và mang nghĩa là \"Cửa ra vào\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Home & Rooms, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Window\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Window\"]",
         "correctAnswer": "Window",
         "explanation": "\"Window\" (Cửa sổ) là từ vựng chính xác trong ngữ cảnh chủ đề Home & Rooms."
       },
@@ -1764,9 +1764,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Home\" là gì?",
-        "options": "[\"Tổ ấm, mái nhà\",\"Ngôi nhà\",\"Căn phòng\",\"Phòng khách\"]",
+        "options": "[\"Tổ ấm, mái nhà\",\"Ngôi nhà\",\"Phòng khách\",\"Căn phòng\"]",
         "correctAnswer": "Tổ ấm, mái nhà",
-        "explanation": "\"Home\" có phiên âm /hoʊm/ và mang nghĩa là \"Tổ ấm, mái nhà\"."
+        "explanation": "\"Home\" có phiên âm /ˈhoʊm/ và mang nghĩa là \"Tổ ấm, mái nhà\"."
       }
     ]
   },
@@ -1781,7 +1781,7 @@ module.exports = [
       {
         "word": "Table",
         "meaning": "Cái bàn",
-        "pronunciation": "/ˈteɪbl/",
+        "pronunciation": "/ˈteɪ.bəl/",
         "partOfSpeech": "noun",
         "example": "Put the keys on the table.",
         "exampleMeaning": "Để chìa khóa lên bàn.",
@@ -1791,7 +1791,7 @@ module.exports = [
       {
         "word": "Chair",
         "meaning": "Cái ghế",
-        "pronunciation": "/tʃer/",
+        "pronunciation": "/ˈtʃer/",
         "partOfSpeech": "noun",
         "example": "Please sit on this chair.",
         "exampleMeaning": "Xin mời ngồi vào chiếc ghế này.",
@@ -1801,7 +1801,7 @@ module.exports = [
       {
         "word": "Bed",
         "meaning": "Cái giường",
-        "pronunciation": "/bed/",
+        "pronunciation": "/ˈbed/",
         "partOfSpeech": "noun",
         "example": "A comfortable warm bed.",
         "exampleMeaning": "Một chiếc giường êm ái ấm áp.",
@@ -1811,7 +1811,7 @@ module.exports = [
       {
         "word": "Desk",
         "meaning": "Bàn làm việc / học",
-        "pronunciation": "/desk/",
+        "pronunciation": "/ˈdesk/",
         "partOfSpeech": "noun",
         "example": "I study at my desk.",
         "exampleMeaning": "Tôi học tại bàn của mình.",
@@ -1821,7 +1821,7 @@ module.exports = [
       {
         "word": "Lamp",
         "meaning": "Đèn bàn",
-        "pronunciation": "/læmp/",
+        "pronunciation": "/ˈlæmp/",
         "partOfSpeech": "noun",
         "example": "Turn on the desk lamp.",
         "exampleMeaning": "Hãy bật đèn bàn lên.",
@@ -1831,7 +1831,7 @@ module.exports = [
       {
         "word": "Sofa",
         "meaning": "Ghế sofa",
-        "pronunciation": "/ˈsoʊfə/",
+        "pronunciation": "/ˈsoʊ.fə/",
         "partOfSpeech": "noun",
         "example": "Relax on the soft sofa.",
         "exampleMeaning": "Thư giãn trên ghế sofa êm.",
@@ -1841,7 +1841,7 @@ module.exports = [
       {
         "word": "Clock",
         "meaning": "Đồng hồ treo tường",
-        "pronunciation": "/klɑːk/",
+        "pronunciation": "/ˈklɑːk/",
         "partOfSpeech": "noun",
         "example": "The clock shows eight.",
         "exampleMeaning": "Đồng hồ chỉ tám giờ.",
@@ -1851,7 +1851,7 @@ module.exports = [
       {
         "word": "Picture",
         "meaning": "Bức tranh / ảnh",
-        "pronunciation": "/ˈpɪktʃər/",
+        "pronunciation": "/ˈpɪk.tʃər/",
         "partOfSpeech": "noun",
         "example": "A family picture on the wall.",
         "exampleMeaning": "Một bức ảnh gia đình trên tường.",
@@ -1861,7 +1861,7 @@ module.exports = [
       {
         "word": "Bookcase",
         "meaning": "Tủ sách, giá sách",
-        "pronunciation": "/ˈbʊkkeɪs/",
+        "pronunciation": "/ˈbʊk.keɪs/",
         "partOfSpeech": "noun",
         "example": "Many novels in the bookcase.",
         "exampleMeaning": "Nhiều tiểu thuyết trên giá sách.",
@@ -1871,7 +1871,7 @@ module.exports = [
       {
         "word": "Mirror",
         "meaning": "Gương soi",
-        "pronunciation": "/ˈmɪrər/",
+        "pronunciation": "/ˈmɪ.rər/",
         "partOfSpeech": "noun",
         "example": "Look in the bathroom mirror.",
         "exampleMeaning": "Nhìn vào gương trong phòng tắm.",
@@ -1896,7 +1896,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Table\\\" has a specific pronunciation: /ˈteɪbl/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Table\\\" có phát âm cụ thể là /ˈteɪbl/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Chair\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Chair\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Table\\\" has a specific pronunciation: /ˈteɪ.bəl/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Table\\\" có phát âm cụ thể là /ˈteɪ.bəl/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Chair\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Chair\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -1927,7 +1927,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"on\",\"keys\",\"the\",\"the\",\"Put\",\"table\"]",
+        "options": "[\"Put\",\"on\",\"the\",\"keys\",\"the\",\"table\"]",
         "correctAnswer": "Put the keys on the table",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Put the keys on the table\"."
       },
@@ -1943,7 +1943,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Chair\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Chair",
-        "explanation": "Phát âm chuẩn IPA của từ là /tʃer/ - \"Chair\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈtʃer/ - \"Chair\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1963,13 +1963,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Table\" là gì?",
-        "options": "[\"Cái ghế\",\"Cái giường\",\"Bàn làm việc / học\",\"Cái bàn\"]",
+        "options": "[\"Cái ghế\",\"Cái bàn\",\"Cái giường\",\"Bàn làm việc / học\"]",
         "correctAnswer": "Cái bàn",
-        "explanation": "\"Table\" có phiên âm /ˈteɪbl/ và mang nghĩa là \"Cái bàn\"."
+        "explanation": "\"Table\" có phiên âm /ˈteɪ.bəl/ và mang nghĩa là \"Cái bàn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Furniture & Household Items, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Chair\",\"umbrellas\"]",
+        "options": "[\"Chair\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Chair",
         "explanation": "\"Chair\" (Cái ghế) là từ vựng chính xác trong ngữ cảnh chủ đề Furniture & Household Items."
       },
@@ -1981,13 +1981,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Desk\" là gì?",
-        "options": "[\"Đồng hồ treo tường\",\"Bàn làm việc / học\",\"Đèn bàn\",\"Ghế sofa\"]",
+        "options": "[\"Bàn làm việc / học\",\"Đồng hồ treo tường\",\"Đèn bàn\",\"Ghế sofa\"]",
         "correctAnswer": "Bàn làm việc / học",
-        "explanation": "\"Desk\" có phiên âm /desk/ và mang nghĩa là \"Bàn làm việc / học\"."
+        "explanation": "\"Desk\" có phiên âm /ˈdesk/ và mang nghĩa là \"Bàn làm việc / học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Furniture & Household Items, we need to practice _____.\"",
-        "options": "[\"Lamp\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Lamp\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Lamp",
         "explanation": "\"Lamp\" (Đèn bàn) là từ vựng chính xác trong ngữ cảnh chủ đề Furniture & Household Items."
       },
@@ -1999,13 +1999,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Clock\" là gì?",
-        "options": "[\"Đồng hồ treo tường\",\"Bức tranh / ảnh\",\"Tủ sách, giá sách\",\"Gương soi\"]",
+        "options": "[\"Bức tranh / ảnh\",\"Đồng hồ treo tường\",\"Gương soi\",\"Tủ sách, giá sách\"]",
         "correctAnswer": "Đồng hồ treo tường",
-        "explanation": "\"Clock\" có phiên âm /klɑːk/ và mang nghĩa là \"Đồng hồ treo tường\"."
+        "explanation": "\"Clock\" có phiên âm /ˈklɑːk/ và mang nghĩa là \"Đồng hồ treo tường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Furniture & Household Items, we need to practice _____.\"",
-        "options": "[\"Picture\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Picture\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Picture",
         "explanation": "\"Picture\" (Bức tranh / ảnh) là từ vựng chính xác trong ngữ cảnh chủ đề Furniture & Household Items."
       },
@@ -2017,9 +2017,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mirror\" là gì?",
-        "options": "[\"Gương soi\",\"Cái bàn\",\"Cái giường\",\"Cái ghế\"]",
+        "options": "[\"Cái giường\",\"Cái ghế\",\"Cái bàn\",\"Gương soi\"]",
         "correctAnswer": "Gương soi",
-        "explanation": "\"Mirror\" có phiên âm /ˈmɪrər/ và mang nghĩa là \"Gương soi\"."
+        "explanation": "\"Mirror\" có phiên âm /ˈmɪ.rər/ và mang nghĩa là \"Gương soi\"."
       }
     ]
   },
@@ -2034,7 +2034,7 @@ module.exports = [
       {
         "word": "Bread",
         "meaning": "Bánh mì",
-        "pronunciation": "/bred/",
+        "pronunciation": "/ˈbred/",
         "partOfSpeech": "noun",
         "example": "Fresh bread in the morning.",
         "exampleMeaning": "Bánh mì tươi vào buổi sáng.",
@@ -2044,7 +2044,7 @@ module.exports = [
       {
         "word": "Rice",
         "meaning": "Cơm, gạo",
-        "pronunciation": "/raɪs/",
+        "pronunciation": "/ˈraɪs/",
         "partOfSpeech": "noun",
         "example": "Vietnamese eat rice daily.",
         "exampleMeaning": "Người Việt ăn cơm mỗi ngày.",
@@ -2054,7 +2054,7 @@ module.exports = [
       {
         "word": "Meat",
         "meaning": "Thịt",
-        "pronunciation": "/miːt/",
+        "pronunciation": "/ˈmiːt/",
         "partOfSpeech": "noun",
         "example": "We buy fresh meat today.",
         "exampleMeaning": "Chúng tôi mua thịt tươi hôm nay.",
@@ -2064,7 +2064,7 @@ module.exports = [
       {
         "word": "Fish",
         "meaning": "Cá",
-        "pronunciation": "/fɪʃ/",
+        "pronunciation": "/ˈfɪʃ/",
         "partOfSpeech": "noun",
         "example": "Grilled fish is delicious.",
         "exampleMeaning": "Cá nướng rất ngon.",
@@ -2074,7 +2074,7 @@ module.exports = [
       {
         "word": "Egg",
         "meaning": "Quả trứng",
-        "pronunciation": "/eɡ/",
+        "pronunciation": "/ˈeɡ/",
         "partOfSpeech": "noun",
         "example": "Boiled egg for breakfast.",
         "exampleMeaning": "Trứng luộc cho bữa sáng.",
@@ -2084,7 +2084,7 @@ module.exports = [
       {
         "word": "Apple",
         "meaning": "Quả táo",
-        "pronunciation": "/ˈæpl/",
+        "pronunciation": "/ˈæ.pəl/",
         "partOfSpeech": "noun",
         "example": "An apple a day is good.",
         "exampleMeaning": "Một quả táo mỗi ngày rất tốt.",
@@ -2094,7 +2094,7 @@ module.exports = [
       {
         "word": "Banana",
         "meaning": "Quả chuối",
-        "pronunciation": "/bəˈnænə/",
+        "pronunciation": "/ˌbəˈnæ.nə/",
         "partOfSpeech": "noun",
         "example": "Yellow sweet banana.",
         "exampleMeaning": "Quả chuối vàng ngọt.",
@@ -2104,7 +2104,7 @@ module.exports = [
       {
         "word": "Vegetable",
         "meaning": "Rau củ",
-        "pronunciation": "/ˈvedʒtəbl/",
+        "pronunciation": "/ˈvedʒ.tə.bəl/",
         "partOfSpeech": "noun",
         "example": "Eat more fresh vegetables.",
         "exampleMeaning": "Hãy ăn thêm nhiều rau củ tươi.",
@@ -2114,7 +2114,7 @@ module.exports = [
       {
         "word": "Fruit",
         "meaning": "Trái cây, hoa quả",
-        "pronunciation": "/fruːt/",
+        "pronunciation": "/ˈfruːt/",
         "partOfSpeech": "noun",
         "example": "Fresh seasonal fruit.",
         "exampleMeaning": "Trái cây tươi theo mùa.",
@@ -2124,7 +2124,7 @@ module.exports = [
       {
         "word": "Delicious",
         "meaning": "Ngon miệng",
-        "pronunciation": "/dɪˈlɪʃəs/",
+        "pronunciation": "/ˌdɪˈlɪ.ʃəs/",
         "partOfSpeech": "adjective",
         "example": "This soup is very delicious.",
         "exampleMeaning": "Món súp này rất thơm ngon.",
@@ -2149,7 +2149,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Bread\\\" has a specific pronunciation: /bred/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bread\\\" có phát âm cụ thể là /bred/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Rice\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Rice\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Bread\\\" has a specific pronunciation: /ˈbred/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bread\\\" có phát âm cụ thể là /ˈbred/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Rice\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Rice\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2180,7 +2180,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"bread\",\"in\",\"morning\",\"Fresh\",\"the\"]",
+        "options": "[\"Fresh\",\"bread\",\"in\",\"the\",\"morning\"]",
         "correctAnswer": "Fresh bread in the morning",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Fresh bread in the morning\"."
       },
@@ -2196,7 +2196,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Rice\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Rice",
-        "explanation": "Phát âm chuẩn IPA của từ là /raɪs/ - \"Rice\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈraɪs/ - \"Rice\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2216,13 +2216,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bread\" là gì?",
-        "options": "[\"Bánh mì\",\"Cơm, gạo\",\"Thịt\",\"Cá\"]",
+        "options": "[\"Cơm, gạo\",\"Bánh mì\",\"Cá\",\"Thịt\"]",
         "correctAnswer": "Bánh mì",
-        "explanation": "\"Bread\" có phiên âm /bred/ và mang nghĩa là \"Bánh mì\"."
+        "explanation": "\"Bread\" có phiên âm /ˈbred/ và mang nghĩa là \"Bánh mì\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Food & Basic Groceries, we need to practice _____.\"",
-        "options": "[\"Rice\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Rice\"]",
         "correctAnswer": "Rice",
         "explanation": "\"Rice\" (Cơm, gạo) là từ vựng chính xác trong ngữ cảnh chủ đề Food & Basic Groceries."
       },
@@ -2234,13 +2234,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Fish\" là gì?",
-        "options": "[\"Cá\",\"Quả trứng\",\"Quả chuối\",\"Quả táo\"]",
+        "options": "[\"Cá\",\"Quả trứng\",\"Quả táo\",\"Quả chuối\"]",
         "correctAnswer": "Cá",
-        "explanation": "\"Fish\" có phiên âm /fɪʃ/ và mang nghĩa là \"Cá\"."
+        "explanation": "\"Fish\" có phiên âm /ˈfɪʃ/ và mang nghĩa là \"Cá\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Food & Basic Groceries, we need to practice _____.\"",
-        "options": "[\"Egg\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"Egg\",\"bananas\"]",
         "correctAnswer": "Egg",
         "explanation": "\"Egg\" (Quả trứng) là từ vựng chính xác trong ngữ cảnh chủ đề Food & Basic Groceries."
       },
@@ -2254,7 +2254,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Banana\" là gì?",
         "options": "[\"Quả chuối\",\"Rau củ\",\"Trái cây, hoa quả\",\"Ngon miệng\"]",
         "correctAnswer": "Quả chuối",
-        "explanation": "\"Banana\" có phiên âm /bəˈnænə/ và mang nghĩa là \"Quả chuối\"."
+        "explanation": "\"Banana\" có phiên âm /ˌbəˈnæ.nə/ và mang nghĩa là \"Quả chuối\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Food & Basic Groceries, we need to practice _____.\"",
@@ -2270,9 +2270,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Delicious\" là gì?",
-        "options": "[\"Ngon miệng\",\"Cơm, gạo\",\"Bánh mì\",\"Thịt\"]",
+        "options": "[\"Bánh mì\",\"Thịt\",\"Cơm, gạo\",\"Ngon miệng\"]",
         "correctAnswer": "Ngon miệng",
-        "explanation": "\"Delicious\" có phiên âm /dɪˈlɪʃəs/ và mang nghĩa là \"Ngon miệng\"."
+        "explanation": "\"Delicious\" có phiên âm /ˌdɪˈlɪ.ʃəs/ và mang nghĩa là \"Ngon miệng\"."
       }
     ]
   },
@@ -2287,7 +2287,7 @@ module.exports = [
       {
         "word": "Water",
         "meaning": "Nước lọc",
-        "pronunciation": "/ˈwɔːtər/",
+        "pronunciation": "/ˈwɔː.tər/",
         "partOfSpeech": "noun",
         "example": "Drink plenty of water.",
         "exampleMeaning": "Hãy uống nhiều nước lọc.",
@@ -2297,7 +2297,7 @@ module.exports = [
       {
         "word": "Coffee",
         "meaning": "Cà phê",
-        "pronunciation": "/ˈkɔːfi/",
+        "pronunciation": "/ˈkɑː.fi/",
         "partOfSpeech": "noun",
         "example": "A hot black coffee.",
         "exampleMeaning": "Một ly cà phê đen nóng.",
@@ -2307,7 +2307,7 @@ module.exports = [
       {
         "word": "Tea",
         "meaning": "Trà",
-        "pronunciation": "/tiː/",
+        "pronunciation": "/ˈtiː/",
         "partOfSpeech": "noun",
         "example": "Green tea with honey.",
         "exampleMeaning": "Trà xanh với mật ong.",
@@ -2317,7 +2317,7 @@ module.exports = [
       {
         "word": "Milk",
         "meaning": "Sữa tươi",
-        "pronunciation": "/mɪlk/",
+        "pronunciation": "/ˈmɪlk/",
         "partOfSpeech": "noun",
         "example": "Cold milk in the glass.",
         "exampleMeaning": "Sữa lạnh trong ly.",
@@ -2327,7 +2327,7 @@ module.exports = [
       {
         "word": "Juice",
         "meaning": "Nước ép trái cây",
-        "pronunciation": "/dʒuːs/",
+        "pronunciation": "/ˈdʒuːs/",
         "partOfSpeech": "noun",
         "example": "Fresh orange juice.",
         "exampleMeaning": "Nước cam ép tươi.",
@@ -2337,7 +2337,7 @@ module.exports = [
       {
         "word": "Cup",
         "meaning": "Tách, chén",
-        "pronunciation": "/kʌp/",
+        "pronunciation": "/ˈkʌp/",
         "partOfSpeech": "noun",
         "example": "A cup of warm tea.",
         "exampleMeaning": "Một tách trà ấm.",
@@ -2347,7 +2347,7 @@ module.exports = [
       {
         "word": "Glass",
         "meaning": "Ly thủy tinh",
-        "pronunciation": "/ɡlæs/",
+        "pronunciation": "/ˈɡlæs/",
         "partOfSpeech": "noun",
         "example": "A glass of cold water.",
         "exampleMeaning": "Một ly nước lạnh.",
@@ -2357,7 +2357,7 @@ module.exports = [
       {
         "word": "Bottle",
         "meaning": "Chai nước",
-        "pronunciation": "/ˈbɑːtl/",
+        "pronunciation": "/ˈbɑː.təl/",
         "partOfSpeech": "noun",
         "example": "A bottle of mineral water.",
         "exampleMeaning": "Một chai nước khoáng.",
@@ -2367,7 +2367,7 @@ module.exports = [
       {
         "word": "Sugar",
         "meaning": "Đường cát",
-        "pronunciation": "/ˈʃʊɡər/",
+        "pronunciation": "/ˈʃʊ.ɡər/",
         "partOfSpeech": "noun",
         "example": "No sugar in my coffee.",
         "exampleMeaning": "Không đường trong cà phê của tôi.",
@@ -2377,7 +2377,7 @@ module.exports = [
       {
         "word": "Ice",
         "meaning": "Đá lạnh",
-        "pronunciation": "/aɪs/",
+        "pronunciation": "/ˈaɪs/",
         "partOfSpeech": "noun",
         "example": "Iced coffee on a hot day.",
         "exampleMeaning": "Cà phê đá trong ngày nóng.",
@@ -2402,7 +2402,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Water\\\" has a specific pronunciation: /ˈwɔːtər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Water\\\" có phát âm cụ thể là /ˈwɔːtər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Coffee\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Coffee\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Water\\\" has a specific pronunciation: /ˈwɔː.tər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Water\\\" có phát âm cụ thể là /ˈwɔː.tər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Coffee\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Coffee\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2433,7 +2433,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Drink\",\"water\",\"plenty\",\"of\"]",
+        "options": "[\"plenty\",\"water\",\"of\",\"Drink\"]",
         "correctAnswer": "Drink plenty of water",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Drink plenty of water\"."
       },
@@ -2449,7 +2449,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Coffee\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Coffee",
-        "explanation": "Phát âm chuẩn IPA của từ là /ˈkɔːfi/ - \"Coffee\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈkɑː.fi/ - \"Coffee\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2469,13 +2469,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Water\" là gì?",
-        "options": "[\"Cà phê\",\"Trà\",\"Sữa tươi\",\"Nước lọc\"]",
+        "options": "[\"Trà\",\"Cà phê\",\"Nước lọc\",\"Sữa tươi\"]",
         "correctAnswer": "Nước lọc",
-        "explanation": "\"Water\" có phiên âm /ˈwɔːtər/ và mang nghĩa là \"Nước lọc\"."
+        "explanation": "\"Water\" có phiên âm /ˈwɔː.tər/ và mang nghĩa là \"Nước lọc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Drinks & Beverages, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Coffee\",\"airplanes\",\"bananas\"]",
+        "options": "[\"Coffee\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Coffee",
         "explanation": "\"Coffee\" (Cà phê) là từ vựng chính xác trong ngữ cảnh chủ đề Drinks & Beverages."
       },
@@ -2487,13 +2487,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Milk\" là gì?",
-        "options": "[\"Nước ép trái cây\",\"Ly thủy tinh\",\"Sữa tươi\",\"Tách, chén\"]",
+        "options": "[\"Sữa tươi\",\"Nước ép trái cây\",\"Tách, chén\",\"Ly thủy tinh\"]",
         "correctAnswer": "Sữa tươi",
-        "explanation": "\"Milk\" có phiên âm /mɪlk/ và mang nghĩa là \"Sữa tươi\"."
+        "explanation": "\"Milk\" có phiên âm /ˈmɪlk/ và mang nghĩa là \"Sữa tươi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Drinks & Beverages, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Juice\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Juice\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Juice",
         "explanation": "\"Juice\" (Nước ép trái cây) là từ vựng chính xác trong ngữ cảnh chủ đề Drinks & Beverages."
       },
@@ -2505,13 +2505,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Glass\" là gì?",
-        "options": "[\"Ly thủy tinh\",\"Chai nước\",\"Đường cát\",\"Đá lạnh\"]",
+        "options": "[\"Ly thủy tinh\",\"Đá lạnh\",\"Chai nước\",\"Đường cát\"]",
         "correctAnswer": "Ly thủy tinh",
-        "explanation": "\"Glass\" có phiên âm /ɡlæs/ và mang nghĩa là \"Ly thủy tinh\"."
+        "explanation": "\"Glass\" có phiên âm /ˈɡlæs/ và mang nghĩa là \"Ly thủy tinh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Drinks & Beverages, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Bottle\",\"umbrellas\",\"bananas\"]",
+        "options": "[\"Bottle\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Bottle",
         "explanation": "\"Bottle\" (Chai nước) là từ vựng chính xác trong ngữ cảnh chủ đề Drinks & Beverages."
       },
@@ -2523,9 +2523,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ice\" là gì?",
-        "options": "[\"Trà\",\"Cà phê\",\"Nước lọc\",\"Đá lạnh\"]",
+        "options": "[\"Nước lọc\",\"Đá lạnh\",\"Trà\",\"Cà phê\"]",
         "correctAnswer": "Đá lạnh",
-        "explanation": "\"Ice\" có phiên âm /aɪs/ và mang nghĩa là \"Đá lạnh\"."
+        "explanation": "\"Ice\" có phiên âm /ˈaɪs/ và mang nghĩa là \"Đá lạnh\"."
       }
     ]
   },
@@ -2540,7 +2540,7 @@ module.exports = [
       {
         "word": "Burger",
         "meaning": "Bánh bơ-gơ",
-        "pronunciation": "/burger/",
+        "pronunciation": "/ˈbɜːr.ɡər/",
         "partOfSpeech": "noun",
         "example": "I use Burger in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Burger trong giao tiếp hàng ngày.",
@@ -2550,7 +2550,7 @@ module.exports = [
       {
         "word": "Pizza",
         "meaning": "Bánh pizza",
-        "pronunciation": "/pizza/",
+        "pronunciation": "/ˈpiːt.sə/",
         "partOfSpeech": "noun",
         "example": "I use Pizza in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pizza trong giao tiếp hàng ngày.",
@@ -2560,7 +2560,7 @@ module.exports = [
       {
         "word": "Menu",
         "meaning": "Thực đơn",
-        "pronunciation": "/menu/",
+        "pronunciation": "/ˈmen.ju/",
         "partOfSpeech": "noun",
         "example": "I use Menu in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Menu trong giao tiếp hàng ngày.",
@@ -2570,7 +2570,7 @@ module.exports = [
       {
         "word": "Order",
         "meaning": "Gọi món",
-        "pronunciation": "/order/",
+        "pronunciation": "/ˈɔːr.dər/",
         "partOfSpeech": "noun",
         "example": "I use Order in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Order trong giao tiếp hàng ngày.",
@@ -2580,7 +2580,7 @@ module.exports = [
       {
         "word": "Bill",
         "meaning": "Hóa đơn",
-        "pronunciation": "/bill/",
+        "pronunciation": "/ˈbɪl/",
         "partOfSpeech": "noun",
         "example": "I use Bill in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bill trong giao tiếp hàng ngày.",
@@ -2590,7 +2590,7 @@ module.exports = [
       {
         "word": "Waiter",
         "meaning": "Bồi bàn",
-        "pronunciation": "/waiter/",
+        "pronunciation": "/ˈweɪ.tər/",
         "partOfSpeech": "noun",
         "example": "I use Waiter in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Waiter trong giao tiếp hàng ngày.",
@@ -2600,7 +2600,7 @@ module.exports = [
       {
         "word": "Eat",
         "meaning": "Ăn",
-        "pronunciation": "/eat/",
+        "pronunciation": "/ˈiːt/",
         "partOfSpeech": "noun",
         "example": "I use Eat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eat trong giao tiếp hàng ngày.",
@@ -2610,7 +2610,7 @@ module.exports = [
       {
         "word": "Drink",
         "meaning": "Uống",
-        "pronunciation": "/drink/",
+        "pronunciation": "/ˈdrɪŋk/",
         "partOfSpeech": "noun",
         "example": "I use Drink in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Drink trong giao tiếp hàng ngày.",
@@ -2620,7 +2620,7 @@ module.exports = [
       {
         "word": "Hungry",
         "meaning": "Đói bụng",
-        "pronunciation": "/hungry/",
+        "pronunciation": "/ˈhʌŋ.ɡri/",
         "partOfSpeech": "noun",
         "example": "I use Hungry in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hungry trong giao tiếp hàng ngày.",
@@ -2630,7 +2630,7 @@ module.exports = [
       {
         "word": "Thirsty",
         "meaning": "Khát nước",
-        "pronunciation": "/thirsty/",
+        "pronunciation": "/ˈθɜːr.sti/",
         "partOfSpeech": "noun",
         "example": "I use Thirsty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Thirsty trong giao tiếp hàng ngày.",
@@ -2655,7 +2655,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Burger\\\" has a specific pronunciation: /burger/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Burger\\\" có phát âm cụ thể là /burger/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Pizza\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Pizza\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Burger\\\" has a specific pronunciation: /ˈbɜːr.ɡər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Burger\\\" có phát âm cụ thể là /ˈbɜːr.ɡər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Pizza\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Pizza\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2686,7 +2686,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"Burger\",\"conversation\",\"daily\",\"use\",\"I\"]",
+        "options": "[\"in\",\"conversation\",\"use\",\"daily\",\"I\",\"Burger\"]",
         "correctAnswer": "I use Burger in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Burger in daily conversation\"."
       },
@@ -2702,7 +2702,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Pizza\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Pizza",
-        "explanation": "Phát âm chuẩn IPA của từ là /pizza/ - \"Pizza\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈpiːt.sə/ - \"Pizza\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2722,13 +2722,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Burger\" là gì?",
-        "options": "[\"Bánh pizza\",\"Gọi món\",\"Thực đơn\",\"Bánh bơ-gơ\"]",
+        "options": "[\"Gọi món\",\"Bánh bơ-gơ\",\"Bánh pizza\",\"Thực đơn\"]",
         "correctAnswer": "Bánh bơ-gơ",
-        "explanation": "\"Burger\" có phiên âm /burger/ và mang nghĩa là \"Bánh bơ-gơ\"."
+        "explanation": "\"Burger\" có phiên âm /ˈbɜːr.ɡər/ và mang nghĩa là \"Bánh bơ-gơ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Eating Out & Ordering Fast Food, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Pizza\"]",
+        "options": "[\"Pizza\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Pizza",
         "explanation": "\"Pizza\" (Bánh pizza) là từ vựng chính xác trong ngữ cảnh chủ đề Eating Out & Ordering Fast Food."
       },
@@ -2740,13 +2740,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Order\" là gì?",
-        "options": "[\"Bồi bàn\",\"Ăn\",\"Hóa đơn\",\"Gọi món\"]",
+        "options": "[\"Bồi bàn\",\"Ăn\",\"Gọi món\",\"Hóa đơn\"]",
         "correctAnswer": "Gọi món",
-        "explanation": "\"Order\" có phiên âm /order/ và mang nghĩa là \"Gọi món\"."
+        "explanation": "\"Order\" có phiên âm /ˈɔːr.dər/ và mang nghĩa là \"Gọi món\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Eating Out & Ordering Fast Food, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Bill\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Bill\",\"umbrellas\"]",
         "correctAnswer": "Bill",
         "explanation": "\"Bill\" (Hóa đơn) là từ vựng chính xác trong ngữ cảnh chủ đề Eating Out & Ordering Fast Food."
       },
@@ -2758,13 +2758,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eat\" là gì?",
-        "options": "[\"Khát nước\",\"Đói bụng\",\"Uống\",\"Ăn\"]",
+        "options": "[\"Đói bụng\",\"Khát nước\",\"Uống\",\"Ăn\"]",
         "correctAnswer": "Ăn",
-        "explanation": "\"Eat\" có phiên âm /eat/ và mang nghĩa là \"Ăn\"."
+        "explanation": "\"Eat\" có phiên âm /ˈiːt/ và mang nghĩa là \"Ăn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Eating Out & Ordering Fast Food, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Drink\"]",
+        "options": "[\"Drink\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Drink",
         "explanation": "\"Drink\" (Uống) là từ vựng chính xác trong ngữ cảnh chủ đề Eating Out & Ordering Fast Food."
       },
@@ -2776,9 +2776,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Thirsty\" là gì?",
-        "options": "[\"Thực đơn\",\"Khát nước\",\"Bánh bơ-gơ\",\"Bánh pizza\"]",
+        "options": "[\"Bánh pizza\",\"Bánh bơ-gơ\",\"Thực đơn\",\"Khát nước\"]",
         "correctAnswer": "Khát nước",
-        "explanation": "\"Thirsty\" có phiên âm /thirsty/ và mang nghĩa là \"Khát nước\"."
+        "explanation": "\"Thirsty\" có phiên âm /ˈθɜːr.sti/ và mang nghĩa là \"Khát nước\"."
       }
     ]
   },
@@ -2793,7 +2793,7 @@ module.exports = [
       {
         "word": "Pen",
         "meaning": "Bút mực",
-        "pronunciation": "/pen/",
+        "pronunciation": "/ˈpen/",
         "partOfSpeech": "noun",
         "example": "I use Pen in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pen trong giao tiếp hàng ngày.",
@@ -2803,7 +2803,7 @@ module.exports = [
       {
         "word": "Pencil",
         "meaning": "Bút chì",
-        "pronunciation": "/pencil/",
+        "pronunciation": "/ˈpen.səl/",
         "partOfSpeech": "noun",
         "example": "I use Pencil in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pencil trong giao tiếp hàng ngày.",
@@ -2813,7 +2813,7 @@ module.exports = [
       {
         "word": "Book",
         "meaning": "Quyển sách",
-        "pronunciation": "/book/",
+        "pronunciation": "/ˈbʊk/",
         "partOfSpeech": "noun",
         "example": "I use Book in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Book trong giao tiếp hàng ngày.",
@@ -2823,7 +2823,7 @@ module.exports = [
       {
         "word": "Notebook",
         "meaning": "Vở ghi bài",
-        "pronunciation": "/notebook/",
+        "pronunciation": "/ˈnoʊt.bʊk/",
         "partOfSpeech": "noun",
         "example": "I use Notebook in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Notebook trong giao tiếp hàng ngày.",
@@ -2833,7 +2833,7 @@ module.exports = [
       {
         "word": "Ruler",
         "meaning": "Cây thước kẻ",
-        "pronunciation": "/ruler/",
+        "pronunciation": "/ˈruː.lər/",
         "partOfSpeech": "noun",
         "example": "I use Ruler in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ruler trong giao tiếp hàng ngày.",
@@ -2843,7 +2843,7 @@ module.exports = [
       {
         "word": "Bag",
         "meaning": "Cặp sách",
-        "pronunciation": "/bag/",
+        "pronunciation": "/ˈbæɡ/",
         "partOfSpeech": "noun",
         "example": "I use Bag in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bag trong giao tiếp hàng ngày.",
@@ -2853,7 +2853,7 @@ module.exports = [
       {
         "word": "Eraser",
         "meaning": "Cục tẩy",
-        "pronunciation": "/eraser/",
+        "pronunciation": "/ˌɪˈreɪ.sər/",
         "partOfSpeech": "noun",
         "example": "I use Eraser in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eraser trong giao tiếp hàng ngày.",
@@ -2863,7 +2863,7 @@ module.exports = [
       {
         "word": "Board",
         "meaning": "Bảng viết",
-        "pronunciation": "/board/",
+        "pronunciation": "/ˈbɔːrd/",
         "partOfSpeech": "noun",
         "example": "I use Board in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Board trong giao tiếp hàng ngày.",
@@ -2873,7 +2873,7 @@ module.exports = [
       {
         "word": "Paper",
         "meaning": "Tờ giấy",
-        "pronunciation": "/paper/",
+        "pronunciation": "/ˈpeɪ.pər/",
         "partOfSpeech": "noun",
         "example": "I use Paper in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Paper trong giao tiếp hàng ngày.",
@@ -2883,7 +2883,7 @@ module.exports = [
       {
         "word": "Lesson",
         "meaning": "Bài học",
-        "pronunciation": "/lesson/",
+        "pronunciation": "/ˈle.sən/",
         "partOfSpeech": "noun",
         "example": "I use Lesson in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Lesson trong giao tiếp hàng ngày.",
@@ -2908,7 +2908,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Pen\\\" has a specific pronunciation: /pen/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Pen\\\" có phát âm cụ thể là /pen/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Pencil\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Pencil\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Pen\\\" has a specific pronunciation: /ˈpen/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Pen\\\" có phát âm cụ thể là /ˈpen/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Pencil\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Pencil\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -2939,7 +2939,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"conversation\",\"in\",\"Pen\",\"use\",\"I\"]",
+        "options": "[\"in\",\"use\",\"daily\",\"Pen\",\"conversation\",\"I\"]",
         "correctAnswer": "I use Pen in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Pen in daily conversation\"."
       },
@@ -2955,7 +2955,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Pencil\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Pencil",
-        "explanation": "Phát âm chuẩn IPA của từ là /pencil/ - \"Pencil\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈpen.səl/ - \"Pencil\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2975,13 +2975,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pen\" là gì?",
-        "options": "[\"Bút chì\",\"Bút mực\",\"Vở ghi bài\",\"Quyển sách\"]",
+        "options": "[\"Bút mực\",\"Vở ghi bài\",\"Bút chì\",\"Quyển sách\"]",
         "correctAnswer": "Bút mực",
-        "explanation": "\"Pen\" có phiên âm /pen/ và mang nghĩa là \"Bút mực\"."
+        "explanation": "\"Pen\" có phiên âm /ˈpen/ và mang nghĩa là \"Bút mực\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on School & Classroom Objects, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Pencil\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Pencil\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Pencil",
         "explanation": "\"Pencil\" (Bút chì) là từ vựng chính xác trong ngữ cảnh chủ đề School & Classroom Objects."
       },
@@ -2993,13 +2993,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Notebook\" là gì?",
-        "options": "[\"Cây thước kẻ\",\"Cặp sách\",\"Vở ghi bài\",\"Cục tẩy\"]",
+        "options": "[\"Cục tẩy\",\"Vở ghi bài\",\"Cây thước kẻ\",\"Cặp sách\"]",
         "correctAnswer": "Vở ghi bài",
-        "explanation": "\"Notebook\" có phiên âm /notebook/ và mang nghĩa là \"Vở ghi bài\"."
+        "explanation": "\"Notebook\" có phiên âm /ˈnoʊt.bʊk/ và mang nghĩa là \"Vở ghi bài\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on School & Classroom Objects, we need to practice _____.\"",
-        "options": "[\"Ruler\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Ruler\"]",
         "correctAnswer": "Ruler",
         "explanation": "\"Ruler\" (Cây thước kẻ) là từ vựng chính xác trong ngữ cảnh chủ đề School & Classroom Objects."
       },
@@ -3011,9 +3011,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eraser\" là gì?",
-        "options": "[\"Cục tẩy\",\"Bài học\",\"Bảng viết\",\"Tờ giấy\"]",
+        "options": "[\"Bảng viết\",\"Tờ giấy\",\"Bài học\",\"Cục tẩy\"]",
         "correctAnswer": "Cục tẩy",
-        "explanation": "\"Eraser\" có phiên âm /eraser/ và mang nghĩa là \"Cục tẩy\"."
+        "explanation": "\"Eraser\" có phiên âm /ˌɪˈreɪ.sər/ và mang nghĩa là \"Cục tẩy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on School & Classroom Objects, we need to practice _____.\"",
@@ -3029,9 +3029,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Lesson\" là gì?",
-        "options": "[\"Quyển sách\",\"Bút chì\",\"Bút mực\",\"Bài học\"]",
+        "options": "[\"Bút chì\",\"Bút mực\",\"Quyển sách\",\"Bài học\"]",
         "correctAnswer": "Bài học",
-        "explanation": "\"Lesson\" có phiên âm /lesson/ và mang nghĩa là \"Bài học\"."
+        "explanation": "\"Lesson\" có phiên âm /ˈle.sən/ và mang nghĩa là \"Bài học\"."
       }
     ]
   },
@@ -3046,7 +3046,7 @@ module.exports = [
       {
         "word": "Engineer",
         "meaning": "Kỹ sư",
-        "pronunciation": "/engineer/",
+        "pronunciation": "/ˈen.dʒəˈnɪr/",
         "partOfSpeech": "noun",
         "example": "I use Engineer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Engineer trong giao tiếp hàng ngày.",
@@ -3056,7 +3056,7 @@ module.exports = [
       {
         "word": "Nurse",
         "meaning": "Y tá",
-        "pronunciation": "/nurse/",
+        "pronunciation": "/ˈnɜːrs/",
         "partOfSpeech": "noun",
         "example": "I use Nurse in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Nurse trong giao tiếp hàng ngày.",
@@ -3066,7 +3066,7 @@ module.exports = [
       {
         "word": "Driver",
         "meaning": "Tài xế",
-        "pronunciation": "/driver/",
+        "pronunciation": "/ˈdraɪ.vər/",
         "partOfSpeech": "noun",
         "example": "I use Driver in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Driver trong giao tiếp hàng ngày.",
@@ -3076,7 +3076,7 @@ module.exports = [
       {
         "word": "Cook",
         "meaning": "Đầu bếp",
-        "pronunciation": "/cook/",
+        "pronunciation": "/ˈkʊk/",
         "partOfSpeech": "noun",
         "example": "I use Cook in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cook trong giao tiếp hàng ngày.",
@@ -3086,7 +3086,7 @@ module.exports = [
       {
         "word": "Worker",
         "meaning": "Công nhân",
-        "pronunciation": "/worker/",
+        "pronunciation": "/ˈwɜːr.kər/",
         "partOfSpeech": "noun",
         "example": "I use Worker in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Worker trong giao tiếp hàng ngày.",
@@ -3096,7 +3096,7 @@ module.exports = [
       {
         "word": "Farmer",
         "meaning": "Nông dân",
-        "pronunciation": "/farmer/",
+        "pronunciation": "/ˈfɑːr.mər/",
         "partOfSpeech": "noun",
         "example": "I use Farmer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Farmer trong giao tiếp hàng ngày.",
@@ -3106,7 +3106,7 @@ module.exports = [
       {
         "word": "Office",
         "meaning": "Văn phòng",
-        "pronunciation": "/office/",
+        "pronunciation": "/ˈɔː.fəs/",
         "partOfSpeech": "noun",
         "example": "I use Office in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Office trong giao tiếp hàng ngày.",
@@ -3116,7 +3116,7 @@ module.exports = [
       {
         "word": "Hospital",
         "meaning": "Bệnh viện",
-        "pronunciation": "/hospital/",
+        "pronunciation": "/ˈhɑː.spɪ.təl/",
         "partOfSpeech": "noun",
         "example": "I use Hospital in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hospital trong giao tiếp hàng ngày.",
@@ -3126,7 +3126,7 @@ module.exports = [
       {
         "word": "Work",
         "meaning": "Làm việc",
-        "pronunciation": "/work/",
+        "pronunciation": "/ˈwɜːrk/",
         "partOfSpeech": "noun",
         "example": "I use Work in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Work trong giao tiếp hàng ngày.",
@@ -3136,7 +3136,7 @@ module.exports = [
       {
         "word": "Company",
         "meaning": "Công ty",
-        "pronunciation": "/company/",
+        "pronunciation": "/ˈkʌm.pə.ni/",
         "partOfSpeech": "noun",
         "example": "I use Company in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Company trong giao tiếp hàng ngày.",
@@ -3161,7 +3161,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Engineer\\\" has a specific pronunciation: /engineer/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Engineer\\\" có phát âm cụ thể là /engineer/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Nurse\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Nurse\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Engineer\\\" has a specific pronunciation: /ˈen.dʒəˈnɪr/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Engineer\\\" có phát âm cụ thể là /ˈen.dʒəˈnɪr/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Nurse\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Nurse\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -3192,7 +3192,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"in\",\"use\",\"Engineer\",\"conversation\",\"daily\"]",
+        "options": "[\"conversation\",\"I\",\"use\",\"Engineer\",\"in\",\"daily\"]",
         "correctAnswer": "I use Engineer in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Engineer in daily conversation\"."
       },
@@ -3208,7 +3208,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Nurse\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Nurse",
-        "explanation": "Phát âm chuẩn IPA của từ là /nurse/ - \"Nurse\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈnɜːrs/ - \"Nurse\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3230,11 +3230,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Engineer\" là gì?",
         "options": "[\"Đầu bếp\",\"Tài xế\",\"Y tá\",\"Kỹ sư\"]",
         "correctAnswer": "Kỹ sư",
-        "explanation": "\"Engineer\" có phiên âm /engineer/ và mang nghĩa là \"Kỹ sư\"."
+        "explanation": "\"Engineer\" có phiên âm /ˈen.dʒəˈnɪr/ và mang nghĩa là \"Kỹ sư\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Jobs & Occupations, we need to practice _____.\"",
-        "options": "[\"Nurse\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Nurse\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Nurse",
         "explanation": "\"Nurse\" (Y tá) là từ vựng chính xác trong ngữ cảnh chủ đề Jobs & Occupations."
       },
@@ -3246,9 +3246,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cook\" là gì?",
-        "options": "[\"Văn phòng\",\"Công nhân\",\"Nông dân\",\"Đầu bếp\"]",
+        "options": "[\"Văn phòng\",\"Nông dân\",\"Công nhân\",\"Đầu bếp\"]",
         "correctAnswer": "Đầu bếp",
-        "explanation": "\"Cook\" có phiên âm /cook/ và mang nghĩa là \"Đầu bếp\"."
+        "explanation": "\"Cook\" có phiên âm /ˈkʊk/ và mang nghĩa là \"Đầu bếp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Jobs & Occupations, we need to practice _____.\"",
@@ -3264,13 +3264,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Office\" là gì?",
-        "options": "[\"Bệnh viện\",\"Làm việc\",\"Công ty\",\"Văn phòng\"]",
+        "options": "[\"Văn phòng\",\"Bệnh viện\",\"Làm việc\",\"Công ty\"]",
         "correctAnswer": "Văn phòng",
-        "explanation": "\"Office\" có phiên âm /office/ và mang nghĩa là \"Văn phòng\"."
+        "explanation": "\"Office\" có phiên âm /ˈɔː.fəs/ và mang nghĩa là \"Văn phòng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Jobs & Occupations, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Hospital\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hospital\"]",
         "correctAnswer": "Hospital",
         "explanation": "\"Hospital\" (Bệnh viện) là từ vựng chính xác trong ngữ cảnh chủ đề Jobs & Occupations."
       },
@@ -3282,9 +3282,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Company\" là gì?",
-        "options": "[\"Kỹ sư\",\"Tài xế\",\"Công ty\",\"Y tá\"]",
+        "options": "[\"Tài xế\",\"Công ty\",\"Kỹ sư\",\"Y tá\"]",
         "correctAnswer": "Công ty",
-        "explanation": "\"Company\" có phiên âm /company/ và mang nghĩa là \"Công ty\"."
+        "explanation": "\"Company\" có phiên âm /ˈkʌm.pə.ni/ và mang nghĩa là \"Công ty\"."
       }
     ]
   },
@@ -3299,7 +3299,7 @@ module.exports = [
       {
         "word": "Monday",
         "meaning": "Thứ Hai",
-        "pronunciation": "/monday/",
+        "pronunciation": "/ˈmʌn.di/",
         "partOfSpeech": "noun",
         "example": "I use Monday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Monday trong giao tiếp hàng ngày.",
@@ -3309,7 +3309,7 @@ module.exports = [
       {
         "word": "Tuesday",
         "meaning": "Thứ Ba",
-        "pronunciation": "/tuesday/",
+        "pronunciation": "/ˈtuːz.di/",
         "partOfSpeech": "noun",
         "example": "I use Tuesday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tuesday trong giao tiếp hàng ngày.",
@@ -3319,7 +3319,7 @@ module.exports = [
       {
         "word": "Wednesday",
         "meaning": "Thứ Tư",
-        "pronunciation": "/wednesday/",
+        "pronunciation": "/ˈwen.zdi/",
         "partOfSpeech": "noun",
         "example": "I use Wednesday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wednesday trong giao tiếp hàng ngày.",
@@ -3329,7 +3329,7 @@ module.exports = [
       {
         "word": "Thursday",
         "meaning": "Thứ Năm",
-        "pronunciation": "/thursday/",
+        "pronunciation": "/ˈθɜːrz.deɪ/",
         "partOfSpeech": "noun",
         "example": "I use Thursday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Thursday trong giao tiếp hàng ngày.",
@@ -3339,7 +3339,7 @@ module.exports = [
       {
         "word": "Friday",
         "meaning": "Thứ Sáu",
-        "pronunciation": "/friday/",
+        "pronunciation": "/ˈfraɪ.di/",
         "partOfSpeech": "noun",
         "example": "I use Friday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Friday trong giao tiếp hàng ngày.",
@@ -3349,7 +3349,7 @@ module.exports = [
       {
         "word": "Saturday",
         "meaning": "Thứ Bảy",
-        "pronunciation": "/saturday/",
+        "pronunciation": "/ˈsæ.tər.di/",
         "partOfSpeech": "noun",
         "example": "I use Saturday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Saturday trong giao tiếp hàng ngày.",
@@ -3359,7 +3359,7 @@ module.exports = [
       {
         "word": "Sunday",
         "meaning": "Chủ Nhật",
-        "pronunciation": "/sunday/",
+        "pronunciation": "/ˈsʌn.deɪ/",
         "partOfSpeech": "noun",
         "example": "I use Sunday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sunday trong giao tiếp hàng ngày.",
@@ -3369,7 +3369,7 @@ module.exports = [
       {
         "word": "Week",
         "meaning": "Tuần lễ",
-        "pronunciation": "/week/",
+        "pronunciation": "/ˈwiːk/",
         "partOfSpeech": "noun",
         "example": "I use Week in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Week trong giao tiếp hàng ngày.",
@@ -3379,7 +3379,7 @@ module.exports = [
       {
         "word": "Month",
         "meaning": "Tháng",
-        "pronunciation": "/month/",
+        "pronunciation": "/ˈmʌnθ/",
         "partOfSpeech": "noun",
         "example": "I use Month in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Month trong giao tiếp hàng ngày.",
@@ -3389,7 +3389,7 @@ module.exports = [
       {
         "word": "Year",
         "meaning": "Năm",
-        "pronunciation": "/year/",
+        "pronunciation": "/ˈjɪr/",
         "partOfSpeech": "noun",
         "example": "I use Year in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Year trong giao tiếp hàng ngày.",
@@ -3414,7 +3414,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Monday\\\" has a specific pronunciation: /monday/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Monday\\\" có phát âm cụ thể là /monday/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Tuesday\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Tuesday\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Monday\\\" has a specific pronunciation: /ˈmʌn.di/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Monday\\\" có phát âm cụ thể là /ˈmʌn.di/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Tuesday\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Tuesday\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -3445,7 +3445,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"I\",\"use\",\"in\",\"conversation\",\"Monday\"]",
+        "options": "[\"use\",\"in\",\"daily\",\"I\",\"Monday\",\"conversation\"]",
         "correctAnswer": "I use Monday in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Monday in daily conversation\"."
       },
@@ -3461,7 +3461,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Tuesday\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Tuesday",
-        "explanation": "Phát âm chuẩn IPA của từ là /tuesday/ - \"Tuesday\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈtuːz.di/ - \"Tuesday\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3481,13 +3481,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Monday\" là gì?",
-        "options": "[\"Thứ Hai\",\"Thứ Ba\",\"Thứ Tư\",\"Thứ Năm\"]",
+        "options": "[\"Thứ Tư\",\"Thứ Ba\",\"Thứ Năm\",\"Thứ Hai\"]",
         "correctAnswer": "Thứ Hai",
-        "explanation": "\"Monday\" có phiên âm /monday/ và mang nghĩa là \"Thứ Hai\"."
+        "explanation": "\"Monday\" có phiên âm /ˈmʌn.di/ và mang nghĩa là \"Thứ Hai\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Days of the Week & Months, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Tuesday\"]",
+        "options": "[\"Tuesday\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Tuesday",
         "explanation": "\"Tuesday\" (Thứ Ba) là từ vựng chính xác trong ngữ cảnh chủ đề Days of the Week & Months."
       },
@@ -3499,13 +3499,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Thursday\" là gì?",
-        "options": "[\"Thứ Năm\",\"Thứ Sáu\",\"Thứ Bảy\",\"Chủ Nhật\"]",
+        "options": "[\"Chủ Nhật\",\"Thứ Sáu\",\"Thứ Năm\",\"Thứ Bảy\"]",
         "correctAnswer": "Thứ Năm",
-        "explanation": "\"Thursday\" có phiên âm /thursday/ và mang nghĩa là \"Thứ Năm\"."
+        "explanation": "\"Thursday\" có phiên âm /ˈθɜːrz.deɪ/ và mang nghĩa là \"Thứ Năm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Days of the Week & Months, we need to practice _____.\"",
-        "options": "[\"Friday\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Friday\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Friday",
         "explanation": "\"Friday\" (Thứ Sáu) là từ vựng chính xác trong ngữ cảnh chủ đề Days of the Week & Months."
       },
@@ -3517,13 +3517,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sunday\" là gì?",
-        "options": "[\"Năm\",\"Tuần lễ\",\"Chủ Nhật\",\"Tháng\"]",
+        "options": "[\"Năm\",\"Tháng\",\"Tuần lễ\",\"Chủ Nhật\"]",
         "correctAnswer": "Chủ Nhật",
-        "explanation": "\"Sunday\" có phiên âm /sunday/ và mang nghĩa là \"Chủ Nhật\"."
+        "explanation": "\"Sunday\" có phiên âm /ˈsʌn.deɪ/ và mang nghĩa là \"Chủ Nhật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Days of the Week & Months, we need to practice _____.\"",
-        "options": "[\"Week\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Week\"]",
         "correctAnswer": "Week",
         "explanation": "\"Week\" (Tuần lễ) là từ vựng chính xác trong ngữ cảnh chủ đề Days of the Week & Months."
       },
@@ -3537,7 +3537,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Year\" là gì?",
         "options": "[\"Thứ Hai\",\"Thứ Tư\",\"Năm\",\"Thứ Ba\"]",
         "correctAnswer": "Năm",
-        "explanation": "\"Year\" có phiên âm /year/ và mang nghĩa là \"Năm\"."
+        "explanation": "\"Year\" có phiên âm /ˈjɪr/ và mang nghĩa là \"Năm\"."
       }
     ]
   },
@@ -3552,7 +3552,7 @@ module.exports = [
       {
         "word": "Time",
         "meaning": "Thời gian",
-        "pronunciation": "/time/",
+        "pronunciation": "/ˈtaɪm/",
         "partOfSpeech": "noun",
         "example": "I use Time in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Time trong giao tiếp hàng ngày.",
@@ -3562,7 +3562,7 @@ module.exports = [
       {
         "word": "Hour",
         "meaning": "Giờ đồng hồ",
-        "pronunciation": "/hour/",
+        "pronunciation": "/ˈaʊ.ər/",
         "partOfSpeech": "noun",
         "example": "I use Hour in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hour trong giao tiếp hàng ngày.",
@@ -3572,7 +3572,7 @@ module.exports = [
       {
         "word": "Minute",
         "meaning": "Phút",
-        "pronunciation": "/minute/",
+        "pronunciation": "/ˈmɪ.nət/",
         "partOfSpeech": "noun",
         "example": "I use Minute in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Minute trong giao tiếp hàng ngày.",
@@ -3582,7 +3582,7 @@ module.exports = [
       {
         "word": "Second",
         "meaning": "Giây",
-        "pronunciation": "/second/",
+        "pronunciation": "/ˈse.kənd/",
         "partOfSpeech": "noun",
         "example": "I use Second in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Second trong giao tiếp hàng ngày.",
@@ -3592,7 +3592,7 @@ module.exports = [
       {
         "word": "Morning",
         "meaning": "Buổi sáng",
-        "pronunciation": "/morning/",
+        "pronunciation": "/ˈmɔːr.nɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Morning in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Morning trong giao tiếp hàng ngày.",
@@ -3602,7 +3602,7 @@ module.exports = [
       {
         "word": "Noon",
         "meaning": "Buổi trưa",
-        "pronunciation": "/noon/",
+        "pronunciation": "/ˈnuːn/",
         "partOfSpeech": "noun",
         "example": "I use Noon in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Noon trong giao tiếp hàng ngày.",
@@ -3612,7 +3612,7 @@ module.exports = [
       {
         "word": "Night",
         "meaning": "Ban đêm",
-        "pronunciation": "/night/",
+        "pronunciation": "/ˈnaɪt/",
         "partOfSpeech": "noun",
         "example": "I use Night in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Night trong giao tiếp hàng ngày.",
@@ -3622,7 +3622,7 @@ module.exports = [
       {
         "word": "Midnight",
         "meaning": "Nửa đêm",
-        "pronunciation": "/midnight/",
+        "pronunciation": "/ˈmɪd.naɪt/",
         "partOfSpeech": "noun",
         "example": "I use Midnight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Midnight trong giao tiếp hàng ngày.",
@@ -3632,7 +3632,7 @@ module.exports = [
       {
         "word": "Early",
         "meaning": "Sớm",
-        "pronunciation": "/early/",
+        "pronunciation": "/ˈɜːr.li/",
         "partOfSpeech": "noun",
         "example": "I use Early in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Early trong giao tiếp hàng ngày.",
@@ -3642,7 +3642,7 @@ module.exports = [
       {
         "word": "Late",
         "meaning": "Muộn",
-        "pronunciation": "/late/",
+        "pronunciation": "/ˈleɪt/",
         "partOfSpeech": "noun",
         "example": "I use Late in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Late trong giao tiếp hàng ngày.",
@@ -3667,7 +3667,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Time\\\" has a specific pronunciation: /time/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Time\\\" có phát âm cụ thể là /time/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Hour\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Hour\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Time\\\" has a specific pronunciation: /ˈtaɪm/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Time\\\" có phát âm cụ thể là /ˈtaɪm/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Hour\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Hour\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -3698,7 +3698,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"I\",\"in\",\"Time\",\"conversation\",\"use\"]",
+        "options": "[\"I\",\"use\",\"daily\",\"conversation\",\"in\",\"Time\"]",
         "correctAnswer": "I use Time in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Time in daily conversation\"."
       },
@@ -3714,7 +3714,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Hour\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Hour",
-        "explanation": "Phát âm chuẩn IPA của từ là /hour/ - \"Hour\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈaʊ.ər/ - \"Hour\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3734,13 +3734,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Time\" là gì?",
-        "options": "[\"Giây\",\"Thời gian\",\"Giờ đồng hồ\",\"Phút\"]",
+        "options": "[\"Thời gian\",\"Giờ đồng hồ\",\"Giây\",\"Phút\"]",
         "correctAnswer": "Thời gian",
-        "explanation": "\"Time\" có phiên âm /time/ và mang nghĩa là \"Thời gian\"."
+        "explanation": "\"Time\" có phiên âm /ˈtaɪm/ và mang nghĩa là \"Thời gian\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Telling Time & Daily Schedule, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hour\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Hour\",\"airplanes\"]",
         "correctAnswer": "Hour",
         "explanation": "\"Hour\" (Giờ đồng hồ) là từ vựng chính xác trong ngữ cảnh chủ đề Telling Time & Daily Schedule."
       },
@@ -3752,13 +3752,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Second\" là gì?",
-        "options": "[\"Ban đêm\",\"Buổi trưa\",\"Buổi sáng\",\"Giây\"]",
+        "options": "[\"Buổi trưa\",\"Buổi sáng\",\"Ban đêm\",\"Giây\"]",
         "correctAnswer": "Giây",
-        "explanation": "\"Second\" có phiên âm /second/ và mang nghĩa là \"Giây\"."
+        "explanation": "\"Second\" có phiên âm /ˈse.kənd/ và mang nghĩa là \"Giây\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Telling Time & Daily Schedule, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Morning\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Morning\",\"bananas\"]",
         "correctAnswer": "Morning",
         "explanation": "\"Morning\" (Buổi sáng) là từ vựng chính xác trong ngữ cảnh chủ đề Telling Time & Daily Schedule."
       },
@@ -3770,9 +3770,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Night\" là gì?",
-        "options": "[\"Nửa đêm\",\"Sớm\",\"Muộn\",\"Ban đêm\"]",
+        "options": "[\"Muộn\",\"Sớm\",\"Nửa đêm\",\"Ban đêm\"]",
         "correctAnswer": "Ban đêm",
-        "explanation": "\"Night\" có phiên âm /night/ và mang nghĩa là \"Ban đêm\"."
+        "explanation": "\"Night\" có phiên âm /ˈnaɪt/ và mang nghĩa là \"Ban đêm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Telling Time & Daily Schedule, we need to practice _____.\"",
@@ -3790,7 +3790,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Late\" là gì?",
         "options": "[\"Muộn\",\"Thời gian\",\"Giờ đồng hồ\",\"Phút\"]",
         "correctAnswer": "Muộn",
-        "explanation": "\"Late\" có phiên âm /late/ và mang nghĩa là \"Muộn\"."
+        "explanation": "\"Late\" có phiên âm /ˈleɪt/ và mang nghĩa là \"Muộn\"."
       }
     ]
   },
@@ -3805,7 +3805,7 @@ module.exports = [
       {
         "word": "Wake up",
         "meaning": "Thức dậy",
-        "pronunciation": "/wake up/",
+        "pronunciation": "/ˈweɪk ˈʌp/",
         "partOfSpeech": "noun",
         "example": "I use Wake up in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wake up trong giao tiếp hàng ngày.",
@@ -3815,7 +3815,7 @@ module.exports = [
       {
         "word": "Wash",
         "meaning": "Rửa, giặt",
-        "pronunciation": "/wash/",
+        "pronunciation": "/ˈwɑːʃ/",
         "partOfSpeech": "noun",
         "example": "I use Wash in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wash trong giao tiếp hàng ngày.",
@@ -3825,7 +3825,7 @@ module.exports = [
       {
         "word": "Brush",
         "meaning": "Đánh răng",
-        "pronunciation": "/brush/",
+        "pronunciation": "/ˈbrʌʃ/",
         "partOfSpeech": "noun",
         "example": "I use Brush in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Brush trong giao tiếp hàng ngày.",
@@ -3835,7 +3835,7 @@ module.exports = [
       {
         "word": "Breakfast",
         "meaning": "Bữa sáng",
-        "pronunciation": "/breakfast/",
+        "pronunciation": "/ˈbrek.fəst/",
         "partOfSpeech": "noun",
         "example": "I use Breakfast in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Breakfast trong giao tiếp hàng ngày.",
@@ -3845,7 +3845,7 @@ module.exports = [
       {
         "word": "Shower",
         "meaning": "Tắm vòi sen",
-        "pronunciation": "/shower/",
+        "pronunciation": "/ˈʃaʊ.ər/",
         "partOfSpeech": "noun",
         "example": "I use Shower in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shower trong giao tiếp hàng ngày.",
@@ -3855,7 +3855,7 @@ module.exports = [
       {
         "word": "Dress",
         "meaning": "Mặc quần áo",
-        "pronunciation": "/dress/",
+        "pronunciation": "/ˈdres/",
         "partOfSpeech": "noun",
         "example": "I use Dress in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dress trong giao tiếp hàng ngày.",
@@ -3865,7 +3865,7 @@ module.exports = [
       {
         "word": "Comb",
         "meaning": "Chải tóc",
-        "pronunciation": "/comb/",
+        "pronunciation": "/ˈkoʊm/",
         "partOfSpeech": "noun",
         "example": "I use Comb in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Comb trong giao tiếp hàng ngày.",
@@ -3875,7 +3875,7 @@ module.exports = [
       {
         "word": "Leave",
         "meaning": "Rời nhà",
-        "pronunciation": "/leave/",
+        "pronunciation": "/ˈliːv/",
         "partOfSpeech": "noun",
         "example": "I use Leave in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Leave trong giao tiếp hàng ngày.",
@@ -3885,7 +3885,7 @@ module.exports = [
       {
         "word": "Start",
         "meaning": "Bắt đầu",
-        "pronunciation": "/start/",
+        "pronunciation": "/ˈstɑːrt/",
         "partOfSpeech": "noun",
         "example": "I use Start in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Start trong giao tiếp hàng ngày.",
@@ -3895,7 +3895,7 @@ module.exports = [
       {
         "word": "Always",
         "meaning": "Luôn luôn",
-        "pronunciation": "/always/",
+        "pronunciation": "/ˈɔːl.weɪz/",
         "partOfSpeech": "noun",
         "example": "I use Always in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Always trong giao tiếp hàng ngày.",
@@ -3920,7 +3920,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Wake up\\\" has a specific pronunciation: /wake up/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Wake up\\\" có phát âm cụ thể là /wake up/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Wash\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Wash\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Wake up\\\" has a specific pronunciation: /ˈweɪk ˈʌp/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Wake up\\\" có phát âm cụ thể là /ˈweɪk ˈʌp/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Wash\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Wash\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -3951,7 +3951,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"up\",\"daily\",\"I\",\"in\",\"Wake\"]",
+        "options": "[\"I\",\"use\",\"Wake\",\"up\",\"daily\",\"in\"]",
         "correctAnswer": "I use Wake up in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Wake up in daily\"."
       },
@@ -3967,7 +3967,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Wash\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Wash",
-        "explanation": "Phát âm chuẩn IPA của từ là /wash/ - \"Wash\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈwɑːʃ/ - \"Wash\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3987,13 +3987,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Wake up\" là gì?",
-        "options": "[\"Thức dậy\",\"Rửa, giặt\",\"Đánh răng\",\"Bữa sáng\"]",
+        "options": "[\"Thức dậy\",\"Rửa, giặt\",\"Bữa sáng\",\"Đánh răng\"]",
         "correctAnswer": "Thức dậy",
-        "explanation": "\"Wake up\" có phiên âm /wake up/ và mang nghĩa là \"Thức dậy\"."
+        "explanation": "\"Wake up\" có phiên âm /ˈweɪk ˈʌp/ và mang nghĩa là \"Thức dậy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Morning Routine, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Wash\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Wash\",\"bananas\"]",
         "correctAnswer": "Wash",
         "explanation": "\"Wash\" (Rửa, giặt) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Morning Routine."
       },
@@ -4005,13 +4005,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Breakfast\" là gì?",
-        "options": "[\"Bữa sáng\",\"Tắm vòi sen\",\"Mặc quần áo\",\"Chải tóc\"]",
+        "options": "[\"Chải tóc\",\"Mặc quần áo\",\"Tắm vòi sen\",\"Bữa sáng\"]",
         "correctAnswer": "Bữa sáng",
-        "explanation": "\"Breakfast\" có phiên âm /breakfast/ và mang nghĩa là \"Bữa sáng\"."
+        "explanation": "\"Breakfast\" có phiên âm /ˈbrek.fəst/ và mang nghĩa là \"Bữa sáng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Morning Routine, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Shower\",\"umbrellas\"]",
+        "options": "[\"Shower\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Shower",
         "explanation": "\"Shower\" (Tắm vòi sen) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Morning Routine."
       },
@@ -4023,13 +4023,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Comb\" là gì?",
-        "options": "[\"Luôn luôn\",\"Bắt đầu\",\"Rời nhà\",\"Chải tóc\"]",
+        "options": "[\"Bắt đầu\",\"Chải tóc\",\"Rời nhà\",\"Luôn luôn\"]",
         "correctAnswer": "Chải tóc",
-        "explanation": "\"Comb\" có phiên âm /comb/ và mang nghĩa là \"Chải tóc\"."
+        "explanation": "\"Comb\" có phiên âm /ˈkoʊm/ và mang nghĩa là \"Chải tóc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Morning Routine, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Leave\",\"umbrellas\",\"bananas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Leave\"]",
         "correctAnswer": "Leave",
         "explanation": "\"Leave\" (Rời nhà) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Morning Routine."
       },
@@ -4041,9 +4041,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Always\" là gì?",
-        "options": "[\"Luôn luôn\",\"Thức dậy\",\"Rửa, giặt\",\"Đánh răng\"]",
+        "options": "[\"Thức dậy\",\"Đánh răng\",\"Rửa, giặt\",\"Luôn luôn\"]",
         "correctAnswer": "Luôn luôn",
-        "explanation": "\"Always\" có phiên âm /always/ và mang nghĩa là \"Luôn luôn\"."
+        "explanation": "\"Always\" có phiên âm /ˈɔːl.weɪz/ và mang nghĩa là \"Luôn luôn\"."
       }
     ]
   },
@@ -4058,7 +4058,7 @@ module.exports = [
       {
         "word": "Dinner",
         "meaning": "Bữa tối",
-        "pronunciation": "/dinner/",
+        "pronunciation": "/ˈdɪ.nər/",
         "partOfSpeech": "noun",
         "example": "I use Dinner in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dinner trong giao tiếp hàng ngày.",
@@ -4068,7 +4068,7 @@ module.exports = [
       {
         "word": "Watch TV",
         "meaning": "Xem truyền hình",
-        "pronunciation": "/watch tv/",
+        "pronunciation": "/ˈwɑːtʃ ˈtiːˈviː/",
         "partOfSpeech": "noun",
         "example": "I use Watch TV in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Watch TV trong giao tiếp hàng ngày.",
@@ -4078,7 +4078,7 @@ module.exports = [
       {
         "word": "Listen",
         "meaning": "Lắng nghe",
-        "pronunciation": "/listen/",
+        "pronunciation": "/ˈlɪ.sən/",
         "partOfSpeech": "noun",
         "example": "I use Listen in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Listen trong giao tiếp hàng ngày.",
@@ -4088,7 +4088,7 @@ module.exports = [
       {
         "word": "Relax",
         "meaning": "Thư giãn",
-        "pronunciation": "/relax/",
+        "pronunciation": "/rɪˈlæks/",
         "partOfSpeech": "noun",
         "example": "I use Relax in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Relax trong giao tiếp hàng ngày.",
@@ -4098,7 +4098,7 @@ module.exports = [
       {
         "word": "Sleep",
         "meaning": "Ngủ",
-        "pronunciation": "/sleep/",
+        "pronunciation": "/ˈsliːp/",
         "partOfSpeech": "noun",
         "example": "I use Sleep in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sleep trong giao tiếp hàng ngày.",
@@ -4108,7 +4108,7 @@ module.exports = [
       {
         "word": "Tired",
         "meaning": "Mệt mỏi",
-        "pronunciation": "/tired/",
+        "pronunciation": "/ˈtaɪ.ərd/",
         "partOfSpeech": "noun",
         "example": "I use Tired in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tired trong giao tiếp hàng ngày.",
@@ -4118,7 +4118,7 @@ module.exports = [
       {
         "word": "Quiet",
         "meaning": "Yên tĩnh",
-        "pronunciation": "/quiet/",
+        "pronunciation": "/ˈkwaɪ.ət/",
         "partOfSpeech": "noun",
         "example": "I use Quiet in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Quiet trong giao tiếp hàng ngày.",
@@ -4128,7 +4128,7 @@ module.exports = [
       {
         "word": "Book",
         "meaning": "Sách đọc",
-        "pronunciation": "/book/",
+        "pronunciation": "/ˈbʊk/",
         "partOfSpeech": "noun",
         "example": "I use Book in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Book trong giao tiếp hàng ngày.",
@@ -4138,7 +4138,7 @@ module.exports = [
       {
         "word": "Dark",
         "meaning": "Tối trời",
-        "pronunciation": "/dark/",
+        "pronunciation": "/ˈdɑːrk/",
         "partOfSpeech": "noun",
         "example": "I use Dark in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dark trong giao tiếp hàng ngày.",
@@ -4148,7 +4148,7 @@ module.exports = [
       {
         "word": "Goodnight",
         "meaning": "Chúc ngủ ngon",
-        "pronunciation": "/goodnight/",
+        "pronunciation": "/ˈɡʊd.naɪt/",
         "partOfSpeech": "noun",
         "example": "I use Goodnight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Goodnight trong giao tiếp hàng ngày.",
@@ -4173,7 +4173,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Dinner\\\" has a specific pronunciation: /dinner/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Dinner\\\" có phát âm cụ thể là /dinner/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Watch TV\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Watch TV\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Dinner\\\" has a specific pronunciation: /ˈdɪ.nər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Dinner\\\" có phát âm cụ thể là /ˈdɪ.nər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Watch TV\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Watch TV\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -4204,7 +4204,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"in\",\"I\",\"use\",\"Dinner\",\"daily\"]",
+        "options": "[\"use\",\"Dinner\",\"daily\",\"I\",\"in\",\"conversation\"]",
         "correctAnswer": "I use Dinner in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Dinner in daily conversation\"."
       },
@@ -4220,7 +4220,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Watch TV\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Watch TV",
-        "explanation": "Phát âm chuẩn IPA của từ là /watch tv/ - \"Watch TV\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈwɑːtʃ ˈtiːˈviː/ - \"Watch TV\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4240,13 +4240,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dinner\" là gì?",
-        "options": "[\"Lắng nghe\",\"Xem truyền hình\",\"Thư giãn\",\"Bữa tối\"]",
+        "options": "[\"Bữa tối\",\"Thư giãn\",\"Lắng nghe\",\"Xem truyền hình\"]",
         "correctAnswer": "Bữa tối",
-        "explanation": "\"Dinner\" có phiên âm /dinner/ và mang nghĩa là \"Bữa tối\"."
+        "explanation": "\"Dinner\" có phiên âm /ˈdɪ.nər/ và mang nghĩa là \"Bữa tối\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Evening Routine, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Watch TV\"]",
+        "options": "[\"airplanes\",\"Watch TV\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Watch TV",
         "explanation": "\"Watch TV\" (Xem truyền hình) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Evening Routine."
       },
@@ -4258,13 +4258,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Relax\" là gì?",
-        "options": "[\"Ngủ\",\"Mệt mỏi\",\"Yên tĩnh\",\"Thư giãn\"]",
+        "options": "[\"Yên tĩnh\",\"Mệt mỏi\",\"Ngủ\",\"Thư giãn\"]",
         "correctAnswer": "Thư giãn",
-        "explanation": "\"Relax\" có phiên âm /relax/ và mang nghĩa là \"Thư giãn\"."
+        "explanation": "\"Relax\" có phiên âm /rɪˈlæks/ và mang nghĩa là \"Thư giãn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Evening Routine, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Sleep\",\"airplanes\"]",
+        "options": "[\"Sleep\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Sleep",
         "explanation": "\"Sleep\" (Ngủ) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Evening Routine."
       },
@@ -4276,13 +4276,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Quiet\" là gì?",
-        "options": "[\"Chúc ngủ ngon\",\"Sách đọc\",\"Tối trời\",\"Yên tĩnh\"]",
+        "options": "[\"Tối trời\",\"Sách đọc\",\"Yên tĩnh\",\"Chúc ngủ ngon\"]",
         "correctAnswer": "Yên tĩnh",
-        "explanation": "\"Quiet\" có phiên âm /quiet/ và mang nghĩa là \"Yên tĩnh\"."
+        "explanation": "\"Quiet\" có phiên âm /ˈkwaɪ.ət/ và mang nghĩa là \"Yên tĩnh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Evening Routine, we need to practice _____.\"",
-        "options": "[\"Book\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Book\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Book",
         "explanation": "\"Book\" (Sách đọc) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Evening Routine."
       },
@@ -4294,9 +4294,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Goodnight\" là gì?",
-        "options": "[\"Xem truyền hình\",\"Lắng nghe\",\"Bữa tối\",\"Chúc ngủ ngon\"]",
+        "options": "[\"Chúc ngủ ngon\",\"Lắng nghe\",\"Bữa tối\",\"Xem truyền hình\"]",
         "correctAnswer": "Chúc ngủ ngon",
-        "explanation": "\"Goodnight\" có phiên âm /goodnight/ và mang nghĩa là \"Chúc ngủ ngon\"."
+        "explanation": "\"Goodnight\" có phiên âm /ˈɡʊd.naɪt/ và mang nghĩa là \"Chúc ngủ ngon\"."
       }
     ]
   },
@@ -4311,7 +4311,7 @@ module.exports = [
       {
         "word": "Sunny",
         "meaning": "Có nắng",
-        "pronunciation": "/sunny/",
+        "pronunciation": "/ˈsʌ.ni/",
         "partOfSpeech": "noun",
         "example": "I use Sunny in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sunny trong giao tiếp hàng ngày.",
@@ -4321,7 +4321,7 @@ module.exports = [
       {
         "word": "Rainy",
         "meaning": "Có mưa",
-        "pronunciation": "/rainy/",
+        "pronunciation": "/ˈreɪ.ni/",
         "partOfSpeech": "noun",
         "example": "I use Rainy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rainy trong giao tiếp hàng ngày.",
@@ -4331,7 +4331,7 @@ module.exports = [
       {
         "word": "Cloudy",
         "meaning": "Nhiều mây",
-        "pronunciation": "/cloudy/",
+        "pronunciation": "/ˈklaʊ.di/",
         "partOfSpeech": "noun",
         "example": "I use Cloudy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cloudy trong giao tiếp hàng ngày.",
@@ -4341,7 +4341,7 @@ module.exports = [
       {
         "word": "Windy",
         "meaning": "Nhiều gió",
-        "pronunciation": "/windy/",
+        "pronunciation": "/ˈwɪn.di/",
         "partOfSpeech": "noun",
         "example": "I use Windy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Windy trong giao tiếp hàng ngày.",
@@ -4351,7 +4351,7 @@ module.exports = [
       {
         "word": "Hot",
         "meaning": "Nóng bức",
-        "pronunciation": "/hot/",
+        "pronunciation": "/ˈhɑːt/",
         "partOfSpeech": "noun",
         "example": "I use Hot in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hot trong giao tiếp hàng ngày.",
@@ -4361,7 +4361,7 @@ module.exports = [
       {
         "word": "Cold",
         "meaning": "Lạnh giá",
-        "pronunciation": "/cold/",
+        "pronunciation": "/ˈkoʊld/",
         "partOfSpeech": "noun",
         "example": "I use Cold in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cold trong giao tiếp hàng ngày.",
@@ -4371,7 +4371,7 @@ module.exports = [
       {
         "word": "Spring",
         "meaning": "Mùa xuân",
-        "pronunciation": "/spring/",
+        "pronunciation": "/ˈsprɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Spring in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Spring trong giao tiếp hàng ngày.",
@@ -4381,7 +4381,7 @@ module.exports = [
       {
         "word": "Summer",
         "meaning": "Mùa hè",
-        "pronunciation": "/summer/",
+        "pronunciation": "/ˈsʌ.mər/",
         "partOfSpeech": "noun",
         "example": "I use Summer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Summer trong giao tiếp hàng ngày.",
@@ -4391,7 +4391,7 @@ module.exports = [
       {
         "word": "Autumn",
         "meaning": "Mùa thu",
-        "pronunciation": "/autumn/",
+        "pronunciation": "/ˈɔː.təm/",
         "partOfSpeech": "noun",
         "example": "I use Autumn in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Autumn trong giao tiếp hàng ngày.",
@@ -4401,7 +4401,7 @@ module.exports = [
       {
         "word": "Winter",
         "meaning": "Mùa đông",
-        "pronunciation": "/winter/",
+        "pronunciation": "/ˈwɪn.tər/",
         "partOfSpeech": "noun",
         "example": "I use Winter in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Winter trong giao tiếp hàng ngày.",
@@ -4426,7 +4426,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Sunny\\\" has a specific pronunciation: /sunny/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Sunny\\\" có phát âm cụ thể là /sunny/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Rainy\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Rainy\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Sunny\\\" has a specific pronunciation: /ˈsʌ.ni/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Sunny\\\" có phát âm cụ thể là /ˈsʌ.ni/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Rainy\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Rainy\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -4457,7 +4457,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Sunny\",\"daily\",\"use\",\"in\",\"I\",\"conversation\"]",
+        "options": "[\"conversation\",\"in\",\"Sunny\",\"daily\",\"use\",\"I\"]",
         "correctAnswer": "I use Sunny in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Sunny in daily conversation\"."
       },
@@ -4473,7 +4473,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Rainy\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Rainy",
-        "explanation": "Phát âm chuẩn IPA của từ là /rainy/ - \"Rainy\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈreɪ.ni/ - \"Rainy\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4493,9 +4493,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sunny\" là gì?",
-        "options": "[\"Có nắng\",\"Nhiều gió\",\"Có mưa\",\"Nhiều mây\"]",
+        "options": "[\"Nhiều gió\",\"Có nắng\",\"Có mưa\",\"Nhiều mây\"]",
         "correctAnswer": "Có nắng",
-        "explanation": "\"Sunny\" có phiên âm /sunny/ và mang nghĩa là \"Có nắng\"."
+        "explanation": "\"Sunny\" có phiên âm /ˈsʌ.ni/ và mang nghĩa là \"Có nắng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Weather & Seasons, we need to practice _____.\"",
@@ -4511,13 +4511,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Windy\" là gì?",
-        "options": "[\"Nhiều gió\",\"Nóng bức\",\"Lạnh giá\",\"Mùa xuân\"]",
+        "options": "[\"Nóng bức\",\"Lạnh giá\",\"Mùa xuân\",\"Nhiều gió\"]",
         "correctAnswer": "Nhiều gió",
-        "explanation": "\"Windy\" có phiên âm /windy/ và mang nghĩa là \"Nhiều gió\"."
+        "explanation": "\"Windy\" có phiên âm /ˈwɪn.di/ và mang nghĩa là \"Nhiều gió\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Weather & Seasons, we need to practice _____.\"",
-        "options": "[\"Hot\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Hot\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Hot",
         "explanation": "\"Hot\" (Nóng bức) là từ vựng chính xác trong ngữ cảnh chủ đề Weather & Seasons."
       },
@@ -4529,13 +4529,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Spring\" là gì?",
-        "options": "[\"Mùa hè\",\"Mùa đông\",\"Mùa xuân\",\"Mùa thu\"]",
+        "options": "[\"Mùa xuân\",\"Mùa hè\",\"Mùa thu\",\"Mùa đông\"]",
         "correctAnswer": "Mùa xuân",
-        "explanation": "\"Spring\" có phiên âm /spring/ và mang nghĩa là \"Mùa xuân\"."
+        "explanation": "\"Spring\" có phiên âm /ˈsprɪŋ/ và mang nghĩa là \"Mùa xuân\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Weather & Seasons, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Summer\"]",
+        "options": "[\"Summer\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Summer",
         "explanation": "\"Summer\" (Mùa hè) là từ vựng chính xác trong ngữ cảnh chủ đề Weather & Seasons."
       },
@@ -4547,9 +4547,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Winter\" là gì?",
-        "options": "[\"Mùa đông\",\"Nhiều mây\",\"Có nắng\",\"Có mưa\"]",
+        "options": "[\"Có mưa\",\"Có nắng\",\"Mùa đông\",\"Nhiều mây\"]",
         "correctAnswer": "Mùa đông",
-        "explanation": "\"Winter\" có phiên âm /winter/ và mang nghĩa là \"Mùa đông\"."
+        "explanation": "\"Winter\" có phiên âm /ˈwɪn.tər/ và mang nghĩa là \"Mùa đông\"."
       }
     ]
   },
@@ -4564,7 +4564,7 @@ module.exports = [
       {
         "word": "Shirt",
         "meaning": "Áo sơ mi",
-        "pronunciation": "/shirt/",
+        "pronunciation": "/ˈʃɜːrt/",
         "partOfSpeech": "noun",
         "example": "I use Shirt in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shirt trong giao tiếp hàng ngày.",
@@ -4574,7 +4574,7 @@ module.exports = [
       {
         "word": "T-shirt",
         "meaning": "Áo phông",
-        "pronunciation": "/t-shirt/",
+        "pronunciation": "/ˈtiː.sərt/",
         "partOfSpeech": "noun",
         "example": "I use T-shirt in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ T-shirt trong giao tiếp hàng ngày.",
@@ -4584,7 +4584,7 @@ module.exports = [
       {
         "word": "Pants",
         "meaning": "Quần dài",
-        "pronunciation": "/pants/",
+        "pronunciation": "/ˈpænts/",
         "partOfSpeech": "noun",
         "example": "I use Pants in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pants trong giao tiếp hàng ngày.",
@@ -4594,7 +4594,7 @@ module.exports = [
       {
         "word": "Dress",
         "meaning": "Váy liền",
-        "pronunciation": "/dress/",
+        "pronunciation": "/ˈdres/",
         "partOfSpeech": "noun",
         "example": "I use Dress in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dress trong giao tiếp hàng ngày.",
@@ -4604,7 +4604,7 @@ module.exports = [
       {
         "word": "Skirt",
         "meaning": "Chân váy",
-        "pronunciation": "/skirt/",
+        "pronunciation": "/ˈskɜːrt/",
         "partOfSpeech": "noun",
         "example": "I use Skirt in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Skirt trong giao tiếp hàng ngày.",
@@ -4614,7 +4614,7 @@ module.exports = [
       {
         "word": "Shoes",
         "meaning": "Đôi giày",
-        "pronunciation": "/shoes/",
+        "pronunciation": "/ˈʃuːz/",
         "partOfSpeech": "noun",
         "example": "I use Shoes in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shoes trong giao tiếp hàng ngày.",
@@ -4624,7 +4624,7 @@ module.exports = [
       {
         "word": "Hat",
         "meaning": "Cái mũ",
-        "pronunciation": "/hat/",
+        "pronunciation": "/ˈhæt/",
         "partOfSpeech": "noun",
         "example": "I use Hat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hat trong giao tiếp hàng ngày.",
@@ -4634,7 +4634,7 @@ module.exports = [
       {
         "word": "Coat",
         "meaning": "Áo khoác",
-        "pronunciation": "/coat/",
+        "pronunciation": "/ˈkoʊt/",
         "partOfSpeech": "noun",
         "example": "I use Coat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Coat trong giao tiếp hàng ngày.",
@@ -4644,7 +4644,7 @@ module.exports = [
       {
         "word": "Wear",
         "meaning": "Mặc, đeo",
-        "pronunciation": "/wear/",
+        "pronunciation": "/ˈwer/",
         "partOfSpeech": "noun",
         "example": "I use Wear in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wear trong giao tiếp hàng ngày.",
@@ -4654,7 +4654,7 @@ module.exports = [
       {
         "word": "Clean",
         "meaning": "Sạch sẽ",
-        "pronunciation": "/clean/",
+        "pronunciation": "/ˈkliːn/",
         "partOfSpeech": "noun",
         "example": "I use Clean in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clean trong giao tiếp hàng ngày.",
@@ -4679,7 +4679,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Shirt\\\" has a specific pronunciation: /shirt/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Shirt\\\" có phát âm cụ thể là /shirt/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"T-shirt\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"T-shirt\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Shirt\\\" has a specific pronunciation: /ˈʃɜːrt/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Shirt\\\" có phát âm cụ thể là /ˈʃɜːrt/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"T-shirt\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"T-shirt\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -4710,7 +4710,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Shirt\",\"in\",\"daily\",\"conversation\"]",
+        "options": "[\"Shirt\",\"use\",\"in\",\"daily\",\"I\",\"conversation\"]",
         "correctAnswer": "I use Shirt in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Shirt in daily conversation\"."
       },
@@ -4726,7 +4726,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"T-shirt\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "T-shirt",
-        "explanation": "Phát âm chuẩn IPA của từ là /t-shirt/ - \"T-shirt\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈtiː.sərt/ - \"T-shirt\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4746,13 +4746,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Shirt\" là gì?",
-        "options": "[\"Quần dài\",\"Áo phông\",\"Áo sơ mi\",\"Váy liền\"]",
+        "options": "[\"Áo sơ mi\",\"Váy liền\",\"Áo phông\",\"Quần dài\"]",
         "correctAnswer": "Áo sơ mi",
-        "explanation": "\"Shirt\" có phiên âm /shirt/ và mang nghĩa là \"Áo sơ mi\"."
+        "explanation": "\"Shirt\" có phiên âm /ˈʃɜːrt/ và mang nghĩa là \"Áo sơ mi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Clothes & Daily Dressing, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"T-shirt\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"T-shirt\"]",
         "correctAnswer": "T-shirt",
         "explanation": "\"T-shirt\" (Áo phông) là từ vựng chính xác trong ngữ cảnh chủ đề Clothes & Daily Dressing."
       },
@@ -4764,13 +4764,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dress\" là gì?",
-        "options": "[\"Cái mũ\",\"Đôi giày\",\"Chân váy\",\"Váy liền\"]",
+        "options": "[\"Chân váy\",\"Cái mũ\",\"Đôi giày\",\"Váy liền\"]",
         "correctAnswer": "Váy liền",
-        "explanation": "\"Dress\" có phiên âm /dress/ và mang nghĩa là \"Váy liền\"."
+        "explanation": "\"Dress\" có phiên âm /ˈdres/ và mang nghĩa là \"Váy liền\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Clothes & Daily Dressing, we need to practice _____.\"",
-        "options": "[\"Skirt\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Skirt\",\"airplanes\"]",
         "correctAnswer": "Skirt",
         "explanation": "\"Skirt\" (Chân váy) là từ vựng chính xác trong ngữ cảnh chủ đề Clothes & Daily Dressing."
       },
@@ -4782,13 +4782,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hat\" là gì?",
-        "options": "[\"Mặc, đeo\",\"Sạch sẽ\",\"Cái mũ\",\"Áo khoác\"]",
+        "options": "[\"Cái mũ\",\"Áo khoác\",\"Mặc, đeo\",\"Sạch sẽ\"]",
         "correctAnswer": "Cái mũ",
-        "explanation": "\"Hat\" có phiên âm /hat/ và mang nghĩa là \"Cái mũ\"."
+        "explanation": "\"Hat\" có phiên âm /ˈhæt/ và mang nghĩa là \"Cái mũ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Clothes & Daily Dressing, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Coat\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Coat\"]",
         "correctAnswer": "Coat",
         "explanation": "\"Coat\" (Áo khoác) là từ vựng chính xác trong ngữ cảnh chủ đề Clothes & Daily Dressing."
       },
@@ -4800,9 +4800,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Clean\" là gì?",
-        "options": "[\"Quần dài\",\"Áo phông\",\"Áo sơ mi\",\"Sạch sẽ\"]",
+        "options": "[\"Sạch sẽ\",\"Áo sơ mi\",\"Áo phông\",\"Quần dài\"]",
         "correctAnswer": "Sạch sẽ",
-        "explanation": "\"Clean\" có phiên âm /clean/ và mang nghĩa là \"Sạch sẽ\"."
+        "explanation": "\"Clean\" có phiên âm /ˈkliːn/ và mang nghĩa là \"Sạch sẽ\"."
       }
     ]
   },
@@ -4817,7 +4817,7 @@ module.exports = [
       {
         "word": "Tall",
         "meaning": "Cao ráo",
-        "pronunciation": "/tall/",
+        "pronunciation": "/ˈtɔːl/",
         "partOfSpeech": "noun",
         "example": "I use Tall in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tall trong giao tiếp hàng ngày.",
@@ -4827,7 +4827,7 @@ module.exports = [
       {
         "word": "Short",
         "meaning": "Thấp, lùn",
-        "pronunciation": "/short/",
+        "pronunciation": "/ˈʃɔːrt/",
         "partOfSpeech": "noun",
         "example": "I use Short in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Short trong giao tiếp hàng ngày.",
@@ -4837,7 +4837,7 @@ module.exports = [
       {
         "word": "Slim",
         "meaning": "Thon thả",
-        "pronunciation": "/slim/",
+        "pronunciation": "/ˈslɪm/",
         "partOfSpeech": "noun",
         "example": "I use Slim in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Slim trong giao tiếp hàng ngày.",
@@ -4847,7 +4847,7 @@ module.exports = [
       {
         "word": "Young",
         "meaning": "Trẻ tuổi",
-        "pronunciation": "/young/",
+        "pronunciation": "/ˈjʌŋ/",
         "partOfSpeech": "noun",
         "example": "I use Young in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Young trong giao tiếp hàng ngày.",
@@ -4857,7 +4857,7 @@ module.exports = [
       {
         "word": "Old",
         "meaning": "Cao tuổi, già",
-        "pronunciation": "/old/",
+        "pronunciation": "/ˈoʊld/",
         "partOfSpeech": "noun",
         "example": "I use Old in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Old trong giao tiếp hàng ngày.",
@@ -4867,7 +4867,7 @@ module.exports = [
       {
         "word": "Hair",
         "meaning": "Mái tóc",
-        "pronunciation": "/hair/",
+        "pronunciation": "/ˈher/",
         "partOfSpeech": "noun",
         "example": "I use Hair in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hair trong giao tiếp hàng ngày.",
@@ -4877,7 +4877,7 @@ module.exports = [
       {
         "word": "Eyes",
         "meaning": "Đôi mắt",
-        "pronunciation": "/eyes/",
+        "pronunciation": "/ˈaɪz/",
         "partOfSpeech": "noun",
         "example": "I use Eyes in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eyes trong giao tiếp hàng ngày.",
@@ -4887,7 +4887,7 @@ module.exports = [
       {
         "word": "Face",
         "meaning": "Khuôn mặt",
-        "pronunciation": "/face/",
+        "pronunciation": "/ˈfeɪs/",
         "partOfSpeech": "noun",
         "example": "I use Face in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Face trong giao tiếp hàng ngày.",
@@ -4897,7 +4897,7 @@ module.exports = [
       {
         "word": "Smile",
         "meaning": "Nụ cười",
-        "pronunciation": "/smile/",
+        "pronunciation": "/ˈsmaɪl/",
         "partOfSpeech": "noun",
         "example": "I use Smile in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Smile trong giao tiếp hàng ngày.",
@@ -4907,7 +4907,7 @@ module.exports = [
       {
         "word": "Beautiful",
         "meaning": "Xinh đẹp",
-        "pronunciation": "/beautiful/",
+        "pronunciation": "/ˈbjuː.tə.fəl/",
         "partOfSpeech": "noun",
         "example": "I use Beautiful in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Beautiful trong giao tiếp hàng ngày.",
@@ -4932,7 +4932,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Tall\\\" has a specific pronunciation: /tall/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Tall\\\" có phát âm cụ thể là /tall/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Short\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Short\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Tall\\\" has a specific pronunciation: /ˈtɔːl/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Tall\\\" có phát âm cụ thể là /ˈtɔːl/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Short\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Short\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -4963,7 +4963,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"I\",\"use\",\"Tall\",\"in\",\"daily\"]",
+        "options": "[\"in\",\"I\",\"use\",\"Tall\",\"conversation\",\"daily\"]",
         "correctAnswer": "I use Tall in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Tall in daily conversation\"."
       },
@@ -4979,7 +4979,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Short\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Short",
-        "explanation": "Phát âm chuẩn IPA của từ là /short/ - \"Short\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈʃɔːrt/ - \"Short\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4999,13 +4999,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Tall\" là gì?",
-        "options": "[\"Cao ráo\",\"Thấp, lùn\",\"Thon thả\",\"Trẻ tuổi\"]",
+        "options": "[\"Thấp, lùn\",\"Cao ráo\",\"Trẻ tuổi\",\"Thon thả\"]",
         "correctAnswer": "Cao ráo",
-        "explanation": "\"Tall\" có phiên âm /tall/ và mang nghĩa là \"Cao ráo\"."
+        "explanation": "\"Tall\" có phiên âm /ˈtɔːl/ và mang nghĩa là \"Cao ráo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Physical Appearance & Descriptions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Short\"]",
+        "options": "[\"umbrellas\",\"Short\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Short",
         "explanation": "\"Short\" (Thấp, lùn) là từ vựng chính xác trong ngữ cảnh chủ đề Physical Appearance & Descriptions."
       },
@@ -5017,9 +5017,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Young\" là gì?",
-        "options": "[\"Trẻ tuổi\",\"Cao tuổi, già\",\"Mái tóc\",\"Đôi mắt\"]",
+        "options": "[\"Đôi mắt\",\"Mái tóc\",\"Cao tuổi, già\",\"Trẻ tuổi\"]",
         "correctAnswer": "Trẻ tuổi",
-        "explanation": "\"Young\" có phiên âm /young/ và mang nghĩa là \"Trẻ tuổi\"."
+        "explanation": "\"Young\" có phiên âm /ˈjʌŋ/ và mang nghĩa là \"Trẻ tuổi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Physical Appearance & Descriptions, we need to practice _____.\"",
@@ -5035,13 +5035,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eyes\" là gì?",
-        "options": "[\"Nụ cười\",\"Khuôn mặt\",\"Xinh đẹp\",\"Đôi mắt\"]",
+        "options": "[\"Xinh đẹp\",\"Đôi mắt\",\"Khuôn mặt\",\"Nụ cười\"]",
         "correctAnswer": "Đôi mắt",
-        "explanation": "\"Eyes\" có phiên âm /eyes/ và mang nghĩa là \"Đôi mắt\"."
+        "explanation": "\"Eyes\" có phiên âm /ˈaɪz/ và mang nghĩa là \"Đôi mắt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Physical Appearance & Descriptions, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Face\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Face\"]",
         "correctAnswer": "Face",
         "explanation": "\"Face\" (Khuôn mặt) là từ vựng chính xác trong ngữ cảnh chủ đề Physical Appearance & Descriptions."
       },
@@ -5053,9 +5053,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Beautiful\" là gì?",
-        "options": "[\"Thon thả\",\"Xinh đẹp\",\"Cao ráo\",\"Thấp, lùn\"]",
+        "options": "[\"Thấp, lùn\",\"Thon thả\",\"Cao ráo\",\"Xinh đẹp\"]",
         "correctAnswer": "Xinh đẹp",
-        "explanation": "\"Beautiful\" có phiên âm /beautiful/ và mang nghĩa là \"Xinh đẹp\"."
+        "explanation": "\"Beautiful\" có phiên âm /ˈbjuː.tə.fəl/ và mang nghĩa là \"Xinh đẹp\"."
       }
     ]
   },
@@ -5070,7 +5070,7 @@ module.exports = [
       {
         "word": "Happy",
         "meaning": "Hạnh phúc, vui",
-        "pronunciation": "/happy/",
+        "pronunciation": "/ˈhæ.pi/",
         "partOfSpeech": "noun",
         "example": "I use Happy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Happy trong giao tiếp hàng ngày.",
@@ -5080,7 +5080,7 @@ module.exports = [
       {
         "word": "Sad",
         "meaning": "Buồn bã",
-        "pronunciation": "/sad/",
+        "pronunciation": "/ˈsæd/",
         "partOfSpeech": "noun",
         "example": "I use Sad in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sad trong giao tiếp hàng ngày.",
@@ -5090,7 +5090,7 @@ module.exports = [
       {
         "word": "Angry",
         "meaning": "Tức giận",
-        "pronunciation": "/angry/",
+        "pronunciation": "/ˈæŋ.ɡri/",
         "partOfSpeech": "noun",
         "example": "I use Angry in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Angry trong giao tiếp hàng ngày.",
@@ -5100,7 +5100,7 @@ module.exports = [
       {
         "word": "Surprised",
         "meaning": "Ngạc nhiên",
-        "pronunciation": "/surprised/",
+        "pronunciation": "/sərˈpraɪzd/",
         "partOfSpeech": "noun",
         "example": "I use Surprised in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Surprised trong giao tiếp hàng ngày.",
@@ -5110,7 +5110,7 @@ module.exports = [
       {
         "word": "Bored",
         "meaning": "Buồn chán",
-        "pronunciation": "/bored/",
+        "pronunciation": "/ˈbɔːrd/",
         "partOfSpeech": "noun",
         "example": "I use Bored in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bored trong giao tiếp hàng ngày.",
@@ -5120,7 +5120,7 @@ module.exports = [
       {
         "word": "Excited",
         "meaning": "Hào hứng",
-        "pronunciation": "/excited/",
+        "pronunciation": "/ˌɪkˈsaɪ.təd/",
         "partOfSpeech": "noun",
         "example": "I use Excited in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Excited trong giao tiếp hàng ngày.",
@@ -5130,7 +5130,7 @@ module.exports = [
       {
         "word": "Scared",
         "meaning": "Sợ hãi",
-        "pronunciation": "/scared/",
+        "pronunciation": "/ˈskerd/",
         "partOfSpeech": "noun",
         "example": "I use Scared in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Scared trong giao tiếp hàng ngày.",
@@ -5140,7 +5140,7 @@ module.exports = [
       {
         "word": "Calm",
         "meaning": "Bình tĩnh",
-        "pronunciation": "/calm/",
+        "pronunciation": "/ˈkɑːm/",
         "partOfSpeech": "noun",
         "example": "I use Calm in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Calm trong giao tiếp hàng ngày.",
@@ -5150,7 +5150,7 @@ module.exports = [
       {
         "word": "Feel",
         "meaning": "Cảm thấy",
-        "pronunciation": "/feel/",
+        "pronunciation": "/ˈfiːl/",
         "partOfSpeech": "noun",
         "example": "I use Feel in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Feel trong giao tiếp hàng ngày.",
@@ -5160,7 +5160,7 @@ module.exports = [
       {
         "word": "Smile",
         "meaning": "Mỉm cười",
-        "pronunciation": "/smile/",
+        "pronunciation": "/ˈsmaɪl/",
         "partOfSpeech": "noun",
         "example": "I use Smile in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Smile trong giao tiếp hàng ngày.",
@@ -5185,7 +5185,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Happy\\\" has a specific pronunciation: /happy/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Happy\\\" có phát âm cụ thể là /happy/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sad\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sad\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Happy\\\" has a specific pronunciation: /ˈhæ.pi/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Happy\\\" có phát âm cụ thể là /ˈhæ.pi/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sad\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sad\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -5216,7 +5216,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"Happy\",\"conversation\",\"use\",\"in\",\"I\"]",
+        "options": "[\"daily\",\"in\",\"Happy\",\"use\",\"conversation\",\"I\"]",
         "correctAnswer": "I use Happy in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Happy in daily conversation\"."
       },
@@ -5232,7 +5232,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Sad\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Sad",
-        "explanation": "Phát âm chuẩn IPA của từ là /sad/ - \"Sad\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈsæd/ - \"Sad\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5252,13 +5252,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Happy\" là gì?",
-        "options": "[\"Hạnh phúc, vui\",\"Ngạc nhiên\",\"Buồn bã\",\"Tức giận\"]",
+        "options": "[\"Tức giận\",\"Ngạc nhiên\",\"Buồn bã\",\"Hạnh phúc, vui\"]",
         "correctAnswer": "Hạnh phúc, vui",
-        "explanation": "\"Happy\" có phiên âm /happy/ và mang nghĩa là \"Hạnh phúc, vui\"."
+        "explanation": "\"Happy\" có phiên âm /ˈhæ.pi/ và mang nghĩa là \"Hạnh phúc, vui\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Feelings & Simple Emotions, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Sad\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Sad\"]",
         "correctAnswer": "Sad",
         "explanation": "\"Sad\" (Buồn bã) là từ vựng chính xác trong ngữ cảnh chủ đề Feelings & Simple Emotions."
       },
@@ -5270,13 +5270,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Surprised\" là gì?",
-        "options": "[\"Ngạc nhiên\",\"Sợ hãi\",\"Buồn chán\",\"Hào hứng\"]",
+        "options": "[\"Sợ hãi\",\"Hào hứng\",\"Buồn chán\",\"Ngạc nhiên\"]",
         "correctAnswer": "Ngạc nhiên",
-        "explanation": "\"Surprised\" có phiên âm /surprised/ và mang nghĩa là \"Ngạc nhiên\"."
+        "explanation": "\"Surprised\" có phiên âm /sərˈpraɪzd/ và mang nghĩa là \"Ngạc nhiên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Feelings & Simple Emotions, we need to practice _____.\"",
-        "options": "[\"Bored\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Bored\",\"bananas\"]",
         "correctAnswer": "Bored",
         "explanation": "\"Bored\" (Buồn chán) là từ vựng chính xác trong ngữ cảnh chủ đề Feelings & Simple Emotions."
       },
@@ -5288,13 +5288,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Scared\" là gì?",
-        "options": "[\"Sợ hãi\",\"Bình tĩnh\",\"Cảm thấy\",\"Mỉm cười\"]",
+        "options": "[\"Mỉm cười\",\"Cảm thấy\",\"Bình tĩnh\",\"Sợ hãi\"]",
         "correctAnswer": "Sợ hãi",
-        "explanation": "\"Scared\" có phiên âm /scared/ và mang nghĩa là \"Sợ hãi\"."
+        "explanation": "\"Scared\" có phiên âm /ˈskerd/ và mang nghĩa là \"Sợ hãi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Feelings & Simple Emotions, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Calm\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Calm\"]",
         "correctAnswer": "Calm",
         "explanation": "\"Calm\" (Bình tĩnh) là từ vựng chính xác trong ngữ cảnh chủ đề Feelings & Simple Emotions."
       },
@@ -5306,9 +5306,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Smile\" là gì?",
-        "options": "[\"Mỉm cười\",\"Hạnh phúc, vui\",\"Buồn bã\",\"Tức giận\"]",
+        "options": "[\"Hạnh phúc, vui\",\"Mỉm cười\",\"Tức giận\",\"Buồn bã\"]",
         "correctAnswer": "Mỉm cười",
-        "explanation": "\"Smile\" có phiên âm /smile/ và mang nghĩa là \"Mỉm cười\"."
+        "explanation": "\"Smile\" có phiên âm /ˈsmaɪl/ và mang nghĩa là \"Mỉm cười\"."
       }
     ]
   },
@@ -5323,7 +5323,7 @@ module.exports = [
       {
         "word": "Dog",
         "meaning": "Con chó",
-        "pronunciation": "/dog/",
+        "pronunciation": "/ˈdɔːɡ/",
         "partOfSpeech": "noun",
         "example": "I use Dog in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dog trong giao tiếp hàng ngày.",
@@ -5333,7 +5333,7 @@ module.exports = [
       {
         "word": "Cat",
         "meaning": "Con mèo",
-        "pronunciation": "/cat/",
+        "pronunciation": "/ˈkæt/",
         "partOfSpeech": "noun",
         "example": "I use Cat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cat trong giao tiếp hàng ngày.",
@@ -5343,7 +5343,7 @@ module.exports = [
       {
         "word": "Bird",
         "meaning": "Con chim",
-        "pronunciation": "/bird/",
+        "pronunciation": "/ˈbɜːrd/",
         "partOfSpeech": "noun",
         "example": "I use Bird in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bird trong giao tiếp hàng ngày.",
@@ -5353,7 +5353,7 @@ module.exports = [
       {
         "word": "Fish",
         "meaning": "Con cá",
-        "pronunciation": "/fish/",
+        "pronunciation": "/ˈfɪʃ/",
         "partOfSpeech": "noun",
         "example": "I use Fish in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fish trong giao tiếp hàng ngày.",
@@ -5363,7 +5363,7 @@ module.exports = [
       {
         "word": "Rabbit",
         "meaning": "Con thỏ",
-        "pronunciation": "/rabbit/",
+        "pronunciation": "/ˈræ.bət/",
         "partOfSpeech": "noun",
         "example": "I use Rabbit in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rabbit trong giao tiếp hàng ngày.",
@@ -5373,7 +5373,7 @@ module.exports = [
       {
         "word": "Pet",
         "meaning": "Thú cưng",
-        "pronunciation": "/pet/",
+        "pronunciation": "/ˈpet/",
         "partOfSpeech": "noun",
         "example": "I use Pet in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pet trong giao tiếp hàng ngày.",
@@ -5383,7 +5383,7 @@ module.exports = [
       {
         "word": "Animal",
         "meaning": "Động vật",
-        "pronunciation": "/animal/",
+        "pronunciation": "/ˈæ.nə.məl/",
         "partOfSpeech": "noun",
         "example": "I use Animal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Animal trong giao tiếp hàng ngày.",
@@ -5393,7 +5393,7 @@ module.exports = [
       {
         "word": "Cute",
         "meaning": "Dễ thương",
-        "pronunciation": "/cute/",
+        "pronunciation": "/ˈkjuːt/",
         "partOfSpeech": "noun",
         "example": "I use Cute in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cute trong giao tiếp hàng ngày.",
@@ -5403,7 +5403,7 @@ module.exports = [
       {
         "word": "Feed",
         "meaning": "Cho ăn",
-        "pronunciation": "/feed/",
+        "pronunciation": "/ˈfiːd/",
         "partOfSpeech": "noun",
         "example": "I use Feed in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Feed trong giao tiếp hàng ngày.",
@@ -5413,7 +5413,7 @@ module.exports = [
       {
         "word": "Play",
         "meaning": "Chơi đùa",
-        "pronunciation": "/play/",
+        "pronunciation": "/ˈpleɪ/",
         "partOfSpeech": "noun",
         "example": "I use Play in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Play trong giao tiếp hàng ngày.",
@@ -5438,7 +5438,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Dog\\\" has a specific pronunciation: /dog/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Dog\\\" có phát âm cụ thể là /dog/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Cat\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Cat\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Dog\\\" has a specific pronunciation: /ˈdɔːɡ/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Dog\\\" có phát âm cụ thể là /ˈdɔːɡ/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Cat\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Cat\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -5469,7 +5469,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"I\",\"daily\",\"Dog\",\"use\",\"conversation\"]",
+        "options": "[\"use\",\"daily\",\"conversation\",\"I\",\"in\",\"Dog\"]",
         "correctAnswer": "I use Dog in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Dog in daily conversation\"."
       },
@@ -5485,7 +5485,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Cat\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Cat",
-        "explanation": "Phát âm chuẩn IPA của từ là /cat/ - \"Cat\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈkæt/ - \"Cat\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5505,13 +5505,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dog\" là gì?",
-        "options": "[\"Con chó\",\"Con mèo\",\"Con cá\",\"Con chim\"]",
+        "options": "[\"Con cá\",\"Con mèo\",\"Con chó\",\"Con chim\"]",
         "correctAnswer": "Con chó",
-        "explanation": "\"Dog\" có phiên âm /dog/ và mang nghĩa là \"Con chó\"."
+        "explanation": "\"Dog\" có phiên âm /ˈdɔːɡ/ và mang nghĩa là \"Con chó\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Common Animals & Pets, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Cat\"]",
+        "options": "[\"Cat\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Cat",
         "explanation": "\"Cat\" (Con mèo) là từ vựng chính xác trong ngữ cảnh chủ đề Common Animals & Pets."
       },
@@ -5523,13 +5523,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Fish\" là gì?",
-        "options": "[\"Con cá\",\"Động vật\",\"Con thỏ\",\"Thú cưng\"]",
+        "options": "[\"Động vật\",\"Con cá\",\"Con thỏ\",\"Thú cưng\"]",
         "correctAnswer": "Con cá",
-        "explanation": "\"Fish\" có phiên âm /fish/ và mang nghĩa là \"Con cá\"."
+        "explanation": "\"Fish\" có phiên âm /ˈfɪʃ/ và mang nghĩa là \"Con cá\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Common Animals & Pets, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Rabbit\",\"airplanes\",\"bananas\"]",
+        "options": "[\"umbrellas\",\"Rabbit\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Rabbit",
         "explanation": "\"Rabbit\" (Con thỏ) là từ vựng chính xác trong ngữ cảnh chủ đề Common Animals & Pets."
       },
@@ -5541,13 +5541,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Animal\" là gì?",
-        "options": "[\"Động vật\",\"Chơi đùa\",\"Cho ăn\",\"Dễ thương\"]",
+        "options": "[\"Dễ thương\",\"Động vật\",\"Cho ăn\",\"Chơi đùa\"]",
         "correctAnswer": "Động vật",
-        "explanation": "\"Animal\" có phiên âm /animal/ và mang nghĩa là \"Động vật\"."
+        "explanation": "\"Animal\" có phiên âm /ˈæ.nə.məl/ và mang nghĩa là \"Động vật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Common Animals & Pets, we need to practice _____.\"",
-        "options": "[\"Cute\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Cute\"]",
         "correctAnswer": "Cute",
         "explanation": "\"Cute\" (Dễ thương) là từ vựng chính xác trong ngữ cảnh chủ đề Common Animals & Pets."
       },
@@ -5559,9 +5559,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Play\" là gì?",
-        "options": "[\"Con chim\",\"Con mèo\",\"Chơi đùa\",\"Con chó\"]",
+        "options": "[\"Chơi đùa\",\"Con chó\",\"Con mèo\",\"Con chim\"]",
         "correctAnswer": "Chơi đùa",
-        "explanation": "\"Play\" có phiên âm /play/ và mang nghĩa là \"Chơi đùa\"."
+        "explanation": "\"Play\" có phiên âm /ˈpleɪ/ và mang nghĩa là \"Chơi đùa\"."
       }
     ]
   },
@@ -5576,7 +5576,7 @@ module.exports = [
       {
         "word": "City",
         "meaning": "Thành phố",
-        "pronunciation": "/city/",
+        "pronunciation": "/ˈsɪ.ti/",
         "partOfSpeech": "noun",
         "example": "I use City in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ City trong giao tiếp hàng ngày.",
@@ -5586,7 +5586,7 @@ module.exports = [
       {
         "word": "Park",
         "meaning": "Công viên",
-        "pronunciation": "/park/",
+        "pronunciation": "/ˈpɑːrk/",
         "partOfSpeech": "noun",
         "example": "I use Park in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Park trong giao tiếp hàng ngày.",
@@ -5596,7 +5596,7 @@ module.exports = [
       {
         "word": "Library",
         "meaning": "Thư viện",
-        "pronunciation": "/library/",
+        "pronunciation": "/ˈlaɪ.bre.ri/",
         "partOfSpeech": "noun",
         "example": "I use Library in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Library trong giao tiếp hàng ngày.",
@@ -5606,7 +5606,7 @@ module.exports = [
       {
         "word": "Market",
         "meaning": "Khu chợ",
-        "pronunciation": "/market/",
+        "pronunciation": "/ˈmɑːr.kət/",
         "partOfSpeech": "noun",
         "example": "I use Market in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Market trong giao tiếp hàng ngày.",
@@ -5616,7 +5616,7 @@ module.exports = [
       {
         "word": "Bank",
         "meaning": "Ngân hàng",
-        "pronunciation": "/bank/",
+        "pronunciation": "/ˈbæŋk/",
         "partOfSpeech": "noun",
         "example": "I use Bank in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bank trong giao tiếp hàng ngày.",
@@ -5626,7 +5626,7 @@ module.exports = [
       {
         "word": "Street",
         "meaning": "Đường phố",
-        "pronunciation": "/street/",
+        "pronunciation": "/ˈstriːt/",
         "partOfSpeech": "noun",
         "example": "I use Street in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Street trong giao tiếp hàng ngày.",
@@ -5636,7 +5636,7 @@ module.exports = [
       {
         "word": "Bridge",
         "meaning": "Cây cầu",
-        "pronunciation": "/bridge/",
+        "pronunciation": "/ˈbrɪdʒ/",
         "partOfSpeech": "noun",
         "example": "I use Bridge in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bridge trong giao tiếp hàng ngày.",
@@ -5646,7 +5646,7 @@ module.exports = [
       {
         "word": "Near",
         "meaning": "Gần đây",
-        "pronunciation": "/near/",
+        "pronunciation": "/ˈnɪr/",
         "partOfSpeech": "noun",
         "example": "I use Near in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Near trong giao tiếp hàng ngày.",
@@ -5656,7 +5656,7 @@ module.exports = [
       {
         "word": "Far",
         "meaning": "Xa xôi",
-        "pronunciation": "/far/",
+        "pronunciation": "/ˈfɑːr/",
         "partOfSpeech": "noun",
         "example": "I use Far in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Far trong giao tiếp hàng ngày.",
@@ -5666,7 +5666,7 @@ module.exports = [
       {
         "word": "Place",
         "meaning": "Địa điểm",
-        "pronunciation": "/place/",
+        "pronunciation": "/ˈpleɪs/",
         "partOfSpeech": "noun",
         "example": "I use Place in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Place trong giao tiếp hàng ngày.",
@@ -5691,7 +5691,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"City\\\" has a specific pronunciation: /city/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"City\\\" có phát âm cụ thể là /city/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Park\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Park\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"City\\\" has a specific pronunciation: /ˈsɪ.ti/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"City\\\" có phát âm cụ thể là /ˈsɪ.ti/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Park\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Park\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -5722,7 +5722,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"daily\",\"use\",\"City\",\"conversation\",\"in\"]",
+        "options": "[\"conversation\",\"City\",\"in\",\"daily\",\"use\",\"I\"]",
         "correctAnswer": "I use City in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use City in daily conversation\"."
       },
@@ -5738,7 +5738,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Park\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Park",
-        "explanation": "Phát âm chuẩn IPA của từ là /park/ - \"Park\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈpɑːrk/ - \"Park\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5758,13 +5758,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"City\" là gì?",
-        "options": "[\"Thành phố\",\"Công viên\",\"Thư viện\",\"Khu chợ\"]",
+        "options": "[\"Công viên\",\"Khu chợ\",\"Thư viện\",\"Thành phố\"]",
         "correctAnswer": "Thành phố",
-        "explanation": "\"City\" có phiên âm /city/ và mang nghĩa là \"Thành phố\"."
+        "explanation": "\"City\" có phiên âm /ˈsɪ.ti/ và mang nghĩa là \"Thành phố\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on In the City & Public Places, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Park\"]",
+        "options": "[\"Park\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Park",
         "explanation": "\"Park\" (Công viên) là từ vựng chính xác trong ngữ cảnh chủ đề In the City & Public Places."
       },
@@ -5776,13 +5776,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Market\" là gì?",
-        "options": "[\"Ngân hàng\",\"Khu chợ\",\"Cây cầu\",\"Đường phố\"]",
+        "options": "[\"Cây cầu\",\"Đường phố\",\"Ngân hàng\",\"Khu chợ\"]",
         "correctAnswer": "Khu chợ",
-        "explanation": "\"Market\" có phiên âm /market/ và mang nghĩa là \"Khu chợ\"."
+        "explanation": "\"Market\" có phiên âm /ˈmɑːr.kət/ và mang nghĩa là \"Khu chợ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on In the City & Public Places, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Bank\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Bank\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Bank",
         "explanation": "\"Bank\" (Ngân hàng) là từ vựng chính xác trong ngữ cảnh chủ đề In the City & Public Places."
       },
@@ -5794,13 +5794,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bridge\" là gì?",
-        "options": "[\"Xa xôi\",\"Gần đây\",\"Cây cầu\",\"Địa điểm\"]",
+        "options": "[\"Cây cầu\",\"Gần đây\",\"Địa điểm\",\"Xa xôi\"]",
         "correctAnswer": "Cây cầu",
-        "explanation": "\"Bridge\" có phiên âm /bridge/ và mang nghĩa là \"Cây cầu\"."
+        "explanation": "\"Bridge\" có phiên âm /ˈbrɪdʒ/ và mang nghĩa là \"Cây cầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on In the City & Public Places, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Near\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Near\"]",
         "correctAnswer": "Near",
         "explanation": "\"Near\" (Gần đây) là từ vựng chính xác trong ngữ cảnh chủ đề In the City & Public Places."
       },
@@ -5814,7 +5814,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Place\" là gì?",
         "options": "[\"Thư viện\",\"Công viên\",\"Thành phố\",\"Địa điểm\"]",
         "correctAnswer": "Địa điểm",
-        "explanation": "\"Place\" có phiên âm /place/ và mang nghĩa là \"Địa điểm\"."
+        "explanation": "\"Place\" có phiên âm /ˈpleɪs/ và mang nghĩa là \"Địa điểm\"."
       }
     ]
   },
@@ -5829,7 +5829,7 @@ module.exports = [
       {
         "word": "Bus",
         "meaning": "Xe buýt",
-        "pronunciation": "/bus/",
+        "pronunciation": "/ˈbʌs/",
         "partOfSpeech": "noun",
         "example": "I use Bus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bus trong giao tiếp hàng ngày.",
@@ -5839,7 +5839,7 @@ module.exports = [
       {
         "word": "Bike",
         "meaning": "Xe đạp",
-        "pronunciation": "/bike/",
+        "pronunciation": "/ˈbaɪk/",
         "partOfSpeech": "noun",
         "example": "I use Bike in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bike trong giao tiếp hàng ngày.",
@@ -5849,7 +5849,7 @@ module.exports = [
       {
         "word": "Motorbike",
         "meaning": "Xe máy",
-        "pronunciation": "/motorbike/",
+        "pronunciation": "/ˈmoʊ.tər.baɪk/",
         "partOfSpeech": "noun",
         "example": "I use Motorbike in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Motorbike trong giao tiếp hàng ngày.",
@@ -5859,7 +5859,7 @@ module.exports = [
       {
         "word": "Car",
         "meaning": "Xe ô tô",
-        "pronunciation": "/car/",
+        "pronunciation": "/ˈkɑːr/",
         "partOfSpeech": "noun",
         "example": "I use Car in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Car trong giao tiếp hàng ngày.",
@@ -5869,7 +5869,7 @@ module.exports = [
       {
         "word": "Train",
         "meaning": "Tàu hỏa",
-        "pronunciation": "/train/",
+        "pronunciation": "/ˈtreɪn/",
         "partOfSpeech": "noun",
         "example": "I use Train in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Train trong giao tiếp hàng ngày.",
@@ -5879,7 +5879,7 @@ module.exports = [
       {
         "word": "Walk",
         "meaning": "Đi bộ",
-        "pronunciation": "/walk/",
+        "pronunciation": "/ˈwɔːk/",
         "partOfSpeech": "noun",
         "example": "I use Walk in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Walk trong giao tiếp hàng ngày.",
@@ -5889,7 +5889,7 @@ module.exports = [
       {
         "word": "Drive",
         "meaning": "Lái xe",
-        "pronunciation": "/drive/",
+        "pronunciation": "/ˈdraɪv/",
         "partOfSpeech": "noun",
         "example": "I use Drive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Drive trong giao tiếp hàng ngày.",
@@ -5899,7 +5899,7 @@ module.exports = [
       {
         "word": "Ride",
         "meaning": "Cưỡi, lái xe 2 bánh",
-        "pronunciation": "/ride/",
+        "pronunciation": "/ˈraɪd/",
         "partOfSpeech": "noun",
         "example": "I use Ride in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ride trong giao tiếp hàng ngày.",
@@ -5909,7 +5909,7 @@ module.exports = [
       {
         "word": "Station",
         "meaning": "Nhà ga, bến xe",
-        "pronunciation": "/station/",
+        "pronunciation": "/ˈsteɪ.ʃən/",
         "partOfSpeech": "noun",
         "example": "I use Station in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Station trong giao tiếp hàng ngày.",
@@ -5919,7 +5919,7 @@ module.exports = [
       {
         "word": "Ticket",
         "meaning": "Vé đi xe",
-        "pronunciation": "/ticket/",
+        "pronunciation": "/ˈtɪ.kət/",
         "partOfSpeech": "noun",
         "example": "I use Ticket in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ticket trong giao tiếp hàng ngày.",
@@ -5944,7 +5944,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Bus\\\" has a specific pronunciation: /bus/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bus\\\" có phát âm cụ thể là /bus/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Bike\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Bike\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Bus\\\" has a specific pronunciation: /ˈbʌs/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bus\\\" có phát âm cụ thể là /ˈbʌs/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Bike\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Bike\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -5975,7 +5975,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"Bus\",\"conversation\",\"daily\",\"use\",\"I\"]",
+        "options": "[\"conversation\",\"daily\",\"in\",\"Bus\",\"use\",\"I\"]",
         "correctAnswer": "I use Bus in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Bus in daily conversation\"."
       },
@@ -5991,7 +5991,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Bike\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Bike",
-        "explanation": "Phát âm chuẩn IPA của từ là /bike/ - \"Bike\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈbaɪk/ - \"Bike\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6011,9 +6011,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bus\" là gì?",
-        "options": "[\"Xe ô tô\",\"Xe máy\",\"Xe đạp\",\"Xe buýt\"]",
+        "options": "[\"Xe buýt\",\"Xe đạp\",\"Xe máy\",\"Xe ô tô\"]",
         "correctAnswer": "Xe buýt",
-        "explanation": "\"Bus\" có phiên âm /bus/ và mang nghĩa là \"Xe buýt\"."
+        "explanation": "\"Bus\" có phiên âm /ˈbʌs/ và mang nghĩa là \"Xe buýt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Means of Transport, we need to practice _____.\"",
@@ -6029,13 +6029,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Car\" là gì?",
-        "options": "[\"Xe ô tô\",\"Tàu hỏa\",\"Lái xe\",\"Đi bộ\"]",
+        "options": "[\"Đi bộ\",\"Tàu hỏa\",\"Lái xe\",\"Xe ô tô\"]",
         "correctAnswer": "Xe ô tô",
-        "explanation": "\"Car\" có phiên âm /car/ và mang nghĩa là \"Xe ô tô\"."
+        "explanation": "\"Car\" có phiên âm /ˈkɑːr/ và mang nghĩa là \"Xe ô tô\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Means of Transport, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Train\"]",
+        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Train\"]",
         "correctAnswer": "Train",
         "explanation": "\"Train\" (Tàu hỏa) là từ vựng chính xác trong ngữ cảnh chủ đề Means of Transport."
       },
@@ -6047,13 +6047,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Drive\" là gì?",
-        "options": "[\"Lái xe\",\"Cưỡi, lái xe 2 bánh\",\"Nhà ga, bến xe\",\"Vé đi xe\"]",
+        "options": "[\"Vé đi xe\",\"Nhà ga, bến xe\",\"Cưỡi, lái xe 2 bánh\",\"Lái xe\"]",
         "correctAnswer": "Lái xe",
-        "explanation": "\"Drive\" có phiên âm /drive/ và mang nghĩa là \"Lái xe\"."
+        "explanation": "\"Drive\" có phiên âm /ˈdraɪv/ và mang nghĩa là \"Lái xe\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Means of Transport, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Ride\"]",
+        "options": "[\"Ride\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Ride",
         "explanation": "\"Ride\" (Cưỡi, lái xe 2 bánh) là từ vựng chính xác trong ngữ cảnh chủ đề Means of Transport."
       },
@@ -6065,9 +6065,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ticket\" là gì?",
-        "options": "[\"Vé đi xe\",\"Xe buýt\",\"Xe máy\",\"Xe đạp\"]",
+        "options": "[\"Xe buýt\",\"Xe máy\",\"Xe đạp\",\"Vé đi xe\"]",
         "correctAnswer": "Vé đi xe",
-        "explanation": "\"Ticket\" có phiên âm /ticket/ và mang nghĩa là \"Vé đi xe\"."
+        "explanation": "\"Ticket\" có phiên âm /ˈtɪ.kət/ và mang nghĩa là \"Vé đi xe\"."
       }
     ]
   },
@@ -6082,7 +6082,7 @@ module.exports = [
       {
         "word": "Soccer",
         "meaning": "Bóng đá",
-        "pronunciation": "/soccer/",
+        "pronunciation": "/ˈsɑː.kər/",
         "partOfSpeech": "noun",
         "example": "I use Soccer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Soccer trong giao tiếp hàng ngày.",
@@ -6092,7 +6092,7 @@ module.exports = [
       {
         "word": "Swim",
         "meaning": "Bơi lội",
-        "pronunciation": "/swim/",
+        "pronunciation": "/ˈswɪm/",
         "partOfSpeech": "noun",
         "example": "I use Swim in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Swim trong giao tiếp hàng ngày.",
@@ -6102,7 +6102,7 @@ module.exports = [
       {
         "word": "Music",
         "meaning": "Âm nhạc",
-        "pronunciation": "/music/",
+        "pronunciation": "/ˈmjuː.zɪk/",
         "partOfSpeech": "noun",
         "example": "I use Music in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Music trong giao tiếp hàng ngày.",
@@ -6112,7 +6112,7 @@ module.exports = [
       {
         "word": "Sing",
         "meaning": "Ca hát",
-        "pronunciation": "/sing/",
+        "pronunciation": "/ˈsɪŋ/",
         "partOfSpeech": "noun",
         "example": "I use Sing in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sing trong giao tiếp hàng ngày.",
@@ -6122,7 +6122,7 @@ module.exports = [
       {
         "word": "Dance",
         "meaning": "Khiêu vũ",
-        "pronunciation": "/dance/",
+        "pronunciation": "/ˈdæns/",
         "partOfSpeech": "noun",
         "example": "I use Dance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dance trong giao tiếp hàng ngày.",
@@ -6132,7 +6132,7 @@ module.exports = [
       {
         "word": "Game",
         "meaning": "Trò chơi",
-        "pronunciation": "/game/",
+        "pronunciation": "/ˈɡeɪm/",
         "partOfSpeech": "noun",
         "example": "I use Game in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Game trong giao tiếp hàng ngày.",
@@ -6142,7 +6142,7 @@ module.exports = [
       {
         "word": "Sport",
         "meaning": "Thể thao",
-        "pronunciation": "/sport/",
+        "pronunciation": "/ˈspɔːrt/",
         "partOfSpeech": "noun",
         "example": "I use Sport in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sport trong giao tiếp hàng ngày.",
@@ -6152,7 +6152,7 @@ module.exports = [
       {
         "word": "Hobby",
         "meaning": "Sở thích",
-        "pronunciation": "/hobby/",
+        "pronunciation": "/ˈhɑː.bi/",
         "partOfSpeech": "noun",
         "example": "I use Hobby in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hobby trong giao tiếp hàng ngày.",
@@ -6162,7 +6162,7 @@ module.exports = [
       {
         "word": "Like",
         "meaning": "Thích thú",
-        "pronunciation": "/like/",
+        "pronunciation": "/ˈlaɪk/",
         "partOfSpeech": "noun",
         "example": "I use Like in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Like trong giao tiếp hàng ngày.",
@@ -6172,7 +6172,7 @@ module.exports = [
       {
         "word": "Enjoy",
         "meaning": "Tận hưởng",
-        "pronunciation": "/enjoy/",
+        "pronunciation": "/enˈdʒɔɪ/",
         "partOfSpeech": "noun",
         "example": "I use Enjoy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Enjoy trong giao tiếp hàng ngày.",
@@ -6197,7 +6197,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Soccer\\\" has a specific pronunciation: /soccer/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Soccer\\\" có phát âm cụ thể là /soccer/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Swim\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Swim\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Soccer\\\" has a specific pronunciation: /ˈsɑː.kər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Soccer\\\" có phát âm cụ thể là /ˈsɑː.kər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Swim\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Swim\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -6228,7 +6228,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"Soccer\",\"use\",\"I\",\"daily\",\"in\"]",
+        "options": "[\"I\",\"in\",\"conversation\",\"daily\",\"use\",\"Soccer\"]",
         "correctAnswer": "I use Soccer in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Soccer in daily conversation\"."
       },
@@ -6244,7 +6244,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Swim\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Swim",
-        "explanation": "Phát âm chuẩn IPA của từ là /swim/ - \"Swim\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈswɪm/ - \"Swim\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6264,9 +6264,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Soccer\" là gì?",
-        "options": "[\"Bóng đá\",\"Âm nhạc\",\"Bơi lội\",\"Ca hát\"]",
+        "options": "[\"Bơi lội\",\"Âm nhạc\",\"Bóng đá\",\"Ca hát\"]",
         "correctAnswer": "Bóng đá",
-        "explanation": "\"Soccer\" có phiên âm /soccer/ và mang nghĩa là \"Bóng đá\"."
+        "explanation": "\"Soccer\" có phiên âm /ˈsɑː.kər/ và mang nghĩa là \"Bóng đá\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Hobbies & Sports, we need to practice _____.\"",
@@ -6282,13 +6282,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sing\" là gì?",
-        "options": "[\"Trò chơi\",\"Khiêu vũ\",\"Ca hát\",\"Thể thao\"]",
+        "options": "[\"Thể thao\",\"Trò chơi\",\"Khiêu vũ\",\"Ca hát\"]",
         "correctAnswer": "Ca hát",
-        "explanation": "\"Sing\" có phiên âm /sing/ và mang nghĩa là \"Ca hát\"."
+        "explanation": "\"Sing\" có phiên âm /ˈsɪŋ/ và mang nghĩa là \"Ca hát\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Hobbies & Sports, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Dance\"]",
+        "options": "[\"Dance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Dance",
         "explanation": "\"Dance\" (Khiêu vũ) là từ vựng chính xác trong ngữ cảnh chủ đề Hobbies & Sports."
       },
@@ -6300,13 +6300,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sport\" là gì?",
-        "options": "[\"Sở thích\",\"Thể thao\",\"Thích thú\",\"Tận hưởng\"]",
+        "options": "[\"Tận hưởng\",\"Sở thích\",\"Thích thú\",\"Thể thao\"]",
         "correctAnswer": "Thể thao",
-        "explanation": "\"Sport\" có phiên âm /sport/ và mang nghĩa là \"Thể thao\"."
+        "explanation": "\"Sport\" có phiên âm /ˈspɔːrt/ và mang nghĩa là \"Thể thao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Hobbies & Sports, we need to practice _____.\"",
-        "options": "[\"Hobby\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"Hobby\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Hobby",
         "explanation": "\"Hobby\" (Sở thích) là từ vựng chính xác trong ngữ cảnh chủ đề Hobbies & Sports."
       },
@@ -6320,7 +6320,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Enjoy\" là gì?",
         "options": "[\"Tận hưởng\",\"Âm nhạc\",\"Bóng đá\",\"Bơi lội\"]",
         "correctAnswer": "Tận hưởng",
-        "explanation": "\"Enjoy\" có phiên âm /enjoy/ và mang nghĩa là \"Tận hưởng\"."
+        "explanation": "\"Enjoy\" có phiên âm /enˈdʒɔɪ/ và mang nghĩa là \"Tận hưởng\"."
       }
     ]
   },
@@ -6335,7 +6335,7 @@ module.exports = [
       {
         "word": "Vietnam",
         "meaning": "Việt Nam",
-        "pronunciation": "/vietnam/",
+        "pronunciation": "/ˌvi.etˈnɑːm/",
         "partOfSpeech": "noun",
         "example": "I use Vietnam in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Vietnam trong giao tiếp hàng ngày.",
@@ -6345,7 +6345,7 @@ module.exports = [
       {
         "word": "Vietnamese",
         "meaning": "Người Việt Nam",
-        "pronunciation": "/vietnamese/",
+        "pronunciation": "/ˌvi.et.nɑːˈmiːs/",
         "partOfSpeech": "noun",
         "example": "I use Vietnamese in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Vietnamese trong giao tiếp hàng ngày.",
@@ -6355,7 +6355,7 @@ module.exports = [
       {
         "word": "America",
         "meaning": "Nước Mỹ",
-        "pronunciation": "/america/",
+        "pronunciation": "/ˌəˈme.rə.kə/",
         "partOfSpeech": "noun",
         "example": "I use America in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ America trong giao tiếp hàng ngày.",
@@ -6365,7 +6365,7 @@ module.exports = [
       {
         "word": "American",
         "meaning": "Người Mỹ",
-        "pronunciation": "/american/",
+        "pronunciation": "/ˌəˈme.rə.kən/",
         "partOfSpeech": "noun",
         "example": "I use American in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ American trong giao tiếp hàng ngày.",
@@ -6375,7 +6375,7 @@ module.exports = [
       {
         "word": "England",
         "meaning": "Nước Anh",
-        "pronunciation": "/england/",
+        "pronunciation": "/ˈɪŋ.ɡlənd/",
         "partOfSpeech": "noun",
         "example": "I use England in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ England trong giao tiếp hàng ngày.",
@@ -6385,7 +6385,7 @@ module.exports = [
       {
         "word": "English",
         "meaning": "Người Anh, tiếng Anh",
-        "pronunciation": "/english/",
+        "pronunciation": "/ˈɪŋ.ɡlɪʃ/",
         "partOfSpeech": "noun",
         "example": "I use English in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ English trong giao tiếp hàng ngày.",
@@ -6395,7 +6395,7 @@ module.exports = [
       {
         "word": "Japan",
         "meaning": "Nước Nhật",
-        "pronunciation": "/japan/",
+        "pronunciation": "/dʒəˈpæn/",
         "partOfSpeech": "noun",
         "example": "I use Japan in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Japan trong giao tiếp hàng ngày.",
@@ -6405,7 +6405,7 @@ module.exports = [
       {
         "word": "Country",
         "meaning": "Đất nước",
-        "pronunciation": "/country/",
+        "pronunciation": "/ˈkʌn.tri/",
         "partOfSpeech": "noun",
         "example": "I use Country in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Country trong giao tiếp hàng ngày.",
@@ -6415,7 +6415,7 @@ module.exports = [
       {
         "word": "World",
         "meaning": "Thế giới",
-        "pronunciation": "/world/",
+        "pronunciation": "/ˈwɜːrld/",
         "partOfSpeech": "noun",
         "example": "I use World in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ World trong giao tiếp hàng ngày.",
@@ -6425,7 +6425,7 @@ module.exports = [
       {
         "word": "Live",
         "meaning": "Sống, sinh sống",
-        "pronunciation": "/live/",
+        "pronunciation": "/ˈlaɪv/",
         "partOfSpeech": "noun",
         "example": "I use Live in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Live trong giao tiếp hàng ngày.",
@@ -6450,7 +6450,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Vietnam\\\" has a specific pronunciation: /vietnam/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Vietnam\\\" có phát âm cụ thể là /vietnam/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Vietnamese\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Vietnamese\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Vietnam\\\" has a specific pronunciation: /ˌvi.etˈnɑːm/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Vietnam\\\" có phát âm cụ thể là /ˌvi.etˈnɑːm/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Vietnamese\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Vietnamese\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -6481,7 +6481,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"conversation\",\"use\",\"Vietnam\",\"in\",\"daily\"]",
+        "options": "[\"I\",\"use\",\"Vietnam\",\"in\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Vietnam in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Vietnam in daily conversation\"."
       },
@@ -6497,7 +6497,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Vietnamese\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Vietnamese",
-        "explanation": "Phát âm chuẩn IPA của từ là /vietnamese/ - \"Vietnamese\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˌvi.et.nɑːˈmiːs/ - \"Vietnamese\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6517,13 +6517,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Vietnam\" là gì?",
-        "options": "[\"Người Mỹ\",\"Việt Nam\",\"Người Việt Nam\",\"Nước Mỹ\"]",
+        "options": "[\"Người Việt Nam\",\"Việt Nam\",\"Người Mỹ\",\"Nước Mỹ\"]",
         "correctAnswer": "Việt Nam",
-        "explanation": "\"Vietnam\" có phiên âm /vietnam/ và mang nghĩa là \"Việt Nam\"."
+        "explanation": "\"Vietnam\" có phiên âm /ˌvi.etˈnɑːm/ và mang nghĩa là \"Việt Nam\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Countries & Nationalities, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Vietnamese\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Vietnamese\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Vietnamese",
         "explanation": "\"Vietnamese\" (Người Việt Nam) là từ vựng chính xác trong ngữ cảnh chủ đề Countries & Nationalities."
       },
@@ -6537,11 +6537,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"American\" là gì?",
         "options": "[\"Người Mỹ\",\"Nước Anh\",\"Người Anh, tiếng Anh\",\"Nước Nhật\"]",
         "correctAnswer": "Người Mỹ",
-        "explanation": "\"American\" có phiên âm /american/ và mang nghĩa là \"Người Mỹ\"."
+        "explanation": "\"American\" có phiên âm /ˌəˈme.rə.kən/ và mang nghĩa là \"Người Mỹ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Countries & Nationalities, we need to practice _____.\"",
-        "options": "[\"England\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"England\"]",
         "correctAnswer": "England",
         "explanation": "\"England\" (Nước Anh) là từ vựng chính xác trong ngữ cảnh chủ đề Countries & Nationalities."
       },
@@ -6553,13 +6553,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Japan\" là gì?",
-        "options": "[\"Đất nước\",\"Thế giới\",\"Nước Nhật\",\"Sống, sinh sống\"]",
+        "options": "[\"Nước Nhật\",\"Đất nước\",\"Sống, sinh sống\",\"Thế giới\"]",
         "correctAnswer": "Nước Nhật",
-        "explanation": "\"Japan\" có phiên âm /japan/ và mang nghĩa là \"Nước Nhật\"."
+        "explanation": "\"Japan\" có phiên âm /dʒəˈpæn/ và mang nghĩa là \"Nước Nhật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Countries & Nationalities, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Country\",\"airplanes\"]",
+        "options": "[\"Country\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Country",
         "explanation": "\"Country\" (Đất nước) là từ vựng chính xác trong ngữ cảnh chủ đề Countries & Nationalities."
       },
@@ -6571,9 +6571,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Live\" là gì?",
-        "options": "[\"Người Việt Nam\",\"Nước Mỹ\",\"Việt Nam\",\"Sống, sinh sống\"]",
+        "options": "[\"Sống, sinh sống\",\"Việt Nam\",\"Nước Mỹ\",\"Người Việt Nam\"]",
         "correctAnswer": "Sống, sinh sống",
-        "explanation": "\"Live\" có phiên âm /live/ và mang nghĩa là \"Sống, sinh sống\"."
+        "explanation": "\"Live\" có phiên âm /ˈlaɪv/ và mang nghĩa là \"Sống, sinh sống\"."
       }
     ]
   },
@@ -6588,7 +6588,7 @@ module.exports = [
       {
         "word": "Buy",
         "meaning": "Mua sắm",
-        "pronunciation": "/buy/",
+        "pronunciation": "/ˈbaɪ/",
         "partOfSpeech": "noun",
         "example": "I use Buy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Buy trong giao tiếp hàng ngày.",
@@ -6598,7 +6598,7 @@ module.exports = [
       {
         "word": "Sell",
         "meaning": "Bán hàng",
-        "pronunciation": "/sell/",
+        "pronunciation": "/ˈsel/",
         "partOfSpeech": "noun",
         "example": "I use Sell in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sell trong giao tiếp hàng ngày.",
@@ -6608,7 +6608,7 @@ module.exports = [
       {
         "word": "Cost",
         "meaning": "Giá cả",
-        "pronunciation": "/cost/",
+        "pronunciation": "/ˈkɑːst/",
         "partOfSpeech": "noun",
         "example": "I use Cost in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cost trong giao tiếp hàng ngày.",
@@ -6618,7 +6618,7 @@ module.exports = [
       {
         "word": "Cheap",
         "meaning": "Giá rẻ",
-        "pronunciation": "/cheap/",
+        "pronunciation": "/ˈtʃiːp/",
         "partOfSpeech": "noun",
         "example": "I use Cheap in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cheap trong giao tiếp hàng ngày.",
@@ -6628,7 +6628,7 @@ module.exports = [
       {
         "word": "Expensive",
         "meaning": "Đắt đỏ",
-        "pronunciation": "/expensive/",
+        "pronunciation": "/ˌɪkˈspen.sɪv/",
         "partOfSpeech": "noun",
         "example": "I use Expensive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Expensive trong giao tiếp hàng ngày.",
@@ -6638,7 +6638,7 @@ module.exports = [
       {
         "word": "Money",
         "meaning": "Tiền bạc",
-        "pronunciation": "/money/",
+        "pronunciation": "/ˈmʌ.ni/",
         "partOfSpeech": "noun",
         "example": "I use Money in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Money trong giao tiếp hàng ngày.",
@@ -6648,7 +6648,7 @@ module.exports = [
       {
         "word": "Pay",
         "meaning": "Thanh toán",
-        "pronunciation": "/pay/",
+        "pronunciation": "/ˈpeɪ/",
         "partOfSpeech": "noun",
         "example": "I use Pay in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pay trong giao tiếp hàng ngày.",
@@ -6658,7 +6658,7 @@ module.exports = [
       {
         "word": "Store",
         "meaning": "Cửa hàng",
-        "pronunciation": "/store/",
+        "pronunciation": "/ˈstɔːr/",
         "partOfSpeech": "noun",
         "example": "I use Store in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Store trong giao tiếp hàng ngày.",
@@ -6668,7 +6668,7 @@ module.exports = [
       {
         "word": "Price",
         "meaning": "Mức giá",
-        "pronunciation": "/price/",
+        "pronunciation": "/ˈpraɪs/",
         "partOfSpeech": "noun",
         "example": "I use Price in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Price trong giao tiếp hàng ngày.",
@@ -6678,7 +6678,7 @@ module.exports = [
       {
         "word": "Dollar",
         "meaning": "Đô la",
-        "pronunciation": "/dollar/",
+        "pronunciation": "/ˈdɑː.lər/",
         "partOfSpeech": "noun",
         "example": "I use Dollar in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dollar trong giao tiếp hàng ngày.",
@@ -6703,7 +6703,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Buy\\\" has a specific pronunciation: /buy/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Buy\\\" có phát âm cụ thể là /buy/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sell\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sell\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Buy\\\" has a specific pronunciation: /ˈbaɪ/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Buy\\\" có phát âm cụ thể là /ˈbaɪ/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sell\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sell\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -6734,7 +6734,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Buy\",\"in\",\"daily\",\"conversation\"]",
+        "options": "[\"in\",\"conversation\",\"daily\",\"Buy\",\"use\",\"I\"]",
         "correctAnswer": "I use Buy in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Buy in daily conversation\"."
       },
@@ -6750,7 +6750,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Sell\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Sell",
-        "explanation": "Phát âm chuẩn IPA của từ là /sell/ - \"Sell\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈsel/ - \"Sell\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6770,13 +6770,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Buy\" là gì?",
-        "options": "[\"Mua sắm\",\"Bán hàng\",\"Giá cả\",\"Giá rẻ\"]",
+        "options": "[\"Mua sắm\",\"Giá cả\",\"Bán hàng\",\"Giá rẻ\"]",
         "correctAnswer": "Mua sắm",
-        "explanation": "\"Buy\" có phiên âm /buy/ và mang nghĩa là \"Mua sắm\"."
+        "explanation": "\"Buy\" có phiên âm /ˈbaɪ/ và mang nghĩa là \"Mua sắm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Basic Shopping & Asking Prices, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Sell\",\"airplanes\",\"bananas\"]",
+        "options": "[\"Sell\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Sell",
         "explanation": "\"Sell\" (Bán hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Basic Shopping & Asking Prices."
       },
@@ -6788,13 +6788,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cheap\" là gì?",
-        "options": "[\"Đắt đỏ\",\"Tiền bạc\",\"Giá rẻ\",\"Thanh toán\"]",
+        "options": "[\"Thanh toán\",\"Tiền bạc\",\"Đắt đỏ\",\"Giá rẻ\"]",
         "correctAnswer": "Giá rẻ",
-        "explanation": "\"Cheap\" có phiên âm /cheap/ và mang nghĩa là \"Giá rẻ\"."
+        "explanation": "\"Cheap\" có phiên âm /ˈtʃiːp/ và mang nghĩa là \"Giá rẻ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Basic Shopping & Asking Prices, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Expensive\",\"umbrellas\"]",
+        "options": "[\"Expensive\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Expensive",
         "explanation": "\"Expensive\" (Đắt đỏ) là từ vựng chính xác trong ngữ cảnh chủ đề Basic Shopping & Asking Prices."
       },
@@ -6806,13 +6806,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pay\" là gì?",
-        "options": "[\"Thanh toán\",\"Cửa hàng\",\"Mức giá\",\"Đô la\"]",
+        "options": "[\"Cửa hàng\",\"Thanh toán\",\"Đô la\",\"Mức giá\"]",
         "correctAnswer": "Thanh toán",
-        "explanation": "\"Pay\" có phiên âm /pay/ và mang nghĩa là \"Thanh toán\"."
+        "explanation": "\"Pay\" có phiên âm /ˈpeɪ/ và mang nghĩa là \"Thanh toán\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Basic Shopping & Asking Prices, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Store\",\"airplanes\",\"bananas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Store\"]",
         "correctAnswer": "Store",
         "explanation": "\"Store\" (Cửa hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Basic Shopping & Asking Prices."
       },
@@ -6824,9 +6824,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dollar\" là gì?",
-        "options": "[\"Bán hàng\",\"Giá cả\",\"Mua sắm\",\"Đô la\"]",
+        "options": "[\"Đô la\",\"Mua sắm\",\"Giá cả\",\"Bán hàng\"]",
         "correctAnswer": "Đô la",
-        "explanation": "\"Dollar\" có phiên âm /dollar/ và mang nghĩa là \"Đô la\"."
+        "explanation": "\"Dollar\" có phiên âm /ˈdɑː.lər/ và mang nghĩa là \"Đô la\"."
       }
     ]
   },
@@ -6841,7 +6841,7 @@ module.exports = [
       {
         "word": "Sorry",
         "meaning": "Xin lỗi",
-        "pronunciation": "/sorry/",
+        "pronunciation": "/ˈsɑː.ri/",
         "partOfSpeech": "noun",
         "example": "I use Sorry in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sorry trong giao tiếp hàng ngày.",
@@ -6851,7 +6851,7 @@ module.exports = [
       {
         "word": "Excuse me",
         "meaning": "Xin thứ lỗi / Cho hỏi",
-        "pronunciation": "/excuse me/",
+        "pronunciation": "/ɪksˈkjuːs ˈmiː/",
         "partOfSpeech": "noun",
         "example": "I use Excuse me in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Excuse me trong giao tiếp hàng ngày.",
@@ -6861,7 +6861,7 @@ module.exports = [
       {
         "word": "Pardon",
         "meaning": "Xin nhắc lại",
-        "pronunciation": "/pardon/",
+        "pronunciation": "/ˈpɑːr.dən/",
         "partOfSpeech": "noun",
         "example": "I use Pardon in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pardon trong giao tiếp hàng ngày.",
@@ -6871,7 +6871,7 @@ module.exports = [
       {
         "word": "Help",
         "meaning": "Giúp đỡ",
-        "pronunciation": "/help/",
+        "pronunciation": "/ˈhelp/",
         "partOfSpeech": "noun",
         "example": "I use Help in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Help trong giao tiếp hàng ngày.",
@@ -6881,7 +6881,7 @@ module.exports = [
       {
         "word": "Kind",
         "meaning": "Tốt bụng",
-        "pronunciation": "/kind/",
+        "pronunciation": "/ˈkaɪnd/",
         "partOfSpeech": "noun",
         "example": "I use Kind in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Kind trong giao tiếp hàng ngày.",
@@ -6891,7 +6891,7 @@ module.exports = [
       {
         "word": "Polite",
         "meaning": "Lịch sự",
-        "pronunciation": "/polite/",
+        "pronunciation": "/pəˈlaɪt/",
         "partOfSpeech": "noun",
         "example": "I use Polite in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Polite trong giao tiếp hàng ngày.",
@@ -6901,7 +6901,7 @@ module.exports = [
       {
         "word": "Sure",
         "meaning": "Chắc chắn rồi",
-        "pronunciation": "/sure/",
+        "pronunciation": "/ˈʃʊr/",
         "partOfSpeech": "noun",
         "example": "I use Sure in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sure trong giao tiếp hàng ngày.",
@@ -6911,7 +6911,7 @@ module.exports = [
       {
         "word": "Problem",
         "meaning": "Vấn đề",
-        "pronunciation": "/problem/",
+        "pronunciation": "/ˈprɑːb.ləm/",
         "partOfSpeech": "noun",
         "example": "I use Problem in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Problem trong giao tiếp hàng ngày.",
@@ -6921,7 +6921,7 @@ module.exports = [
       {
         "word": "Matter",
         "meaning": "Chuyện, điều gì",
-        "pronunciation": "/matter/",
+        "pronunciation": "/ˈmæ.tər/",
         "partOfSpeech": "noun",
         "example": "I use Matter in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Matter trong giao tiếp hàng ngày.",
@@ -6931,7 +6931,7 @@ module.exports = [
       {
         "word": "Careful",
         "meaning": "Cẩn thận",
-        "pronunciation": "/careful/",
+        "pronunciation": "/ˈker.fəl/",
         "partOfSpeech": "noun",
         "example": "I use Careful in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Careful trong giao tiếp hàng ngày.",
@@ -6956,7 +6956,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Sorry\\\" has a specific pronunciation: /sorry/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Sorry\\\" có phát âm cụ thể là /sorry/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Excuse me\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Excuse me\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Sorry\\\" has a specific pronunciation: /ˈsɑː.ri/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Sorry\\\" có phát âm cụ thể là /ˈsɑː.ri/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Excuse me\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Excuse me\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -6987,7 +6987,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"Sorry\",\"daily\",\"conversation\",\"use\",\"in\"]",
+        "options": "[\"in\",\"conversation\",\"Sorry\",\"I\",\"daily\",\"use\"]",
         "correctAnswer": "I use Sorry in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Sorry in daily conversation\"."
       },
@@ -7003,7 +7003,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Excuse me\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Excuse me",
-        "explanation": "Phát âm chuẩn IPA của từ là /excuse me/ - \"Excuse me\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ɪksˈkjuːs ˈmiː/ - \"Excuse me\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7025,7 +7025,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sorry\" là gì?",
         "options": "[\"Giúp đỡ\",\"Xin lỗi\",\"Xin thứ lỗi / Cho hỏi\",\"Xin nhắc lại\"]",
         "correctAnswer": "Xin lỗi",
-        "explanation": "\"Sorry\" có phiên âm /sorry/ và mang nghĩa là \"Xin lỗi\"."
+        "explanation": "\"Sorry\" có phiên âm /ˈsɑː.ri/ và mang nghĩa là \"Xin lỗi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Giving Thanks & Polite Phrases, we need to practice _____.\"",
@@ -7041,9 +7041,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Help\" là gì?",
-        "options": "[\"Chắc chắn rồi\",\"Lịch sự\",\"Tốt bụng\",\"Giúp đỡ\"]",
+        "options": "[\"Giúp đỡ\",\"Tốt bụng\",\"Chắc chắn rồi\",\"Lịch sự\"]",
         "correctAnswer": "Giúp đỡ",
-        "explanation": "\"Help\" có phiên âm /help/ và mang nghĩa là \"Giúp đỡ\"."
+        "explanation": "\"Help\" có phiên âm /ˈhelp/ và mang nghĩa là \"Giúp đỡ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Giving Thanks & Polite Phrases, we need to practice _____.\"",
@@ -7059,13 +7059,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sure\" là gì?",
-        "options": "[\"Cẩn thận\",\"Vấn đề\",\"Chuyện, điều gì\",\"Chắc chắn rồi\"]",
+        "options": "[\"Chuyện, điều gì\",\"Vấn đề\",\"Cẩn thận\",\"Chắc chắn rồi\"]",
         "correctAnswer": "Chắc chắn rồi",
-        "explanation": "\"Sure\" có phiên âm /sure/ và mang nghĩa là \"Chắc chắn rồi\"."
+        "explanation": "\"Sure\" có phiên âm /ˈʃʊr/ và mang nghĩa là \"Chắc chắn rồi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Giving Thanks & Polite Phrases, we need to practice _____.\"",
-        "options": "[\"Problem\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Problem\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Problem",
         "explanation": "\"Problem\" (Vấn đề) là từ vựng chính xác trong ngữ cảnh chủ đề Giving Thanks & Polite Phrases."
       },
@@ -7079,7 +7079,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Careful\" là gì?",
         "options": "[\"Xin lỗi\",\"Cẩn thận\",\"Xin thứ lỗi / Cho hỏi\",\"Xin nhắc lại\"]",
         "correctAnswer": "Cẩn thận",
-        "explanation": "\"Careful\" có phiên âm /careful/ và mang nghĩa là \"Cẩn thận\"."
+        "explanation": "\"Careful\" có phiên âm /ˈker.fəl/ và mang nghĩa là \"Cẩn thận\"."
       }
     ]
   },
@@ -7094,7 +7094,7 @@ module.exports = [
       {
         "word": "What",
         "meaning": "Cái gì",
-        "pronunciation": "/what/",
+        "pronunciation": "/ˈwʌt/",
         "partOfSpeech": "noun",
         "example": "I use What in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ What trong giao tiếp hàng ngày.",
@@ -7104,7 +7104,7 @@ module.exports = [
       {
         "word": "Where",
         "meaning": "Ở đâu",
-        "pronunciation": "/where/",
+        "pronunciation": "/ˈwer/",
         "partOfSpeech": "noun",
         "example": "I use Where in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Where trong giao tiếp hàng ngày.",
@@ -7114,7 +7114,7 @@ module.exports = [
       {
         "word": "When",
         "meaning": "Khi nào",
-        "pronunciation": "/when/",
+        "pronunciation": "/ˈwen/",
         "partOfSpeech": "noun",
         "example": "I use When in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ When trong giao tiếp hàng ngày.",
@@ -7124,7 +7124,7 @@ module.exports = [
       {
         "word": "Who",
         "meaning": "Là ai",
-        "pronunciation": "/who/",
+        "pronunciation": "/ˈhuː/",
         "partOfSpeech": "noun",
         "example": "I use Who in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Who trong giao tiếp hàng ngày.",
@@ -7134,7 +7134,7 @@ module.exports = [
       {
         "word": "Why",
         "meaning": "Tại sao",
-        "pronunciation": "/why/",
+        "pronunciation": "/ˈwaɪ/",
         "partOfSpeech": "noun",
         "example": "I use Why in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Why trong giao tiếp hàng ngày.",
@@ -7144,7 +7144,7 @@ module.exports = [
       {
         "word": "Which",
         "meaning": "Cái nào",
-        "pronunciation": "/which/",
+        "pronunciation": "/ˈwɪtʃ/",
         "partOfSpeech": "noun",
         "example": "I use Which in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Which trong giao tiếp hàng ngày.",
@@ -7154,7 +7154,7 @@ module.exports = [
       {
         "word": "Ask",
         "meaning": "Hỏi",
-        "pronunciation": "/ask/",
+        "pronunciation": "/ˈæsk/",
         "partOfSpeech": "noun",
         "example": "I use Ask in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ask trong giao tiếp hàng ngày.",
@@ -7164,7 +7164,7 @@ module.exports = [
       {
         "word": "Answer",
         "meaning": "Trả lời",
-        "pronunciation": "/answer/",
+        "pronunciation": "/ˈæn.sər/",
         "partOfSpeech": "noun",
         "example": "I use Answer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Answer trong giao tiếp hàng ngày.",
@@ -7174,7 +7174,7 @@ module.exports = [
       {
         "word": "Question",
         "meaning": "Câu hỏi",
-        "pronunciation": "/question/",
+        "pronunciation": "/ˈkwes.tʃən/",
         "partOfSpeech": "noun",
         "example": "I use Question in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Question trong giao tiếp hàng ngày.",
@@ -7184,7 +7184,7 @@ module.exports = [
       {
         "word": "Know",
         "meaning": "Biết, thấu hiểu",
-        "pronunciation": "/know/",
+        "pronunciation": "/ˈnoʊ/",
         "partOfSpeech": "noun",
         "example": "I use Know in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Know trong giao tiếp hàng ngày.",
@@ -7209,7 +7209,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"What\\\" has a specific pronunciation: /what/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"What\\\" có phát âm cụ thể là /what/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Where\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Where\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"What\\\" has a specific pronunciation: /ˈwʌt/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"What\\\" có phát âm cụ thể là /ˈwʌt/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Where\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Where\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -7240,7 +7240,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"What\",\"in\",\"daily\",\"conversation\",\"use\",\"I\"]",
+        "options": "[\"daily\",\"in\",\"What\",\"use\",\"I\",\"conversation\"]",
         "correctAnswer": "I use What in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use What in daily conversation\"."
       },
@@ -7256,7 +7256,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Where\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Where",
-        "explanation": "Phát âm chuẩn IPA của từ là /where/ - \"Where\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ˈwer/ - \"Where\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7276,13 +7276,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"What\" là gì?",
-        "options": "[\"Ở đâu\",\"Khi nào\",\"Là ai\",\"Cái gì\"]",
+        "options": "[\"Ở đâu\",\"Cái gì\",\"Là ai\",\"Khi nào\"]",
         "correctAnswer": "Cái gì",
-        "explanation": "\"What\" có phiên âm /what/ và mang nghĩa là \"Cái gì\"."
+        "explanation": "\"What\" có phiên âm /ˈwʌt/ và mang nghĩa là \"Cái gì\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Asking Simple Questions, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Where\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Where\",\"airplanes\"]",
         "correctAnswer": "Where",
         "explanation": "\"Where\" (Ở đâu) là từ vựng chính xác trong ngữ cảnh chủ đề Asking Simple Questions."
       },
@@ -7294,13 +7294,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Who\" là gì?",
-        "options": "[\"Là ai\",\"Tại sao\",\"Hỏi\",\"Cái nào\"]",
+        "options": "[\"Là ai\",\"Hỏi\",\"Tại sao\",\"Cái nào\"]",
         "correctAnswer": "Là ai",
-        "explanation": "\"Who\" có phiên âm /who/ và mang nghĩa là \"Là ai\"."
+        "explanation": "\"Who\" có phiên âm /ˈhuː/ và mang nghĩa là \"Là ai\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Asking Simple Questions, we need to practice _____.\"",
-        "options": "[\"Why\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Why\"]",
         "correctAnswer": "Why",
         "explanation": "\"Why\" (Tại sao) là từ vựng chính xác trong ngữ cảnh chủ đề Asking Simple Questions."
       },
@@ -7312,13 +7312,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ask\" là gì?",
-        "options": "[\"Biết, thấu hiểu\",\"Câu hỏi\",\"Trả lời\",\"Hỏi\"]",
+        "options": "[\"Hỏi\",\"Trả lời\",\"Câu hỏi\",\"Biết, thấu hiểu\"]",
         "correctAnswer": "Hỏi",
-        "explanation": "\"Ask\" có phiên âm /ask/ và mang nghĩa là \"Hỏi\"."
+        "explanation": "\"Ask\" có phiên âm /ˈæsk/ và mang nghĩa là \"Hỏi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Asking Simple Questions, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Answer\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"Answer\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Answer",
         "explanation": "\"Answer\" (Trả lời) là từ vựng chính xác trong ngữ cảnh chủ đề Asking Simple Questions."
       },
@@ -7330,9 +7330,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Know\" là gì?",
-        "options": "[\"Khi nào\",\"Cái gì\",\"Ở đâu\",\"Biết, thấu hiểu\"]",
+        "options": "[\"Khi nào\",\"Ở đâu\",\"Cái gì\",\"Biết, thấu hiểu\"]",
         "correctAnswer": "Biết, thấu hiểu",
-        "explanation": "\"Know\" có phiên âm /know/ và mang nghĩa là \"Biết, thấu hiểu\"."
+        "explanation": "\"Know\" có phiên âm /ˈnoʊ/ và mang nghĩa là \"Biết, thấu hiểu\"."
       }
     ]
   },
@@ -7347,7 +7347,7 @@ module.exports = [
       {
         "word": "Practice",
         "meaning": "Luyện tập",
-        "pronunciation": "/practice/",
+        "pronunciation": "/ˈpræk.təs/",
         "partOfSpeech": "noun",
         "example": "I use Practice in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Practice trong giao tiếp hàng ngày.",
@@ -7357,7 +7357,7 @@ module.exports = [
       {
         "word": "Improve",
         "meaning": "Cải thiện",
-        "pronunciation": "/improve/",
+        "pronunciation": "/ɪmˈpruːv/",
         "partOfSpeech": "noun",
         "example": "I use Improve in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Improve trong giao tiếp hàng ngày.",
@@ -7367,7 +7367,7 @@ module.exports = [
       {
         "word": "Progress",
         "meaning": "Tiến bộ",
-        "pronunciation": "/progress/",
+        "pronunciation": "/ˈprɑː.ɡres/",
         "partOfSpeech": "noun",
         "example": "I use Progress in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Progress trong giao tiếp hàng ngày.",
@@ -7377,7 +7377,7 @@ module.exports = [
       {
         "word": "Beginner",
         "meaning": "Người mới bắt đầu",
-        "pronunciation": "/beginner/",
+        "pronunciation": "/ˌbɪˈɡɪ.nər/",
         "partOfSpeech": "noun",
         "example": "I use Beginner in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Beginner trong giao tiếp hàng ngày.",
@@ -7387,7 +7387,7 @@ module.exports = [
       {
         "word": "Confident",
         "meaning": "Tự tin",
-        "pronunciation": "/confident/",
+        "pronunciation": "/ˈkɑːn.fə.dənt/",
         "partOfSpeech": "noun",
         "example": "I use Confident in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Confident trong giao tiếp hàng ngày.",
@@ -7397,7 +7397,7 @@ module.exports = [
       {
         "word": "Fluent",
         "meaning": "Lưu loát",
-        "pronunciation": "/fluent/",
+        "pronunciation": "/ˈfluː.ənt/",
         "partOfSpeech": "noun",
         "example": "I use Fluent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fluent trong giao tiếp hàng ngày.",
@@ -7407,7 +7407,7 @@ module.exports = [
       {
         "word": "Review",
         "meaning": "Ôn tập",
-        "pronunciation": "/review/",
+        "pronunciation": "/rivˈjuː/",
         "partOfSpeech": "noun",
         "example": "I use Review in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Review trong giao tiếp hàng ngày.",
@@ -7417,7 +7417,7 @@ module.exports = [
       {
         "word": "Success",
         "meaning": "Thành công",
-        "pronunciation": "/success/",
+        "pronunciation": "/səkˈses/",
         "partOfSpeech": "noun",
         "example": "I use Success in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Success trong giao tiếp hàng ngày.",
@@ -7427,7 +7427,7 @@ module.exports = [
       {
         "word": "Goal",
         "meaning": "Mục tiêu",
-        "pronunciation": "/goal/",
+        "pronunciation": "/ˈɡoʊl/",
         "partOfSpeech": "noun",
         "example": "I use Goal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Goal trong giao tiếp hàng ngày.",
@@ -7437,7 +7437,7 @@ module.exports = [
       {
         "word": "Future",
         "meaning": "Tương lai",
-        "pronunciation": "/future/",
+        "pronunciation": "/ˈfjuː.tʃər/",
         "partOfSpeech": "noun",
         "example": "I use Future in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Future trong giao tiếp hàng ngày.",
@@ -7462,7 +7462,7 @@ module.exports = [
         "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
         "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
         "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
-        "examples": "[{\"en\":\"He always remembers: \\\"Practice\\\" has a specific pronunciation: /practice/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Practice\\\" có phát âm cụ thể là /practice/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Improve\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Improve\\\" để diễn đạt tự nhiên nhất.\"}]"
+        "examples": "[{\"en\":\"He always remembers: \\\"Practice\\\" has a specific pronunciation: /ˈpræk.təs/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Practice\\\" có phát âm cụ thể là /ˈpræk.təs/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Improve\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Improve\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
@@ -7493,7 +7493,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"daily\",\"conversation\",\"Practice\",\"in\"]",
+        "options": "[\"I\",\"in\",\"conversation\",\"daily\",\"use\",\"Practice\"]",
         "correctAnswer": "I use Practice in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Practice in daily conversation\"."
       },
@@ -7509,7 +7509,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Improve\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Improve",
-        "explanation": "Phát âm chuẩn IPA của từ là /improve/ - \"Improve\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /ɪmˈpruːv/ - \"Improve\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7529,13 +7529,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Practice\" là gì?",
-        "options": "[\"Cải thiện\",\"Tiến bộ\",\"Người mới bắt đầu\",\"Luyện tập\"]",
+        "options": "[\"Người mới bắt đầu\",\"Tiến bộ\",\"Cải thiện\",\"Luyện tập\"]",
         "correctAnswer": "Luyện tập",
-        "explanation": "\"Practice\" có phiên âm /practice/ và mang nghĩa là \"Luyện tập\"."
+        "explanation": "\"Practice\" có phiên âm /ˈpræk.təs/ và mang nghĩa là \"Luyện tập\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Beginner Milestone, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Improve\",\"airplanes\"]",
+        "options": "[\"Improve\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Improve",
         "explanation": "\"Improve\" (Cải thiện) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Beginner Milestone."
       },
@@ -7547,13 +7547,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Beginner\" là gì?",
-        "options": "[\"Ôn tập\",\"Tự tin\",\"Người mới bắt đầu\",\"Lưu loát\"]",
+        "options": "[\"Người mới bắt đầu\",\"Ôn tập\",\"Tự tin\",\"Lưu loát\"]",
         "correctAnswer": "Người mới bắt đầu",
-        "explanation": "\"Beginner\" có phiên âm /beginner/ và mang nghĩa là \"Người mới bắt đầu\"."
+        "explanation": "\"Beginner\" có phiên âm /ˌbɪˈɡɪ.nər/ và mang nghĩa là \"Người mới bắt đầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Beginner Milestone, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Confident\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Confident\",\"airplanes\"]",
         "correctAnswer": "Confident",
         "explanation": "\"Confident\" (Tự tin) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Beginner Milestone."
       },
@@ -7565,13 +7565,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Review\" là gì?",
-        "options": "[\"Ôn tập\",\"Tương lai\",\"Mục tiêu\",\"Thành công\"]",
+        "options": "[\"Tương lai\",\"Ôn tập\",\"Thành công\",\"Mục tiêu\"]",
         "correctAnswer": "Ôn tập",
-        "explanation": "\"Review\" có phiên âm /review/ và mang nghĩa là \"Ôn tập\"."
+        "explanation": "\"Review\" có phiên âm /rivˈjuː/ và mang nghĩa là \"Ôn tập\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Beginner Milestone, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Success\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Success\"]",
         "correctAnswer": "Success",
         "explanation": "\"Success\" (Thành công) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Beginner Milestone."
       },
@@ -7583,9 +7583,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Future\" là gì?",
-        "options": "[\"Cải thiện\",\"Tiến bộ\",\"Luyện tập\",\"Tương lai\"]",
+        "options": "[\"Tương lai\",\"Luyện tập\",\"Cải thiện\",\"Tiến bộ\"]",
         "correctAnswer": "Tương lai",
-        "explanation": "\"Future\" có phiên âm /future/ và mang nghĩa là \"Tương lai\"."
+        "explanation": "\"Future\" có phiên âm /ˈfjuː.tʃər/ và mang nghĩa là \"Tương lai\"."
       }
     ]
   }
