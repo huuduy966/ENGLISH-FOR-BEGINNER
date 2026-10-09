@@ -1,5 +1,14 @@
 const prisma = require('../db');
 
+// Helper to get local date string YYYY-MM-DD
+function getLocalDateString() {
+  const d = new Date();
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
 async function getDashboard(req, res) {
   try {
     const userId = req.user.id;
@@ -93,12 +102,49 @@ async function getDashboard(req, res) {
       estimatedMinutes: nextLesson.durationMinutes,
     } : null;
 
-    // Today's goal mock/calculation
+    // Fetch today's practice session to synchronize Today's Goal exactly with Today's Learning (60 questions)
+    const todayDate = getLocalDateString();
+    const todayPractice = await prisma.dailyPractice.findUnique({
+      where: { userId_date: { userId, date: todayDate } },
+    });
+
+    let vocabCurrent = 0;
+    let speakingCurrent = 0;
+    let errorCurrent = 0;
+    let listeningCurrent = 0;
+    let readingCurrent = 0;
+    let totalCompleted = 0;
+
+    if (todayPractice && todayPractice.sessionData) {
+      try {
+        const parts = JSON.parse(todayPractice.sessionData);
+        const p1 = parts.find((p) => p.partNumber === 1);
+        const p2 = parts.find((p) => p.partNumber === 2);
+        const p3 = parts.find((p) => p.partNumber === 3);
+        const p4 = parts.find((p) => p.partNumber === 4);
+        const p5 = parts.find((p) => p.partNumber === 5);
+
+        vocabCurrent = p1?.questions?.filter((q) => q.isCorrect)?.length || 0;
+        speakingCurrent = p2?.questions?.filter((q) => q.isCorrect)?.length || 0;
+        errorCurrent = p3?.questions?.filter((q) => q.isCorrect)?.length || 0;
+        listeningCurrent = p4?.questions?.filter((q) => q.isCorrect)?.length || 0;
+        readingCurrent = p5?.questions?.filter((q) => q.isCorrect)?.length || 0;
+        totalCompleted = vocabCurrent + speakingCurrent + errorCurrent + listeningCurrent + readingCurrent;
+      } catch (err) {
+        console.warn('Error parsing today practice sessionData:', err.message);
+      }
+    }
+
     const todaysGoal = {
-      vocabulary: { current: Math.min(userWordsCount, 15), target: 15 },
-      grammar: { current: completedLessonsCount > 0 ? 1 : 0, target: 1 },
-      listening: { current: completedLessonsCount > 0 ? 1 : 0, target: 1 },
-      progressPercent: Math.min(Math.round(((completedLessonsCount ? 50 : 20) + (userWordsCount ? 30 : 0))), 100),
+      vocabulary: { current: vocabCurrent, target: 20 },
+      speaking: { current: speakingCurrent, target: 10 },
+      errorCorrection: { current: errorCurrent, target: 10 },
+      listening: { current: listeningCurrent, target: 10 },
+      reading: { current: readingCurrent, target: 10 },
+      completedCount: totalCompleted,
+      totalQuestions: 60,
+      progressPercent: Math.min(100, Math.round((totalCompleted / 60) * 100)),
+      todayScore: todayPractice?.score || 0,
     };
 
     return res.json({
