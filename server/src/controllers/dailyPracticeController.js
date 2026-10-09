@@ -190,6 +190,18 @@ async function submitAnswer(req, res) {
     });
     const isCompleted = totalCompleted >= totalQs;
 
+    // Advance stored navigation pointers
+    let nextPartNum = partNumber;
+    let nextQIndex = questionIndex + 1;
+    if (isMatch) {
+      if (nextQIndex >= (part.questions?.length || 10)) {
+        if (nextPartNum < 5) {
+          nextPartNum += 1;
+          nextQIndex = 0;
+        }
+      }
+    }
+
     // Persist to DB atomically
     await prisma.$transaction([
       prisma.dailyPractice.update({
@@ -197,6 +209,8 @@ async function submitAnswer(req, res) {
         data: {
           score: newSessionScore,
           completed: isCompleted,
+          currentPart: nextPartNum,
+          currentQuestionIndex: nextQIndex,
           sessionData: JSON.stringify(parts),
         },
       }),

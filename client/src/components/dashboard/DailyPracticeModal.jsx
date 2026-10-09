@@ -60,14 +60,28 @@ export default function DailyPracticeModal({
     };
   }, []);
 
+  // Only initialize position on initial mount / open
+  const initializedRef = useRef(false);
+
   useEffect(() => {
-    if (sessionData) {
+    if (!initializedRef.current && sessionData) {
+      initializedRef.current = true;
       setSession(sessionData);
       setCurrentPartNum(initialPartNumber || 1);
       setCurrentQIndex(initialQuestionIndex || 0);
       setIsDayFinished(sessionData.completed || false);
     }
-  }, [sessionData, initialPartNumber, initialQuestionIndex, isOpen]);
+  }, [initialPartNumber, initialQuestionIndex, sessionData]);
+
+  // If sessionData updates from outside, update data without resetting navigation index
+  useEffect(() => {
+    if (sessionData && initializedRef.current) {
+      setSession(sessionData);
+      if (sessionData.completed) {
+        setIsDayFinished(true);
+      }
+    }
+  }, [sessionData]);
 
   // Reset feedback & options when question changes
   useEffect(() => {
@@ -157,14 +171,18 @@ export default function DailyPracticeModal({
 
         // 1.5s Auto-advance
         setIsAdvancing(true);
+        const nextQ = currentQIndex + 1;
+        const totalInPart = currentPart?.questions?.length || 10;
+        const pNum = currentPartNum;
+
         autoAdvanceTimerRef.current = setTimeout(() => {
           setIsAdvancing(false);
           // Advance question
-          if (currentQIndex < currentPart.questions.length - 1) {
-            setCurrentQIndex((prev) => prev + 1);
-          } else if (currentPartNum < 5) {
+          if (nextQ < totalInPart) {
+            setCurrentQIndex(nextQ);
+          } else if (pNum < 5) {
             // Next part
-            setCurrentPartNum((prev) => prev + 1);
+            setCurrentPartNum(pNum + 1);
             setCurrentQIndex(0);
           } else {
             // Whole Day Completed!
