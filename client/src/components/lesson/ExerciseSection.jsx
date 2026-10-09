@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   CheckCircle2,
   XCircle,
@@ -22,7 +22,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
   const [allExercisesDone, setAllExercisesDone] = useState(false);
 
   // Matching game state
-  const [matchingPairs, setMatchingPairs] = useState([]);
+  const [matchingPairs, setMatchingPairs] = useState({ leftItems: [], rightItems: [], correctMap: {} });
   const [selectedLeft, setSelectedLeft] = useState(null);
   const [selectedRight, setSelectedRight] = useState(null);
   const [matchedPairs, setMatchedPairs] = useState(new Set());
@@ -186,7 +186,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
   };
 
   const handleMatchingRightClick = (item) => {
-    if (Array.from(matchedPairs).some((p) => matchingPairs.correctMap[p] === item)) return;
+    if (Array.from(matchedPairs).some((p) => matchingPairs.correctMap && matchingPairs.correctMap[p] === item)) return;
     setSelectedRight(item);
 
     if (selectedLeft) {
@@ -195,7 +195,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
   };
 
   const checkMatching = (left, right) => {
-    if (matchingPairs.correctMap[left] === right) {
+    if (matchingPairs.correctMap && matchingPairs.correctMap[left] === right) {
       const nextSet = new Set(matchedPairs);
       nextSet.add(left);
       setMatchedPairs(nextSet);
@@ -322,6 +322,14 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
     }
   };
 
+  if (!current) {
+    return (
+      <div className="p-8 text-center bg-white rounded-3xl border border-slate-200">
+        <p className="text-slate-500 font-medium">Đang chuẩn bị câu hỏi bài tập...</p>
+      </div>
+    );
+  }
+
   const typeInfo = getTypeBadge(current.type);
 
   return (
@@ -380,7 +388,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
                 <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block px-1">
                   Cột A: Từ tiếng Anh
                 </span>
-                {matchingPairs.leftItems.map((item, idx) => {
+                {matchingPairs.leftItems && matchingPairs.leftItems.map((item, idx) => {
                   const isMatched = matchedPairs.has(item);
                   const isSelected = selectedLeft === item;
                   return (
@@ -411,9 +419,9 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
                 <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block px-1">
                   Cột B: Nghĩa tiếng Việt
                 </span>
-                {matchingPairs.rightItems.map((item, idx) => {
+                {matchingPairs.rightItems && matchingPairs.rightItems.map((item, idx) => {
                   const isMatched = Array.from(matchedPairs).some(
-                    (p) => matchingPairs.correctMap[p] === item
+                    (p) => matchingPairs.correctMap && matchingPairs.correctMap[p] === item
                   );
                   const isSelected = selectedRight === item;
                   return (

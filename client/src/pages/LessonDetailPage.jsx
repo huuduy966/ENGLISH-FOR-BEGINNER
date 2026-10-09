@@ -23,6 +23,7 @@ import GrammarSection from '../components/lesson/GrammarSection';
 import ListeningSection from '../components/lesson/ListeningSection';
 import ExerciseSection from '../components/lesson/ExerciseSection';
 import QuizSection from '../components/lesson/QuizSection';
+import ErrorBoundary from '../components/common/ErrorBoundary';
 
 export default function LessonDetailPage() {
   const { id } = useParams();
@@ -326,50 +327,52 @@ export default function LessonDetailPage() {
 
         {/* C. Right: Main Stage Area (Nội dung của bước đang học) */}
         <div className="lg:col-span-3 min-h-[500px]">
-          {activeTab === 'vocab' && (
-            <FlashcardSection
-              vocabularies={lesson.vocabularies}
-              onStepComplete={(complete) => handleMarkStepComplete('vocab')}
-            />
-          )}
-          {activeTab === 'pronounce' && (
-            <PronunciationSection
-              vocabularies={lesson.vocabularies}
-              onStepComplete={(complete) => handleMarkStepComplete('pronounce')}
-            />
-          )}
-          {activeTab === 'grammar' && (
-            <GrammarSection
-              grammarPoints={lesson.grammarPoints}
-              onStepComplete={(complete) => handleMarkStepComplete('grammar')}
-            />
-          )}
-          {activeTab === 'listen' && (
-            <ListeningSection
-              listenings={lesson.listenings}
-              onStepComplete={(complete) => handleMarkStepComplete('listen')}
-            />
-          )}
-          {activeTab === 'exercise' && (
-            <ExerciseSection
-              exercises={lesson.exercises}
-              onStepComplete={(complete) => handleMarkStepComplete('exercise')}
-            />
-          )}
-          {activeTab === 'quiz' && (
-            <QuizSection
-              lessonId={lesson.id}
-              quizzes={lesson.quizzes}
-              onQuizPassed={() => {
-                setLesson((prev) => ({
-                  ...prev,
-                  userProgress: { ...(prev.userProgress || {}), completed: true },
-                }));
-                setUnlockedStepIndex(6);
-                handleMarkStepComplete('quiz');
-              }}
-            />
-          )}
+          <ErrorBoundary>
+            {activeTab === 'vocab' && (
+              <FlashcardSection
+                vocabularies={lesson.vocabularies}
+                onStepComplete={(complete) => handleMarkStepComplete('vocab')}
+              />
+            )}
+            {activeTab === 'pronounce' && (
+              <PronunciationSection
+                vocabularies={lesson.vocabularies}
+                onStepComplete={(complete) => handleMarkStepComplete('pronounce')}
+              />
+            )}
+            {activeTab === 'grammar' && (
+              <GrammarSection
+                grammarPoints={lesson.grammarPoints}
+                onStepComplete={(complete) => handleMarkStepComplete('grammar')}
+              />
+            )}
+            {activeTab === 'listen' && (
+              <ListeningSection
+                listenings={lesson.listenings}
+                onStepComplete={(complete) => handleMarkStepComplete('listen')}
+              />
+            )}
+            {activeTab === 'exercise' && (
+              <ExerciseSection
+                exercises={lesson.exercises}
+                onStepComplete={(complete) => handleMarkStepComplete('exercise')}
+              />
+            )}
+            {activeTab === 'quiz' && (
+              <QuizSection
+                lessonId={lesson.id}
+                quizzes={lesson.quizzes}
+                onQuizPassed={() => {
+                  setLesson((prev) => ({
+                    ...prev,
+                    userProgress: { ...(prev.userProgress || {}), completed: true },
+                  }));
+                  setUnlockedStepIndex(6);
+                  handleMarkStepComplete('quiz');
+                }}
+              />
+            )}
+          </ErrorBoundary>
         </div>
       </div>
 
