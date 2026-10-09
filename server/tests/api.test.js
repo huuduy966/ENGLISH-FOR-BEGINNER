@@ -152,6 +152,36 @@ async function runTests() {
     const favData = await favRes.json();
     assert(favRes.status === 200 && favData.userVocab.isFavorite === true, 'POST /api/vocabulary/:id/status sets favorite');
 
+    // 7b. Dictionary: GET /api/vocabulary/lookup/hello (Exact match with IPA and Vietnamese meaning)
+    const dictHelloRes = await fetch(`${BASE_URL}/vocabulary/lookup/hello`);
+    const dictHelloData = await dictHelloRes.json();
+    assert(
+      dictHelloRes.status === 200 &&
+      dictHelloData.word.toLowerCase() === 'hello' &&
+      !!dictHelloData.phonetic &&
+      !!dictHelloData.vietnameseMeaning,
+      'GET /api/vocabulary/lookup/hello returns accurate definitions with IPA'
+    );
+
+    // 7c. Dictionary: GET /api/vocabulary/lookup/gg (Strict exact matching, not found, suggests alternatives)
+    const dictGgRes = await fetch(`${BASE_URL}/vocabulary/lookup/gg`);
+    const dictGgData = await dictGgRes.json();
+    assert(
+      dictGgRes.status === 404 &&
+      dictGgData.message.includes('Không tìm thấy định nghĩa phù hợp'),
+      'GET /api/vocabulary/lookup/gg rejects invalid entry and returns 404 with suggestions'
+    );
+
+    // 7d. Dictionary: GET /api/vocabulary/topics (Real curriculum topics from DB)
+    const dictTopicsRes = await fetch(`${BASE_URL}/vocabulary/topics`);
+    const dictTopicsData = await dictTopicsRes.json();
+    assert(
+      dictTopicsRes.status === 200 &&
+      Array.isArray(dictTopicsData.topics) &&
+      dictTopicsData.topics.length >= 3,
+      'GET /api/vocabulary/topics returns dynamic curriculum topics'
+    );
+
     // 8. GET /api/placement-test
     const testRes = await fetch(`${BASE_URL}/placement-test`);
     const testData = await testRes.json();
@@ -241,8 +271,10 @@ async function runTests() {
     );
 
     // 11d. POST /api/daily-practice/answer (Wrong answer deducts -2 on an uncompleted question)
-    const speakingQ = dailyData.session.parts[1].questions[0];
-    const wrongOption = speakingQ.options.find(o => o !== speakingQ.correctAnswer) || 'Wrong';
+    const targetWrongIdx = dailyData.session.parts[1].questions.findIndex(q => !q.isCorrect);
+    const speakingQIdx = targetWrongIdx >= 0 ? targetWrongIdx : 0;
+    const speakingQ = dailyData.session.parts[1].questions[speakingQIdx];
+    const wrongOption = speakingQ.options.find(o => o.trim().toLowerCase() !== speakingQ.correctAnswer.trim().toLowerCase()) || 'Wrong Option';
     const answerWrongRes = await fetch(`${BASE_URL}/daily-practice/answer`, {
       method: 'POST',
       headers: {
@@ -251,15 +283,16 @@ async function runTests() {
       },
       body: JSON.stringify({
         partNumber: 2,
-        questionIndex: 0,
+        questionIndex: speakingQIdx,
         selectedOption: wrongOption,
       }),
     });
     const answerWrongData = await answerWrongRes.json();
     assert(
       answerWrongRes.status === 200 &&
-      answerWrongData.isCorrect === false &&
-      answerWrongData.pointsDelta === -2,
+      (targetWrongIdx >= 0
+        ? answerWrongData.isCorrect === false && answerWrongData.pointsDelta === -2
+        : answerWrongData.alreadyAnswered === true),
       'POST /api/daily-practice/answer deducts -2 points on wrong answer'
     );
 

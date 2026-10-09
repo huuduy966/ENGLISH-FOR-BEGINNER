@@ -13,6 +13,10 @@ import {
   HelpCircle,
   ArrowLeftRight,
   GitFork,
+  X,
+  RotateCcw,
+  Sparkles,
+  Info,
 } from 'lucide-react';
 import { speakText } from '../utils/speech';
 import api from '../services/api';
@@ -24,23 +28,57 @@ export default function DictionaryPage() {
   const [loading, setLoading] = useState(false);
   const [savedSuccess, setSavedSuccess] = useState(false);
   const [error, setError] = useState('');
+  const [isNetworkError, setIsNetworkError] = useState(false);
   const [didYouMean, setDidYouMean] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
 
-  // Client-side instant cache
+  // Autocomplete suggestions while typing
+  const [typeSuggestions, setTypeSuggestions] = useState([]);
+  const [showTypeSuggestions, setShowTypeSuggestions] = useState(false);
+  const searchInputRef = useRef(null);
+  const suggestDebounceRef = useRef(null);
+  const suggestContainerRef = useRef(null);
+
+  // Client-side cache for sub-millisecond response
   const clientCache = useRef(new Map());
 
+  // Recent lookups from localStorage
   const [recentSearches, setRecentSearches] = useState(() => {
-    const saved = localStorage.getItem('e4b_recent_lookups');
-    return saved ? JSON.parse(saved) : [];
+    try {
+      const saved = localStorage.getItem('e4b_recent_lookups');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
   });
 
-  const topicSuggestions = [
-    { topic: 'Chào hỏi & Giao tiếp', words: ['hello', 'welcome', 'friend', 'meet'] },
-    { topic: 'Đời sống & Ẩm thực', words: ['coffee', 'bread', 'water', 'tea'] },
-    { topic: 'Cảm xúc & Tính từ', words: ['happy', 'tired', 'ready', 'beautiful'] },
-    { topic: 'Trường học & Nghề nghiệp', words: ['student', 'teacher', 'doctor'] },
-  ];
+  // Dynamic Topics from Database
+  const [topics, setTopics] = useState([]);
+
+  // Fetch dynamic topics on mount
+  useEffect(() => {
+    api.get('/vocabulary/topics')
+      .then((res) => {
+        if (res.data?.topics && Array.isArray(res.data.topics)) {
+          setTopics(res.data.topics);
+        }
+      })
+      .catch((err) => {
+        console.warn('Fetch topics error:', err.message);
+      });
+  }, []);
+
+  // Close type suggestions on click outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (suggestContainerRef.current && !suggestContainerRef.current.contains(e.target)) {
+        setShowTypeSuggestions(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   // Auto-search if query param present (e.g. /dictionary?q=apple)
   useEffect(() => {
@@ -51,16 +89,47 @@ export default function DictionaryPage() {
     }
   }, [searchParams]);
 
+  // Handle typing with 250ms debounce for autocomplete suggestions
+  const handleInputChange = (e) => {
+    const val = e.target.value;
+    setSearchTerm(val);
+
+    if (suggestDebounceRef.current) {
+      clearTimeout(suggestDebounceRef.current);
+    }
+
+    const trimmed = val.trim().toLowerCase();
+    if (trimmed.length < 2) {
+      setTypeSuggestions([]);
+      setShowTypeSuggestions(false);
+      return;
+    }
+
+    suggestDebounceRef.current = setTimeout(async () => {
+      try {
+        const res = await api.get(`/vocabulary/suggest?q=${encodeURIComponent(trimmed)}`);
+        if (res.data?.suggestions && Array.isArray(res.data.suggestions)) {
+          setTypeSuggestions(res.data.suggestions);
+          setShowTypeSuggestions(res.data.suggestions.length > 0);
+        }
+      } catch {
+        setTypeSuggestions([]);
+      }
+    }, 250);
+  };
+
   const doSearch = async (wordToSearch) => {
-    const term = wordToSearch.trim();
+    const term = (wordToSearch || '').trim();
     if (!term) return;
 
-    const cleanTerm = term.toLowerCase();
+    setShowTypeSuggestions(false);
+    const cleanTerm = term.toLowerCase().replace(/\s+/g, ' ');
 
     // 1. Check instant client cache (0ms)
     if (clientCache.current.has(cleanTerm)) {
       setResult(clientCache.current.get(cleanTerm));
       setError('');
+      setIsNetworkError(false);
       setDidYouMean(null);
       setSuggestions([]);
       setLoading(false);
@@ -69,6 +138,7 @@ export default function DictionaryPage() {
 
     setLoading(true);
     setError('');
+    setIsNetworkError(false);
     setDidYouMean(null);
     setSuggestions([]);
     setSavedSuccess(false);
@@ -78,41 +148,28 @@ export default function DictionaryPage() {
       setResult(res.data);
       clientCache.current.set(cleanTerm, res.data);
 
-      // Update recent searches
+      // Update recent searches in state & localStorage
       setRecentSearches((prev) => {
         const filtered = prev.filter((w) => w.toLowerCase() !== cleanTerm);
-        const updated = [cleanTerm, ...filtered].slice(0, 8);
-        localStorage.setItem('e4b_recent_lookups', JSON.stringify(updated));
+        const updated = [res.data.word || cleanTerm, ...filtered].slice(0, 10);
+        try {
+          localStorage.setItem('e4b_recent_lookups', JSON.stringify(updated));
+        } catch {
+          // ignore
+        }
         return updated;
       });
     } catch (err) {
       const errData = err.response?.data;
-      if (errData?.didYouMean || errData?.suggestions) {
-        setResult(null);
-        setError(errData.message || `Không tìm thấy từ "${term}".`);
+      setResult(null);
+
+      if (err.response?.status === 404 && errData) {
+        setError(errData.message || 'Không tìm thấy định nghĩa phù hợp cho từ này.');
         setDidYouMean(errData.didYouMean || null);
         setSuggestions(errData.suggestions || []);
       } else {
-        // Fallback: Query suggestions from Datamuse directly if backend offline
-        try {
-          const sugRes = await fetch(
-            `https://api.datamuse.com/words?sp=${encodeURIComponent(cleanTerm)}&max=6`
-          );
-          if (sugRes.ok) {
-            const list = await sugRes.json();
-            const words = list.map((i) => i.word).filter((w) => w.toLowerCase() !== cleanTerm);
-            setResult(null);
-            setError(`Không tìm thấy từ "${term}".`);
-            setDidYouMean(words[0] || null);
-            setSuggestions(words.slice(0, 5));
-          } else {
-            setResult(null);
-            setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
-          }
-        } catch {
-          setResult(null);
-          setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
-        }
+        setIsNetworkError(true);
+        setError('Không thể kết nối đến máy chủ từ điển. Vui lòng kiểm tra lại kết nối mạng.');
       }
     } finally {
       setLoading(false);
@@ -124,8 +181,29 @@ export default function DictionaryPage() {
     doSearch(searchTerm);
   };
 
+  const handleClearInput = () => {
+    setSearchTerm('');
+    setTypeSuggestions([]);
+    setShowTypeSuggestions(false);
+    searchInputRef.current?.focus();
+  };
+
   const handlePlayAudio = () => {
-    if (result?.word) {
+    if (!result?.word) return;
+
+    if (result.audioUrl) {
+      setIsPlayingAudio(true);
+      const audio = new Audio(result.audioUrl);
+      audio.onended = () => setIsPlayingAudio(false);
+      audio.onerror = () => {
+        setIsPlayingAudio(false);
+        speakText(result.word);
+      };
+      audio.play().catch(() => {
+        setIsPlayingAudio(false);
+        speakText(result.word);
+      });
+    } else {
       speakText(result.word);
     }
   };
@@ -135,7 +213,8 @@ export default function DictionaryPage() {
     try {
       const firstDef = result.meanings?.[0]?.definitions?.[0];
       const meaningText = result.vietnameseMeaning || firstDef?.definition || 'Từ vựng đã tra cứu';
-      const exampleText = firstDef?.example || '';
+      const exampleText = result.localExample || firstDef?.example || '';
+      const exampleMeaningText = result.localExampleMeaning || '';
 
       await api.post('/vocabulary/save-custom', {
         word: result.word,
@@ -143,15 +222,27 @@ export default function DictionaryPage() {
         pronunciation: result.phonetic || '',
         partOfSpeech: result.meanings?.[0]?.partOfSpeech || 'noun',
         example: exampleText,
-        exampleMeaning: '',
+        exampleMeaning: exampleMeaningText,
       });
 
       setSavedSuccess(true);
       setTimeout(() => setSavedSuccess(false), 3000);
-    } catch (err) {
+    } catch {
       setSavedSuccess(true);
       setTimeout(() => setSavedSuccess(false), 3000);
     }
+  };
+
+  // Color badges for Part of Speech
+  const getPosBadgeStyle = (pos = '') => {
+    const p = pos.toLowerCase();
+    if (p.includes('noun')) return 'bg-emerald-50 text-emerald-800 border-emerald-200';
+    if (p.includes('verb')) return 'bg-blue-50 text-blue-800 border-blue-200';
+    if (p.includes('adj')) return 'bg-purple-50 text-purple-800 border-purple-200';
+    if (p.includes('adv')) return 'bg-amber-50 text-amber-800 border-amber-200';
+    if (p.includes('interjection') || p.includes('exclamation')) return 'bg-rose-50 text-rose-800 border-rose-200';
+    if (p.includes('phrase') || p.includes('idiom')) return 'bg-teal-50 text-teal-800 border-teal-200';
+    return 'bg-slate-100 text-slate-800 border-slate-200';
   };
 
   return (
@@ -161,44 +252,91 @@ export default function DictionaryPage() {
         <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
           Tra cứu trực tuyến (Dictionary Hub)
         </span>
-        <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mt-2">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-2">
           Từ điển Anh - Việt & Anh - Anh
         </h1>
-        <p className="text-sm text-slate-500 mt-1">
-          Tra cứu nhanh phát âm chuẩn IPA, các tầng nghĩa chi tiết, câu ví dụ thực tế và gợi ý từ thông minh khi viết sai chính tả.
+        <p className="text-xs sm:text-sm text-slate-500 mt-1">
+          Hệ thống tra cứu chuẩn xác phiên âm IPA, giải nghĩa song ngữ Anh - Việt, phát âm bản ngữ và mạng lưới ngữ nghĩa WordNet.
         </p>
       </div>
 
-      {/* 2. Search Box Card Container */}
-      <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/80 shadow-sm space-y-3">
-        <form onSubmit={handleSearchSubmit} className="flex flex-col sm:flex-row gap-2.5 items-center">
-          <div className="relative flex-1 w-full">
-            <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" />
-            <input
-              type="text"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Nhập từ tiếng Anh cần tra (ví dụ: hello, student, coffee, extension)..."
-              className="w-full pl-11 pr-4 py-3 rounded-2xl border border-slate-200 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-600 focus:ring-4 focus:ring-blue-500/10 outline-none transition bg-slate-50/50 focus:bg-white"
-            />
-          </div>
-          <button
-            type="submit"
-            disabled={loading || !searchTerm.trim()}
-            className="w-full sm:w-auto px-7 py-3 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-md shadow-blue-500/20 active:scale-95 disabled:opacity-50 shrink-0 flex items-center justify-center gap-1.5"
-          >
-            {loading ? (
-              <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-            ) : (
-              <span>Tra từ</span>
-            )}
-          </button>
-        </form>
+      {/* 2. Search Box Card with Live Suggestions */}
+      <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/80 shadow-sm space-y-3 relative z-30">
+        <div ref={suggestContainerRef} className="relative w-full">
+          <form onSubmit={handleSearchSubmit} className="flex flex-col sm:flex-row gap-2.5 items-center">
+            <div className="relative flex-1 w-full">
+              <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <input
+                ref={searchInputRef}
+                type="text"
+                value={searchTerm}
+                onChange={handleInputChange}
+                onFocus={() => {
+                  if (typeSuggestions.length > 0) setShowTypeSuggestions(true);
+                }}
+                placeholder="Nhập từ tiếng Anh cần tra (ví dụ: hello, student, book, went, students)..."
+                className="w-full pl-11 pr-10 py-3 rounded-2xl border border-slate-200 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-600 focus:ring-4 focus:ring-blue-500/10 outline-none transition bg-slate-50/50 focus:bg-white"
+              />
+              {searchTerm && (
+                <button
+                  type="button"
+                  onClick={handleClearInput}
+                  className="absolute right-3.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-600 rounded-lg transition"
+                  title="Xóa nội dung"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              )}
+            </div>
+
+            <button
+              type="submit"
+              disabled={loading || !searchTerm.trim()}
+              className="w-full sm:w-auto px-7 py-3 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-md shadow-blue-500/20 active:scale-95 disabled:opacity-50 shrink-0 flex items-center justify-center gap-1.5"
+            >
+              {loading ? (
+                <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+              ) : (
+                <span>Tra từ</span>
+              )}
+            </button>
+          </form>
+
+          {/* Autocomplete Suggestions Dropdown */}
+          {showTypeSuggestions && typeSuggestions.length > 0 && (
+            <div className="absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden z-50 animate-fade-in">
+              <div className="p-2 border-b border-slate-100 flex items-center justify-between text-[11px] font-bold text-slate-400 px-3">
+                <span>Gợi ý tìm kiếm nhanh</span>
+                <span>Bấm để tra cứu</span>
+              </div>
+              <div className="max-h-56 overflow-y-auto divide-y divide-slate-50">
+                {typeSuggestions.map((sug, idx) => (
+                  <button
+                    key={idx}
+                    type="button"
+                    onClick={() => {
+                      setSearchTerm(sug);
+                      setShowTypeSuggestions(false);
+                      doSearch(sug);
+                    }}
+                    className="w-full px-4 py-2.5 text-left text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-600 flex items-center justify-between transition"
+                  >
+                    <span className="flex items-center gap-2">
+                      <Search className="w-3.5 h-3.5 text-slate-400" />
+                      <span>{sug}</span>
+                    </span>
+                    <ArrowRight className="w-3.5 h-3.5 text-slate-300" />
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
 
         {/* Popular chips */}
         <div className="flex flex-wrap items-center gap-1.5 pt-1 text-xs">
           <span className="font-semibold text-slate-400 mr-1">Gợi ý nhanh:</span>
-          {['hello', 'apple', 'student', 'coffee', 'extension', 'beautiful'].map((word) => (
+          {['hello', 'student', 'book', 'went', 'students', 'beautiful', 'light', 'right'].map((word) => (
             <button
               key={word}
               type="button"
@@ -214,31 +352,49 @@ export default function DictionaryPage() {
         </div>
       </div>
 
-      {/* 3. Spelling Suggestions Card (When Misspelled) */}
-      {error && (
+      {/* 3. Spelling Suggestions / Not Found Card */}
+      {error && !loading && (
         <div className="p-6 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-4 animate-fade-in">
           <div className="flex items-start gap-3">
-            <div className="p-2.5 rounded-2xl bg-amber-50 text-amber-600 shrink-0">
-              <HelpCircle className="w-5 h-5 text-amber-500" />
+            <div className={`p-2.5 rounded-2xl shrink-0 ${isNetworkError ? 'bg-rose-50 text-rose-600' : 'bg-amber-50 text-amber-600'}`}>
+              {isNetworkError ? <AlertCircle className="w-5 h-5" /> : <HelpCircle className="w-5 h-5" />}
             </div>
             <div>
               <p className="font-bold text-slate-900 text-base">
-                Không tìm thấy từ "{searchTerm}"
+                {error}
               </p>
-              {didYouMean ? (
+              {isNetworkError ? (
+                <p className="text-xs text-slate-500 mt-1">
+                  Máy chủ tra cứu tạm thời không phản hồi. Bạn vui lòng thử lại sau giây lát.
+                </p>
+              ) : didYouMean ? (
                 <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-                  Có thể bạn đã viết nhầm chính tả. Hệ thống phát hiện từ đúng phù hợp nhất dưới đây:
+                  Hệ thống không tìm thấy mục từ chính xác cho chuỗi này. Có thể bạn đã viết nhầm chính tả.
                 </p>
               ) : (
                 <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-                  Vui lòng kiểm tra lại chính tả hoặc thử các từ viết gần giống.
+                  Vui lòng kiểm tra lại chính tả hoặc thử tìm kiếm các từ ngữ tiếng Anh khác.
                 </p>
               )}
             </div>
           </div>
 
+          {/* Retry Button if Network Error */}
+          {isNetworkError && (
+            <div className="pt-2">
+              <button
+                type="button"
+                onClick={() => doSearch(searchTerm)}
+                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition flex items-center gap-1.5"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>Thử lại</span>
+              </button>
+            </div>
+          )}
+
           {/* Primary "Did You Mean?" High Priority Banner */}
-          {didYouMean && (
+          {!isNetworkError && didYouMean && (
             <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div>
                 <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700 block mb-0.5">
@@ -256,17 +412,17 @@ export default function DictionaryPage() {
                 }}
                 className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-sm flex items-center justify-center gap-1.5 self-start sm:self-auto"
               >
-                <span>Xem từ "{didYouMean}"</span>
+                <span>Tra từ "{didYouMean}"</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
             </div>
           )}
 
           {/* Alternative Similar Suggestions */}
-          {suggestions && suggestions.length > 0 && (
+          {!isNetworkError && suggestions && suggestions.length > 0 && (
             <div className="pt-2 border-t border-slate-100">
               <span className="text-xs font-semibold text-slate-500 block mb-2">
-                Các từ tương tự khác:
+                Các từ gợi ý có thể bạn muốn tra:
               </span>
               <div className="flex flex-wrap gap-2">
                 {suggestions.map((s, idx) => (
@@ -306,7 +462,7 @@ export default function DictionaryPage() {
               </p>
               <div className="pt-3 flex flex-wrap justify-center items-center gap-2">
                 <span className="text-xs font-semibold text-slate-400">Gợi ý thử:</span>
-                {['hello', 'coffee', 'student', 'family', 'extension'].map((w) => (
+                {['hello', 'coffee', 'student', 'family', 'travel'].map((w) => (
                   <button
                     key={w}
                     type="button"
@@ -323,8 +479,17 @@ export default function DictionaryPage() {
             </div>
           )}
 
+          {/* Loading State Spinner */}
+          {loading && (
+            <div className="bg-white rounded-3xl p-12 border border-slate-200/80 shadow-sm text-center space-y-3 animate-fade-in">
+              <div className="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto" />
+              <p className="text-slate-600 font-bold text-sm">Đang tra cứu từ điển Anh - Việt & Anh - Anh...</p>
+              <p className="text-xs text-slate-400">Đang truy vấn dữ liệu từ điển và mạng lưới ngữ nghĩa</p>
+            </div>
+          )}
+
           {/* Results Display */}
-          {result && !error && (
+          {result && !loading && !error && (
             <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6 animate-fade-in">
               {/* Word Header */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-6">
@@ -334,13 +499,23 @@ export default function DictionaryPage() {
                       {result.word}
                     </h2>
                     <span className="text-[11px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-0.5 rounded-full">
-                      Chuẩn IPA
+                      {result.phonetic ? 'Chuẩn IPA' : 'Từ vựng'}
                     </span>
                   </div>
 
-                  {result.phonetic && (
+                  {result.phonetic ? (
                     <p className="text-base font-mono text-blue-600 font-bold mt-1">
                       {result.phonetic}
+                    </p>
+                  ) : (
+                    <p className="text-xs text-slate-400 mt-1 italic">
+                      Chưa có dữ liệu phiên âm IPA
+                    </p>
+                  )}
+
+                  {result.source && (
+                    <p className="text-[10px] text-slate-400 mt-1">
+                      Nguồn: <span className="font-semibold text-slate-500">{result.source}</span>
                     </p>
                   )}
                 </div>
@@ -350,10 +525,14 @@ export default function DictionaryPage() {
                   <button
                     type="button"
                     onClick={handlePlayAudio}
-                    className="px-4 py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center gap-2 transition active:scale-95 shadow-sm"
+                    className={`px-4 py-2.5 rounded-xl font-bold text-xs flex items-center gap-2 transition active:scale-95 shadow-sm ${
+                      isPlayingAudio
+                        ? 'bg-amber-500 text-white shadow-amber-500/25 animate-pulse'
+                        : 'bg-blue-50 hover:bg-blue-100 text-blue-700'
+                    }`}
                   >
                     <Volume2 className="w-4 h-4 text-blue-600" />
-                    <span>Phát âm</span>
+                    <span>{isPlayingAudio ? 'Đang phát...' : 'Phát âm'}</span>
                   </button>
 
                   <button
@@ -376,20 +555,42 @@ export default function DictionaryPage() {
                 </div>
               </div>
 
-              {/* Vietnamese Meaning if available */}
-              {result.vietnameseMeaning && (
-                <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700 block mb-1">
-                    Nghĩa tiếng Việt đối chiếu:
-                  </span>
-                  <p className="text-lg font-extrabold text-blue-950">
+              {/* Vietnamese Meaning Box (Separated and Prominently Displayed) */}
+              {result.vietnameseMeaning ? (
+                <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blue-50/90 via-slate-50 to-indigo-50/90 border border-blue-200/80 shadow-2xs space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[11px] font-black uppercase tracking-wider text-blue-700 bg-blue-100/70 px-2.5 py-0.5 rounded-md inline-block">
+                      Nghĩa tiếng Việt đối chiếu
+                    </span>
+                    <span className="text-[10px] text-slate-400 font-medium">Bản dịch chính xác</span>
+                  </div>
+
+                  <p className="text-lg sm:text-xl font-black text-slate-900 leading-snug">
                     {result.vietnameseMeaning}
                   </p>
+
                   {result.localExample && (
-                    <p className="text-xs text-blue-800 mt-1 italic">
-                      "{result.localExample}"
-                    </p>
+                    <div className="pt-2 border-t border-blue-200/50 space-y-0.5">
+                      <p className="text-xs sm:text-sm font-semibold text-slate-800 italic">
+                        "{result.localExample}"
+                      </p>
+                      {result.localExampleMeaning && (
+                        <p className="text-xs text-slate-500">
+                          → {result.localExampleMeaning}
+                        </p>
+                      )}
+                    </div>
                   )}
+                </div>
+              ) : (
+                <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80 flex items-start gap-2.5 text-xs text-slate-600">
+                  <Info className="w-4 h-4 text-slate-400 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="font-bold text-slate-700">Chưa có bản dịch tiếng Việt</span>
+                    <p className="text-[11px] text-slate-400 mt-0.5">
+                      Đang hiển thị toàn bộ định nghĩa Anh - Anh chi tiết từ nguồn từ điển quốc tế bên dưới.
+                    </p>
+                  </div>
                 </div>
               )}
 
@@ -406,7 +607,7 @@ export default function DictionaryPage() {
                   >
                     {/* Part of Speech Tag */}
                     <div className="flex items-center gap-2">
-                      <span className="px-3 py-1 rounded-lg bg-slate-900 text-white font-extrabold text-xs uppercase tracking-wide">
+                      <span className={`px-3 py-1 rounded-lg font-extrabold text-xs uppercase tracking-wide border ${getPosBadgeStyle(meaning.partOfSpeech)}`}>
                         {meaning.partOfSpeech}
                       </span>
                       <div className="flex-1 h-px bg-slate-200" />
@@ -417,7 +618,7 @@ export default function DictionaryPage() {
                       {meaning.definitions && meaning.definitions.map((def, dIdx) => (
                         <div key={dIdx} className="text-xs text-slate-700 space-y-1">
                           <div className="flex items-start gap-2">
-                            <span className="font-bold text-blue-600 shrink-0">
+                            <span className="font-bold text-blue-600 shrink-0 mt-0.5">
                               {dIdx + 1}.
                             </span>
                             <p className="font-semibold text-slate-900 leading-relaxed text-sm">
@@ -426,9 +627,19 @@ export default function DictionaryPage() {
                           </div>
 
                           {def.example && (
-                            <p className="pl-5 text-slate-500 italic text-[11px]">
-                              "{def.example}"
-                            </p>
+                            <div className="pl-5 flex items-center gap-2">
+                              <p className="text-slate-600 italic text-xs">
+                                "{def.example}"
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => speakText(def.example)}
+                                className="p-1 text-slate-400 hover:text-blue-600 rounded transition"
+                                title="Nghe câu ví dụ"
+                              >
+                                <Volume2 className="w-3 h-3" />
+                              </button>
+                            </div>
                           )}
 
                           {/* Specific synonyms */}
@@ -550,7 +761,7 @@ export default function DictionaryPage() {
                     {result.wordnet.hypernyms && result.wordnet.hypernyms.length > 0 && (
                       <div className="p-3.5 rounded-2xl bg-purple-50/70 border border-purple-200/70 space-y-2">
                         <div className="flex items-center gap-1.5 font-bold text-purple-700 text-xs">
-                          <span>Thuộc nhóm (Hypernyms):</span>
+                          <span>Thuộc nhóm / Cấp trên (Hypernyms):</span>
                         </div>
                         <div className="flex flex-wrap gap-1.5">
                           {result.wordnet.hypernyms.map((hyp, hIdx) => (
@@ -574,7 +785,7 @@ export default function DictionaryPage() {
                     {result.wordnet.hyponyms && result.wordnet.hyponyms.length > 0 && (
                       <div className="p-3.5 rounded-2xl bg-emerald-50/70 border border-emerald-200/70 space-y-2">
                         <div className="flex items-center gap-1.5 font-bold text-emerald-700 text-xs">
-                          <span>Cụ thể hơn (Hyponyms):</span>
+                          <span>Cụ thể hơn / Cấp dưới (Hyponyms):</span>
                         </div>
                         <div className="flex flex-wrap gap-1.5">
                           {result.wordnet.hyponyms.map((spc, spIdx) => (
@@ -611,13 +822,18 @@ export default function DictionaryPage() {
                   Lịch sử vừa tra
                 </h3>
                 <button
+                  type="button"
                   onClick={() => {
                     setRecentSearches([]);
-                    localStorage.removeItem('e4b_recent_lookups');
+                    try {
+                      localStorage.removeItem('e4b_recent_lookups');
+                    } catch {
+                      // ignore
+                    }
                   }}
                   className="text-[11px] text-slate-400 hover:text-rose-500 font-medium transition"
                 >
-                  Xóa
+                  Xóa lịch sử
                 </button>
               </div>
 
@@ -643,29 +859,33 @@ export default function DictionaryPage() {
             </div>
           )}
 
-          {/* Grouped Topics Card */}
+          {/* Grouped Topics Card (Dynamically loaded from Database) */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200/80 shadow-sm space-y-4">
             <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
               <BookOpen className="w-4 h-4 text-emerald-600" />
-              Từ vựng theo chủ đề
+              Từ vựng theo chủ đề (Database)
             </h3>
 
-            <div className="space-y-3">
-              {topicSuggestions.map((group, gIdx) => (
+            <div className="space-y-3.5">
+              {topics.map((group, gIdx) => (
                 <div key={gIdx} className="text-xs">
                   <span className="font-bold text-slate-400 text-[11px] block mb-1">
                     {group.topic}
                   </span>
                   <div className="flex flex-wrap gap-1.5">
-                    {group.words.map((w, wIdx) => (
+                    {group.words.map((w) => (
                       <button
-                        key={wIdx}
+                        key={w}
                         type="button"
                         onClick={() => {
                           setSearchTerm(w);
                           doSearch(w);
                         }}
-                        className="px-2.5 py-1 rounded-lg bg-slate-50 hover:bg-blue-50 text-slate-700 hover:text-blue-600 border border-slate-200/80 transition"
+                        className={`px-2.5 py-1 rounded-xl text-xs font-medium border transition ${
+                          result?.word?.toLowerCase() === w.toLowerCase()
+                            ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                            : 'bg-slate-50 hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 border-slate-200 hover:border-emerald-300'
+                        }`}
                       >
                         {w}
                       </button>
@@ -674,24 +894,6 @@ export default function DictionaryPage() {
                 </div>
               ))}
             </div>
-          </div>
-
-          {/* Lộ trình bài học Shortcut */}
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-6 border border-blue-100 shadow-sm space-y-3">
-            <div className="flex items-center gap-2 text-blue-700 font-bold text-sm">
-              <BookOpen className="w-4 h-4" />
-              <span>Lộ trình 15 bài học</span>
-            </div>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              Áp dụng các từ vựng bạn vừa tra vào 15 bài học thực tế từ cơ bản đến nâng cao.
-            </p>
-            <Link
-              to="/lessons"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-sm"
-            >
-              <span>Xem danh sách bài học</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
           </div>
         </div>
       </div>

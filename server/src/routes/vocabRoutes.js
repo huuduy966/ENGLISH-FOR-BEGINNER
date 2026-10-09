@@ -4,6 +4,8 @@ const vocabController = require('../controllers/vocabController');
 const { verifyToken } = require('../middlewares/auth');
 
 router.get('/', verifyToken, vocabController.getVocabulary);
+router.get('/suggest', vocabController.suggestVocabulary);
+router.get('/topics', vocabController.getTopicVocabulary);
 router.get('/lookup/:word', vocabController.lookupDictionary);
 router.get('/wordnet/:word', vocabController.getWordNetRelations);
 router.post('/save-custom', verifyToken, vocabController.saveCustomVocabulary);

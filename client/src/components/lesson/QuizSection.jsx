@@ -326,19 +326,19 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
         </div>
       </div>
 
-      {/* Main Question Card */}
-      <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
+      {/* Main Question Card - Compact */}
+      <div className="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm space-y-4">
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
+          <span className="text-[10px] font-bold uppercase tracking-wider text-blue-600">
             Câu hỏi kiểm tra cuối bài
           </span>
-          <h3 className="text-lg sm:text-xl font-bold text-slate-900 mt-1 leading-relaxed">
+          <h3 className="text-base sm:text-lg font-bold text-slate-900 mt-0.5 leading-snug">
             {currentQ.question}
           </h3>
         </div>
 
         {/* Options */}
-        <div className="space-y-3">
+        <div className="space-y-2.5">
           {currentQ.options && currentQ.options.map((opt, idx) => {
             const isSelected = (activeFeedback?.selectedOption === opt) || (answers[currentQ.id] === opt);
             let optStyle = 'bg-white border-slate-200 hover:bg-slate-50 text-slate-800';
@@ -359,7 +359,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
                 type="button"
                 onClick={() => handleSelectOption(currentQ.id, opt)}
                 disabled={isAdvancing || activeFeedback?.isCorrect}
-                className={`w-full text-left p-4 rounded-2xl border text-xs sm:text-sm font-semibold transition flex items-center justify-between ${optStyle}`}
+                className={`w-full text-left p-3 rounded-xl border text-xs sm:text-sm font-semibold transition flex items-center justify-between ${optStyle}`}
               >
                 <span>{opt}</span>
                 <div
@@ -429,7 +429,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
                 onClick={handleNext}
                 className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-md shadow-blue-500/20 transition flex items-center gap-1.5"
               >
-                <span>Câu tiếp theo</span>
+                <span>Tiếp tục</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             ) : (

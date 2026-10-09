@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import {
   X,
   Volume2,
@@ -35,7 +36,6 @@ export default function DailyPracticeModal({
   const [currentQIndex, setCurrentQIndex] = useState(initialQuestionIndex);
   const [selectedOption, setSelectedOption] = useState(null);
   const [feedback, setFeedback] = useState(null);
-  const [isAdvancing, setIsAdvancing] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [isDayFinished, setIsDayFinished] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -50,7 +50,6 @@ export default function DailyPracticeModal({
       clearTimeout(autoAdvanceTimerRef.current);
       autoAdvanceTimerRef.current = null;
     }
-    setIsAdvancing(false);
   };
 
   useEffect(() => {
@@ -59,6 +58,17 @@ export default function DailyPracticeModal({
       window.speechSynthesis?.cancel();
     };
   }, []);
+
+  // Lock body scroll when modal is open
+  useEffect(() => {
+    if (isOpen) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [isOpen]);
 
   // Only initialize position on initial mount / open
   const initializedRef = useRef(false);
@@ -69,7 +79,8 @@ export default function DailyPracticeModal({
       setSession(sessionData);
       setCurrentPartNum(initialPartNumber || 1);
       setCurrentQIndex(initialQuestionIndex || 0);
-      setIsDayFinished(sessionData.completed || false);
+      const isDone = sessionData.completed || (sessionData.completedCount >= (sessionData.totalQuestions || 60) && sessionData.completedCount > 0);
+      setIsDayFinished(isDone);
     }
   }, [initialPartNumber, initialQuestionIndex, sessionData]);
 
@@ -77,7 +88,7 @@ export default function DailyPracticeModal({
   useEffect(() => {
     if (sessionData && initializedRef.current) {
       setSession(sessionData);
-      if (sessionData.completed) {
+      if (sessionData.completed || (sessionData.completedCount >= (sessionData.totalQuestions || 60) && sessionData.completedCount > 0)) {
         setIsDayFinished(true);
       }
     }
@@ -123,9 +134,26 @@ export default function DailyPracticeModal({
     }
   };
 
+  // Advance to next question
+  const handleNextQuestion = () => {
+    clearTimer();
+    const nextQ = currentQIndex + 1;
+    const totalInPart = currentPart?.questions?.length || 10;
+    const pNum = currentPartNum;
+
+    if (nextQ < totalInPart) {
+      setCurrentQIndex(nextQ);
+    } else if (pNum < 5) {
+      setCurrentPartNum(pNum + 1);
+      setCurrentQIndex(0);
+    } else {
+      setIsDayFinished(true);
+    }
+  };
+
   // Immediate Option Click Verification
   const handleSelectOption = async (option) => {
-    if (isAdvancing || submitting || feedback?.isCorrect) return;
+    if (submitting || feedback) return;
 
     setSelectedOption(option);
     setSubmitting(true);
@@ -162,41 +190,11 @@ export default function DailyPracticeModal({
         return next;
       });
 
-      if (isCorrect) {
-        setFeedback({
-          isCorrect: true,
-          pointsDelta: 4,
-          explanation: explanation || 'Chính xác!',
-        });
-
-        // 1.5s Auto-advance
-        setIsAdvancing(true);
-        const nextQ = currentQIndex + 1;
-        const totalInPart = currentPart?.questions?.length || 10;
-        const pNum = currentPartNum;
-
-        autoAdvanceTimerRef.current = setTimeout(() => {
-          setIsAdvancing(false);
-          // Advance question
-          if (nextQ < totalInPart) {
-            setCurrentQIndex(nextQ);
-          } else if (pNum < 5) {
-            // Next part
-            setCurrentPartNum(pNum + 1);
-            setCurrentQIndex(0);
-          } else {
-            // Whole Day Completed!
-            setIsDayFinished(true);
-          }
-        }, 1500);
-      } else {
-        // Wrong answer: -2 points, DO NOT advance, allow retry
-        setFeedback({
-          isCorrect: false,
-          pointsDelta: -2,
-          explanation: explanation || 'Chưa chính xác. Hãy đọc kỹ lại và chọn đáp án khác.',
-        });
-      }
+      setFeedback({
+        isCorrect,
+        pointsDelta: isCorrect ? 4 : -2,
+        explanation: explanation || (isCorrect ? 'Chính xác!' : 'Đáp án chính xác là: ' + currentQ.correctAnswer),
+      });
     } catch (err) {
       console.error('Answer submission error:', err);
       alert('Có lỗi khi kiểm tra đáp án. Vui lòng thử lại.');
@@ -221,63 +219,94 @@ export default function DailyPracticeModal({
   overallIndex += currentQIndex + 1;
 
   const progressPercent = Math.round((overallIndex / 60) * 100);
+  const isCompleted = isDayFinished || session?.completed || ((session?.completedCount || 0) >= (session?.totalQuestions || 60) && (session?.completedCount || 0) > 0);
 
-  return (
-    <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-md z-50 flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-fade-in">
-      <div className="bg-white rounded-3xl border border-slate-200 shadow-2xl w-full max-w-4xl my-auto overflow-hidden flex flex-col max-h-[92vh]">
-        {/* Modal Top Bar */}
-        <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between gap-3 bg-white sticky top-0 z-20">
-          <div className="flex items-center gap-2.5">
-            <div className={`p-2 rounded-xl border ${meta.color}`}>
-              <PartIcon className="w-4 h-4" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-black text-slate-800">
-                  Phần {currentPartNum}/5: {meta.name}
-                </span>
-                <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-100">
-                  {session.level}
-                </span>
-              </div>
-              <p className="text-[11px] text-slate-400 font-medium">
-                Câu {overallIndex} / 60 trong ngày (Câu {currentQIndex + 1} / {currentPart?.questions?.length || 10})
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-4">
-            <div className="text-right">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
-                Điểm hôm nay
-              </span>
-              <span className="text-sm sm:text-base font-black text-blue-600">
-                {session.score} điểm
-              </span>
-            </div>
-
+  const modalContent = (
+    <div
+      className="fixed inset-0 w-screen h-screen h-[100dvh] bg-slate-900/60 backdrop-blur-md z-[100] flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-fade-in"
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        margin: 0,
+        zIndex: 100,
+      }}
+    >
+      <div
+        className="relative bg-white rounded-3xl border border-slate-200 shadow-2xl w-full max-w-4xl my-auto overflow-hidden flex flex-col max-h-[92vh] z-[101]"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {isCompleted ? (
+          /* Clean close button when completed (hide question header & progress line entirely) */
+          <div className="absolute top-4 right-4 z-20">
             <button
               type="button"
               onClick={handleClose}
               className="p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition"
-              title="Thoát và lưu tiến độ"
+              title="Đóng cửa sổ"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
-        </div>
+        ) : (
+          <>
+            {/* Modal Top Bar */}
+            <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between gap-3 bg-white sticky top-0 z-20">
+              <div className="flex items-center gap-2.5">
+                <div className={`p-2 rounded-xl border ${meta.color}`}>
+                  <PartIcon className="w-4 h-4" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-black text-slate-800">
+                      Phần {currentPartNum}/5: {meta.name}
+                    </span>
+                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-100">
+                      {session.level}
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-400 font-medium">
+                    Câu {overallIndex} / 60 trong ngày (Câu {currentQIndex + 1} / {currentPart?.questions?.length || 10})
+                  </p>
+                </div>
+              </div>
 
-        {/* Global Progress Line */}
-        <div className="h-1.5 w-full bg-slate-100 overflow-hidden">
-          <div
-            className="h-full bg-blue-600 transition-all duration-300"
-            style={{ width: `${progressPercent}%` }}
-          />
-        </div>
+              <div className="flex items-center gap-4">
+                <div className="text-right">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Điểm hôm nay
+                  </span>
+                  <span className="text-sm sm:text-base font-black text-blue-600">
+                    {session.score} điểm
+                  </span>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={handleClose}
+                  className="p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition"
+                  title="Thoát và lưu tiến độ"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+
+            {/* Global Progress Line */}
+            <div className="h-1.5 w-full bg-slate-100 overflow-hidden">
+              <div
+                className="h-full bg-blue-600 transition-all duration-300"
+                style={{ width: `${progressPercent}%` }}
+              />
+            </div>
+          </>
+        )}
 
         {/* Modal Main Content Area */}
-        <div className="p-5 sm:p-8 overflow-y-auto flex-1 space-y-6">
-          {isDayFinished ? (
+        <div className={`p-5 sm:p-8 overflow-y-auto flex-1 space-y-6 ${isCompleted ? 'pt-12 sm:pt-14' : ''}`}>
+          {isCompleted ? (
             /* Day Completed Summary Screen */
             <div className="text-center py-8 space-y-6 max-w-lg mx-auto animate-fade-in">
               <div className="w-20 h-20 rounded-3xl bg-amber-100 text-amber-600 mx-auto flex items-center justify-center shadow-inner">
@@ -379,13 +408,16 @@ export default function DailyPracticeModal({
                 {currentQ.options &&
                   currentQ.options.map((opt, oIdx) => {
                     const isSelected = selectedOption === opt;
+                    const isCorrect = opt.trim().toLowerCase() === currentQ.correctAnswer?.trim().toLowerCase();
                     let style = 'bg-white border-slate-200 hover:border-blue-400 hover:bg-slate-50/80 text-slate-800';
 
                     if (feedback) {
-                      if (opt.trim().toLowerCase() === currentQ.correctAnswer.trim().toLowerCase()) {
-                        style = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-500/20';
+                      if (isCorrect) {
+                        style = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-500/25';
                       } else if (isSelected && !feedback.isCorrect) {
-                        style = 'bg-rose-50 border-rose-400 text-rose-950 ring-2 ring-rose-500/20 font-bold';
+                        style = 'bg-red-50 border-red-300 text-red-950 font-bold ring-2 ring-red-400/25';
+                      } else {
+                        style = 'bg-slate-50/60 border-slate-200 text-slate-400 opacity-60';
                       }
                     }
 
@@ -394,56 +426,72 @@ export default function DailyPracticeModal({
                         key={oIdx}
                         type="button"
                         onClick={() => handleSelectOption(opt)}
-                        disabled={isAdvancing || submitting || (feedback && feedback.isCorrect)}
+                        disabled={submitting || !!feedback}
                         className={`p-4 rounded-2xl border text-left text-xs sm:text-sm font-semibold transition-all flex items-center justify-between shadow-2xs ${style}`}
                       >
                         <div className="flex items-center gap-3">
-                          <span className="w-6 h-6 rounded-lg bg-slate-100 text-slate-600 font-bold text-xs flex items-center justify-center shrink-0">
+                          <span
+                            className={`w-6 h-6 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 ${
+                              feedback && isCorrect
+                                ? 'bg-emerald-200 text-emerald-800'
+                                : feedback && isSelected && !feedback.isCorrect
+                                ? 'bg-red-200 text-red-800'
+                                : 'bg-slate-100 text-slate-600'
+                            }`}
+                          >
                             {String.fromCharCode(65 + oIdx)}
                           </span>
                           <span>{opt}</span>
                         </div>
 
-                        {feedback && opt.trim().toLowerCase() === currentQ.correctAnswer.trim().toLowerCase() && (
+                        {feedback && isCorrect && (
                           <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
                         )}
                         {feedback && isSelected && !feedback.isCorrect && (
-                          <XCircle className="w-5 h-5 text-rose-500 shrink-0" />
+                          <XCircle className="w-5 h-5 text-red-500 shrink-0" />
                         )}
                       </button>
                     );
                   })}
               </div>
 
-              {/* Instant Feedback Banner */}
+              {/* Instant Feedback & "Tiếp tục" Banner */}
               {feedback && (
                 <div
-                  className={`p-4 rounded-2xl border text-xs sm:text-sm animate-fade-in flex items-start gap-3 ${
+                  className={`p-4 sm:p-5 rounded-2xl border text-xs sm:text-sm animate-fade-in flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
                     feedback.isCorrect
-                      ? 'bg-emerald-50/90 border-emerald-200 text-emerald-900'
-                      : 'bg-rose-50/90 border-rose-200 text-rose-900'
+                      ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
+                      : 'bg-red-50 border-red-200 text-red-900'
                   }`}
                 >
-                  {feedback.isCorrect ? (
-                    <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                  ) : (
-                    <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
-                  )}
-                  <div className="space-y-1 flex-1">
-                    <p className="font-black text-sm">
-                      {feedback.isCorrect
-                        ? '🎉 Chính xác! +4 điểm (Tự động chuyển câu sau 1,5s...)'
-                        : 'Chưa chính xác! -2 điểm'}
-                    </p>
-                    <p className="text-xs opacity-90 leading-relaxed">
-                      {feedback.explanation}
-                    </p>
-                    {!feedback.isCorrect && (
-                      <p className="text-[11px] font-bold text-rose-700 pt-0.5">
-                        👉 Hãy suy nghĩ lại và chọn một phương án khác bên trên.
-                      </p>
+                  <div className="flex items-start gap-3">
+                    {feedback.isCorrect ? (
+                      <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                    ) : (
+                      <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
                     )}
+                    <div className="space-y-1">
+                      <p className="font-black text-sm sm:text-base">
+                        {feedback.isCorrect ? '🎉 Chính xác! +4 điểm' : 'Chưa chính xác! -2 điểm'}
+                      </p>
+                      <p className="text-xs opacity-90 leading-relaxed">
+                        {feedback.explanation}
+                      </p>
+                    </div>
                   </div>
+
+                  <button
+                    type="button"
+                    onClick={handleNextQuestion}
+                    className={`px-6 py-3 rounded-xl font-extrabold text-xs sm:text-sm shadow-md transition flex items-center justify-center gap-2 shrink-0 active:scale-95 text-white ${
+                      feedback.isCorrect
+                        ? 'bg-emerald-600 hover:bg-emerald-700 shadow-emerald-600/25'
+                        : 'bg-red-600 hover:bg-red-700 shadow-red-600/25'
+                    }`}
+                  >
+                    <span>Tiếp tục</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
                 </div>
               )}
             </div>
@@ -452,4 +500,8 @@ export default function DailyPracticeModal({
       </div>
     </div>
   );
+
+  return typeof document !== 'undefined'
+    ? createPortal(modalContent, document.body)
+    : modalContent;
 }
