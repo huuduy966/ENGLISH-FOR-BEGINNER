@@ -5,8 +5,93 @@ async function getLessons(req, res) {
     const userId = req.user ? req.user.id : null;
     const isAdmin = req.user ? req.user.role === 'ADMIN' : false;
 
-    const lessons = await prisma.lesson.findMany({
-      orderBy: { orderNumber: 'asc' },
+    // Parse query params
+    const levelQuery = req.query.level;
+    const effectiveLevel = levelQuery && levelQuery !== 'All' ? levelQuery : (levelQuery === 'All' ? 'All' : (req.user?.level || 'A1'));
+    const categoryQuery = req.query.category;
+    const searchQuery = req.query.search ? req.query.search.trim() : null;
+    const statusQuery = req.query.status;
+    const page = Math.max(1, parseInt(req.query.page, 10) || 1);
+    const limit = Math.max(1, parseInt(req.query.limit, 10) || 12);
+
+    // 1. Fetch user progress to map completed orderNumbers per level
+    const userProgressList = userId
+      ? await prisma.userProgress.findMany({
+          where: { userId },
+          include: {
+            lesson: {
+              select: { id: true, level: true, orderNumber: true },
+            },
+          },
+        })
+      : [];
+
+    const userProgressMap = new Map();
+    const completedOrdersByLevel = {
+      A1: new Set(),
+      A2: new Set(),
+      B1: new Set(),
+      B2: new Set(),
+      C1: new Set(),
+      C2: new Set(),
+    };
+
+    userProgressList.forEach((up) => {
+      userProgressMap.set(up.lessonId, up);
+      if (up.completed && up.lesson) {
+        if (!completedOrdersByLevel[up.lesson.level]) {
+          completedOrdersByLevel[up.lesson.level] = new Set();
+        }
+        completedOrdersByLevel[up.lesson.level].add(up.lesson.orderNumber);
+      }
+    });
+
+    // 2. Build where filter for DB query
+    const where = {};
+    if (effectiveLevel !== 'All') {
+      where.level = effectiveLevel;
+    }
+    if (categoryQuery && categoryQuery !== 'All') {
+      where.category = categoryQuery;
+    }
+    if (searchQuery) {
+      where.OR = [
+        { title: { contains: searchQuery } },
+        { description: { contains: searchQuery } },
+      ];
+    }
+
+    // 3. Level-specific Categories & Level-specific KPI Stats
+    const levelStatsWhere = effectiveLevel !== 'All' ? { level: effectiveLevel } : {};
+
+    // Total lessons in current level
+    const totalInLevel = await prisma.lesson.count({ where: levelStatsWhere });
+
+    // Completed in current level
+    const completedInLevel = userProgressList.filter(
+      (up) => up.completed && up.lesson && (effectiveLevel === 'All' || up.lesson.level === effectiveLevel)
+    ).length;
+
+    // Learning in current level
+    const learningInLevel = userProgressList.filter(
+      (up) => !up.completed && up.progress > 0 && up.lesson && (effectiveLevel === 'All' || up.lesson.level === effectiveLevel)
+    ).length;
+
+    // Available categories in current level
+    const distinctCatRecords = await prisma.lesson.findMany({
+      where: levelStatsWhere,
+      select: { category: true },
+      distinct: ['category'],
+    });
+    const categories = distinctCatRecords.map((c) => c.category).sort();
+
+    // 4. Fetch lessons matching filters
+    const allMatchingLessons = await prisma.lesson.findMany({
+      where,
+      orderBy: [
+        { level: 'asc' },
+        { orderNumber: 'asc' },
+      ],
       include: {
         _count: {
           select: {
@@ -16,28 +101,21 @@ async function getLessons(req, res) {
             quizzes: true,
           },
         },
-        userProgress: userId ? {
-          where: { userId },
-          select: {
-            progress: true,
-            completed: true,
-            score: true,
-          },
-        } : false,
       },
     });
 
-    // Sequential progression logic: Lesson 1 is unlocked; Lesson N requires Lesson N-1 to be completed
-    let previousLessonCompleted = true;
-
-    const formatted = lessons.map((l, index) => {
-      const up = l.userProgress && l.userProgress[0];
+    // Format and calculate sequential lock status per level
+    let formatted = allMatchingLessons.map((l) => {
+      const up = userProgressMap.get(l.id);
       const isCompleted = up ? up.completed : false;
-      const isLocked = !isAdmin && !previousLessonCompleted && index > 0;
-      const isCurrentActive = !isCompleted && previousLessonCompleted;
 
-      // The next lesson in sequence will only be unlocked if this current lesson is completed
-      previousLessonCompleted = isCompleted;
+      // Independent Per-Level Sequential Progression:
+      // Lesson 1 of any level is never locked.
+      // Lesson N (N > 1) is unlocked if Lesson N - 1 in THAT SAME level is completed.
+      const levelSet = completedOrdersByLevel[l.level] || new Set();
+      const prevOrderCompleted = l.orderNumber === 1 || levelSet.has(l.orderNumber - 1);
+      const isLocked = !isAdmin && !prevOrderCompleted;
+      const isCurrentActive = !isCompleted && !isLocked;
 
       return {
         id: l.id,
@@ -56,7 +134,38 @@ async function getLessons(req, res) {
       };
     });
 
-    return res.json({ lessons: formatted });
+    // Filter by status if requested
+    if (statusQuery && statusQuery !== 'all') {
+      if (statusQuery === 'completed') {
+        formatted = formatted.filter((l) => l.completed);
+      } else if (statusQuery === 'learning') {
+        formatted = formatted.filter((l) => !l.completed && l.progress > 0);
+      } else if (statusQuery === 'not_started') {
+        formatted = formatted.filter((l) => !l.completed && l.progress === 0);
+      }
+    }
+
+    // 5. Pagination
+    const totalMatching = formatted.length;
+    const totalPages = Math.ceil(totalMatching / limit) || 1;
+    const startIndex = (page - 1) * limit;
+    const paginatedLessons = formatted.slice(startIndex, startIndex + limit);
+
+    return res.json({
+      lessons: paginatedLessons,
+      pagination: {
+        page,
+        limit,
+        total: totalMatching,
+        totalPages,
+      },
+      stats: {
+        totalInLevel,
+        completedInLevel,
+        learningInLevel,
+      },
+      categories,
+    });
   } catch (error) {
     console.error('getLessons error:', error);
     return res.status(500).json({ message: 'Không thể lấy danh sách bài học.' });
@@ -91,10 +200,10 @@ async function getLessonById(req, res) {
       return res.status(404).json({ message: 'Không tìm thấy bài học.' });
     }
 
-    // Check sequential progression lock for non-admin students
+    // Check sequential progression lock for non-admin students within the same level
     if (userId && req.user.role !== 'ADMIN' && lesson.orderNumber > 1) {
       const prevLesson = await prisma.lesson.findFirst({
-        where: { orderNumber: lesson.orderNumber - 1 },
+        where: { level: lesson.level, orderNumber: lesson.orderNumber - 1 },
       });
       if (prevLesson) {
         const prevProgress = await prisma.userProgress.findUnique({
@@ -102,11 +211,12 @@ async function getLessonById(req, res) {
         });
         if (!prevProgress || !prevProgress.completed) {
           return res.status(403).json({
-            message: `Bài học này đang bị khóa. Bạn cần hoàn thành Bài ${prevLesson.orderNumber}: "${prevLesson.title}" theo thứ tự trước.`,
+            message: `Bài học này đang bị khóa. Bạn cần hoàn thành Bài ${prevLesson.orderNumber}: "${prevLesson.title}" của cấp độ ${lesson.level} theo thứ tự trước.`,
             isLocked: true,
             requiredLessonId: prevLesson.id,
             requiredLessonTitle: prevLesson.title,
             requiredOrderNumber: prevLesson.orderNumber,
+            level: lesson.level,
           });
         }
       }
@@ -115,28 +225,28 @@ async function getLessonById(req, res) {
     // Parse JSON fields
     const formattedGrammar = lesson.grammarPoints.map((g) => ({
       ...g,
-      examples: g.examples ? JSON.parse(g.examples) : [],
+      examples: g.examples ? (typeof g.examples === 'string' ? JSON.parse(g.examples) : g.examples) : [],
     }));
 
     const formattedListening = lesson.listenings.map((l) => ({
       ...l,
-      questions: l.questions ? JSON.parse(l.questions) : [],
+      questions: l.questions ? (typeof l.questions === 'string' ? JSON.parse(l.questions) : l.questions) : [],
     }));
 
     const formattedConversations = lesson.conversations.map((c) => ({
       ...c,
-      dialogue: c.dialogue ? JSON.parse(c.dialogue) : [],
+      dialogue: c.dialogue ? (typeof c.dialogue === 'string' ? JSON.parse(c.dialogue) : c.dialogue) : [],
     }));
 
     const formattedExercises = lesson.exercises.map((e) => ({
       ...e,
-      options: e.options ? JSON.parse(e.options) : null,
+      options: e.options ? (typeof e.options === 'string' ? JSON.parse(e.options) : e.options) : null,
     }));
 
     const formattedQuizzes = lesson.quizzes.map((q) => ({
       id: q.id,
       question: q.question,
-      options: q.options ? JSON.parse(q.options) : [],
+      options: q.options ? (typeof q.options === 'string' ? JSON.parse(q.options) : q.options) : [],
       explanation: q.explanation,
     }));
 

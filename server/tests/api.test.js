@@ -55,6 +55,70 @@ async function runTests() {
     assert(lessonsRes.status === 200 && lessonsData.lessons.length >= 5, 'GET /api/lessons returns at least 5 lessons');
     const firstLessonId = lessonsData.lessons[0].id;
 
+    // 4b. Test CEFR Pagination & Level Filtering
+    const a1PagedRes = await fetch(`${BASE_URL}/lessons?level=A1&page=1&limit=12`, {
+      headers: { Authorization: `Bearer ${studentToken}` },
+    });
+    const a1PagedData = await a1PagedRes.json();
+    assert(
+      a1PagedRes.status === 200 &&
+      a1PagedData.lessons.length === 12 &&
+      a1PagedData.pagination.total === 30 &&
+      a1PagedData.pagination.totalPages === 3,
+      'GET /api/lessons?level=A1&page=1&limit=12 returns 12 lessons with 3 total pages'
+    );
+
+    // 4c. Test Independent Per-Level Sequential Locking: B1 Lesson 1 is unlocked even if student is A1
+    const b1Res = await fetch(`${BASE_URL}/lessons?level=B1&page=1&limit=12`, {
+      headers: { Authorization: `Bearer ${studentToken}` },
+    });
+    const b1Data = await b1Res.json();
+    assert(
+      b1Res.status === 200 &&
+      b1Data.lessons[0].orderNumber === 1 &&
+      b1Data.lessons[0].isLocked === false,
+      'B1 Lesson 1 is unlocked independently for student'
+    );
+
+    // 4d. Test In-Level Sequential Lock: In A1, Lesson 1 is completed -> Lesson 2 is unlocked -> Lesson 3 is locked
+    const a1Lessons = a1PagedData.lessons;
+    assert(
+      a1Lessons[0].completed === true &&
+      a1Lessons[1].isLocked === false &&
+      a1Lessons[2].isLocked === true,
+      'A1 progression: Lesson 1 completed, Lesson 2 unlocked, Lesson 3 locked'
+    );
+
+    // 4e. Test Category Filter
+    const catRes = await fetch(`${BASE_URL}/lessons?level=A1&category=Greetings`, {
+      headers: { Authorization: `Bearer ${studentToken}` },
+    });
+    const catData = await catRes.json();
+    assert(
+      catRes.status === 200 && catData.lessons.length >= 1 && catData.lessons.every(l => l.category === 'Greetings'),
+      'GET /api/lessons?level=A1&category=Greetings filters correctly by category'
+    );
+
+    // 4f. Test Search Filter
+    const searchRes = await fetch(`${BASE_URL}/lessons?level=A1&search=Introductions`, {
+      headers: { Authorization: `Bearer ${studentToken}` },
+    });
+    const searchData = await searchRes.json();
+    assert(
+      searchRes.status === 200 && searchData.lessons.some(l => l.title.includes('Introductions')),
+      'GET /api/lessons?level=A1&search=Introductions returns matching search results'
+    );
+
+    // 4g. Test Admin Access: Admin has all lessons unlocked
+    const adminLessonsRes = await fetch(`${BASE_URL}/lessons?level=A1&page=1&limit=12`, {
+      headers: { Authorization: `Bearer ${adminToken}` },
+    });
+    const adminLessonsData = await adminLessonsRes.json();
+    assert(
+      adminLessonsRes.status === 200 && adminLessonsData.lessons.every(l => l.isLocked === false),
+      'Admin has all lessons unlocked across level'
+    );
+
     // 5. GET /api/lessons/:id detail
     const lessonDetailRes = await fetch(`${BASE_URL}/lessons/${firstLessonId}`, {
       headers: { Authorization: `Bearer ${studentToken}` },
