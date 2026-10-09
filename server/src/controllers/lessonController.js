@@ -265,6 +265,7 @@ async function getLessonById(req, res) {
       id: q.id,
       question: q.question,
       options: q.options ? (typeof q.options === 'string' ? JSON.parse(q.options) : q.options) : [],
+      correctAnswer: q.correctAnswer,
       explanation: q.explanation,
     }));
 

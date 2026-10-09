@@ -16,15 +16,28 @@ import { speakText } from '../../utils/speech';
 import api from '../../services/api';
 import QuickDictionaryModal from '../common/QuickDictionaryModal';
 
-export default function FlashcardSection({ vocabularies = [] }) {
+export default function FlashcardSection({ vocabularies = [], onStepComplete }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [vocabs, setVocabs] = useState(vocabularies);
   const [dictModalOpen, setDictModalOpen] = useState(false);
+  const [viewedIndices, setViewedIndices] = useState(new Set([0]));
 
   useEffect(() => {
     setVocabs(vocabularies);
   }, [vocabularies]);
+
+  // Track viewed words to gate step completion
+  useEffect(() => {
+    setViewedIndices((prev) => {
+      const next = new Set(prev);
+      next.add(currentIndex);
+      if (next.size >= vocabs.length && onStepComplete) {
+        onStepComplete(true);
+      }
+      return next;
+    });
+  }, [currentIndex, vocabs.length, onStepComplete]);
 
   // Keyboard navigation support (ArrowLeft, ArrowRight, Space to flip)
   useEffect(() => {
@@ -131,6 +144,14 @@ export default function FlashcardSection({ vocabularies = [] }) {
           <span className="text-slate-300">•</span>
           <span className="text-[11px] font-bold text-blue-600 bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-100">
             {current.category || 'General'}
+          </span>
+          <span className="text-slate-300">•</span>
+          <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${
+            viewedIndices.size >= vocabs.length
+              ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+              : 'bg-slate-100 text-slate-600'
+          }`}>
+            Đã xem {viewedIndices.size} / {vocabs.length} từ
           </span>
         </div>
 

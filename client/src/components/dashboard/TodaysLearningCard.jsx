@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BookOpen, Headphones, MessageSquare, Play, Clock, FileText } from 'lucide-react';
+import { BookOpen, Headphones, Award, Play, Clock, FileText } from 'lucide-react';
 
 export default function TodaysLearningCard({ packageData }) {
   const navigate = useNavigate();
@@ -68,10 +68,10 @@ export default function TodaysLearningCard({ packageData }) {
 
           <div className="p-2.5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
             <div className="flex items-center gap-1.5 mb-0.5">
-              <MessageSquare className="w-3.5 h-3.5 text-rose-300" />
-              <span className="text-[11px] text-blue-100 font-medium">Hội thoại</span>
+              <Award className="w-3.5 h-3.5 text-rose-300" />
+              <span className="text-[11px] text-blue-100 font-medium">Thực hành</span>
             </div>
-            <p className="text-xs sm:text-sm font-bold truncate">1 tình huống</p>
+            <p className="text-xs sm:text-sm font-bold truncate">Bài tập & Quiz</p>
           </div>
         </div>
 

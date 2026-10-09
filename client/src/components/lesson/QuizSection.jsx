@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   Award,
   CheckCircle2,
@@ -18,9 +18,25 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
   const { updateUser, user } = useAuth();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
+  const [questionFeedback, setQuestionFeedback] = useState({}); // { [qId]: { isCorrect, selectedOption } }
+  const [isAdvancing, setIsAdvancing] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [quizResult, setQuizResult] = useState(null);
   const [filterWrongOnly, setFilterWrongOnly] = useState(false);
+
+  const autoAdvanceTimerRef = useRef(null);
+
+  const clearAutoAdvanceTimer = () => {
+    if (autoAdvanceTimerRef.current) {
+      clearTimeout(autoAdvanceTimerRef.current);
+      autoAdvanceTimerRef.current = null;
+    }
+    setIsAdvancing(false);
+  };
+
+  useEffect(() => {
+    return () => clearAutoAdvanceTimer();
+  }, []);
 
   if (!quizzes || quizzes.length === 0) {
     return (
@@ -34,26 +50,12 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
   const answeredCount = Object.keys(answers).length;
   const progressPercent = Math.round((answeredCount / quizzes.length) * 100);
 
-  const handleSelectOption = (qId, option) => {
-    setAnswers((prev) => ({ ...prev, [qId]: option }));
-  };
-
-  const handleNext = () => {
-    if (currentIndex < quizzes.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-    }
-  };
-
-  const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
-    }
-  };
-
-  const handleSubmitQuiz = async () => {
+  // Submit all collected answers to backend
+  const handleSubmitQuiz = async (latestAnswers = answers) => {
     setSubmitting(true);
+    clearAutoAdvanceTimer();
     try {
-      const res = await api.post(`/quiz/${lessonId}/submit`, { answers });
+      const res = await api.post(`/quiz/${lessonId}/submit`, { answers: latestAnswers });
       setQuizResult(res.data);
       if (res.data.passed) {
         if (onQuizPassed) onQuizPassed();
@@ -65,6 +67,56 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
       alert('Có lỗi khi nộp bài quiz. Vui lòng thử lại.');
     } finally {
       setSubmitting(false);
+    }
+  };
+
+  // Option selection with strict 1.5s Auto-Advance
+  const handleSelectOption = (qId, option) => {
+    if (isAdvancing || questionFeedback[qId]?.isCorrect) return;
+
+    const correctAns = currentQ.correctAnswer || '';
+    const isMatch = option.trim().toLowerCase() === correctAns.trim().toLowerCase();
+
+    const updatedAnswers = { ...answers, [qId]: option };
+    setAnswers(updatedAnswers);
+
+    if (isMatch) {
+      setQuestionFeedback((prev) => ({
+        ...prev,
+        [qId]: { isCorrect: true, selectedOption: option },
+      }));
+
+      // Trigger 1.5s Auto-Advance
+      setIsAdvancing(true);
+      autoAdvanceTimerRef.current = setTimeout(() => {
+        setIsAdvancing(false);
+        if (currentIndex < quizzes.length - 1) {
+          setCurrentIndex((prev) => prev + 1);
+        } else {
+          // Last quiz question answered correctly -> submit automatically!
+          handleSubmitQuiz(updatedAnswers);
+        }
+      }, 1500);
+    } else {
+      // Wrong answer: DO NOT auto-advance. Highlight red, allow retry!
+      setQuestionFeedback((prev) => ({
+        ...prev,
+        [qId]: { isCorrect: false, selectedOption: option },
+      }));
+    }
+  };
+
+  const handleNext = () => {
+    clearAutoAdvanceTimer();
+    if (currentIndex < quizzes.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    clearAutoAdvanceTimer();
+    if (currentIndex > 0) {
+      setCurrentIndex((prev) => prev - 1);
     }
   };
 
@@ -86,7 +138,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
 
           <div>
             <h3 className="text-2xl sm:text-3xl font-black text-slate-900">
-              {quizResult.passed ? '🎉 Hoàn thành xuất sắc bài học!' : 'Chưa đạt điểm qua môn'}
+              {quizResult.passed ? '🎉 Hoàn thành xuất sắc bài học!' : 'Chưa đạt 80% điểm qua môn'}
             </h3>
             <p className="text-sm text-slate-600 mt-2 max-w-lg mx-auto leading-relaxed">
               {quizResult.message}
@@ -195,6 +247,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
               onClick={() => {
                 setQuizResult(null);
                 setAnswers({});
+                setQuestionFeedback({});
                 setCurrentIndex(0);
                 setFilterWrongOnly(false);
               }}
@@ -209,7 +262,9 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
     );
   }
 
-  // Quiz Taking Screen
+  // Quiz Taking Screen with 1.5s Auto-Advance
+  const activeFeedback = questionFeedback[currentQ.id];
+
   return (
     <div className="w-full space-y-6 animate-fade-in">
       {/* Top Header Card */}
@@ -221,7 +276,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
             </span>
             <span className="text-slate-300">•</span>
             <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200">
-              Cần đạt tối thiểu 70%
+              Ngưỡng đạt tối thiểu 80%
             </span>
           </div>
 
@@ -242,18 +297,25 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
         <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar pt-1">
           {quizzes.map((q, idx) => {
             const isCurrent = idx === currentIndex;
-            const isAnswered = !!answers[q.id];
+            const qFb = questionFeedback[q.id];
 
             return (
               <button
                 key={q.id || idx}
                 type="button"
-                onClick={() => setCurrentIndex(idx)}
+                onClick={() => {
+                  clearAutoAdvanceTimer();
+                  setCurrentIndex(idx);
+                }}
                 className={`w-7 h-7 rounded-lg text-[11px] font-bold transition flex items-center justify-center shrink-0 ${
                   isCurrent
                     ? 'bg-blue-600 text-white shadow-xs'
-                    : isAnswered
+                    : qFb?.isCorrect
                     ? 'bg-emerald-100 text-emerald-800 font-extrabold'
+                    : qFb && !qFb.isCorrect
+                    ? 'bg-rose-100 text-rose-800'
+                    : answers[q.id]
+                    ? 'bg-blue-100 text-blue-800'
                     : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
                 }`}
               >
@@ -268,7 +330,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
       <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
         <div>
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
-            Câu hỏi trắc nghiệm
+            Câu hỏi kiểm tra cuối bài
           </span>
           <h3 className="text-lg sm:text-xl font-bold text-slate-900 mt-1 leading-relaxed">
             {currentQ.question}
@@ -278,32 +340,76 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
         {/* Options */}
         <div className="space-y-3">
           {currentQ.options && currentQ.options.map((opt, idx) => {
-            const isSelected = answers[currentQ.id] === opt;
+            const isSelected = (activeFeedback?.selectedOption === opt) || (answers[currentQ.id] === opt);
+            let optStyle = 'bg-white border-slate-200 hover:bg-slate-50 text-slate-800';
+
+            if (activeFeedback) {
+              if (activeFeedback.isCorrect && opt === activeFeedback.selectedOption) {
+                optStyle = 'bg-emerald-50 border-emerald-500 text-emerald-900 font-bold ring-2 ring-emerald-500/20';
+              } else if (!activeFeedback.isCorrect && isSelected) {
+                optStyle = 'bg-rose-50 border-rose-400 text-rose-900 ring-2 ring-rose-500/20 font-bold';
+              }
+            } else if (isSelected) {
+              optStyle = 'bg-blue-50/90 border-blue-600 text-blue-900 font-bold ring-2 ring-blue-500/20';
+            }
+
             return (
               <button
                 key={idx}
                 type="button"
                 onClick={() => handleSelectOption(currentQ.id, opt)}
-                className={`w-full text-left p-4 rounded-2xl border text-xs sm:text-sm font-semibold transition flex items-center justify-between ${
-                  isSelected
-                    ? 'bg-blue-50/90 border-blue-600 text-blue-900 ring-2 ring-blue-500/20 shadow-xs'
-                    : 'bg-white border-slate-200 hover:bg-slate-50 text-slate-800 hover:border-slate-300'
-                }`}
+                disabled={isAdvancing || activeFeedback?.isCorrect}
+                className={`w-full text-left p-4 rounded-2xl border text-xs sm:text-sm font-semibold transition flex items-center justify-between ${optStyle}`}
               >
                 <span>{opt}</span>
                 <div
                   className={`w-5 h-5 rounded-full border flex items-center justify-center shrink-0 transition ${
-                    isSelected
+                    activeFeedback?.isCorrect && opt === activeFeedback.selectedOption
+                      ? 'border-emerald-600 bg-emerald-600 text-white'
+                      : !activeFeedback?.isCorrect && isSelected
+                      ? 'border-rose-500 bg-rose-500 text-white'
+                      : isSelected
                       ? 'border-blue-600 bg-blue-600 text-white'
                       : 'border-slate-300 bg-transparent'
                   }`}
                 >
-                  {isSelected && <Check className="w-3.5 h-3.5 stroke-[3]" />}
+                  {activeFeedback?.isCorrect && opt === activeFeedback.selectedOption ? (
+                    <Check className="w-3.5 h-3.5 stroke-[3]" />
+                  ) : !activeFeedback?.isCorrect && isSelected ? (
+                    <XCircle className="w-3.5 h-3.5" />
+                  ) : isSelected ? (
+                    <Check className="w-3.5 h-3.5 stroke-[3]" />
+                  ) : null}
                 </div>
               </button>
             );
           })}
         </div>
+
+        {/* 1.5s Auto-advance feedback banner */}
+        {activeFeedback && (
+          <div
+            className={`p-4 rounded-xl border text-xs animate-fade-in space-y-1 ${
+              activeFeedback.isCorrect
+                ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
+                : 'bg-rose-50 border-rose-200 text-rose-900'
+            }`}
+          >
+            <p className="font-bold flex items-center gap-1.5 text-xs sm:text-sm">
+              {activeFeedback.isCorrect ? (
+                <>
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                  <span>🎉 Chính xác! Đang tự động chuyển câu tiếp theo sau 1,5 giây...</span>
+                </>
+              ) : (
+                <>
+                  <XCircle className="w-4 h-4 text-rose-500" />
+                  <span>Chưa chính xác. Bạn hãy bấm chọn lại phương án đúng.</span>
+                </>
+              )}
+            </p>
+          </div>
+        )}
 
         {/* Bottom Actions Bar */}
         <div className="flex items-center justify-between gap-3 pt-4 border-t border-slate-100">
@@ -329,7 +435,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
             ) : (
               <button
                 type="button"
-                onClick={handleSubmitQuiz}
+                onClick={() => handleSubmitQuiz(answers)}
                 disabled={submitting || answeredCount === 0}
                 className="px-7 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md shadow-emerald-500/25 transition disabled:opacity-50 flex items-center gap-1.5 active:scale-95"
               >

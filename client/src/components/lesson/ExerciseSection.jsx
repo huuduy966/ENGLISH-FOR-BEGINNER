@@ -13,11 +13,13 @@ import {
 } from 'lucide-react';
 import { speakText } from '../../utils/speech';
 
-export default function ExerciseSection({ exercises = [] }) {
+export default function ExerciseSection({ exercises = [], onStepComplete }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({});
   const [showFeedback, setShowFeedback] = useState({});
   const [arrangedWords, setArrangedWords] = useState([]);
+  const [isAdvancing, setIsAdvancing] = useState(false);
+  const [allExercisesDone, setAllExercisesDone] = useState(false);
 
   // Matching game state
   const [matchingPairs, setMatchingPairs] = useState([]);
@@ -29,8 +31,23 @@ export default function ExerciseSection({ exercises = [] }) {
   // Score counter
   const [correctCount, setCorrectCount] = useState(0);
 
+  const autoAdvanceTimerRef = useRef(null);
+
+  const clearAutoAdvanceTimer = () => {
+    if (autoAdvanceTimerRef.current) {
+      clearTimeout(autoAdvanceTimerRef.current);
+      autoAdvanceTimerRef.current = null;
+    }
+    setIsAdvancing(false);
+  };
+
+  useEffect(() => {
+    return () => clearAutoAdvanceTimer();
+  }, []);
+
   useEffect(() => {
     // Reset state on step / exercises change
+    clearAutoAdvanceTimer();
     setCurrentIndex(0);
     setUserAnswers({});
     setShowFeedback({});
@@ -39,6 +56,7 @@ export default function ExerciseSection({ exercises = [] }) {
     setSelectedLeft(null);
     setSelectedRight(null);
     setCorrectCount(0);
+    setAllExercisesDone(false);
   }, [exercises]);
 
   const current = exercises[currentIndex];
@@ -85,6 +103,40 @@ export default function ExerciseSection({ exercises = [] }) {
     return (
       <div className="p-8 text-center bg-white rounded-3xl border border-slate-200">
         <p className="text-slate-500 font-medium">Chưa có bài tập cho bài học này.</p>
+      </div>
+    );
+  }
+
+  if (allExercisesDone) {
+    return (
+      <div className="bg-white rounded-3xl p-8 sm:p-10 border border-slate-200 shadow-sm text-center space-y-5 animate-fade-in">
+        <div className="w-16 h-16 mx-auto rounded-3xl bg-emerald-100 text-emerald-600 flex items-center justify-center shadow-xs">
+          <CheckCircle2 className="w-8 h-8" />
+        </div>
+        <div>
+          <h3 className="text-2xl font-black text-slate-900">
+            Hoàn thành toàn bộ Bài tập!
+          </h3>
+          <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-md mx-auto">
+            Bạn đã vượt qua tất cả các bài tập tương tác ({exercises.length} câu) với {correctCount} câu trả lời đúng.
+          </p>
+        </div>
+        <div className="pt-2 flex justify-center gap-3">
+          <button
+            type="button"
+            onClick={() => {
+              setAllExercisesDone(false);
+              setCurrentIndex(0);
+              setUserAnswers({});
+              setShowFeedback({});
+              setCorrectCount(0);
+            }}
+            className="px-5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition inline-flex items-center gap-1.5"
+          >
+            <RotateCcw className="w-3.5 h-3.5" />
+            <span>Làm lại phần bài tập</span>
+          </button>
+        </div>
       </div>
     );
   }
@@ -160,6 +212,18 @@ export default function ExerciseSection({ exercises = [] }) {
             explanation: current.explanation || 'Xuất sắc! Bạn đã nối chính xác tất cả các cặp từ.',
           },
         }));
+
+        // 1.5s Auto-advance
+        setIsAdvancing(true);
+        autoAdvanceTimerRef.current = setTimeout(() => {
+          setIsAdvancing(false);
+          if (currentIndex < exercises.length - 1) {
+            handleNext();
+          } else {
+            setAllExercisesDone(true);
+            if (onStepComplete) onStepComplete(true);
+          }
+        }, 1500);
       }
     } else {
       // Wrong match animation
@@ -174,6 +238,7 @@ export default function ExerciseSection({ exercises = [] }) {
 
   // Check Answer for non-matching questions
   const handleCheckAnswer = () => {
+    if (isAdvancing) return;
     const ans = (userAnswers[currentIndex] || '').trim().toLowerCase();
     const correct = current.correctAnswer.trim().toLowerCase();
 
@@ -189,6 +254,19 @@ export default function ExerciseSection({ exercises = [] }) {
         explanation: current.explanation || `Đáp án chính xác là: "${current.correctAnswer}".`,
       },
     }));
+
+    if (isMatch) {
+      setIsAdvancing(true);
+      autoAdvanceTimerRef.current = setTimeout(() => {
+        setIsAdvancing(false);
+        if (currentIndex < exercises.length - 1) {
+          handleNext();
+        } else {
+          setAllExercisesDone(true);
+          if (onStepComplete) onStepComplete(true);
+        }
+      }, 1500);
+    }
   };
 
   const handleNext = () => {
