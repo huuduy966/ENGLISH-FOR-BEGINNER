@@ -54,7 +54,7 @@ export default function LessonDetailPage() {
   // Standardized 7 Steps Roadmap (Conversation step completely removed, Reading added)
   const tabs = [
     { id: 'vocab', stepNum: 1, title: 'Từ vựng', label: '1. Từ vựng', icon: BookOpen },
-    { id: 'pronounce', stepNum: 2, title: 'Phát âm', label: '2. Phát âm', icon: Mic },
+    { id: 'pronounce', stepNum: 2, title: 'Thu âm từ vựng', label: '2. Thu âm từ vựng', icon: Mic },
     { id: 'grammar', stepNum: 3, title: 'Ngữ pháp', label: '3. Ngữ pháp', icon: Sparkles },
     { id: 'listen', stepNum: 4, title: 'Luyện nghe', label: '4. Luyện nghe', icon: Headphones },
     { id: 'reading', stepNum: 5, title: 'Đọc hiểu', label: '5. Đọc hiểu', icon: BookMarked },

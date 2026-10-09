@@ -4,29 +4,31 @@ import {
   CheckCircle2,
   XCircle,
   Sparkles,
-  HelpCircle,
   Lightbulb,
   ArrowRight,
   RotateCcw,
-  Check,
   Mic,
+  MicOff,
+  AlertCircle,
+  Award,
 } from 'lucide-react';
 import { speakText, createSpeechRecognizer } from '../../utils/speech';
 
 export default function PronunciationSection({ vocabularies = [], onStepComplete }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [feedback, setFeedback] = useState(null); // { isCorrect: boolean, explanation: string }
-  const [isAdvancing, setIsAdvancing] = useState(false);
   const [completedWordIds, setCompletedWordIds] = useState(new Set());
   const [allDone, setAllDone] = useState(false);
 
-  // Speech Recognition optional support
+  // Speech Recognition state
   const [isRecording, setIsRecording] = useState(false);
+  const [speechTranscript, setSpeechTranscript] = useState('');
   const [speechScore, setSpeechScore] = useState(null);
-  const [speechText, setSpeechText] = useState('');
+  const [speechFeedback, setSpeechFeedback] = useState(null);
+  const [isAdvancing, setIsAdvancing] = useState(false);
+  const [micError, setMicError] = useState(null);
 
   const autoAdvanceTimerRef = useRef(null);
+  const recognizerRef = useRef(null);
 
   const clearAutoAdvanceTimer = () => {
     if (autoAdvanceTimerRef.current) {
@@ -37,126 +39,136 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
   };
 
   useEffect(() => {
-    return () => clearAutoAdvanceTimer();
+    return () => {
+      clearAutoAdvanceTimer();
+      window.speechSynthesis?.cancel();
+      if (recognizerRef.current && recognizerRef.current.stop) {
+        recognizerRef.current.stop();
+      }
+    };
   }, []);
 
-  // Reset question state when index changes
+  // Reset state when moving to a new word
   useEffect(() => {
     clearAutoAdvanceTimer();
-    setSelectedOption(null);
-    setFeedback(null);
+    setIsRecording(false);
+    setSpeechTranscript('');
     setSpeechScore(null);
-    setSpeechText('');
+    setSpeechFeedback(null);
+    setMicError(null);
   }, [currentIndex]);
 
   if (!vocabularies || vocabularies.length === 0) {
     return (
       <div className="p-8 text-center bg-white rounded-3xl border border-slate-200">
-        <p className="text-slate-500 font-medium">Chưa có bài luyện phát âm cho bài học này.</p>
+        <p className="text-slate-500 font-medium">Chưa có danh sách từ vựng cho bài học này.</p>
       </div>
     );
   }
 
   const currentWord = vocabularies[currentIndex] || vocabularies[0];
+  // Ensure IPA string has format /.../
+  const rawIpa = currentWord.pronunciation || `/${currentWord.word.toLowerCase()}/`;
+  const formattedIpa = rawIpa.startsWith('/') && rawIpa.endsWith('/') ? rawIpa : `/${rawIpa}/`;
 
-  // Generate Vietnamese phonetic guide
-  const getPhoneticGuide = (word, ipa) => {
-    return `Khi phát âm "${word}" (${ipa}), chú ý mở khẩu hình tự nhiên, bật hơi rõ âm đầu và nhấn đúng trọng âm vào âm tiết chính.`;
-  };
-
-  // Generate 4 phonetic options for recognition exercise
-  const generatePhoneticOptions = () => {
-    const correctIPA = currentWord.pronunciation || `/${currentWord.word.toLowerCase()}/`;
-    const otherWords = vocabularies.filter((v) => v.id !== currentWord.id);
-    const distractor1 = otherWords[0]?.pronunciation || '/ˈwɜːrd/';
-    const distractor2 = otherWords[1]?.pronunciation || '/ˈspensɪv/';
-    const distractor3 = otherWords[2]?.pronunciation || '/ˈlɪsən/';
-
-    const options = [correctIPA, distractor1, distractor2, distractor3].filter(
-      (v, i, a) => a.indexOf(v) === i
-    );
-    while (options.length < 4) {
-      options.push(`/${currentWord.word.toLowerCase()}_alt${options.length}/`);
-    }
-    return options.sort(() => 0.5 - Math.random());
-  };
-
-  const [phoneticOptions, setPhoneticOptions] = useState(() => generatePhoneticOptions());
-
-  useEffect(() => {
-    setPhoneticOptions(generatePhoneticOptions());
-  }, [currentIndex, currentWord]);
-
-  // Handle Option Select with strict 1.5s Auto-Advance
-  const handleSelectPhoneticOption = (opt) => {
-    if (isAdvancing || feedback?.isCorrect) return;
-
-    setSelectedOption(opt);
-    const correctIPA = currentWord.pronunciation;
-    const isMatch = opt.trim().toLowerCase() === correctIPA.trim().toLowerCase();
-
-    if (isMatch) {
-      setFeedback({
-        isCorrect: true,
-        explanation: `Tuyệt vời! Phiên âm chuẩn IPA của "${currentWord.word}" là ${correctIPA}.`,
-      });
-
-      const nextCompleted = new Set(completedWordIds);
-      nextCompleted.add(currentWord.id);
-      setCompletedWordIds(nextCompleted);
-
-      // Trigger 1.5s Auto-advance
-      setIsAdvancing(true);
-      autoAdvanceTimerRef.current = setTimeout(() => {
-        setIsAdvancing(false);
-        if (currentIndex < vocabularies.length - 1) {
-          setCurrentIndex((prev) => prev + 1);
-        } else {
-          // Last word finished!
-          setAllDone(true);
-          if (onStepComplete) onStepComplete(true);
-        }
-      }, 1500);
-    } else {
-      // Wrong answer: DO NOT auto-advance. Allow retry!
-      setFeedback({
-        isCorrect: false,
-        explanation: `Chưa chính xác. Hãy nghe lại phát âm mẫu và quan sát kỹ các ký tự phiên âm IPA.`,
-      });
-    }
-  };
-
-  // Speech recognition practice
-  const handleMicPractice = () => {
+  // Advance to next word
+  const handleNextWord = () => {
     clearAutoAdvanceTimer();
-    setSpeechText('');
+    const nextCompleted = new Set(completedWordIds);
+    nextCompleted.add(currentWord.id);
+    setCompletedWordIds(nextCompleted);
+
+    if (currentIndex < vocabularies.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+    } else {
+      setAllDone(true);
+      if (onStepComplete) onStepComplete(true);
+    }
+  };
+
+  // Start speech recording
+  const handleStartRecording = () => {
+    clearAutoAdvanceTimer();
+    setMicError(null);
+    setSpeechTranscript('');
     setSpeechScore(null);
+    setSpeechFeedback(null);
     setIsRecording(true);
 
     const recognizer = createSpeechRecognizer({
       onResult: (transcript) => {
-        setSpeechText(transcript);
         setIsRecording(false);
+        setSpeechTranscript(transcript);
+
         const target = currentWord.word.toLowerCase().trim();
         const spoken = transcript.toLowerCase().trim();
 
-        let calculatedScore = 50;
-        if (spoken.includes(target) || target.includes(spoken)) {
-          calculatedScore = 95;
+        // Calculate score
+        let score = 50;
+        if (spoken === target || spoken.includes(target) || target.includes(spoken)) {
+          score = 95;
         } else {
           let matchChars = 0;
           for (let i = 0; i < Math.min(target.length, spoken.length); i++) {
             if (target[i] === spoken[i]) matchChars++;
           }
-          calculatedScore = Math.max(Math.round((matchChars / target.length) * 100), 50);
+          score = Math.max(Math.round((matchChars / Math.max(target.length, spoken.length)) * 100), 40);
         }
-        setSpeechScore(calculatedScore);
+
+        setSpeechScore(score);
+
+        const nextCompleted = new Set(completedWordIds);
+        nextCompleted.add(currentWord.id);
+        setCompletedWordIds(nextCompleted);
+
+        if (score >= 70) {
+          setSpeechFeedback({
+            isPass: true,
+            title: score >= 85 ? '🎉 Xuất sắc! Phát âm rất chuẩn' : '👍 Rất tốt! Đạt yêu cầu',
+            message: `Bạn phát âm từ "${currentWord.word}" đạt ${score}%.`,
+          });
+
+          // Auto-advance after 1.5s
+          setIsAdvancing(true);
+          autoAdvanceTimerRef.current = setTimeout(() => {
+            setIsAdvancing(false);
+            if (currentIndex < vocabularies.length - 1) {
+              setCurrentIndex((prev) => prev + 1);
+            } else {
+              setAllDone(true);
+              if (onStepComplete) onStepComplete(true);
+            }
+          }, 1500);
+        } else {
+          setSpeechFeedback({
+            isPass: false,
+            title: '💪 Cần thử lại!',
+            message: `Bạn vừa nói: "${transcript}". Hãy nghe mẫu và thu âm lại để phát âm rõ hơn nhé.`,
+          });
+        }
       },
-      onError: () => setIsRecording(false),
-      onEnd: () => setIsRecording(false),
+      onError: (err) => {
+        setIsRecording(false);
+        setMicError(
+          typeof err === 'string'
+            ? err
+            : 'Không thể truy cập Microphone. Hãy kiểm tra quyền truy cập micro trên trình duyệt của bạn.'
+        );
+      },
+      onEnd: () => {
+        setIsRecording(false);
+      },
     });
 
+    recognizerRef.current = recognizer;
     recognizer.start();
+  };
+
+  const handleStopRecording = () => {
+    if (recognizerRef.current && recognizerRef.current.stop) {
+      recognizerRef.current.stop();
+    }
+    setIsRecording(false);
   };
 
   // Section Complete View
@@ -168,13 +180,13 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
         </div>
         <div>
           <h3 className="text-2xl font-black text-slate-900">
-            Hoàn thành Bước 2: Phát âm!
+            Hoàn thành Bước 2: Thu âm từ vựng!
           </h3>
           <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-md mx-auto">
-            Bạn đã nhận diện và luyện phát âm xuất sắc toàn bộ {vocabularies.length} từ vựng trong bài.
+            Bạn đã xuất sắc thu âm và luyện phát âm toàn bộ {vocabularies.length} từ vựng trong bài học.
           </p>
         </div>
-        <div className="pt-2">
+        <div className="pt-2 flex justify-center gap-3">
           <button
             type="button"
             onClick={() => {
@@ -193,158 +205,169 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
   }
 
   return (
-    <div className="w-full space-y-6 animate-fade-in">
-      {/* Top Header Card */}
-      <div className="bg-white px-5 py-3.5 rounded-2xl border border-slate-200/80 shadow-xs flex items-center justify-between text-xs font-semibold">
+    <div className="w-full space-y-4 animate-fade-in pb-4">
+      {/* 1. Top Header Tracker */}
+      <div className="bg-white px-4 py-3 sm:px-5 sm:py-3.5 rounded-2xl border border-slate-200/80 shadow-xs flex items-center justify-between text-xs font-semibold">
         <div className="flex items-center gap-2.5">
           <span className="text-sm font-black text-slate-800">
-            Từ phát âm {currentIndex + 1} / {vocabularies.length}
+            Thu âm từ {currentIndex + 1} / {vocabularies.length}
           </span>
           <span className="text-slate-300">•</span>
-          <span className="text-[11px] font-bold text-blue-600 bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-100">
-            {currentWord.category || 'Pronunciation'}
+          <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full border bg-blue-50 text-blue-700 border-blue-200">
+            {currentWord.category || 'Thu âm từ vựng'}
           </span>
         </div>
 
         <div className="flex items-center gap-2">
           <span className="text-slate-500 font-bold">
-            Đã đạt: <strong className="text-emerald-600">{completedWordIds.size}</strong> / {vocabularies.length} từ
+            Đã đạt: <strong className="text-emerald-600">{completedWordIds.size}</strong> / {vocabularies.length}
           </span>
         </div>
       </div>
 
-      {/* Main Pronunciation Card */}
-      <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
-        {/* Word Display & Model Audio */}
-        <div className="text-center space-y-3 py-2">
-          <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-            Từ vựng trọng tâm:
-          </span>
-          <h2 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight">
+      {/* 2. Main Recording Card */}
+      <div className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm text-center space-y-6">
+        {/* Word Display & Explicit IPA Label */}
+        <div className="space-y-3">
+          <h2 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
             {currentWord.word}
           </h2>
-          <p className="text-xl sm:text-2xl font-mono text-blue-600 font-bold tracking-wider">
-            {currentWord.pronunciation}
-          </p>
 
-          {/* Model Audio Button */}
-          <div className="pt-2">
+          {/* Explicit IPA label */}
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-blue-50/80 border border-blue-200 shadow-2xs">
+              <span className="text-xs font-black text-blue-700 uppercase tracking-wider">
+                Phiên âm IPA:
+              </span>
+              <span className="font-mono text-base sm:text-lg font-bold text-blue-900 tracking-wider">
+                {formattedIpa}
+              </span>
+            </div>
+            {currentWord.partOfSpeech && (
+              <span className="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl">
+                {currentWord.partOfSpeech}
+              </span>
+            )}
+          </div>
+
+          <p className="text-sm text-slate-600 font-medium max-w-md mx-auto">
+            Nghĩa: <strong className="text-slate-800">{currentWord.meaning}</strong>
+          </p>
+        </div>
+
+        {/* Listen Native Voice Model */}
+        <div className="flex justify-center">
+          <button
+            type="button"
+            onClick={() => speakText(currentWord.word)}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 font-bold text-xs border border-slate-200 transition shadow-2xs active:scale-95"
+            title="Bấm để nghe giọng phát âm bản xứ"
+          >
+            <Volume2 className="w-4 h-4 text-blue-600" />
+            <span>Nghe mẫu phát âm</span>
+          </button>
+        </div>
+
+        {/* Big Interactive Recording Button */}
+        <div className="py-2 flex flex-col items-center justify-center space-y-3">
+          <div className="relative">
+            {isRecording && (
+              <div className="absolute -inset-3 rounded-full bg-rose-500/20 animate-ping pointer-events-none" />
+            )}
             <button
               type="button"
-              onClick={() => speakText(currentWord.word)}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-blue-500/25 transition active:scale-95"
+              onClick={isRecording ? handleStopRecording : handleStartRecording}
+              className={`w-20 h-20 sm:w-24 sm:h-24 rounded-full font-bold shadow-lg transition-all flex flex-col items-center justify-center gap-1 active:scale-95 relative z-10 ${
+                isRecording
+                  ? 'bg-rose-600 text-white shadow-rose-600/30 animate-pulse ring-4 ring-rose-200'
+                  : 'bg-gradient-to-tr from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white shadow-blue-500/30'
+              }`}
             >
-              <Volume2 className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span>Nghe phát âm mẫu bản xứ</span>
+              <Mic className="w-8 h-8 sm:w-10 sm:h-10" />
             </button>
           </div>
-        </div>
 
-        {/* Vietnamese Mouth-Shape & Difficult Sound Guide */}
-        <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/90 space-y-1.5 text-left">
-          <div className="flex items-center gap-2 text-xs font-bold text-slate-700">
-            <Lightbulb className="w-4 h-4 text-amber-500" />
-            <span>Hướng dẫn mở khẩu hình & âm khó:</span>
-          </div>
-          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-            {getPhoneticGuide(currentWord.word, currentWord.pronunciation)}
+          <p className="text-xs font-extrabold text-slate-600">
+            {isRecording ? (
+              <span className="text-rose-600 animate-pulse">
+                🔴 Đang lắng nghe... Hãy phát âm từ "{currentWord.word}"
+              </span>
+            ) : (
+              'Bấm vào micro để thu âm từ vựng'
+            )}
           </p>
         </div>
 
-        {/* Interactive Phonetic Recognition Exercise */}
-        <div className="space-y-3.5 pt-2 border-t border-slate-100">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-blue-600" />
-            <h4 className="font-bold text-sm text-slate-800">
-              Bài tập nhận diện âm: Chọn ký hiệu phiên âm IPA chuẩn của từ trên:
-            </h4>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-            {phoneticOptions.map((opt, idx) => {
-              const isSelected = selectedOption === opt;
-              let style = 'bg-white border-slate-200 hover:bg-slate-50 text-slate-800';
-
-              if (feedback) {
-                if (opt.trim().toLowerCase() === currentWord.pronunciation.trim().toLowerCase()) {
-                  style = 'bg-emerald-50 border-emerald-500 text-emerald-900 font-bold ring-2 ring-emerald-500/20';
-                } else if (isSelected) {
-                  style = 'bg-rose-50 border-rose-400 text-rose-900 ring-2 ring-rose-500/20 font-bold';
-                }
-              }
-
-              return (
-                <button
-                  key={idx}
-                  type="button"
-                  onClick={() => handleSelectPhoneticOption(opt)}
-                  disabled={isAdvancing || feedback?.isCorrect}
-                  className={`p-4 rounded-xl border text-sm font-mono font-bold transition flex items-center justify-between ${style}`}
-                >
-                  <span>{opt}</span>
-                  {feedback && opt.trim().toLowerCase() === currentWord.pronunciation.trim().toLowerCase() && (
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  )}
-                  {feedback && isSelected && !feedback.isCorrect && (
-                    <XCircle className="w-4 h-4 text-rose-500 shrink-0" />
-                  )}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Auto-Advance & Feedback Banner */}
-        {feedback && (
-          <div
-            className={`p-4 rounded-2xl border text-xs sm:text-sm animate-fade-in flex items-start gap-3 ${
-              feedback.isCorrect
-                ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
-                : 'bg-rose-50 border-rose-200 text-rose-900'
-            }`}
-          >
-            {feedback.isCorrect ? (
-              <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-            ) : (
-              <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
-            )}
-            <div className="space-y-1">
-              <p className="font-extrabold text-sm">
-                {feedback.isCorrect ? '🎉 Chính xác! Đang tự động chuyển từ tiếp theo sau 1,5 giây...' : 'Chưa chính xác!'}
-              </p>
-              <p className="text-xs text-slate-600">
-                {feedback.explanation}
-              </p>
-              {!feedback.isCorrect && (
-                <p className="text-[11px] font-bold text-rose-700 pt-1">
-                  👉 Bạn hãy nghe lại phát âm mẫu và bấm chọn lại đáp án đúng.
-                </p>
-              )}
-            </div>
+        {/* Microphone Error Alert */}
+        {micError && (
+          <div className="p-3.5 rounded-xl bg-amber-50 border border-amber-200 text-left text-xs text-amber-900 font-medium flex items-start gap-2.5 animate-fade-in max-w-md mx-auto">
+            <AlertCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+            <span>{micError}</span>
           </div>
         )}
 
-        {/* Optional Microphone Self-Check */}
-        <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-          <button
-            type="button"
-            onClick={handleMicPractice}
-            disabled={isRecording}
-            className={`px-4 py-2 rounded-xl border text-xs font-bold transition flex items-center gap-1.5 ${
-              isRecording
-                ? 'bg-rose-500 text-white animate-pulse'
-                : 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200'
+        {/* Recording Result Feedback Card */}
+        {speechScore !== null && speechFeedback && (
+          <div
+            className={`p-4 sm:p-5 rounded-2xl border text-left max-w-lg mx-auto animate-fade-in space-y-3 ${
+              speechFeedback.isPass
+                ? 'bg-emerald-50/90 border-emerald-200 text-emerald-950'
+                : 'bg-rose-50/90 border-rose-200 text-rose-950'
             }`}
           >
-            <Mic className="w-3.5 h-3.5" />
-            <span>{isRecording ? 'Đang lắng nghe giọng bạn...' : 'Thu âm thử giọng'}</span>
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex items-start gap-2.5">
+                {speechFeedback.isPass ? (
+                  <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                ) : (
+                  <XCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />
+                )}
+                <div className="space-y-0.5">
+                  <h4 className="font-extrabold text-sm">{speechFeedback.title}</h4>
+                  <p className="text-xs font-medium opacity-90">{speechFeedback.message}</p>
+                </div>
+              </div>
+
+              <div className="shrink-0 px-3 py-1 rounded-xl bg-white border font-mono font-black text-xs shadow-2xs">
+                {speechScore}%
+              </div>
+            </div>
+
+            {speechTranscript && (
+              <div className="p-2.5 rounded-xl bg-white/80 border border-slate-200/60 text-xs font-semibold text-slate-700">
+                Nhận diện giọng bạn: <span className="text-blue-700 italic font-mono">"{speechTranscript}"</span>
+              </div>
+            )}
+
+            {speechFeedback.isPass && (
+              <p className="text-[11px] font-bold text-emerald-700">
+                ⚡ Đạt chuẩn! Tự động chuyển từ tiếp theo sau 1,5 giây...
+              </p>
+            )}
+          </div>
+        )}
+
+        {/* Bottom Actions Bar */}
+        <div className="flex items-center justify-between gap-3 pt-3 border-t border-slate-100">
+          <button
+            type="button"
+            onClick={handleStartRecording}
+            disabled={isRecording}
+            className="px-4 py-2 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 font-bold text-xs transition flex items-center gap-1.5"
+          >
+            <RotateCcw className="w-3.5 h-3.5 text-slate-500" />
+            <span>Thu âm lại</span>
           </button>
 
-          {speechScore !== null && (
-            <span className="font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200">
-              Độ chuẩn: {speechScore}%
-            </span>
-          )}
+          <button
+            type="button"
+            onClick={handleNextWord}
+            disabled={isAdvancing}
+            className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-sm shadow-blue-500/20 transition flex items-center gap-1.5 active:scale-95"
+          >
+            <span>{currentIndex < vocabularies.length - 1 ? 'Từ tiếp theo' : 'Hoàn thành bước'}</span>
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </div>
     </div>
