@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flame, BookOpen, CheckCircle, Star } from 'lucide-react';
+import { Flame, Target, CheckCircle, Star } from 'lucide-react';
 
 export default function StatsRow({ stats }) {
   if (!stats) return null;
@@ -12,10 +12,10 @@ export default function StatsRow({ stats }) {
       color: 'text-orange-500 bg-orange-50 border-orange-100',
     },
     {
-      label: 'Từ vựng đã thuộc',
-      value: `${stats.wordsLearned || 0} từ`,
-      icon: BookOpen,
-      color: 'text-blue-500 bg-blue-50 border-blue-100',
+      label: 'Điểm làm bài',
+      value: `${stats.practiceScore || 0} điểm`,
+      icon: Target,
+      color: 'text-blue-600 bg-blue-50 border-blue-100',
     },
     {
       label: 'Bài học hoàn thành',

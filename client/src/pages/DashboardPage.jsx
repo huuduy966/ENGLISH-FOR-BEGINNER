@@ -12,11 +12,15 @@ export default function DashboardPage() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  const fetchDashboardData = () => {
     api.get('/dashboard')
       .then((res) => setData(res.data))
       .catch((err) => console.error('Dashboard fetch error:', err))
       .finally(() => setLoading(false));
+  };
+
+  useEffect(() => {
+    fetchDashboardData();
   }, []);
 
   if (loading) {
@@ -53,8 +57,8 @@ export default function DashboardPage() {
         </Link>
       </div>
 
-      {/* Main Focus: Today's Learning Package */}
-      <TodaysLearningCard packageData={todaysPackage} />
+      {/* Main Focus: Today's Learning Package (60 Daily Questions) */}
+      <TodaysLearningCard onScoreUpdated={fetchDashboardData} />
 
       {/* Stats Row */}
       <StatsRow stats={stats} />
