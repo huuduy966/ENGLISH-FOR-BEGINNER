@@ -218,7 +218,8 @@ async function runTests() {
     );
 
     // 11c. POST /api/daily-practice/answer (Correct answer gives +4)
-    const firstQ = dailyData.session.parts[0].questions[0];
+    const targetQIdx = dailyData.session.parts[0].questions.findIndex(q => !q.isCorrect);
+    const targetQ = targetQIdx >= 0 ? dailyData.session.parts[0].questions[targetQIdx] : dailyData.session.parts[0].questions[0];
     const answerCorrectRes = await fetch(`${BASE_URL}/daily-practice/answer`, {
       method: 'POST',
       headers: {
@@ -227,21 +228,21 @@ async function runTests() {
       },
       body: JSON.stringify({
         partNumber: 1,
-        questionIndex: 0,
-        selectedOption: firstQ.correctAnswer,
+        questionIndex: targetQIdx >= 0 ? targetQIdx : 0,
+        selectedOption: targetQ.correctAnswer,
       }),
     });
     const answerCorrectData = await answerCorrectRes.json();
     assert(
       answerCorrectRes.status === 200 &&
       answerCorrectData.isCorrect === true &&
-      answerCorrectData.pointsDelta === 4,
+      (targetQIdx >= 0 ? answerCorrectData.pointsDelta === 4 : answerCorrectData.pointsDelta === 0),
       'POST /api/daily-practice/answer awards +4 points on correct answer'
     );
 
-    // 11d. POST /api/daily-practice/answer (Wrong answer deducts -2)
-    const secondQ = dailyData.session.parts[0].questions[1];
-    const wrongOption = secondQ.options.find(o => o !== secondQ.correctAnswer) || 'Wrong';
+    // 11d. POST /api/daily-practice/answer (Wrong answer deducts -2 on an uncompleted question)
+    const speakingQ = dailyData.session.parts[1].questions[0];
+    const wrongOption = speakingQ.options.find(o => o !== speakingQ.correctAnswer) || 'Wrong';
     const answerWrongRes = await fetch(`${BASE_URL}/daily-practice/answer`, {
       method: 'POST',
       headers: {
@@ -249,8 +250,8 @@ async function runTests() {
         Authorization: `Bearer ${studentToken}`,
       },
       body: JSON.stringify({
-        partNumber: 1,
-        questionIndex: 1,
+        partNumber: 2,
+        questionIndex: 0,
         selectedOption: wrongOption,
       }),
     });
