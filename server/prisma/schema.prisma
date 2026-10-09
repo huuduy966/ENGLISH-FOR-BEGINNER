@@ -16,14 +16,16 @@ model User {
   level         String          @default("A1")      // A1, A2, B1, B2...
   goal          String          @default("Zero-foundation")
   xp            Int             @default(0)
+  practiceScore Int             @default(0)
   streakDays    Int             @default(0)
   lastStudyDate DateTime?
   createdAt     DateTime        @default(now())
   updatedAt     DateTime        @updatedAt
 
-  progress      UserProgress[]
-  quizAttempts  QuizAttempt[]
-  savedWords    UserVocabulary[]
+  progress       UserProgress[]
+  quizAttempts   QuizAttempt[]
+  savedWords     UserVocabulary[]
+  dailyPractices DailyPractice[]
 }
 
 model Lesson {
@@ -165,4 +167,21 @@ model PlacementQuestion {
   options       String   // JSON string of options
   correctAnswer String
   category      String   // Vocabulary, Grammar, Reading, Listening
+}
+
+model DailyPractice {
+  id                   Int      @id @default(autoincrement())
+  userId               Int
+  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date                 String   // YYYY-MM-DD
+  level                String   @default("A1")
+  score                Int      @default(0)
+  completed            Boolean  @default(false)
+  currentPart          Int      @default(1)
+  currentQuestionIndex Int      @default(0)
+  sessionData          String   // JSON string storing full 60 questions with state
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  @@unique([userId, date])
 }
