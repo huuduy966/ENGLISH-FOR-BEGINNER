@@ -223,10 +223,28 @@ async function getLessonById(req, res) {
     }
 
     // Parse JSON fields
-    const formattedGrammar = lesson.grammarPoints.map((g) => ({
-      ...g,
-      examples: g.examples ? (typeof g.examples === 'string' ? JSON.parse(g.examples) : g.examples) : [],
-    }));
+    const formattedGrammar = lesson.grammarPoints.map((g) => {
+      let parsedExamples = [];
+      let practiceQuestions = [];
+      if (g.examples) {
+        try {
+          const parsed = typeof g.examples === 'string' ? JSON.parse(g.examples) : g.examples;
+          if (Array.isArray(parsed)) {
+            parsedExamples = parsed;
+          } else if (parsed && typeof parsed === 'object') {
+            parsedExamples = parsed.list || [];
+            practiceQuestions = parsed.questions || [];
+          }
+        } catch {
+          parsedExamples = [];
+        }
+      }
+      return {
+        ...g,
+        examples: parsedExamples,
+        practiceQuestions,
+      };
+    });
 
     const formattedListening = lesson.listenings.map((l) => ({
       ...l,
