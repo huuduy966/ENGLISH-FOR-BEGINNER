@@ -141,7 +141,7 @@ async function submitLessonQuiz(req, res) {
 
     const total = quizQuestions.length;
     const percentage = Math.round((correctCount / total) * 100);
-    const passed = percentage >= 70;
+    const passed = percentage >= 80;
 
     // Save attempt
     await prisma.quizAttempt.create({
@@ -196,7 +196,7 @@ async function submitLessonQuiz(req, res) {
       review,
       message: passed
         ? `🎉 Chúc mừng! Bạn đã hoàn thành xuất sắc bài kiểm tra với ${percentage}% điểm!`
-        : `Bạn đạt ${percentage}%. Cần đạt tối thiểu 70% để vượt qua. Hãy xem lại các lỗi và thử lại nhé!`,
+        : `Bạn đạt ${percentage}%. Cần đạt tối thiểu 80% để vượt qua. Hãy xem lại các lỗi và thử lại nhé!`,
     });
   } catch (error) {
     console.error('submitLessonQuiz error:', error);
