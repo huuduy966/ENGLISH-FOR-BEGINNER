@@ -91,7 +91,7 @@ export default function LessonDetailPage() {
               to={`/lessons/${lockData.requiredLessonId}`}
               className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-md shadow-blue-500/20 transition flex items-center justify-center gap-2"
             >
-              <span>Vào học Bài {lockData.requiredOrderNumber}</span>
+              <span>Vào học Bài {lockData.requiredOrderNumber} {lockData.level ? `(${lockData.level})` : ''}</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           )}
