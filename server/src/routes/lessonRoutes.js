@@ -5,6 +5,7 @@ const { verifyToken } = require('../middlewares/auth');
 
 router.get('/', verifyToken, lessonController.getLessons);
 router.get('/:id', verifyToken, lessonController.getLessonById);
+router.post('/:id/progress', verifyToken, lessonController.updateProgress);
 router.post('/:id/complete', verifyToken, lessonController.completeLesson);
 
 module.exports = router;

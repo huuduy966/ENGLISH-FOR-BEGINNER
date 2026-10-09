@@ -72,13 +72,39 @@ export default function LessonDetailPage() {
     const initialUnlocked = saved ? parseInt(saved, 10) : 0;
     setUnlockedStepIndex(initialUnlocked);
 
+    // Retrieve saved step completion map if present
+    const savedCompletion = localStorage.getItem(`e4b_lesson_${id}_step_completion`);
+    let initialMap = {
+      vocab: false,
+      pronounce: false,
+      grammar: false,
+      listen: false,
+      reading: false,
+      exercise: false,
+      quiz: false,
+    };
+    if (savedCompletion) {
+      try {
+        initialMap = { ...initialMap, ...JSON.parse(savedCompletion) };
+      } catch {}
+    }
+    // Any step before initialUnlocked is considered done
+    tabs.forEach((t, idx) => {
+      if (idx < initialUnlocked) {
+        initialMap[t.id] = true;
+      }
+    });
+    setStepCompletionMap(initialMap);
+
     api.get(`/lessons/${id}`)
       .then((res) => {
-        setLesson(res.data.lesson);
-        // If lesson was already completed previously on server, unlock all 7 steps
-        if (res.data.lesson?.userProgress?.completed) {
+        const fetchedLesson = res.data.lesson;
+        setLesson(fetchedLesson);
+
+        // If lesson was already completed previously on server, unlock all 7 steps and mark all done
+        if (fetchedLesson?.userProgress?.completed) {
           setUnlockedStepIndex(7);
-          setStepCompletionMap({
+          const fullMap = {
             vocab: true,
             pronounce: true,
             grammar: true,
@@ -86,7 +112,23 @@ export default function LessonDetailPage() {
             reading: true,
             exercise: true,
             quiz: true,
-          });
+          };
+          setStepCompletionMap(fullMap);
+          localStorage.setItem(`e4b_lesson_${id}_unlocked_step`, '7');
+          localStorage.setItem(`e4b_lesson_${id}_step_completion`, JSON.stringify(fullMap));
+        } else if (fetchedLesson?.userProgress?.progress > 0) {
+          const stepsCountFromServer = Math.round((fetchedLesson.userProgress.progress / 100) * 7);
+          if (stepsCountFromServer > initialUnlocked) {
+            setUnlockedStepIndex(stepsCountFromServer);
+            setStepCompletionMap((prev) => {
+              const updated = { ...prev };
+              tabs.forEach((t, idx) => {
+                if (idx < stepsCountFromServer) updated[t.id] = true;
+              });
+              localStorage.setItem(`e4b_lesson_${id}_step_completion`, JSON.stringify(updated));
+              return updated;
+            });
+          }
         }
       })
       .catch((err) => {
@@ -170,13 +212,34 @@ export default function LessonDetailPage() {
     }
   };
 
-  // Mark a specific step as complete
+  // Mark a specific step as complete and link directly to overall progress
   const handleMarkStepComplete = (stepId) => {
-    setStepCompletionMap((prev) => ({ ...prev, [stepId]: true }));
+    setStepCompletionMap((prev) => {
+      const updated = { ...prev, [stepId]: true };
+      localStorage.setItem(`e4b_lesson_${id}_step_completion`, JSON.stringify(updated));
+
+      // Calculate how many of the 7 tasks are done
+      const doneCount = tabs.filter((t) => updated[t.id]).length;
+      const calculatedProgress = doneCount >= 7 ? 100 : Math.round((doneCount / 7) * 100);
+
+      // Persist progress to backend API
+      api.post(`/lessons/${id}/progress`, { progress: calculatedProgress, stepId }).catch(() => {});
+
+      if (doneCount >= 7) {
+        api.post(`/lessons/${id}/complete`).catch(() => {});
+        setLesson((prevLesson) => ({
+          ...prevLesson,
+          userProgress: { ...(prevLesson?.userProgress || {}), completed: true, progress: 100 },
+        }));
+      }
+
+      return updated;
+    });
+
     // Automatically increment unlockedStepIndex if at the frontier
     const stepIdx = tabs.findIndex((t) => t.id === stepId);
-    if (stepIdx >= unlockedStepIndex && stepIdx < tabs.length - 1) {
-      const nextUnlocked = stepIdx + 1;
+    if (stepIdx >= unlockedStepIndex && stepIdx < tabs.length) {
+      const nextUnlocked = Math.min(tabs.length, stepIdx + 1);
       setUnlockedStepIndex(nextUnlocked);
       localStorage.setItem(`e4b_lesson_${id}_unlocked_step`, nextUnlocked.toString());
     }
@@ -198,10 +261,17 @@ export default function LessonDetailPage() {
   // Can the learner advance right now?
   const canAdvance = isCompleted || isAdmin || currentStepIndex < unlockedStepIndex || stepCompletionMap[currentTab.id];
 
-  // Calculate actual progress across 7 steps
-  const progressPercent = isCompleted
+  // Calculate actual tasks completed out of 7
+  const completedTasksCount = isCompleted
+    ? 7
+    : tabs.filter((t) => stepCompletionMap[t.id]).length;
+
+  const isAll7Done = isCompleted || completedTasksCount >= 7 || unlockedStepIndex >= 7;
+
+  // Real linked progress percentage across the 7 steps: exactly 100% when all 7 tasks done!
+  const progressPercent = isAll7Done
     ? 100
-    : Math.min(95, Math.round(((Math.min(unlockedStepIndex, 6)) / 7) * 100));
+    : Math.round((completedTasksCount / 7) * 100);
 
   return (
     <div className="space-y-3.5 pb-16 animate-fade-in">
@@ -235,10 +305,10 @@ export default function LessonDetailPage() {
           </div>
 
           <div className="flex items-center gap-2 self-start sm:self-auto">
-            {isCompleted ? (
+            {isAll7Done ? (
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200 shadow-2xs">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Đã hoàn thành</span>
+                <span>Hoàn thành 100% (7/7 nhiệm vụ)</span>
               </div>
             ) : (
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 shadow-2xs">
@@ -248,18 +318,18 @@ export default function LessonDetailPage() {
           </div>
         </div>
 
-        {/* 7-Step Progress Bar */}
+        {/* 7-Step Progress Bar linked to completed tasks */}
         <div className="space-y-1">
           <div className="flex justify-between text-[10px] font-bold text-slate-500">
-            <span>Tiến độ 7 bước</span>
-            <span className={isCompleted ? 'text-emerald-600 font-black' : 'text-blue-600 font-black'}>
+            <span>Tiến độ bài học: {completedTasksCount}/7 nhiệm vụ đã hoàn thành</span>
+            <span className={isAll7Done ? 'text-emerald-600 font-black' : 'text-blue-600 font-black'}>
               {progressPercent}%
             </span>
           </div>
-          <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
+          <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
             <div
               className={`h-full rounded-full transition-all duration-500 ${
-                isCompleted ? 'bg-emerald-500' : 'bg-blue-600'
+                isAll7Done ? 'bg-emerald-500' : 'bg-blue-600'
               }`}
               style={{ width: `${progressPercent}%` }}
             />
@@ -275,8 +345,8 @@ export default function LessonDetailPage() {
             <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
               Lộ trình 7 bước
             </span>
-            <span className="text-[11px] font-bold text-blue-600">
-              {currentStepIndex + 1}/7
+            <span className={`text-[11px] font-bold ${isAll7Done ? 'text-emerald-600' : 'text-blue-600'}`}>
+              {completedTasksCount}/7 hoàn thành
             </span>
           </div>
 
@@ -284,8 +354,8 @@ export default function LessonDetailPage() {
             {tabs.map((tab, idx) => {
               const Icon = tab.icon;
               const isActive = activeTab === tab.id;
-              const isTabUnlocked = isCompleted || isAdmin || idx <= unlockedStepIndex;
-              const isTabDone = isCompleted || (idx < unlockedStepIndex && !isActive) || (stepCompletionMap[tab.id] && !isActive);
+              const isTabUnlocked = isAll7Done || isAdmin || idx <= unlockedStepIndex;
+              const isTabDone = isAll7Done || stepCompletionMap[tab.id] || (idx < unlockedStepIndex && !isActive);
 
               return (
                 <button
@@ -336,37 +406,37 @@ export default function LessonDetailPage() {
             {activeTab === 'vocab' && (
               <FlashcardSection
                 vocabularies={lesson.vocabularies}
-                onStepComplete={(complete) => handleMarkStepComplete('vocab')}
+                onStepComplete={() => handleMarkStepComplete('vocab')}
               />
             )}
             {activeTab === 'pronounce' && (
               <PronunciationSection
                 vocabularies={lesson.vocabularies}
-                onStepComplete={(complete) => handleMarkStepComplete('pronounce')}
+                onStepComplete={() => handleMarkStepComplete('pronounce')}
               />
             )}
             {activeTab === 'grammar' && (
               <GrammarSection
                 grammarPoints={lesson.grammarPoints}
-                onStepComplete={(complete) => handleMarkStepComplete('grammar')}
+                onStepComplete={() => handleMarkStepComplete('grammar')}
               />
             )}
             {activeTab === 'listen' && (
               <ListeningSection
                 listenings={lesson.listenings}
-                onStepComplete={(complete) => handleMarkStepComplete('listen')}
+                onStepComplete={() => handleMarkStepComplete('listen')}
               />
             )}
             {activeTab === 'reading' && (
               <ReadingSection
                 readings={lesson.readings}
-                onStepComplete={(complete) => handleMarkStepComplete('reading')}
+                onStepComplete={() => handleMarkStepComplete('reading')}
               />
             )}
             {activeTab === 'exercise' && (
               <ExerciseSection
                 exercises={lesson.exercises}
-                onStepComplete={(complete) => handleMarkStepComplete('exercise')}
+                onStepComplete={() => handleMarkStepComplete('exercise')}
               />
             )}
             {activeTab === 'quiz' && (
@@ -376,7 +446,7 @@ export default function LessonDetailPage() {
                 onQuizPassed={() => {
                   setLesson((prev) => ({
                     ...prev,
-                    userProgress: { ...(prev.userProgress || {}), completed: true },
+                    userProgress: { ...(prev?.userProgress || {}), completed: true, progress: 100 },
                   }));
                   setUnlockedStepIndex(7);
                   handleMarkStepComplete('quiz');
@@ -410,7 +480,13 @@ export default function LessonDetailPage() {
             Bước {currentStepIndex + 1}/7: {currentTab.title}
           </p>
           <p className="text-[10px] text-slate-400">
-            {canAdvance ? '✅ Đã hoàn thành bước này' : '⏳ Hoàn thành nội dung để mở tiếp'}
+            {isAll7Done
+              ? '🎉 Bạn đã hoàn thành xuất sắc toàn bộ 7 nhiệm vụ!'
+              : stepCompletionMap[currentTab.id]
+              ? '✅ Đã hoàn thành phần này • Sẵn sàng sang bước tiếp'
+              : canAdvance
+              ? '✅ Có thể chuyển tiếp'
+              : '⏳ Hoàn thành nội dung để mở tiếp'}
           </p>
         </div>
 
@@ -430,7 +506,7 @@ export default function LessonDetailPage() {
             to="/lessons"
             className="px-4 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm shadow-emerald-500/20 transition flex items-center gap-1.5 active:scale-95"
           >
-            <span>{isCompleted ? 'Về danh sách bài học' : 'Quiz cuối bài'}</span>
+            <span>{isAll7Done ? 'Hoàn thành bài học (Về danh sách)' : 'Quiz cuối bài'}</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         )}

@@ -359,8 +359,53 @@ async function completeLesson(req, res) {
   }
 }
 
+async function updateProgress(req, res) {
+  try {
+    const lessonId = parseInt(req.params.id, 10);
+    const userId = req.user.id;
+    const { progress: inputProgress } = req.body;
+
+    if (isNaN(lessonId)) {
+      return res.status(400).json({ message: 'ID bài học không hợp lệ.' });
+    }
+
+    const progressValue = Math.min(100, Math.max(0, parseInt(inputProgress, 10) || 0));
+    const isCompleted = progressValue === 100;
+
+    const existing = await prisma.userProgress.findUnique({
+      where: { userId_lessonId: { userId, lessonId } },
+    });
+
+    const updated = await prisma.userProgress.upsert({
+      where: { userId_lessonId: { userId, lessonId } },
+      update: {
+        progress: Math.max(existing?.progress || 0, progressValue),
+        completed: isCompleted ? true : existing?.completed,
+        completedAt: isCompleted ? (existing?.completedAt || new Date()) : existing?.completedAt,
+      },
+      create: {
+        userId,
+        lessonId,
+        progress: progressValue,
+        completed: isCompleted,
+        completedAt: isCompleted ? new Date() : null,
+      },
+    });
+
+    return res.json({
+      success: true,
+      progress: updated.progress,
+      completed: updated.completed,
+    });
+  } catch (error) {
+    console.error('updateProgress error:', error);
+    return res.status(500).json({ message: 'Lỗi khi cập nhật tiến độ bài học.' });
+  }
+}
+
 module.exports = {
   getLessons,
   getLessonById,
   completeLesson,
+  updateProgress,
 };
