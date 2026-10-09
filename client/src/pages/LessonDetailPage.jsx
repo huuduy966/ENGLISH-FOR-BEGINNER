@@ -14,6 +14,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Sparkles,
+  BookMarked,
 } from 'lucide-react';
 import api from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
@@ -21,6 +22,7 @@ import FlashcardSection from '../components/lesson/FlashcardSection';
 import PronunciationSection from '../components/lesson/PronunciationSection';
 import GrammarSection from '../components/lesson/GrammarSection';
 import ListeningSection from '../components/lesson/ListeningSection';
+import ReadingSection from '../components/lesson/ReadingSection';
 import ExerciseSection from '../components/lesson/ExerciseSection';
 import QuizSection from '../components/lesson/QuizSection';
 import ErrorBoundary from '../components/common/ErrorBoundary';
@@ -35,7 +37,7 @@ export default function LessonDetailPage() {
   const [activeTab, setActiveTab] = useState('vocab');
   const [lockData, setLockData] = useState(null);
 
-  // Track the highest step index the user has unlocked sequentially (0 to 5, or 6 if all done)
+  // Track the highest step index the user has unlocked sequentially (0 to 6, or 7 if all done)
   const [unlockedStepIndex, setUnlockedStepIndex] = useState(0);
 
   // Track completion condition per step in current session
@@ -44,18 +46,20 @@ export default function LessonDetailPage() {
     pronounce: false,
     grammar: false,
     listen: false,
+    reading: false,
     exercise: false,
     quiz: false,
   });
 
-  // Standardized 6 Steps Roadmap (Conversation step completely removed)
+  // Standardized 7 Steps Roadmap (Conversation step completely removed, Reading added)
   const tabs = [
     { id: 'vocab', stepNum: 1, title: 'Từ vựng', label: '1. Từ vựng', icon: BookOpen },
     { id: 'pronounce', stepNum: 2, title: 'Phát âm', label: '2. Phát âm', icon: Mic },
-    { id: 'grammar', stepNum: 3, title: 'Ngữ pháp', label: '3. Ngữ pháp', icon: BookOpen },
+    { id: 'grammar', stepNum: 3, title: 'Ngữ pháp', label: '3. Ngữ pháp', icon: Sparkles },
     { id: 'listen', stepNum: 4, title: 'Luyện nghe', label: '4. Luyện nghe', icon: Headphones },
-    { id: 'exercise', stepNum: 5, title: 'Bài tập', label: '5. Bài tập', icon: CheckSquare },
-    { id: 'quiz', stepNum: 6, title: 'Quiz cuối bài', label: '6. Quiz cuối bài', icon: Award },
+    { id: 'reading', stepNum: 5, title: 'Đọc hiểu', label: '5. Đọc hiểu', icon: BookMarked },
+    { id: 'exercise', stepNum: 6, title: 'Bài tập', label: '6. Bài tập', icon: CheckSquare },
+    { id: 'quiz', stepNum: 7, title: 'Quiz cuối bài', label: '7. Quiz cuối bài', icon: Award },
   ];
 
   useEffect(() => {
@@ -71,14 +75,15 @@ export default function LessonDetailPage() {
     api.get(`/lessons/${id}`)
       .then((res) => {
         setLesson(res.data.lesson);
-        // If lesson was already completed previously on server, unlock all 6 steps
+        // If lesson was already completed previously on server, unlock all 7 steps
         if (res.data.lesson?.userProgress?.completed) {
-          setUnlockedStepIndex(6);
+          setUnlockedStepIndex(7);
           setStepCompletionMap({
             vocab: true,
             pronounce: true,
             grammar: true,
             listen: true,
+            reading: true,
             exercise: true,
             quiz: true,
           });
@@ -193,37 +198,37 @@ export default function LessonDetailPage() {
   // Can the learner advance right now?
   const canAdvance = isCompleted || isAdmin || currentStepIndex < unlockedStepIndex || stepCompletionMap[currentTab.id];
 
-  // Calculate actual progress across 6 steps
+  // Calculate actual progress across 7 steps
   const progressPercent = isCompleted
     ? 100
-    : Math.min(95, Math.round(((Math.min(unlockedStepIndex, 5)) / 6) * 100));
+    : Math.min(95, Math.round(((Math.min(unlockedStepIndex, 6)) / 7) * 100));
 
   return (
-    <div className="space-y-6 pb-24 animate-fade-in">
+    <div className="space-y-3.5 pb-16 animate-fade-in">
       {/* A. Top Header Info Bar */}
-      <div className="bg-white px-5 py-4 rounded-3xl border border-slate-200/80 shadow-xs space-y-3">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div className="flex items-center gap-3">
+      <div className="bg-white px-4 py-2.5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+          <div className="flex items-center gap-2.5">
             <Link
               to="/lessons"
-              className="p-2.5 rounded-2xl border border-slate-200 hover:bg-slate-100 text-slate-500 transition shrink-0"
+              className="p-2 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-500 transition shrink-0"
               title="Quay lại danh sách bài học"
             >
               <ArrowLeft className="w-4 h-4" />
             </Link>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-[11px] font-black text-blue-600 bg-blue-50 px-2.5 py-0.5 rounded-md border border-blue-100">
+                <span className="text-[10px] font-black text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-100">
                   Bài {lesson.orderNumber}
                 </span>
-                <span className="text-[11px] font-bold text-slate-500 uppercase px-2 py-0.5 rounded-md bg-slate-100">
+                <span className="text-[10px] font-bold text-slate-500 uppercase px-1.5 py-0.5 rounded-md bg-slate-100">
                   {lesson.level}
                 </span>
                 <span className="text-xs text-slate-400 font-medium">
                   • {lesson.category}
                 </span>
               </div>
-              <h1 className="text-xl sm:text-2xl font-black text-slate-900 mt-0.5">
+              <h1 className="text-lg sm:text-xl font-black text-slate-900 mt-0.5">
                 {lesson.title}
               </h1>
             </div>
@@ -231,27 +236,27 @@ export default function LessonDetailPage() {
 
           <div className="flex items-center gap-2 self-start sm:self-auto">
             {isCompleted ? (
-              <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200 shadow-2xs">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                <span>Đã hoàn thành bài học</span>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200 shadow-2xs">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                <span>Đã hoàn thành</span>
               </div>
             ) : (
-              <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 shadow-2xs">
-                <span>Bước {currentStepIndex + 1} / 6: {currentTab.title}</span>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 shadow-2xs">
+                <span>Bước {currentStepIndex + 1}/7: {currentTab.title}</span>
               </div>
             )}
           </div>
         </div>
 
-        {/* 6-Step Progress Bar */}
-        <div className="space-y-1 pt-1">
-          <div className="flex justify-between text-[11px] font-bold text-slate-500">
-            <span>Tiến độ hoàn thành bài học (Chuẩn 6 bước)</span>
+        {/* 7-Step Progress Bar */}
+        <div className="space-y-1">
+          <div className="flex justify-between text-[10px] font-bold text-slate-500">
+            <span>Tiến độ 7 bước</span>
             <span className={isCompleted ? 'text-emerald-600 font-black' : 'text-blue-600 font-black'}>
               {progressPercent}%
             </span>
           </div>
-          <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
+          <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
             <div
               className={`h-full rounded-full transition-all duration-500 ${
                 isCompleted ? 'bg-emerald-500' : 'bg-blue-600'
@@ -262,20 +267,20 @@ export default function LessonDetailPage() {
         </div>
       </div>
 
-      {/* 2-Column Responsive Layout: Vertical 6 Steps Menu (Left) & Main Stage (Right) */}
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
-        {/* B. Left: Standardized 6 Steps Roadmap Menu */}
-        <div className="lg:col-span-1 bg-white p-4 rounded-3xl border border-slate-200/80 shadow-xs space-y-3 lg:sticky lg:top-24">
-          <div className="px-2 pt-1 pb-1">
-            <span className="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 block">
-              Lộ trình 6 bước
+      {/* 2-Column Responsive Layout: Vertical 7 Steps Menu (Left) & Main Stage (Right) */}
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 items-start">
+        {/* B. Left: Standardized 7 Steps Roadmap Menu */}
+        <div className="lg:col-span-1 bg-white p-2.5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5 lg:sticky lg:top-20">
+          <div className="px-2 pt-0.5 pb-0.5 flex items-center justify-between">
+            <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+              Lộ trình 7 bước
             </span>
-            <span className="text-xs font-bold text-slate-800">
-              Học tuần tự từng bước
+            <span className="text-[11px] font-bold text-blue-600">
+              {currentStepIndex + 1}/7
             </span>
           </div>
 
-          <div className="flex flex-col space-y-1.5">
+          <div className="flex flex-col space-y-1">
             {tabs.map((tab, idx) => {
               const Icon = tab.icon;
               const isActive = activeTab === tab.id;
@@ -288,9 +293,9 @@ export default function LessonDetailPage() {
                   type="button"
                   onClick={() => handleTabClick(tab.id, idx)}
                   disabled={!isTabUnlocked}
-                  className={`w-full flex items-center gap-3 px-3.5 py-3 rounded-2xl text-xs font-bold text-left transition-all select-none ${
+                  className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-bold text-left transition-all select-none ${
                     isActive
-                      ? 'bg-blue-600 text-white shadow-md shadow-blue-500/20 translate-x-1'
+                      ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20'
                       : isTabDone
                       ? 'bg-emerald-50/70 text-emerald-800 hover:bg-emerald-100/70 border border-emerald-200/60'
                       : isTabUnlocked
@@ -299,7 +304,7 @@ export default function LessonDetailPage() {
                   }`}
                 >
                   <div
-                    className={`w-6 h-6 rounded-lg flex items-center justify-center shrink-0 ${
+                    className={`w-5 h-5 rounded-md flex items-center justify-center shrink-0 ${
                       isActive
                         ? 'bg-white/20 text-white'
                         : isTabDone
@@ -310,15 +315,15 @@ export default function LessonDetailPage() {
                     }`}
                   >
                     {isTabDone ? (
-                      <Check className="w-3.5 h-3.5 text-emerald-600 stroke-[3]" />
+                      <Check className="w-3 h-3 text-emerald-600 stroke-[3]" />
                     ) : !isTabUnlocked ? (
-                      <Lock className="w-3.5 h-3.5 text-slate-400" />
+                      <Lock className="w-3 h-3 text-slate-400" />
                     ) : (
-                      <Icon className="w-3.5 h-3.5" />
+                      <Icon className="w-3 h-3" />
                     )}
                   </div>
 
-                  <span className="flex-1 truncate">{tab.label}</span>
+                  <span className="flex-1 truncate text-xs">{tab.label}</span>
                 </button>
               );
             })}
@@ -326,7 +331,7 @@ export default function LessonDetailPage() {
         </div>
 
         {/* C. Right: Main Stage Area (Nội dung của bước đang học) */}
-        <div className="lg:col-span-3 min-h-[500px]">
+        <div className="lg:col-span-3 min-h-[380px]">
           <ErrorBoundary>
             {activeTab === 'vocab' && (
               <FlashcardSection
@@ -352,6 +357,12 @@ export default function LessonDetailPage() {
                 onStepComplete={(complete) => handleMarkStepComplete('listen')}
               />
             )}
+            {activeTab === 'reading' && (
+              <ReadingSection
+                readings={lesson.readings}
+                onStepComplete={(complete) => handleMarkStepComplete('reading')}
+              />
+            )}
             {activeTab === 'exercise' && (
               <ExerciseSection
                 exercises={lesson.exercises}
@@ -367,7 +378,7 @@ export default function LessonDetailPage() {
                     ...prev,
                     userProgress: { ...(prev.userProgress || {}), completed: true },
                   }));
-                  setUnlockedStepIndex(6);
+                  setUnlockedStepIndex(7);
                   handleMarkStepComplete('quiz');
                 }}
               />
@@ -377,30 +388,29 @@ export default function LessonDetailPage() {
       </div>
 
       {/* D. Sticky Bottom Action Bar (Thanh thao tác điều hướng tuần tự) */}
-      <div className="fixed bottom-0 left-0 right-0 lg:left-64 bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 sm:px-8 py-3.5 z-30 shadow-lg flex items-center justify-between gap-4">
+      <div className="fixed bottom-0 left-0 right-0 lg:left-64 bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 sm:px-6 py-2 z-30 shadow-lg flex items-center justify-between gap-3">
         {/* Back Step Button */}
         <button
           type="button"
           onClick={() => {
             if (currentStepIndex > 0) {
               setActiveTab(tabs[currentStepIndex - 1].id);
-              window.scrollTo({ top: 120, behavior: 'smooth' });
             }
           }}
           disabled={currentStepIndex === 0}
-          className="px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-700 font-bold text-xs transition disabled:opacity-30 disabled:cursor-not-allowed flex items-center gap-1.5"
+          className="px-3.5 py-1.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-700 font-bold text-xs transition disabled:opacity-30 disabled:cursor-not-allowed flex items-center gap-1.5"
         >
           <ChevronLeft className="w-4 h-4" />
-          <span className="hidden sm:inline">Quay lại bước trước</span>
+          <span className="hidden sm:inline">Bước trước</span>
         </button>
 
         {/* Center Step Status */}
-        <div className="text-center hidden md:block">
+        <div className="text-center hidden sm:block">
           <p className="text-xs font-bold text-slate-800">
-            Bước {currentStepIndex + 1} / 6: {currentTab.title}
+            Bước {currentStepIndex + 1}/7: {currentTab.title}
           </p>
-          <p className="text-[11px] text-slate-400">
-            {canAdvance ? '✅ Đã hoàn thành điều kiện bước này' : '⏳ Hoàn thành nội dung bắt buộc để tiếp tục'}
+          <p className="text-[10px] text-slate-400">
+            {canAdvance ? '✅ Đã hoàn thành bước này' : '⏳ Hoàn thành nội dung để mở tiếp'}
           </p>
         </div>
 
@@ -410,17 +420,17 @@ export default function LessonDetailPage() {
             type="button"
             onClick={handleAdvanceNextStep}
             disabled={!canAdvance}
-            className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-md shadow-blue-500/20 transition disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-2 active:scale-95"
+            className="px-4 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-sm shadow-blue-500/20 transition disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 active:scale-95"
           >
-            <span>Tiếp tục sang {nextTab.title}</span>
+            <span>Sang {nextTab.title}</span>
             <ChevronRight className="w-4 h-4" />
           </button>
         ) : (
           <Link
             to="/lessons"
-            className="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md shadow-emerald-500/20 transition flex items-center gap-2 active:scale-95"
+            className="px-4 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm shadow-emerald-500/20 transition flex items-center gap-1.5 active:scale-95"
           >
-            <span>{isCompleted ? 'Về danh sách bài học' : 'Đang làm bài Quiz cuối'}</span>
+            <span>{isCompleted ? 'Về danh sách bài học' : 'Quiz cuối bài'}</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         )}
