@@ -141,7 +141,7 @@ module.exports = [
         "title": "Đọc hiểu bài 1: Modern Debates: Social Media Ethics",
         "passage": "Mastering the theme of \"Modern Debates: Social Media Ethics\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Proponent\" (Người ủng hộ) and \"Critic\" (Nhà phê bình, người phản đối) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Contend\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Modern Debates: Social Media Ethics\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Proponent\" (Người ủng hộ) và \"Critic\" (Nhà phê bình, người phản đối) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Contend\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Modern Debates: Social Media Ethics\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Modern Debates: Social Media Ethics\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Modern Debates: Social Media Ethics\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Proponent\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Modern Debates: Social Media Ethics\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Modern Debates: Social Media Ethics\",\"explanation\":\"Đoạn văn khẳng định: \\\"Proponent\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Modern Debates: Social Media Ethics\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Modern Debates: Social Media Ethics\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Modern Debates: Social Media Ethics\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Proponent\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Modern Debates: Social Media Ethics\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Modern Debates: Social Media Ethics\",\"explanation\":\"The text points out that words like \\\"Proponent\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -156,7 +156,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Proponent\",\"in\",\"conversation\",\"daily\"]",
+        "options": "[\"use\",\"I\",\"daily\",\"in\",\"conversation\",\"Proponent\"]",
         "correctAnswer": "I use Proponent in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Proponent in daily conversation\"."
       },
@@ -206,13 +206,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Proponent\" là gì?",
-        "options": "[\"Nhà phê bình, người phản đối\",\"Người ủng hộ\",\"Thuật toán điều hướng\",\"Lập luận quả quyết\"]",
+        "options": "[\"Thuật toán điều hướng\",\"Nhà phê bình, người phản đối\",\"Lập luận quả quyết\",\"Người ủng hộ\"]",
         "correctAnswer": "Người ủng hộ",
         "explanation": "\"Proponent\" có phiên âm /ˌprəˈpoʊ.nənt/ và mang nghĩa là \"Người ủng hộ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Modern Debates: Social Media Ethics, we need to practice _____.\"",
-        "options": "[\"Critic\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Critic\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Critic",
         "explanation": "\"Critic\" (Nhà phê bình, người phản đối) là từ vựng chính xác trong ngữ cảnh chủ đề Modern Debates: Social Media Ethics."
       },
@@ -224,13 +224,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Algorithm\" là gì?",
-        "options": "[\"Chuẩn mực đạo đức\",\"Sự phân cực xã hội\",\"Thuật toán điều hướng\",\"Sự thao túng tâm lý\"]",
+        "options": "[\"Sự thao túng tâm lý\",\"Sự phân cực xã hội\",\"Chuẩn mực đạo đức\",\"Thuật toán điều hướng\"]",
         "correctAnswer": "Thuật toán điều hướng",
         "explanation": "\"Algorithm\" có phiên âm /ˈæl.ɡər.ɪ.ðəm/ và mang nghĩa là \"Thuật toán điều hướng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Modern Debates: Social Media Ethics, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Ethics\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Ethics\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Ethics",
         "explanation": "\"Ethics\" (Chuẩn mực đạo đức) là từ vựng chính xác trong ngữ cảnh chủ đề Modern Debates: Social Media Ethics."
       },
@@ -260,7 +260,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Regulation\" là gì?",
-        "options": "[\"Lập luận quả quyết\",\"Nhà phê bình, người phản đối\",\"Người ủng hộ\",\"Quy định pháp lý\"]",
+        "options": "[\"Nhà phê bình, người phản đối\",\"Lập luận quả quyết\",\"Người ủng hộ\",\"Quy định pháp lý\"]",
         "correctAnswer": "Quy định pháp lý",
         "explanation": "\"Regulation\" có phiên âm /ˌreɡ.jəˈleɪ.ʃən/ và mang nghĩa là \"Quy định pháp lý\"."
       },
@@ -278,7 +278,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Contend\" là gì?",
-        "options": "[\"Lập luận quả quyết\",\"Thuật toán điều hướng\",\"Chuẩn mực đạo đức\",\"Sự phân cực xã hội\"]",
+        "options": "[\"Chuẩn mực đạo đức\",\"Lập luận quả quyết\",\"Thuật toán điều hướng\",\"Sự phân cực xã hội\"]",
         "correctAnswer": "Lập luận quả quyết",
         "explanation": "\"Contend\" có phiên âm /kənˈtend/ và mang nghĩa là \"Lập luận quả quyết\"."
       },
@@ -438,7 +438,7 @@ module.exports = [
         "title": "Đọc hiểu bài 2: Media Literacy & Detecting Misinformation",
         "passage": "Mastering the theme of \"Media Literacy & Detecting Misinformation\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Misinformation\" (Thông tin sai lệch) and \"Sensationalism\" (Báo chí giật gân) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Scrutinize\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Media Literacy & Detecting Misinformation\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Misinformation\" (Thông tin sai lệch) và \"Sensationalism\" (Báo chí giật gân) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Scrutinize\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Media Literacy & Detecting Misinformation\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Media Literacy & Detecting Misinformation\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Media Literacy & Detecting Misinformation\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Misinformation\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Media Literacy & Detecting Misinformation\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Media Literacy & Detecting Misinformation\",\"explanation\":\"Đoạn văn khẳng định: \\\"Misinformation\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Media Literacy & Detecting Misinformation\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Media Literacy & Detecting Misinformation\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Media Literacy & Detecting Misinformation\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Misinformation\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Media Literacy & Detecting Misinformation\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Media Literacy & Detecting Misinformation\",\"explanation\":\"The text points out that words like \\\"Misinformation\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -453,7 +453,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Misinformation\",\"conversation\",\"use\",\"in\",\"daily\",\"I\"]",
+        "options": "[\"in\",\"Misinformation\",\"conversation\",\"use\",\"I\",\"daily\"]",
         "correctAnswer": "I use Misinformation in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Misinformation in daily conversation\"."
       },
@@ -503,13 +503,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Misinformation\" là gì?",
-        "options": "[\"Thông tin sai lệch\",\"Báo chí giật gân\",\"Đáng tin cậy\",\"Kiểm tra kỹ lưỡng\"]",
+        "options": "[\"Kiểm tra kỹ lưỡng\",\"Thông tin sai lệch\",\"Báo chí giật gân\",\"Đáng tin cậy\"]",
         "correctAnswer": "Thông tin sai lệch",
         "explanation": "\"Misinformation\" có phiên âm /ˌmɪ.sɪn.fərˈmeɪ.ʃən/ và mang nghĩa là \"Thông tin sai lệch\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Sensationalism\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Sensationalism\",\"umbrellas\"]",
         "correctAnswer": "Sensationalism",
         "explanation": "\"Sensationalism\" (Báo chí giật gân) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -521,13 +521,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Credible\" là gì?",
-        "options": "[\"Đáng tin cậy\",\"Xác minh sự thật\",\"Định kiến thiên vị\",\"Tuyên truyền có chủ đích\"]",
+        "options": "[\"Đáng tin cậy\",\"Xác minh sự thật\",\"Tuyên truyền có chủ đích\",\"Định kiến thiên vị\"]",
         "correctAnswer": "Đáng tin cậy",
         "explanation": "\"Credible\" có phiên âm /ˈkre.də.bəl/ và mang nghĩa là \"Đáng tin cậy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Verify\"]",
+        "options": "[\"airplanes\",\"Verify\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Verify",
         "explanation": "\"Verify\" (Xác minh sự thật) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -539,13 +539,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Propaganda\" là gì?",
-        "options": "[\"Tính chân thực\",\"Kiểm chứng thực tế\",\"Tuyên truyền có chủ đích\",\"Tin giả cố ý đầu độc\"]",
+        "options": "[\"Tuyên truyền có chủ đích\",\"Tin giả cố ý đầu độc\",\"Kiểm chứng thực tế\",\"Tính chân thực\"]",
         "correctAnswer": "Tuyên truyền có chủ đích",
         "explanation": "\"Propaganda\" có phiên âm /ˌprɑː.pəˈɡæn.də/ và mang nghĩa là \"Tuyên truyền có chủ đích\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Disinformation\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Disinformation\"]",
         "correctAnswer": "Disinformation",
         "explanation": "\"Disinformation\" (Tin giả cố ý đầu độc) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -557,13 +557,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Authenticity\" là gì?",
-        "options": "[\"Kiểm tra kỹ lưỡng\",\"Báo chí giật gân\",\"Thông tin sai lệch\",\"Tính chân thực\"]",
+        "options": "[\"Tính chân thực\",\"Thông tin sai lệch\",\"Báo chí giật gân\",\"Kiểm tra kỹ lưỡng\"]",
         "correctAnswer": "Tính chân thực",
         "explanation": "\"Authenticity\" có phiên âm /ˌɔː.θənˈtɪ.sɪ.ti/ và mang nghĩa là \"Tính chân thực\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Misinformation\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Misinformation\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Misinformation",
         "explanation": "\"Misinformation\" (Thông tin sai lệch) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -575,13 +575,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Scrutinize\" là gì?",
-        "options": "[\"Định kiến thiên vị\",\"Xác minh sự thật\",\"Đáng tin cậy\",\"Kiểm tra kỹ lưỡng\"]",
+        "options": "[\"Kiểm tra kỹ lưỡng\",\"Đáng tin cậy\",\"Xác minh sự thật\",\"Định kiến thiên vị\"]",
         "correctAnswer": "Kiểm tra kỹ lưỡng",
         "explanation": "\"Scrutinize\" có phiên âm /ˈskruː.tə.naɪz/ và mang nghĩa là \"Kiểm tra kỹ lưỡng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Credible\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Credible\",\"umbrellas\"]",
         "correctAnswer": "Credible",
         "explanation": "\"Credible\" (Đáng tin cậy) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -735,7 +735,7 @@ module.exports = [
         "title": "Đọc hiểu bài 3: Navigating Corporate Culture",
         "passage": "Mastering the theme of \"Navigating Corporate Culture\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Corporate culture\" (Văn hóa doanh nghiệp) and \"Hierarchy\" (Hệ thống thứ bậc) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Inclusivity\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Navigating Corporate Culture\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Corporate culture\" (Văn hóa doanh nghiệp) và \"Hierarchy\" (Hệ thống thứ bậc) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Inclusivity\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Navigating Corporate Culture\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Navigating Corporate Culture\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Navigating Corporate Culture\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Corporate culture\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Navigating Corporate Culture\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Navigating Corporate Culture\",\"explanation\":\"Đoạn văn khẳng định: \\\"Corporate culture\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Navigating Corporate Culture\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Navigating Corporate Culture\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Navigating Corporate Culture\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Corporate culture\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Navigating Corporate Culture\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Navigating Corporate Culture\",\"explanation\":\"The text points out that words like \\\"Corporate culture\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -750,7 +750,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"daily\",\"Corporate\",\"culture\",\"in\"]",
+        "options": "[\"culture\",\"I\",\"daily\",\"use\",\"Corporate\",\"in\"]",
         "correctAnswer": "I use Corporate culture in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Corporate culture in daily\"."
       },
@@ -800,13 +800,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Corporate culture\" là gì?",
-        "options": "[\"Văn hóa doanh nghiệp\",\"Hệ thống thứ bậc\",\"Tính hòa nhập toàn diện\",\"Sự gắn kết đồng lòng\"]",
+        "options": "[\"Hệ thống thứ bậc\",\"Văn hóa doanh nghiệp\",\"Tính hòa nhập toàn diện\",\"Sự gắn kết đồng lòng\"]",
         "correctAnswer": "Văn hóa doanh nghiệp",
         "explanation": "\"Corporate culture\" có phiên âm /ˈkɔːr.pər.ət ˈkʌl.tʃər/ và mang nghĩa là \"Văn hóa doanh nghiệp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hierarchy\"]",
+        "options": "[\"umbrellas\",\"Hierarchy\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Hierarchy",
         "explanation": "\"Hierarchy\" (Hệ thống thứ bậc) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -818,13 +818,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cohesion\" là gì?",
-        "options": "[\"Tỷ lệ thôi việc\",\"Sự gắn kết đồng lòng\",\"Tinh thần làm việc\",\"Sự cố vấn dìu dắt\"]",
+        "options": "[\"Sự gắn kết đồng lòng\",\"Tinh thần làm việc\",\"Sự cố vấn dìu dắt\",\"Tỷ lệ thôi việc\"]",
         "correctAnswer": "Sự gắn kết đồng lòng",
         "explanation": "\"Cohesion\" có phiên âm /ˌkoʊˈhiː.ʒən/ và mang nghĩa là \"Sự gắn kết đồng lòng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"Morale\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Morale\"]",
         "correctAnswer": "Morale",
         "explanation": "\"Morale\" (Tinh thần làm việc) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -836,13 +836,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Turnover rate\" là gì?",
-        "options": "[\"Giữ chân nhân tài\",\"Tỷ lệ thôi việc\",\"Giá trị cốt lõi\",\"Môi trường năng động\"]",
+        "options": "[\"Tỷ lệ thôi việc\",\"Giữ chân nhân tài\",\"Giá trị cốt lõi\",\"Môi trường năng động\"]",
         "correctAnswer": "Tỷ lệ thôi việc",
         "explanation": "\"Turnover rate\" có phiên âm /ˈtɜːr.noʊ.vər ˈreɪt/ và mang nghĩa là \"Tỷ lệ thôi việc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Retention\"]",
+        "options": "[\"umbrellas\",\"Retention\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Retention",
         "explanation": "\"Retention\" (Giữ chân nhân tài) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -860,7 +860,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Corporate culture\"]",
+        "options": "[\"Corporate culture\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Corporate culture",
         "explanation": "\"Corporate culture\" (Văn hóa doanh nghiệp) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -872,13 +872,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Inclusivity\" là gì?",
-        "options": "[\"Tinh thần làm việc\",\"Sự cố vấn dìu dắt\",\"Tính hòa nhập toàn diện\",\"Sự gắn kết đồng lòng\"]",
+        "options": "[\"Tính hòa nhập toàn diện\",\"Sự gắn kết đồng lòng\",\"Sự cố vấn dìu dắt\",\"Tinh thần làm việc\"]",
         "correctAnswer": "Tính hòa nhập toàn diện",
         "explanation": "\"Inclusivity\" có phiên âm /ˌɪn.kluˈsɪ.və.ti/ và mang nghĩa là \"Tính hòa nhập toàn diện\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Cohesion\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Cohesion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Cohesion",
         "explanation": "\"Cohesion\" (Sự gắn kết đồng lòng) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -1032,7 +1032,7 @@ module.exports = [
         "title": "Đọc hiểu bài 4: Negotiation Strategies & Compromise",
         "passage": "Mastering the theme of \"Negotiation Strategies & Compromise\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Negotiation\" (Cuộc đàm phán thương thảo) and \"Compromise\" (Sự thỏa hiệp hòa hoãn) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Concession\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Negotiation Strategies & Compromise\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Negotiation\" (Cuộc đàm phán thương thảo) và \"Compromise\" (Sự thỏa hiệp hòa hoãn) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Concession\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Negotiation Strategies & Compromise\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Negotiation Strategies & Compromise\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Negotiation Strategies & Compromise\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Negotiation\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Negotiation Strategies & Compromise\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Negotiation Strategies & Compromise\",\"explanation\":\"Đoạn văn khẳng định: \\\"Negotiation\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Negotiation Strategies & Compromise\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Negotiation Strategies & Compromise\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Negotiation Strategies & Compromise\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Negotiation\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Negotiation Strategies & Compromise\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Negotiation Strategies & Compromise\",\"explanation\":\"The text points out that words like \\\"Negotiation\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -1047,7 +1047,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"Negotiation\",\"daily\",\"conversation\",\"I\",\"use\"]",
+        "options": "[\"in\",\"conversation\",\"Negotiation\",\"daily\",\"use\",\"I\"]",
         "correctAnswer": "I use Negotiation in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Negotiation in daily conversation\"."
       },
@@ -1097,13 +1097,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Negotiation\" là gì?",
-        "options": "[\"Lợi thế đòn bẩy\",\"Sự nhượng bộ chiến lược\",\"Cuộc đàm phán thương thảo\",\"Sự thỏa hiệp hòa hoãn\"]",
+        "options": "[\"Lợi thế đòn bẩy\",\"Sự nhượng bộ chiến lược\",\"Sự thỏa hiệp hòa hoãn\",\"Cuộc đàm phán thương thảo\"]",
         "correctAnswer": "Cuộc đàm phán thương thảo",
         "explanation": "\"Negotiation\" có phiên âm /ˌnɪ.ɡoʊ.ʃiˈeɪ.ʃən/ và mang nghĩa là \"Cuộc đàm phán thương thảo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"Compromise\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Compromise\",\"umbrellas\"]",
         "correctAnswer": "Compromise",
         "explanation": "\"Compromise\" (Sự thỏa hiệp hòa hoãn) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1115,13 +1115,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Leverage\" là gì?",
-        "options": "[\"Lợi thế đòn bẩy\",\"Lợi ích song phương\",\"Lời đề nghị phản hồi lại\",\"Thế bế tắc giằng co\"]",
+        "options": "[\"Thế bế tắc giằng co\",\"Lợi thế đòn bẩy\",\"Lời đề nghị phản hồi lại\",\"Lợi ích song phương\"]",
         "correctAnswer": "Lợi thế đòn bẩy",
         "explanation": "\"Leverage\" có phiên âm /ˈle.vər.ɪdʒ/ và mang nghĩa là \"Lợi thế đòn bẩy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Counteroffer\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Counteroffer\"]",
         "correctAnswer": "Counteroffer",
         "explanation": "\"Counteroffer\" (Lời đề nghị phản hồi lại) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1133,13 +1133,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mutual\" là gì?",
-        "options": "[\"Điều khoản hợp đồng\",\"Bản hợp đồng pháp lý\",\"Lợi ích song phương\",\"Chốt ký kết văn bản\"]",
+        "options": "[\"Chốt ký kết văn bản\",\"Lợi ích song phương\",\"Bản hợp đồng pháp lý\",\"Điều khoản hợp đồng\"]",
         "correctAnswer": "Lợi ích song phương",
         "explanation": "\"Mutual\" có phiên âm /ˈmjuː.tʃu.əl/ và mang nghĩa là \"Lợi ích song phương\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"Contract\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Contract\"]",
         "correctAnswer": "Contract",
         "explanation": "\"Contract\" (Bản hợp đồng pháp lý) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1169,13 +1169,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Concession\" là gì?",
-        "options": "[\"Sự nhượng bộ chiến lược\",\"Lợi thế đòn bẩy\",\"Lời đề nghị phản hồi lại\",\"Thế bế tắc giằng co\"]",
+        "options": "[\"Thế bế tắc giằng co\",\"Lời đề nghị phản hồi lại\",\"Lợi thế đòn bẩy\",\"Sự nhượng bộ chiến lược\"]",
         "correctAnswer": "Sự nhượng bộ chiến lược",
         "explanation": "\"Concession\" có phiên âm /ˌkənˈse.ʃən/ và mang nghĩa là \"Sự nhượng bộ chiến lược\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"Leverage\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Leverage\"]",
         "correctAnswer": "Leverage",
         "explanation": "\"Leverage\" (Lợi thế đòn bẩy) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1329,7 +1329,7 @@ module.exports = [
         "title": "Đọc hiểu bài 5: Marketing, Branding & Consumer Psychology",
         "passage": "Mastering the theme of \"Marketing, Branding & Consumer Psychology\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Branding\" (Chiến lược thương hiệu) and \"Consumer\" (Người tiêu dùng) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Demographic\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Marketing, Branding & Consumer Psychology\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Branding\" (Chiến lược thương hiệu) và \"Consumer\" (Người tiêu dùng) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Demographic\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Marketing, Branding & Consumer Psychology\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Marketing, Branding & Consumer Psychology\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Marketing, Branding & Consumer Psychology\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Branding\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Marketing, Branding & Consumer Psychology\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Marketing, Branding & Consumer Psychology\",\"explanation\":\"Đoạn văn khẳng định: \\\"Branding\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Marketing, Branding & Consumer Psychology\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Marketing, Branding & Consumer Psychology\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Marketing, Branding & Consumer Psychology\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Branding\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Marketing, Branding & Consumer Psychology\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Marketing, Branding & Consumer Psychology\",\"explanation\":\"The text points out that words like \\\"Branding\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -1344,7 +1344,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Branding\",\"conversation\",\"I\",\"daily\",\"use\",\"in\"]",
+        "options": "[\"I\",\"daily\",\"use\",\"conversation\",\"in\",\"Branding\"]",
         "correctAnswer": "I use Branding in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Branding in daily conversation\"."
       },
@@ -1394,13 +1394,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Branding\" là gì?",
-        "options": "[\"Nhận thức khách hàng\",\"Chiến lược thương hiệu\",\"Người tiêu dùng\",\"Đặc điểm nhân khẩu học\"]",
+        "options": "[\"Đặc điểm nhân khẩu học\",\"Chiến lược thương hiệu\",\"Nhận thức khách hàng\",\"Người tiêu dùng\"]",
         "correctAnswer": "Chiến lược thương hiệu",
         "explanation": "\"Branding\" có phiên âm /ˈbræn.dɪŋ/ và mang nghĩa là \"Chiến lược thương hiệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Consumer\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Consumer\"]",
         "correctAnswer": "Consumer",
         "explanation": "\"Consumer\" (Người tiêu dùng) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1418,7 +1418,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Loyalty\"]",
+        "options": "[\"Loyalty\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Loyalty",
         "explanation": "\"Loyalty\" (Lòng trung thành nhãn hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1436,7 +1436,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Value proposition\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Value proposition\"]",
         "correctAnswer": "Value proposition",
         "explanation": "\"Value proposition\" (Tuyên ngôn giá trị) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1454,7 +1454,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"Branding\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Branding\"]",
         "correctAnswer": "Branding",
         "explanation": "\"Branding\" (Chiến lược thương hiệu) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1466,13 +1466,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Demographic\" là gì?",
-        "options": "[\"Đặc điểm nhân khẩu học\",\"Lòng trung thành nhãn hàng\",\"Nhận thức khách hàng\",\"Chiến dịch tiếp thị\"]",
+        "options": "[\"Chiến dịch tiếp thị\",\"Lòng trung thành nhãn hàng\",\"Nhận thức khách hàng\",\"Đặc điểm nhân khẩu học\"]",
         "correctAnswer": "Đặc điểm nhân khẩu học",
         "explanation": "\"Demographic\" có phiên âm /ˌde.məˈɡræ.fɪk/ và mang nghĩa là \"Đặc điểm nhân khẩu học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"Perception\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Perception\"]",
         "correctAnswer": "Perception",
         "explanation": "\"Perception\" (Nhận thức khách hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1626,7 +1626,7 @@ module.exports = [
         "title": "Đọc hiểu bài 6: Financial Markets & Global Economy",
         "passage": "Mastering the theme of \"Financial Markets & Global Economy\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Inflation\" (Lạm phát phi mã) and \"Recession\" (Suy thoái kinh tế) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Stock market\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Financial Markets & Global Economy\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Inflation\" (Lạm phát phi mã) và \"Recession\" (Suy thoái kinh tế) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Stock market\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Financial Markets & Global Economy\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Financial Markets & Global Economy\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Financial Markets & Global Economy\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Inflation\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Financial Markets & Global Economy\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Financial Markets & Global Economy\",\"explanation\":\"Đoạn văn khẳng định: \\\"Inflation\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Financial Markets & Global Economy\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Financial Markets & Global Economy\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Financial Markets & Global Economy\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Inflation\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Financial Markets & Global Economy\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Financial Markets & Global Economy\",\"explanation\":\"The text points out that words like \\\"Inflation\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -1641,7 +1641,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"in\",\"daily\",\"Inflation\",\"conversation\"]",
+        "options": "[\"conversation\",\"daily\",\"I\",\"in\",\"use\",\"Inflation\"]",
         "correctAnswer": "I use Inflation in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Inflation in daily conversation\"."
       },
@@ -1691,13 +1691,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Inflation\" là gì?",
-        "options": "[\"Thị trường chứng khoán\",\"Suy thoái kinh tế\",\"Lạm phát phi mã\",\"Mức lãi suất ngân hàng\"]",
+        "options": "[\"Thị trường chứng khoán\",\"Mức lãi suất ngân hàng\",\"Suy thoái kinh tế\",\"Lạm phát phi mã\"]",
         "correctAnswer": "Lạm phát phi mã",
         "explanation": "\"Inflation\" có phiên âm /ˌɪnˈfleɪ.ʃən/ và mang nghĩa là \"Lạm phát phi mã\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Recession\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"Recession\",\"bananas\"]",
         "correctAnswer": "Recession",
         "explanation": "\"Recession\" (Suy thoái kinh tế) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1709,13 +1709,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Interest\" là gì?",
-        "options": "[\"Sự biến động thất thường\",\"Mức lãi suất ngân hàng\",\"Tài sản có giá trị\",\"Nghĩa vụ nợ nần\"]",
+        "options": "[\"Tài sản có giá trị\",\"Mức lãi suất ngân hàng\",\"Sự biến động thất thường\",\"Nghĩa vụ nợ nần\"]",
         "correctAnswer": "Mức lãi suất ngân hàng",
         "explanation": "\"Interest\" có phiên âm /ˈɪn.trəst/ và mang nghĩa là \"Mức lãi suất ngân hàng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Asset\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Asset\"]",
         "correctAnswer": "Asset",
         "explanation": "\"Asset\" (Tài sản có giá trị) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1727,13 +1727,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Volatility\" là gì?",
-        "options": "[\"Tăng trưởng kinh tế\",\"Chính sách tiền tệ\",\"Tỷ suất sinh lời\",\"Sự biến động thất thường\"]",
+        "options": "[\"Tăng trưởng kinh tế\",\"Sự biến động thất thường\",\"Tỷ suất sinh lời\",\"Chính sách tiền tệ\"]",
         "correctAnswer": "Sự biến động thất thường",
         "explanation": "\"Volatility\" có phiên âm /ˌvɑː.ləˈtɪ.lə.ti/ và mang nghĩa là \"Sự biến động thất thường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Yield\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Yield\",\"airplanes\"]",
         "correctAnswer": "Yield",
         "explanation": "\"Yield\" (Tỷ suất sinh lời) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1745,13 +1745,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Economic growth\" là gì?",
-        "options": "[\"Thị trường chứng khoán\",\"Suy thoái kinh tế\",\"Lạm phát phi mã\",\"Tăng trưởng kinh tế\"]",
+        "options": "[\"Lạm phát phi mã\",\"Suy thoái kinh tế\",\"Tăng trưởng kinh tế\",\"Thị trường chứng khoán\"]",
         "correctAnswer": "Tăng trưởng kinh tế",
         "explanation": "\"Economic growth\" có phiên âm /ˌe.kəˈnɑː.mɪk ˈɡroʊθ/ và mang nghĩa là \"Tăng trưởng kinh tế\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Inflation\"]",
+        "options": "[\"Inflation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Inflation",
         "explanation": "\"Inflation\" (Lạm phát phi mã) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1769,7 +1769,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"Interest\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Interest\"]",
         "correctAnswer": "Interest",
         "explanation": "\"Interest\" (Mức lãi suất ngân hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1923,7 +1923,7 @@ module.exports = [
         "title": "Đọc hiểu bài 7: Corporate Social Responsibility (CSR)",
         "passage": "Mastering the theme of \"Corporate Social Responsibility (CSR)\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Sustainability\" (Tính bền vững dài lâu) and \"Corporate responsibility\" (Trách nhiệm doanh nghiệp) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Philanthropy\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Corporate Social Responsibility (CSR)\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Sustainability\" (Tính bền vững dài lâu) và \"Corporate responsibility\" (Trách nhiệm doanh nghiệp) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Philanthropy\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Corporate Social Responsibility (CSR)\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Corporate Social Responsibility (CSR)\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Corporate Social Responsibility (CSR)\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Sustainability\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Corporate Social Responsibility (CSR)\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Corporate Social Responsibility (CSR)\",\"explanation\":\"Đoạn văn khẳng định: \\\"Sustainability\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Corporate Social Responsibility (CSR)\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Corporate Social Responsibility (CSR)\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Corporate Social Responsibility (CSR)\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Sustainability\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Corporate Social Responsibility (CSR)\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Corporate Social Responsibility (CSR)\",\"explanation\":\"The text points out that words like \\\"Sustainability\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -1938,7 +1938,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"in\",\"Sustainability\",\"daily\",\"conversation\"]",
+        "options": "[\"Sustainability\",\"conversation\",\"daily\",\"use\",\"I\",\"in\"]",
         "correctAnswer": "I use Sustainability in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Sustainability in daily conversation\"."
       },
@@ -1988,13 +1988,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sustainability\" là gì?",
-        "options": "[\"Dấu chân phát thải carbon\",\"Trách nhiệm doanh nghiệp\",\"Hoạt động từ thiện nhân đạo\",\"Tính bền vững dài lâu\"]",
+        "options": "[\"Tính bền vững dài lâu\",\"Trách nhiệm doanh nghiệp\",\"Hoạt động từ thiện nhân đạo\",\"Dấu chân phát thải carbon\"]",
         "correctAnswer": "Tính bền vững dài lâu",
         "explanation": "\"Sustainability\" có phiên âm /ˌsə.steɪ.nəˈbɪ.lɪ.ti/ và mang nghĩa là \"Tính bền vững dài lâu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"Corporate responsibility\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Corporate responsibility\",\"bananas\"]",
         "correctAnswer": "Corporate responsibility",
         "explanation": "\"Corporate responsibility\" (Trách nhiệm doanh nghiệp) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -2006,13 +2006,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Carbon footprint\" là gì?",
-        "options": "[\"Dấu chân phát thải carbon\",\"Năng lượng sạch tái tạo\",\"Năng lực quản trị công ty\",\"Các bên liên quan\"]",
+        "options": "[\"Các bên liên quan\",\"Năng lực quản trị công ty\",\"Năng lượng sạch tái tạo\",\"Dấu chân phát thải carbon\"]",
         "correctAnswer": "Dấu chân phát thải carbon",
         "explanation": "\"Carbon footprint\" có phiên âm /ˈkɑːr.bən ˈfʊt.prɪnt/ và mang nghĩa là \"Dấu chân phát thải carbon\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Renewable\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Renewable\"]",
         "correctAnswer": "Renewable",
         "explanation": "\"Renewable\" (Năng lượng sạch tái tạo) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -2024,13 +2024,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Stakeholder\" là gì?",
-        "options": "[\"Tác động tích cực xã hội\",\"Chuỗi cung ứng toàn cầu\",\"Các bên liên quan\",\"Tẩy xanh (giả tạo vì môi trường)\"]",
+        "options": "[\"Tác động tích cực xã hội\",\"Tẩy xanh (giả tạo vì môi trường)\",\"Chuỗi cung ứng toàn cầu\",\"Các bên liên quan\"]",
         "correctAnswer": "Các bên liên quan",
         "explanation": "\"Stakeholder\" có phiên âm /ˈsteɪk.hoʊl.dər/ và mang nghĩa là \"Các bên liên quan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"bananas\",\"Supply chain\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Supply chain\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Supply chain",
         "explanation": "\"Supply chain\" (Chuỗi cung ứng toàn cầu) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -2042,13 +2042,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Impact\" là gì?",
-        "options": "[\"Hoạt động từ thiện nhân đạo\",\"Tính bền vững dài lâu\",\"Trách nhiệm doanh nghiệp\",\"Tác động tích cực xã hội\"]",
+        "options": "[\"Tác động tích cực xã hội\",\"Tính bền vững dài lâu\",\"Trách nhiệm doanh nghiệp\",\"Hoạt động từ thiện nhân đạo\"]",
         "correctAnswer": "Tác động tích cực xã hội",
         "explanation": "\"Impact\" có phiên âm /ɪmˈpækt/ và mang nghĩa là \"Tác động tích cực xã hội\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"Sustainability\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Sustainability\"]",
         "correctAnswer": "Sustainability",
         "explanation": "\"Sustainability\" (Tính bền vững dài lâu) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -2060,13 +2060,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Philanthropy\" là gì?",
-        "options": "[\"Hoạt động từ thiện nhân đạo\",\"Năng lượng sạch tái tạo\",\"Năng lực quản trị công ty\",\"Dấu chân phát thải carbon\"]",
+        "options": "[\"Hoạt động từ thiện nhân đạo\",\"Dấu chân phát thải carbon\",\"Năng lực quản trị công ty\",\"Năng lượng sạch tái tạo\"]",
         "correctAnswer": "Hoạt động từ thiện nhân đạo",
         "explanation": "\"Philanthropy\" có phiên âm /ˌfɪˈlæn.θrə.pi/ và mang nghĩa là \"Hoạt động từ thiện nhân đạo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Carbon footprint\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Carbon footprint\",\"airplanes\"]",
         "correctAnswer": "Carbon footprint",
         "explanation": "\"Carbon footprint\" (Dấu chân phát thải carbon) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -2220,7 +2220,7 @@ module.exports = [
         "title": "Đọc hiểu bài 8: Biotechnology & Scientific Breakthroughs",
         "passage": "Mastering the theme of \"Biotechnology & Scientific Breakthroughs\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Biotechnology\" (Công nghệ sinh học) and \"Genetics\" (Di truyền học) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Breakthrough\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Biotechnology & Scientific Breakthroughs\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Biotechnology\" (Công nghệ sinh học) và \"Genetics\" (Di truyền học) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Breakthrough\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Biotechnology & Scientific Breakthroughs\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Biotechnology & Scientific Breakthroughs\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Biotechnology & Scientific Breakthroughs\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Biotechnology\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Biotechnology & Scientific Breakthroughs\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Biotechnology & Scientific Breakthroughs\",\"explanation\":\"Đoạn văn khẳng định: \\\"Biotechnology\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Biotechnology & Scientific Breakthroughs\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Biotechnology & Scientific Breakthroughs\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Biotechnology & Scientific Breakthroughs\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Biotechnology\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Biotechnology & Scientific Breakthroughs\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Biotechnology & Scientific Breakthroughs\",\"explanation\":\"The text points out that words like \\\"Biotechnology\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -2235,7 +2235,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Biotechnology\",\"use\",\"daily\",\"in\",\"I\",\"conversation\"]",
+        "options": "[\"I\",\"in\",\"Biotechnology\",\"use\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Biotechnology in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Biotechnology in daily conversation\"."
       },
@@ -2285,7 +2285,7 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Biotechnology\" là gì?",
-        "options": "[\"Đột phá mang tính cách mạng\",\"Di truyền học\",\"Công nghệ sinh học\",\"Vắc-xin phòng bệnh\"]",
+        "options": "[\"Vắc-xin phòng bệnh\",\"Đột phá mang tính cách mạng\",\"Di truyền học\",\"Công nghệ sinh học\"]",
         "correctAnswer": "Công nghệ sinh học",
         "explanation": "\"Biotechnology\" có phiên âm /ˌbaɪ.oʊ.tekˈnɑː.lə.dʒi/ và mang nghĩa là \"Công nghệ sinh học\"."
       },
@@ -2303,13 +2303,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Vaccine\" là gì?",
-        "options": "[\"Hệ thống miễn dịch\",\"Thử nghiệm lâm sàng\",\"Phương pháp trị liệu\",\"Vắc-xin phòng bệnh\"]",
+        "options": "[\"Phương pháp trị liệu\",\"Hệ thống miễn dịch\",\"Thử nghiệm lâm sàng\",\"Vắc-xin phòng bệnh\"]",
         "correctAnswer": "Vắc-xin phòng bệnh",
         "explanation": "\"Vaccine\" có phiên âm /vækˈsiːn/ và mang nghĩa là \"Vắc-xin phòng bệnh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"Clinical trial\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Clinical trial\"]",
         "correctAnswer": "Clinical trial",
         "explanation": "\"Clinical trial\" (Thử nghiệm lâm sàng) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2321,13 +2321,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Therapy\" là gì?",
-        "options": "[\"Mang tính tiên phong\",\"Cơ thể sinh vật\",\"Phương pháp trị liệu\",\"Sự biến đổi gen\"]",
+        "options": "[\"Phương pháp trị liệu\",\"Mang tính tiên phong\",\"Cơ thể sinh vật\",\"Sự biến đổi gen\"]",
         "correctAnswer": "Phương pháp trị liệu",
         "explanation": "\"Therapy\" có phiên âm /ˈθe.rə.pi/ và mang nghĩa là \"Phương pháp trị liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Organism\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"Organism\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Organism",
         "explanation": "\"Organism\" (Cơ thể sinh vật) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2339,13 +2339,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pioneering\" là gì?",
-        "options": "[\"Đột phá mang tính cách mạng\",\"Di truyền học\",\"Công nghệ sinh học\",\"Mang tính tiên phong\"]",
+        "options": "[\"Mang tính tiên phong\",\"Đột phá mang tính cách mạng\",\"Công nghệ sinh học\",\"Di truyền học\"]",
         "correctAnswer": "Mang tính tiên phong",
         "explanation": "\"Pioneering\" có phiên âm /ˌpaɪ.əˈnɪ.rɪŋ/ và mang nghĩa là \"Mang tính tiên phong\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"Biotechnology\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Biotechnology\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Biotechnology",
         "explanation": "\"Biotechnology\" (Công nghệ sinh học) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2357,13 +2357,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Breakthrough\" là gì?",
-        "options": "[\"Đột phá mang tính cách mạng\",\"Hệ thống miễn dịch\",\"Vắc-xin phòng bệnh\",\"Thử nghiệm lâm sàng\"]",
+        "options": "[\"Vắc-xin phòng bệnh\",\"Đột phá mang tính cách mạng\",\"Thử nghiệm lâm sàng\",\"Hệ thống miễn dịch\"]",
         "correctAnswer": "Đột phá mang tính cách mạng",
         "explanation": "\"Breakthrough\" có phiên âm /ˈbreɪk.θru/ và mang nghĩa là \"Đột phá mang tính cách mạng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Vaccine\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Vaccine\"]",
         "correctAnswer": "Vaccine",
         "explanation": "\"Vaccine\" (Vắc-xin phòng bệnh) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2517,7 +2517,7 @@ module.exports = [
         "title": "Đọc hiểu bài 9: Urbanization & Smart Cities",
         "passage": "Mastering the theme of \"Urbanization & Smart Cities\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Urbanization\" (Đô thị hóa) and \"Infrastructure\" (Cơ sở hạ tầng kỹ thuật) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Smart city\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Urbanization & Smart Cities\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Urbanization\" (Đô thị hóa) và \"Infrastructure\" (Cơ sở hạ tầng kỹ thuật) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Smart city\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Urbanization & Smart Cities\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Urbanization & Smart Cities\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Urbanization & Smart Cities\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Urbanization\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Urbanization & Smart Cities\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Urbanization & Smart Cities\",\"explanation\":\"Đoạn văn khẳng định: \\\"Urbanization\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Urbanization & Smart Cities\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Urbanization & Smart Cities\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Urbanization & Smart Cities\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Urbanization\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Urbanization & Smart Cities\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Urbanization & Smart Cities\",\"explanation\":\"The text points out that words like \\\"Urbanization\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -2532,7 +2532,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"daily\",\"in\",\"Urbanization\",\"use\",\"I\"]",
+        "options": "[\"Urbanization\",\"conversation\",\"in\",\"I\",\"daily\",\"use\"]",
         "correctAnswer": "I use Urbanization in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Urbanization in daily conversation\"."
       },
@@ -2582,13 +2582,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Urbanization\" là gì?",
-        "options": "[\"Sự ùn tắc quá tải\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị hóa\",\"Đô thị thông minh\"]",
+        "options": "[\"Đô thị hóa\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị thông minh\",\"Sự ùn tắc quá tải\"]",
         "correctAnswer": "Đô thị hóa",
         "explanation": "\"Urbanization\" có phiên âm /ˌər.bə.nəˈzeɪ.ʃən/ và mang nghĩa là \"Đô thị hóa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Infrastructure\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Infrastructure\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Infrastructure",
         "explanation": "\"Infrastructure\" (Cơ sở hạ tầng kỹ thuật) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2600,7 +2600,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Congestion\" là gì?",
-        "options": "[\"Sự ùn tắc quá tải\",\"Mật độ dân số\",\"Giao thông công cộng\",\"Nhà ở xã hội\"]",
+        "options": "[\"Sự ùn tắc quá tải\",\"Giao thông công cộng\",\"Nhà ở xã hội\",\"Mật độ dân số\"]",
         "correctAnswer": "Sự ùn tắc quá tải",
         "explanation": "\"Congestion\" có phiên âm /ˌkənˈdʒes.tʃən/ và mang nghĩa là \"Sự ùn tắc quá tải\"."
       },
@@ -2618,13 +2618,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Density\" là gì?",
-        "options": "[\"Kiến trúc công trình\",\"Mật độ dân số\",\"Quy hoạch phân khu\",\"Đại đô thị sầm uất\"]",
+        "options": "[\"Mật độ dân số\",\"Kiến trúc công trình\",\"Quy hoạch phân khu\",\"Đại đô thị sầm uất\"]",
         "correctAnswer": "Mật độ dân số",
         "explanation": "\"Density\" có phiên âm /ˈden.sə.ti/ và mang nghĩa là \"Mật độ dân số\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Architecture\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Architecture\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Architecture",
         "explanation": "\"Architecture\" (Kiến trúc công trình) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2636,13 +2636,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Metropolis\" là gì?",
-        "options": "[\"Đô thị thông minh\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị hóa\",\"Đại đô thị sầm uất\"]",
+        "options": "[\"Đại đô thị sầm uất\",\"Đô thị hóa\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị thông minh\"]",
         "correctAnswer": "Đại đô thị sầm uất",
         "explanation": "\"Metropolis\" có phiên âm /ˌməˈtrɑː.pə.ləs/ và mang nghĩa là \"Đại đô thị sầm uất\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Urbanization\"]",
+        "options": "[\"Urbanization\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Urbanization",
         "explanation": "\"Urbanization\" (Đô thị hóa) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2654,13 +2654,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Smart city\" là gì?",
-        "options": "[\"Nhà ở xã hội\",\"Đô thị thông minh\",\"Sự ùn tắc quá tải\",\"Giao thông công cộng\"]",
+        "options": "[\"Nhà ở xã hội\",\"Đô thị thông minh\",\"Giao thông công cộng\",\"Sự ùn tắc quá tải\"]",
         "correctAnswer": "Đô thị thông minh",
         "explanation": "\"Smart city\" có phiên âm /ˈsmɑːrt ˈsɪ.ti/ và mang nghĩa là \"Đô thị thông minh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Congestion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Congestion\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Congestion",
         "explanation": "\"Congestion\" (Sự ùn tắc quá tải) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2814,7 +2814,7 @@ module.exports = [
         "title": "Đọc hiểu bài 10: Cross-Cultural Communication",
         "passage": "Mastering the theme of \"Cross-Cultural Communication\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Cross-cultural\" (Liên văn hóa) and \"Nuance\" (Sắc thái tinh tế) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Stereotype\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Cross-Cultural Communication\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Cross-cultural\" (Liên văn hóa) và \"Nuance\" (Sắc thái tinh tế) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Stereotype\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Cross-Cultural Communication\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Cross-Cultural Communication\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Cross-Cultural Communication\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Cross-cultural\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Cross-Cultural Communication\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Cross-Cultural Communication\",\"explanation\":\"Đoạn văn khẳng định: \\\"Cross-cultural\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Cross-Cultural Communication\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Cross-Cultural Communication\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Cross-Cultural Communication\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Cross-cultural\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Cross-Cultural Communication\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Cross-Cultural Communication\",\"explanation\":\"The text points out that words like \\\"Cross-cultural\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -2829,7 +2829,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"I\",\"use\",\"Cross-cultural\",\"in\",\"daily\"]",
+        "options": "[\"use\",\"in\",\"conversation\",\"Cross-cultural\",\"I\",\"daily\"]",
         "correctAnswer": "I use Cross-cultural in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Cross-cultural in daily conversation\"."
       },
@@ -2879,13 +2879,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cross-cultural\" là gì?",
-        "options": "[\"Sắc thái tinh tế\",\"Liên văn hóa\",\"Sự thấu cảm sâu sắc\",\"Định kiến khuôn mẫu\"]",
+        "options": "[\"Sự thấu cảm sâu sắc\",\"Định kiến khuôn mẫu\",\"Sắc thái tinh tế\",\"Liên văn hóa\"]",
         "correctAnswer": "Liên văn hóa",
         "explanation": "\"Cross-cultural\" có phiên âm /ˈkrɔːˈskʌl.tʃər.əl/ và mang nghĩa là \"Liên văn hóa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Nuance\",\"airplanes\"]",
+        "options": "[\"Nuance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Nuance",
         "explanation": "\"Nuance\" (Sắc thái tinh tế) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2897,13 +2897,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Empathy\" là gì?",
-        "options": "[\"Điều cấm kỵ kiêng cữ\",\"Chuẩn mực văn hóa\",\"Sự hiểu lầm đáng tiếc\",\"Sự thấu cảm sâu sắc\"]",
+        "options": "[\"Sự hiểu lầm đáng tiếc\",\"Điều cấm kỵ kiêng cữ\",\"Chuẩn mực văn hóa\",\"Sự thấu cảm sâu sắc\"]",
         "correctAnswer": "Sự thấu cảm sâu sắc",
         "explanation": "\"Empathy\" có phiên âm /ˈem.pə.θi/ và mang nghĩa là \"Sự thấu cảm sâu sắc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"Norm\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Norm\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Norm",
         "explanation": "\"Norm\" (Chuẩn mực văn hóa) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2915,13 +2915,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Misunderstanding\" là gì?",
-        "options": "[\"Sự hiểu lầm đáng tiếc\",\"Tư duy công dân toàn cầu\",\"Khả năng thích ứng\",\"Tính đa dạng bản sắc\"]",
+        "options": "[\"Sự hiểu lầm đáng tiếc\",\"Khả năng thích ứng\",\"Tính đa dạng bản sắc\",\"Tư duy công dân toàn cầu\"]",
         "correctAnswer": "Sự hiểu lầm đáng tiếc",
         "explanation": "\"Misunderstanding\" có phiên âm /ˌmɪ.sən.dərˈstæn.dɪŋ/ và mang nghĩa là \"Sự hiểu lầm đáng tiếc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Adaptability\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Adaptability\",\"umbrellas\"]",
         "correctAnswer": "Adaptability",
         "explanation": "\"Adaptability\" (Khả năng thích ứng) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2933,13 +2933,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Global mindset\" là gì?",
-        "options": "[\"Định kiến khuôn mẫu\",\"Sắc thái tinh tế\",\"Liên văn hóa\",\"Tư duy công dân toàn cầu\"]",
+        "options": "[\"Tư duy công dân toàn cầu\",\"Định kiến khuôn mẫu\",\"Liên văn hóa\",\"Sắc thái tinh tế\"]",
         "correctAnswer": "Tư duy công dân toàn cầu",
         "explanation": "\"Global mindset\" có phiên âm /ˈɡloʊ.bəl ˈmaɪn.dset/ và mang nghĩa là \"Tư duy công dân toàn cầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Cross-cultural\"]",
+        "options": "[\"Cross-cultural\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Cross-cultural",
         "explanation": "\"Cross-cultural\" (Liên văn hóa) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2951,13 +2951,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Stereotype\" là gì?",
-        "options": "[\"Định kiến khuôn mẫu\",\"Sự thấu cảm sâu sắc\",\"Chuẩn mực văn hóa\",\"Điều cấm kỵ kiêng cữ\"]",
+        "options": "[\"Chuẩn mực văn hóa\",\"Điều cấm kỵ kiêng cữ\",\"Định kiến khuôn mẫu\",\"Sự thấu cảm sâu sắc\"]",
         "correctAnswer": "Định kiến khuôn mẫu",
         "explanation": "\"Stereotype\" có phiên âm /ˈste.ri.ə.taɪp/ và mang nghĩa là \"Định kiến khuôn mẫu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"Empathy\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Empathy\"]",
         "correctAnswer": "Empathy",
         "explanation": "\"Empathy\" (Sự thấu cảm sâu sắc) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -3111,7 +3111,7 @@ module.exports = [
         "title": "Đọc hiểu bài 11: The Third Conditional: Regrets & Past Hypotheses",
         "passage": "Mastering the theme of \"The Third Conditional: Regrets & Past Hypotheses\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Regret\" (Sự tiếc nuối muộn màng) and \"Alternative\" (Phương án thay thế) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Hindrance\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"The Third Conditional: Regrets & Past Hypotheses\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Regret\" (Sự tiếc nuối muộn màng) và \"Alternative\" (Phương án thay thế) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Hindrance\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"The Third Conditional: Regrets & Past Hypotheses\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Regret\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"explanation\":\"Đoạn văn khẳng định: \\\"Regret\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering The Third Conditional: Regrets & Past Hypotheses\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering The Third Conditional: Regrets & Past Hypotheses\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"The Third Conditional: Regrets & Past Hypotheses\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Regret\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic The Third Conditional: Regrets & Past Hypotheses\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic The Third Conditional: Regrets & Past Hypotheses\",\"explanation\":\"The text points out that words like \\\"Regret\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -3126,7 +3126,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"daily\",\"in\",\"Regret\",\"use\",\"I\"]",
+        "options": "[\"Regret\",\"daily\",\"use\",\"conversation\",\"I\",\"in\"]",
         "correctAnswer": "I use Regret in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Regret in daily conversation\"."
       },
@@ -3176,13 +3176,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Regret\" là gì?",
-        "options": "[\"Kết cục đạt được\",\"Sự tiếc nuối muộn màng\",\"Phương án thay thế\",\"Sự cản trở\"]",
+        "options": "[\"Sự tiếc nuối muộn màng\",\"Kết cục đạt được\",\"Phương án thay thế\",\"Sự cản trở\"]",
         "correctAnswer": "Sự tiếc nuối muộn màng",
         "explanation": "\"Regret\" có phiên âm /rəˈɡret/ và mang nghĩa là \"Sự tiếc nuối muộn màng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Alternative\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Alternative\"]",
         "correctAnswer": "Alternative",
         "explanation": "\"Alternative\" (Phương án thay thế) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3194,13 +3194,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Outcome\" là gì?",
-        "options": "[\"Bỏ lỡ cơ hội\",\"Ngăn chặn trước\",\"Điều không thể tránh khỏi\",\"Kết cục đạt được\"]",
+        "options": "[\"Bỏ lỡ cơ hội\",\"Kết cục đạt được\",\"Điều không thể tránh khỏi\",\"Ngăn chặn trước\"]",
         "correctAnswer": "Kết cục đạt được",
         "explanation": "\"Outcome\" có phiên âm /ˈaʊt.kəm/ và mang nghĩa là \"Kết cục đạt được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"Inevitable\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Inevitable\",\"umbrellas\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Inevitable",
         "explanation": "\"Inevitable\" (Điều không thể tránh khỏi) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3212,13 +3212,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Missed\" là gì?",
-        "options": "[\"Bỏ lỡ cơ hội\",\"Giả sử như vậy\",\"Sự nhìn lại sau khi đã xảy ra\",\"Hoàn cảnh thực tế\"]",
+        "options": "[\"Sự nhìn lại sau khi đã xảy ra\",\"Bỏ lỡ cơ hội\",\"Giả sử như vậy\",\"Hoàn cảnh thực tế\"]",
         "correctAnswer": "Bỏ lỡ cơ hội",
         "explanation": "\"Missed\" có phiên âm /ˈmɪst/ và mang nghĩa là \"Bỏ lỡ cơ hội\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Suppose\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Suppose\",\"bananas\"]",
         "correctAnswer": "Suppose",
         "explanation": "\"Suppose\" (Giả sử như vậy) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3230,13 +3230,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hindsight\" là gì?",
-        "options": "[\"Sự cản trở\",\"Phương án thay thế\",\"Sự tiếc nuối muộn màng\",\"Sự nhìn lại sau khi đã xảy ra\"]",
+        "options": "[\"Phương án thay thế\",\"Sự nhìn lại sau khi đã xảy ra\",\"Sự tiếc nuối muộn màng\",\"Sự cản trở\"]",
         "correctAnswer": "Sự nhìn lại sau khi đã xảy ra",
         "explanation": "\"Hindsight\" có phiên âm /ˈhaɪn.dsaɪt/ và mang nghĩa là \"Sự nhìn lại sau khi đã xảy ra\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Regret\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Regret\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Regret",
         "explanation": "\"Regret\" (Sự tiếc nuối muộn màng) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3248,13 +3248,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hindrance\" là gì?",
-        "options": "[\"Kết cục đạt được\",\"Ngăn chặn trước\",\"Sự cản trở\",\"Điều không thể tránh khỏi\"]",
+        "options": "[\"Sự cản trở\",\"Kết cục đạt được\",\"Điều không thể tránh khỏi\",\"Ngăn chặn trước\"]",
         "correctAnswer": "Sự cản trở",
         "explanation": "\"Hindrance\" có phiên âm /ˈhɪn.drəns/ và mang nghĩa là \"Sự cản trở\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"Outcome\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Outcome\",\"umbrellas\"]",
         "correctAnswer": "Outcome",
         "explanation": "\"Outcome\" (Kết cục đạt được) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3408,7 +3408,7 @@ module.exports = [
         "title": "Đọc hiểu bài 12: Mixed Conditionals in Complex Contexts",
         "passage": "Mastering the theme of \"Mixed Conditionals in Complex Contexts\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Hypothetical\" (Mang tính giả định) and \"Present state\" (Trạng thái hiện tại) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Past event\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Mixed Conditionals in Complex Contexts\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Hypothetical\" (Mang tính giả định) và \"Present state\" (Trạng thái hiện tại) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Past event\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Mixed Conditionals in Complex Contexts\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Mixed Conditionals in Complex Contexts\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Mixed Conditionals in Complex Contexts\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Hypothetical\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Mixed Conditionals in Complex Contexts\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Mixed Conditionals in Complex Contexts\",\"explanation\":\"Đoạn văn khẳng định: \\\"Hypothetical\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Mixed Conditionals in Complex Contexts\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Mixed Conditionals in Complex Contexts\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Mixed Conditionals in Complex Contexts\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Hypothetical\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Mixed Conditionals in Complex Contexts\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Mixed Conditionals in Complex Contexts\",\"explanation\":\"The text points out that words like \\\"Hypothetical\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -3423,7 +3423,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Hypothetical\",\"I\",\"daily\",\"use\",\"in\",\"conversation\"]",
+        "options": "[\"use\",\"in\",\"I\",\"daily\",\"conversation\",\"Hypothetical\"]",
         "correctAnswer": "I use Hypothetical in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Hypothetical in daily conversation\"."
       },
@@ -3473,13 +3473,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hypothetical\" là gì?",
-        "options": "[\"Mang tính giả định\",\"Trạng thái hiện tại\",\"Biến cố trong quá khứ\",\"Hệ quả kéo dài đến nay\"]",
+        "options": "[\"Hệ quả kéo dài đến nay\",\"Trạng thái hiện tại\",\"Mang tính giả định\",\"Biến cố trong quá khứ\"]",
         "correctAnswer": "Mang tính giả định",
         "explanation": "\"Hypothetical\" có phiên âm /ˌhaɪ.pəˈθe.tə.kəl/ và mang nghĩa là \"Mang tính giả định\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Present state\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Present state\"]",
         "correctAnswer": "Present state",
         "explanation": "\"Present state\" (Trạng thái hiện tại) là từ vựng chính xác trong ngữ cảnh chủ đề Mixed Conditionals in Complex Contexts."
       },
@@ -3491,13 +3491,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consequence\" là gì?",
-        "options": "[\"Ảnh hưởng to lớn\",\"Quyết định định mệnh\",\"Có tính chất then chốt\",\"Hệ quả kéo dài đến nay\"]",
+        "options": "[\"Quyết định định mệnh\",\"Có tính chất then chốt\",\"Hệ quả kéo dài đến nay\",\"Ảnh hưởng to lớn\"]",
         "correctAnswer": "Hệ quả kéo dài đến nay",
         "explanation": "\"Consequence\" có phiên âm /ˈkɑːn.sək.wəns/ và mang nghĩa là \"Hệ quả kéo dài đến nay\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
-        "options": "[\"Crucial\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Crucial\"]",
         "correctAnswer": "Crucial",
         "explanation": "\"Crucial\" (Có tính chất then chốt) là từ vựng chính xác trong ngữ cảnh chủ đề Mixed Conditionals in Complex Contexts."
       },
@@ -3509,7 +3509,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Influence\" là gì?",
-        "options": "[\"Nếu không thì\",\"Giả định rằng\",\"Miễn là điều kiện\",\"Ảnh hưởng to lớn\"]",
+        "options": "[\"Ảnh hưởng to lớn\",\"Nếu không thì\",\"Miễn là điều kiện\",\"Giả định rằng\"]",
         "correctAnswer": "Ảnh hưởng to lớn",
         "explanation": "\"Influence\" có phiên âm /ˈɪn.flu.əns/ và mang nghĩa là \"Ảnh hưởng to lớn\"."
       },
@@ -3533,7 +3533,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Hypothetical\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Hypothetical\",\"airplanes\"]",
         "correctAnswer": "Hypothetical",
         "explanation": "\"Hypothetical\" (Mang tính giả định) là từ vựng chính xác trong ngữ cảnh chủ đề Mixed Conditionals in Complex Contexts."
       },
@@ -3545,13 +3545,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Past event\" là gì?",
-        "options": "[\"Biến cố trong quá khứ\",\"Quyết định định mệnh\",\"Hệ quả kéo dài đến nay\",\"Có tính chất then chốt\"]",
+        "options": "[\"Quyết định định mệnh\",\"Có tính chất then chốt\",\"Hệ quả kéo dài đến nay\",\"Biến cố trong quá khứ\"]",
         "correctAnswer": "Biến cố trong quá khứ",
         "explanation": "\"Past event\" có phiên âm /ˈpæst ɪˈvent/ và mang nghĩa là \"Biến cố trong quá khứ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Consequence\",\"umbrellas\",\"bananas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Consequence\",\"airplanes\"]",
         "correctAnswer": "Consequence",
         "explanation": "\"Consequence\" (Hệ quả kéo dài đến nay) là từ vựng chính xác trong ngữ cảnh chủ đề Mixed Conditionals in Complex Contexts."
       },
@@ -3705,7 +3705,7 @@ module.exports = [
         "title": "Đọc hiểu bài 13: Advanced Relative Clauses",
         "passage": "Mastering the theme of \"Advanced Relative Clauses\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Whom\" (Đại từ quan hệ chỉ người (tân ngữ)) and \"Whose\" (Đại từ quan hệ sở hữu) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Whereby\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Advanced Relative Clauses\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Whom\" (Đại từ quan hệ chỉ người (tân ngữ)) và \"Whose\" (Đại từ quan hệ sở hữu) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Whereby\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Advanced Relative Clauses\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Advanced Relative Clauses\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Advanced Relative Clauses\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Whom\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Advanced Relative Clauses\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Advanced Relative Clauses\",\"explanation\":\"Đoạn văn khẳng định: \\\"Whom\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Advanced Relative Clauses\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Advanced Relative Clauses\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Advanced Relative Clauses\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Whom\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Advanced Relative Clauses\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Advanced Relative Clauses\",\"explanation\":\"The text points out that words like \\\"Whom\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -3720,7 +3720,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Whom\",\"in\",\"I\",\"conversation\",\"daily\",\"use\"]",
+        "options": "[\"conversation\",\"in\",\"I\",\"daily\",\"use\",\"Whom\"]",
         "correctAnswer": "I use Whom in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Whom in daily conversation\"."
       },
@@ -3770,13 +3770,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Whom\" là gì?",
-        "options": "[\"Trong đó\",\"Đại từ quan hệ sở hữu\",\"Đại từ quan hệ chỉ người (tân ngữ)\",\"Nhờ đó mà\"]",
+        "options": "[\"Trong đó\",\"Nhờ đó mà\",\"Đại từ quan hệ sở hữu\",\"Đại từ quan hệ chỉ người (tân ngữ)\"]",
         "correctAnswer": "Đại từ quan hệ chỉ người (tân ngữ)",
         "explanation": "\"Whom\" có phiên âm /ˈhuːm/ và mang nghĩa là \"Đại từ quan hệ chỉ người (tân ngữ)\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Whose\",\"airplanes\"]",
+        "options": "[\"bananas\",\"Whose\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Whose",
         "explanation": "\"Whose\" (Đại từ quan hệ sở hữu) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -3788,13 +3788,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Wherein\" là gì?",
-        "options": "[\"Sự lược bỏ đại từ\",\"Có tính chất liên hệ\",\"Mệnh đề ngữ pháp\",\"Trong đó\"]",
+        "options": "[\"Trong đó\",\"Sự lược bỏ đại từ\",\"Mệnh đề ngữ pháp\",\"Có tính chất liên hệ\"]",
         "correctAnswer": "Trong đó",
         "explanation": "\"Wherein\" có phiên âm /weˈrɪn/ và mang nghĩa là \"Trong đó\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Clause\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Clause\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Clause",
         "explanation": "\"Clause\" (Mệnh đề ngữ pháp) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -3812,7 +3812,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Reduced\"]",
+        "options": "[\"bananas\",\"Reduced\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Reduced",
         "explanation": "\"Reduced\" (Dạng mệnh đề rút gọn) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -3824,13 +3824,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Clarification\" là gì?",
-        "options": "[\"Sự bổ nghĩa làm rõ\",\"Nhờ đó mà\",\"Đại từ quan hệ chỉ người (tân ngữ)\",\"Đại từ quan hệ sở hữu\"]",
+        "options": "[\"Đại từ quan hệ chỉ người (tân ngữ)\",\"Nhờ đó mà\",\"Đại từ quan hệ sở hữu\",\"Sự bổ nghĩa làm rõ\"]",
         "correctAnswer": "Sự bổ nghĩa làm rõ",
         "explanation": "\"Clarification\" có phiên âm /ˌkle.rə.fəˈkeɪ.ʃən/ và mang nghĩa là \"Sự bổ nghĩa làm rõ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Whom\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Whom\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Whom",
         "explanation": "\"Whom\" (Đại từ quan hệ chỉ người (tân ngữ)) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -3842,13 +3842,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Whereby\" là gì?",
-        "options": "[\"Có tính chất liên hệ\",\"Nhờ đó mà\",\"Mệnh đề ngữ pháp\",\"Trong đó\"]",
+        "options": "[\"Mệnh đề ngữ pháp\",\"Trong đó\",\"Có tính chất liên hệ\",\"Nhờ đó mà\"]",
         "correctAnswer": "Nhờ đó mà",
         "explanation": "\"Whereby\" có phiên âm /werˈbaɪ/ và mang nghĩa là \"Nhờ đó mà\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"Wherein\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Wherein\"]",
         "correctAnswer": "Wherein",
         "explanation": "\"Wherein\" (Trong đó) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -4002,7 +4002,7 @@ module.exports = [
         "title": "Đọc hiểu bài 14: Idiomatic English in the Workplace",
         "passage": "Mastering the theme of \"Idiomatic English in the Workplace\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Touch base\" (Liên lạc ngắn gọn cập nhật) and \"Cut corners\" (Làm ẩu, đi đường tắt) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Hit the ground running\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Idiomatic English in the Workplace\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Touch base\" (Liên lạc ngắn gọn cập nhật) và \"Cut corners\" (Làm ẩu, đi đường tắt) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Hit the ground running\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Idiomatic English in the Workplace\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Idiomatic English in the Workplace\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Idiomatic English in the Workplace\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Touch base\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Idiomatic English in the Workplace\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Idiomatic English in the Workplace\",\"explanation\":\"Đoạn văn khẳng định: \\\"Touch base\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Idiomatic English in the Workplace\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Idiomatic English in the Workplace\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Idiomatic English in the Workplace\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Touch base\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Idiomatic English in the Workplace\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Idiomatic English in the Workplace\",\"explanation\":\"The text points out that words like \\\"Touch base\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -4017,7 +4017,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Touch\",\"use\",\"base\",\"daily\",\"I\",\"in\"]",
+        "options": "[\"base\",\"in\",\"I\",\"Touch\",\"daily\",\"use\"]",
         "correctAnswer": "I use Touch base in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Touch base in daily\"."
       },
@@ -4067,13 +4067,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Touch base\" là gì?",
-        "options": "[\"Liên lạc ngắn gọn cập nhật\",\"Làm ẩu, đi đường tắt\",\"Cùng chung chí hướng\",\"Bắt tay ngay vào việc thần tốc\"]",
+        "options": "[\"Làm ẩu, đi đường tắt\",\"Bắt tay ngay vào việc thần tốc\",\"Cùng chung chí hướng\",\"Liên lạc ngắn gọn cập nhật\"]",
         "correctAnswer": "Liên lạc ngắn gọn cập nhật",
         "explanation": "\"Touch base\" có phiên âm /ˈtʌtʃ ˈbeɪs/ và mang nghĩa là \"Liên lạc ngắn gọn cập nhật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Cut corners\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Cut corners\",\"bananas\"]",
         "correctAnswer": "Cut corners",
         "explanation": "\"Cut corners\" (Làm ẩu, đi đường tắt) là từ vựng chính xác trong ngữ cảnh chủ đề Idiomatic English in the Workplace."
       },
@@ -4085,13 +4085,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"On the same page\" là gì?",
-        "options": "[\"Cùng chung chí hướng\",\"Con số ước lượng đại khái\",\"Tư duy sáng tạo đột phá\",\"Làm lại từ đầu khi thất bại\"]",
+        "options": "[\"Tư duy sáng tạo đột phá\",\"Cùng chung chí hướng\",\"Con số ước lượng đại khái\",\"Làm lại từ đầu khi thất bại\"]",
         "correctAnswer": "Cùng chung chí hướng",
         "explanation": "\"On the same page\" có phiên âm /ˈɑːn ðə ˈseɪm ˈpeɪdʒ/ và mang nghĩa là \"Cùng chung chí hướng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
-        "options": "[\"Think outside the box\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Think outside the box\"]",
         "correctAnswer": "Think outside the box",
         "explanation": "\"Think outside the box\" (Tư duy sáng tạo đột phá) là từ vựng chính xác trong ngữ cảnh chủ đề Idiomatic English in the Workplace."
       },
@@ -4103,7 +4103,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Back to the drawing board\" là gì?",
-        "options": "[\"Cắn răng chịu đựng thử thách\",\"Làm lại từ đầu khi thất bại\",\"Kết thúc ngày làm việc\",\"Đi trước xu hướng thời đại\"]",
+        "options": "[\"Đi trước xu hướng thời đại\",\"Kết thúc ngày làm việc\",\"Cắn răng chịu đựng thử thách\",\"Làm lại từ đầu khi thất bại\"]",
         "correctAnswer": "Làm lại từ đầu khi thất bại",
         "explanation": "\"Back to the drawing board\" có phiên âm /ˈbæk ˈtuː ðə ˈdrɔː.ɪŋ ˈbɔːrd/ và mang nghĩa là \"Làm lại từ đầu khi thất bại\"."
       },
@@ -4121,13 +4121,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ahead of the curve\" là gì?",
-        "options": "[\"Đi trước xu hướng thời đại\",\"Bắt tay ngay vào việc thần tốc\",\"Liên lạc ngắn gọn cập nhật\",\"Làm ẩu, đi đường tắt\"]",
+        "options": "[\"Bắt tay ngay vào việc thần tốc\",\"Làm ẩu, đi đường tắt\",\"Liên lạc ngắn gọn cập nhật\",\"Đi trước xu hướng thời đại\"]",
         "correctAnswer": "Đi trước xu hướng thời đại",
         "explanation": "\"Ahead of the curve\" có phiên âm /əˈhed ˈʌv ðə ˈkɜːrv/ và mang nghĩa là \"Đi trước xu hướng thời đại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Touch base\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Touch base\"]",
         "correctAnswer": "Touch base",
         "explanation": "\"Touch base\" (Liên lạc ngắn gọn cập nhật) là từ vựng chính xác trong ngữ cảnh chủ đề Idiomatic English in the Workplace."
       },
@@ -4139,13 +4139,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hit the ground running\" là gì?",
-        "options": "[\"Bắt tay ngay vào việc thần tốc\",\"Cùng chung chí hướng\",\"Tư duy sáng tạo đột phá\",\"Con số ước lượng đại khái\"]",
+        "options": "[\"Con số ước lượng đại khái\",\"Bắt tay ngay vào việc thần tốc\",\"Cùng chung chí hướng\",\"Tư duy sáng tạo đột phá\"]",
         "correctAnswer": "Bắt tay ngay vào việc thần tốc",
         "explanation": "\"Hit the ground running\" có phiên âm /ˈhɪt ðə ˈɡraʊnd ˈrʌ.nɪŋ/ và mang nghĩa là \"Bắt tay ngay vào việc thần tốc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
-        "options": "[\"On the same page\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"On the same page\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "On the same page",
         "explanation": "\"On the same page\" (Cùng chung chí hướng) là từ vựng chính xác trong ngữ cảnh chủ đề Idiomatic English in the Workplace."
       },
@@ -4299,7 +4299,7 @@ module.exports = [
         "title": "Đọc hiểu bài 15: Essential Academic Collocations",
         "passage": "Mastering the theme of \"Essential Academic Collocations\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Conduct research\" (Tiến hành nghiên cứu) and \"Draw conclusions\" (Rút ra kết luận) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Shed light on\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Essential Academic Collocations\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Conduct research\" (Tiến hành nghiên cứu) và \"Draw conclusions\" (Rút ra kết luận) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Shed light on\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Essential Academic Collocations\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Essential Academic Collocations\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Essential Academic Collocations\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Conduct research\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Essential Academic Collocations\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Essential Academic Collocations\",\"explanation\":\"Đoạn văn khẳng định: \\\"Conduct research\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Essential Academic Collocations\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Essential Academic Collocations\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Essential Academic Collocations\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Conduct research\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Essential Academic Collocations\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Essential Academic Collocations\",\"explanation\":\"The text points out that words like \\\"Conduct research\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -4314,7 +4314,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Conduct\",\"in\",\"daily\",\"use\",\"research\",\"I\"]",
+        "options": "[\"research\",\"Conduct\",\"daily\",\"I\",\"use\",\"in\"]",
         "correctAnswer": "I use Conduct research in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Conduct research in daily\"."
       },
@@ -4364,13 +4364,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Conduct research\" là gì?",
-        "options": "[\"Rút ra kết luận\",\"Giải quyết vấn nạn\",\"Làm sáng tỏ vấn đề\",\"Tiến hành nghiên cứu\"]",
+        "options": "[\"Rút ra kết luận\",\"Tiến hành nghiên cứu\",\"Làm sáng tỏ vấn đề\",\"Giải quyết vấn nạn\"]",
         "correctAnswer": "Tiến hành nghiên cứu",
         "explanation": "\"Conduct research\" có phiên âm /kənˈdʌkt riˈsɜːrtʃ/ và mang nghĩa là \"Tiến hành nghiên cứu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Draw conclusions\"]",
+        "options": "[\"Draw conclusions\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Draw conclusions",
         "explanation": "\"Draw conclusions\" (Rút ra kết luận) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4382,13 +4382,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Address the issue\" là gì?",
-        "options": "[\"Gây ra mối đe dọa\",\"Giải quyết vấn nạn\",\"Đóng vai trò trọng yếu\",\"Có được cái nhìn sâu sắc\"]",
+        "options": "[\"Giải quyết vấn nạn\",\"Gây ra mối đe dọa\",\"Đóng vai trò trọng yếu\",\"Có được cái nhìn sâu sắc\"]",
         "correctAnswer": "Giải quyết vấn nạn",
         "explanation": "\"Address the issue\" có phiên âm /ˈæ.dres ðə ˈɪ.ʃu/ và mang nghĩa là \"Giải quyết vấn nạn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Play a vital role\",\"bananas\"]",
+        "options": "[\"umbrellas\",\"Play a vital role\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Play a vital role",
         "explanation": "\"Play a vital role\" (Đóng vai trò trọng yếu) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4400,13 +4400,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pose a threat\" là gì?",
-        "options": "[\"Gây ra mối đe dọa\",\"Bằng chứng xác thực dồi dào\",\"Đáp ứng kỳ vọng\",\"Hiểu biết sâu rộng\"]",
+        "options": "[\"Bằng chứng xác thực dồi dào\",\"Hiểu biết sâu rộng\",\"Đáp ứng kỳ vọng\",\"Gây ra mối đe dọa\"]",
         "correctAnswer": "Gây ra mối đe dọa",
         "explanation": "\"Pose a threat\" có phiên âm /ˈpoʊz ə ˈθret/ và mang nghĩa là \"Gây ra mối đe dọa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Meet expectations\",\"bananas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Meet expectations\"]",
         "correctAnswer": "Meet expectations",
         "explanation": "\"Meet expectations\" (Đáp ứng kỳ vọng) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4418,13 +4418,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Substantial evidence\" là gì?",
-        "options": "[\"Làm sáng tỏ vấn đề\",\"Rút ra kết luận\",\"Tiến hành nghiên cứu\",\"Bằng chứng xác thực dồi dào\"]",
+        "options": "[\"Làm sáng tỏ vấn đề\",\"Tiến hành nghiên cứu\",\"Rút ra kết luận\",\"Bằng chứng xác thực dồi dào\"]",
         "correctAnswer": "Bằng chứng xác thực dồi dào",
         "explanation": "\"Substantial evidence\" có phiên âm /ˌsəbˈstæn.tʃəl ˈe.və.dəns/ và mang nghĩa là \"Bằng chứng xác thực dồi dào\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Conduct research\",\"umbrellas\"]",
+        "options": "[\"Conduct research\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Conduct research",
         "explanation": "\"Conduct research\" (Tiến hành nghiên cứu) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4436,13 +4436,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Shed light on\" là gì?",
-        "options": "[\"Đóng vai trò trọng yếu\",\"Có được cái nhìn sâu sắc\",\"Làm sáng tỏ vấn đề\",\"Giải quyết vấn nạn\"]",
+        "options": "[\"Làm sáng tỏ vấn đề\",\"Giải quyết vấn nạn\",\"Đóng vai trò trọng yếu\",\"Có được cái nhìn sâu sắc\"]",
         "correctAnswer": "Làm sáng tỏ vấn đề",
         "explanation": "\"Shed light on\" có phiên âm /ˈʃed ˈlaɪt ˈɑːn/ và mang nghĩa là \"Làm sáng tỏ vấn đề\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Address the issue\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Address the issue\"]",
         "correctAnswer": "Address the issue",
         "explanation": "\"Address the issue\" (Giải quyết vấn nạn) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4596,7 +4596,7 @@ module.exports = [
         "title": "Đọc hiểu bài 16: Past Modal Verbs: Deductions & Regrets",
         "passage": "Mastering the theme of \"Past Modal Verbs: Deductions & Regrets\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Deduction\" (Sự suy đoán logic) and \"Certainty\" (Độ chắc chắn cao) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Possibility\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Past Modal Verbs: Deductions & Regrets\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Deduction\" (Sự suy đoán logic) và \"Certainty\" (Độ chắc chắn cao) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Possibility\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Past Modal Verbs: Deductions & Regrets\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Past Modal Verbs: Deductions & Regrets\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Past Modal Verbs: Deductions & Regrets\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Deduction\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Past Modal Verbs: Deductions & Regrets\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Past Modal Verbs: Deductions & Regrets\",\"explanation\":\"Đoạn văn khẳng định: \\\"Deduction\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Past Modal Verbs: Deductions & Regrets\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Past Modal Verbs: Deductions & Regrets\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Past Modal Verbs: Deductions & Regrets\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Deduction\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Past Modal Verbs: Deductions & Regrets\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Past Modal Verbs: Deductions & Regrets\",\"explanation\":\"The text points out that words like \\\"Deduction\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -4611,7 +4611,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"in\",\"daily\",\"Deduction\",\"use\",\"I\"]",
+        "options": "[\"conversation\",\"I\",\"use\",\"Deduction\",\"in\",\"daily\"]",
         "correctAnswer": "I use Deduction in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Deduction in daily conversation\"."
       },
@@ -4661,13 +4661,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Deduction\" là gì?",
-        "options": "[\"Sự suy đoán logic\",\"Độ chắc chắn cao\",\"Khả năng có thể\",\"Lời chỉ trích hành động\"]",
+        "options": "[\"Lời chỉ trích hành động\",\"Sự suy đoán logic\",\"Độ chắc chắn cao\",\"Khả năng có thể\"]",
         "correctAnswer": "Sự suy đoán logic",
         "explanation": "\"Deduction\" có phiên âm /ˌdɪˈdʌk.ʃən/ và mang nghĩa là \"Sự suy đoán logic\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"Certainty\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Certainty\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Certainty",
         "explanation": "\"Certainty\" (Độ chắc chắn cao) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4679,13 +4679,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Criticism\" là gì?",
-        "options": "[\"Để quên lạc mất đồ\",\"Sơ suất bỏ qua\",\"Lời chỉ trích hành động\",\"Đáng lẽ ngăn chặn được\"]",
+        "options": "[\"Lời chỉ trích hành động\",\"Sơ suất bỏ qua\",\"Đáng lẽ ngăn chặn được\",\"Để quên lạc mất đồ\"]",
         "correctAnswer": "Lời chỉ trích hành động",
         "explanation": "\"Criticism\" có phiên âm /ˈkrɪ.tɪ.sɪ.zəm/ và mang nghĩa là \"Lời chỉ trích hành động\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"Overlook\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"Overlook\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Overlook",
         "explanation": "\"Overlook\" (Sơ suất bỏ qua) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4697,13 +4697,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Preventable\" là gì?",
-        "options": "[\"Không thể tránh khỏi\",\"Giả định ban đầu\",\"Khả năng xảy ra\",\"Đáng lẽ ngăn chặn được\"]",
+        "options": "[\"Đáng lẽ ngăn chặn được\",\"Khả năng xảy ra\",\"Không thể tránh khỏi\",\"Giả định ban đầu\"]",
         "correctAnswer": "Đáng lẽ ngăn chặn được",
         "explanation": "\"Preventable\" có phiên âm /ˌprɪˈven.tə.bəl/ và mang nghĩa là \"Đáng lẽ ngăn chặn được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Likelihood\",\"airplanes\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Likelihood\",\"airplanes\"]",
         "correctAnswer": "Likelihood",
         "explanation": "\"Likelihood\" (Khả năng xảy ra) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4715,13 +4715,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Assumption\" là gì?",
-        "options": "[\"Khả năng có thể\",\"Độ chắc chắn cao\",\"Sự suy đoán logic\",\"Giả định ban đầu\"]",
+        "options": "[\"Sự suy đoán logic\",\"Giả định ban đầu\",\"Khả năng có thể\",\"Độ chắc chắn cao\"]",
         "correctAnswer": "Giả định ban đầu",
         "explanation": "\"Assumption\" có phiên âm /ˌəˈsʌm.pʃən/ và mang nghĩa là \"Giả định ban đầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Deduction\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Deduction\"]",
         "correctAnswer": "Deduction",
         "explanation": "\"Deduction\" (Sự suy đoán logic) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4733,13 +4733,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Possibility\" là gì?",
-        "options": "[\"Để quên lạc mất đồ\",\"Khả năng có thể\",\"Sơ suất bỏ qua\",\"Lời chỉ trích hành động\"]",
+        "options": "[\"Để quên lạc mất đồ\",\"Sơ suất bỏ qua\",\"Lời chỉ trích hành động\",\"Khả năng có thể\"]",
         "correctAnswer": "Khả năng có thể",
         "explanation": "\"Possibility\" có phiên âm /ˌpɑː.səˈbɪ.lə.ti/ và mang nghĩa là \"Khả năng có thể\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Criticism\",\"airplanes\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Criticism\",\"airplanes\"]",
         "correctAnswer": "Criticism",
         "explanation": "\"Criticism\" (Lời chỉ trích hành động) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4893,7 +4893,7 @@ module.exports = [
         "title": "Đọc hiểu bài 17: Inversion for Emphasis & Drama",
         "passage": "Mastering the theme of \"Inversion for Emphasis & Drama\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Inversion\" (Cấu trúc đảo ngữ) and \"Emphasis\" (Sự nhấn mạnh đặc biệt) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Seldom\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Inversion for Emphasis & Drama\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Inversion\" (Cấu trúc đảo ngữ) và \"Emphasis\" (Sự nhấn mạnh đặc biệt) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Seldom\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Inversion for Emphasis & Drama\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Inversion for Emphasis & Drama\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Inversion for Emphasis & Drama\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Inversion\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Inversion for Emphasis & Drama\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Inversion for Emphasis & Drama\",\"explanation\":\"Đoạn văn khẳng định: \\\"Inversion\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Inversion for Emphasis & Drama\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Inversion for Emphasis & Drama\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Inversion for Emphasis & Drama\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Inversion\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Inversion for Emphasis & Drama\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Inversion for Emphasis & Drama\",\"explanation\":\"The text points out that words like \\\"Inversion\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -4908,7 +4908,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"use\",\"I\",\"in\",\"daily\",\"Inversion\"]",
+        "options": "[\"I\",\"use\",\"conversation\",\"Inversion\",\"daily\",\"in\"]",
         "correctAnswer": "I use Inversion in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Inversion in daily conversation\"."
       },
@@ -4958,13 +4958,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Inversion\" là gì?",
-        "options": "[\"Cấu trúc đảo ngữ\",\"Sự nhấn mạnh đặc biệt\",\"Ít khi chứng kiến\",\"Hiếm khi xảy ra\"]",
+        "options": "[\"Cấu trúc đảo ngữ\",\"Ít khi chứng kiến\",\"Sự nhấn mạnh đặc biệt\",\"Hiếm khi xảy ra\"]",
         "correctAnswer": "Cấu trúc đảo ngữ",
         "explanation": "\"Inversion\" có phiên âm /ˌɪnˈvɜːr.ʒən/ và mang nghĩa là \"Cấu trúc đảo ngữ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Emphasis\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Emphasis\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Emphasis",
         "explanation": "\"Emphasis\" (Sự nhấn mạnh đặc biệt) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -4982,7 +4982,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Scarcely\"]",
+        "options": "[\"umbrellas\",\"Scarcely\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Scarcely",
         "explanation": "\"Scarcely\" (Vừa mới... thì...) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -4994,13 +4994,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Not only\" là gì?",
-        "options": "[\"Không những... mà còn...\",\"Kịch tính ấn tượng\",\"Anh ấy chẳng hề hay biết\",\"Mang tính tu từ nghệ thuật\"]",
+        "options": "[\"Mang tính tu từ nghệ thuật\",\"Anh ấy chẳng hề hay biết\",\"Không những... mà còn...\",\"Kịch tính ấn tượng\"]",
         "correctAnswer": "Không những... mà còn...",
         "explanation": "\"Not only\" có phiên âm /ˈnɑːt ˈoʊn.li/ và mang nghĩa là \"Không những... mà còn...\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Little did he know\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Little did he know\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Little did he know",
         "explanation": "\"Little did he know\" (Anh ấy chẳng hề hay biết) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -5012,13 +5012,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dramatic\" là gì?",
-        "options": "[\"Hiếm khi xảy ra\",\"Kịch tính ấn tượng\",\"Cấu trúc đảo ngữ\",\"Sự nhấn mạnh đặc biệt\"]",
+        "options": "[\"Cấu trúc đảo ngữ\",\"Kịch tính ấn tượng\",\"Sự nhấn mạnh đặc biệt\",\"Hiếm khi xảy ra\"]",
         "correctAnswer": "Kịch tính ấn tượng",
         "explanation": "\"Dramatic\" có phiên âm /ˌdrəˈmæ.tɪk/ và mang nghĩa là \"Kịch tính ấn tượng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Inversion\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Inversion\"]",
         "correctAnswer": "Inversion",
         "explanation": "\"Inversion\" (Cấu trúc đảo ngữ) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -5030,13 +5030,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Seldom\" là gì?",
-        "options": "[\"Tuyệt đối trong mọi tình huống\",\"Hiếm khi xảy ra\",\"Ít khi chứng kiến\",\"Vừa mới... thì...\"]",
+        "options": "[\"Hiếm khi xảy ra\",\"Ít khi chứng kiến\",\"Vừa mới... thì...\",\"Tuyệt đối trong mọi tình huống\"]",
         "correctAnswer": "Hiếm khi xảy ra",
         "explanation": "\"Seldom\" có phiên âm /ˈsel.dəm/ và mang nghĩa là \"Hiếm khi xảy ra\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Rarely\"]",
+        "options": "[\"umbrellas\",\"Rarely\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Rarely",
         "explanation": "\"Rarely\" (Ít khi chứng kiến) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -5190,7 +5190,7 @@ module.exports = [
         "title": "Đọc hiểu bài 18: Complex Sentence Structures",
         "passage": "Mastering the theme of \"Complex Sentence Structures\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Notwithstanding\" (Mặc dù, bất chấp điều đó) and \"Furthermore\" (Hơn thế nữa) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Whereas\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Complex Sentence Structures\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Notwithstanding\" (Mặc dù, bất chấp điều đó) và \"Furthermore\" (Hơn thế nữa) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Whereas\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Complex Sentence Structures\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Complex Sentence Structures\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Complex Sentence Structures\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Notwithstanding\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Complex Sentence Structures\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Complex Sentence Structures\",\"explanation\":\"Đoạn văn khẳng định: \\\"Notwithstanding\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Complex Sentence Structures\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Complex Sentence Structures\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Complex Sentence Structures\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Notwithstanding\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Complex Sentence Structures\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Complex Sentence Structures\",\"explanation\":\"The text points out that words like \\\"Notwithstanding\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -5205,7 +5205,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"daily\",\"in\",\"Notwithstanding\",\"use\",\"I\"]",
+        "options": "[\"I\",\"daily\",\"conversation\",\"use\",\"Notwithstanding\",\"in\"]",
         "correctAnswer": "I use Notwithstanding in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Notwithstanding in daily conversation\"."
       },
@@ -5261,7 +5261,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Furthermore\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Furthermore\",\"umbrellas\"]",
         "correctAnswer": "Furthermore",
         "explanation": "\"Furthermore\" (Hơn thế nữa) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5273,13 +5273,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consequently\" là gì?",
-        "options": "[\"Ngược lại hoàn toàn\",\"Hậu quả kéo theo là\",\"Do đó, vì thế cho nên\",\"Kế tiếp sau đó\"]",
+        "options": "[\"Kế tiếp sau đó\",\"Ngược lại hoàn toàn\",\"Do đó, vì thế cho nên\",\"Hậu quả kéo theo là\"]",
         "correctAnswer": "Hậu quả kéo theo là",
         "explanation": "\"Consequently\" có phiên âm /ˈkɑːn.sək.wən.tli/ và mang nghĩa là \"Hậu quả kéo theo là\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"In contrast\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"In contrast\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "In contrast",
         "explanation": "\"In contrast\" (Ngược lại hoàn toàn) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5291,13 +5291,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hence\" là gì?",
-        "options": "[\"Tinh tế, uyên thâm\",\"Sự liên kết mạch lạc\",\"Cú pháp câu văn\",\"Do đó, vì thế cho nên\"]",
+        "options": "[\"Do đó, vì thế cho nên\",\"Sự liên kết mạch lạc\",\"Cú pháp câu văn\",\"Tinh tế, uyên thâm\"]",
         "correctAnswer": "Do đó, vì thế cho nên",
         "explanation": "\"Hence\" có phiên âm /ˈhens/ và mang nghĩa là \"Do đó, vì thế cho nên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Cohesion\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Cohesion\"]",
         "correctAnswer": "Cohesion",
         "explanation": "\"Cohesion\" (Sự liên kết mạch lạc) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5309,7 +5309,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sophisticated\" là gì?",
-        "options": "[\"Tinh tế, uyên thâm\",\"Trong khi trái lại\",\"Mặc dù, bất chấp điều đó\",\"Hơn thế nữa\"]",
+        "options": "[\"Hơn thế nữa\",\"Mặc dù, bất chấp điều đó\",\"Trong khi trái lại\",\"Tinh tế, uyên thâm\"]",
         "correctAnswer": "Tinh tế, uyên thâm",
         "explanation": "\"Sophisticated\" có phiên âm /ˌsəˈfɪ.stə.keɪ.tɪd/ và mang nghĩa là \"Tinh tế, uyên thâm\"."
       },
@@ -5327,13 +5327,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Whereas\" là gì?",
-        "options": "[\"Ngược lại hoàn toàn\",\"Kế tiếp sau đó\",\"Hậu quả kéo theo là\",\"Trong khi trái lại\"]",
+        "options": "[\"Hậu quả kéo theo là\",\"Kế tiếp sau đó\",\"Trong khi trái lại\",\"Ngược lại hoàn toàn\"]",
         "correctAnswer": "Trong khi trái lại",
         "explanation": "\"Whereas\" có phiên âm /weˈræz/ và mang nghĩa là \"Trong khi trái lại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Consequently\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Consequently\"]",
         "correctAnswer": "Consequently",
         "explanation": "\"Consequently\" (Hậu quả kéo theo là) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5487,7 +5487,7 @@ module.exports = [
         "title": "Đọc hiểu bài 19: Public Speaking: Persuasive Pitching",
         "passage": "Mastering the theme of \"Public Speaking: Persuasive Pitching\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Pitch\" (Bài thuyết trình chào hàng) and \"Hook\" (Chi tiết câu dẫn mở đầu) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Articulate\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Public Speaking: Persuasive Pitching\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Pitch\" (Bài thuyết trình chào hàng) và \"Hook\" (Chi tiết câu dẫn mở đầu) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Articulate\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Public Speaking: Persuasive Pitching\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Public Speaking: Persuasive Pitching\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Public Speaking: Persuasive Pitching\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Pitch\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Public Speaking: Persuasive Pitching\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Public Speaking: Persuasive Pitching\",\"explanation\":\"Đoạn văn khẳng định: \\\"Pitch\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Public Speaking: Persuasive Pitching\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Public Speaking: Persuasive Pitching\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Public Speaking: Persuasive Pitching\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Pitch\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Public Speaking: Persuasive Pitching\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Public Speaking: Persuasive Pitching\",\"explanation\":\"The text points out that words like \\\"Pitch\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -5502,7 +5502,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Pitch\",\"in\",\"daily\",\"conversation\"]",
+        "options": "[\"in\",\"Pitch\",\"use\",\"daily\",\"I\",\"conversation\"]",
         "correctAnswer": "I use Pitch in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Pitch in daily conversation\"."
       },
@@ -5558,7 +5558,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hook\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Hook\",\"airplanes\"]",
         "correctAnswer": "Hook",
         "explanation": "\"Hook\" (Chi tiết câu dẫn mở đầu) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5570,13 +5570,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Persuasion\" là gì?",
-        "options": "[\"Lời kêu gọi hành động\",\"Giá trị cốt lõi\",\"Hấp dẫn khó cưỡng\",\"Nghệ thuật thuyết phục\"]",
+        "options": "[\"Lời kêu gọi hành động\",\"Nghệ thuật thuyết phục\",\"Giá trị cốt lõi\",\"Hấp dẫn khó cưỡng\"]",
         "correctAnswer": "Nghệ thuật thuyết phục",
         "explanation": "\"Persuasion\" có phiên âm /ˌpərsˈweɪ.ʒən/ và mang nghĩa là \"Nghệ thuật thuyết phục\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"Compelling\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Compelling\",\"airplanes\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Compelling",
         "explanation": "\"Compelling\" (Hấp dẫn khó cưỡng) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5588,13 +5588,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Call to action\" là gì?",
-        "options": "[\"Sự nhiệt huyết lôi cuốn\",\"Lời kêu gọi hành động\",\"Thần thái sân khấu\",\"Uy tín chuyên gia\"]",
+        "options": "[\"Uy tín chuyên gia\",\"Lời kêu gọi hành động\",\"Sự nhiệt huyết lôi cuốn\",\"Thần thái sân khấu\"]",
         "correctAnswer": "Lời kêu gọi hành động",
         "explanation": "\"Call to action\" có phiên âm /ˈkɔːl ˈtuː ˈæk.ʃən/ và mang nghĩa là \"Lời kêu gọi hành động\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Presence\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Presence\"]",
         "correctAnswer": "Presence",
         "explanation": "\"Presence\" (Thần thái sân khấu) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5606,13 +5606,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Enthusiasm\" là gì?",
-        "options": "[\"Bài thuyết trình chào hàng\",\"Chi tiết câu dẫn mở đầu\",\"Diễn đạt khúc chiết rõ ràng\",\"Sự nhiệt huyết lôi cuốn\"]",
+        "options": "[\"Diễn đạt khúc chiết rõ ràng\",\"Chi tiết câu dẫn mở đầu\",\"Bài thuyết trình chào hàng\",\"Sự nhiệt huyết lôi cuốn\"]",
         "correctAnswer": "Sự nhiệt huyết lôi cuốn",
         "explanation": "\"Enthusiasm\" có phiên âm /ˌɪnˈθuː.zi.æ.zəm/ và mang nghĩa là \"Sự nhiệt huyết lôi cuốn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Pitch\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Pitch\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Pitch",
         "explanation": "\"Pitch\" (Bài thuyết trình chào hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5624,13 +5624,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Articulate\" là gì?",
-        "options": "[\"Hấp dẫn khó cưỡng\",\"Nghệ thuật thuyết phục\",\"Diễn đạt khúc chiết rõ ràng\",\"Giá trị cốt lõi\"]",
+        "options": "[\"Nghệ thuật thuyết phục\",\"Diễn đạt khúc chiết rõ ràng\",\"Hấp dẫn khó cưỡng\",\"Giá trị cốt lõi\"]",
         "correctAnswer": "Diễn đạt khúc chiết rõ ràng",
         "explanation": "\"Articulate\" có phiên âm /ˌɑːrˈtɪk.jə.leɪt/ và mang nghĩa là \"Diễn đạt khúc chiết rõ ràng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"Persuasion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Persuasion\"]",
         "correctAnswer": "Persuasion",
         "explanation": "\"Persuasion\" (Nghệ thuật thuyết phục) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5784,7 +5784,7 @@ module.exports = [
         "title": "Đọc hiểu bài 20: Handling Q&A Sessions with Confidence",
         "passage": "Mastering the theme of \"Handling Q&A Sessions with Confidence\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Q&A session\" (Phần hỏi đáp giao lưu) and \"Reframe\" (Định hình lại câu hỏi) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Skeptical\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Handling Q&A Sessions with Confidence\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Q&A session\" (Phần hỏi đáp giao lưu) và \"Reframe\" (Định hình lại câu hỏi) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Skeptical\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Handling Q&A Sessions with Confidence\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Handling Q&A Sessions with Confidence\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Handling Q&A Sessions with Confidence\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Q&A session\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Handling Q&A Sessions with Confidence\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Handling Q&A Sessions with Confidence\",\"explanation\":\"Đoạn văn khẳng định: \\\"Q&A session\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Handling Q&A Sessions with Confidence\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Handling Q&A Sessions with Confidence\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Handling Q&A Sessions with Confidence\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Q&A session\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Handling Q&A Sessions with Confidence\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Handling Q&A Sessions with Confidence\",\"explanation\":\"The text points out that words like \\\"Q&A session\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -5799,7 +5799,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"use\",\"Q&A\",\"daily\",\"session\",\"I\"]",
+        "options": "[\"I\",\"use\",\"Q&A\",\"daily\",\"in\",\"session\"]",
         "correctAnswer": "I use Q&A session in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Q&A session in daily\"."
       },
@@ -5849,13 +5849,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Q&A session\" là gì?",
-        "options": "[\"Hoài nghi, thắc mắc\",\"Định hình lại câu hỏi\",\"Làm rõ nội hàm\",\"Phần hỏi đáp giao lưu\"]",
+        "options": "[\"Phần hỏi đáp giao lưu\",\"Định hình lại câu hỏi\",\"Làm rõ nội hàm\",\"Hoài nghi, thắc mắc\"]",
         "correctAnswer": "Phần hỏi đáp giao lưu",
         "explanation": "\"Q&A session\" có phiên âm /kə ˈse.ʃən/ và mang nghĩa là \"Phần hỏi đáp giao lưu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Reframe\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Reframe\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Reframe",
         "explanation": "\"Reframe\" (Định hình lại câu hỏi) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5867,13 +5867,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Clarify\" là gì?",
-        "options": "[\"Xoa dịu không khí căng thẳng\",\"Thừa nhận ý kiến\",\"Ngắn gọn súc tích\",\"Làm rõ nội hàm\"]",
+        "options": "[\"Xoa dịu không khí căng thẳng\",\"Làm rõ nội hàm\",\"Ngắn gọn súc tích\",\"Thừa nhận ý kiến\"]",
         "correctAnswer": "Làm rõ nội hàm",
         "explanation": "\"Clarify\" có phiên âm /ˈkle.rə.faɪ/ và mang nghĩa là \"Làm rõ nội hàm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"Acknowledge\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Acknowledge\",\"umbrellas\"]",
         "correctAnswer": "Acknowledge",
         "explanation": "\"Acknowledge\" (Thừa nhận ý kiến) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5885,13 +5885,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Defuse\" là gì?",
-        "options": "[\"Trao đổi thêm sau giờ họp\",\"Kiến thức chuyên môn sâu\",\"Bình tĩnh đĩnh đạc\",\"Xoa dịu không khí căng thẳng\"]",
+        "options": "[\"Trao đổi thêm sau giờ họp\",\"Bình tĩnh đĩnh đạc\",\"Kiến thức chuyên môn sâu\",\"Xoa dịu không khí căng thẳng\"]",
         "correctAnswer": "Xoa dịu không khí căng thẳng",
         "explanation": "\"Defuse\" có phiên âm /dɪfˈjuːz/ và mang nghĩa là \"Xoa dịu không khí căng thẳng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Expertise\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Expertise\"]",
         "correctAnswer": "Expertise",
         "explanation": "\"Expertise\" (Kiến thức chuyên môn sâu) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5903,13 +5903,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Follow up\" là gì?",
-        "options": "[\"Trao đổi thêm sau giờ họp\",\"Phần hỏi đáp giao lưu\",\"Hoài nghi, thắc mắc\",\"Định hình lại câu hỏi\"]",
+        "options": "[\"Trao đổi thêm sau giờ họp\",\"Phần hỏi đáp giao lưu\",\"Định hình lại câu hỏi\",\"Hoài nghi, thắc mắc\"]",
         "correctAnswer": "Trao đổi thêm sau giờ họp",
         "explanation": "\"Follow up\" có phiên âm /ˈfɑː.loʊ ˈʌp/ và mang nghĩa là \"Trao đổi thêm sau giờ họp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Q&A session\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Q&A session\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Q&A session",
         "explanation": "\"Q&A session\" (Phần hỏi đáp giao lưu) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -6081,7 +6081,7 @@ module.exports = [
         "title": "Đọc hiểu bài 21: Psychology: Cognitive Bias & Decision Making",
         "passage": "Mastering the theme of \"Psychology: Cognitive Bias & Decision Making\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Cognitive bias\" (Thiên kiến nhận thức) and \"Confirmation bias\" (Xu hướng thiên vị xác nhận) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Anchoring\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Psychology: Cognitive Bias & Decision Making\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Cognitive bias\" (Thiên kiến nhận thức) và \"Confirmation bias\" (Xu hướng thiên vị xác nhận) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Anchoring\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Psychology: Cognitive Bias & Decision Making\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Psychology: Cognitive Bias & Decision Making\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Psychology: Cognitive Bias & Decision Making\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Cognitive bias\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Psychology: Cognitive Bias & Decision Making\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Psychology: Cognitive Bias & Decision Making\",\"explanation\":\"Đoạn văn khẳng định: \\\"Cognitive bias\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Psychology: Cognitive Bias & Decision Making\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Psychology: Cognitive Bias & Decision Making\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Psychology: Cognitive Bias & Decision Making\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Cognitive bias\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Psychology: Cognitive Bias & Decision Making\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Psychology: Cognitive Bias & Decision Making\",\"explanation\":\"The text points out that words like \\\"Cognitive bias\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -6096,7 +6096,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"Cognitive\",\"bias\",\"I\",\"daily\",\"in\"]",
+        "options": "[\"bias\",\"daily\",\"use\",\"I\",\"in\",\"Cognitive\"]",
         "correctAnswer": "I use Cognitive bias in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Cognitive bias in daily\"."
       },
@@ -6146,13 +6146,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cognitive bias\" là gì?",
-        "options": "[\"Lối tắt tư duy suy nghiệm\",\"Hiệu ứng mỏ neo tâm lý\",\"Xu hướng thiên vị xác nhận\",\"Thiên kiến nhận thức\"]",
+        "options": "[\"Thiên kiến nhận thức\",\"Lối tắt tư duy suy nghiệm\",\"Hiệu ứng mỏ neo tâm lý\",\"Xu hướng thiên vị xác nhận\"]",
         "correctAnswer": "Thiên kiến nhận thức",
         "explanation": "\"Cognitive bias\" có phiên âm /ˈkɑːɡ.nɪ.tɪv ˈbaɪ.əs/ và mang nghĩa là \"Thiên kiến nhận thức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Confirmation bias\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Confirmation bias\"]",
         "correctAnswer": "Confirmation bias",
         "explanation": "\"Confirmation bias\" (Xu hướng thiên vị xác nhận) là từ vựng chính xác trong ngữ cảnh chủ đề Psychology: Cognitive Bias & Decision Making."
       },
@@ -6164,7 +6164,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Heuristic\" là gì?",
-        "options": "[\"Hành động bốc đồng\",\"Lối tắt tư duy suy nghiệm\",\"Tiềm thức con người\",\"Tính duy lý khách quan\"]",
+        "options": "[\"Tiềm thức con người\",\"Lối tắt tư duy suy nghiệm\",\"Tính duy lý khách quan\",\"Hành động bốc đồng\"]",
         "correctAnswer": "Lối tắt tư duy suy nghiệm",
         "explanation": "\"Heuristic\" có phiên âm /ˌhjʊˈrɪ.stɪk/ và mang nghĩa là \"Lối tắt tư duy suy nghiệm\"."
       },
@@ -6182,7 +6182,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Impulse\" là gì?",
-        "options": "[\"Sự tiếp nhận cảm quan\",\"Sự nội quan suy ngẫm\",\"Ngụy biện sai lầm\",\"Hành động bốc đồng\"]",
+        "options": "[\"Sự tiếp nhận cảm quan\",\"Ngụy biện sai lầm\",\"Sự nội quan suy ngẫm\",\"Hành động bốc đồng\"]",
         "correctAnswer": "Hành động bốc đồng",
         "explanation": "\"Impulse\" có phiên âm /ˈɪm.pəls/ và mang nghĩa là \"Hành động bốc đồng\"."
       },
@@ -6200,13 +6200,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Perception\" là gì?",
-        "options": "[\"Hiệu ứng mỏ neo tâm lý\",\"Xu hướng thiên vị xác nhận\",\"Thiên kiến nhận thức\",\"Sự tiếp nhận cảm quan\"]",
+        "options": "[\"Xu hướng thiên vị xác nhận\",\"Sự tiếp nhận cảm quan\",\"Thiên kiến nhận thức\",\"Hiệu ứng mỏ neo tâm lý\"]",
         "correctAnswer": "Sự tiếp nhận cảm quan",
         "explanation": "\"Perception\" có phiên âm /ˌpərˈsep.ʃən/ và mang nghĩa là \"Sự tiếp nhận cảm quan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
-        "options": "[\"Cognitive bias\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Cognitive bias\"]",
         "correctAnswer": "Cognitive bias",
         "explanation": "\"Cognitive bias\" (Thiên kiến nhận thức) là từ vựng chính xác trong ngữ cảnh chủ đề Psychology: Cognitive Bias & Decision Making."
       },
@@ -6218,13 +6218,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Anchoring\" là gì?",
-        "options": "[\"Tính duy lý khách quan\",\"Lối tắt tư duy suy nghiệm\",\"Tiềm thức con người\",\"Hiệu ứng mỏ neo tâm lý\"]",
+        "options": "[\"Lối tắt tư duy suy nghiệm\",\"Tính duy lý khách quan\",\"Hiệu ứng mỏ neo tâm lý\",\"Tiềm thức con người\"]",
         "correctAnswer": "Hiệu ứng mỏ neo tâm lý",
         "explanation": "\"Anchoring\" có phiên âm /ˈæŋ.kər.ɪŋ/ và mang nghĩa là \"Hiệu ứng mỏ neo tâm lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
-        "options": "[\"Heuristic\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Heuristic\"]",
         "correctAnswer": "Heuristic",
         "explanation": "\"Heuristic\" (Lối tắt tư duy suy nghiệm) là từ vựng chính xác trong ngữ cảnh chủ đề Psychology: Cognitive Bias & Decision Making."
       },
@@ -6378,7 +6378,7 @@ module.exports = [
         "title": "Đọc hiểu bài 22: Philosophy: Moral Dilemmas & Ethics",
         "passage": "Mastering the theme of \"Philosophy: Moral Dilemmas & Ethics\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Dilemma\" (Tình thế tiến thoái lưỡng nan) and \"Utilitarianism\" (Thuyết vị lợi công lợi) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Deontology\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Philosophy: Moral Dilemmas & Ethics\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Dilemma\" (Tình thế tiến thoái lưỡng nan) và \"Utilitarianism\" (Thuyết vị lợi công lợi) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Deontology\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Philosophy: Moral Dilemmas & Ethics\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Philosophy: Moral Dilemmas & Ethics\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Philosophy: Moral Dilemmas & Ethics\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Dilemma\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Philosophy: Moral Dilemmas & Ethics\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Philosophy: Moral Dilemmas & Ethics\",\"explanation\":\"Đoạn văn khẳng định: \\\"Dilemma\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Philosophy: Moral Dilemmas & Ethics\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Philosophy: Moral Dilemmas & Ethics\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Philosophy: Moral Dilemmas & Ethics\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Dilemma\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Philosophy: Moral Dilemmas & Ethics\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Philosophy: Moral Dilemmas & Ethics\",\"explanation\":\"The text points out that words like \\\"Dilemma\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -6393,7 +6393,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Dilemma\",\"conversation\",\"in\",\"daily\"]",
+        "options": "[\"conversation\",\"use\",\"in\",\"daily\",\"Dilemma\",\"I\"]",
         "correctAnswer": "I use Dilemma in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Dilemma in daily conversation\"."
       },
@@ -6443,13 +6443,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dilemma\" là gì?",
-        "options": "[\"Tình thế tiến thoái lưỡng nan\",\"Thuyết vị lợi công lợi\",\"Thuyết nghĩa vụ luân lý\",\"Nguyên tắc sống bất biến\"]",
+        "options": "[\"Nguyên tắc sống bất biến\",\"Tình thế tiến thoái lưỡng nan\",\"Thuyết vị lợi công lợi\",\"Thuyết nghĩa vụ luân lý\"]",
         "correctAnswer": "Tình thế tiến thoái lưỡng nan",
         "explanation": "\"Dilemma\" có phiên âm /ˌdɪˈle.mə/ và mang nghĩa là \"Tình thế tiến thoái lưỡng nan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"Utilitarianism\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Utilitarianism\",\"airplanes\"]",
         "correctAnswer": "Utilitarianism",
         "explanation": "\"Utilitarianism\" (Thuyết vị lợi công lợi) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6461,13 +6461,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Principle\" là gì?",
-        "options": "[\"Đức hạnh con người\",\"Nguyên tắc sống bất biến\",\"Lương tâm chức trách\",\"Sự công bằng công lý\"]",
+        "options": "[\"Lương tâm chức trách\",\"Sự công bằng công lý\",\"Đức hạnh con người\",\"Nguyên tắc sống bất biến\"]",
         "correctAnswer": "Nguyên tắc sống bất biến",
         "explanation": "\"Principle\" có phiên âm /ˈprɪn.sə.pəl/ và mang nghĩa là \"Nguyên tắc sống bất biến\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Virtue\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Virtue\"]",
         "correctAnswer": "Virtue",
         "explanation": "\"Virtue\" (Đức hạnh con người) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6479,13 +6479,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Conscience\" là gì?",
-        "options": "[\"Sự hy sinh cao cả\",\"Lương tâm chức trách\",\"Sự chính trực liêm chính\",\"Triết học nhân sinh\"]",
+        "options": "[\"Lương tâm chức trách\",\"Sự hy sinh cao cả\",\"Sự chính trực liêm chính\",\"Triết học nhân sinh\"]",
         "correctAnswer": "Lương tâm chức trách",
         "explanation": "\"Conscience\" có phiên âm /ˈkɑːn.ʃəns/ và mang nghĩa là \"Lương tâm chức trách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Sacrifice\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Sacrifice\",\"umbrellas\"]",
         "correctAnswer": "Sacrifice",
         "explanation": "\"Sacrifice\" (Sự hy sinh cao cả) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6497,13 +6497,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Philosophy\" là gì?",
-        "options": "[\"Thuyết vị lợi công lợi\",\"Tình thế tiến thoái lưỡng nan\",\"Thuyết nghĩa vụ luân lý\",\"Triết học nhân sinh\"]",
+        "options": "[\"Tình thế tiến thoái lưỡng nan\",\"Triết học nhân sinh\",\"Thuyết nghĩa vụ luân lý\",\"Thuyết vị lợi công lợi\"]",
         "correctAnswer": "Triết học nhân sinh",
         "explanation": "\"Philosophy\" có phiên âm /ˌfəˈlɑː.sə.fi/ và mang nghĩa là \"Triết học nhân sinh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"Dilemma\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Dilemma\",\"bananas\"]",
         "correctAnswer": "Dilemma",
         "explanation": "\"Dilemma\" (Tình thế tiến thoái lưỡng nan) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6515,13 +6515,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Deontology\" là gì?",
-        "options": "[\"Sự công bằng công lý\",\"Thuyết nghĩa vụ luân lý\",\"Nguyên tắc sống bất biến\",\"Đức hạnh con người\"]",
+        "options": "[\"Sự công bằng công lý\",\"Đức hạnh con người\",\"Nguyên tắc sống bất biến\",\"Thuyết nghĩa vụ luân lý\"]",
         "correctAnswer": "Thuyết nghĩa vụ luân lý",
         "explanation": "\"Deontology\" có phiên âm /ˌdi.ɑːnˈtɑː.lə.dʒi/ và mang nghĩa là \"Thuyết nghĩa vụ luân lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Principle\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Principle\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Principle",
         "explanation": "\"Principle\" (Nguyên tắc sống bất biến) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6675,7 +6675,7 @@ module.exports = [
         "title": "Đọc hiểu bài 23: The Future of Remote Work & Global Teams",
         "passage": "Mastering the theme of \"The Future of Remote Work & Global Teams\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Remote work\" (Làm việc từ xa) and \"Asynchronous\" (Giao tiếp bất đồng bộ) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Autonomy\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"The Future of Remote Work & Global Teams\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Remote work\" (Làm việc từ xa) và \"Asynchronous\" (Giao tiếp bất đồng bộ) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Autonomy\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Future of Remote Work & Global Teams\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Future of Remote Work & Global Teams\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"The Future of Remote Work & Global Teams\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Remote work\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề The Future of Remote Work & Global Teams\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề The Future of Remote Work & Global Teams\",\"explanation\":\"Đoạn văn khẳng định: \\\"Remote work\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering The Future of Remote Work & Global Teams\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering The Future of Remote Work & Global Teams\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"The Future of Remote Work & Global Teams\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Remote work\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic The Future of Remote Work & Global Teams\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic The Future of Remote Work & Global Teams\",\"explanation\":\"The text points out that words like \\\"Remote work\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -6690,7 +6690,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"work\",\"in\",\"use\",\"daily\",\"Remote\",\"I\"]",
+        "options": "[\"work\",\"Remote\",\"daily\",\"in\",\"use\",\"I\"]",
         "correctAnswer": "I use Remote work in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Remote work in daily\"."
       },
@@ -6740,13 +6740,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Remote work\" là gì?",
-        "options": "[\"Hội chứng kiệt sức\",\"Quyền tự chủ làm việc\",\"Giao tiếp bất đồng bộ\",\"Làm việc từ xa\"]",
+        "options": "[\"Giao tiếp bất đồng bộ\",\"Hội chứng kiệt sức\",\"Làm việc từ xa\",\"Quyền tự chủ làm việc\"]",
         "correctAnswer": "Làm việc từ xa",
         "explanation": "\"Remote work\" có phiên âm /rɪˈmoʊt ˈwɜːrk/ và mang nghĩa là \"Làm việc từ xa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"Asynchronous\",\"airplanes\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Asynchronous\",\"airplanes\"]",
         "correctAnswer": "Asynchronous",
         "explanation": "\"Asynchronous\" (Giao tiếp bất đồng bộ) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6758,13 +6758,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Burnout\" là gì?",
-        "options": "[\"Đội ngũ làm việc ảo\",\"Mức độ kết nối mạng\",\"Múi giờ quốc tế\",\"Hội chứng kiệt sức\"]",
+        "options": "[\"Đội ngũ làm việc ảo\",\"Mức độ kết nối mạng\",\"Hội chứng kiệt sức\",\"Múi giờ quốc tế\"]",
         "correctAnswer": "Hội chứng kiệt sức",
         "explanation": "\"Burnout\" có phiên âm /ˈbɜːr.naʊt/ và mang nghĩa là \"Hội chứng kiệt sức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Time zone\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Time zone\",\"airplanes\"]",
         "correctAnswer": "Time zone",
         "explanation": "\"Time zone\" (Múi giờ quốc tế) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6776,13 +6776,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Connectivity\" là gì?",
-        "options": "[\"Cân bằng công việc đời sống\",\"Mức độ kết nối mạng\",\"Cảm giác cô lập xa cách\",\"Năng suất lao động\"]",
+        "options": "[\"Cảm giác cô lập xa cách\",\"Năng suất lao động\",\"Cân bằng công việc đời sống\",\"Mức độ kết nối mạng\"]",
         "correctAnswer": "Mức độ kết nối mạng",
         "explanation": "\"Connectivity\" có phiên âm /ˌkə.nekˈtɪ.vɪ.ti/ và mang nghĩa là \"Mức độ kết nối mạng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"Work-life balance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Work-life balance\"]",
         "correctAnswer": "Work-life balance",
         "explanation": "\"Work-life balance\" (Cân bằng công việc đời sống) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6794,13 +6794,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Isolation\" là gì?",
-        "options": "[\"Cảm giác cô lập xa cách\",\"Làm việc từ xa\",\"Giao tiếp bất đồng bộ\",\"Quyền tự chủ làm việc\"]",
+        "options": "[\"Quyền tự chủ làm việc\",\"Giao tiếp bất đồng bộ\",\"Cảm giác cô lập xa cách\",\"Làm việc từ xa\"]",
         "correctAnswer": "Cảm giác cô lập xa cách",
         "explanation": "\"Isolation\" có phiên âm /ˌaɪ.səˈleɪ.ʃən/ và mang nghĩa là \"Cảm giác cô lập xa cách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"Remote work\",\"umbrellas\",\"airplanes\",\"bananas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Remote work\"]",
         "correctAnswer": "Remote work",
         "explanation": "\"Remote work\" (Làm việc từ xa) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6812,13 +6812,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Autonomy\" là gì?",
-        "options": "[\"Đội ngũ làm việc ảo\",\"Múi giờ quốc tế\",\"Hội chứng kiệt sức\",\"Quyền tự chủ làm việc\"]",
+        "options": "[\"Hội chứng kiệt sức\",\"Quyền tự chủ làm việc\",\"Đội ngũ làm việc ảo\",\"Múi giờ quốc tế\"]",
         "correctAnswer": "Quyền tự chủ làm việc",
         "explanation": "\"Autonomy\" có phiên âm /ˌɔːˈtɑː.nə.mi/ và mang nghĩa là \"Quyền tự chủ làm việc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Burnout\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Burnout\"]",
         "correctAnswer": "Burnout",
         "explanation": "\"Burnout\" (Hội chứng kiệt sức) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6972,7 +6972,7 @@ module.exports = [
         "title": "Đọc hiểu bài 24: Sustainable Architecture & Design",
         "passage": "Mastering the theme of \"Sustainable Architecture & Design\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Architecture\" (Kiến trúc công trình) and \"Passive design\" (Thiết kế năng lượng thụ động) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Ventilation\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Sustainable Architecture & Design\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Architecture\" (Kiến trúc công trình) và \"Passive design\" (Thiết kế năng lượng thụ động) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Ventilation\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Sustainable Architecture & Design\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Sustainable Architecture & Design\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Sustainable Architecture & Design\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Architecture\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Sustainable Architecture & Design\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Sustainable Architecture & Design\",\"explanation\":\"Đoạn văn khẳng định: \\\"Architecture\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Sustainable Architecture & Design\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Sustainable Architecture & Design\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Sustainable Architecture & Design\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Architecture\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Sustainable Architecture & Design\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Sustainable Architecture & Design\",\"explanation\":\"The text points out that words like \\\"Architecture\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -6987,7 +6987,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Architecture\",\"in\",\"daily\",\"conversation\"]",
+        "options": "[\"conversation\",\"in\",\"Architecture\",\"use\",\"I\",\"daily\"]",
         "correctAnswer": "I use Architecture in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Architecture in daily conversation\"."
       },
@@ -7037,13 +7037,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Architecture\" là gì?",
-        "options": "[\"Sự thông gió tự nhiên\",\"Thiết kế năng lượng thụ động\",\"Kiến trúc công trình\",\"Vật liệu cách nhiệt\"]",
+        "options": "[\"Vật liệu cách nhiệt\",\"Sự thông gió tự nhiên\",\"Thiết kế năng lượng thụ động\",\"Kiến trúc công trình\"]",
         "correctAnswer": "Kiến trúc công trình",
         "explanation": "\"Architecture\" có phiên âm /ˈɑːr.kə.tek.tʃər/ và mang nghĩa là \"Kiến trúc công trình\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"Passive design\",\"bananas\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Passive design\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Passive design",
         "explanation": "\"Passive design\" (Thiết kế năng lượng thụ động) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -7055,13 +7055,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Insulation\" là gì?",
-        "options": "[\"Vật liệu xây dựng xanh\",\"Vật liệu cách nhiệt\",\"Mang tính công năng cao\",\"Tính thẩm mỹ nghệ thuật\"]",
+        "options": "[\"Mang tính công năng cao\",\"Vật liệu cách nhiệt\",\"Vật liệu xây dựng xanh\",\"Tính thẩm mỹ nghệ thuật\"]",
         "correctAnswer": "Vật liệu cách nhiệt",
         "explanation": "\"Insulation\" có phiên âm /ˌɪn.səˈleɪ.ʃən/ và mang nghĩa là \"Vật liệu cách nhiệt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Materials\",\"airplanes\"]",
+        "options": "[\"Materials\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Materials",
         "explanation": "\"Materials\" (Vật liệu xây dựng xanh) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -7073,13 +7073,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Functional\" là gì?",
-        "options": "[\"Mang tính công năng cao\",\"Sự hòa hợp với thiên nhiên\",\"Cấu trúc cảnh quan đô thị\",\"Tái tạo năng lượng\"]",
+        "options": "[\"Mang tính công năng cao\",\"Tái tạo năng lượng\",\"Cấu trúc cảnh quan đô thị\",\"Sự hòa hợp với thiên nhiên\"]",
         "correctAnswer": "Mang tính công năng cao",
         "explanation": "\"Functional\" có phiên âm /ˈfʌŋ.kʃə.nəl/ và mang nghĩa là \"Mang tính công năng cao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Urban fabric\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Urban fabric\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Urban fabric",
         "explanation": "\"Urban fabric\" (Cấu trúc cảnh quan đô thị) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -7091,13 +7091,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Harmony\" là gì?",
-        "options": "[\"Thiết kế năng lượng thụ động\",\"Sự hòa hợp với thiên nhiên\",\"Kiến trúc công trình\",\"Sự thông gió tự nhiên\"]",
+        "options": "[\"Sự hòa hợp với thiên nhiên\",\"Kiến trúc công trình\",\"Thiết kế năng lượng thụ động\",\"Sự thông gió tự nhiên\"]",
         "correctAnswer": "Sự hòa hợp với thiên nhiên",
         "explanation": "\"Harmony\" có phiên âm /ˈhɑːr.mə.ni/ và mang nghĩa là \"Sự hòa hợp với thiên nhiên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"Architecture\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Architecture\"]",
         "correctAnswer": "Architecture",
         "explanation": "\"Architecture\" (Kiến trúc công trình) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -7109,13 +7109,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ventilation\" là gì?",
-        "options": "[\"Tính thẩm mỹ nghệ thuật\",\"Vật liệu xây dựng xanh\",\"Sự thông gió tự nhiên\",\"Vật liệu cách nhiệt\"]",
+        "options": "[\"Tính thẩm mỹ nghệ thuật\",\"Vật liệu cách nhiệt\",\"Sự thông gió tự nhiên\",\"Vật liệu xây dựng xanh\"]",
         "correctAnswer": "Sự thông gió tự nhiên",
         "explanation": "\"Ventilation\" có phiên âm /ˌven.təˈleɪ.ʃən/ và mang nghĩa là \"Sự thông gió tự nhiên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Insulation\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Insulation\"]",
         "correctAnswer": "Insulation",
         "explanation": "\"Insulation\" (Vật liệu cách nhiệt) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -7269,7 +7269,7 @@ module.exports = [
         "title": "Đọc hiểu bài 25: Global Ecotourism & Cultural Impact",
         "passage": "Mastering the theme of \"Global Ecotourism & Cultural Impact\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Ecotourism\" (Du lịch sinh thái) and \"Conservation\" (Bảo tồn đa dạng sinh học) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Indigenous\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Global Ecotourism & Cultural Impact\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Ecotourism\" (Du lịch sinh thái) và \"Conservation\" (Bảo tồn đa dạng sinh học) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Indigenous\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Global Ecotourism & Cultural Impact\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Global Ecotourism & Cultural Impact\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Global Ecotourism & Cultural Impact\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Ecotourism\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Global Ecotourism & Cultural Impact\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Global Ecotourism & Cultural Impact\",\"explanation\":\"Đoạn văn khẳng định: \\\"Ecotourism\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Global Ecotourism & Cultural Impact\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Global Ecotourism & Cultural Impact\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Global Ecotourism & Cultural Impact\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Ecotourism\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Global Ecotourism & Cultural Impact\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Global Ecotourism & Cultural Impact\",\"explanation\":\"The text points out that words like \\\"Ecotourism\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -7284,7 +7284,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"conversation\",\"Ecotourism\",\"daily\",\"in\"]",
+        "options": "[\"daily\",\"in\",\"Ecotourism\",\"use\",\"conversation\",\"I\"]",
         "correctAnswer": "I use Ecotourism in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Ecotourism in daily conversation\"."
       },
@@ -7334,13 +7334,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ecotourism\" là gì?",
-        "options": "[\"Giữ gìn nguyên vẹn\",\"Bản địa, thổ dân\",\"Bảo tồn đa dạng sinh học\",\"Du lịch sinh thái\"]",
+        "options": "[\"Giữ gìn nguyên vẹn\",\"Bản địa, thổ dân\",\"Du lịch sinh thái\",\"Bảo tồn đa dạng sinh học\"]",
         "correctAnswer": "Du lịch sinh thái",
         "explanation": "\"Ecotourism\" có phiên âm /ˌiˈkɑːˈtʊ.rɪ.zəm/ và mang nghĩa là \"Du lịch sinh thái\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"Conservation\",\"bananas\"]",
+        "options": "[\"Conservation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Conservation",
         "explanation": "\"Conservation\" (Bảo tồn đa dạng sinh học) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7352,7 +7352,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Preservation\" là gì?",
-        "options": "[\"Dễ tổn thương\",\"Giữ gìn nguyên vẹn\",\"Chân thực nguyên bản\",\"Dấu chân tác động\"]",
+        "options": "[\"Giữ gìn nguyên vẹn\",\"Dễ tổn thương\",\"Dấu chân tác động\",\"Chân thực nguyên bản\"]",
         "correctAnswer": "Giữ gìn nguyên vẹn",
         "explanation": "\"Preservation\" có phiên âm /ˌpre.zərˈveɪ.ʃən/ và mang nghĩa là \"Giữ gìn nguyên vẹn\"."
       },
@@ -7370,13 +7370,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Authentic\" là gì?",
-        "options": "[\"Ý thức trách nhiệm cao\",\"Đa dạng sinh thái\",\"Trao quyền tự chủ địa phương\",\"Chân thực nguyên bản\"]",
+        "options": "[\"Chân thực nguyên bản\",\"Trao quyền tự chủ địa phương\",\"Đa dạng sinh thái\",\"Ý thức trách nhiệm cao\"]",
         "correctAnswer": "Chân thực nguyên bản",
         "explanation": "\"Authentic\" có phiên âm /ˌəˈθen.tɪk/ và mang nghĩa là \"Chân thực nguyên bản\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Empowerment\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Empowerment\"]",
         "correctAnswer": "Empowerment",
         "explanation": "\"Empowerment\" (Trao quyền tự chủ địa phương) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7388,13 +7388,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Responsibility\" là gì?",
-        "options": "[\"Du lịch sinh thái\",\"Bản địa, thổ dân\",\"Bảo tồn đa dạng sinh học\",\"Ý thức trách nhiệm cao\"]",
+        "options": "[\"Bản địa, thổ dân\",\"Ý thức trách nhiệm cao\",\"Du lịch sinh thái\",\"Bảo tồn đa dạng sinh học\"]",
         "correctAnswer": "Ý thức trách nhiệm cao",
         "explanation": "\"Responsibility\" có phiên âm /ˌri.spɑːn.səˈbɪ.lə.ti/ và mang nghĩa là \"Ý thức trách nhiệm cao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Ecotourism\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Ecotourism\",\"airplanes\"]",
         "correctAnswer": "Ecotourism",
         "explanation": "\"Ecotourism\" (Du lịch sinh thái) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7406,13 +7406,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Indigenous\" là gì?",
-        "options": "[\"Dễ tổn thương\",\"Bản địa, thổ dân\",\"Giữ gìn nguyên vẹn\",\"Dấu chân tác động\"]",
+        "options": "[\"Bản địa, thổ dân\",\"Dấu chân tác động\",\"Giữ gìn nguyên vẹn\",\"Dễ tổn thương\"]",
         "correctAnswer": "Bản địa, thổ dân",
         "explanation": "\"Indigenous\" có phiên âm /ˌɪnˈdɪ.dʒə.nəs/ và mang nghĩa là \"Bản địa, thổ dân\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Preservation\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Preservation\",\"umbrellas\"]",
         "correctAnswer": "Preservation",
         "explanation": "\"Preservation\" (Giữ gìn nguyên vẹn) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7566,7 +7566,7 @@ module.exports = [
         "title": "Đọc hiểu bài 26: Consumer Protection & Digital Privacy Law",
         "passage": "Mastering the theme of \"Consumer Protection & Digital Privacy Law\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Consumer protection\" (Bảo vệ người tiêu dùng) and \"Data privacy\" (Quyền bảo mật dữ liệu) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Consent\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Consumer Protection & Digital Privacy Law\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Consumer protection\" (Bảo vệ người tiêu dùng) và \"Data privacy\" (Quyền bảo mật dữ liệu) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Consent\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Consumer Protection & Digital Privacy Law\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Consumer Protection & Digital Privacy Law\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Consumer Protection & Digital Privacy Law\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Consumer protection\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Consumer Protection & Digital Privacy Law\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Consumer Protection & Digital Privacy Law\",\"explanation\":\"Đoạn văn khẳng định: \\\"Consumer protection\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Consumer Protection & Digital Privacy Law\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Consumer Protection & Digital Privacy Law\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Consumer Protection & Digital Privacy Law\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Consumer protection\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Consumer Protection & Digital Privacy Law\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Consumer Protection & Digital Privacy Law\",\"explanation\":\"The text points out that words like \\\"Consumer protection\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -7581,7 +7581,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"I\",\"protection\",\"daily\",\"Consumer\",\"in\"]",
+        "options": "[\"protection\",\"Consumer\",\"daily\",\"use\",\"I\",\"in\"]",
         "correctAnswer": "I use Consumer protection in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Consumer protection in daily\"."
       },
@@ -7631,13 +7631,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consumer protection\" là gì?",
-        "options": "[\"Bảo vệ người tiêu dùng\",\"Vụ rò rỉ xâm phạm dữ liệu\",\"Quyền bảo mật dữ liệu\",\"Sự đồng thuận rõ ràng\"]",
+        "options": "[\"Vụ rò rỉ xâm phạm dữ liệu\",\"Sự đồng thuận rõ ràng\",\"Quyền bảo mật dữ liệu\",\"Bảo vệ người tiêu dùng\"]",
         "correctAnswer": "Bảo vệ người tiêu dùng",
         "explanation": "\"Consumer protection\" có phiên âm /ˌkənˈsuː.mər ˌprəˈtek.ʃən/ và mang nghĩa là \"Bảo vệ người tiêu dùng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Data privacy\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Data privacy\"]",
         "correctAnswer": "Data privacy",
         "explanation": "\"Data privacy\" (Quyền bảo mật dữ liệu) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7649,13 +7649,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Breach\" là gì?",
-        "options": "[\"Sự tuân thủ pháp luật\",\"Thực thi pháp lý\",\"Vụ rò rỉ xâm phạm dữ liệu\",\"Mức tiền phạt xử lý\"]",
+        "options": "[\"Sự tuân thủ pháp luật\",\"Vụ rò rỉ xâm phạm dữ liệu\",\"Mức tiền phạt xử lý\",\"Thực thi pháp lý\"]",
         "correctAnswer": "Vụ rò rỉ xâm phạm dữ liệu",
         "explanation": "\"Breach\" có phiên âm /ˈbriːtʃ/ và mang nghĩa là \"Vụ rò rỉ xâm phạm dữ liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"Compliance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Compliance\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Compliance",
         "explanation": "\"Compliance\" (Sự tuân thủ pháp luật) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7673,7 +7673,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"Jurisdiction\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Jurisdiction\"]",
         "correctAnswer": "Jurisdiction",
         "explanation": "\"Jurisdiction\" (Quyền tài phán) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7685,13 +7685,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Remedy\" là gì?",
-        "options": "[\"Quyền bảo mật dữ liệu\",\"Bảo vệ người tiêu dùng\",\"Sự đồng thuận rõ ràng\",\"Biện pháp khắc phục bồi thường\"]",
+        "options": "[\"Bảo vệ người tiêu dùng\",\"Quyền bảo mật dữ liệu\",\"Sự đồng thuận rõ ràng\",\"Biện pháp khắc phục bồi thường\"]",
         "correctAnswer": "Biện pháp khắc phục bồi thường",
         "explanation": "\"Remedy\" có phiên âm /ˈre.mə.di/ và mang nghĩa là \"Biện pháp khắc phục bồi thường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"bananas\",\"Consumer protection\",\"airplanes\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Consumer protection\",\"umbrellas\"]",
         "correctAnswer": "Consumer protection",
         "explanation": "\"Consumer protection\" (Bảo vệ người tiêu dùng) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7703,13 +7703,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consent\" là gì?",
-        "options": "[\"Sự đồng thuận rõ ràng\",\"Vụ rò rỉ xâm phạm dữ liệu\",\"Sự tuân thủ pháp luật\",\"Mức tiền phạt xử lý\"]",
+        "options": "[\"Mức tiền phạt xử lý\",\"Sự tuân thủ pháp luật\",\"Vụ rò rỉ xâm phạm dữ liệu\",\"Sự đồng thuận rõ ràng\"]",
         "correctAnswer": "Sự đồng thuận rõ ràng",
         "explanation": "\"Consent\" có phiên âm /kənˈsent/ và mang nghĩa là \"Sự đồng thuận rõ ràng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Breach\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Breach\"]",
         "correctAnswer": "Breach",
         "explanation": "\"Breach\" (Vụ rò rỉ xâm phạm dữ liệu) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7863,7 +7863,7 @@ module.exports = [
         "title": "Đọc hiểu bài 27: Conflict Resolution & De-escalation",
         "passage": "Mastering the theme of \"Conflict Resolution & De-escalation\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Conflict resolution\" (Giải quyết xung đột mâu thuẫn) and \"De-escalation\" (Hạ nhiệt căng thẳng) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Mediation\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Conflict Resolution & De-escalation\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Conflict resolution\" (Giải quyết xung đột mâu thuẫn) và \"De-escalation\" (Hạ nhiệt căng thẳng) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Mediation\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Conflict Resolution & De-escalation\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Conflict Resolution & De-escalation\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Conflict Resolution & De-escalation\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Conflict resolution\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Conflict Resolution & De-escalation\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Conflict Resolution & De-escalation\",\"explanation\":\"Đoạn văn khẳng định: \\\"Conflict resolution\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Conflict Resolution & De-escalation\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Conflict Resolution & De-escalation\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Conflict Resolution & De-escalation\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Conflict resolution\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Conflict Resolution & De-escalation\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Conflict Resolution & De-escalation\",\"explanation\":\"The text points out that words like \\\"Conflict resolution\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -7878,7 +7878,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"resolution\",\"daily\",\"in\",\"I\",\"use\",\"Conflict\"]",
+        "options": "[\"in\",\"I\",\"resolution\",\"use\",\"Conflict\",\"daily\"]",
         "correctAnswer": "I use Conflict resolution in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Conflict resolution in daily\"."
       },
@@ -7928,13 +7928,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Conflict resolution\" là gì?",
-        "options": "[\"Giải quyết xung đột mâu thuẫn\",\"Thái độ thù địch gay gắt\",\"Hạ nhiệt căng thẳng\",\"Sự hòa giải trung gian\"]",
+        "options": "[\"Thái độ thù địch gay gắt\",\"Sự hòa giải trung gian\",\"Hạ nhiệt căng thẳng\",\"Giải quyết xung đột mâu thuẫn\"]",
         "correctAnswer": "Giải quyết xung đột mâu thuẫn",
         "explanation": "\"Conflict resolution\" có phiên âm /ˈkɑːn.flɪkt ˌre.zəˈluː.ʃən/ và mang nghĩa là \"Giải quyết xung đột mâu thuẫn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"De-escalation\"]",
+        "options": "[\"De-escalation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "De-escalation",
         "explanation": "\"De-escalation\" (Hạ nhiệt căng thẳng) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -7946,13 +7946,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hostility\" là gì?",
-        "options": "[\"Thái độ thù địch gay gắt\",\"Đặt mình vào vị trí đối phương\",\"Mối bất bình uất ức\",\"Lắng nghe chủ động sâu sắc\"]",
+        "options": "[\"Mối bất bình uất ức\",\"Đặt mình vào vị trí đối phương\",\"Lắng nghe chủ động sâu sắc\",\"Thái độ thù địch gay gắt\"]",
         "correctAnswer": "Thái độ thù địch gay gắt",
         "explanation": "\"Hostility\" có phiên âm /ˌhɑːˈstɪ.lə.ti/ và mang nghĩa là \"Thái độ thù địch gay gắt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"Active listening\",\"bananas\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Active listening\"]",
         "correctAnswer": "Active listening",
         "explanation": "\"Active listening\" (Lắng nghe chủ động sâu sắc) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -7964,13 +7964,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Grievance\" là gì?",
-        "options": "[\"Mối bất bình uất ức\",\"Hàn gắn làm hòa\",\"Mang tính xây dựng\",\"Thỏa thuận đạt được\"]",
+        "options": "[\"Thỏa thuận đạt được\",\"Hàn gắn làm hòa\",\"Mang tính xây dựng\",\"Mối bất bình uất ức\"]",
         "correctAnswer": "Mối bất bình uất ức",
         "explanation": "\"Grievance\" có phiên âm /ˈɡriː.vəns/ và mang nghĩa là \"Mối bất bình uất ức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"Reconcile\",\"umbrellas\"]",
+        "options": "[\"Reconcile\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Reconcile",
         "explanation": "\"Reconcile\" (Hàn gắn làm hòa) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -7982,13 +7982,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Agreement\" là gì?",
-        "options": "[\"Sự hòa giải trung gian\",\"Thỏa thuận đạt được\",\"Giải quyết xung đột mâu thuẫn\",\"Hạ nhiệt căng thẳng\"]",
+        "options": "[\"Giải quyết xung đột mâu thuẫn\",\"Hạ nhiệt căng thẳng\",\"Sự hòa giải trung gian\",\"Thỏa thuận đạt được\"]",
         "correctAnswer": "Thỏa thuận đạt được",
         "explanation": "\"Agreement\" có phiên âm /ˌəˈɡriː.mənt/ và mang nghĩa là \"Thỏa thuận đạt được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"Conflict resolution\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"Conflict resolution\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Conflict resolution",
         "explanation": "\"Conflict resolution\" (Giải quyết xung đột mâu thuẫn) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -8000,13 +8000,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mediation\" là gì?",
-        "options": "[\"Lắng nghe chủ động sâu sắc\",\"Thái độ thù địch gay gắt\",\"Đặt mình vào vị trí đối phương\",\"Sự hòa giải trung gian\"]",
+        "options": "[\"Đặt mình vào vị trí đối phương\",\"Lắng nghe chủ động sâu sắc\",\"Thái độ thù địch gay gắt\",\"Sự hòa giải trung gian\"]",
         "correctAnswer": "Sự hòa giải trung gian",
         "explanation": "\"Mediation\" có phiên âm /ˌmi.diˈeɪ.ʃən/ và mang nghĩa là \"Sự hòa giải trung gian\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hostility\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Hostility\",\"airplanes\"]",
         "correctAnswer": "Hostility",
         "explanation": "\"Hostility\" (Thái độ thù địch gay gắt) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -8160,7 +8160,7 @@ module.exports = [
         "title": "Đọc hiểu bài 28: Writing Argumentative & Persuasive Essays",
         "passage": "Mastering the theme of \"Writing Argumentative & Persuasive Essays\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Argumentative\" (Mang tính nghị luận sắc sảo) and \"Thesis statement\" (Câu tuyên ngôn luận đề) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Evidence\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Writing Argumentative & Persuasive Essays\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Argumentative\" (Mang tính nghị luận sắc sảo) và \"Thesis statement\" (Câu tuyên ngôn luận đề) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Evidence\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Writing Argumentative & Persuasive Essays\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Writing Argumentative & Persuasive Essays\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Writing Argumentative & Persuasive Essays\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Argumentative\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Writing Argumentative & Persuasive Essays\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Writing Argumentative & Persuasive Essays\",\"explanation\":\"Đoạn văn khẳng định: \\\"Argumentative\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Writing Argumentative & Persuasive Essays\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Writing Argumentative & Persuasive Essays\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Writing Argumentative & Persuasive Essays\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Argumentative\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Writing Argumentative & Persuasive Essays\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Writing Argumentative & Persuasive Essays\",\"explanation\":\"The text points out that words like \\\"Argumentative\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -8175,7 +8175,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"use\",\"Argumentative\",\"conversation\",\"daily\",\"I\"]",
+        "options": "[\"Argumentative\",\"daily\",\"conversation\",\"in\",\"I\",\"use\"]",
         "correctAnswer": "I use Argumentative in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Argumentative in daily conversation\"."
       },
@@ -8225,13 +8225,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Argumentative\" là gì?",
-        "options": "[\"Luận cứ minh chứng\",\"Mang tính nghị luận sắc sảo\",\"Câu tuyên ngôn luận đề\",\"Luận điểm phản bác đối lập\"]",
+        "options": "[\"Luận điểm phản bác đối lập\",\"Luận cứ minh chứng\",\"Câu tuyên ngôn luận đề\",\"Mang tính nghị luận sắc sảo\"]",
         "correctAnswer": "Mang tính nghị luận sắc sảo",
         "explanation": "\"Argumentative\" có phiên âm /ˌɑːr.ɡjəˈmen.tə.tɪv/ và mang nghĩa là \"Mang tính nghị luận sắc sảo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Thesis statement\",\"bananas\",\"airplanes\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Thesis statement\",\"umbrellas\"]",
         "correctAnswer": "Thesis statement",
         "explanation": "\"Thesis statement\" (Câu tuyên ngôn luận đề) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -8243,13 +8243,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Counter-argument\" là gì?",
-        "options": "[\"Sức mạnh thuyết phục\",\"Lập luận bẻ gãy phản bác\",\"Luận điểm phản bác đối lập\",\"Tính mạch lạc chặt chẽ\"]",
+        "options": "[\"Lập luận bẻ gãy phản bác\",\"Sức mạnh thuyết phục\",\"Luận điểm phản bác đối lập\",\"Tính mạch lạc chặt chẽ\"]",
         "correctAnswer": "Luận điểm phản bác đối lập",
         "explanation": "\"Counter-argument\" có phiên âm /ˈkaʊ.nərˈɑːr.ɡjə.mənt/ và mang nghĩa là \"Luận điểm phản bác đối lập\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"Rebuttal\",\"bananas\",\"airplanes\"]",
+        "options": "[\"Rebuttal\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Rebuttal",
         "explanation": "\"Rebuttal\" (Lập luận bẻ gãy phản bác) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -8261,7 +8261,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Coherence\" là gì?",
-        "options": "[\"Nghệ thuật tu từ hùng biện\",\"Tính xác đáng logic\",\"Tính mạch lạc chặt chẽ\",\"Phần kết luận đanh thép\"]",
+        "options": "[\"Nghệ thuật tu từ hùng biện\",\"Phần kết luận đanh thép\",\"Tính xác đáng logic\",\"Tính mạch lạc chặt chẽ\"]",
         "correctAnswer": "Tính mạch lạc chặt chẽ",
         "explanation": "\"Coherence\" có phiên âm /ˌkoʊˈhɪ.rəns/ và mang nghĩa là \"Tính mạch lạc chặt chẽ\"."
       },
@@ -8279,13 +8279,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Rhetoric\" là gì?",
-        "options": "[\"Câu tuyên ngôn luận đề\",\"Luận cứ minh chứng\",\"Nghệ thuật tu từ hùng biện\",\"Mang tính nghị luận sắc sảo\"]",
+        "options": "[\"Luận cứ minh chứng\",\"Câu tuyên ngôn luận đề\",\"Mang tính nghị luận sắc sảo\",\"Nghệ thuật tu từ hùng biện\"]",
         "correctAnswer": "Nghệ thuật tu từ hùng biện",
         "explanation": "\"Rhetoric\" có phiên âm /ˈre.tər.ɪk/ và mang nghĩa là \"Nghệ thuật tu từ hùng biện\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"bananas\",\"Argumentative\",\"umbrellas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"Argumentative\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Argumentative",
         "explanation": "\"Argumentative\" (Mang tính nghị luận sắc sảo) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -8297,13 +8297,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Evidence\" là gì?",
-        "options": "[\"Luận cứ minh chứng\",\"Luận điểm phản bác đối lập\",\"Lập luận bẻ gãy phản bác\",\"Sức mạnh thuyết phục\"]",
+        "options": "[\"Sức mạnh thuyết phục\",\"Lập luận bẻ gãy phản bác\",\"Luận điểm phản bác đối lập\",\"Luận cứ minh chứng\"]",
         "correctAnswer": "Luận cứ minh chứng",
         "explanation": "\"Evidence\" có phiên âm /ˈe.və.dəns/ và mang nghĩa là \"Luận cứ minh chứng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Counter-argument\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Counter-argument\"]",
         "correctAnswer": "Counter-argument",
         "explanation": "\"Counter-argument\" (Luận điểm phản bác đối lập) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -8457,7 +8457,7 @@ module.exports = [
         "title": "Đọc hiểu bài 29: Business Case Study Analysis",
         "passage": "Mastering the theme of \"Business Case Study Analysis\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Case study\" (Nghiên cứu tình huống) and \"SWOT analysis\" (Phân tích điểm mạnh/yếu/cơ hội/nguy cơ) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Diagnosis\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Business Case Study Analysis\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Case study\" (Nghiên cứu tình huống) và \"SWOT analysis\" (Phân tích điểm mạnh/yếu/cơ hội/nguy cơ) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Diagnosis\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Business Case Study Analysis\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Business Case Study Analysis\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Business Case Study Analysis\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Case study\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Business Case Study Analysis\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Business Case Study Analysis\",\"explanation\":\"Đoạn văn khẳng định: \\\"Case study\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Business Case Study Analysis\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Business Case Study Analysis\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Business Case Study Analysis\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Case study\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Business Case Study Analysis\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Business Case Study Analysis\",\"explanation\":\"The text points out that words like \\\"Case study\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -8472,7 +8472,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"study\",\"daily\",\"Case\",\"use\",\"I\"]",
+        "options": "[\"study\",\"Case\",\"use\",\"in\",\"daily\",\"I\"]",
         "correctAnswer": "I use Case study in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Case study in daily\"."
       },
@@ -8522,13 +8522,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Case study\" là gì?",
-        "options": "[\"Đề xuất giải pháp khả thi\",\"Chẩn đoán nguyên nhân gốc rễ\",\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\",\"Nghiên cứu tình huống\"]",
+        "options": "[\"Đề xuất giải pháp khả thi\",\"Chẩn đoán nguyên nhân gốc rễ\",\"Nghiên cứu tình huống\",\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\"]",
         "correctAnswer": "Nghiên cứu tình huống",
         "explanation": "\"Case study\" có phiên âm /ˈkeɪs ˈstʌ.di/ và mang nghĩa là \"Nghiên cứu tình huống\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"SWOT analysis\",\"umbrellas\",\"bananas\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"SWOT analysis\"]",
         "correctAnswer": "SWOT analysis",
         "explanation": "\"SWOT analysis\" (Phân tích điểm mạnh/yếu/cơ hội/nguy cơ) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8540,7 +8540,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Recommendation\" là gì?",
-        "options": "[\"Đề xuất giải pháp khả thi\",\"Kế hoạch triển khai hành động\",\"Tính khả thi thực tế\",\"Đánh giá rủi ro tiềm ẩn\"]",
+        "options": "[\"Đánh giá rủi ro tiềm ẩn\",\"Đề xuất giải pháp khả thi\",\"Kế hoạch triển khai hành động\",\"Tính khả thi thực tế\"]",
         "correctAnswer": "Đề xuất giải pháp khả thi",
         "explanation": "\"Recommendation\" có phiên âm /ˌre.kə.mənˈdeɪ.ʃən/ và mang nghĩa là \"Đề xuất giải pháp khả thi\"."
       },
@@ -8558,13 +8558,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Risk assessment\" là gì?",
-        "options": "[\"Đánh giá rủi ro tiềm ẩn\",\"Khả năng sinh lời kinh tế\",\"Lợi thế cạnh tranh vượt trội\",\"Kết quả định lượng\"]",
+        "options": "[\"Đánh giá rủi ro tiềm ẩn\",\"Khả năng sinh lời kinh tế\",\"Kết quả định lượng\",\"Lợi thế cạnh tranh vượt trội\"]",
         "correctAnswer": "Đánh giá rủi ro tiềm ẩn",
         "explanation": "\"Risk assessment\" có phiên âm /ˈrɪsk ˌəˈses.mənt/ và mang nghĩa là \"Đánh giá rủi ro tiềm ẩn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Profitability\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Profitability\"]",
         "correctAnswer": "Profitability",
         "explanation": "\"Profitability\" (Khả năng sinh lời kinh tế) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8576,13 +8576,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Outcome\" là gì?",
-        "options": "[\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\",\"Nghiên cứu tình huống\",\"Kết quả định lượng\",\"Chẩn đoán nguyên nhân gốc rễ\"]",
+        "options": "[\"Chẩn đoán nguyên nhân gốc rễ\",\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\",\"Nghiên cứu tình huống\",\"Kết quả định lượng\"]",
         "correctAnswer": "Kết quả định lượng",
         "explanation": "\"Outcome\" có phiên âm /ˈaʊt.kəm/ và mang nghĩa là \"Kết quả định lượng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"bananas\",\"umbrellas\",\"Case study\",\"airplanes\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Case study\"]",
         "correctAnswer": "Case study",
         "explanation": "\"Case study\" (Nghiên cứu tình huống) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8594,13 +8594,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Diagnosis\" là gì?",
-        "options": "[\"Đề xuất giải pháp khả thi\",\"Chẩn đoán nguyên nhân gốc rễ\",\"Kế hoạch triển khai hành động\",\"Tính khả thi thực tế\"]",
+        "options": "[\"Chẩn đoán nguyên nhân gốc rễ\",\"Kế hoạch triển khai hành động\",\"Đề xuất giải pháp khả thi\",\"Tính khả thi thực tế\"]",
         "correctAnswer": "Chẩn đoán nguyên nhân gốc rễ",
         "explanation": "\"Diagnosis\" có phiên âm /ˌdaɪ.əɡˈnoʊ.səs/ và mang nghĩa là \"Chẩn đoán nguyên nhân gốc rễ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"Recommendation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Recommendation\",\"bananas\"]",
         "correctAnswer": "Recommendation",
         "explanation": "\"Recommendation\" (Đề xuất giải pháp khả thi) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8754,7 +8754,7 @@ module.exports = [
         "title": "Đọc hiểu bài 30: Review & Upper-Intermediate Milestone",
         "passage": "Mastering the theme of \"Review & Upper-Intermediate Milestone\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Upper-intermediate\" (Trung cao cấp B2) and \"Nuanced\" (Có nhiều tầng sắc thái nghĩa) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Articulate\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
         "translation": "Làm chủ chủ đề \"Review & Upper-Intermediate Milestone\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Upper-intermediate\" (Trung cao cấp B2) và \"Nuanced\" (Có nhiều tầng sắc thái nghĩa) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Articulate\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
-        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Review & Upper-Intermediate Milestone\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Review & Upper-Intermediate Milestone\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Review & Upper-Intermediate Milestone\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Upper-intermediate\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Review & Upper-Intermediate Milestone\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Review & Upper-Intermediate Milestone\",\"explanation\":\"Đoạn văn khẳng định: \\\"Upper-intermediate\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
+        "questions": "[{\"question\":\"What is the main topic of the reading passage?\",\"options\":[\"The importance and effective methods of mastering Review & Upper-Intermediate Milestone\",\"The global history of commercial aviation\",\"Traditional culinary techniques and recipes\",\"How to predict severe seasonal weather changes\"],\"correctAnswer\":\"The importance and effective methods of mastering Review & Upper-Intermediate Milestone\",\"explanation\":\"The passage primarily highlights the value and learning strategies for \\\"Review & Upper-Intermediate Milestone\\\".\"},{\"question\":\"What do language experts recommend instead of memorizing isolated definitions?\",\"options\":[\"Connecting new vocabulary to real-life situations\",\"Memorizing the entire dictionary alphabetically\",\"Avoiding both reading and speaking practice\",\"Studying only grammar rules without learning words\"],\"correctAnswer\":\"Connecting new vocabulary to real-life situations\",\"explanation\":\"The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.\"},{\"question\":\"According to the passage, how much daily reading practice helps learners progress twice as fast?\",\"options\":[\"Twenty minutes daily\",\"Ten continuous hours on weekends\",\"One minute each month\",\"No regular practice is needed\"],\"correctAnswer\":\"Twenty minutes daily\",\"explanation\":\"The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.\"},{\"question\":\"In the passage, why is the word \\\"Upper-intermediate\\\" highlighted?\",\"options\":[\"It serves as a foundational building block for the topic Review & Upper-Intermediate Milestone\",\"It is an outdated term that should be avoided\",\"It is a rare scientific word with no daily application\",\"It has no connection to effective communication\"],\"correctAnswer\":\"It serves as a foundational building block for the topic Review & Upper-Intermediate Milestone\",\"explanation\":\"The text points out that words like \\\"Upper-intermediate\\\" serve as foundational building blocks.\"},{\"question\":\"What are the three essential keys to language mastery mentioned in the conclusion?\",\"options\":[\"Consistency, curiosity, and patience\",\"Wealth, luck, and instant fame\",\"Haste, guesswork, and shortcuts\",\"Relying solely on automated translation tools\"],\"correctAnswer\":\"Consistency, curiosity, and patience\",\"explanation\":\"The passage concludes that consistency, curiosity, and patience are the three essential keys.\"}]"
       }
     ],
     "conversations": [],
@@ -8769,7 +8769,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Upper-intermediate\",\"conversation\",\"in\",\"use\",\"daily\",\"I\"]",
+        "options": "[\"daily\",\"conversation\",\"use\",\"Upper-intermediate\",\"I\",\"in\"]",
         "correctAnswer": "I use Upper-intermediate in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Upper-intermediate in daily conversation\"."
       },
@@ -8819,13 +8819,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Upper-intermediate\" là gì?",
-        "options": "[\"Cột mốc vinh quang\",\"Diễn đạt trôi chảy chuẩn xác\",\"Có nhiều tầng sắc thái nghĩa\",\"Trung cao cấp B2\"]",
+        "options": "[\"Diễn đạt trôi chảy chuẩn xác\",\"Có nhiều tầng sắc thái nghĩa\",\"Cột mốc vinh quang\",\"Trung cao cấp B2\"]",
         "correctAnswer": "Trung cao cấp B2",
         "explanation": "\"Upper-intermediate\" có phiên âm /upper-intermediate/ và mang nghĩa là \"Trung cao cấp B2\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
-        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Nuanced\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Nuanced\",\"umbrellas\"]",
         "correctAnswer": "Nuanced",
         "explanation": "\"Nuanced\" (Có nhiều tầng sắc thái nghĩa) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Upper-Intermediate Milestone."
       },
@@ -8843,7 +8843,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"Sophistication\",\"bananas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Sophistication\",\"umbrellas\"]",
         "correctAnswer": "Sophistication",
         "explanation": "\"Sophistication\" (Sự tinh xảo uyên thâm) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Upper-Intermediate Milestone."
       },
@@ -8855,13 +8855,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Readiness\" là gì?",
-        "options": "[\"Sự tuyệt hảo đỉnh cao\",\"Năng lực hội nhập toàn cầu\",\"Sự xuất sắc nổi bật\",\"Sự sẵn sàng cho bậc cao\"]",
+        "options": "[\"Năng lực hội nhập toàn cầu\",\"Sự sẵn sàng cho bậc cao\",\"Sự xuất sắc nổi bật\",\"Sự tuyệt hảo đỉnh cao\"]",
         "correctAnswer": "Sự sẵn sàng cho bậc cao",
         "explanation": "\"Readiness\" có phiên âm /ˈre.di.nəs/ và mang nghĩa là \"Sự sẵn sàng cho bậc cao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
-        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Distinction\"]",
+        "options": "[\"Distinction\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Distinction",
         "explanation": "\"Distinction\" (Sự xuất sắc nổi bật) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Upper-Intermediate Milestone."
       },
@@ -8873,7 +8873,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Excellence\" là gì?",
-        "options": "[\"Có nhiều tầng sắc thái nghĩa\",\"Trung cao cấp B2\",\"Diễn đạt trôi chảy chuẩn xác\",\"Sự tuyệt hảo đỉnh cao\"]",
+        "options": "[\"Sự tuyệt hảo đỉnh cao\",\"Trung cao cấp B2\",\"Có nhiều tầng sắc thái nghĩa\",\"Diễn đạt trôi chảy chuẩn xác\"]",
         "correctAnswer": "Sự tuyệt hảo đỉnh cao",
         "explanation": "\"Excellence\" có phiên âm /ˈek.sə.ləns/ và mang nghĩa là \"Sự tuyệt hảo đỉnh cao\"."
       },
@@ -8891,13 +8891,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Articulate\" là gì?",
-        "options": "[\"Sự tinh xảo uyên thâm\",\"Cột mốc vinh quang\",\"Diễn đạt trôi chảy chuẩn xác\",\"Khả năng làm chủ ngôn ngữ\"]",
+        "options": "[\"Diễn đạt trôi chảy chuẩn xác\",\"Cột mốc vinh quang\",\"Sự tinh xảo uyên thâm\",\"Khả năng làm chủ ngôn ngữ\"]",
         "correctAnswer": "Diễn đạt trôi chảy chuẩn xác",
         "explanation": "\"Articulate\" có phiên âm /ˌɑːrˈtɪk.jə.leɪt/ và mang nghĩa là \"Diễn đạt trôi chảy chuẩn xác\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
-        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Milestone\"]",
+        "options": "[\"Milestone\",\"bananas\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Milestone",
         "explanation": "\"Milestone\" (Cột mốc vinh quang) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Upper-Intermediate Milestone."
       },
