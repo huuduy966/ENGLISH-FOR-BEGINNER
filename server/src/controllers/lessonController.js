@@ -187,6 +187,7 @@ async function getLessonById(req, res) {
         vocabularies: true,
         grammarPoints: true,
         listenings: true,
+        readings: true,
         conversations: true,
         exercises: true,
         quizzes: true,
@@ -225,7 +226,6 @@ async function getLessonById(req, res) {
     // Parse JSON fields
     const formattedGrammar = lesson.grammarPoints.map((g) => {
       let parsedExamples = [];
-      let practiceQuestions = [];
       if (g.examples) {
         try {
           const parsed = typeof g.examples === 'string' ? JSON.parse(g.examples) : g.examples;
@@ -233,7 +233,6 @@ async function getLessonById(req, res) {
             parsedExamples = parsed;
           } else if (parsed && typeof parsed === 'object') {
             parsedExamples = parsed.list || [];
-            practiceQuestions = parsed.questions || [];
           }
         } catch {
           parsedExamples = [];
@@ -242,13 +241,18 @@ async function getLessonById(req, res) {
       return {
         ...g,
         examples: parsedExamples,
-        practiceQuestions,
+        practiceQuestions: [],
       };
     });
 
     const formattedListening = lesson.listenings.map((l) => ({
       ...l,
       questions: l.questions ? (typeof l.questions === 'string' ? JSON.parse(l.questions) : l.questions) : [],
+    }));
+
+    const formattedReadings = (lesson.readings || []).map((r) => ({
+      ...r,
+      questions: r.questions ? (typeof r.questions === 'string' ? JSON.parse(r.questions) : r.questions) : [],
     }));
 
     const formattedConversations = lesson.conversations.map((c) => ({
@@ -292,6 +296,7 @@ async function getLessonById(req, res) {
         vocabularies: vocabulariesWithStatus,
         grammarPoints: formattedGrammar,
         listenings: formattedListening,
+        readings: formattedReadings,
         conversations: formattedConversations,
         exercises: formattedExercises,
         quizzes: formattedQuizzes,

@@ -42,6 +42,7 @@ model Lesson {
   vocabularies    Vocabulary[]
   grammarPoints   GrammarPoint[]
   listenings      Listening[]
+  readings        Reading[]
   conversations   Conversation[]
   exercises       Exercise[]
   quizzes         QuizQuestion[]
@@ -98,6 +99,17 @@ model Listening {
   audioUrl   String?
   questions  String   // JSON string of questions array
   createdAt  DateTime @default(now())
+}
+
+model Reading {
+  id          Int      @id @default(autoincrement())
+  lessonId    Int
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  title       String
+  passage     String
+  translation String?
+  questions   String   // JSON string of questions array
+  createdAt   DateTime @default(now())
 }
 
 model Conversation {
