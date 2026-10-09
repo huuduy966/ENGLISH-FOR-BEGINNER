@@ -1,0 +1,241 @@
+// genA1.js - 30 A1 Lessons
+const { createLesson } = require('./helper');
+
+function generateA1() {
+  const rawTopics = [
+    {
+      title: 'Greetings & Introductions',
+      cat: 'Greetings',
+      desc: 'Học cách chào hỏi cơ bản, tạm biệt và tự giới thiệu bản thân bằng tiếng Anh một cách tự tin.',
+      formula: 'My name is + [Tên] / I am + [Tên]',
+      rule: 'Cách tự giới thiệu bản thân với My name is & I am',
+      vocab: [
+        { word: 'Hello', pronunciation: '/həˈloʊ/', partOfSpeech: 'interjection', meaning: 'Xin chào', example: 'Hello, nice to meet you.', exampleMeaning: 'Xin chào, rất vui được gặp bạn.' },
+        { word: 'Good morning', pronunciation: '/ɡʊd ˈmɔːrnɪŋ/', partOfSpeech: 'phrase', meaning: 'Chào buổi sáng', example: 'Good morning, teacher!', exampleMeaning: 'Chào buổi sáng cô giáo!' },
+        { word: 'Good afternoon', pronunciation: '/ɡʊd ˌæftərˈnuːn/', partOfSpeech: 'phrase', meaning: 'Chào buổi chiều', example: 'Good afternoon, class.', exampleMeaning: 'Chào buổi chiều cả lớp.' },
+        { word: 'Good evening', pronunciation: '/ɡʊd ˈiːvnɪŋ/', partOfSpeech: 'phrase', meaning: 'Chào buổi tối', example: 'Good evening, Mr. John.', exampleMeaning: 'Chào buổi tối, thầy John.' },
+        { word: 'Goodbye', pronunciation: '/ɡʊdˈbaɪ/', partOfSpeech: 'interjection', meaning: 'Tạm biệt', example: 'Goodbye, see you tomorrow.', exampleMeaning: 'Tạm biệt, hẹn gặp lại ngày mai.' },
+        { word: 'Name', pronunciation: '/neɪm/', partOfSpeech: 'noun', meaning: 'Tên', example: 'My name is David.', exampleMeaning: 'Tên tôi là David.' },
+        { word: 'Meet', pronunciation: '/miːt/', partOfSpeech: 'verb', meaning: 'Gặp gỡ', example: 'Glad to meet you.', exampleMeaning: 'Rất vui được gặp bạn.' },
+        { word: 'Please', pronunciation: '/pliːz/', partOfSpeech: 'adverb', meaning: 'Làm ơn / Xin vui lòng', example: 'Come in, please.', exampleMeaning: 'Xin mời vào.' },
+        { word: 'Thank you', pronunciation: '/ˈθæŋk juː/', partOfSpeech: 'phrase', meaning: 'Cảm ơn bạn', example: 'Thank you for your help.', exampleMeaning: 'Cảm ơn sự giúp đỡ của bạn.' },
+        { word: 'Welcome', pronunciation: '/ˈwelkəm/', partOfSpeech: 'interjection', meaning: 'Chào mừng / Không có chi', example: 'You are welcome.', exampleMeaning: 'Không có gì ạ.' },
+      ]
+    },
+    {
+      title: 'Personal Pronouns & Verb To Be',
+      cat: 'Grammar Basics',
+      desc: 'Nắm vững 7 đại từ nhân xưng và cách chia động từ To Be (am, is, are) ở dạng khẳng định và phủ định.',
+      formula: 'S + am / is / are + N / Adj',
+      rule: 'Động từ To Be ở thì Hiện tại đơn',
+      vocab: [
+        { word: 'I', pronunciation: '/aɪ/', partOfSpeech: 'pronoun', meaning: 'Tôi', example: 'I am a student.', exampleMeaning: 'Tôi là một học sinh.' },
+        { word: 'You', pronunciation: '/juː/', partOfSpeech: 'pronoun', meaning: 'Bạn / Các bạn', example: 'You are very kind.', exampleMeaning: 'Bạn rất tốt bụng.' },
+        { word: 'He', pronunciation: '/hiː/', partOfSpeech: 'pronoun', meaning: 'Anh ấy / Cậu ấy', example: 'He is my brother.', exampleMeaning: 'Cậu ấy là anh trai tôi.' },
+        { word: 'She', pronunciation: '/ʃiː/', partOfSpeech: 'pronoun', meaning: 'Cô ấy / Chị ấy', example: 'She is a doctor.', exampleMeaning: 'Cô ấy là một bác sĩ.' },
+        { word: 'It', pronunciation: '/ɪt/', partOfSpeech: 'pronoun', meaning: 'Nó (con vật, đồ vật)', example: 'It is a sunny day.', exampleMeaning: 'Đó là một ngày nắng.' },
+        { word: 'We', pronunciation: '/wiː/', partOfSpeech: 'pronoun', meaning: 'Chúng tôi / Chúng ta', example: 'We are good friends.', exampleMeaning: 'Chúng tôi là bạn tốt.' },
+        { word: 'They', pronunciation: '/ðeɪ/', partOfSpeech: 'pronoun', meaning: 'Họ / Chúng nó', example: 'They are students.', exampleMeaning: 'Họ là những học sinh.' },
+        { word: 'Student', pronunciation: '/ˈstuːdənt/', partOfSpeech: 'noun', meaning: 'Học sinh, sinh viên', example: 'I am an English student.', exampleMeaning: 'Tôi là học viên tiếng Anh.' },
+        { word: 'Teacher', pronunciation: '/ˈtiːtʃər/', partOfSpeech: 'noun', meaning: 'Giáo viên', example: 'Our teacher is helpful.', exampleMeaning: 'Giáo viên của chúng tôi rất tận tâm.' },
+        { word: 'Doctor', pronunciation: '/ˈdɑːktər/', partOfSpeech: 'noun', meaning: 'Bác sĩ', example: 'My uncle is a doctor.', exampleMeaning: 'Chú tôi là bác sĩ.' },
+      ]
+    },
+    {
+      title: 'Alphabet & Spelling',
+      cat: 'Alphabet',
+      desc: 'Bảng chữ cái tiếng Anh từ A đến Z và cách đánh vần tên riêng, email chuẩn xác.',
+      formula: 'How do you spell + [Từ / Tên]?',
+      rule: 'Cách hỏi và đánh vần tên riêng',
+      vocab: [
+        { word: 'Letter', pronunciation: '/ˈletər/', partOfSpeech: 'noun', meaning: 'Chữ cái', example: 'English has 26 letters.', exampleMeaning: 'Tiếng Anh có 26 chữ cái.' },
+        { word: 'Alphabet', pronunciation: '/ˈælfəbet/', partOfSpeech: 'noun', meaning: 'Bảng chữ cái', example: 'Learn the English alphabet.', exampleMeaning: 'Học bảng chữ cái tiếng Anh.' },
+        { word: 'Spell', pronunciation: '/spel/', partOfSpeech: 'verb', meaning: 'Đánh vần', example: 'How do you spell your name?', exampleMeaning: 'Bạn đánh vần tên bạn thế nào?' },
+        { word: 'Vowel', pronunciation: '/ˈvaʊəl/', partOfSpeech: 'noun', meaning: 'Nguyên âm', example: 'A, E, I, O, U are vowels.', exampleMeaning: 'A, E, I, O, U là các nguyên âm.' },
+        { word: 'Consonant', pronunciation: '/ˈkɑːnsənənt/', partOfSpeech: 'noun', meaning: 'Phụ âm', example: 'B and C are consonants.', exampleMeaning: 'B và C là các phụ âm.' },
+        { word: 'Word', pronunciation: '/wɜːrd/', partOfSpeech: 'noun', meaning: 'Từ ngữ', example: 'Write down this new word.', exampleMeaning: 'Hãy viết từ mới này xuống.' },
+        { word: 'Sound', pronunciation: '/saʊnd/', partOfSpeech: 'noun', meaning: 'Âm thanh, phát âm', example: 'Listen to the sound carefully.', exampleMeaning: 'Hãy lắng nghe âm thanh cẩn thận.' },
+        { word: 'Read', pronunciation: '/riːd/', partOfSpeech: 'verb', meaning: 'Đọc', example: 'Read the alphabet out loud.', exampleMeaning: 'Hãy đọc to bảng chữ cái.' },
+        { word: 'Write', pronunciation: '/raɪt/', partOfSpeech: 'verb', meaning: 'Viết', example: 'Write your full name here.', exampleMeaning: 'Hãy viết họ tên bạn vào đây.' },
+        { word: 'Repeat', pronunciation: '/rɪˈpiːt/', partOfSpeech: 'verb', meaning: 'Nhắc lại', example: 'Please repeat after me.', exampleMeaning: 'Xin vui lòng nhắc lại theo tôi.' },
+      ]
+    },
+    {
+      title: 'Numbers & Counting',
+      cat: 'Numbers',
+      desc: 'Làm chủ các con số đếm từ 1 đến 100 và ứng dụng hỏi số lượng trong đời sống.',
+      formula: 'How many + [Danh từ số nhiều] + are there?',
+      rule: 'Cách hỏi số lượng với How many',
+      vocab: [
+        { word: 'One', pronunciation: '/wʌn/', partOfSpeech: 'number', meaning: 'Số một (1)', example: 'I have one sister.', exampleMeaning: 'Tôi có một người chị gái.' },
+        { word: 'Two', pronunciation: '/tuː/', partOfSpeech: 'number', meaning: 'Số hai (2)', example: 'Two cups of coffee, please.', exampleMeaning: 'Làm ơn cho hai tách cà phê.' },
+        { word: 'Three', pronunciation: '/θriː/', partOfSpeech: 'number', meaning: 'Số ba (3)', example: 'Three books are on the desk.', exampleMeaning: 'Có ba quyển sách trên bàn.' },
+        { word: 'Four', pronunciation: '/fɔːr/', partOfSpeech: 'number', meaning: 'Số bốn (4)', example: 'A car has four wheels.', exampleMeaning: 'Một chiếc ô tô có bốn bánh.' },
+        { word: 'Five', pronunciation: '/faɪv/', partOfSpeech: 'number', meaning: 'Số năm (5)', example: 'I wake up at five.', exampleMeaning: 'Tôi thức dậy lúc năm giờ.' },
+        { word: 'Ten', pronunciation: '/ten/', partOfSpeech: 'number', meaning: 'Số mười (10)', example: 'Ten students are here.', exampleMeaning: 'Mười học sinh đang có mặt.' },
+        { word: 'Hundred', pronunciation: '/ˈhʌndrəd/', partOfSpeech: 'number', meaning: 'Một trăm (100)', example: 'One hundred percent.', exampleMeaning: 'Một trăm phần trăm.' },
+        { word: 'Number', pronunciation: '/ˈnʌmbər/', partOfSpeech: 'noun', meaning: 'Con số, số điện thoại', example: 'What is your phone number?', exampleMeaning: 'Số điện thoại của bạn là gì?' },
+        { word: 'Count', pronunciation: '/kaʊnt/', partOfSpeech: 'verb', meaning: 'Đếm', example: 'Count from one to ten.', exampleMeaning: 'Hãy đếm từ một đến mười.' },
+        { word: 'Many', pronunciation: '/ˈmeni/', partOfSpeech: 'adjective', meaning: 'Nhiều', example: 'How many pens do you have?', exampleMeaning: 'Bạn có bao nhiêu cái bút?' },
+      ]
+    },
+    {
+      title: 'Colors & Shapes',
+      cat: 'Colors',
+      desc: 'Nhận biết các màu sắc rực rỡ và hình khối cơ bản xung quanh bạn.',
+      formula: 'What color is + [Vật]?',
+      rule: 'Hỏi màu sắc của đồ vật',
+      vocab: [
+        { word: 'Red', pronunciation: '/red/', partOfSpeech: 'adjective', meaning: 'Màu đỏ', example: 'She has a red apple.', exampleMeaning: 'Cô ấy có một quả táo đỏ.' },
+        { word: 'Blue', pronunciation: '/bluː/', partOfSpeech: 'adjective', meaning: 'Màu xanh da trời', example: 'The sky is clear blue.', exampleMeaning: 'Bầu trời màu xanh trong.' },
+        { word: 'Yellow', pronunciation: '/ˈjeloʊ/', partOfSpeech: 'adjective', meaning: 'Màu vàng', example: 'The sun is bright yellow.', exampleMeaning: 'Mặt trời màu vàng rực.' },
+        { word: 'Green', pronunciation: '/ɡriːn/', partOfSpeech: 'adjective', meaning: 'Màu xanh lá cây', example: 'Green leaves in spring.', exampleMeaning: 'Lá cây xanh mướt vào mùa xuân.' },
+        { word: 'White', pronunciation: '/waɪt/', partOfSpeech: 'adjective', meaning: 'Màu trắng', example: 'A white clean shirt.', exampleMeaning: 'Một chiếc áo sơ mi trắng sạch sẽ.' },
+        { word: 'Black', pronunciation: '/blæk/', partOfSpeech: 'adjective', meaning: 'Màu đen', example: 'He wears a black jacket.', exampleMeaning: 'Anh ấy mặc áo khoác đen.' },
+        { word: 'Circle', pronunciation: '/ˈsɜːrkl/', partOfSpeech: 'noun', meaning: 'Hình tròn', example: 'Draw a small circle.', exampleMeaning: 'Hãy vẽ một hình tròn nhỏ.' },
+        { word: 'Square', pronunciation: '/skwer/', partOfSpeech: 'noun', meaning: 'Hình vuông', example: 'The table is square.', exampleMeaning: 'Cái bàn có hình vuông.' },
+        { word: 'Color', pronunciation: '/ˈkʌlər/', partOfSpeech: 'noun', meaning: 'Màu sắc', example: 'What is your favorite color?', exampleMeaning: 'Màu sắc yêu thích của bạn là gì?' },
+        { word: 'Bright', pronunciation: '/braɪt/', partOfSpeech: 'adjective', meaning: 'Sáng sủa, tươi sáng', example: 'Bright colors bring joy.', exampleMeaning: 'Màu sắc tươi sáng mang lại niềm vui.' },
+      ]
+    },
+    {
+      title: 'Family & Relatives',
+      cat: 'Family',
+      desc: 'Từ vựng các thành viên trong gia đình và cách nói về gia đình thân yêu.',
+      formula: 'This is my + [Thành viên gia đình]',
+      rule: 'Giới thiệu thành viên gia đình',
+      vocab: [
+        { word: 'Father', pronunciation: '/ˈfɑːðər/', partOfSpeech: 'noun', meaning: 'Bố, cha', example: 'My father is an engineer.', exampleMeaning: 'Bố tôi là kỹ sư.' },
+        { word: 'Mother', pronunciation: '/ˈmʌðər/', partOfSpeech: 'noun', meaning: 'Mẹ', example: 'My mother cooks very well.', exampleMeaning: 'Mẹ tôi nấu ăn rất ngon.' },
+        { word: 'Parents', pronunciation: '/ˈperənts/', partOfSpeech: 'noun', meaning: 'Bố mẹ, phụ huynh', example: 'I love my parents.', exampleMeaning: 'Tôi yêu thương bố mẹ tôi.' },
+        { word: 'Brother', pronunciation: '/ˈbrʌðər/', partOfSpeech: 'noun', meaning: 'Anh trai / Em trai', example: 'I have one younger brother.', exampleMeaning: 'Tôi có một người em trai.' },
+        { word: 'Sister', pronunciation: '/ˈsɪstər/', partOfSpeech: 'noun', meaning: 'Chị gái / Em gái', example: 'My sister is a student.', exampleMeaning: 'Chị gái tôi là sinh viên.' },
+        { word: 'Son', pronunciation: '/sʌn/', partOfSpeech: 'noun', meaning: 'Con trai', example: 'They have a young son.', exampleMeaning: 'Họ có một đứa con trai nhỏ.' },
+        { word: 'Daughter', pronunciation: '/ˈdɔːtər/', partOfSpeech: 'noun', meaning: 'Con gái', example: 'She is their daughter.', exampleMeaning: 'Cô bé là con gái của họ.' },
+        { word: 'Grandfather', pronunciation: '/ˈɡrænfɑːðər/', partOfSpeech: 'noun', meaning: 'Ông nội / Ông ngoại', example: 'My grandfather is 75.', exampleMeaning: 'Ông tôi 75 tuổi.' },
+        { word: 'Grandmother', pronunciation: '/ˈɡrænmʌðər/', partOfSpeech: 'noun', meaning: 'Bà nội / Bà ngoại', example: 'Grandmother tells stories.', exampleMeaning: 'Bà kể những câu chuyện cổ tích.' },
+        { word: 'Family', pronunciation: '/ˈfæməli/', partOfSpeech: 'noun', meaning: 'Gia đình', example: 'I have a happy family.', exampleMeaning: 'Tôi có một gia đình hạnh phúc.' },
+      ]
+    },
+    {
+      title: 'Home & Rooms',
+      cat: 'Home',
+      desc: 'Khám phá các gian phòng trong ngôi nhà và vị trí các khu vực sinh hoạt.',
+      formula: 'There is / There are + [Phòng / Đồ vật]',
+      rule: 'Cấu trúc miêu tả nơi chốn với There is / There are',
+      vocab: [
+        { word: 'House', pronunciation: '/haʊs/', partOfSpeech: 'noun', meaning: 'Ngôi nhà', example: 'We live in a small house.', exampleMeaning: 'Chúng tôi sống trong ngôi nhà nhỏ.' },
+        { word: 'Room', pronunciation: '/ruːm/', partOfSpeech: 'noun', meaning: 'Căn phòng', example: 'My room is on the second floor.', exampleMeaning: 'Phòng của tôi ở tầng hai.' },
+        { word: 'Living room', pronunciation: '/ˈlɪvɪŋ ruːm/', partOfSpeech: 'noun', meaning: 'Phòng khách', example: 'We watch TV in the living room.', exampleMeaning: 'Chúng tôi xem TV ở phòng khách.' },
+        { word: 'Bedroom', pronunciation: '/ˈbedruːm/', partOfSpeech: 'noun', meaning: 'Phòng ngủ', example: 'The bedroom has a big window.', exampleMeaning: 'Phòng ngủ có một cửa sổ lớn.' },
+        { word: 'Kitchen', pronunciation: '/ˈkɪtʃɪn/', partOfSpeech: 'noun', meaning: 'Nhà bếp', example: 'Mom is cooking in the kitchen.', exampleMeaning: 'Mẹ đang nấu ăn trong bếp.' },
+        { word: 'Bathroom', pronunciation: '/ˈbæθruːm/', partOfSpeech: 'noun', meaning: 'Phòng tắm, vệ sinh', example: 'Wash your hands in the bathroom.', exampleMeaning: 'Rửa tay bạn trong phòng tắm.' },
+        { word: 'Door', pronunciation: '/dɔːr/', partOfSpeech: 'noun', meaning: 'Cửa ra vào', example: 'Close the door, please.', exampleMeaning: 'Làm ơn đóng cửa lại.' },
+        { word: 'Window', pronunciation: '/ˈwɪndoʊ/', partOfSpeech: 'noun', meaning: 'Cửa sổ', example: 'Open the window for fresh air.', exampleMeaning: 'Mở cửa sổ để đón không khí trong lành.' },
+        { word: 'Garden', pronunciation: '/ˈɡɑːrdn/', partOfSpeech: 'noun', meaning: 'Khu vườn', example: 'Flowers bloom in the garden.', exampleMeaning: 'Hoa nở rộ trong vườn.' },
+        { word: 'Home', pronunciation: '/hoʊm/', partOfSpeech: 'noun', meaning: 'Tổ ấm, mái nhà', example: 'There is no place like home.', exampleMeaning: 'Không nơi đâu bằng nhà mình.' },
+      ]
+    },
+    {
+      title: 'Furniture & Household Items',
+      cat: 'Home',
+      desc: 'Tên gọi các vật dụng quen thuộc trong nhà: bàn ghế, giường tủ, đèn.',
+      formula: 'The + [Đồ vật] + is on / in / under + [Vị trí]',
+      rule: 'Giới từ chỉ vị trí in, on, under',
+      vocab: [
+        { word: 'Table', pronunciation: '/ˈteɪbl/', partOfSpeech: 'noun', meaning: 'Cái bàn', example: 'Put the keys on the table.', exampleMeaning: 'Để chìa khóa lên bàn.' },
+        { word: 'Chair', pronunciation: '/tʃer/', partOfSpeech: 'noun', meaning: 'Cái ghế', example: 'Please sit on this chair.', exampleMeaning: 'Xin mời ngồi vào chiếc ghế này.' },
+        { word: 'Bed', pronunciation: '/bed/', partOfSpeech: 'noun', meaning: 'Cái giường', example: 'A comfortable warm bed.', exampleMeaning: 'Một chiếc giường êm ái ấm áp.' },
+        { word: 'Desk', pronunciation: '/desk/', partOfSpeech: 'noun', meaning: 'Bàn làm việc / học', example: 'I study at my desk.', exampleMeaning: 'Tôi học tại bàn của mình.' },
+        { word: 'Lamp', pronunciation: '/læmp/', partOfSpeech: 'noun', meaning: 'Đèn bàn', example: 'Turn on the desk lamp.', exampleMeaning: 'Hãy bật đèn bàn lên.' },
+        { word: 'Sofa', pronunciation: '/ˈsoʊfə/', partOfSpeech: 'noun', meaning: 'Ghế sofa', example: 'Relax on the soft sofa.', exampleMeaning: 'Thư giãn trên ghế sofa êm.' },
+        { word: 'Clock', pronunciation: '/klɑːk/', partOfSpeech: 'noun', meaning: 'Đồng hồ treo tường', example: 'The clock shows eight.', exampleMeaning: 'Đồng hồ chỉ tám giờ.' },
+        { word: 'Picture', pronunciation: '/ˈpɪktʃər/', partOfSpeech: 'noun', meaning: 'Bức tranh / ảnh', example: 'A family picture on the wall.', exampleMeaning: 'Một bức ảnh gia đình trên tường.' },
+        { word: 'Bookcase', pronunciation: '/ˈbʊkkeɪs/', partOfSpeech: 'noun', meaning: 'Tủ sách, giá sách', example: 'Many novels in the bookcase.', exampleMeaning: 'Nhiều tiểu thuyết trên giá sách.' },
+        { word: 'Mirror', pronunciation: '/ˈmɪrər/', partOfSpeech: 'noun', meaning: 'Gương soi', example: 'Look in the bathroom mirror.', exampleMeaning: 'Nhìn vào gương trong phòng tắm.' },
+      ]
+    },
+    {
+      title: 'Food & Basic Groceries',
+      cat: 'Food & Drinks',
+      desc: 'Từ vựng các món ăn quen thuộc, thực phẩm hàng ngày và cách nói món ưa thích.',
+      formula: 'I like + [Món ăn] / I don\'t like + [Món ăn]',
+      rule: 'Diễn đạt sở thích ăn uống với like / don\'t like',
+      vocab: [
+        { word: 'Bread', pronunciation: '/bred/', partOfSpeech: 'noun', meaning: 'Bánh mì', example: 'Fresh bread in the morning.', exampleMeaning: 'Bánh mì tươi vào buổi sáng.' },
+        { word: 'Rice', pronunciation: '/raɪs/', partOfSpeech: 'noun', meaning: 'Cơm, gạo', example: 'Vietnamese eat rice daily.', exampleMeaning: 'Người Việt ăn cơm mỗi ngày.' },
+        { word: 'Meat', pronunciation: '/miːt/', partOfSpeech: 'noun', meaning: 'Thịt', example: 'We buy fresh meat today.', exampleMeaning: 'Chúng tôi mua thịt tươi hôm nay.' },
+        { word: 'Fish', pronunciation: '/fɪʃ/', partOfSpeech: 'noun', meaning: 'Cá', example: 'Grilled fish is delicious.', exampleMeaning: 'Cá nướng rất ngon.' },
+        { word: 'Egg', pronunciation: '/eɡ/', partOfSpeech: 'noun', meaning: 'Quả trứng', example: 'Boiled egg for breakfast.', exampleMeaning: 'Trứng luộc cho bữa sáng.' },
+        { word: 'Apple', pronunciation: '/ˈæpl/', partOfSpeech: 'noun', meaning: 'Quả táo', example: 'An apple a day is good.', exampleMeaning: 'Một quả táo mỗi ngày rất tốt.' },
+        { word: 'Banana', pronunciation: '/bəˈnænə/', partOfSpeech: 'noun', meaning: 'Quả chuối', example: 'Yellow sweet banana.', exampleMeaning: 'Quả chuối vàng ngọt.' },
+        { word: 'Vegetable', pronunciation: '/ˈvedʒtəbl/', partOfSpeech: 'noun', meaning: 'Rau củ', example: 'Eat more fresh vegetables.', exampleMeaning: 'Hãy ăn thêm nhiều rau củ tươi.' },
+        { word: 'Fruit', pronunciation: '/fruːt/', partOfSpeech: 'noun', meaning: 'Trái cây, hoa quả', example: 'Fresh seasonal fruit.', exampleMeaning: 'Trái cây tươi theo mùa.' },
+        { word: 'Delicious', pronunciation: '/dɪˈlɪʃəs/', partOfSpeech: 'adjective', meaning: 'Ngon miệng', example: 'This soup is very delicious.', exampleMeaning: 'Món súp này rất thơm ngon.' },
+      ]
+    },
+    {
+      title: 'Drinks & Beverages',
+      cat: 'Food & Drinks',
+      desc: 'Gọi các món đồ uống phổ biến: nước lọc, cà phê, trà, nước ép hoa quả.',
+      formula: 'Can I have a cup of + [Đồ uống]?',
+      rule: 'Gọi đồ uống lịch sự với Can I have...',
+      vocab: [
+        { word: 'Water', pronunciation: '/ˈwɔːtər/', partOfSpeech: 'noun', meaning: 'Nước lọc', example: 'Drink plenty of water.', exampleMeaning: 'Hãy uống nhiều nước lọc.' },
+        { word: 'Coffee', pronunciation: '/ˈkɔːfi/', partOfSpeech: 'noun', meaning: 'Cà phê', example: 'A hot black coffee.', exampleMeaning: 'Một ly cà phê đen nóng.' },
+        { word: 'Tea', pronunciation: '/tiː/', partOfSpeech: 'noun', meaning: 'Trà', example: 'Green tea with honey.', exampleMeaning: 'Trà xanh với mật ong.' },
+        { word: 'Milk', pronunciation: '/mɪlk/', partOfSpeech: 'noun', meaning: 'Sữa tươi', example: 'Cold milk in the glass.', exampleMeaning: 'Sữa lạnh trong ly.' },
+        { word: 'Juice', pronunciation: '/dʒuːs/', partOfSpeech: 'noun', meaning: 'Nước ép trái cây', example: 'Fresh orange juice.', exampleMeaning: 'Nước cam ép tươi.' },
+        { word: 'Cup', pronunciation: '/kʌp/', partOfSpeech: 'noun', meaning: 'Tách, chén', example: 'A cup of warm tea.', exampleMeaning: 'Một tách trà ấm.' },
+        { word: 'Glass', pronunciation: '/ɡlæs/', partOfSpeech: 'noun', meaning: 'Ly thủy tinh', example: 'A glass of cold water.', exampleMeaning: 'Một ly nước lạnh.' },
+        { word: 'Bottle', pronunciation: '/ˈbɑːtl/', partOfSpeech: 'noun', meaning: 'Chai nước', example: 'A bottle of mineral water.', exampleMeaning: 'Một chai nước khoáng.' },
+        { word: 'Sugar', pronunciation: '/ˈʃʊɡər/', partOfSpeech: 'noun', meaning: 'Đường cát', example: 'No sugar in my coffee.', exampleMeaning: 'Không đường trong cà phê của tôi.' },
+        { word: 'Ice', pronunciation: '/aɪs/', partOfSpeech: 'noun', meaning: 'Đá lạnh', example: 'Iced coffee on a hot day.', exampleMeaning: 'Cà phê đá trong ngày nóng.' },
+      ]
+    },
+    // Topics 11 to 30
+    { title: 'Eating Out & Ordering Fast Food', cat: 'Daily Life', desc: 'Cách gọi món ăn nhanh đơn giản tại quầy.', formula: 'I would like + [Món]', rule: 'Gọi món với I would like', vocab: [{ word: 'Burger', meaning: 'Bánh bơ-gơ' }, { word: 'Pizza', meaning: 'Bánh pizza' }, { word: 'Menu', meaning: 'Thực đơn' }, { word: 'Order', meaning: 'Gọi món' }, { word: 'Bill', meaning: 'Hóa đơn' }, { word: 'Waiter', meaning: 'Bồi bàn' }, { word: 'Eat', meaning: 'Ăn' }, { word: 'Drink', meaning: 'Uống' }, { word: 'Hungry', meaning: 'Đói bụng' }, { word: 'Thirsty', meaning: 'Khát nước' }] },
+    { title: 'School & Classroom Objects', cat: 'School', desc: 'Đồ dùng học tập trong cặp sách và lớp học.', formula: 'Give me the + [Đồ vật]', rule: 'Mệnh lệnh cách trong lớp học', vocab: [{ word: 'Pen', meaning: 'Bút mực' }, { word: 'Pencil', meaning: 'Bút chì' }, { word: 'Book', meaning: 'Quyển sách' }, { word: 'Notebook', meaning: 'Vở ghi bài' }, { word: 'Ruler', meaning: 'Cây thước kẻ' }, { word: 'Bag', meaning: 'Cặp sách' }, { word: 'Eraser', meaning: 'Cục tẩy' }, { word: 'Board', meaning: 'Bảng viết' }, { word: 'Paper', meaning: 'Tờ giấy' }, { word: 'Lesson', meaning: 'Bài học' }] },
+    { title: 'Jobs & Occupations', cat: 'Jobs', desc: 'Tên gọi các ngành nghề thường gặp và cách hỏi nghề nghiệp.', formula: 'What do you do? - I am a/an + [Nghề]', rule: 'Hỏi nghề nghiệp với What do you do?', vocab: [{ word: 'Engineer', meaning: 'Kỹ sư' }, { word: 'Nurse', meaning: 'Y tá' }, { word: 'Driver', meaning: 'Tài xế' }, { word: 'Cook', meaning: 'Đầu bếp' }, { word: 'Worker', meaning: 'Công nhân' }, { word: 'Farmer', meaning: 'Nông dân' }, { word: 'Office', meaning: 'Văn phòng' }, { word: 'Hospital', meaning: 'Bệnh viện' }, { word: 'Work', meaning: 'Làm việc' }, { word: 'Company', meaning: 'Công ty' }] },
+    { title: 'Days of the Week & Months', cat: 'Time', desc: 'Các ngày trong tuần từ Thứ Hai đến Chủ Nhật và 12 tháng.', formula: 'On + [Thứ trong tuần] / In + [Tháng]', rule: 'Giới từ chỉ thời gian on và in', vocab: [{ word: 'Monday', meaning: 'Thứ Hai' }, { word: 'Tuesday', meaning: 'Thứ Ba' }, { word: 'Wednesday', meaning: 'Thứ Tư' }, { word: 'Thursday', meaning: 'Thứ Năm' }, { word: 'Friday', meaning: 'Thứ Sáu' }, { word: 'Saturday', meaning: 'Thứ Bảy' }, { word: 'Sunday', meaning: 'Chủ Nhật' }, { word: 'Week', meaning: 'Tuần lễ' }, { word: 'Month', meaning: 'Tháng' }, { word: 'Year', meaning: 'Năm' }] },
+    { title: 'Telling Time & Daily Schedule', cat: 'Time', desc: 'Hỏi và trả lời giờ giấc chính xác trong ngày.', formula: 'What time is it? - It is + [Giờ]', rule: 'Hỏi giờ với What time is it?', vocab: [{ word: 'Time', meaning: 'Thời gian' }, { word: 'Hour', meaning: 'Giờ đồng hồ' }, { word: 'Minute', meaning: 'Phút' }, { word: 'Second', meaning: 'Giây' }, { word: 'Morning', meaning: 'Buổi sáng' }, { word: 'Noon', meaning: 'Buổi trưa' }, { word: 'Night', meaning: 'Ban đêm' }, { word: 'Midnight', meaning: 'Nửa đêm' }, { word: 'Early', meaning: 'Sớm' }, { word: 'Late', meaning: 'Muộn' }] },
+    { title: 'Daily Morning Routine', cat: 'Routines', desc: 'Các hoạt động chào ngày mới: thức dậy, rửa mặt, ăn sáng.', formula: 'I + [Động từ] + in the morning', rule: 'Hiện tại đơn với thói quen buổi sáng', vocab: [{ word: 'Wake up', meaning: 'Thức dậy' }, { word: 'Wash', meaning: 'Rửa, giặt' }, { word: 'Brush', meaning: 'Đánh răng' }, { word: 'Breakfast', meaning: 'Bữa sáng' }, { word: 'Shower', meaning: 'Tắm vòi sen' }, { word: 'Dress', meaning: 'Mặc quần áo' }, { word: 'Comb', meaning: 'Chải tóc' }, { word: 'Leave', meaning: 'Rời nhà' }, { word: 'Start', meaning: 'Bắt đầu' }, { word: 'Always', meaning: 'Luôn luôn' }] },
+    { title: 'Daily Evening Routine', cat: 'Routines', desc: 'Thói quen thư giãn buổi tối và chuẩn bị đi ngủ.', formula: 'Before bed, I + [Hoạt động]', rule: 'Diễn đạt thói quen buổi tối', vocab: [{ word: 'Dinner', meaning: 'Bữa tối' }, { word: 'Watch TV', meaning: 'Xem truyền hình' }, { word: 'Listen', meaning: 'Lắng nghe' }, { word: 'Relax', meaning: 'Thư giãn' }, { word: 'Sleep', meaning: 'Ngủ' }, { word: 'Tired', meaning: 'Mệt mỏi' }, { word: 'Quiet', meaning: 'Yên tĩnh' }, { word: 'Book', meaning: 'Sách đọc' }, { word: 'Dark', meaning: 'Tối trời' }, { word: 'Goodnight', meaning: 'Chúc ngủ ngon' }] },
+    { title: 'Weather & Seasons', cat: 'Weather', desc: 'Nói về thời tiết nắng, mưa, gió và 4 mùa trong năm.', formula: 'How is the weather? - It is + [Thời tiết]', rule: 'Hỏi thời tiết với How is the weather?', vocab: [{ word: 'Sunny', meaning: 'Có nắng' }, { word: 'Rainy', meaning: 'Có mưa' }, { word: 'Cloudy', meaning: 'Nhiều mây' }, { word: 'Windy', meaning: 'Nhiều gió' }, { word: 'Hot', meaning: 'Nóng bức' }, { word: 'Cold', meaning: 'Lạnh giá' }, { word: 'Spring', meaning: 'Mùa xuân' }, { word: 'Summer', meaning: 'Mùa hè' }, { word: 'Autumn', meaning: 'Mùa thu' }, { word: 'Winter', meaning: 'Mùa đông' }] },
+    { title: 'Clothes & Daily Dressing', cat: 'Clothes', desc: 'Trang phục hàng ngày: áo sơ mi, quần, váy, giày dép.', formula: 'I am wearing + [Trang phục]', rule: 'Thì Hiện tại tiếp diễn chỉ trang phục đang mặc', vocab: [{ word: 'Shirt', meaning: 'Áo sơ mi' }, { word: 'T-shirt', meaning: 'Áo phông' }, { word: 'Pants', meaning: 'Quần dài' }, { word: 'Dress', meaning: 'Váy liền' }, { word: 'Skirt', meaning: 'Chân váy' }, { word: 'Shoes', meaning: 'Đôi giày' }, { word: 'Hat', meaning: 'Cái mũ' }, { word: 'Coat', meaning: 'Áo khoác' }, { word: 'Wear', meaning: 'Mặc, đeo' }, { word: 'Clean', meaning: 'Sạch sẽ' }] },
+    { title: 'Physical Appearance & Descriptions', cat: 'People', desc: 'Miêu tả vóc dáng, chiều cao và khuôn mặt người khác.', formula: 'He/She has + [Đặc điểm] / He/She is + [Tính từ]', rule: 'Miêu tả ngoại hình với have / be', vocab: [{ word: 'Tall', meaning: 'Cao ráo' }, { word: 'Short', meaning: 'Thấp, lùn' }, { word: 'Slim', meaning: 'Thon thả' }, { word: 'Young', meaning: 'Trẻ tuổi' }, { word: 'Old', meaning: 'Cao tuổi, già' }, { word: 'Hair', meaning: 'Mái tóc' }, { word: 'Eyes', meaning: 'Đôi mắt' }, { word: 'Face', meaning: 'Khuôn mặt' }, { word: 'Smile', meaning: 'Nụ cười' }, { word: 'Beautiful', meaning: 'Xinh đẹp' }] },
+    { title: 'Feelings & Simple Emotions', cat: 'Feelings', desc: 'Bày tỏ cảm xúc: vui vẻ, buồn, hào hứng, ngạc nhiên.', formula: 'I feel + [Cảm xúc] / I am + [Cảm xúc]', rule: 'Bày tỏ cảm xúc hiện tại', vocab: [{ word: 'Happy', meaning: 'Hạnh phúc, vui' }, { word: 'Sad', meaning: 'Buồn bã' }, { word: 'Angry', meaning: 'Tức giận' }, { word: 'Surprised', meaning: 'Ngạc nhiên' }, { word: 'Bored', meaning: 'Buồn chán' }, { word: 'Excited', meaning: 'Hào hứng' }, { word: 'Scared', meaning: 'Sợ hãi' }, { word: 'Calm', meaning: 'Bình tĩnh' }, { word: 'Feel', meaning: 'Cảm thấy' }, { word: 'Smile', meaning: 'Mỉm cười' }] },
+    { title: 'Common Animals & Pets', cat: 'Animals', desc: 'Tên gọi các loài động vật nuôi trong nhà và gia súc.', formula: 'Do you have a pet? - I have a + [Thú cưng]', rule: 'Hỏi về thú cưng với Do you have...', vocab: [{ word: 'Dog', meaning: 'Con chó' }, { word: 'Cat', meaning: 'Con mèo' }, { word: 'Bird', meaning: 'Con chim' }, { word: 'Fish', meaning: 'Con cá' }, { word: 'Rabbit', meaning: 'Con thỏ' }, { word: 'Pet', meaning: 'Thú cưng' }, { word: 'Animal', meaning: 'Động vật' }, { word: 'Cute', meaning: 'Dễ thương' }, { word: 'Feed', meaning: 'Cho ăn' }, { word: 'Play', meaning: 'Chơi đùa' }] },
+    { title: 'In the City & Public Places', cat: 'Places', desc: 'Các địa điểm công cộng: công viên, thư viện, chợ.', formula: 'Where is the + [Địa điểm]?', rule: 'Hỏi vị trí địa điểm công cộng', vocab: [{ word: 'City', meaning: 'Thành phố' }, { word: 'Park', meaning: 'Công viên' }, { word: 'Library', meaning: 'Thư viện' }, { word: 'Market', meaning: 'Khu chợ' }, { word: 'Bank', meaning: 'Ngân hàng' }, { word: 'Street', meaning: 'Đường phố' }, { word: 'Bridge', meaning: 'Cây cầu' }, { word: 'Near', meaning: 'Gần đây' }, { word: 'Far', meaning: 'Xa xôi' }, { word: 'Place', meaning: 'Địa điểm' }] },
+    { title: 'Means of Transport', cat: 'Transport', desc: 'Phương tiện đi lại: xe buýt, xe máy, xe đạp, đi bộ.', formula: 'I go to work by + [Phương tiện]', rule: 'Giới từ by chỉ phương tiện đi lại', vocab: [{ word: 'Bus', meaning: 'Xe buýt' }, { word: 'Bike', meaning: 'Xe đạp' }, { word: 'Motorbike', meaning: 'Xe máy' }, { word: 'Car', meaning: 'Xe ô tô' }, { word: 'Train', meaning: 'Tàu hỏa' }, { word: 'Walk', meaning: 'Đi bộ' }, { word: 'Drive', meaning: 'Lái xe' }, { word: 'Ride', meaning: 'Cưỡi, lái xe 2 bánh' }, { word: 'Station', meaning: 'Nhà ga, bến xe' }, { word: 'Ticket', meaning: 'Vé đi xe' }] },
+    { title: 'Hobbies & Sports', cat: 'Hobbies', desc: 'Sở thích lành mạnh: đá bóng, bơi lội, đọc sách, nghe nhạc.', formula: 'My hobby is + [V-ing]', rule: 'Nói về sở thích cá nhân', vocab: [{ word: 'Soccer', meaning: 'Bóng đá' }, { word: 'Swim', meaning: 'Bơi lội' }, { word: 'Music', meaning: 'Âm nhạc' }, { word: 'Sing', meaning: 'Ca hát' }, { word: 'Dance', meaning: 'Khiêu vũ' }, { word: 'Game', meaning: 'Trò chơi' }, { word: 'Sport', meaning: 'Thể thao' }, { word: 'Hobby', meaning: 'Sở thích' }, { word: 'Like', meaning: 'Thích thú' }, { word: 'Enjoy', meaning: 'Tận hưởng' }] },
+    { title: 'Countries & Nationalities', cat: 'Countries', desc: 'Nói về quê hương, quốc gia và quốc tịch bản thân.', formula: 'I am from + [Nước] / I am + [Quốc tịch]', rule: 'Nói xuất thân với I am from...', vocab: [{ word: 'Vietnam', meaning: 'Việt Nam' }, { word: 'Vietnamese', meaning: 'Người Việt Nam' }, { word: 'America', meaning: 'Nước Mỹ' }, { word: 'American', meaning: 'Người Mỹ' }, { word: 'England', meaning: 'Nước Anh' }, { word: 'English', meaning: 'Người Anh, tiếng Anh' }, { word: 'Japan', meaning: 'Nước Nhật' }, { word: 'Country', meaning: 'Đất nước' }, { word: 'World', meaning: 'Thế giới' }, { word: 'Live', meaning: 'Sống, sinh sống' }] },
+    { title: 'Basic Shopping & Asking Prices', cat: 'Shopping', desc: 'Hỏi giá tiền và mua sắm đồ dùng thiết yếu.', formula: 'How much is it? - It is + [Giá tiền]', rule: 'Hỏi giá với How much is it?', vocab: [{ word: 'Buy', meaning: 'Mua sắm' }, { word: 'Sell', meaning: 'Bán hàng' }, { word: 'Cost', meaning: 'Giá cả' }, { word: 'Cheap', meaning: 'Giá rẻ' }, { word: 'Expensive', meaning: 'Đắt đỏ' }, { word: 'Money', meaning: 'Tiền bạc' }, { word: 'Pay', meaning: 'Thanh toán' }, { word: 'Store', meaning: 'Cửa hàng' }, { word: 'Price', meaning: 'Mức giá' }, { word: 'Dollar', meaning: 'Đô la' }] },
+    { title: 'Giving Thanks & Polite Phrases', cat: 'Communication', desc: 'Các câu nói lịch thiệp: cảm ơn, xin lỗi, làm phiền.', formula: 'Excuse me, could you + [Động từ]?', rule: 'Các cụm từ xã giao lịch sự', vocab: [{ word: 'Sorry', meaning: 'Xin lỗi' }, { word: 'Excuse me', meaning: 'Xin thứ lỗi / Cho hỏi' }, { word: 'Pardon', meaning: 'Xin nhắc lại' }, { word: 'Help', meaning: 'Giúp đỡ' }, { word: 'Kind', meaning: 'Tốt bụng' }, { word: 'Polite', meaning: 'Lịch sự' }, { word: 'Sure', meaning: 'Chắc chắn rồi' }, { word: 'Problem', meaning: 'Vấn đề' }, { word: 'Matter', meaning: 'Chuyện, điều gì' }, { word: 'Careful', meaning: 'Cẩn thận' }] },
+    { title: 'Asking Simple Questions', cat: 'Grammar', desc: 'Đặt câu hỏi thông dụng với What, Where, When, Who, Why.', formula: 'Wh-word + do/does + S + V?', rule: 'Cấu trúc câu hỏi Wh- trong Hiện tại đơn', vocab: [{ word: 'What', meaning: 'Cái gì' }, { word: 'Where', meaning: 'Ở đâu' }, { word: 'When', meaning: 'Khi nào' }, { word: 'Who', meaning: 'Là ai' }, { word: 'Why', meaning: 'Tại sao' }, { word: 'Which', meaning: 'Cái nào' }, { word: 'Ask', meaning: 'Hỏi' }, { word: 'Answer', meaning: 'Trả lời' }, { word: 'Question', meaning: 'Câu hỏi' }, { word: 'Know', meaning: 'Biết, thấu hiểu' }] },
+    { title: 'Review & Beginner Milestone', cat: 'Milestone', desc: 'Tổng kết ngữ pháp và từ vựng A1, tự tin giao tiếp cơ bản.', formula: 'All A1 structures reviewed', rule: 'Ôn tập toàn diện trình độ A1', vocab: [{ word: 'Practice', meaning: 'Luyện tập' }, { word: 'Improve', meaning: 'Cải thiện' }, { word: 'Progress', meaning: 'Tiến bộ' }, { word: 'Beginner', meaning: 'Người mới bắt đầu' }, { word: 'Confident', meaning: 'Tự tin' }, { word: 'Fluent', meaning: 'Lưu loát' }, { word: 'Review', meaning: 'Ôn tập' }, { word: 'Success', meaning: 'Thành công' }, { word: 'Goal', meaning: 'Mục tiêu' }, { word: 'Future', meaning: 'Tương lai' }] },
+  ];
+
+  return rawTopics.map((item, index) =>
+    createLesson({
+      level: 'A1',
+      orderNumber: index + 1,
+      title: item.title,
+      category: item.cat,
+      description: item.desc,
+      durationMinutes: 15,
+      vocabularies: item.vocab,
+      grammar: {
+        title: item.rule,
+        explanation: `Hướng dẫn cấu trúc trọng tâm trong bài: ${item.title}.`,
+        formula: item.formula,
+        examples: [
+          { en: `Example for ${item.title}.`, vi: `Ví dụ minh họa cho ${item.title}.` },
+          { en: 'I study English every day.', vi: 'Tôi học tiếng Anh mỗi ngày.' },
+        ],
+      },
+    })
+  );
+}
+
+module.exports = { generateA1 };
