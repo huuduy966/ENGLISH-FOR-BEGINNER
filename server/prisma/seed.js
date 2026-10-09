@@ -15,6 +15,7 @@ async function main() {
   await prisma.exercise.deleteMany();
   await prisma.quizQuestion.deleteMany();
   await prisma.conversation.deleteMany();
+  await prisma.reading.deleteMany();
   await prisma.listening.deleteMany();
   await prisma.grammarPoint.deleteMany();
   await prisma.vocabulary.deleteMany();
@@ -60,7 +61,7 @@ async function main() {
 
   // 2. Seed All 180 Lessons across 6 CEFR Levels (A1 to C2)
   for (const lData of allLessons) {
-    const { vocabularies, grammarPoints, listenings, conversations, exercises, quizzes, ...lessonInfo } = lData;
+    const { vocabularies, grammarPoints, listenings, readings, conversations, exercises, quizzes, ...lessonInfo } = lData;
 
     const createdLesson = await prisma.lesson.create({
       data: lessonInfo,
@@ -96,6 +97,17 @@ async function main() {
         await prisma.listening.create({
           data: {
             ...l,
+            lessonId: createdLesson.id,
+          },
+        });
+      }
+    }
+
+    if (readings && readings.length > 0) {
+      for (const r of readings) {
+        await prisma.reading.create({
+          data: {
+            ...r,
             lessonId: createdLesson.id,
           },
         });

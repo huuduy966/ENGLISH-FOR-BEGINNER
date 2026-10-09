@@ -10,7 +10,7 @@ module.exports = [
       {
         "word": "Proponent",
         "meaning": "Người ủng hộ",
-        "pronunciation": "/.../",
+        "pronunciation": "/proponent/",
         "partOfSpeech": "noun",
         "example": "I use Proponent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Proponent trong giao tiếp hàng ngày.",
@@ -20,7 +20,7 @@ module.exports = [
       {
         "word": "Critic",
         "meaning": "Nhà phê bình, người phản đối",
-        "pronunciation": "/.../",
+        "pronunciation": "/critic/",
         "partOfSpeech": "noun",
         "example": "I use Critic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Critic trong giao tiếp hàng ngày.",
@@ -30,7 +30,7 @@ module.exports = [
       {
         "word": "Contend",
         "meaning": "Lập luận quả quyết",
-        "pronunciation": "/.../",
+        "pronunciation": "/contend/",
         "partOfSpeech": "noun",
         "example": "I use Contend in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Contend trong giao tiếp hàng ngày.",
@@ -40,7 +40,7 @@ module.exports = [
       {
         "word": "Algorithm",
         "meaning": "Thuật toán điều hướng",
-        "pronunciation": "/.../",
+        "pronunciation": "/algorithm/",
         "partOfSpeech": "noun",
         "example": "I use Algorithm in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Algorithm trong giao tiếp hàng ngày.",
@@ -50,7 +50,7 @@ module.exports = [
       {
         "word": "Ethics",
         "meaning": "Chuẩn mực đạo đức",
-        "pronunciation": "/.../",
+        "pronunciation": "/ethics/",
         "partOfSpeech": "noun",
         "example": "I use Ethics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ethics trong giao tiếp hàng ngày.",
@@ -60,7 +60,7 @@ module.exports = [
       {
         "word": "Polarization",
         "meaning": "Sự phân cực xã hội",
-        "pronunciation": "/.../",
+        "pronunciation": "/polarization/",
         "partOfSpeech": "noun",
         "example": "I use Polarization in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Polarization trong giao tiếp hàng ngày.",
@@ -70,7 +70,7 @@ module.exports = [
       {
         "word": "Manipulation",
         "meaning": "Sự thao túng tâm lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/manipulation/",
         "partOfSpeech": "noun",
         "example": "I use Manipulation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Manipulation trong giao tiếp hàng ngày.",
@@ -80,7 +80,7 @@ module.exports = [
       {
         "word": "Transparency",
         "meaning": "Tính minh bạch",
-        "pronunciation": "/.../",
+        "pronunciation": "/transparency/",
         "partOfSpeech": "noun",
         "example": "I use Transparency in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Transparency trong giao tiếp hàng ngày.",
@@ -90,7 +90,7 @@ module.exports = [
       {
         "word": "Accountability",
         "meaning": "Trách nhiệm giải trình",
-        "pronunciation": "/.../",
+        "pronunciation": "/accountability/",
         "partOfSpeech": "noun",
         "example": "I use Accountability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Accountability trong giao tiếp hàng ngày.",
@@ -100,7 +100,7 @@ module.exports = [
       {
         "word": "Regulation",
         "meaning": "Quy định pháp lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/regulation/",
         "partOfSpeech": "noun",
         "example": "I use Regulation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Regulation trong giao tiếp hàng ngày.",
@@ -110,27 +110,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc đối lập quan điểm trong tranh biện",
-        "explanation": "Ngữ pháp nâng cao B2: Modern Debates: Social Media Ethics.",
+        "title": "Cấu trúc đối lập quan điểm trong tranh biện (Dạng khẳng định)",
         "formula": "While proponents argue that..., critics contend that...",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Modern Debates: Social Media Ethics.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Modern Debates: Social Media Ethics.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Proponent\\\" trong câu:\",\"options\":[\"Proponent\",\"Proponents\",\"Proponenting\",\"Proponented\"],\"correctAnswer\":\"Proponent\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Proponent\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Critic\\\" trong câu:\",\"options\":[\"Critic\",\"Critics\",\"Criticing\",\"Criticed\"],\"correctAnswer\":\"Critic\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Critic\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Contend\\\" trong câu:\",\"options\":[\"Contend\",\"Contends\",\"Contending\",\"Contended\"],\"correctAnswer\":\"Contend\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Contend\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Algorithm\\\" trong câu:\",\"options\":[\"Algorithm\",\"Algorithms\",\"Algorithming\",\"Algorithmed\"],\"correctAnswer\":\"Algorithm\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Algorithm\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Ethics\\\" trong câu:\",\"options\":[\"Ethics\",\"Ethicss\",\"Ethicsing\",\"Ethicsed\"],\"correctAnswer\":\"Ethics\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Ethics\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Polarization\\\" trong câu:\",\"options\":[\"Polarization\",\"Polarizations\",\"Polarizationing\",\"Polarizationed\"],\"correctAnswer\":\"Polarization\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Polarization\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Manipulation\\\" trong câu:\",\"options\":[\"Manipulation\",\"Manipulations\",\"Manipulationing\",\"Manipulationed\"],\"correctAnswer\":\"Manipulation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Manipulation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (While proponents argue that..., critics contend that...): Chọn dạng đúng của \\\"Transparency\\\" trong câu:\",\"options\":[\"Transparency\",\"Transparencys\",\"Transparencying\",\"Transparencyed\"],\"correctAnswer\":\"Transparency\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Transparency\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Modern Debates: Social Media Ethics. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Modern Debates: Social Media Ethics\".",
+        "examples": "[{\"en\":\"I use \\\"Proponent\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Proponent\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Critic\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Critic\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Contend\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Contend\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Modern Debates: Social Media Ethics",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Modern Debates: Social Media Ethics, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Proponent\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Proponent\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Critic\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Critic\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Contend\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Contend\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Proponent\\\" has a specific pronunciation: /proponent/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Proponent\\\" có phát âm cụ thể là /proponent/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Critic\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Critic\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 1: Modern Debates: Social Media Ethics",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Modern Debates: Social Media Ethics. In daily life, communication plays a vital role. For instance, words like \"Proponent\" and \"Critic\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Modern Debates: Social Media Ethics. In my daily routine, I frequently use the word \"Proponent\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Critic\" with my classmates. In addition, knowing how to use \"Contend\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Modern Debates: Social Media Ethics\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Modern Debates: Social Media Ethics\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Modern Debates: Social Media Ethics\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Critic\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Critic\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Critic\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Algorithm\\\" (Thuật toán điều hướng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Algorithm\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Ethics\\\" (Chuẩn mực đạo đức) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Ethics\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Polarization\\\" (Sự phân cực xã hội) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Polarization\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Manipulation\\\" (Sự thao túng tâm lý) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Manipulation\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Transparency\\\" (Tính minh bạch) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Transparency\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Critic\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Critic\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Critic' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Modern Debates: Social Media Ethics",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Modern Debates: Social Media Ethics.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Modern Debates: Social Media Ethics?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Modern Debates: Social Media Ethics chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Proponent\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Proponent\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Critic\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Critic\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 1: Modern Debates: Social Media Ethics",
+        "passage": "Mastering the theme of \"Modern Debates: Social Media Ethics\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Proponent\" (Người ủng hộ) and \"Critic\" (Nhà phê bình, người phản đối) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Contend\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Modern Debates: Social Media Ethics\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Proponent\" (Người ủng hộ) và \"Critic\" (Nhà phê bình, người phản đối) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Contend\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Modern Debates: Social Media Ethics\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Modern Debates: Social Media Ethics\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Modern Debates: Social Media Ethics\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Proponent\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Modern Debates: Social Media Ethics\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Modern Debates: Social Media Ethics\",\"explanation\":\"Đoạn văn khẳng định: \\\"Proponent\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -142,7 +156,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Proponent\",\"use\",\"daily\",\"I\",\"in\",\"conversation\"]",
+        "options": "[\"in\",\"Proponent\",\"daily\",\"use\",\"conversation\",\"I\"]",
         "correctAnswer": "I use Proponent in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Proponent in daily conversation\"."
       },
@@ -158,7 +172,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Critic\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Critic",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Critic\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /critic/ - \"Critic\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -192,13 +206,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Proponent\" là gì?",
-        "options": "[\"Người ủng hộ\",\"Nhà phê bình, người phản đối\",\"Lập luận quả quyết\",\"Thuật toán điều hướng\"]",
+        "options": "[\"Thuật toán điều hướng\",\"Lập luận quả quyết\",\"Nhà phê bình, người phản đối\",\"Người ủng hộ\"]",
         "correctAnswer": "Người ủng hộ",
-        "explanation": "\"Proponent\" có phiên âm /.../ và mang nghĩa là \"Người ủng hộ\"."
+        "explanation": "\"Proponent\" có phiên âm /proponent/ và mang nghĩa là \"Người ủng hộ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Modern Debates: Social Media Ethics, we need to practice _____.\"",
-        "options": "[\"Critic\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Critic\"]",
         "correctAnswer": "Critic",
         "explanation": "\"Critic\" (Nhà phê bình, người phản đối) là từ vựng chính xác trong ngữ cảnh chủ đề Modern Debates: Social Media Ethics."
       },
@@ -210,13 +224,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Algorithm\" là gì?",
-        "options": "[\"Thuật toán điều hướng\",\"Chuẩn mực đạo đức\",\"Sự phân cực xã hội\",\"Sự thao túng tâm lý\"]",
+        "options": "[\"Chuẩn mực đạo đức\",\"Sự thao túng tâm lý\",\"Sự phân cực xã hội\",\"Thuật toán điều hướng\"]",
         "correctAnswer": "Thuật toán điều hướng",
-        "explanation": "\"Algorithm\" có phiên âm /.../ và mang nghĩa là \"Thuật toán điều hướng\"."
+        "explanation": "\"Algorithm\" có phiên âm /algorithm/ và mang nghĩa là \"Thuật toán điều hướng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Modern Debates: Social Media Ethics, we need to practice _____.\"",
-        "options": "[\"Ethics\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Ethics\",\"umbrellas\"]",
         "correctAnswer": "Ethics",
         "explanation": "\"Ethics\" (Chuẩn mực đạo đức) là từ vựng chính xác trong ngữ cảnh chủ đề Modern Debates: Social Media Ethics."
       },
@@ -228,13 +242,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Manipulation\" là gì?",
-        "options": "[\"Sự thao túng tâm lý\",\"Tính minh bạch\",\"Trách nhiệm giải trình\",\"Quy định pháp lý\"]",
+        "options": "[\"Tính minh bạch\",\"Sự thao túng tâm lý\",\"Quy định pháp lý\",\"Trách nhiệm giải trình\"]",
         "correctAnswer": "Sự thao túng tâm lý",
-        "explanation": "\"Manipulation\" có phiên âm /.../ và mang nghĩa là \"Sự thao túng tâm lý\"."
+        "explanation": "\"Manipulation\" có phiên âm /manipulation/ và mang nghĩa là \"Sự thao túng tâm lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Modern Debates: Social Media Ethics, we need to practice _____.\"",
-        "options": "[\"Transparency\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"Transparency\",\"bananas\"]",
         "correctAnswer": "Transparency",
         "explanation": "\"Transparency\" (Tính minh bạch) là từ vựng chính xác trong ngữ cảnh chủ đề Modern Debates: Social Media Ethics."
       },
@@ -246,13 +260,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Regulation\" là gì?",
-        "options": "[\"Quy định pháp lý\",\"Người ủng hộ\",\"Nhà phê bình, người phản đối\",\"Lập luận quả quyết\"]",
+        "options": "[\"Quy định pháp lý\",\"Lập luận quả quyết\",\"Người ủng hộ\",\"Nhà phê bình, người phản đối\"]",
         "correctAnswer": "Quy định pháp lý",
-        "explanation": "\"Regulation\" có phiên âm /.../ và mang nghĩa là \"Quy định pháp lý\"."
+        "explanation": "\"Regulation\" có phiên âm /regulation/ và mang nghĩa là \"Quy định pháp lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Modern Debates: Social Media Ethics, we need to practice _____.\"",
-        "options": "[\"Proponent\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Proponent\"]",
         "correctAnswer": "Proponent",
         "explanation": "\"Proponent\" (Người ủng hộ) là từ vựng chính xác trong ngữ cảnh chủ đề Modern Debates: Social Media Ethics."
       },
@@ -264,13 +278,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Contend\" là gì?",
-        "options": "[\"Lập luận quả quyết\",\"Thuật toán điều hướng\",\"Chuẩn mực đạo đức\",\"Sự phân cực xã hội\"]",
+        "options": "[\"Sự phân cực xã hội\",\"Chuẩn mực đạo đức\",\"Thuật toán điều hướng\",\"Lập luận quả quyết\"]",
         "correctAnswer": "Lập luận quả quyết",
-        "explanation": "\"Contend\" có phiên âm /.../ và mang nghĩa là \"Lập luận quả quyết\"."
+        "explanation": "\"Contend\" có phiên âm /contend/ và mang nghĩa là \"Lập luận quả quyết\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Modern Debates: Social Media Ethics, we need to practice _____.\"",
-        "options": "[\"Algorithm\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Algorithm\"]",
         "correctAnswer": "Algorithm",
         "explanation": "\"Algorithm\" (Thuật toán điều hướng) là từ vựng chính xác trong ngữ cảnh chủ đề Modern Debates: Social Media Ethics."
       },
@@ -293,7 +307,7 @@ module.exports = [
       {
         "word": "Misinformation",
         "meaning": "Thông tin sai lệch",
-        "pronunciation": "/.../",
+        "pronunciation": "/misinformation/",
         "partOfSpeech": "noun",
         "example": "I use Misinformation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Misinformation trong giao tiếp hàng ngày.",
@@ -303,7 +317,7 @@ module.exports = [
       {
         "word": "Sensationalism",
         "meaning": "Báo chí giật gân",
-        "pronunciation": "/.../",
+        "pronunciation": "/sensationalism/",
         "partOfSpeech": "noun",
         "example": "I use Sensationalism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sensationalism trong giao tiếp hàng ngày.",
@@ -313,7 +327,7 @@ module.exports = [
       {
         "word": "Scrutinize",
         "meaning": "Kiểm tra kỹ lưỡng",
-        "pronunciation": "/.../",
+        "pronunciation": "/scrutinize/",
         "partOfSpeech": "noun",
         "example": "I use Scrutinize in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Scrutinize trong giao tiếp hàng ngày.",
@@ -323,7 +337,7 @@ module.exports = [
       {
         "word": "Credible",
         "meaning": "Đáng tin cậy",
-        "pronunciation": "/.../",
+        "pronunciation": "/credible/",
         "partOfSpeech": "noun",
         "example": "I use Credible in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Credible trong giao tiếp hàng ngày.",
@@ -333,7 +347,7 @@ module.exports = [
       {
         "word": "Verify",
         "meaning": "Xác minh sự thật",
-        "pronunciation": "/.../",
+        "pronunciation": "/verify/",
         "partOfSpeech": "noun",
         "example": "I use Verify in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Verify trong giao tiếp hàng ngày.",
@@ -343,7 +357,7 @@ module.exports = [
       {
         "word": "Bias",
         "meaning": "Định kiến thiên vị",
-        "pronunciation": "/.../",
+        "pronunciation": "/bias/",
         "partOfSpeech": "noun",
         "example": "I use Bias in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bias trong giao tiếp hàng ngày.",
@@ -353,7 +367,7 @@ module.exports = [
       {
         "word": "Propaganda",
         "meaning": "Tuyên truyền có chủ đích",
-        "pronunciation": "/.../",
+        "pronunciation": "/propaganda/",
         "partOfSpeech": "noun",
         "example": "I use Propaganda in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Propaganda trong giao tiếp hàng ngày.",
@@ -363,7 +377,7 @@ module.exports = [
       {
         "word": "Disinformation",
         "meaning": "Tin giả cố ý đầu độc",
-        "pronunciation": "/.../",
+        "pronunciation": "/disinformation/",
         "partOfSpeech": "noun",
         "example": "I use Disinformation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Disinformation trong giao tiếp hàng ngày.",
@@ -373,7 +387,7 @@ module.exports = [
       {
         "word": "Fact-check",
         "meaning": "Kiểm chứng thực tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/fact-check/",
         "partOfSpeech": "noun",
         "example": "I use Fact-check in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fact-check trong giao tiếp hàng ngày.",
@@ -383,7 +397,7 @@ module.exports = [
       {
         "word": "Authenticity",
         "meaning": "Tính chân thực",
-        "pronunciation": "/.../",
+        "pronunciation": "/authenticity/",
         "partOfSpeech": "noun",
         "example": "I use Authenticity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Authenticity trong giao tiếp hàng ngày.",
@@ -393,27 +407,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Phân tích tính xác thực của thông tin",
-        "explanation": "Ngữ pháp nâng cao B2: Media Literacy & Detecting Misinformation.",
+        "title": "Phân tích tính xác thực của thông tin (Dạng khẳng định)",
         "formula": "One must scrutinize sources before drawing conclusions",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Media Literacy & Detecting Misinformation.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Media Literacy & Detecting Misinformation.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Misinformation\\\" trong câu:\",\"options\":[\"Misinformation\",\"Misinformations\",\"Misinformationing\",\"Misinformationed\"],\"correctAnswer\":\"Misinformation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Misinformation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Sensationalism\\\" trong câu:\",\"options\":[\"Sensationalism\",\"Sensationalisms\",\"Sensationalisming\",\"Sensationalismed\"],\"correctAnswer\":\"Sensationalism\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sensationalism\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Scrutinize\\\" trong câu:\",\"options\":[\"Scrutinize\",\"Scrutinizes\",\"Scrutinizeing\",\"Scrutinizeed\"],\"correctAnswer\":\"Scrutinize\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Scrutinize\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Credible\\\" trong câu:\",\"options\":[\"Credible\",\"Credibles\",\"Credibleing\",\"Credibleed\"],\"correctAnswer\":\"Credible\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Credible\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Verify\\\" trong câu:\",\"options\":[\"Verify\",\"Verifys\",\"Verifying\",\"Verifyed\"],\"correctAnswer\":\"Verify\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Verify\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Bias\\\" trong câu:\",\"options\":[\"Bias\",\"Biass\",\"Biasing\",\"Biased\"],\"correctAnswer\":\"Bias\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bias\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Propaganda\\\" trong câu:\",\"options\":[\"Propaganda\",\"Propagandas\",\"Propagandaing\",\"Propagandaed\"],\"correctAnswer\":\"Propaganda\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Propaganda\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (One must scrutinize sources before drawing conclusions): Chọn dạng đúng của \\\"Disinformation\\\" trong câu:\",\"options\":[\"Disinformation\",\"Disinformations\",\"Disinformationing\",\"Disinformationed\"],\"correctAnswer\":\"Disinformation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Disinformation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Media Literacy & Detecting Misinformation. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Media Literacy & Detecting Misinformation\".",
+        "examples": "[{\"en\":\"I use \\\"Misinformation\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Misinformation\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Sensationalism\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Sensationalism\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Scrutinize\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Scrutinize\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Media Literacy & Detecting Misinformation",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Media Literacy & Detecting Misinformation, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Misinformation\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Misinformation\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Sensationalism\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Sensationalism\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Scrutinize\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Scrutinize\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Misinformation\\\" has a specific pronunciation: /misinformation/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Misinformation\\\" có phát âm cụ thể là /misinformation/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sensationalism\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sensationalism\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 2: Media Literacy & Detecting Misinformation",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Media Literacy & Detecting Misinformation. In daily life, communication plays a vital role. For instance, words like \"Misinformation\" and \"Sensationalism\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Media Literacy & Detecting Misinformation. In my daily routine, I frequently use the word \"Misinformation\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Sensationalism\" with my classmates. In addition, knowing how to use \"Scrutinize\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Media Literacy & Detecting Misinformation\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Media Literacy & Detecting Misinformation\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Media Literacy & Detecting Misinformation\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Sensationalism\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Sensationalism\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Sensationalism\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Credible\\\" (Đáng tin cậy) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Credible\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Verify\\\" (Xác minh sự thật) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Verify\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Bias\\\" (Định kiến thiên vị) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Bias\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Propaganda\\\" (Tuyên truyền có chủ đích) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Propaganda\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Disinformation\\\" (Tin giả cố ý đầu độc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Disinformation\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Sensationalism\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Sensationalism\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Sensationalism' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Media Literacy & Detecting Misinformation",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Media Literacy & Detecting Misinformation.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Media Literacy & Detecting Misinformation?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Media Literacy & Detecting Misinformation chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Misinformation\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Misinformation\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Sensationalism\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Sensationalism\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 2: Media Literacy & Detecting Misinformation",
+        "passage": "Mastering the theme of \"Media Literacy & Detecting Misinformation\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Misinformation\" (Thông tin sai lệch) and \"Sensationalism\" (Báo chí giật gân) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Scrutinize\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Media Literacy & Detecting Misinformation\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Misinformation\" (Thông tin sai lệch) và \"Sensationalism\" (Báo chí giật gân) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Scrutinize\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Media Literacy & Detecting Misinformation\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Media Literacy & Detecting Misinformation\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Media Literacy & Detecting Misinformation\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Misinformation\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Media Literacy & Detecting Misinformation\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Media Literacy & Detecting Misinformation\",\"explanation\":\"Đoạn văn khẳng định: \\\"Misinformation\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -425,7 +453,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"conversation\",\"Misinformation\",\"daily\",\"in\",\"use\"]",
+        "options": "[\"in\",\"daily\",\"Misinformation\",\"use\",\"I\",\"conversation\"]",
         "correctAnswer": "I use Misinformation in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Misinformation in daily conversation\"."
       },
@@ -441,7 +469,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Sensationalism\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Sensationalism",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Sensationalism\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /sensationalism/ - \"Sensationalism\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -477,11 +505,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Misinformation\" là gì?",
         "options": "[\"Thông tin sai lệch\",\"Báo chí giật gân\",\"Kiểm tra kỹ lưỡng\",\"Đáng tin cậy\"]",
         "correctAnswer": "Thông tin sai lệch",
-        "explanation": "\"Misinformation\" có phiên âm /.../ và mang nghĩa là \"Thông tin sai lệch\"."
+        "explanation": "\"Misinformation\" có phiên âm /misinformation/ và mang nghĩa là \"Thông tin sai lệch\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"Sensationalism\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Sensationalism\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Sensationalism",
         "explanation": "\"Sensationalism\" (Báo chí giật gân) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -495,7 +523,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Credible\" là gì?",
         "options": "[\"Đáng tin cậy\",\"Xác minh sự thật\",\"Định kiến thiên vị\",\"Tuyên truyền có chủ đích\"]",
         "correctAnswer": "Đáng tin cậy",
-        "explanation": "\"Credible\" có phiên âm /.../ và mang nghĩa là \"Đáng tin cậy\"."
+        "explanation": "\"Credible\" có phiên âm /credible/ và mang nghĩa là \"Đáng tin cậy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
@@ -511,13 +539,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Propaganda\" là gì?",
-        "options": "[\"Tuyên truyền có chủ đích\",\"Tin giả cố ý đầu độc\",\"Kiểm chứng thực tế\",\"Tính chân thực\"]",
+        "options": "[\"Tính chân thực\",\"Tuyên truyền có chủ đích\",\"Kiểm chứng thực tế\",\"Tin giả cố ý đầu độc\"]",
         "correctAnswer": "Tuyên truyền có chủ đích",
-        "explanation": "\"Propaganda\" có phiên âm /.../ và mang nghĩa là \"Tuyên truyền có chủ đích\"."
+        "explanation": "\"Propaganda\" có phiên âm /propaganda/ và mang nghĩa là \"Tuyên truyền có chủ đích\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"Disinformation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Disinformation\",\"umbrellas\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Disinformation",
         "explanation": "\"Disinformation\" (Tin giả cố ý đầu độc) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -529,13 +557,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Authenticity\" là gì?",
-        "options": "[\"Tính chân thực\",\"Thông tin sai lệch\",\"Báo chí giật gân\",\"Kiểm tra kỹ lưỡng\"]",
+        "options": "[\"Thông tin sai lệch\",\"Báo chí giật gân\",\"Kiểm tra kỹ lưỡng\",\"Tính chân thực\"]",
         "correctAnswer": "Tính chân thực",
-        "explanation": "\"Authenticity\" có phiên âm /.../ và mang nghĩa là \"Tính chân thực\"."
+        "explanation": "\"Authenticity\" có phiên âm /authenticity/ và mang nghĩa là \"Tính chân thực\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"Misinformation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Misinformation\",\"umbrellas\"]",
         "correctAnswer": "Misinformation",
         "explanation": "\"Misinformation\" (Thông tin sai lệch) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -547,13 +575,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Scrutinize\" là gì?",
-        "options": "[\"Kiểm tra kỹ lưỡng\",\"Đáng tin cậy\",\"Xác minh sự thật\",\"Định kiến thiên vị\"]",
+        "options": "[\"Định kiến thiên vị\",\"Xác minh sự thật\",\"Đáng tin cậy\",\"Kiểm tra kỹ lưỡng\"]",
         "correctAnswer": "Kiểm tra kỹ lưỡng",
-        "explanation": "\"Scrutinize\" có phiên âm /.../ và mang nghĩa là \"Kiểm tra kỹ lưỡng\"."
+        "explanation": "\"Scrutinize\" có phiên âm /scrutinize/ và mang nghĩa là \"Kiểm tra kỹ lưỡng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Media Literacy & Detecting Misinformation, we need to practice _____.\"",
-        "options": "[\"Credible\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Credible\",\"airplanes\"]",
         "correctAnswer": "Credible",
         "explanation": "\"Credible\" (Đáng tin cậy) là từ vựng chính xác trong ngữ cảnh chủ đề Media Literacy & Detecting Misinformation."
       },
@@ -576,7 +604,7 @@ module.exports = [
       {
         "word": "Corporate culture",
         "meaning": "Văn hóa doanh nghiệp",
-        "pronunciation": "/.../",
+        "pronunciation": "/corporate culture/",
         "partOfSpeech": "noun",
         "example": "I use Corporate culture in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Corporate culture trong giao tiếp hàng ngày.",
@@ -586,7 +614,7 @@ module.exports = [
       {
         "word": "Hierarchy",
         "meaning": "Hệ thống thứ bậc",
-        "pronunciation": "/.../",
+        "pronunciation": "/hierarchy/",
         "partOfSpeech": "noun",
         "example": "I use Hierarchy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hierarchy trong giao tiếp hàng ngày.",
@@ -596,7 +624,7 @@ module.exports = [
       {
         "word": "Inclusivity",
         "meaning": "Tính hòa nhập toàn diện",
-        "pronunciation": "/.../",
+        "pronunciation": "/inclusivity/",
         "partOfSpeech": "noun",
         "example": "I use Inclusivity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Inclusivity trong giao tiếp hàng ngày.",
@@ -606,7 +634,7 @@ module.exports = [
       {
         "word": "Cohesion",
         "meaning": "Sự gắn kết đồng lòng",
-        "pronunciation": "/.../",
+        "pronunciation": "/cohesion/",
         "partOfSpeech": "noun",
         "example": "I use Cohesion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cohesion trong giao tiếp hàng ngày.",
@@ -616,7 +644,7 @@ module.exports = [
       {
         "word": "Morale",
         "meaning": "Tinh thần làm việc",
-        "pronunciation": "/.../",
+        "pronunciation": "/morale/",
         "partOfSpeech": "noun",
         "example": "I use Morale in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Morale trong giao tiếp hàng ngày.",
@@ -626,7 +654,7 @@ module.exports = [
       {
         "word": "Mentorship",
         "meaning": "Sự cố vấn dìu dắt",
-        "pronunciation": "/.../",
+        "pronunciation": "/mentorship/",
         "partOfSpeech": "noun",
         "example": "I use Mentorship in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Mentorship trong giao tiếp hàng ngày.",
@@ -636,7 +664,7 @@ module.exports = [
       {
         "word": "Turnover rate",
         "meaning": "Tỷ lệ thôi việc",
-        "pronunciation": "/.../",
+        "pronunciation": "/turnover rate/",
         "partOfSpeech": "noun",
         "example": "I use Turnover rate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Turnover rate trong giao tiếp hàng ngày.",
@@ -646,7 +674,7 @@ module.exports = [
       {
         "word": "Retention",
         "meaning": "Giữ chân nhân tài",
-        "pronunciation": "/.../",
+        "pronunciation": "/retention/",
         "partOfSpeech": "noun",
         "example": "I use Retention in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Retention trong giao tiếp hàng ngày.",
@@ -656,7 +684,7 @@ module.exports = [
       {
         "word": "Dynamic",
         "meaning": "Môi trường năng động",
-        "pronunciation": "/.../",
+        "pronunciation": "/dynamic/",
         "partOfSpeech": "noun",
         "example": "I use Dynamic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dynamic trong giao tiếp hàng ngày.",
@@ -666,7 +694,7 @@ module.exports = [
       {
         "word": "Values",
         "meaning": "Giá trị cốt lõi",
-        "pronunciation": "/.../",
+        "pronunciation": "/values/",
         "partOfSpeech": "noun",
         "example": "I use Values in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Values trong giao tiếp hàng ngày.",
@@ -676,27 +704,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Xây dựng văn hóa doanh nghiệp cởi mở",
-        "explanation": "Ngữ pháp nâng cao B2: Navigating Corporate Culture.",
+        "title": "Xây dựng văn hóa doanh nghiệp cởi mở (Dạng khẳng định)",
         "formula": "Fostering inclusive culture drives team cohesion",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Navigating Corporate Culture.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Navigating Corporate Culture.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Corporate culture\\\" trong câu:\",\"options\":[\"Corporate culture\",\"Corporate cultures\",\"Corporate cultureing\",\"Corporate cultureed\"],\"correctAnswer\":\"Corporate culture\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Corporate culture\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Hierarchy\\\" trong câu:\",\"options\":[\"Hierarchy\",\"Hierarchys\",\"Hierarchying\",\"Hierarchyed\"],\"correctAnswer\":\"Hierarchy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hierarchy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Inclusivity\\\" trong câu:\",\"options\":[\"Inclusivity\",\"Inclusivitys\",\"Inclusivitying\",\"Inclusivityed\"],\"correctAnswer\":\"Inclusivity\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Inclusivity\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Cohesion\\\" trong câu:\",\"options\":[\"Cohesion\",\"Cohesions\",\"Cohesioning\",\"Cohesioned\"],\"correctAnswer\":\"Cohesion\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cohesion\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Morale\\\" trong câu:\",\"options\":[\"Morale\",\"Morales\",\"Moraleing\",\"Moraleed\"],\"correctAnswer\":\"Morale\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Morale\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Mentorship\\\" trong câu:\",\"options\":[\"Mentorship\",\"Mentorships\",\"Mentorshiping\",\"Mentorshiped\"],\"correctAnswer\":\"Mentorship\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Mentorship\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Turnover rate\\\" trong câu:\",\"options\":[\"Turnover rate\",\"Turnover rates\",\"Turnover rateing\",\"Turnover rateed\"],\"correctAnswer\":\"Turnover rate\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Turnover rate\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Fostering inclusive culture drives team cohesion): Chọn dạng đúng của \\\"Retention\\\" trong câu:\",\"options\":[\"Retention\",\"Retentions\",\"Retentioning\",\"Retentioned\"],\"correctAnswer\":\"Retention\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Retention\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Navigating Corporate Culture. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Navigating Corporate Culture\".",
+        "examples": "[{\"en\":\"I use \\\"Corporate culture\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Corporate culture\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Hierarchy\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Hierarchy\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Inclusivity\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Inclusivity\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Navigating Corporate Culture",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Navigating Corporate Culture, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Corporate culture\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Corporate culture\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Hierarchy\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Hierarchy\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Inclusivity\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Inclusivity\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Corporate culture\\\" has a specific pronunciation: /corporate culture/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Corporate culture\\\" có phát âm cụ thể là /corporate culture/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Hierarchy\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Hierarchy\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 3: Navigating Corporate Culture",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Navigating Corporate Culture. In daily life, communication plays a vital role. For instance, words like \"Corporate culture\" and \"Hierarchy\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Navigating Corporate Culture. In my daily routine, I frequently use the word \"Corporate culture\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Hierarchy\" with my classmates. In addition, knowing how to use \"Inclusivity\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Navigating Corporate Culture\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Navigating Corporate Culture\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Navigating Corporate Culture\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Hierarchy\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Hierarchy\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Hierarchy\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Cohesion\\\" (Sự gắn kết đồng lòng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Cohesion\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Morale\\\" (Tinh thần làm việc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Morale\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Mentorship\\\" (Sự cố vấn dìu dắt) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Mentorship\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Turnover rate\\\" (Tỷ lệ thôi việc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Turnover rate\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Retention\\\" (Giữ chân nhân tài) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Retention\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Hierarchy\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Hierarchy\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Hierarchy' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Navigating Corporate Culture",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Navigating Corporate Culture.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Navigating Corporate Culture?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Navigating Corporate Culture chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Corporate culture\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Corporate culture\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Hierarchy\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Hierarchy\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 3: Navigating Corporate Culture",
+        "passage": "Mastering the theme of \"Navigating Corporate Culture\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Corporate culture\" (Văn hóa doanh nghiệp) and \"Hierarchy\" (Hệ thống thứ bậc) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Inclusivity\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Navigating Corporate Culture\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Corporate culture\" (Văn hóa doanh nghiệp) và \"Hierarchy\" (Hệ thống thứ bậc) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Inclusivity\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Navigating Corporate Culture\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Navigating Corporate Culture\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Navigating Corporate Culture\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Corporate culture\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Navigating Corporate Culture\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Navigating Corporate Culture\",\"explanation\":\"Đoạn văn khẳng định: \\\"Corporate culture\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -708,7 +750,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"daily\",\"in\",\"Corporate\",\"culture\"]",
+        "options": "[\"culture\",\"I\",\"daily\",\"use\",\"Corporate\",\"in\"]",
         "correctAnswer": "I use Corporate culture in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Corporate culture in daily\"."
       },
@@ -724,7 +766,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Hierarchy\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Hierarchy",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Hierarchy\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /hierarchy/ - \"Hierarchy\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -758,13 +800,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Corporate culture\" là gì?",
-        "options": "[\"Văn hóa doanh nghiệp\",\"Hệ thống thứ bậc\",\"Tính hòa nhập toàn diện\",\"Sự gắn kết đồng lòng\"]",
+        "options": "[\"Sự gắn kết đồng lòng\",\"Tính hòa nhập toàn diện\",\"Hệ thống thứ bậc\",\"Văn hóa doanh nghiệp\"]",
         "correctAnswer": "Văn hóa doanh nghiệp",
-        "explanation": "\"Corporate culture\" có phiên âm /.../ và mang nghĩa là \"Văn hóa doanh nghiệp\"."
+        "explanation": "\"Corporate culture\" có phiên âm /corporate culture/ và mang nghĩa là \"Văn hóa doanh nghiệp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"Hierarchy\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Hierarchy\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Hierarchy",
         "explanation": "\"Hierarchy\" (Hệ thống thứ bậc) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -776,13 +818,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cohesion\" là gì?",
-        "options": "[\"Sự gắn kết đồng lòng\",\"Tinh thần làm việc\",\"Sự cố vấn dìu dắt\",\"Tỷ lệ thôi việc\"]",
+        "options": "[\"Sự cố vấn dìu dắt\",\"Tinh thần làm việc\",\"Tỷ lệ thôi việc\",\"Sự gắn kết đồng lòng\"]",
         "correctAnswer": "Sự gắn kết đồng lòng",
-        "explanation": "\"Cohesion\" có phiên âm /.../ và mang nghĩa là \"Sự gắn kết đồng lòng\"."
+        "explanation": "\"Cohesion\" có phiên âm /cohesion/ và mang nghĩa là \"Sự gắn kết đồng lòng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"Morale\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Morale\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Morale",
         "explanation": "\"Morale\" (Tinh thần làm việc) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -796,11 +838,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Turnover rate\" là gì?",
         "options": "[\"Tỷ lệ thôi việc\",\"Giữ chân nhân tài\",\"Môi trường năng động\",\"Giá trị cốt lõi\"]",
         "correctAnswer": "Tỷ lệ thôi việc",
-        "explanation": "\"Turnover rate\" có phiên âm /.../ và mang nghĩa là \"Tỷ lệ thôi việc\"."
+        "explanation": "\"Turnover rate\" có phiên âm /turnover rate/ và mang nghĩa là \"Tỷ lệ thôi việc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"Retention\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Retention\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Retention",
         "explanation": "\"Retention\" (Giữ chân nhân tài) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -812,13 +854,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Values\" là gì?",
-        "options": "[\"Giá trị cốt lõi\",\"Văn hóa doanh nghiệp\",\"Hệ thống thứ bậc\",\"Tính hòa nhập toàn diện\"]",
+        "options": "[\"Giá trị cốt lõi\",\"Văn hóa doanh nghiệp\",\"Tính hòa nhập toàn diện\",\"Hệ thống thứ bậc\"]",
         "correctAnswer": "Giá trị cốt lõi",
-        "explanation": "\"Values\" có phiên âm /.../ và mang nghĩa là \"Giá trị cốt lõi\"."
+        "explanation": "\"Values\" có phiên âm /values/ và mang nghĩa là \"Giá trị cốt lõi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"Corporate culture\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Corporate culture\"]",
         "correctAnswer": "Corporate culture",
         "explanation": "\"Corporate culture\" (Văn hóa doanh nghiệp) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -830,13 +872,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Inclusivity\" là gì?",
-        "options": "[\"Tính hòa nhập toàn diện\",\"Sự gắn kết đồng lòng\",\"Tinh thần làm việc\",\"Sự cố vấn dìu dắt\"]",
+        "options": "[\"Sự cố vấn dìu dắt\",\"Tinh thần làm việc\",\"Sự gắn kết đồng lòng\",\"Tính hòa nhập toàn diện\"]",
         "correctAnswer": "Tính hòa nhập toàn diện",
-        "explanation": "\"Inclusivity\" có phiên âm /.../ và mang nghĩa là \"Tính hòa nhập toàn diện\"."
+        "explanation": "\"Inclusivity\" có phiên âm /inclusivity/ và mang nghĩa là \"Tính hòa nhập toàn diện\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Navigating Corporate Culture, we need to practice _____.\"",
-        "options": "[\"Cohesion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Cohesion\"]",
         "correctAnswer": "Cohesion",
         "explanation": "\"Cohesion\" (Sự gắn kết đồng lòng) là từ vựng chính xác trong ngữ cảnh chủ đề Navigating Corporate Culture."
       },
@@ -859,7 +901,7 @@ module.exports = [
       {
         "word": "Negotiation",
         "meaning": "Cuộc đàm phán thương thảo",
-        "pronunciation": "/.../",
+        "pronunciation": "/negotiation/",
         "partOfSpeech": "noun",
         "example": "I use Negotiation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Negotiation trong giao tiếp hàng ngày.",
@@ -869,7 +911,7 @@ module.exports = [
       {
         "word": "Compromise",
         "meaning": "Sự thỏa hiệp hòa hoãn",
-        "pronunciation": "/.../",
+        "pronunciation": "/compromise/",
         "partOfSpeech": "noun",
         "example": "I use Compromise in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Compromise trong giao tiếp hàng ngày.",
@@ -879,7 +921,7 @@ module.exports = [
       {
         "word": "Concession",
         "meaning": "Sự nhượng bộ chiến lược",
-        "pronunciation": "/.../",
+        "pronunciation": "/concession/",
         "partOfSpeech": "noun",
         "example": "I use Concession in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Concession trong giao tiếp hàng ngày.",
@@ -889,7 +931,7 @@ module.exports = [
       {
         "word": "Leverage",
         "meaning": "Lợi thế đòn bẩy",
-        "pronunciation": "/.../",
+        "pronunciation": "/leverage/",
         "partOfSpeech": "noun",
         "example": "I use Leverage in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Leverage trong giao tiếp hàng ngày.",
@@ -899,7 +941,7 @@ module.exports = [
       {
         "word": "Counteroffer",
         "meaning": "Lời đề nghị phản hồi lại",
-        "pronunciation": "/.../",
+        "pronunciation": "/counteroffer/",
         "partOfSpeech": "noun",
         "example": "I use Counteroffer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Counteroffer trong giao tiếp hàng ngày.",
@@ -909,7 +951,7 @@ module.exports = [
       {
         "word": "Stalemate",
         "meaning": "Thế bế tắc giằng co",
-        "pronunciation": "/.../",
+        "pronunciation": "/stalemate/",
         "partOfSpeech": "noun",
         "example": "I use Stalemate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stalemate trong giao tiếp hàng ngày.",
@@ -919,7 +961,7 @@ module.exports = [
       {
         "word": "Mutual",
         "meaning": "Lợi ích song phương",
-        "pronunciation": "/.../",
+        "pronunciation": "/mutual/",
         "partOfSpeech": "noun",
         "example": "I use Mutual in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Mutual trong giao tiếp hàng ngày.",
@@ -929,7 +971,7 @@ module.exports = [
       {
         "word": "Contract",
         "meaning": "Bản hợp đồng pháp lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/contract/",
         "partOfSpeech": "noun",
         "example": "I use Contract in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Contract trong giao tiếp hàng ngày.",
@@ -939,7 +981,7 @@ module.exports = [
       {
         "word": "Clause",
         "meaning": "Điều khoản hợp đồng",
-        "pronunciation": "/.../",
+        "pronunciation": "/clause/",
         "partOfSpeech": "noun",
         "example": "I use Clause in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clause trong giao tiếp hàng ngày.",
@@ -949,7 +991,7 @@ module.exports = [
       {
         "word": "Finalize",
         "meaning": "Chốt ký kết văn bản",
-        "pronunciation": "/.../",
+        "pronunciation": "/finalize/",
         "partOfSpeech": "noun",
         "example": "I use Finalize in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Finalize trong giao tiếp hàng ngày.",
@@ -959,27 +1001,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Câu điều kiện giao dịch nhượng bộ trong đàm phán",
-        "explanation": "Ngữ pháp nâng cao B2: Negotiation Strategies & Compromise.",
+        "title": "Câu điều kiện giao dịch nhượng bộ trong đàm phán (Dạng khẳng định)",
         "formula": "We are willing to concede on X provided that you agree to Y",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Negotiation Strategies & Compromise.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Negotiation Strategies & Compromise.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Negotiation\\\" trong câu:\",\"options\":[\"Negotiation\",\"Negotiations\",\"Negotiationing\",\"Negotiationed\"],\"correctAnswer\":\"Negotiation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Negotiation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Compromise\\\" trong câu:\",\"options\":[\"Compromise\",\"Compromises\",\"Compromiseing\",\"Compromiseed\"],\"correctAnswer\":\"Compromise\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Compromise\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Concession\\\" trong câu:\",\"options\":[\"Concession\",\"Concessions\",\"Concessioning\",\"Concessioned\"],\"correctAnswer\":\"Concession\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Concession\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Leverage\\\" trong câu:\",\"options\":[\"Leverage\",\"Leverages\",\"Leverageing\",\"Leverageed\"],\"correctAnswer\":\"Leverage\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Leverage\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Counteroffer\\\" trong câu:\",\"options\":[\"Counteroffer\",\"Counteroffers\",\"Counteroffering\",\"Counteroffered\"],\"correctAnswer\":\"Counteroffer\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Counteroffer\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Stalemate\\\" trong câu:\",\"options\":[\"Stalemate\",\"Stalemates\",\"Stalemateing\",\"Stalemateed\"],\"correctAnswer\":\"Stalemate\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Stalemate\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Mutual\\\" trong câu:\",\"options\":[\"Mutual\",\"Mutuals\",\"Mutualing\",\"Mutualed\"],\"correctAnswer\":\"Mutual\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Mutual\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (We are willing to concede on X provided that you agree to Y): Chọn dạng đúng của \\\"Contract\\\" trong câu:\",\"options\":[\"Contract\",\"Contracts\",\"Contracting\",\"Contracted\"],\"correctAnswer\":\"Contract\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Contract\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Negotiation Strategies & Compromise. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Negotiation Strategies & Compromise\".",
+        "examples": "[{\"en\":\"I use \\\"Negotiation\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Negotiation\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Compromise\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Compromise\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Concession\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Concession\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Negotiation Strategies & Compromise",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Negotiation Strategies & Compromise, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Negotiation\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Negotiation\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Compromise\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Compromise\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Concession\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Concession\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Negotiation\\\" has a specific pronunciation: /negotiation/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Negotiation\\\" có phát âm cụ thể là /negotiation/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Compromise\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Compromise\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 4: Negotiation Strategies & Compromise",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Negotiation Strategies & Compromise. In daily life, communication plays a vital role. For instance, words like \"Negotiation\" and \"Compromise\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Negotiation Strategies & Compromise. In my daily routine, I frequently use the word \"Negotiation\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Compromise\" with my classmates. In addition, knowing how to use \"Concession\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Negotiation Strategies & Compromise\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Negotiation Strategies & Compromise\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Negotiation Strategies & Compromise\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Compromise\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Compromise\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Compromise\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Leverage\\\" (Lợi thế đòn bẩy) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Leverage\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Counteroffer\\\" (Lời đề nghị phản hồi lại) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Counteroffer\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Stalemate\\\" (Thế bế tắc giằng co) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Stalemate\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Mutual\\\" (Lợi ích song phương) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Mutual\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Contract\\\" (Bản hợp đồng pháp lý) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Contract\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Compromise\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Compromise\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Compromise' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Negotiation Strategies & Compromise",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Negotiation Strategies & Compromise.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Negotiation Strategies & Compromise?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Negotiation Strategies & Compromise chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Negotiation\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Negotiation\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Compromise\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Compromise\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 4: Negotiation Strategies & Compromise",
+        "passage": "Mastering the theme of \"Negotiation Strategies & Compromise\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Negotiation\" (Cuộc đàm phán thương thảo) and \"Compromise\" (Sự thỏa hiệp hòa hoãn) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Concession\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Negotiation Strategies & Compromise\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Negotiation\" (Cuộc đàm phán thương thảo) và \"Compromise\" (Sự thỏa hiệp hòa hoãn) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Concession\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Negotiation Strategies & Compromise\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Negotiation Strategies & Compromise\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Negotiation Strategies & Compromise\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Negotiation\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Negotiation Strategies & Compromise\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Negotiation Strategies & Compromise\",\"explanation\":\"Đoạn văn khẳng định: \\\"Negotiation\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -991,7 +1047,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"conversation\",\"I\",\"Negotiation\",\"use\",\"daily\"]",
+        "options": "[\"Negotiation\",\"daily\",\"conversation\",\"use\",\"in\",\"I\"]",
         "correctAnswer": "I use Negotiation in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Negotiation in daily conversation\"."
       },
@@ -1007,7 +1063,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Compromise\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Compromise",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Compromise\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /compromise/ - \"Compromise\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1041,13 +1097,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Negotiation\" là gì?",
-        "options": "[\"Cuộc đàm phán thương thảo\",\"Sự thỏa hiệp hòa hoãn\",\"Sự nhượng bộ chiến lược\",\"Lợi thế đòn bẩy\"]",
+        "options": "[\"Lợi thế đòn bẩy\",\"Sự nhượng bộ chiến lược\",\"Sự thỏa hiệp hòa hoãn\",\"Cuộc đàm phán thương thảo\"]",
         "correctAnswer": "Cuộc đàm phán thương thảo",
-        "explanation": "\"Negotiation\" có phiên âm /.../ và mang nghĩa là \"Cuộc đàm phán thương thảo\"."
+        "explanation": "\"Negotiation\" có phiên âm /negotiation/ và mang nghĩa là \"Cuộc đàm phán thương thảo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"Compromise\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Compromise\",\"airplanes\"]",
         "correctAnswer": "Compromise",
         "explanation": "\"Compromise\" (Sự thỏa hiệp hòa hoãn) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1059,13 +1115,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Leverage\" là gì?",
-        "options": "[\"Lợi thế đòn bẩy\",\"Lời đề nghị phản hồi lại\",\"Thế bế tắc giằng co\",\"Lợi ích song phương\"]",
+        "options": "[\"Lợi ích song phương\",\"Thế bế tắc giằng co\",\"Lợi thế đòn bẩy\",\"Lời đề nghị phản hồi lại\"]",
         "correctAnswer": "Lợi thế đòn bẩy",
-        "explanation": "\"Leverage\" có phiên âm /.../ và mang nghĩa là \"Lợi thế đòn bẩy\"."
+        "explanation": "\"Leverage\" có phiên âm /leverage/ và mang nghĩa là \"Lợi thế đòn bẩy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"Counteroffer\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Counteroffer\",\"umbrellas\"]",
         "correctAnswer": "Counteroffer",
         "explanation": "\"Counteroffer\" (Lời đề nghị phản hồi lại) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1077,9 +1133,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mutual\" là gì?",
-        "options": "[\"Lợi ích song phương\",\"Bản hợp đồng pháp lý\",\"Điều khoản hợp đồng\",\"Chốt ký kết văn bản\"]",
+        "options": "[\"Điều khoản hợp đồng\",\"Chốt ký kết văn bản\",\"Lợi ích song phương\",\"Bản hợp đồng pháp lý\"]",
         "correctAnswer": "Lợi ích song phương",
-        "explanation": "\"Mutual\" có phiên âm /.../ và mang nghĩa là \"Lợi ích song phương\"."
+        "explanation": "\"Mutual\" có phiên âm /mutual/ và mang nghĩa là \"Lợi ích song phương\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
@@ -1095,13 +1151,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Finalize\" là gì?",
-        "options": "[\"Chốt ký kết văn bản\",\"Cuộc đàm phán thương thảo\",\"Sự thỏa hiệp hòa hoãn\",\"Sự nhượng bộ chiến lược\"]",
+        "options": "[\"Cuộc đàm phán thương thảo\",\"Sự nhượng bộ chiến lược\",\"Sự thỏa hiệp hòa hoãn\",\"Chốt ký kết văn bản\"]",
         "correctAnswer": "Chốt ký kết văn bản",
-        "explanation": "\"Finalize\" có phiên âm /.../ và mang nghĩa là \"Chốt ký kết văn bản\"."
+        "explanation": "\"Finalize\" có phiên âm /finalize/ và mang nghĩa là \"Chốt ký kết văn bản\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"Negotiation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Negotiation\"]",
         "correctAnswer": "Negotiation",
         "explanation": "\"Negotiation\" (Cuộc đàm phán thương thảo) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1113,13 +1169,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Concession\" là gì?",
-        "options": "[\"Sự nhượng bộ chiến lược\",\"Lợi thế đòn bẩy\",\"Lời đề nghị phản hồi lại\",\"Thế bế tắc giằng co\"]",
+        "options": "[\"Lời đề nghị phản hồi lại\",\"Thế bế tắc giằng co\",\"Lợi thế đòn bẩy\",\"Sự nhượng bộ chiến lược\"]",
         "correctAnswer": "Sự nhượng bộ chiến lược",
-        "explanation": "\"Concession\" có phiên âm /.../ và mang nghĩa là \"Sự nhượng bộ chiến lược\"."
+        "explanation": "\"Concession\" có phiên âm /concession/ và mang nghĩa là \"Sự nhượng bộ chiến lược\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Negotiation Strategies & Compromise, we need to practice _____.\"",
-        "options": "[\"Leverage\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Leverage\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Leverage",
         "explanation": "\"Leverage\" (Lợi thế đòn bẩy) là từ vựng chính xác trong ngữ cảnh chủ đề Negotiation Strategies & Compromise."
       },
@@ -1142,7 +1198,7 @@ module.exports = [
       {
         "word": "Branding",
         "meaning": "Chiến lược thương hiệu",
-        "pronunciation": "/.../",
+        "pronunciation": "/branding/",
         "partOfSpeech": "noun",
         "example": "I use Branding in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Branding trong giao tiếp hàng ngày.",
@@ -1152,7 +1208,7 @@ module.exports = [
       {
         "word": "Consumer",
         "meaning": "Người tiêu dùng",
-        "pronunciation": "/.../",
+        "pronunciation": "/consumer/",
         "partOfSpeech": "noun",
         "example": "I use Consumer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consumer trong giao tiếp hàng ngày.",
@@ -1162,7 +1218,7 @@ module.exports = [
       {
         "word": "Demographic",
         "meaning": "Đặc điểm nhân khẩu học",
-        "pronunciation": "/.../",
+        "pronunciation": "/demographic/",
         "partOfSpeech": "noun",
         "example": "I use Demographic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Demographic trong giao tiếp hàng ngày.",
@@ -1172,7 +1228,7 @@ module.exports = [
       {
         "word": "Perception",
         "meaning": "Nhận thức khách hàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/perception/",
         "partOfSpeech": "noun",
         "example": "I use Perception in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Perception trong giao tiếp hàng ngày.",
@@ -1182,7 +1238,7 @@ module.exports = [
       {
         "word": "Loyalty",
         "meaning": "Lòng trung thành nhãn hàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/loyalty/",
         "partOfSpeech": "noun",
         "example": "I use Loyalty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Loyalty trong giao tiếp hàng ngày.",
@@ -1192,7 +1248,7 @@ module.exports = [
       {
         "word": "Campaign",
         "meaning": "Chiến dịch tiếp thị",
-        "pronunciation": "/.../",
+        "pronunciation": "/campaign/",
         "partOfSpeech": "noun",
         "example": "I use Campaign in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Campaign trong giao tiếp hàng ngày.",
@@ -1202,7 +1258,7 @@ module.exports = [
       {
         "word": "Engagement",
         "meaning": "Mức độ tương tác",
-        "pronunciation": "/.../",
+        "pronunciation": "/engagement/",
         "partOfSpeech": "noun",
         "example": "I use Engagement in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Engagement trong giao tiếp hàng ngày.",
@@ -1212,7 +1268,7 @@ module.exports = [
       {
         "word": "Value proposition",
         "meaning": "Tuyên ngôn giá trị",
-        "pronunciation": "/.../",
+        "pronunciation": "/value proposition/",
         "partOfSpeech": "noun",
         "example": "I use Value proposition in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Value proposition trong giao tiếp hàng ngày.",
@@ -1222,7 +1278,7 @@ module.exports = [
       {
         "word": "Market share",
         "meaning": "Thị phần trên thị trường",
-        "pronunciation": "/.../",
+        "pronunciation": "/market share/",
         "partOfSpeech": "noun",
         "example": "I use Market share in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Market share trong giao tiếp hàng ngày.",
@@ -1232,7 +1288,7 @@ module.exports = [
       {
         "word": "Niche",
         "meaning": "Thị trường ngách",
-        "pronunciation": "/.../",
+        "pronunciation": "/niche/",
         "partOfSpeech": "noun",
         "example": "I use Niche in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Niche trong giao tiếp hàng ngày.",
@@ -1242,27 +1298,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Phân tích tâm lý người tiêu dùng hiện đại",
-        "explanation": "Ngữ pháp nâng cao B2: Marketing, Branding & Consumer Psychology.",
+        "title": "Phân tích tâm lý người tiêu dùng hiện đại (Dạng khẳng định)",
         "formula": "Brands appeal to emotional drivers rather than pure utility",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Marketing, Branding & Consumer Psychology.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Marketing, Branding & Consumer Psychology.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Branding\\\" trong câu:\",\"options\":[\"Branding\",\"Brandings\",\"Brandinging\",\"Brandinged\"],\"correctAnswer\":\"Branding\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Branding\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Consumer\\\" trong câu:\",\"options\":[\"Consumer\",\"Consumers\",\"Consumering\",\"Consumered\"],\"correctAnswer\":\"Consumer\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Consumer\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Demographic\\\" trong câu:\",\"options\":[\"Demographic\",\"Demographics\",\"Demographicing\",\"Demographiced\"],\"correctAnswer\":\"Demographic\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Demographic\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Perception\\\" trong câu:\",\"options\":[\"Perception\",\"Perceptions\",\"Perceptioning\",\"Perceptioned\"],\"correctAnswer\":\"Perception\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Perception\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Loyalty\\\" trong câu:\",\"options\":[\"Loyalty\",\"Loyaltys\",\"Loyaltying\",\"Loyaltyed\"],\"correctAnswer\":\"Loyalty\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Loyalty\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Campaign\\\" trong câu:\",\"options\":[\"Campaign\",\"Campaigns\",\"Campaigning\",\"Campaigned\"],\"correctAnswer\":\"Campaign\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Campaign\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Engagement\\\" trong câu:\",\"options\":[\"Engagement\",\"Engagements\",\"Engagementing\",\"Engagemented\"],\"correctAnswer\":\"Engagement\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Engagement\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Brands appeal to emotional drivers rather than pure utility): Chọn dạng đúng của \\\"Value proposition\\\" trong câu:\",\"options\":[\"Value proposition\",\"Value propositions\",\"Value propositioning\",\"Value propositioned\"],\"correctAnswer\":\"Value proposition\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Value proposition\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Marketing, Branding & Consumer Psychology. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Marketing, Branding & Consumer Psychology\".",
+        "examples": "[{\"en\":\"I use \\\"Branding\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Branding\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Consumer\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Consumer\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Demographic\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Demographic\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Marketing, Branding & Consumer Psychology",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Marketing, Branding & Consumer Psychology, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Branding\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Branding\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Consumer\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Consumer\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Demographic\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Demographic\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Branding\\\" has a specific pronunciation: /branding/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Branding\\\" có phát âm cụ thể là /branding/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Consumer\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Consumer\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 5: Marketing, Branding & Consumer Psychology",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Marketing, Branding & Consumer Psychology. In daily life, communication plays a vital role. For instance, words like \"Branding\" and \"Consumer\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Marketing, Branding & Consumer Psychology. In my daily routine, I frequently use the word \"Branding\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Consumer\" with my classmates. In addition, knowing how to use \"Demographic\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Marketing, Branding & Consumer Psychology\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Marketing, Branding & Consumer Psychology\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Marketing, Branding & Consumer Psychology\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Consumer\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Consumer\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Consumer\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Perception\\\" (Nhận thức khách hàng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Perception\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Loyalty\\\" (Lòng trung thành nhãn hàng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Loyalty\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Campaign\\\" (Chiến dịch tiếp thị) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Campaign\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Engagement\\\" (Mức độ tương tác) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Engagement\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Value proposition\\\" (Tuyên ngôn giá trị) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Value proposition\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Consumer\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Consumer\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Consumer' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Marketing, Branding & Consumer Psychology",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Marketing, Branding & Consumer Psychology.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Marketing, Branding & Consumer Psychology?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Marketing, Branding & Consumer Psychology chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Branding\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Branding\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Consumer\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Consumer\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 5: Marketing, Branding & Consumer Psychology",
+        "passage": "Mastering the theme of \"Marketing, Branding & Consumer Psychology\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Branding\" (Chiến lược thương hiệu) and \"Consumer\" (Người tiêu dùng) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Demographic\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Marketing, Branding & Consumer Psychology\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Branding\" (Chiến lược thương hiệu) và \"Consumer\" (Người tiêu dùng) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Demographic\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Marketing, Branding & Consumer Psychology\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Marketing, Branding & Consumer Psychology\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Marketing, Branding & Consumer Psychology\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Branding\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Marketing, Branding & Consumer Psychology\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Marketing, Branding & Consumer Psychology\",\"explanation\":\"Đoạn văn khẳng định: \\\"Branding\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -1274,7 +1344,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Branding\",\"use\",\"in\",\"I\",\"daily\",\"conversation\"]",
+        "options": "[\"conversation\",\"daily\",\"in\",\"Branding\",\"use\",\"I\"]",
         "correctAnswer": "I use Branding in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Branding in daily conversation\"."
       },
@@ -1290,7 +1360,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Consumer\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Consumer",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Consumer\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /consumer/ - \"Consumer\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1324,9 +1394,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Branding\" là gì?",
-        "options": "[\"Chiến lược thương hiệu\",\"Người tiêu dùng\",\"Đặc điểm nhân khẩu học\",\"Nhận thức khách hàng\"]",
+        "options": "[\"Đặc điểm nhân khẩu học\",\"Nhận thức khách hàng\",\"Người tiêu dùng\",\"Chiến lược thương hiệu\"]",
         "correctAnswer": "Chiến lược thương hiệu",
-        "explanation": "\"Branding\" có phiên âm /.../ và mang nghĩa là \"Chiến lược thương hiệu\"."
+        "explanation": "\"Branding\" có phiên âm /branding/ và mang nghĩa là \"Chiến lược thương hiệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
@@ -1342,13 +1412,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Perception\" là gì?",
-        "options": "[\"Nhận thức khách hàng\",\"Lòng trung thành nhãn hàng\",\"Chiến dịch tiếp thị\",\"Mức độ tương tác\"]",
+        "options": "[\"Lòng trung thành nhãn hàng\",\"Nhận thức khách hàng\",\"Chiến dịch tiếp thị\",\"Mức độ tương tác\"]",
         "correctAnswer": "Nhận thức khách hàng",
-        "explanation": "\"Perception\" có phiên âm /.../ và mang nghĩa là \"Nhận thức khách hàng\"."
+        "explanation": "\"Perception\" có phiên âm /perception/ và mang nghĩa là \"Nhận thức khách hàng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"Loyalty\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Loyalty\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Loyalty",
         "explanation": "\"Loyalty\" (Lòng trung thành nhãn hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1360,13 +1430,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Engagement\" là gì?",
-        "options": "[\"Mức độ tương tác\",\"Tuyên ngôn giá trị\",\"Thị phần trên thị trường\",\"Thị trường ngách\"]",
+        "options": "[\"Tuyên ngôn giá trị\",\"Thị phần trên thị trường\",\"Mức độ tương tác\",\"Thị trường ngách\"]",
         "correctAnswer": "Mức độ tương tác",
-        "explanation": "\"Engagement\" có phiên âm /.../ và mang nghĩa là \"Mức độ tương tác\"."
+        "explanation": "\"Engagement\" có phiên âm /engagement/ và mang nghĩa là \"Mức độ tương tác\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"Value proposition\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Value proposition\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Value proposition",
         "explanation": "\"Value proposition\" (Tuyên ngôn giá trị) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1378,13 +1448,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Niche\" là gì?",
-        "options": "[\"Thị trường ngách\",\"Chiến lược thương hiệu\",\"Người tiêu dùng\",\"Đặc điểm nhân khẩu học\"]",
+        "options": "[\"Đặc điểm nhân khẩu học\",\"Thị trường ngách\",\"Chiến lược thương hiệu\",\"Người tiêu dùng\"]",
         "correctAnswer": "Thị trường ngách",
-        "explanation": "\"Niche\" có phiên âm /.../ và mang nghĩa là \"Thị trường ngách\"."
+        "explanation": "\"Niche\" có phiên âm /niche/ và mang nghĩa là \"Thị trường ngách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
-        "options": "[\"Branding\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Branding\",\"airplanes\"]",
         "correctAnswer": "Branding",
         "explanation": "\"Branding\" (Chiến lược thương hiệu) là từ vựng chính xác trong ngữ cảnh chủ đề Marketing, Branding & Consumer Psychology."
       },
@@ -1398,7 +1468,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Demographic\" là gì?",
         "options": "[\"Đặc điểm nhân khẩu học\",\"Nhận thức khách hàng\",\"Lòng trung thành nhãn hàng\",\"Chiến dịch tiếp thị\"]",
         "correctAnswer": "Đặc điểm nhân khẩu học",
-        "explanation": "\"Demographic\" có phiên âm /.../ và mang nghĩa là \"Đặc điểm nhân khẩu học\"."
+        "explanation": "\"Demographic\" có phiên âm /demographic/ và mang nghĩa là \"Đặc điểm nhân khẩu học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Marketing, Branding & Consumer Psychology, we need to practice _____.\"",
@@ -1425,7 +1495,7 @@ module.exports = [
       {
         "word": "Inflation",
         "meaning": "Lạm phát phi mã",
-        "pronunciation": "/.../",
+        "pronunciation": "/inflation/",
         "partOfSpeech": "noun",
         "example": "I use Inflation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Inflation trong giao tiếp hàng ngày.",
@@ -1435,7 +1505,7 @@ module.exports = [
       {
         "word": "Recession",
         "meaning": "Suy thoái kinh tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/recession/",
         "partOfSpeech": "noun",
         "example": "I use Recession in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Recession trong giao tiếp hàng ngày.",
@@ -1445,7 +1515,7 @@ module.exports = [
       {
         "word": "Stock market",
         "meaning": "Thị trường chứng khoán",
-        "pronunciation": "/.../",
+        "pronunciation": "/stock market/",
         "partOfSpeech": "noun",
         "example": "I use Stock market in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stock market trong giao tiếp hàng ngày.",
@@ -1455,7 +1525,7 @@ module.exports = [
       {
         "word": "Interest",
         "meaning": "Mức lãi suất ngân hàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/interest/",
         "partOfSpeech": "noun",
         "example": "I use Interest in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Interest trong giao tiếp hàng ngày.",
@@ -1465,7 +1535,7 @@ module.exports = [
       {
         "word": "Asset",
         "meaning": "Tài sản có giá trị",
-        "pronunciation": "/.../",
+        "pronunciation": "/asset/",
         "partOfSpeech": "noun",
         "example": "I use Asset in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Asset trong giao tiếp hàng ngày.",
@@ -1475,7 +1545,7 @@ module.exports = [
       {
         "word": "Liability",
         "meaning": "Nghĩa vụ nợ nần",
-        "pronunciation": "/.../",
+        "pronunciation": "/liability/",
         "partOfSpeech": "noun",
         "example": "I use Liability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Liability trong giao tiếp hàng ngày.",
@@ -1485,7 +1555,7 @@ module.exports = [
       {
         "word": "Volatility",
         "meaning": "Sự biến động thất thường",
-        "pronunciation": "/.../",
+        "pronunciation": "/volatility/",
         "partOfSpeech": "noun",
         "example": "I use Volatility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Volatility trong giao tiếp hàng ngày.",
@@ -1495,7 +1565,7 @@ module.exports = [
       {
         "word": "Yield",
         "meaning": "Tỷ suất sinh lời",
-        "pronunciation": "/.../",
+        "pronunciation": "/yield/",
         "partOfSpeech": "noun",
         "example": "I use Yield in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Yield trong giao tiếp hàng ngày.",
@@ -1505,7 +1575,7 @@ module.exports = [
       {
         "word": "Monetary policy",
         "meaning": "Chính sách tiền tệ",
-        "pronunciation": "/.../",
+        "pronunciation": "/monetary policy/",
         "partOfSpeech": "noun",
         "example": "I use Monetary policy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Monetary policy trong giao tiếp hàng ngày.",
@@ -1515,7 +1585,7 @@ module.exports = [
       {
         "word": "Economic growth",
         "meaning": "Tăng trưởng kinh tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/economic growth/",
         "partOfSpeech": "noun",
         "example": "I use Economic growth in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Economic growth trong giao tiếp hàng ngày.",
@@ -1525,27 +1595,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Bình luận về xu thế kinh tế vĩ mô",
-        "explanation": "Ngữ pháp nâng cao B2: Financial Markets & Global Economy.",
+        "title": "Bình luận về xu thế kinh tế vĩ mô (Dạng khẳng định)",
         "formula": "Inflationary pressures undermine purchasing power significantly",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Financial Markets & Global Economy.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Financial Markets & Global Economy.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Inflation\\\" trong câu:\",\"options\":[\"Inflation\",\"Inflations\",\"Inflationing\",\"Inflationed\"],\"correctAnswer\":\"Inflation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Inflation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Recession\\\" trong câu:\",\"options\":[\"Recession\",\"Recessions\",\"Recessioning\",\"Recessioned\"],\"correctAnswer\":\"Recession\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Recession\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Stock market\\\" trong câu:\",\"options\":[\"Stock market\",\"Stock markets\",\"Stock marketing\",\"Stock marketed\"],\"correctAnswer\":\"Stock market\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Stock market\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Interest\\\" trong câu:\",\"options\":[\"Interest\",\"Interests\",\"Interesting\",\"Interested\"],\"correctAnswer\":\"Interest\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Interest\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Asset\\\" trong câu:\",\"options\":[\"Asset\",\"Assets\",\"Asseting\",\"Asseted\"],\"correctAnswer\":\"Asset\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Asset\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Liability\\\" trong câu:\",\"options\":[\"Liability\",\"Liabilitys\",\"Liabilitying\",\"Liabilityed\"],\"correctAnswer\":\"Liability\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Liability\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Volatility\\\" trong câu:\",\"options\":[\"Volatility\",\"Volatilitys\",\"Volatilitying\",\"Volatilityed\"],\"correctAnswer\":\"Volatility\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Volatility\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Inflationary pressures undermine purchasing power significantly): Chọn dạng đúng của \\\"Yield\\\" trong câu:\",\"options\":[\"Yield\",\"Yields\",\"Yielding\",\"Yielded\"],\"correctAnswer\":\"Yield\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Yield\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Financial Markets & Global Economy. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Financial Markets & Global Economy\".",
+        "examples": "[{\"en\":\"I use \\\"Inflation\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Inflation\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Recession\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Recession\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Stock market\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Stock market\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Financial Markets & Global Economy",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Financial Markets & Global Economy, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Inflation\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Inflation\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Recession\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Recession\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Stock market\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Stock market\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Inflation\\\" has a specific pronunciation: /inflation/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Inflation\\\" có phát âm cụ thể là /inflation/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Recession\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Recession\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 6: Financial Markets & Global Economy",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Financial Markets & Global Economy. In daily life, communication plays a vital role. For instance, words like \"Inflation\" and \"Recession\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Financial Markets & Global Economy. In my daily routine, I frequently use the word \"Inflation\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Recession\" with my classmates. In addition, knowing how to use \"Stock market\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Financial Markets & Global Economy\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Financial Markets & Global Economy\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Financial Markets & Global Economy\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Recession\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Recession\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Recession\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Interest\\\" (Mức lãi suất ngân hàng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Interest\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Asset\\\" (Tài sản có giá trị) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Asset\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Liability\\\" (Nghĩa vụ nợ nần) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Liability\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Volatility\\\" (Sự biến động thất thường) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Volatility\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Yield\\\" (Tỷ suất sinh lời) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Yield\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Recession\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Recession\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Recession' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Financial Markets & Global Economy",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Financial Markets & Global Economy.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Financial Markets & Global Economy?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Financial Markets & Global Economy chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Inflation\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Inflation\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Recession\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Recession\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 6: Financial Markets & Global Economy",
+        "passage": "Mastering the theme of \"Financial Markets & Global Economy\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Inflation\" (Lạm phát phi mã) and \"Recession\" (Suy thoái kinh tế) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Stock market\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Financial Markets & Global Economy\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Inflation\" (Lạm phát phi mã) và \"Recession\" (Suy thoái kinh tế) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Stock market\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Financial Markets & Global Economy\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Financial Markets & Global Economy\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Financial Markets & Global Economy\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Inflation\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Financial Markets & Global Economy\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Financial Markets & Global Economy\",\"explanation\":\"Đoạn văn khẳng định: \\\"Inflation\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -1557,7 +1641,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"daily\",\"Inflation\",\"in\",\"conversation\"]",
+        "options": "[\"daily\",\"I\",\"use\",\"Inflation\",\"conversation\",\"in\"]",
         "correctAnswer": "I use Inflation in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Inflation in daily conversation\"."
       },
@@ -1573,7 +1657,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Recession\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Recession",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Recession\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /recession/ - \"Recession\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1607,13 +1691,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Inflation\" là gì?",
-        "options": "[\"Lạm phát phi mã\",\"Suy thoái kinh tế\",\"Thị trường chứng khoán\",\"Mức lãi suất ngân hàng\"]",
+        "options": "[\"Lạm phát phi mã\",\"Thị trường chứng khoán\",\"Mức lãi suất ngân hàng\",\"Suy thoái kinh tế\"]",
         "correctAnswer": "Lạm phát phi mã",
-        "explanation": "\"Inflation\" có phiên âm /.../ và mang nghĩa là \"Lạm phát phi mã\"."
+        "explanation": "\"Inflation\" có phiên âm /inflation/ và mang nghĩa là \"Lạm phát phi mã\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"Recession\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Recession\"]",
         "correctAnswer": "Recession",
         "explanation": "\"Recession\" (Suy thoái kinh tế) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1625,9 +1709,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Interest\" là gì?",
-        "options": "[\"Mức lãi suất ngân hàng\",\"Tài sản có giá trị\",\"Nghĩa vụ nợ nần\",\"Sự biến động thất thường\"]",
+        "options": "[\"Mức lãi suất ngân hàng\",\"Tài sản có giá trị\",\"Sự biến động thất thường\",\"Nghĩa vụ nợ nần\"]",
         "correctAnswer": "Mức lãi suất ngân hàng",
-        "explanation": "\"Interest\" có phiên âm /.../ và mang nghĩa là \"Mức lãi suất ngân hàng\"."
+        "explanation": "\"Interest\" có phiên âm /interest/ và mang nghĩa là \"Mức lãi suất ngân hàng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
@@ -1643,13 +1727,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Volatility\" là gì?",
-        "options": "[\"Sự biến động thất thường\",\"Tỷ suất sinh lời\",\"Chính sách tiền tệ\",\"Tăng trưởng kinh tế\"]",
+        "options": "[\"Chính sách tiền tệ\",\"Tỷ suất sinh lời\",\"Sự biến động thất thường\",\"Tăng trưởng kinh tế\"]",
         "correctAnswer": "Sự biến động thất thường",
-        "explanation": "\"Volatility\" có phiên âm /.../ và mang nghĩa là \"Sự biến động thất thường\"."
+        "explanation": "\"Volatility\" có phiên âm /volatility/ và mang nghĩa là \"Sự biến động thất thường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"Yield\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Yield\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Yield",
         "explanation": "\"Yield\" (Tỷ suất sinh lời) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1663,7 +1747,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Economic growth\" là gì?",
         "options": "[\"Tăng trưởng kinh tế\",\"Lạm phát phi mã\",\"Suy thoái kinh tế\",\"Thị trường chứng khoán\"]",
         "correctAnswer": "Tăng trưởng kinh tế",
-        "explanation": "\"Economic growth\" có phiên âm /.../ và mang nghĩa là \"Tăng trưởng kinh tế\"."
+        "explanation": "\"Economic growth\" có phiên âm /economic growth/ và mang nghĩa là \"Tăng trưởng kinh tế\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
@@ -1679,13 +1763,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Stock market\" là gì?",
-        "options": "[\"Thị trường chứng khoán\",\"Mức lãi suất ngân hàng\",\"Tài sản có giá trị\",\"Nghĩa vụ nợ nần\"]",
+        "options": "[\"Nghĩa vụ nợ nần\",\"Tài sản có giá trị\",\"Mức lãi suất ngân hàng\",\"Thị trường chứng khoán\"]",
         "correctAnswer": "Thị trường chứng khoán",
-        "explanation": "\"Stock market\" có phiên âm /.../ và mang nghĩa là \"Thị trường chứng khoán\"."
+        "explanation": "\"Stock market\" có phiên âm /stock market/ và mang nghĩa là \"Thị trường chứng khoán\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Financial Markets & Global Economy, we need to practice _____.\"",
-        "options": "[\"Interest\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Interest\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Interest",
         "explanation": "\"Interest\" (Mức lãi suất ngân hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Financial Markets & Global Economy."
       },
@@ -1708,7 +1792,7 @@ module.exports = [
       {
         "word": "Sustainability",
         "meaning": "Tính bền vững dài lâu",
-        "pronunciation": "/.../",
+        "pronunciation": "/sustainability/",
         "partOfSpeech": "noun",
         "example": "I use Sustainability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sustainability trong giao tiếp hàng ngày.",
@@ -1718,7 +1802,7 @@ module.exports = [
       {
         "word": "Corporate responsibility",
         "meaning": "Trách nhiệm doanh nghiệp",
-        "pronunciation": "/.../",
+        "pronunciation": "/corporate responsibility/",
         "partOfSpeech": "noun",
         "example": "I use Corporate responsibility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Corporate responsibility trong giao tiếp hàng ngày.",
@@ -1728,7 +1812,7 @@ module.exports = [
       {
         "word": "Philanthropy",
         "meaning": "Hoạt động từ thiện nhân đạo",
-        "pronunciation": "/.../",
+        "pronunciation": "/philanthropy/",
         "partOfSpeech": "noun",
         "example": "I use Philanthropy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Philanthropy trong giao tiếp hàng ngày.",
@@ -1738,7 +1822,7 @@ module.exports = [
       {
         "word": "Carbon footprint",
         "meaning": "Dấu chân phát thải carbon",
-        "pronunciation": "/.../",
+        "pronunciation": "/carbon footprint/",
         "partOfSpeech": "noun",
         "example": "I use Carbon footprint in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Carbon footprint trong giao tiếp hàng ngày.",
@@ -1748,7 +1832,7 @@ module.exports = [
       {
         "word": "Renewable",
         "meaning": "Năng lượng sạch tái tạo",
-        "pronunciation": "/.../",
+        "pronunciation": "/renewable/",
         "partOfSpeech": "noun",
         "example": "I use Renewable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Renewable trong giao tiếp hàng ngày.",
@@ -1758,7 +1842,7 @@ module.exports = [
       {
         "word": "Governance",
         "meaning": "Năng lực quản trị công ty",
-        "pronunciation": "/.../",
+        "pronunciation": "/governance/",
         "partOfSpeech": "noun",
         "example": "I use Governance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Governance trong giao tiếp hàng ngày.",
@@ -1768,7 +1852,7 @@ module.exports = [
       {
         "word": "Stakeholder",
         "meaning": "Các bên liên quan",
-        "pronunciation": "/.../",
+        "pronunciation": "/stakeholder/",
         "partOfSpeech": "noun",
         "example": "I use Stakeholder in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stakeholder trong giao tiếp hàng ngày.",
@@ -1778,7 +1862,7 @@ module.exports = [
       {
         "word": "Supply chain",
         "meaning": "Chuỗi cung ứng toàn cầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/supply chain/",
         "partOfSpeech": "noun",
         "example": "I use Supply chain in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Supply chain trong giao tiếp hàng ngày.",
@@ -1788,7 +1872,7 @@ module.exports = [
       {
         "word": "Greenwashing",
         "meaning": "Tẩy xanh (giả tạo vì môi trường)",
-        "pronunciation": "/.../",
+        "pronunciation": "/greenwashing/",
         "partOfSpeech": "noun",
         "example": "I use Greenwashing in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Greenwashing trong giao tiếp hàng ngày.",
@@ -1798,7 +1882,7 @@ module.exports = [
       {
         "word": "Impact",
         "meaning": "Tác động tích cực xã hội",
-        "pronunciation": "/.../",
+        "pronunciation": "/impact/",
         "partOfSpeech": "noun",
         "example": "I use Impact in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Impact trong giao tiếp hàng ngày.",
@@ -1808,27 +1892,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Tiêu chuẩn phát triển bền vững ESG",
-        "explanation": "Ngữ pháp nâng cao B2: Corporate Social Responsibility (CSR).",
+        "title": "Tiêu chuẩn phát triển bền vững ESG (Dạng khẳng định)",
         "formula": "Companies are held to higher ethical and environmental standards",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Corporate Social Responsibility (CSR).\",\"vi\":\"Ví dụ đối thoại nâng cao cho Corporate Social Responsibility (CSR).\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Sustainability\\\" trong câu:\",\"options\":[\"Sustainability\",\"Sustainabilitys\",\"Sustainabilitying\",\"Sustainabilityed\"],\"correctAnswer\":\"Sustainability\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sustainability\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Corporate responsibility\\\" trong câu:\",\"options\":[\"Corporate responsibility\",\"Corporate responsibilitys\",\"Corporate responsibilitying\",\"Corporate responsibilityed\"],\"correctAnswer\":\"Corporate responsibility\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Corporate responsibility\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Philanthropy\\\" trong câu:\",\"options\":[\"Philanthropy\",\"Philanthropys\",\"Philanthropying\",\"Philanthropyed\"],\"correctAnswer\":\"Philanthropy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Philanthropy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Carbon footprint\\\" trong câu:\",\"options\":[\"Carbon footprint\",\"Carbon footprints\",\"Carbon footprinting\",\"Carbon footprinted\"],\"correctAnswer\":\"Carbon footprint\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Carbon footprint\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Renewable\\\" trong câu:\",\"options\":[\"Renewable\",\"Renewables\",\"Renewableing\",\"Renewableed\"],\"correctAnswer\":\"Renewable\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Renewable\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Governance\\\" trong câu:\",\"options\":[\"Governance\",\"Governances\",\"Governanceing\",\"Governanceed\"],\"correctAnswer\":\"Governance\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Governance\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Stakeholder\\\" trong câu:\",\"options\":[\"Stakeholder\",\"Stakeholders\",\"Stakeholdering\",\"Stakeholdered\"],\"correctAnswer\":\"Stakeholder\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Stakeholder\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Companies are held to higher ethical and environmental standards): Chọn dạng đúng của \\\"Supply chain\\\" trong câu:\",\"options\":[\"Supply chain\",\"Supply chains\",\"Supply chaining\",\"Supply chained\"],\"correctAnswer\":\"Supply chain\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Supply chain\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Corporate Social Responsibility (CSR). Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Corporate Social Responsibility (CSR)\".",
+        "examples": "[{\"en\":\"I use \\\"Sustainability\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Sustainability\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Corporate responsibility\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Corporate responsibility\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Philanthropy\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Philanthropy\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Corporate Social Responsibility (CSR)",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Corporate Social Responsibility (CSR), hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Sustainability\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Sustainability\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Corporate responsibility\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Corporate responsibility\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Philanthropy\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Philanthropy\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Sustainability\\\" has a specific pronunciation: /sustainability/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Sustainability\\\" có phát âm cụ thể là /sustainability/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Corporate responsibility\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Corporate responsibility\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 7: Corporate Social Responsibility (CSR)",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Corporate Social Responsibility (CSR). In daily life, communication plays a vital role. For instance, words like \"Sustainability\" and \"Corporate responsibility\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Corporate Social Responsibility (CSR). In my daily routine, I frequently use the word \"Sustainability\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Corporate responsibility\" with my classmates. In addition, knowing how to use \"Philanthropy\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Corporate Social Responsibility (CSR)\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Corporate Social Responsibility (CSR)\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Corporate Social Responsibility (CSR)\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Corporate responsibility\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Corporate responsibility\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Corporate responsibility\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Carbon footprint\\\" (Dấu chân phát thải carbon) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Carbon footprint\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Renewable\\\" (Năng lượng sạch tái tạo) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Renewable\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Governance\\\" (Năng lực quản trị công ty) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Governance\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Stakeholder\\\" (Các bên liên quan) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Stakeholder\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Supply chain\\\" (Chuỗi cung ứng toàn cầu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Supply chain\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Corporate responsibility\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Corporate responsibility\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Corporate responsibility' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Corporate Social Responsibility (CSR)",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Corporate Social Responsibility (CSR).",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Corporate Social Responsibility (CSR)?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Corporate Social Responsibility (CSR) chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Sustainability\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Sustainability\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Corporate responsibility\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Corporate responsibility\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 7: Corporate Social Responsibility (CSR)",
+        "passage": "Mastering the theme of \"Corporate Social Responsibility (CSR)\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Sustainability\" (Tính bền vững dài lâu) and \"Corporate responsibility\" (Trách nhiệm doanh nghiệp) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Philanthropy\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Corporate Social Responsibility (CSR)\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Sustainability\" (Tính bền vững dài lâu) và \"Corporate responsibility\" (Trách nhiệm doanh nghiệp) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Philanthropy\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Corporate Social Responsibility (CSR)\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Corporate Social Responsibility (CSR)\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Corporate Social Responsibility (CSR)\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Sustainability\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Corporate Social Responsibility (CSR)\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Corporate Social Responsibility (CSR)\",\"explanation\":\"Đoạn văn khẳng định: \\\"Sustainability\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -1840,7 +1938,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"conversation\",\"I\",\"use\",\"Sustainability\",\"daily\"]",
+        "options": "[\"conversation\",\"Sustainability\",\"in\",\"use\",\"I\",\"daily\"]",
         "correctAnswer": "I use Sustainability in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Sustainability in daily conversation\"."
       },
@@ -1856,7 +1954,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Corporate responsibility\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Corporate responsibility",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Corporate responsibility\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /corporate responsibility/ - \"Corporate responsibility\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -1890,13 +1988,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sustainability\" là gì?",
-        "options": "[\"Tính bền vững dài lâu\",\"Trách nhiệm doanh nghiệp\",\"Hoạt động từ thiện nhân đạo\",\"Dấu chân phát thải carbon\"]",
+        "options": "[\"Dấu chân phát thải carbon\",\"Tính bền vững dài lâu\",\"Hoạt động từ thiện nhân đạo\",\"Trách nhiệm doanh nghiệp\"]",
         "correctAnswer": "Tính bền vững dài lâu",
-        "explanation": "\"Sustainability\" có phiên âm /.../ và mang nghĩa là \"Tính bền vững dài lâu\"."
+        "explanation": "\"Sustainability\" có phiên âm /sustainability/ và mang nghĩa là \"Tính bền vững dài lâu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"Corporate responsibility\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Corporate responsibility\"]",
         "correctAnswer": "Corporate responsibility",
         "explanation": "\"Corporate responsibility\" (Trách nhiệm doanh nghiệp) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -1908,13 +2006,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Carbon footprint\" là gì?",
-        "options": "[\"Dấu chân phát thải carbon\",\"Năng lượng sạch tái tạo\",\"Năng lực quản trị công ty\",\"Các bên liên quan\"]",
+        "options": "[\"Năng lượng sạch tái tạo\",\"Năng lực quản trị công ty\",\"Dấu chân phát thải carbon\",\"Các bên liên quan\"]",
         "correctAnswer": "Dấu chân phát thải carbon",
-        "explanation": "\"Carbon footprint\" có phiên âm /.../ và mang nghĩa là \"Dấu chân phát thải carbon\"."
+        "explanation": "\"Carbon footprint\" có phiên âm /carbon footprint/ và mang nghĩa là \"Dấu chân phát thải carbon\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"Renewable\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Renewable\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Renewable",
         "explanation": "\"Renewable\" (Năng lượng sạch tái tạo) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -1926,13 +2024,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Stakeholder\" là gì?",
-        "options": "[\"Các bên liên quan\",\"Chuỗi cung ứng toàn cầu\",\"Tẩy xanh (giả tạo vì môi trường)\",\"Tác động tích cực xã hội\"]",
+        "options": "[\"Tẩy xanh (giả tạo vì môi trường)\",\"Chuỗi cung ứng toàn cầu\",\"Tác động tích cực xã hội\",\"Các bên liên quan\"]",
         "correctAnswer": "Các bên liên quan",
-        "explanation": "\"Stakeholder\" có phiên âm /.../ và mang nghĩa là \"Các bên liên quan\"."
+        "explanation": "\"Stakeholder\" có phiên âm /stakeholder/ và mang nghĩa là \"Các bên liên quan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"Supply chain\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Supply chain\"]",
         "correctAnswer": "Supply chain",
         "explanation": "\"Supply chain\" (Chuỗi cung ứng toàn cầu) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -1946,11 +2044,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Impact\" là gì?",
         "options": "[\"Tác động tích cực xã hội\",\"Tính bền vững dài lâu\",\"Trách nhiệm doanh nghiệp\",\"Hoạt động từ thiện nhân đạo\"]",
         "correctAnswer": "Tác động tích cực xã hội",
-        "explanation": "\"Impact\" có phiên âm /.../ và mang nghĩa là \"Tác động tích cực xã hội\"."
+        "explanation": "\"Impact\" có phiên âm /impact/ và mang nghĩa là \"Tác động tích cực xã hội\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"Sustainability\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Sustainability\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Sustainability",
         "explanation": "\"Sustainability\" (Tính bền vững dài lâu) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -1962,13 +2060,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Philanthropy\" là gì?",
-        "options": "[\"Hoạt động từ thiện nhân đạo\",\"Dấu chân phát thải carbon\",\"Năng lượng sạch tái tạo\",\"Năng lực quản trị công ty\"]",
+        "options": "[\"Năng lực quản trị công ty\",\"Năng lượng sạch tái tạo\",\"Dấu chân phát thải carbon\",\"Hoạt động từ thiện nhân đạo\"]",
         "correctAnswer": "Hoạt động từ thiện nhân đạo",
-        "explanation": "\"Philanthropy\" có phiên âm /.../ và mang nghĩa là \"Hoạt động từ thiện nhân đạo\"."
+        "explanation": "\"Philanthropy\" có phiên âm /philanthropy/ và mang nghĩa là \"Hoạt động từ thiện nhân đạo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Corporate Social Responsibility (CSR), we need to practice _____.\"",
-        "options": "[\"Carbon footprint\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Carbon footprint\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Carbon footprint",
         "explanation": "\"Carbon footprint\" (Dấu chân phát thải carbon) là từ vựng chính xác trong ngữ cảnh chủ đề Corporate Social Responsibility (CSR)."
       },
@@ -1991,7 +2089,7 @@ module.exports = [
       {
         "word": "Biotechnology",
         "meaning": "Công nghệ sinh học",
-        "pronunciation": "/.../",
+        "pronunciation": "/biotechnology/",
         "partOfSpeech": "noun",
         "example": "I use Biotechnology in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Biotechnology trong giao tiếp hàng ngày.",
@@ -2001,7 +2099,7 @@ module.exports = [
       {
         "word": "Genetics",
         "meaning": "Di truyền học",
-        "pronunciation": "/.../",
+        "pronunciation": "/genetics/",
         "partOfSpeech": "noun",
         "example": "I use Genetics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Genetics trong giao tiếp hàng ngày.",
@@ -2011,7 +2109,7 @@ module.exports = [
       {
         "word": "Breakthrough",
         "meaning": "Đột phá mang tính cách mạng",
-        "pronunciation": "/.../",
+        "pronunciation": "/breakthrough/",
         "partOfSpeech": "noun",
         "example": "I use Breakthrough in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Breakthrough trong giao tiếp hàng ngày.",
@@ -2021,7 +2119,7 @@ module.exports = [
       {
         "word": "Vaccine",
         "meaning": "Vắc-xin phòng bệnh",
-        "pronunciation": "/.../",
+        "pronunciation": "/vaccine/",
         "partOfSpeech": "noun",
         "example": "I use Vaccine in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Vaccine trong giao tiếp hàng ngày.",
@@ -2031,7 +2129,7 @@ module.exports = [
       {
         "word": "Clinical trial",
         "meaning": "Thử nghiệm lâm sàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/clinical trial/",
         "partOfSpeech": "noun",
         "example": "I use Clinical trial in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clinical trial trong giao tiếp hàng ngày.",
@@ -2041,7 +2139,7 @@ module.exports = [
       {
         "word": "Immunity",
         "meaning": "Hệ thống miễn dịch",
-        "pronunciation": "/.../",
+        "pronunciation": "/immunity/",
         "partOfSpeech": "noun",
         "example": "I use Immunity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Immunity trong giao tiếp hàng ngày.",
@@ -2051,7 +2149,7 @@ module.exports = [
       {
         "word": "Therapy",
         "meaning": "Phương pháp trị liệu",
-        "pronunciation": "/.../",
+        "pronunciation": "/therapy/",
         "partOfSpeech": "noun",
         "example": "I use Therapy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Therapy trong giao tiếp hàng ngày.",
@@ -2061,7 +2159,7 @@ module.exports = [
       {
         "word": "Organism",
         "meaning": "Cơ thể sinh vật",
-        "pronunciation": "/.../",
+        "pronunciation": "/organism/",
         "partOfSpeech": "noun",
         "example": "I use Organism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Organism trong giao tiếp hàng ngày.",
@@ -2071,7 +2169,7 @@ module.exports = [
       {
         "word": "Modification",
         "meaning": "Sự biến đổi gen",
-        "pronunciation": "/.../",
+        "pronunciation": "/modification/",
         "partOfSpeech": "noun",
         "example": "I use Modification in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Modification trong giao tiếp hàng ngày.",
@@ -2081,7 +2179,7 @@ module.exports = [
       {
         "word": "Pioneering",
         "meaning": "Mang tính tiên phong",
-        "pronunciation": "/.../",
+        "pronunciation": "/pioneering/",
         "partOfSpeech": "noun",
         "example": "I use Pioneering in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pioneering trong giao tiếp hàng ngày.",
@@ -2091,27 +2189,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Thảo luận về đột phá khoa học công nghệ",
-        "explanation": "Ngữ pháp nâng cao B2: Biotechnology & Scientific Breakthroughs.",
+        "title": "Thảo luận về đột phá khoa học công nghệ (Dạng khẳng định)",
         "formula": "Scientific advances offer remedies for previously incurable diseases",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Biotechnology & Scientific Breakthroughs.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Biotechnology & Scientific Breakthroughs.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Biotechnology\\\" trong câu:\",\"options\":[\"Biotechnology\",\"Biotechnologys\",\"Biotechnologying\",\"Biotechnologyed\"],\"correctAnswer\":\"Biotechnology\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Biotechnology\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Genetics\\\" trong câu:\",\"options\":[\"Genetics\",\"Geneticss\",\"Geneticsing\",\"Geneticsed\"],\"correctAnswer\":\"Genetics\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Genetics\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Breakthrough\\\" trong câu:\",\"options\":[\"Breakthrough\",\"Breakthroughs\",\"Breakthroughing\",\"Breakthroughed\"],\"correctAnswer\":\"Breakthrough\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Breakthrough\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Vaccine\\\" trong câu:\",\"options\":[\"Vaccine\",\"Vaccines\",\"Vaccineing\",\"Vaccineed\"],\"correctAnswer\":\"Vaccine\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Vaccine\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Clinical trial\\\" trong câu:\",\"options\":[\"Clinical trial\",\"Clinical trials\",\"Clinical trialing\",\"Clinical trialed\"],\"correctAnswer\":\"Clinical trial\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Clinical trial\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Immunity\\\" trong câu:\",\"options\":[\"Immunity\",\"Immunitys\",\"Immunitying\",\"Immunityed\"],\"correctAnswer\":\"Immunity\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Immunity\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Therapy\\\" trong câu:\",\"options\":[\"Therapy\",\"Therapys\",\"Therapying\",\"Therapyed\"],\"correctAnswer\":\"Therapy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Therapy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Scientific advances offer remedies for previously incurable diseases): Chọn dạng đúng của \\\"Organism\\\" trong câu:\",\"options\":[\"Organism\",\"Organisms\",\"Organisming\",\"Organismed\"],\"correctAnswer\":\"Organism\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Organism\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Biotechnology & Scientific Breakthroughs. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Biotechnology & Scientific Breakthroughs\".",
+        "examples": "[{\"en\":\"I use \\\"Biotechnology\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Biotechnology\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Genetics\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Genetics\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Breakthrough\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Breakthrough\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Biotechnology & Scientific Breakthroughs",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Biotechnology & Scientific Breakthroughs, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Biotechnology\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Biotechnology\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Genetics\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Genetics\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Breakthrough\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Breakthrough\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Biotechnology\\\" has a specific pronunciation: /biotechnology/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Biotechnology\\\" có phát âm cụ thể là /biotechnology/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Genetics\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Genetics\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 8: Biotechnology & Scientific Breakthroughs",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Biotechnology & Scientific Breakthroughs. In daily life, communication plays a vital role. For instance, words like \"Biotechnology\" and \"Genetics\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Biotechnology & Scientific Breakthroughs. In my daily routine, I frequently use the word \"Biotechnology\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Genetics\" with my classmates. In addition, knowing how to use \"Breakthrough\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Biotechnology & Scientific Breakthroughs\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Biotechnology & Scientific Breakthroughs\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Biotechnology & Scientific Breakthroughs\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Genetics\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Genetics\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Genetics\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Vaccine\\\" (Vắc-xin phòng bệnh) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Vaccine\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Clinical trial\\\" (Thử nghiệm lâm sàng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Clinical trial\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Immunity\\\" (Hệ thống miễn dịch) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Immunity\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Therapy\\\" (Phương pháp trị liệu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Therapy\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Organism\\\" (Cơ thể sinh vật) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Organism\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Genetics\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Genetics\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Genetics' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Biotechnology & Scientific Breakthroughs",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Biotechnology & Scientific Breakthroughs.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Biotechnology & Scientific Breakthroughs?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Biotechnology & Scientific Breakthroughs chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Biotechnology\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Biotechnology\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Genetics\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Genetics\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 8: Biotechnology & Scientific Breakthroughs",
+        "passage": "Mastering the theme of \"Biotechnology & Scientific Breakthroughs\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Biotechnology\" (Công nghệ sinh học) and \"Genetics\" (Di truyền học) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Breakthrough\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Biotechnology & Scientific Breakthroughs\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Biotechnology\" (Công nghệ sinh học) và \"Genetics\" (Di truyền học) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Breakthrough\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Biotechnology & Scientific Breakthroughs\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Biotechnology & Scientific Breakthroughs\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Biotechnology & Scientific Breakthroughs\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Biotechnology\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Biotechnology & Scientific Breakthroughs\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Biotechnology & Scientific Breakthroughs\",\"explanation\":\"Đoạn văn khẳng định: \\\"Biotechnology\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2123,7 +2235,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Biotechnology\",\"daily\",\"in\",\"conversation\"]",
+        "options": "[\"in\",\"use\",\"I\",\"Biotechnology\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Biotechnology in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Biotechnology in daily conversation\"."
       },
@@ -2139,7 +2251,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Genetics\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Genetics",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Genetics\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /genetics/ - \"Genetics\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2173,9 +2285,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Biotechnology\" là gì?",
-        "options": "[\"Công nghệ sinh học\",\"Di truyền học\",\"Đột phá mang tính cách mạng\",\"Vắc-xin phòng bệnh\"]",
+        "options": "[\"Công nghệ sinh học\",\"Vắc-xin phòng bệnh\",\"Di truyền học\",\"Đột phá mang tính cách mạng\"]",
         "correctAnswer": "Công nghệ sinh học",
-        "explanation": "\"Biotechnology\" có phiên âm /.../ và mang nghĩa là \"Công nghệ sinh học\"."
+        "explanation": "\"Biotechnology\" có phiên âm /biotechnology/ và mang nghĩa là \"Công nghệ sinh học\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
@@ -2191,13 +2303,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Vaccine\" là gì?",
-        "options": "[\"Vắc-xin phòng bệnh\",\"Thử nghiệm lâm sàng\",\"Hệ thống miễn dịch\",\"Phương pháp trị liệu\"]",
+        "options": "[\"Vắc-xin phòng bệnh\",\"Phương pháp trị liệu\",\"Thử nghiệm lâm sàng\",\"Hệ thống miễn dịch\"]",
         "correctAnswer": "Vắc-xin phòng bệnh",
-        "explanation": "\"Vaccine\" có phiên âm /.../ và mang nghĩa là \"Vắc-xin phòng bệnh\"."
+        "explanation": "\"Vaccine\" có phiên âm /vaccine/ và mang nghĩa là \"Vắc-xin phòng bệnh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"Clinical trial\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Clinical trial\"]",
         "correctAnswer": "Clinical trial",
         "explanation": "\"Clinical trial\" (Thử nghiệm lâm sàng) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2209,13 +2321,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Therapy\" là gì?",
-        "options": "[\"Phương pháp trị liệu\",\"Cơ thể sinh vật\",\"Sự biến đổi gen\",\"Mang tính tiên phong\"]",
+        "options": "[\"Phương pháp trị liệu\",\"Mang tính tiên phong\",\"Cơ thể sinh vật\",\"Sự biến đổi gen\"]",
         "correctAnswer": "Phương pháp trị liệu",
-        "explanation": "\"Therapy\" có phiên âm /.../ và mang nghĩa là \"Phương pháp trị liệu\"."
+        "explanation": "\"Therapy\" có phiên âm /therapy/ và mang nghĩa là \"Phương pháp trị liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"Organism\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Organism\",\"airplanes\"]",
         "correctAnswer": "Organism",
         "explanation": "\"Organism\" (Cơ thể sinh vật) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2227,13 +2339,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pioneering\" là gì?",
-        "options": "[\"Mang tính tiên phong\",\"Công nghệ sinh học\",\"Di truyền học\",\"Đột phá mang tính cách mạng\"]",
+        "options": "[\"Công nghệ sinh học\",\"Di truyền học\",\"Đột phá mang tính cách mạng\",\"Mang tính tiên phong\"]",
         "correctAnswer": "Mang tính tiên phong",
-        "explanation": "\"Pioneering\" có phiên âm /.../ và mang nghĩa là \"Mang tính tiên phong\"."
+        "explanation": "\"Pioneering\" có phiên âm /pioneering/ và mang nghĩa là \"Mang tính tiên phong\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"Biotechnology\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Biotechnology\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Biotechnology",
         "explanation": "\"Biotechnology\" (Công nghệ sinh học) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2245,13 +2357,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Breakthrough\" là gì?",
-        "options": "[\"Đột phá mang tính cách mạng\",\"Vắc-xin phòng bệnh\",\"Thử nghiệm lâm sàng\",\"Hệ thống miễn dịch\"]",
+        "options": "[\"Vắc-xin phòng bệnh\",\"Thử nghiệm lâm sàng\",\"Hệ thống miễn dịch\",\"Đột phá mang tính cách mạng\"]",
         "correctAnswer": "Đột phá mang tính cách mạng",
-        "explanation": "\"Breakthrough\" có phiên âm /.../ và mang nghĩa là \"Đột phá mang tính cách mạng\"."
+        "explanation": "\"Breakthrough\" có phiên âm /breakthrough/ và mang nghĩa là \"Đột phá mang tính cách mạng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Biotechnology & Scientific Breakthroughs, we need to practice _____.\"",
-        "options": "[\"Vaccine\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Vaccine\"]",
         "correctAnswer": "Vaccine",
         "explanation": "\"Vaccine\" (Vắc-xin phòng bệnh) là từ vựng chính xác trong ngữ cảnh chủ đề Biotechnology & Scientific Breakthroughs."
       },
@@ -2274,7 +2386,7 @@ module.exports = [
       {
         "word": "Urbanization",
         "meaning": "Đô thị hóa",
-        "pronunciation": "/.../",
+        "pronunciation": "/urbanization/",
         "partOfSpeech": "noun",
         "example": "I use Urbanization in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Urbanization trong giao tiếp hàng ngày.",
@@ -2284,7 +2396,7 @@ module.exports = [
       {
         "word": "Infrastructure",
         "meaning": "Cơ sở hạ tầng kỹ thuật",
-        "pronunciation": "/.../",
+        "pronunciation": "/infrastructure/",
         "partOfSpeech": "noun",
         "example": "I use Infrastructure in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Infrastructure trong giao tiếp hàng ngày.",
@@ -2294,7 +2406,7 @@ module.exports = [
       {
         "word": "Smart city",
         "meaning": "Đô thị thông minh",
-        "pronunciation": "/.../",
+        "pronunciation": "/smart city/",
         "partOfSpeech": "noun",
         "example": "I use Smart city in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Smart city trong giao tiếp hàng ngày.",
@@ -2304,7 +2416,7 @@ module.exports = [
       {
         "word": "Congestion",
         "meaning": "Sự ùn tắc quá tải",
-        "pronunciation": "/.../",
+        "pronunciation": "/congestion/",
         "partOfSpeech": "noun",
         "example": "I use Congestion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Congestion trong giao tiếp hàng ngày.",
@@ -2314,7 +2426,7 @@ module.exports = [
       {
         "word": "Public transit",
         "meaning": "Giao thông công cộng",
-        "pronunciation": "/.../",
+        "pronunciation": "/public transit/",
         "partOfSpeech": "noun",
         "example": "I use Public transit in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Public transit trong giao tiếp hàng ngày.",
@@ -2324,7 +2436,7 @@ module.exports = [
       {
         "word": "Housing",
         "meaning": "Nhà ở xã hội",
-        "pronunciation": "/.../",
+        "pronunciation": "/housing/",
         "partOfSpeech": "noun",
         "example": "I use Housing in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Housing trong giao tiếp hàng ngày.",
@@ -2334,7 +2446,7 @@ module.exports = [
       {
         "word": "Density",
         "meaning": "Mật độ dân số",
-        "pronunciation": "/.../",
+        "pronunciation": "/density/",
         "partOfSpeech": "noun",
         "example": "I use Density in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Density trong giao tiếp hàng ngày.",
@@ -2344,7 +2456,7 @@ module.exports = [
       {
         "word": "Architecture",
         "meaning": "Kiến trúc công trình",
-        "pronunciation": "/.../",
+        "pronunciation": "/architecture/",
         "partOfSpeech": "noun",
         "example": "I use Architecture in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Architecture trong giao tiếp hàng ngày.",
@@ -2354,7 +2466,7 @@ module.exports = [
       {
         "word": "Zoning",
         "meaning": "Quy hoạch phân khu",
-        "pronunciation": "/.../",
+        "pronunciation": "/zoning/",
         "partOfSpeech": "noun",
         "example": "I use Zoning in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Zoning trong giao tiếp hàng ngày.",
@@ -2364,7 +2476,7 @@ module.exports = [
       {
         "word": "Metropolis",
         "meaning": "Đại đô thị sầm uất",
-        "pronunciation": "/.../",
+        "pronunciation": "/metropolis/",
         "partOfSpeech": "noun",
         "example": "I use Metropolis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Metropolis trong giao tiếp hàng ngày.",
@@ -2374,27 +2486,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Quy hoạch đô thị và công nghệ tương lai",
-        "explanation": "Ngữ pháp nâng cao B2: Urbanization & Smart Cities.",
+        "title": "Quy hoạch đô thị và công nghệ tương lai (Dạng khẳng định)",
         "formula": "Smart cities leverage IoT infrastructure to optimize urban living",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Urbanization & Smart Cities.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Urbanization & Smart Cities.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Urbanization\\\" trong câu:\",\"options\":[\"Urbanization\",\"Urbanizations\",\"Urbanizationing\",\"Urbanizationed\"],\"correctAnswer\":\"Urbanization\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Urbanization\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Infrastructure\\\" trong câu:\",\"options\":[\"Infrastructure\",\"Infrastructures\",\"Infrastructureing\",\"Infrastructureed\"],\"correctAnswer\":\"Infrastructure\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Infrastructure\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Smart city\\\" trong câu:\",\"options\":[\"Smart city\",\"Smart citys\",\"Smart citying\",\"Smart cityed\"],\"correctAnswer\":\"Smart city\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Smart city\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Congestion\\\" trong câu:\",\"options\":[\"Congestion\",\"Congestions\",\"Congestioning\",\"Congestioned\"],\"correctAnswer\":\"Congestion\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Congestion\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Public transit\\\" trong câu:\",\"options\":[\"Public transit\",\"Public transits\",\"Public transiting\",\"Public transited\"],\"correctAnswer\":\"Public transit\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Public transit\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Housing\\\" trong câu:\",\"options\":[\"Housing\",\"Housings\",\"Housinging\",\"Housinged\"],\"correctAnswer\":\"Housing\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Housing\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Density\\\" trong câu:\",\"options\":[\"Density\",\"Densitys\",\"Densitying\",\"Densityed\"],\"correctAnswer\":\"Density\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Density\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Smart cities leverage IoT infrastructure to optimize urban living): Chọn dạng đúng của \\\"Architecture\\\" trong câu:\",\"options\":[\"Architecture\",\"Architectures\",\"Architectureing\",\"Architectureed\"],\"correctAnswer\":\"Architecture\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Architecture\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Urbanization & Smart Cities. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Urbanization & Smart Cities\".",
+        "examples": "[{\"en\":\"I use \\\"Urbanization\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Urbanization\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Infrastructure\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Infrastructure\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Smart city\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Smart city\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Urbanization & Smart Cities",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Urbanization & Smart Cities, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Urbanization\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Urbanization\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Infrastructure\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Infrastructure\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Smart city\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Smart city\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Urbanization\\\" has a specific pronunciation: /urbanization/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Urbanization\\\" có phát âm cụ thể là /urbanization/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Infrastructure\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Infrastructure\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 9: Urbanization & Smart Cities",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Urbanization & Smart Cities. In daily life, communication plays a vital role. For instance, words like \"Urbanization\" and \"Infrastructure\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Urbanization & Smart Cities. In my daily routine, I frequently use the word \"Urbanization\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Infrastructure\" with my classmates. In addition, knowing how to use \"Smart city\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Urbanization & Smart Cities\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Urbanization & Smart Cities\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Urbanization & Smart Cities\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Infrastructure\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Infrastructure\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Infrastructure\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Congestion\\\" (Sự ùn tắc quá tải) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Congestion\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Public transit\\\" (Giao thông công cộng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Public transit\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Housing\\\" (Nhà ở xã hội) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Housing\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Density\\\" (Mật độ dân số) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Density\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Architecture\\\" (Kiến trúc công trình) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Architecture\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Infrastructure\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Infrastructure\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Infrastructure' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Urbanization & Smart Cities",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Urbanization & Smart Cities.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Urbanization & Smart Cities?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Urbanization & Smart Cities chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Urbanization\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Urbanization\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Infrastructure\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Infrastructure\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 9: Urbanization & Smart Cities",
+        "passage": "Mastering the theme of \"Urbanization & Smart Cities\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Urbanization\" (Đô thị hóa) and \"Infrastructure\" (Cơ sở hạ tầng kỹ thuật) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Smart city\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Urbanization & Smart Cities\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Urbanization\" (Đô thị hóa) và \"Infrastructure\" (Cơ sở hạ tầng kỹ thuật) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Smart city\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Urbanization & Smart Cities\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Urbanization & Smart Cities\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Urbanization & Smart Cities\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Urbanization\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Urbanization & Smart Cities\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Urbanization & Smart Cities\",\"explanation\":\"Đoạn văn khẳng định: \\\"Urbanization\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2406,7 +2532,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"daily\",\"conversation\",\"Urbanization\",\"I\",\"use\"]",
+        "options": "[\"in\",\"I\",\"use\",\"Urbanization\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Urbanization in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Urbanization in daily conversation\"."
       },
@@ -2422,7 +2548,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Infrastructure\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Infrastructure",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Infrastructure\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /infrastructure/ - \"Infrastructure\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2456,13 +2582,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Urbanization\" là gì?",
-        "options": "[\"Đô thị hóa\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị thông minh\",\"Sự ùn tắc quá tải\"]",
+        "options": "[\"Sự ùn tắc quá tải\",\"Đô thị thông minh\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị hóa\"]",
         "correctAnswer": "Đô thị hóa",
-        "explanation": "\"Urbanization\" có phiên âm /.../ và mang nghĩa là \"Đô thị hóa\"."
+        "explanation": "\"Urbanization\" có phiên âm /urbanization/ và mang nghĩa là \"Đô thị hóa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Infrastructure\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Infrastructure\"]",
         "correctAnswer": "Infrastructure",
         "explanation": "\"Infrastructure\" (Cơ sở hạ tầng kỹ thuật) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2474,13 +2600,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Congestion\" là gì?",
-        "options": "[\"Sự ùn tắc quá tải\",\"Giao thông công cộng\",\"Nhà ở xã hội\",\"Mật độ dân số\"]",
+        "options": "[\"Sự ùn tắc quá tải\",\"Nhà ở xã hội\",\"Mật độ dân số\",\"Giao thông công cộng\"]",
         "correctAnswer": "Sự ùn tắc quá tải",
-        "explanation": "\"Congestion\" có phiên âm /.../ và mang nghĩa là \"Sự ùn tắc quá tải\"."
+        "explanation": "\"Congestion\" có phiên âm /congestion/ và mang nghĩa là \"Sự ùn tắc quá tải\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Public transit\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Public transit\"]",
         "correctAnswer": "Public transit",
         "explanation": "\"Public transit\" (Giao thông công cộng) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2492,13 +2618,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Density\" là gì?",
-        "options": "[\"Mật độ dân số\",\"Kiến trúc công trình\",\"Quy hoạch phân khu\",\"Đại đô thị sầm uất\"]",
+        "options": "[\"Mật độ dân số\",\"Kiến trúc công trình\",\"Đại đô thị sầm uất\",\"Quy hoạch phân khu\"]",
         "correctAnswer": "Mật độ dân số",
-        "explanation": "\"Density\" có phiên âm /.../ và mang nghĩa là \"Mật độ dân số\"."
+        "explanation": "\"Density\" có phiên âm /density/ và mang nghĩa là \"Mật độ dân số\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Architecture\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Architecture\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Architecture",
         "explanation": "\"Architecture\" (Kiến trúc công trình) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2510,13 +2636,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Metropolis\" là gì?",
-        "options": "[\"Đại đô thị sầm uất\",\"Đô thị hóa\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị thông minh\"]",
+        "options": "[\"Đô thị thông minh\",\"Cơ sở hạ tầng kỹ thuật\",\"Đô thị hóa\",\"Đại đô thị sầm uất\"]",
         "correctAnswer": "Đại đô thị sầm uất",
-        "explanation": "\"Metropolis\" có phiên âm /.../ và mang nghĩa là \"Đại đô thị sầm uất\"."
+        "explanation": "\"Metropolis\" có phiên âm /metropolis/ và mang nghĩa là \"Đại đô thị sầm uất\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Urbanization\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Urbanization\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Urbanization",
         "explanation": "\"Urbanization\" (Đô thị hóa) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2528,13 +2654,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Smart city\" là gì?",
-        "options": "[\"Đô thị thông minh\",\"Sự ùn tắc quá tải\",\"Giao thông công cộng\",\"Nhà ở xã hội\"]",
+        "options": "[\"Đô thị thông minh\",\"Nhà ở xã hội\",\"Sự ùn tắc quá tải\",\"Giao thông công cộng\"]",
         "correctAnswer": "Đô thị thông minh",
-        "explanation": "\"Smart city\" có phiên âm /.../ và mang nghĩa là \"Đô thị thông minh\"."
+        "explanation": "\"Smart city\" có phiên âm /smart city/ và mang nghĩa là \"Đô thị thông minh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Urbanization & Smart Cities, we need to practice _____.\"",
-        "options": "[\"Congestion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Congestion\"]",
         "correctAnswer": "Congestion",
         "explanation": "\"Congestion\" (Sự ùn tắc quá tải) là từ vựng chính xác trong ngữ cảnh chủ đề Urbanization & Smart Cities."
       },
@@ -2557,7 +2683,7 @@ module.exports = [
       {
         "word": "Cross-cultural",
         "meaning": "Liên văn hóa",
-        "pronunciation": "/.../",
+        "pronunciation": "/cross-cultural/",
         "partOfSpeech": "noun",
         "example": "I use Cross-cultural in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cross-cultural trong giao tiếp hàng ngày.",
@@ -2567,7 +2693,7 @@ module.exports = [
       {
         "word": "Nuance",
         "meaning": "Sắc thái tinh tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/nuance/",
         "partOfSpeech": "noun",
         "example": "I use Nuance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Nuance trong giao tiếp hàng ngày.",
@@ -2577,7 +2703,7 @@ module.exports = [
       {
         "word": "Stereotype",
         "meaning": "Định kiến khuôn mẫu",
-        "pronunciation": "/.../",
+        "pronunciation": "/stereotype/",
         "partOfSpeech": "noun",
         "example": "I use Stereotype in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Stereotype trong giao tiếp hàng ngày.",
@@ -2587,7 +2713,7 @@ module.exports = [
       {
         "word": "Empathy",
         "meaning": "Sự thấu cảm sâu sắc",
-        "pronunciation": "/.../",
+        "pronunciation": "/empathy/",
         "partOfSpeech": "noun",
         "example": "I use Empathy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Empathy trong giao tiếp hàng ngày.",
@@ -2597,7 +2723,7 @@ module.exports = [
       {
         "word": "Norm",
         "meaning": "Chuẩn mực văn hóa",
-        "pronunciation": "/.../",
+        "pronunciation": "/norm/",
         "partOfSpeech": "noun",
         "example": "I use Norm in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Norm trong giao tiếp hàng ngày.",
@@ -2607,7 +2733,7 @@ module.exports = [
       {
         "word": "Taboo",
         "meaning": "Điều cấm kỵ kiêng cữ",
-        "pronunciation": "/.../",
+        "pronunciation": "/taboo/",
         "partOfSpeech": "noun",
         "example": "I use Taboo in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Taboo trong giao tiếp hàng ngày.",
@@ -2617,7 +2743,7 @@ module.exports = [
       {
         "word": "Misunderstanding",
         "meaning": "Sự hiểu lầm đáng tiếc",
-        "pronunciation": "/.../",
+        "pronunciation": "/misunderstanding/",
         "partOfSpeech": "noun",
         "example": "I use Misunderstanding in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Misunderstanding trong giao tiếp hàng ngày.",
@@ -2627,7 +2753,7 @@ module.exports = [
       {
         "word": "Adaptability",
         "meaning": "Khả năng thích ứng",
-        "pronunciation": "/.../",
+        "pronunciation": "/adaptability/",
         "partOfSpeech": "noun",
         "example": "I use Adaptability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Adaptability trong giao tiếp hàng ngày.",
@@ -2637,7 +2763,7 @@ module.exports = [
       {
         "word": "Diversity",
         "meaning": "Tính đa dạng bản sắc",
-        "pronunciation": "/.../",
+        "pronunciation": "/diversity/",
         "partOfSpeech": "noun",
         "example": "I use Diversity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Diversity trong giao tiếp hàng ngày.",
@@ -2647,7 +2773,7 @@ module.exports = [
       {
         "word": "Global mindset",
         "meaning": "Tư duy công dân toàn cầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/global mindset/",
         "partOfSpeech": "noun",
         "example": "I use Global mindset in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Global mindset trong giao tiếp hàng ngày.",
@@ -2657,27 +2783,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Giao tiếp liên văn hóa tinh tế",
-        "explanation": "Ngữ pháp nâng cao B2: Cross-Cultural Communication.",
+        "title": "Giao tiếp liên văn hóa tinh tế (Dạng khẳng định)",
         "formula": "Navigating cultural nuances requires empathy and open-mindedness",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Cross-Cultural Communication.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Cross-Cultural Communication.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Cross-cultural\\\" trong câu:\",\"options\":[\"Cross-cultural\",\"Cross-culturals\",\"Cross-culturaling\",\"Cross-culturaled\"],\"correctAnswer\":\"Cross-cultural\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cross-cultural\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Nuance\\\" trong câu:\",\"options\":[\"Nuance\",\"Nuances\",\"Nuanceing\",\"Nuanceed\"],\"correctAnswer\":\"Nuance\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Nuance\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Stereotype\\\" trong câu:\",\"options\":[\"Stereotype\",\"Stereotypes\",\"Stereotypeing\",\"Stereotypeed\"],\"correctAnswer\":\"Stereotype\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Stereotype\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Empathy\\\" trong câu:\",\"options\":[\"Empathy\",\"Empathys\",\"Empathying\",\"Empathyed\"],\"correctAnswer\":\"Empathy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Empathy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Norm\\\" trong câu:\",\"options\":[\"Norm\",\"Norms\",\"Norming\",\"Normed\"],\"correctAnswer\":\"Norm\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Norm\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Taboo\\\" trong câu:\",\"options\":[\"Taboo\",\"Taboos\",\"Tabooing\",\"Tabooed\"],\"correctAnswer\":\"Taboo\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Taboo\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Misunderstanding\\\" trong câu:\",\"options\":[\"Misunderstanding\",\"Misunderstandings\",\"Misunderstandinging\",\"Misunderstandinged\"],\"correctAnswer\":\"Misunderstanding\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Misunderstanding\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Navigating cultural nuances requires empathy and open-mindedness): Chọn dạng đúng của \\\"Adaptability\\\" trong câu:\",\"options\":[\"Adaptability\",\"Adaptabilitys\",\"Adaptabilitying\",\"Adaptabilityed\"],\"correctAnswer\":\"Adaptability\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Adaptability\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Cross-Cultural Communication. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Cross-Cultural Communication\".",
+        "examples": "[{\"en\":\"I use \\\"Cross-cultural\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Cross-cultural\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Nuance\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Nuance\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Stereotype\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Stereotype\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Cross-Cultural Communication",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Cross-Cultural Communication, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Cross-cultural\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Cross-cultural\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Nuance\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Nuance\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Stereotype\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Stereotype\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Cross-cultural\\\" has a specific pronunciation: /cross-cultural/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Cross-cultural\\\" có phát âm cụ thể là /cross-cultural/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Nuance\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Nuance\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 10: Cross-Cultural Communication",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Cross-Cultural Communication. In daily life, communication plays a vital role. For instance, words like \"Cross-cultural\" and \"Nuance\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Cross-Cultural Communication. In my daily routine, I frequently use the word \"Cross-cultural\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Nuance\" with my classmates. In addition, knowing how to use \"Stereotype\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Cross-Cultural Communication\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Cross-Cultural Communication\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Cross-Cultural Communication\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Nuance\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Nuance\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Nuance\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Empathy\\\" (Sự thấu cảm sâu sắc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Empathy\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Norm\\\" (Chuẩn mực văn hóa) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Norm\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Taboo\\\" (Điều cấm kỵ kiêng cữ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Taboo\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Misunderstanding\\\" (Sự hiểu lầm đáng tiếc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Misunderstanding\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Adaptability\\\" (Khả năng thích ứng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Adaptability\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Nuance\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Nuance\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Nuance' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Cross-Cultural Communication",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Cross-Cultural Communication.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Cross-Cultural Communication?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Cross-Cultural Communication chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Cross-cultural\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Cross-cultural\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Nuance\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Nuance\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 10: Cross-Cultural Communication",
+        "passage": "Mastering the theme of \"Cross-Cultural Communication\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Cross-cultural\" (Liên văn hóa) and \"Nuance\" (Sắc thái tinh tế) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Stereotype\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Cross-Cultural Communication\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Cross-cultural\" (Liên văn hóa) và \"Nuance\" (Sắc thái tinh tế) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Stereotype\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Cross-Cultural Communication\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Cross-Cultural Communication\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Cross-Cultural Communication\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Cross-cultural\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Cross-Cultural Communication\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Cross-Cultural Communication\",\"explanation\":\"Đoạn văn khẳng định: \\\"Cross-cultural\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2689,7 +2829,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"daily\",\"in\",\"use\",\"Cross-cultural\",\"conversation\"]",
+        "options": "[\"conversation\",\"Cross-cultural\",\"in\",\"daily\",\"use\",\"I\"]",
         "correctAnswer": "I use Cross-cultural in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Cross-cultural in daily conversation\"."
       },
@@ -2705,7 +2845,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Nuance\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Nuance",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Nuance\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /nuance/ - \"Nuance\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2741,11 +2881,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cross-cultural\" là gì?",
         "options": "[\"Liên văn hóa\",\"Sắc thái tinh tế\",\"Định kiến khuôn mẫu\",\"Sự thấu cảm sâu sắc\"]",
         "correctAnswer": "Liên văn hóa",
-        "explanation": "\"Cross-cultural\" có phiên âm /.../ và mang nghĩa là \"Liên văn hóa\"."
+        "explanation": "\"Cross-cultural\" có phiên âm /cross-cultural/ và mang nghĩa là \"Liên văn hóa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"Nuance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Nuance\"]",
         "correctAnswer": "Nuance",
         "explanation": "\"Nuance\" (Sắc thái tinh tế) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2757,13 +2897,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Empathy\" là gì?",
-        "options": "[\"Sự thấu cảm sâu sắc\",\"Chuẩn mực văn hóa\",\"Điều cấm kỵ kiêng cữ\",\"Sự hiểu lầm đáng tiếc\"]",
+        "options": "[\"Sự hiểu lầm đáng tiếc\",\"Sự thấu cảm sâu sắc\",\"Chuẩn mực văn hóa\",\"Điều cấm kỵ kiêng cữ\"]",
         "correctAnswer": "Sự thấu cảm sâu sắc",
-        "explanation": "\"Empathy\" có phiên âm /.../ và mang nghĩa là \"Sự thấu cảm sâu sắc\"."
+        "explanation": "\"Empathy\" có phiên âm /empathy/ và mang nghĩa là \"Sự thấu cảm sâu sắc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"Norm\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Norm\"]",
         "correctAnswer": "Norm",
         "explanation": "\"Norm\" (Chuẩn mực văn hóa) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2777,11 +2917,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Misunderstanding\" là gì?",
         "options": "[\"Sự hiểu lầm đáng tiếc\",\"Khả năng thích ứng\",\"Tính đa dạng bản sắc\",\"Tư duy công dân toàn cầu\"]",
         "correctAnswer": "Sự hiểu lầm đáng tiếc",
-        "explanation": "\"Misunderstanding\" có phiên âm /.../ và mang nghĩa là \"Sự hiểu lầm đáng tiếc\"."
+        "explanation": "\"Misunderstanding\" có phiên âm /misunderstanding/ và mang nghĩa là \"Sự hiểu lầm đáng tiếc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"Adaptability\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Adaptability\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Adaptability",
         "explanation": "\"Adaptability\" (Khả năng thích ứng) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2793,13 +2933,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Global mindset\" là gì?",
-        "options": "[\"Tư duy công dân toàn cầu\",\"Liên văn hóa\",\"Sắc thái tinh tế\",\"Định kiến khuôn mẫu\"]",
+        "options": "[\"Định kiến khuôn mẫu\",\"Sắc thái tinh tế\",\"Liên văn hóa\",\"Tư duy công dân toàn cầu\"]",
         "correctAnswer": "Tư duy công dân toàn cầu",
-        "explanation": "\"Global mindset\" có phiên âm /.../ và mang nghĩa là \"Tư duy công dân toàn cầu\"."
+        "explanation": "\"Global mindset\" có phiên âm /global mindset/ và mang nghĩa là \"Tư duy công dân toàn cầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"Cross-cultural\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Cross-cultural\"]",
         "correctAnswer": "Cross-cultural",
         "explanation": "\"Cross-cultural\" (Liên văn hóa) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2813,11 +2953,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Stereotype\" là gì?",
         "options": "[\"Định kiến khuôn mẫu\",\"Sự thấu cảm sâu sắc\",\"Chuẩn mực văn hóa\",\"Điều cấm kỵ kiêng cữ\"]",
         "correctAnswer": "Định kiến khuôn mẫu",
-        "explanation": "\"Stereotype\" có phiên âm /.../ và mang nghĩa là \"Định kiến khuôn mẫu\"."
+        "explanation": "\"Stereotype\" có phiên âm /stereotype/ và mang nghĩa là \"Định kiến khuôn mẫu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Cross-Cultural Communication, we need to practice _____.\"",
-        "options": "[\"Empathy\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Empathy\"]",
         "correctAnswer": "Empathy",
         "explanation": "\"Empathy\" (Sự thấu cảm sâu sắc) là từ vựng chính xác trong ngữ cảnh chủ đề Cross-Cultural Communication."
       },
@@ -2840,7 +2980,7 @@ module.exports = [
       {
         "word": "Regret",
         "meaning": "Sự tiếc nuối muộn màng",
-        "pronunciation": "/.../",
+        "pronunciation": "/regret/",
         "partOfSpeech": "noun",
         "example": "I use Regret in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Regret trong giao tiếp hàng ngày.",
@@ -2850,7 +2990,7 @@ module.exports = [
       {
         "word": "Alternative",
         "meaning": "Phương án thay thế",
-        "pronunciation": "/.../",
+        "pronunciation": "/alternative/",
         "partOfSpeech": "noun",
         "example": "I use Alternative in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Alternative trong giao tiếp hàng ngày.",
@@ -2860,7 +3000,7 @@ module.exports = [
       {
         "word": "Hindrance",
         "meaning": "Sự cản trở",
-        "pronunciation": "/.../",
+        "pronunciation": "/hindrance/",
         "partOfSpeech": "noun",
         "example": "I use Hindrance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hindrance trong giao tiếp hàng ngày.",
@@ -2870,7 +3010,7 @@ module.exports = [
       {
         "word": "Outcome",
         "meaning": "Kết cục đạt được",
-        "pronunciation": "/.../",
+        "pronunciation": "/outcome/",
         "partOfSpeech": "noun",
         "example": "I use Outcome in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Outcome trong giao tiếp hàng ngày.",
@@ -2880,7 +3020,7 @@ module.exports = [
       {
         "word": "Inevitable",
         "meaning": "Điều không thể tránh khỏi",
-        "pronunciation": "/.../",
+        "pronunciation": "/inevitable/",
         "partOfSpeech": "noun",
         "example": "I use Inevitable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Inevitable trong giao tiếp hàng ngày.",
@@ -2890,7 +3030,7 @@ module.exports = [
       {
         "word": "Prevent",
         "meaning": "Ngăn chặn trước",
-        "pronunciation": "/.../",
+        "pronunciation": "/prevent/",
         "partOfSpeech": "noun",
         "example": "I use Prevent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Prevent trong giao tiếp hàng ngày.",
@@ -2900,7 +3040,7 @@ module.exports = [
       {
         "word": "Missed",
         "meaning": "Bỏ lỡ cơ hội",
-        "pronunciation": "/.../",
+        "pronunciation": "/missed/",
         "partOfSpeech": "noun",
         "example": "I use Missed in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Missed trong giao tiếp hàng ngày.",
@@ -2910,7 +3050,7 @@ module.exports = [
       {
         "word": "Suppose",
         "meaning": "Giả sử như vậy",
-        "pronunciation": "/.../",
+        "pronunciation": "/suppose/",
         "partOfSpeech": "noun",
         "example": "I use Suppose in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Suppose trong giao tiếp hàng ngày.",
@@ -2920,7 +3060,7 @@ module.exports = [
       {
         "word": "Circumstance",
         "meaning": "Hoàn cảnh thực tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/circumstance/",
         "partOfSpeech": "noun",
         "example": "I use Circumstance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Circumstance trong giao tiếp hàng ngày.",
@@ -2930,7 +3070,7 @@ module.exports = [
       {
         "word": "Hindsight",
         "meaning": "Sự nhìn lại sau khi đã xảy ra",
-        "pronunciation": "/.../",
+        "pronunciation": "/hindsight/",
         "partOfSpeech": "noun",
         "example": "I use Hindsight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hindsight trong giao tiếp hàng ngày.",
@@ -2940,27 +3080,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc câu điều kiện loại 3",
-        "explanation": "Ngữ pháp nâng cao B2: The Third Conditional: Regrets & Past Hypotheses.",
+        "title": "Cấu trúc câu điều kiện loại 3 (Dạng khẳng định)",
         "formula": "If + S + had + V3/ed, S + would have + V3/ed",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for The Third Conditional: Regrets & Past Hypotheses.\",\"vi\":\"Ví dụ đối thoại nâng cao cho The Third Conditional: Regrets & Past Hypotheses.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Regret\\\" trong câu:\",\"options\":[\"Regret\",\"Regrets\",\"Regreting\",\"Regreted\"],\"correctAnswer\":\"Regret\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Regret\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Alternative\\\" trong câu:\",\"options\":[\"Alternative\",\"Alternatives\",\"Alternativeing\",\"Alternativeed\"],\"correctAnswer\":\"Alternative\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Alternative\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Hindrance\\\" trong câu:\",\"options\":[\"Hindrance\",\"Hindrances\",\"Hindranceing\",\"Hindranceed\"],\"correctAnswer\":\"Hindrance\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hindrance\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Outcome\\\" trong câu:\",\"options\":[\"Outcome\",\"Outcomes\",\"Outcomeing\",\"Outcomeed\"],\"correctAnswer\":\"Outcome\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Outcome\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Inevitable\\\" trong câu:\",\"options\":[\"Inevitable\",\"Inevitables\",\"Inevitableing\",\"Inevitableed\"],\"correctAnswer\":\"Inevitable\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Inevitable\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Prevent\\\" trong câu:\",\"options\":[\"Prevent\",\"Prevents\",\"Preventing\",\"Prevented\"],\"correctAnswer\":\"Prevent\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Prevent\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Missed\\\" trong câu:\",\"options\":[\"Missed\",\"Misseds\",\"Misseding\",\"Misseded\"],\"correctAnswer\":\"Missed\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Missed\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3/ed, S + would have + V3/ed): Chọn dạng đúng của \\\"Suppose\\\" trong câu:\",\"options\":[\"Suppose\",\"Supposes\",\"Supposeing\",\"Supposeed\"],\"correctAnswer\":\"Suppose\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Suppose\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: The Third Conditional: Regrets & Past Hypotheses. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"The Third Conditional: Regrets & Past Hypotheses\".",
+        "examples": "[{\"en\":\"I use \\\"Regret\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Regret\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Alternative\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Alternative\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Hindrance\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Hindrance\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - The Third Conditional: Regrets & Past Hypotheses",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề The Third Conditional: Regrets & Past Hypotheses, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Regret\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Regret\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Alternative\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Alternative\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Hindrance\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Hindrance\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Regret\\\" has a specific pronunciation: /regret/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Regret\\\" có phát âm cụ thể là /regret/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Alternative\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Alternative\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 11: The Third Conditional: Regrets & Past Hypotheses",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of The Third Conditional: Regrets & Past Hypotheses. In daily life, communication plays a vital role. For instance, words like \"Regret\" and \"Alternative\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with The Third Conditional: Regrets & Past Hypotheses. In my daily routine, I frequently use the word \"Regret\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Alternative\" with my classmates. In addition, knowing how to use \"Hindrance\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"The Third Conditional: Regrets & Past Hypotheses\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"The Third Conditional: Regrets & Past Hypotheses\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"The Third Conditional: Regrets & Past Hypotheses\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Alternative\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Alternative\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Alternative\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Outcome\\\" (Kết cục đạt được) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Outcome\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Inevitable\\\" (Điều không thể tránh khỏi) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Inevitable\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Prevent\\\" (Ngăn chặn trước) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Prevent\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Missed\\\" (Bỏ lỡ cơ hội) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Missed\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Suppose\\\" (Giả sử như vậy) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Suppose\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Alternative\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Alternative\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Alternative' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: The Third Conditional: Regrets & Past Hypotheses",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề The Third Conditional: Regrets & Past Hypotheses.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on The Third Conditional: Regrets & Past Hypotheses?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về The Third Conditional: Regrets & Past Hypotheses chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Regret\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Regret\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Alternative\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Alternative\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 11: The Third Conditional: Regrets & Past Hypotheses",
+        "passage": "Mastering the theme of \"The Third Conditional: Regrets & Past Hypotheses\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Regret\" (Sự tiếc nuối muộn màng) and \"Alternative\" (Phương án thay thế) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Hindrance\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"The Third Conditional: Regrets & Past Hypotheses\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Regret\" (Sự tiếc nuối muộn màng) và \"Alternative\" (Phương án thay thế) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Hindrance\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"The Third Conditional: Regrets & Past Hypotheses\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Regret\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề The Third Conditional: Regrets & Past Hypotheses\",\"explanation\":\"Đoạn văn khẳng định: \\\"Regret\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2972,7 +3126,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"I\",\"conversation\",\"daily\",\"Regret\",\"in\"]",
+        "options": "[\"Regret\",\"conversation\",\"use\",\"I\",\"in\",\"daily\"]",
         "correctAnswer": "I use Regret in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Regret in daily conversation\"."
       },
@@ -2988,7 +3142,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Alternative\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Alternative",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Alternative\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /alternative/ - \"Alternative\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3022,13 +3176,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Regret\" là gì?",
-        "options": "[\"Sự tiếc nuối muộn màng\",\"Phương án thay thế\",\"Sự cản trở\",\"Kết cục đạt được\"]",
+        "options": "[\"Sự tiếc nuối muộn màng\",\"Kết cục đạt được\",\"Sự cản trở\",\"Phương án thay thế\"]",
         "correctAnswer": "Sự tiếc nuối muộn màng",
-        "explanation": "\"Regret\" có phiên âm /.../ và mang nghĩa là \"Sự tiếc nuối muộn màng\"."
+        "explanation": "\"Regret\" có phiên âm /regret/ và mang nghĩa là \"Sự tiếc nuối muộn màng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"Alternative\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Alternative\"]",
         "correctAnswer": "Alternative",
         "explanation": "\"Alternative\" (Phương án thay thế) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3042,11 +3196,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Outcome\" là gì?",
         "options": "[\"Kết cục đạt được\",\"Điều không thể tránh khỏi\",\"Ngăn chặn trước\",\"Bỏ lỡ cơ hội\"]",
         "correctAnswer": "Kết cục đạt được",
-        "explanation": "\"Outcome\" có phiên âm /.../ và mang nghĩa là \"Kết cục đạt được\"."
+        "explanation": "\"Outcome\" có phiên âm /outcome/ và mang nghĩa là \"Kết cục đạt được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"Inevitable\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"Inevitable\",\"bananas\"]",
         "correctAnswer": "Inevitable",
         "explanation": "\"Inevitable\" (Điều không thể tránh khỏi) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3058,13 +3212,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Missed\" là gì?",
-        "options": "[\"Bỏ lỡ cơ hội\",\"Giả sử như vậy\",\"Hoàn cảnh thực tế\",\"Sự nhìn lại sau khi đã xảy ra\"]",
+        "options": "[\"Sự nhìn lại sau khi đã xảy ra\",\"Hoàn cảnh thực tế\",\"Giả sử như vậy\",\"Bỏ lỡ cơ hội\"]",
         "correctAnswer": "Bỏ lỡ cơ hội",
-        "explanation": "\"Missed\" có phiên âm /.../ và mang nghĩa là \"Bỏ lỡ cơ hội\"."
+        "explanation": "\"Missed\" có phiên âm /missed/ và mang nghĩa là \"Bỏ lỡ cơ hội\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"Suppose\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Suppose\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Suppose",
         "explanation": "\"Suppose\" (Giả sử như vậy) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3078,11 +3232,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hindsight\" là gì?",
         "options": "[\"Sự nhìn lại sau khi đã xảy ra\",\"Sự tiếc nuối muộn màng\",\"Phương án thay thế\",\"Sự cản trở\"]",
         "correctAnswer": "Sự nhìn lại sau khi đã xảy ra",
-        "explanation": "\"Hindsight\" có phiên âm /.../ và mang nghĩa là \"Sự nhìn lại sau khi đã xảy ra\"."
+        "explanation": "\"Hindsight\" có phiên âm /hindsight/ và mang nghĩa là \"Sự nhìn lại sau khi đã xảy ra\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"Regret\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Regret\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Regret",
         "explanation": "\"Regret\" (Sự tiếc nuối muộn màng) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3094,13 +3248,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hindrance\" là gì?",
-        "options": "[\"Sự cản trở\",\"Kết cục đạt được\",\"Điều không thể tránh khỏi\",\"Ngăn chặn trước\"]",
+        "options": "[\"Điều không thể tránh khỏi\",\"Sự cản trở\",\"Ngăn chặn trước\",\"Kết cục đạt được\"]",
         "correctAnswer": "Sự cản trở",
-        "explanation": "\"Hindrance\" có phiên âm /.../ và mang nghĩa là \"Sự cản trở\"."
+        "explanation": "\"Hindrance\" có phiên âm /hindrance/ và mang nghĩa là \"Sự cản trở\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Third Conditional: Regrets & Past Hypotheses, we need to practice _____.\"",
-        "options": "[\"Outcome\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Outcome\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Outcome",
         "explanation": "\"Outcome\" (Kết cục đạt được) là từ vựng chính xác trong ngữ cảnh chủ đề The Third Conditional: Regrets & Past Hypotheses."
       },
@@ -3123,7 +3277,7 @@ module.exports = [
       {
         "word": "Hypothetical",
         "meaning": "Mang tính giả định",
-        "pronunciation": "/.../",
+        "pronunciation": "/hypothetical/",
         "partOfSpeech": "noun",
         "example": "I use Hypothetical in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hypothetical trong giao tiếp hàng ngày.",
@@ -3133,7 +3287,7 @@ module.exports = [
       {
         "word": "Present state",
         "meaning": "Trạng thái hiện tại",
-        "pronunciation": "/.../",
+        "pronunciation": "/present state/",
         "partOfSpeech": "noun",
         "example": "I use Present state in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Present state trong giao tiếp hàng ngày.",
@@ -3143,7 +3297,7 @@ module.exports = [
       {
         "word": "Past event",
         "meaning": "Biến cố trong quá khứ",
-        "pronunciation": "/.../",
+        "pronunciation": "/past event/",
         "partOfSpeech": "noun",
         "example": "I use Past event in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Past event trong giao tiếp hàng ngày.",
@@ -3153,7 +3307,7 @@ module.exports = [
       {
         "word": "Consequence",
         "meaning": "Hệ quả kéo dài đến nay",
-        "pronunciation": "/.../",
+        "pronunciation": "/consequence/",
         "partOfSpeech": "noun",
         "example": "I use Consequence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consequence trong giao tiếp hàng ngày.",
@@ -3163,7 +3317,7 @@ module.exports = [
       {
         "word": "Crucial",
         "meaning": "Có tính chất then chốt",
-        "pronunciation": "/.../",
+        "pronunciation": "/crucial/",
         "partOfSpeech": "noun",
         "example": "I use Crucial in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Crucial trong giao tiếp hàng ngày.",
@@ -3173,7 +3327,7 @@ module.exports = [
       {
         "word": "Decision",
         "meaning": "Quyết định định mệnh",
-        "pronunciation": "/.../",
+        "pronunciation": "/decision/",
         "partOfSpeech": "noun",
         "example": "I use Decision in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Decision trong giao tiếp hàng ngày.",
@@ -3183,7 +3337,7 @@ module.exports = [
       {
         "word": "Influence",
         "meaning": "Ảnh hưởng to lớn",
-        "pronunciation": "/.../",
+        "pronunciation": "/influence/",
         "partOfSpeech": "noun",
         "example": "I use Influence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Influence trong giao tiếp hàng ngày.",
@@ -3193,7 +3347,7 @@ module.exports = [
       {
         "word": "Otherwise",
         "meaning": "Nếu không thì",
-        "pronunciation": "/.../",
+        "pronunciation": "/otherwise/",
         "partOfSpeech": "noun",
         "example": "I use Otherwise in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Otherwise trong giao tiếp hàng ngày.",
@@ -3203,7 +3357,7 @@ module.exports = [
       {
         "word": "Provided that",
         "meaning": "Miễn là điều kiện",
-        "pronunciation": "/.../",
+        "pronunciation": "/provided that/",
         "partOfSpeech": "noun",
         "example": "I use Provided that in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Provided that trong giao tiếp hàng ngày.",
@@ -3213,7 +3367,7 @@ module.exports = [
       {
         "word": "Assuming",
         "meaning": "Giả định rằng",
-        "pronunciation": "/.../",
+        "pronunciation": "/assuming/",
         "partOfSpeech": "noun",
         "example": "I use Assuming in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Assuming trong giao tiếp hàng ngày.",
@@ -3223,27 +3377,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Câu điều kiện hỗn hợp Past-Present",
-        "explanation": "Ngữ pháp nâng cao B2: Mixed Conditionals in Complex Contexts.",
+        "title": "Câu điều kiện hỗn hợp Past-Present (Dạng khẳng định)",
         "formula": "If + S + had + V3 (past), S + would + V-inf (now)",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Mixed Conditionals in Complex Contexts.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Mixed Conditionals in Complex Contexts.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Hypothetical\\\" trong câu:\",\"options\":[\"Hypothetical\",\"Hypotheticals\",\"Hypotheticaling\",\"Hypotheticaled\"],\"correctAnswer\":\"Hypothetical\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hypothetical\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Present state\\\" trong câu:\",\"options\":[\"Present state\",\"Present states\",\"Present stateing\",\"Present stateed\"],\"correctAnswer\":\"Present state\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Present state\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Past event\\\" trong câu:\",\"options\":[\"Past event\",\"Past events\",\"Past eventing\",\"Past evented\"],\"correctAnswer\":\"Past event\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Past event\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Consequence\\\" trong câu:\",\"options\":[\"Consequence\",\"Consequences\",\"Consequenceing\",\"Consequenceed\"],\"correctAnswer\":\"Consequence\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Consequence\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Crucial\\\" trong câu:\",\"options\":[\"Crucial\",\"Crucials\",\"Crucialing\",\"Crucialed\"],\"correctAnswer\":\"Crucial\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Crucial\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Decision\\\" trong câu:\",\"options\":[\"Decision\",\"Decisions\",\"Decisioning\",\"Decisioned\"],\"correctAnswer\":\"Decision\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Decision\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Influence\\\" trong câu:\",\"options\":[\"Influence\",\"Influences\",\"Influenceing\",\"Influenceed\"],\"correctAnswer\":\"Influence\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Influence\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (If + S + had + V3 (past), S + would + V-inf (now)): Chọn dạng đúng của \\\"Otherwise\\\" trong câu:\",\"options\":[\"Otherwise\",\"Otherwises\",\"Otherwiseing\",\"Otherwiseed\"],\"correctAnswer\":\"Otherwise\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Otherwise\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Mixed Conditionals in Complex Contexts. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Mixed Conditionals in Complex Contexts\".",
+        "examples": "[{\"en\":\"I use \\\"Hypothetical\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Hypothetical\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Present state\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Present state\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Past event\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Past event\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Mixed Conditionals in Complex Contexts",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Mixed Conditionals in Complex Contexts, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Hypothetical\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Hypothetical\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Present state\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Present state\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Past event\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Past event\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Hypothetical\\\" has a specific pronunciation: /hypothetical/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Hypothetical\\\" có phát âm cụ thể là /hypothetical/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Present state\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Present state\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 12: Mixed Conditionals in Complex Contexts",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Mixed Conditionals in Complex Contexts. In daily life, communication plays a vital role. For instance, words like \"Hypothetical\" and \"Present state\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Mixed Conditionals in Complex Contexts. In my daily routine, I frequently use the word \"Hypothetical\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Present state\" with my classmates. In addition, knowing how to use \"Past event\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Mixed Conditionals in Complex Contexts\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Mixed Conditionals in Complex Contexts\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Mixed Conditionals in Complex Contexts\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Present state\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Present state\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Present state\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Consequence\\\" (Hệ quả kéo dài đến nay) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Consequence\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Crucial\\\" (Có tính chất then chốt) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Crucial\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Decision\\\" (Quyết định định mệnh) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Decision\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Influence\\\" (Ảnh hưởng to lớn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Influence\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Otherwise\\\" (Nếu không thì) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Otherwise\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Present state\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Present state\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Present state' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Mixed Conditionals in Complex Contexts",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Mixed Conditionals in Complex Contexts.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Mixed Conditionals in Complex Contexts?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Mixed Conditionals in Complex Contexts chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Hypothetical\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Hypothetical\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Present state\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Present state\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 12: Mixed Conditionals in Complex Contexts",
+        "passage": "Mastering the theme of \"Mixed Conditionals in Complex Contexts\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Hypothetical\" (Mang tính giả định) and \"Present state\" (Trạng thái hiện tại) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Past event\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Mixed Conditionals in Complex Contexts\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Hypothetical\" (Mang tính giả định) và \"Present state\" (Trạng thái hiện tại) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Past event\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Mixed Conditionals in Complex Contexts\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Mixed Conditionals in Complex Contexts\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Mixed Conditionals in Complex Contexts\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Hypothetical\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Mixed Conditionals in Complex Contexts\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Mixed Conditionals in Complex Contexts\",\"explanation\":\"Đoạn văn khẳng định: \\\"Hypothetical\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3255,7 +3423,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Hypothetical\",\"I\",\"use\",\"daily\",\"in\",\"conversation\"]",
+        "options": "[\"I\",\"use\",\"Hypothetical\",\"daily\",\"in\",\"conversation\"]",
         "correctAnswer": "I use Hypothetical in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Hypothetical in daily conversation\"."
       },
@@ -3271,7 +3439,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Present state\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Present state",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Present state\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /present state/ - \"Present state\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3305,13 +3473,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hypothetical\" là gì?",
-        "options": "[\"Mang tính giả định\",\"Trạng thái hiện tại\",\"Biến cố trong quá khứ\",\"Hệ quả kéo dài đến nay\"]",
+        "options": "[\"Hệ quả kéo dài đến nay\",\"Trạng thái hiện tại\",\"Mang tính giả định\",\"Biến cố trong quá khứ\"]",
         "correctAnswer": "Mang tính giả định",
-        "explanation": "\"Hypothetical\" có phiên âm /.../ và mang nghĩa là \"Mang tính giả định\"."
+        "explanation": "\"Hypothetical\" có phiên âm /hypothetical/ và mang nghĩa là \"Mang tính giả định\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
-        "options": "[\"Present state\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Present state\"]",
         "correctAnswer": "Present state",
         "explanation": "\"Present state\" (Trạng thái hiện tại) là từ vựng chính xác trong ngữ cảnh chủ đề Mixed Conditionals in Complex Contexts."
       },
@@ -3323,13 +3491,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consequence\" là gì?",
-        "options": "[\"Hệ quả kéo dài đến nay\",\"Có tính chất then chốt\",\"Quyết định định mệnh\",\"Ảnh hưởng to lớn\"]",
+        "options": "[\"Hệ quả kéo dài đến nay\",\"Có tính chất then chốt\",\"Ảnh hưởng to lớn\",\"Quyết định định mệnh\"]",
         "correctAnswer": "Hệ quả kéo dài đến nay",
-        "explanation": "\"Consequence\" có phiên âm /.../ và mang nghĩa là \"Hệ quả kéo dài đến nay\"."
+        "explanation": "\"Consequence\" có phiên âm /consequence/ và mang nghĩa là \"Hệ quả kéo dài đến nay\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
-        "options": "[\"Crucial\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Crucial\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Crucial",
         "explanation": "\"Crucial\" (Có tính chất then chốt) là từ vựng chính xác trong ngữ cảnh chủ đề Mixed Conditionals in Complex Contexts."
       },
@@ -3341,13 +3509,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Influence\" là gì?",
-        "options": "[\"Ảnh hưởng to lớn\",\"Nếu không thì\",\"Miễn là điều kiện\",\"Giả định rằng\"]",
+        "options": "[\"Miễn là điều kiện\",\"Giả định rằng\",\"Nếu không thì\",\"Ảnh hưởng to lớn\"]",
         "correctAnswer": "Ảnh hưởng to lớn",
-        "explanation": "\"Influence\" có phiên âm /.../ và mang nghĩa là \"Ảnh hưởng to lớn\"."
+        "explanation": "\"Influence\" có phiên âm /influence/ và mang nghĩa là \"Ảnh hưởng to lớn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
-        "options": "[\"Otherwise\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Otherwise\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Otherwise",
         "explanation": "\"Otherwise\" (Nếu không thì) là từ vựng chính xác trong ngữ cảnh chủ đề Mixed Conditionals in Complex Contexts."
       },
@@ -3359,9 +3527,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Assuming\" là gì?",
-        "options": "[\"Giả định rằng\",\"Mang tính giả định\",\"Trạng thái hiện tại\",\"Biến cố trong quá khứ\"]",
+        "options": "[\"Biến cố trong quá khứ\",\"Trạng thái hiện tại\",\"Mang tính giả định\",\"Giả định rằng\"]",
         "correctAnswer": "Giả định rằng",
-        "explanation": "\"Assuming\" có phiên âm /.../ và mang nghĩa là \"Giả định rằng\"."
+        "explanation": "\"Assuming\" có phiên âm /assuming/ và mang nghĩa là \"Giả định rằng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
@@ -3377,9 +3545,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Past event\" là gì?",
-        "options": "[\"Biến cố trong quá khứ\",\"Hệ quả kéo dài đến nay\",\"Có tính chất then chốt\",\"Quyết định định mệnh\"]",
+        "options": "[\"Biến cố trong quá khứ\",\"Quyết định định mệnh\",\"Hệ quả kéo dài đến nay\",\"Có tính chất then chốt\"]",
         "correctAnswer": "Biến cố trong quá khứ",
-        "explanation": "\"Past event\" có phiên âm /.../ và mang nghĩa là \"Biến cố trong quá khứ\"."
+        "explanation": "\"Past event\" có phiên âm /past event/ và mang nghĩa là \"Biến cố trong quá khứ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Mixed Conditionals in Complex Contexts, we need to practice _____.\"",
@@ -3406,7 +3574,7 @@ module.exports = [
       {
         "word": "Whom",
         "meaning": "Đại từ quan hệ chỉ người (tân ngữ)",
-        "pronunciation": "/.../",
+        "pronunciation": "/whom/",
         "partOfSpeech": "noun",
         "example": "I use Whom in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Whom trong giao tiếp hàng ngày.",
@@ -3416,7 +3584,7 @@ module.exports = [
       {
         "word": "Whose",
         "meaning": "Đại từ quan hệ sở hữu",
-        "pronunciation": "/.../",
+        "pronunciation": "/whose/",
         "partOfSpeech": "noun",
         "example": "I use Whose in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Whose trong giao tiếp hàng ngày.",
@@ -3426,7 +3594,7 @@ module.exports = [
       {
         "word": "Whereby",
         "meaning": "Nhờ đó mà",
-        "pronunciation": "/.../",
+        "pronunciation": "/whereby/",
         "partOfSpeech": "noun",
         "example": "I use Whereby in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Whereby trong giao tiếp hàng ngày.",
@@ -3436,7 +3604,7 @@ module.exports = [
       {
         "word": "Wherein",
         "meaning": "Trong đó",
-        "pronunciation": "/.../",
+        "pronunciation": "/wherein/",
         "partOfSpeech": "noun",
         "example": "I use Wherein in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wherein trong giao tiếp hàng ngày.",
@@ -3446,7 +3614,7 @@ module.exports = [
       {
         "word": "Clause",
         "meaning": "Mệnh đề ngữ pháp",
-        "pronunciation": "/.../",
+        "pronunciation": "/clause/",
         "partOfSpeech": "noun",
         "example": "I use Clause in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clause trong giao tiếp hàng ngày.",
@@ -3456,7 +3624,7 @@ module.exports = [
       {
         "word": "Relative",
         "meaning": "Có tính chất liên hệ",
-        "pronunciation": "/.../",
+        "pronunciation": "/relative/",
         "partOfSpeech": "noun",
         "example": "I use Relative in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Relative trong giao tiếp hàng ngày.",
@@ -3466,7 +3634,7 @@ module.exports = [
       {
         "word": "Omission",
         "meaning": "Sự lược bỏ đại từ",
-        "pronunciation": "/.../",
+        "pronunciation": "/omission/",
         "partOfSpeech": "noun",
         "example": "I use Omission in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Omission trong giao tiếp hàng ngày.",
@@ -3476,7 +3644,7 @@ module.exports = [
       {
         "word": "Reduced",
         "meaning": "Dạng mệnh đề rút gọn",
-        "pronunciation": "/.../",
+        "pronunciation": "/reduced/",
         "partOfSpeech": "noun",
         "example": "I use Reduced in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Reduced trong giao tiếp hàng ngày.",
@@ -3486,7 +3654,7 @@ module.exports = [
       {
         "word": "Participial",
         "meaning": "Phân từ hiện tại / quá khứ",
-        "pronunciation": "/.../",
+        "pronunciation": "/participial/",
         "partOfSpeech": "noun",
         "example": "I use Participial in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Participial trong giao tiếp hàng ngày.",
@@ -3496,7 +3664,7 @@ module.exports = [
       {
         "word": "Clarification",
         "meaning": "Sự bổ nghĩa làm rõ",
-        "pronunciation": "/.../",
+        "pronunciation": "/clarification/",
         "partOfSpeech": "noun",
         "example": "I use Clarification in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clarification trong giao tiếp hàng ngày.",
@@ -3506,27 +3674,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Mệnh đề quan hệ trang trọng với Preposition + Relative Pronoun",
-        "explanation": "Ngữ pháp nâng cao B2: Advanced Relative Clauses.",
+        "title": "Mệnh đề quan hệ trang trọng với Preposition + Relative Pronoun (Dạng khẳng định)",
         "formula": "The project in which we invested yielded strong returns",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Advanced Relative Clauses.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Advanced Relative Clauses.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Whom\\\" trong câu:\",\"options\":[\"Whom\",\"Whoms\",\"Whoming\",\"Whomed\"],\"correctAnswer\":\"Whom\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Whom\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Whose\\\" trong câu:\",\"options\":[\"Whose\",\"Whoses\",\"Whoseing\",\"Whoseed\"],\"correctAnswer\":\"Whose\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Whose\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Whereby\\\" trong câu:\",\"options\":[\"Whereby\",\"Wherebys\",\"Wherebying\",\"Wherebyed\"],\"correctAnswer\":\"Whereby\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Whereby\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Wherein\\\" trong câu:\",\"options\":[\"Wherein\",\"Whereins\",\"Whereining\",\"Whereined\"],\"correctAnswer\":\"Wherein\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Wherein\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Clause\\\" trong câu:\",\"options\":[\"Clause\",\"Clauses\",\"Clauseing\",\"Clauseed\"],\"correctAnswer\":\"Clause\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Clause\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Relative\\\" trong câu:\",\"options\":[\"Relative\",\"Relatives\",\"Relativeing\",\"Relativeed\"],\"correctAnswer\":\"Relative\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Relative\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Omission\\\" trong câu:\",\"options\":[\"Omission\",\"Omissions\",\"Omissioning\",\"Omissioned\"],\"correctAnswer\":\"Omission\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Omission\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (The project in which we invested yielded strong returns): Chọn dạng đúng của \\\"Reduced\\\" trong câu:\",\"options\":[\"Reduced\",\"Reduceds\",\"Reduceding\",\"Reduceded\"],\"correctAnswer\":\"Reduced\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Reduced\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Advanced Relative Clauses. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Advanced Relative Clauses\".",
+        "examples": "[{\"en\":\"I use \\\"Whom\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Whom\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Whose\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Whose\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Whereby\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Whereby\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Advanced Relative Clauses",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Advanced Relative Clauses, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Whom\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Whom\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Whose\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Whose\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Whereby\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Whereby\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Whom\\\" has a specific pronunciation: /whom/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Whom\\\" có phát âm cụ thể là /whom/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Whose\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Whose\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 13: Advanced Relative Clauses",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Advanced Relative Clauses. In daily life, communication plays a vital role. For instance, words like \"Whom\" and \"Whose\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Advanced Relative Clauses. In my daily routine, I frequently use the word \"Whom\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Whose\" with my classmates. In addition, knowing how to use \"Whereby\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Advanced Relative Clauses\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Advanced Relative Clauses\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Advanced Relative Clauses\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Whose\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Whose\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Whose\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Wherein\\\" (Trong đó) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Wherein\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Clause\\\" (Mệnh đề ngữ pháp) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Clause\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Relative\\\" (Có tính chất liên hệ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Relative\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Omission\\\" (Sự lược bỏ đại từ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Omission\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Reduced\\\" (Dạng mệnh đề rút gọn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Reduced\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Whose\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Whose\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Whose' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Advanced Relative Clauses",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Advanced Relative Clauses.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Advanced Relative Clauses?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Advanced Relative Clauses chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Whom\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Whom\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Whose\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Whose\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 13: Advanced Relative Clauses",
+        "passage": "Mastering the theme of \"Advanced Relative Clauses\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Whom\" (Đại từ quan hệ chỉ người (tân ngữ)) and \"Whose\" (Đại từ quan hệ sở hữu) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Whereby\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Advanced Relative Clauses\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Whom\" (Đại từ quan hệ chỉ người (tân ngữ)) và \"Whose\" (Đại từ quan hệ sở hữu) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Whereby\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Advanced Relative Clauses\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Advanced Relative Clauses\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Advanced Relative Clauses\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Whom\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Advanced Relative Clauses\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Advanced Relative Clauses\",\"explanation\":\"Đoạn văn khẳng định: \\\"Whom\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3538,7 +3720,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"conversation\",\"Whom\",\"use\",\"I\",\"daily\"]",
+        "options": "[\"in\",\"I\",\"conversation\",\"daily\",\"use\",\"Whom\"]",
         "correctAnswer": "I use Whom in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Whom in daily conversation\"."
       },
@@ -3554,7 +3736,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Whose\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Whose",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Whose\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /whose/ - \"Whose\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3588,9 +3770,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Whom\" là gì?",
-        "options": "[\"Đại từ quan hệ chỉ người (tân ngữ)\",\"Đại từ quan hệ sở hữu\",\"Nhờ đó mà\",\"Trong đó\"]",
+        "options": "[\"Trong đó\",\"Nhờ đó mà\",\"Đại từ quan hệ sở hữu\",\"Đại từ quan hệ chỉ người (tân ngữ)\"]",
         "correctAnswer": "Đại từ quan hệ chỉ người (tân ngữ)",
-        "explanation": "\"Whom\" có phiên âm /.../ và mang nghĩa là \"Đại từ quan hệ chỉ người (tân ngữ)\"."
+        "explanation": "\"Whom\" có phiên âm /whom/ và mang nghĩa là \"Đại từ quan hệ chỉ người (tân ngữ)\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
@@ -3608,11 +3790,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Wherein\" là gì?",
         "options": "[\"Trong đó\",\"Mệnh đề ngữ pháp\",\"Có tính chất liên hệ\",\"Sự lược bỏ đại từ\"]",
         "correctAnswer": "Trong đó",
-        "explanation": "\"Wherein\" có phiên âm /.../ và mang nghĩa là \"Trong đó\"."
+        "explanation": "\"Wherein\" có phiên âm /wherein/ và mang nghĩa là \"Trong đó\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"Clause\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Clause\"]",
         "correctAnswer": "Clause",
         "explanation": "\"Clause\" (Mệnh đề ngữ pháp) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -3626,11 +3808,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Omission\" là gì?",
         "options": "[\"Sự lược bỏ đại từ\",\"Dạng mệnh đề rút gọn\",\"Phân từ hiện tại / quá khứ\",\"Sự bổ nghĩa làm rõ\"]",
         "correctAnswer": "Sự lược bỏ đại từ",
-        "explanation": "\"Omission\" có phiên âm /.../ và mang nghĩa là \"Sự lược bỏ đại từ\"."
+        "explanation": "\"Omission\" có phiên âm /omission/ và mang nghĩa là \"Sự lược bỏ đại từ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"Reduced\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Reduced\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Reduced",
         "explanation": "\"Reduced\" (Dạng mệnh đề rút gọn) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -3642,13 +3824,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Clarification\" là gì?",
-        "options": "[\"Sự bổ nghĩa làm rõ\",\"Đại từ quan hệ chỉ người (tân ngữ)\",\"Đại từ quan hệ sở hữu\",\"Nhờ đó mà\"]",
+        "options": "[\"Đại từ quan hệ sở hữu\",\"Đại từ quan hệ chỉ người (tân ngữ)\",\"Nhờ đó mà\",\"Sự bổ nghĩa làm rõ\"]",
         "correctAnswer": "Sự bổ nghĩa làm rõ",
-        "explanation": "\"Clarification\" có phiên âm /.../ và mang nghĩa là \"Sự bổ nghĩa làm rõ\"."
+        "explanation": "\"Clarification\" có phiên âm /clarification/ và mang nghĩa là \"Sự bổ nghĩa làm rõ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
-        "options": "[\"Whom\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Whom\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Whom",
         "explanation": "\"Whom\" (Đại từ quan hệ chỉ người (tân ngữ)) là từ vựng chính xác trong ngữ cảnh chủ đề Advanced Relative Clauses."
       },
@@ -3662,7 +3844,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Whereby\" là gì?",
         "options": "[\"Nhờ đó mà\",\"Trong đó\",\"Mệnh đề ngữ pháp\",\"Có tính chất liên hệ\"]",
         "correctAnswer": "Nhờ đó mà",
-        "explanation": "\"Whereby\" có phiên âm /.../ và mang nghĩa là \"Nhờ đó mà\"."
+        "explanation": "\"Whereby\" có phiên âm /whereby/ và mang nghĩa là \"Nhờ đó mà\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Advanced Relative Clauses, we need to practice _____.\"",
@@ -3689,7 +3871,7 @@ module.exports = [
       {
         "word": "Touch base",
         "meaning": "Liên lạc ngắn gọn cập nhật",
-        "pronunciation": "/.../",
+        "pronunciation": "/touch base/",
         "partOfSpeech": "noun",
         "example": "I use Touch base in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Touch base trong giao tiếp hàng ngày.",
@@ -3699,7 +3881,7 @@ module.exports = [
       {
         "word": "Cut corners",
         "meaning": "Làm ẩu, đi đường tắt",
-        "pronunciation": "/.../",
+        "pronunciation": "/cut corners/",
         "partOfSpeech": "noun",
         "example": "I use Cut corners in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cut corners trong giao tiếp hàng ngày.",
@@ -3709,7 +3891,7 @@ module.exports = [
       {
         "word": "Hit the ground running",
         "meaning": "Bắt tay ngay vào việc thần tốc",
-        "pronunciation": "/.../",
+        "pronunciation": "/hit the ground running/",
         "partOfSpeech": "noun",
         "example": "I use Hit the ground running in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hit the ground running trong giao tiếp hàng ngày.",
@@ -3719,7 +3901,7 @@ module.exports = [
       {
         "word": "On the same page",
         "meaning": "Cùng chung chí hướng",
-        "pronunciation": "/.../",
+        "pronunciation": "/on the same page/",
         "partOfSpeech": "noun",
         "example": "I use On the same page in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ On the same page trong giao tiếp hàng ngày.",
@@ -3729,7 +3911,7 @@ module.exports = [
       {
         "word": "Think outside the box",
         "meaning": "Tư duy sáng tạo đột phá",
-        "pronunciation": "/.../",
+        "pronunciation": "/think outside the box/",
         "partOfSpeech": "noun",
         "example": "I use Think outside the box in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Think outside the box trong giao tiếp hàng ngày.",
@@ -3739,7 +3921,7 @@ module.exports = [
       {
         "word": "Ballpark figure",
         "meaning": "Con số ước lượng đại khái",
-        "pronunciation": "/.../",
+        "pronunciation": "/ballpark figure/",
         "partOfSpeech": "noun",
         "example": "I use Ballpark figure in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ballpark figure trong giao tiếp hàng ngày.",
@@ -3749,7 +3931,7 @@ module.exports = [
       {
         "word": "Back to the drawing board",
         "meaning": "Làm lại từ đầu khi thất bại",
-        "pronunciation": "/.../",
+        "pronunciation": "/back to the drawing board/",
         "partOfSpeech": "noun",
         "example": "I use Back to the drawing board in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Back to the drawing board trong giao tiếp hàng ngày.",
@@ -3759,7 +3941,7 @@ module.exports = [
       {
         "word": "Bite the bullet",
         "meaning": "Cắn răng chịu đựng thử thách",
-        "pronunciation": "/.../",
+        "pronunciation": "/bite the bullet/",
         "partOfSpeech": "noun",
         "example": "I use Bite the bullet in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bite the bullet trong giao tiếp hàng ngày.",
@@ -3769,7 +3951,7 @@ module.exports = [
       {
         "word": "Call it a day",
         "meaning": "Kết thúc ngày làm việc",
-        "pronunciation": "/.../",
+        "pronunciation": "/call it a day/",
         "partOfSpeech": "noun",
         "example": "I use Call it a day in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Call it a day trong giao tiếp hàng ngày.",
@@ -3779,7 +3961,7 @@ module.exports = [
       {
         "word": "Ahead of the curve",
         "meaning": "Đi trước xu hướng thời đại",
-        "pronunciation": "/.../",
+        "pronunciation": "/ahead of the curve/",
         "partOfSpeech": "noun",
         "example": "I use Ahead of the curve in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ahead of the curve trong giao tiếp hàng ngày.",
@@ -3789,27 +3971,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Sử dụng thành ngữ văn phòng tự nhiên",
-        "explanation": "Ngữ pháp nâng cao B2: Idiomatic English in the Workplace.",
+        "title": "Sử dụng thành ngữ văn phòng tự nhiên (Dạng khẳng định)",
         "formula": "Let's touch base on Monday to align our priorities",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Idiomatic English in the Workplace.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Idiomatic English in the Workplace.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"Touch base\\\" trong câu:\",\"options\":[\"Touch base\",\"Touch bases\",\"Touch baseing\",\"Touch baseed\"],\"correctAnswer\":\"Touch base\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Touch base\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"Cut corners\\\" trong câu:\",\"options\":[\"Cut corners\",\"Cut cornerss\",\"Cut cornersing\",\"Cut cornersed\"],\"correctAnswer\":\"Cut corners\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cut corners\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"Hit the ground running\\\" trong câu:\",\"options\":[\"Hit the ground running\",\"Hit the ground runnings\",\"Hit the ground runninging\",\"Hit the ground runninged\"],\"correctAnswer\":\"Hit the ground running\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hit the ground running\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"On the same page\\\" trong câu:\",\"options\":[\"On the same page\",\"On the same pages\",\"On the same pageing\",\"On the same pageed\"],\"correctAnswer\":\"On the same page\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"On the same page\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"Think outside the box\\\" trong câu:\",\"options\":[\"Think outside the box\",\"Think outside the boxs\",\"Think outside the boxing\",\"Think outside the boxed\"],\"correctAnswer\":\"Think outside the box\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Think outside the box\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"Ballpark figure\\\" trong câu:\",\"options\":[\"Ballpark figure\",\"Ballpark figures\",\"Ballpark figureing\",\"Ballpark figureed\"],\"correctAnswer\":\"Ballpark figure\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Ballpark figure\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"Back to the drawing board\\\" trong câu:\",\"options\":[\"Back to the drawing board\",\"Back to the drawing boards\",\"Back to the drawing boarding\",\"Back to the drawing boarded\"],\"correctAnswer\":\"Back to the drawing board\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Back to the drawing board\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Let's touch base on Monday to align our priorities): Chọn dạng đúng của \\\"Bite the bullet\\\" trong câu:\",\"options\":[\"Bite the bullet\",\"Bite the bullets\",\"Bite the bulleting\",\"Bite the bulleted\"],\"correctAnswer\":\"Bite the bullet\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bite the bullet\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Idiomatic English in the Workplace. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Idiomatic English in the Workplace\".",
+        "examples": "[{\"en\":\"I use \\\"Touch base\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Touch base\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Cut corners\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Cut corners\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Hit the ground running\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Hit the ground running\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Idiomatic English in the Workplace",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Idiomatic English in the Workplace, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Touch base\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Touch base\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Cut corners\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Cut corners\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Hit the ground running\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Hit the ground running\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Touch base\\\" has a specific pronunciation: /touch base/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Touch base\\\" có phát âm cụ thể là /touch base/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Cut corners\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Cut corners\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 14: Idiomatic English in the Workplace",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Idiomatic English in the Workplace. In daily life, communication plays a vital role. For instance, words like \"Touch base\" and \"Cut corners\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Idiomatic English in the Workplace. In my daily routine, I frequently use the word \"Touch base\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Cut corners\" with my classmates. In addition, knowing how to use \"Hit the ground running\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Idiomatic English in the Workplace\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Idiomatic English in the Workplace\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Idiomatic English in the Workplace\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Cut corners\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Cut corners\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Cut corners\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"On the same page\\\" (Cùng chung chí hướng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"On the same page\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Think outside the box\\\" (Tư duy sáng tạo đột phá) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Think outside the box\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Ballpark figure\\\" (Con số ước lượng đại khái) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Ballpark figure\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Back to the drawing board\\\" (Làm lại từ đầu khi thất bại) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Back to the drawing board\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Bite the bullet\\\" (Cắn răng chịu đựng thử thách) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Bite the bullet\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Cut corners\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Cut corners\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Cut corners' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Idiomatic English in the Workplace",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Idiomatic English in the Workplace.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Idiomatic English in the Workplace?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Idiomatic English in the Workplace chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Touch base\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Touch base\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Cut corners\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Cut corners\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 14: Idiomatic English in the Workplace",
+        "passage": "Mastering the theme of \"Idiomatic English in the Workplace\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Touch base\" (Liên lạc ngắn gọn cập nhật) and \"Cut corners\" (Làm ẩu, đi đường tắt) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Hit the ground running\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Idiomatic English in the Workplace\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Touch base\" (Liên lạc ngắn gọn cập nhật) và \"Cut corners\" (Làm ẩu, đi đường tắt) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Hit the ground running\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Idiomatic English in the Workplace\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Idiomatic English in the Workplace\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Idiomatic English in the Workplace\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Touch base\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Idiomatic English in the Workplace\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Idiomatic English in the Workplace\",\"explanation\":\"Đoạn văn khẳng định: \\\"Touch base\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3821,7 +4017,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"in\",\"base\",\"Touch\",\"use\",\"I\"]",
+        "options": "[\"I\",\"use\",\"Touch\",\"base\",\"in\",\"daily\"]",
         "correctAnswer": "I use Touch base in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Touch base in daily\"."
       },
@@ -3837,7 +4033,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Cut corners\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Cut corners",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Cut corners\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /cut corners/ - \"Cut corners\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3871,9 +4067,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Touch base\" là gì?",
-        "options": "[\"Liên lạc ngắn gọn cập nhật\",\"Làm ẩu, đi đường tắt\",\"Bắt tay ngay vào việc thần tốc\",\"Cùng chung chí hướng\"]",
+        "options": "[\"Liên lạc ngắn gọn cập nhật\",\"Cùng chung chí hướng\",\"Bắt tay ngay vào việc thần tốc\",\"Làm ẩu, đi đường tắt\"]",
         "correctAnswer": "Liên lạc ngắn gọn cập nhật",
-        "explanation": "\"Touch base\" có phiên âm /.../ và mang nghĩa là \"Liên lạc ngắn gọn cập nhật\"."
+        "explanation": "\"Touch base\" có phiên âm /touch base/ và mang nghĩa là \"Liên lạc ngắn gọn cập nhật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
@@ -3889,13 +4085,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"On the same page\" là gì?",
-        "options": "[\"Cùng chung chí hướng\",\"Tư duy sáng tạo đột phá\",\"Con số ước lượng đại khái\",\"Làm lại từ đầu khi thất bại\"]",
+        "options": "[\"Làm lại từ đầu khi thất bại\",\"Tư duy sáng tạo đột phá\",\"Cùng chung chí hướng\",\"Con số ước lượng đại khái\"]",
         "correctAnswer": "Cùng chung chí hướng",
-        "explanation": "\"On the same page\" có phiên âm /.../ và mang nghĩa là \"Cùng chung chí hướng\"."
+        "explanation": "\"On the same page\" có phiên âm /on the same page/ và mang nghĩa là \"Cùng chung chí hướng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
-        "options": "[\"Think outside the box\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Think outside the box\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Think outside the box",
         "explanation": "\"Think outside the box\" (Tư duy sáng tạo đột phá) là từ vựng chính xác trong ngữ cảnh chủ đề Idiomatic English in the Workplace."
       },
@@ -3909,7 +4105,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Back to the drawing board\" là gì?",
         "options": "[\"Làm lại từ đầu khi thất bại\",\"Cắn răng chịu đựng thử thách\",\"Kết thúc ngày làm việc\",\"Đi trước xu hướng thời đại\"]",
         "correctAnswer": "Làm lại từ đầu khi thất bại",
-        "explanation": "\"Back to the drawing board\" có phiên âm /.../ và mang nghĩa là \"Làm lại từ đầu khi thất bại\"."
+        "explanation": "\"Back to the drawing board\" có phiên âm /back to the drawing board/ và mang nghĩa là \"Làm lại từ đầu khi thất bại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
@@ -3925,13 +4121,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ahead of the curve\" là gì?",
-        "options": "[\"Đi trước xu hướng thời đại\",\"Liên lạc ngắn gọn cập nhật\",\"Làm ẩu, đi đường tắt\",\"Bắt tay ngay vào việc thần tốc\"]",
+        "options": "[\"Bắt tay ngay vào việc thần tốc\",\"Làm ẩu, đi đường tắt\",\"Liên lạc ngắn gọn cập nhật\",\"Đi trước xu hướng thời đại\"]",
         "correctAnswer": "Đi trước xu hướng thời đại",
-        "explanation": "\"Ahead of the curve\" có phiên âm /.../ và mang nghĩa là \"Đi trước xu hướng thời đại\"."
+        "explanation": "\"Ahead of the curve\" có phiên âm /ahead of the curve/ và mang nghĩa là \"Đi trước xu hướng thời đại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
-        "options": "[\"Touch base\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Touch base\"]",
         "correctAnswer": "Touch base",
         "explanation": "\"Touch base\" (Liên lạc ngắn gọn cập nhật) là từ vựng chính xác trong ngữ cảnh chủ đề Idiomatic English in the Workplace."
       },
@@ -3943,13 +4139,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hit the ground running\" là gì?",
-        "options": "[\"Bắt tay ngay vào việc thần tốc\",\"Cùng chung chí hướng\",\"Tư duy sáng tạo đột phá\",\"Con số ước lượng đại khái\"]",
+        "options": "[\"Tư duy sáng tạo đột phá\",\"Bắt tay ngay vào việc thần tốc\",\"Con số ước lượng đại khái\",\"Cùng chung chí hướng\"]",
         "correctAnswer": "Bắt tay ngay vào việc thần tốc",
-        "explanation": "\"Hit the ground running\" có phiên âm /.../ và mang nghĩa là \"Bắt tay ngay vào việc thần tốc\"."
+        "explanation": "\"Hit the ground running\" có phiên âm /hit the ground running/ và mang nghĩa là \"Bắt tay ngay vào việc thần tốc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Idiomatic English in the Workplace, we need to practice _____.\"",
-        "options": "[\"On the same page\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"On the same page\",\"umbrellas\"]",
         "correctAnswer": "On the same page",
         "explanation": "\"On the same page\" (Cùng chung chí hướng) là từ vựng chính xác trong ngữ cảnh chủ đề Idiomatic English in the Workplace."
       },
@@ -3972,7 +4168,7 @@ module.exports = [
       {
         "word": "Conduct research",
         "meaning": "Tiến hành nghiên cứu",
-        "pronunciation": "/.../",
+        "pronunciation": "/conduct research/",
         "partOfSpeech": "noun",
         "example": "I use Conduct research in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Conduct research trong giao tiếp hàng ngày.",
@@ -3982,7 +4178,7 @@ module.exports = [
       {
         "word": "Draw conclusions",
         "meaning": "Rút ra kết luận",
-        "pronunciation": "/.../",
+        "pronunciation": "/draw conclusions/",
         "partOfSpeech": "noun",
         "example": "I use Draw conclusions in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Draw conclusions trong giao tiếp hàng ngày.",
@@ -3992,7 +4188,7 @@ module.exports = [
       {
         "word": "Shed light on",
         "meaning": "Làm sáng tỏ vấn đề",
-        "pronunciation": "/.../",
+        "pronunciation": "/shed light on/",
         "partOfSpeech": "noun",
         "example": "I use Shed light on in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shed light on trong giao tiếp hàng ngày.",
@@ -4002,7 +4198,7 @@ module.exports = [
       {
         "word": "Address the issue",
         "meaning": "Giải quyết vấn nạn",
-        "pronunciation": "/.../",
+        "pronunciation": "/address the issue/",
         "partOfSpeech": "noun",
         "example": "I use Address the issue in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Address the issue trong giao tiếp hàng ngày.",
@@ -4012,7 +4208,7 @@ module.exports = [
       {
         "word": "Play a vital role",
         "meaning": "Đóng vai trò trọng yếu",
-        "pronunciation": "/.../",
+        "pronunciation": "/play a vital role/",
         "partOfSpeech": "noun",
         "example": "I use Play a vital role in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Play a vital role trong giao tiếp hàng ngày.",
@@ -4022,7 +4218,7 @@ module.exports = [
       {
         "word": "Gain insight",
         "meaning": "Có được cái nhìn sâu sắc",
-        "pronunciation": "/.../",
+        "pronunciation": "/gain insight/",
         "partOfSpeech": "noun",
         "example": "I use Gain insight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Gain insight trong giao tiếp hàng ngày.",
@@ -4032,7 +4228,7 @@ module.exports = [
       {
         "word": "Pose a threat",
         "meaning": "Gây ra mối đe dọa",
-        "pronunciation": "/.../",
+        "pronunciation": "/pose a threat/",
         "partOfSpeech": "noun",
         "example": "I use Pose a threat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pose a threat trong giao tiếp hàng ngày.",
@@ -4042,7 +4238,7 @@ module.exports = [
       {
         "word": "Meet expectations",
         "meaning": "Đáp ứng kỳ vọng",
-        "pronunciation": "/.../",
+        "pronunciation": "/meet expectations/",
         "partOfSpeech": "noun",
         "example": "I use Meet expectations in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Meet expectations trong giao tiếp hàng ngày.",
@@ -4052,7 +4248,7 @@ module.exports = [
       {
         "word": "Deep understanding",
         "meaning": "Hiểu biết sâu rộng",
-        "pronunciation": "/.../",
+        "pronunciation": "/deep understanding/",
         "partOfSpeech": "noun",
         "example": "I use Deep understanding in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deep understanding trong giao tiếp hàng ngày.",
@@ -4062,7 +4258,7 @@ module.exports = [
       {
         "word": "Substantial evidence",
         "meaning": "Bằng chứng xác thực dồi dào",
-        "pronunciation": "/.../",
+        "pronunciation": "/substantial evidence/",
         "partOfSpeech": "noun",
         "example": "I use Substantial evidence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Substantial evidence trong giao tiếp hàng ngày.",
@@ -4072,27 +4268,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Các cặp kết hợp từ chuẩn xác",
-        "explanation": "Ngữ pháp nâng cao B2: Essential Academic Collocations.",
+        "title": "Các cặp kết hợp từ chuẩn xác (Dạng khẳng định)",
         "formula": "Recent studies shed light on neurological patterns",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Essential Academic Collocations.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Essential Academic Collocations.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Conduct research\\\" trong câu:\",\"options\":[\"Conduct research\",\"Conduct researchs\",\"Conduct researching\",\"Conduct researched\"],\"correctAnswer\":\"Conduct research\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Conduct research\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Draw conclusions\\\" trong câu:\",\"options\":[\"Draw conclusions\",\"Draw conclusionss\",\"Draw conclusionsing\",\"Draw conclusionsed\"],\"correctAnswer\":\"Draw conclusions\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Draw conclusions\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Shed light on\\\" trong câu:\",\"options\":[\"Shed light on\",\"Shed light ons\",\"Shed light oning\",\"Shed light oned\"],\"correctAnswer\":\"Shed light on\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Shed light on\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Address the issue\\\" trong câu:\",\"options\":[\"Address the issue\",\"Address the issues\",\"Address the issueing\",\"Address the issueed\"],\"correctAnswer\":\"Address the issue\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Address the issue\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Play a vital role\\\" trong câu:\",\"options\":[\"Play a vital role\",\"Play a vital roles\",\"Play a vital roleing\",\"Play a vital roleed\"],\"correctAnswer\":\"Play a vital role\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Play a vital role\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Gain insight\\\" trong câu:\",\"options\":[\"Gain insight\",\"Gain insights\",\"Gain insighting\",\"Gain insighted\"],\"correctAnswer\":\"Gain insight\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Gain insight\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Pose a threat\\\" trong câu:\",\"options\":[\"Pose a threat\",\"Pose a threats\",\"Pose a threating\",\"Pose a threated\"],\"correctAnswer\":\"Pose a threat\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Pose a threat\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Recent studies shed light on neurological patterns): Chọn dạng đúng của \\\"Meet expectations\\\" trong câu:\",\"options\":[\"Meet expectations\",\"Meet expectationss\",\"Meet expectationsing\",\"Meet expectationsed\"],\"correctAnswer\":\"Meet expectations\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Meet expectations\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Essential Academic Collocations. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Essential Academic Collocations\".",
+        "examples": "[{\"en\":\"I use \\\"Conduct research\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Conduct research\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Draw conclusions\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Draw conclusions\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Shed light on\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Shed light on\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Essential Academic Collocations",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Essential Academic Collocations, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Conduct research\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Conduct research\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Draw conclusions\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Draw conclusions\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Shed light on\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Shed light on\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Conduct research\\\" has a specific pronunciation: /conduct research/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Conduct research\\\" có phát âm cụ thể là /conduct research/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Draw conclusions\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Draw conclusions\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 15: Essential Academic Collocations",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Essential Academic Collocations. In daily life, communication plays a vital role. For instance, words like \"Conduct research\" and \"Draw conclusions\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Essential Academic Collocations. In my daily routine, I frequently use the word \"Conduct research\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Draw conclusions\" with my classmates. In addition, knowing how to use \"Shed light on\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Essential Academic Collocations\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Essential Academic Collocations\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Essential Academic Collocations\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Draw conclusions\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Draw conclusions\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Draw conclusions\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Address the issue\\\" (Giải quyết vấn nạn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Address the issue\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Play a vital role\\\" (Đóng vai trò trọng yếu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Play a vital role\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Gain insight\\\" (Có được cái nhìn sâu sắc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Gain insight\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Pose a threat\\\" (Gây ra mối đe dọa) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Pose a threat\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Meet expectations\\\" (Đáp ứng kỳ vọng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Meet expectations\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Draw conclusions\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Draw conclusions\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Draw conclusions' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Essential Academic Collocations",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Essential Academic Collocations.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Essential Academic Collocations?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Essential Academic Collocations chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Conduct research\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Conduct research\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Draw conclusions\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Draw conclusions\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 15: Essential Academic Collocations",
+        "passage": "Mastering the theme of \"Essential Academic Collocations\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Conduct research\" (Tiến hành nghiên cứu) and \"Draw conclusions\" (Rút ra kết luận) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Shed light on\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Essential Academic Collocations\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Conduct research\" (Tiến hành nghiên cứu) và \"Draw conclusions\" (Rút ra kết luận) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Shed light on\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Essential Academic Collocations\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Essential Academic Collocations\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Essential Academic Collocations\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Conduct research\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Essential Academic Collocations\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Essential Academic Collocations\",\"explanation\":\"Đoạn văn khẳng định: \\\"Conduct research\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4104,7 +4314,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"research\",\"in\",\"I\",\"use\",\"daily\",\"Conduct\"]",
+        "options": "[\"daily\",\"research\",\"Conduct\",\"in\",\"use\",\"I\"]",
         "correctAnswer": "I use Conduct research in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Conduct research in daily\"."
       },
@@ -4120,7 +4330,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Draw conclusions\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Draw conclusions",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Draw conclusions\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /draw conclusions/ - \"Draw conclusions\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4154,13 +4364,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Conduct research\" là gì?",
-        "options": "[\"Tiến hành nghiên cứu\",\"Rút ra kết luận\",\"Làm sáng tỏ vấn đề\",\"Giải quyết vấn nạn\"]",
+        "options": "[\"Làm sáng tỏ vấn đề\",\"Rút ra kết luận\",\"Tiến hành nghiên cứu\",\"Giải quyết vấn nạn\"]",
         "correctAnswer": "Tiến hành nghiên cứu",
-        "explanation": "\"Conduct research\" có phiên âm /.../ và mang nghĩa là \"Tiến hành nghiên cứu\"."
+        "explanation": "\"Conduct research\" có phiên âm /conduct research/ và mang nghĩa là \"Tiến hành nghiên cứu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"Draw conclusions\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Draw conclusions\"]",
         "correctAnswer": "Draw conclusions",
         "explanation": "\"Draw conclusions\" (Rút ra kết luận) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4172,13 +4382,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Address the issue\" là gì?",
-        "options": "[\"Giải quyết vấn nạn\",\"Đóng vai trò trọng yếu\",\"Có được cái nhìn sâu sắc\",\"Gây ra mối đe dọa\"]",
+        "options": "[\"Đóng vai trò trọng yếu\",\"Giải quyết vấn nạn\",\"Có được cái nhìn sâu sắc\",\"Gây ra mối đe dọa\"]",
         "correctAnswer": "Giải quyết vấn nạn",
-        "explanation": "\"Address the issue\" có phiên âm /.../ và mang nghĩa là \"Giải quyết vấn nạn\"."
+        "explanation": "\"Address the issue\" có phiên âm /address the issue/ và mang nghĩa là \"Giải quyết vấn nạn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"Play a vital role\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Play a vital role\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Play a vital role",
         "explanation": "\"Play a vital role\" (Đóng vai trò trọng yếu) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4192,11 +4402,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pose a threat\" là gì?",
         "options": "[\"Gây ra mối đe dọa\",\"Đáp ứng kỳ vọng\",\"Hiểu biết sâu rộng\",\"Bằng chứng xác thực dồi dào\"]",
         "correctAnswer": "Gây ra mối đe dọa",
-        "explanation": "\"Pose a threat\" có phiên âm /.../ và mang nghĩa là \"Gây ra mối đe dọa\"."
+        "explanation": "\"Pose a threat\" có phiên âm /pose a threat/ và mang nghĩa là \"Gây ra mối đe dọa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"Meet expectations\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Meet expectations\",\"airplanes\"]",
         "correctAnswer": "Meet expectations",
         "explanation": "\"Meet expectations\" (Đáp ứng kỳ vọng) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4208,13 +4418,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Substantial evidence\" là gì?",
-        "options": "[\"Bằng chứng xác thực dồi dào\",\"Tiến hành nghiên cứu\",\"Rút ra kết luận\",\"Làm sáng tỏ vấn đề\"]",
+        "options": "[\"Tiến hành nghiên cứu\",\"Làm sáng tỏ vấn đề\",\"Bằng chứng xác thực dồi dào\",\"Rút ra kết luận\"]",
         "correctAnswer": "Bằng chứng xác thực dồi dào",
-        "explanation": "\"Substantial evidence\" có phiên âm /.../ và mang nghĩa là \"Bằng chứng xác thực dồi dào\"."
+        "explanation": "\"Substantial evidence\" có phiên âm /substantial evidence/ và mang nghĩa là \"Bằng chứng xác thực dồi dào\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"Conduct research\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Conduct research\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Conduct research",
         "explanation": "\"Conduct research\" (Tiến hành nghiên cứu) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4226,13 +4436,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Shed light on\" là gì?",
-        "options": "[\"Làm sáng tỏ vấn đề\",\"Giải quyết vấn nạn\",\"Đóng vai trò trọng yếu\",\"Có được cái nhìn sâu sắc\"]",
+        "options": "[\"Giải quyết vấn nạn\",\"Có được cái nhìn sâu sắc\",\"Đóng vai trò trọng yếu\",\"Làm sáng tỏ vấn đề\"]",
         "correctAnswer": "Làm sáng tỏ vấn đề",
-        "explanation": "\"Shed light on\" có phiên âm /.../ và mang nghĩa là \"Làm sáng tỏ vấn đề\"."
+        "explanation": "\"Shed light on\" có phiên âm /shed light on/ và mang nghĩa là \"Làm sáng tỏ vấn đề\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Essential Academic Collocations, we need to practice _____.\"",
-        "options": "[\"Address the issue\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Address the issue\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Address the issue",
         "explanation": "\"Address the issue\" (Giải quyết vấn nạn) là từ vựng chính xác trong ngữ cảnh chủ đề Essential Academic Collocations."
       },
@@ -4255,7 +4465,7 @@ module.exports = [
       {
         "word": "Deduction",
         "meaning": "Sự suy đoán logic",
-        "pronunciation": "/.../",
+        "pronunciation": "/deduction/",
         "partOfSpeech": "noun",
         "example": "I use Deduction in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deduction trong giao tiếp hàng ngày.",
@@ -4265,7 +4475,7 @@ module.exports = [
       {
         "word": "Certainty",
         "meaning": "Độ chắc chắn cao",
-        "pronunciation": "/.../",
+        "pronunciation": "/certainty/",
         "partOfSpeech": "noun",
         "example": "I use Certainty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Certainty trong giao tiếp hàng ngày.",
@@ -4275,7 +4485,7 @@ module.exports = [
       {
         "word": "Possibility",
         "meaning": "Khả năng có thể",
-        "pronunciation": "/.../",
+        "pronunciation": "/possibility/",
         "partOfSpeech": "noun",
         "example": "I use Possibility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Possibility trong giao tiếp hàng ngày.",
@@ -4285,7 +4495,7 @@ module.exports = [
       {
         "word": "Criticism",
         "meaning": "Lời chỉ trích hành động",
-        "pronunciation": "/.../",
+        "pronunciation": "/criticism/",
         "partOfSpeech": "noun",
         "example": "I use Criticism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Criticism trong giao tiếp hàng ngày.",
@@ -4295,7 +4505,7 @@ module.exports = [
       {
         "word": "Overlook",
         "meaning": "Sơ suất bỏ qua",
-        "pronunciation": "/.../",
+        "pronunciation": "/overlook/",
         "partOfSpeech": "noun",
         "example": "I use Overlook in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Overlook trong giao tiếp hàng ngày.",
@@ -4305,7 +4515,7 @@ module.exports = [
       {
         "word": "Misplace",
         "meaning": "Để quên lạc mất đồ",
-        "pronunciation": "/.../",
+        "pronunciation": "/misplace/",
         "partOfSpeech": "noun",
         "example": "I use Misplace in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Misplace trong giao tiếp hàng ngày.",
@@ -4315,7 +4525,7 @@ module.exports = [
       {
         "word": "Preventable",
         "meaning": "Đáng lẽ ngăn chặn được",
-        "pronunciation": "/.../",
+        "pronunciation": "/preventable/",
         "partOfSpeech": "noun",
         "example": "I use Preventable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Preventable trong giao tiếp hàng ngày.",
@@ -4325,7 +4535,7 @@ module.exports = [
       {
         "word": "Likelihood",
         "meaning": "Khả năng xảy ra",
-        "pronunciation": "/.../",
+        "pronunciation": "/likelihood/",
         "partOfSpeech": "noun",
         "example": "I use Likelihood in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Likelihood trong giao tiếp hàng ngày.",
@@ -4335,7 +4545,7 @@ module.exports = [
       {
         "word": "Unavoidable",
         "meaning": "Không thể tránh khỏi",
-        "pronunciation": "/.../",
+        "pronunciation": "/unavoidable/",
         "partOfSpeech": "noun",
         "example": "I use Unavoidable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Unavoidable trong giao tiếp hàng ngày.",
@@ -4345,7 +4555,7 @@ module.exports = [
       {
         "word": "Assumption",
         "meaning": "Giả định ban đầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/assumption/",
         "partOfSpeech": "noun",
         "example": "I use Assumption in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Assumption trong giao tiếp hàng ngày.",
@@ -4355,27 +4565,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Suy đoán quá khứ với Modal + have + V3",
-        "explanation": "Ngữ pháp nâng cao B2: Past Modal Verbs: Deductions & Regrets.",
+        "title": "Suy đoán quá khứ với Modal + have + V3 (Dạng khẳng định)",
         "formula": "He must have overlooked the deadline yesterday",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Past Modal Verbs: Deductions & Regrets.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Past Modal Verbs: Deductions & Regrets.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Deduction\\\" trong câu:\",\"options\":[\"Deduction\",\"Deductions\",\"Deductioning\",\"Deductioned\"],\"correctAnswer\":\"Deduction\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Deduction\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Certainty\\\" trong câu:\",\"options\":[\"Certainty\",\"Certaintys\",\"Certaintying\",\"Certaintyed\"],\"correctAnswer\":\"Certainty\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Certainty\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Possibility\\\" trong câu:\",\"options\":[\"Possibility\",\"Possibilitys\",\"Possibilitying\",\"Possibilityed\"],\"correctAnswer\":\"Possibility\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Possibility\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Criticism\\\" trong câu:\",\"options\":[\"Criticism\",\"Criticisms\",\"Criticisming\",\"Criticismed\"],\"correctAnswer\":\"Criticism\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Criticism\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Overlook\\\" trong câu:\",\"options\":[\"Overlook\",\"Overlooks\",\"Overlooking\",\"Overlooked\"],\"correctAnswer\":\"Overlook\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Overlook\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Misplace\\\" trong câu:\",\"options\":[\"Misplace\",\"Misplaces\",\"Misplaceing\",\"Misplaceed\"],\"correctAnswer\":\"Misplace\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Misplace\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Preventable\\\" trong câu:\",\"options\":[\"Preventable\",\"Preventables\",\"Preventableing\",\"Preventableed\"],\"correctAnswer\":\"Preventable\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Preventable\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (He must have overlooked the deadline yesterday): Chọn dạng đúng của \\\"Likelihood\\\" trong câu:\",\"options\":[\"Likelihood\",\"Likelihoods\",\"Likelihooding\",\"Likelihooded\"],\"correctAnswer\":\"Likelihood\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Likelihood\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Past Modal Verbs: Deductions & Regrets. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Past Modal Verbs: Deductions & Regrets\".",
+        "examples": "[{\"en\":\"I use \\\"Deduction\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Deduction\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Certainty\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Certainty\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Possibility\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Possibility\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Past Modal Verbs: Deductions & Regrets",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Past Modal Verbs: Deductions & Regrets, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Deduction\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Deduction\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Certainty\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Certainty\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Possibility\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Possibility\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Deduction\\\" has a specific pronunciation: /deduction/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Deduction\\\" có phát âm cụ thể là /deduction/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Certainty\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Certainty\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 16: Past Modal Verbs: Deductions & Regrets",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Past Modal Verbs: Deductions & Regrets. In daily life, communication plays a vital role. For instance, words like \"Deduction\" and \"Certainty\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Past Modal Verbs: Deductions & Regrets. In my daily routine, I frequently use the word \"Deduction\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Certainty\" with my classmates. In addition, knowing how to use \"Possibility\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Past Modal Verbs: Deductions & Regrets\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Past Modal Verbs: Deductions & Regrets\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Past Modal Verbs: Deductions & Regrets\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Certainty\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Certainty\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Certainty\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Criticism\\\" (Lời chỉ trích hành động) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Criticism\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Overlook\\\" (Sơ suất bỏ qua) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Overlook\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Misplace\\\" (Để quên lạc mất đồ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Misplace\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Preventable\\\" (Đáng lẽ ngăn chặn được) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Preventable\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Likelihood\\\" (Khả năng xảy ra) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Likelihood\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Certainty\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Certainty\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Certainty' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Past Modal Verbs: Deductions & Regrets",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Past Modal Verbs: Deductions & Regrets.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Past Modal Verbs: Deductions & Regrets?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Past Modal Verbs: Deductions & Regrets chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Deduction\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Deduction\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Certainty\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Certainty\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 16: Past Modal Verbs: Deductions & Regrets",
+        "passage": "Mastering the theme of \"Past Modal Verbs: Deductions & Regrets\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Deduction\" (Sự suy đoán logic) and \"Certainty\" (Độ chắc chắn cao) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Possibility\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Past Modal Verbs: Deductions & Regrets\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Deduction\" (Sự suy đoán logic) và \"Certainty\" (Độ chắc chắn cao) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Possibility\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Past Modal Verbs: Deductions & Regrets\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Past Modal Verbs: Deductions & Regrets\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Past Modal Verbs: Deductions & Regrets\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Deduction\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Past Modal Verbs: Deductions & Regrets\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Past Modal Verbs: Deductions & Regrets\",\"explanation\":\"Đoạn văn khẳng định: \\\"Deduction\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4387,7 +4611,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"use\",\"I\",\"Deduction\",\"daily\",\"conversation\"]",
+        "options": "[\"Deduction\",\"in\",\"daily\",\"use\",\"I\",\"conversation\"]",
         "correctAnswer": "I use Deduction in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Deduction in daily conversation\"."
       },
@@ -4403,7 +4627,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Certainty\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Certainty",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Certainty\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /certainty/ - \"Certainty\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4437,13 +4661,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Deduction\" là gì?",
-        "options": "[\"Sự suy đoán logic\",\"Độ chắc chắn cao\",\"Khả năng có thể\",\"Lời chỉ trích hành động\"]",
+        "options": "[\"Độ chắc chắn cao\",\"Lời chỉ trích hành động\",\"Sự suy đoán logic\",\"Khả năng có thể\"]",
         "correctAnswer": "Sự suy đoán logic",
-        "explanation": "\"Deduction\" có phiên âm /.../ và mang nghĩa là \"Sự suy đoán logic\"."
+        "explanation": "\"Deduction\" có phiên âm /deduction/ và mang nghĩa là \"Sự suy đoán logic\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"Certainty\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Certainty\"]",
         "correctAnswer": "Certainty",
         "explanation": "\"Certainty\" (Độ chắc chắn cao) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4455,13 +4679,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Criticism\" là gì?",
-        "options": "[\"Lời chỉ trích hành động\",\"Sơ suất bỏ qua\",\"Để quên lạc mất đồ\",\"Đáng lẽ ngăn chặn được\"]",
+        "options": "[\"Để quên lạc mất đồ\",\"Đáng lẽ ngăn chặn được\",\"Sơ suất bỏ qua\",\"Lời chỉ trích hành động\"]",
         "correctAnswer": "Lời chỉ trích hành động",
-        "explanation": "\"Criticism\" có phiên âm /.../ và mang nghĩa là \"Lời chỉ trích hành động\"."
+        "explanation": "\"Criticism\" có phiên âm /criticism/ và mang nghĩa là \"Lời chỉ trích hành động\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"Overlook\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Overlook\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Overlook",
         "explanation": "\"Overlook\" (Sơ suất bỏ qua) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4473,13 +4697,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Preventable\" là gì?",
-        "options": "[\"Đáng lẽ ngăn chặn được\",\"Khả năng xảy ra\",\"Không thể tránh khỏi\",\"Giả định ban đầu\"]",
+        "options": "[\"Không thể tránh khỏi\",\"Giả định ban đầu\",\"Khả năng xảy ra\",\"Đáng lẽ ngăn chặn được\"]",
         "correctAnswer": "Đáng lẽ ngăn chặn được",
-        "explanation": "\"Preventable\" có phiên âm /.../ và mang nghĩa là \"Đáng lẽ ngăn chặn được\"."
+        "explanation": "\"Preventable\" có phiên âm /preventable/ và mang nghĩa là \"Đáng lẽ ngăn chặn được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"Likelihood\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Likelihood\",\"airplanes\"]",
         "correctAnswer": "Likelihood",
         "explanation": "\"Likelihood\" (Khả năng xảy ra) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4491,13 +4715,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Assumption\" là gì?",
-        "options": "[\"Giả định ban đầu\",\"Sự suy đoán logic\",\"Độ chắc chắn cao\",\"Khả năng có thể\"]",
+        "options": "[\"Giả định ban đầu\",\"Sự suy đoán logic\",\"Khả năng có thể\",\"Độ chắc chắn cao\"]",
         "correctAnswer": "Giả định ban đầu",
-        "explanation": "\"Assumption\" có phiên âm /.../ và mang nghĩa là \"Giả định ban đầu\"."
+        "explanation": "\"Assumption\" có phiên âm /assumption/ và mang nghĩa là \"Giả định ban đầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"Deduction\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Deduction\",\"airplanes\"]",
         "correctAnswer": "Deduction",
         "explanation": "\"Deduction\" (Sự suy đoán logic) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4509,13 +4733,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Possibility\" là gì?",
-        "options": "[\"Khả năng có thể\",\"Lời chỉ trích hành động\",\"Sơ suất bỏ qua\",\"Để quên lạc mất đồ\"]",
+        "options": "[\"Để quên lạc mất đồ\",\"Sơ suất bỏ qua\",\"Lời chỉ trích hành động\",\"Khả năng có thể\"]",
         "correctAnswer": "Khả năng có thể",
-        "explanation": "\"Possibility\" có phiên âm /.../ và mang nghĩa là \"Khả năng có thể\"."
+        "explanation": "\"Possibility\" có phiên âm /possibility/ và mang nghĩa là \"Khả năng có thể\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Past Modal Verbs: Deductions & Regrets, we need to practice _____.\"",
-        "options": "[\"Criticism\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Criticism\"]",
         "correctAnswer": "Criticism",
         "explanation": "\"Criticism\" (Lời chỉ trích hành động) là từ vựng chính xác trong ngữ cảnh chủ đề Past Modal Verbs: Deductions & Regrets."
       },
@@ -4538,7 +4762,7 @@ module.exports = [
       {
         "word": "Inversion",
         "meaning": "Cấu trúc đảo ngữ",
-        "pronunciation": "/.../",
+        "pronunciation": "/inversion/",
         "partOfSpeech": "noun",
         "example": "I use Inversion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Inversion trong giao tiếp hàng ngày.",
@@ -4548,7 +4772,7 @@ module.exports = [
       {
         "word": "Emphasis",
         "meaning": "Sự nhấn mạnh đặc biệt",
-        "pronunciation": "/.../",
+        "pronunciation": "/emphasis/",
         "partOfSpeech": "noun",
         "example": "I use Emphasis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Emphasis trong giao tiếp hàng ngày.",
@@ -4558,7 +4782,7 @@ module.exports = [
       {
         "word": "Seldom",
         "meaning": "Hiếm khi xảy ra",
-        "pronunciation": "/.../",
+        "pronunciation": "/seldom/",
         "partOfSpeech": "noun",
         "example": "I use Seldom in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Seldom trong giao tiếp hàng ngày.",
@@ -4568,7 +4792,7 @@ module.exports = [
       {
         "word": "Rarely",
         "meaning": "Ít khi chứng kiến",
-        "pronunciation": "/.../",
+        "pronunciation": "/rarely/",
         "partOfSpeech": "noun",
         "example": "I use Rarely in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rarely trong giao tiếp hàng ngày.",
@@ -4578,7 +4802,7 @@ module.exports = [
       {
         "word": "Scarcely",
         "meaning": "Vừa mới... thì...",
-        "pronunciation": "/.../",
+        "pronunciation": "/scarcely/",
         "partOfSpeech": "noun",
         "example": "I use Scarcely in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Scarcely trong giao tiếp hàng ngày.",
@@ -4588,7 +4812,7 @@ module.exports = [
       {
         "word": "Under no circumstances",
         "meaning": "Tuyệt đối trong mọi tình huống",
-        "pronunciation": "/.../",
+        "pronunciation": "/under no circumstances/",
         "partOfSpeech": "noun",
         "example": "I use Under no circumstances in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Under no circumstances trong giao tiếp hàng ngày.",
@@ -4598,7 +4822,7 @@ module.exports = [
       {
         "word": "Not only",
         "meaning": "Không những... mà còn...",
-        "pronunciation": "/.../",
+        "pronunciation": "/not only/",
         "partOfSpeech": "noun",
         "example": "I use Not only in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Not only trong giao tiếp hàng ngày.",
@@ -4608,7 +4832,7 @@ module.exports = [
       {
         "word": "Little did he know",
         "meaning": "Anh ấy chẳng hề hay biết",
-        "pronunciation": "/.../",
+        "pronunciation": "/little did he know/",
         "partOfSpeech": "noun",
         "example": "I use Little did he know in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Little did he know trong giao tiếp hàng ngày.",
@@ -4618,7 +4842,7 @@ module.exports = [
       {
         "word": "Rhetorical",
         "meaning": "Mang tính tu từ nghệ thuật",
-        "pronunciation": "/.../",
+        "pronunciation": "/rhetorical/",
         "partOfSpeech": "noun",
         "example": "I use Rhetorical in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rhetorical trong giao tiếp hàng ngày.",
@@ -4628,7 +4852,7 @@ module.exports = [
       {
         "word": "Dramatic",
         "meaning": "Kịch tính ấn tượng",
-        "pronunciation": "/.../",
+        "pronunciation": "/dramatic/",
         "partOfSpeech": "noun",
         "example": "I use Dramatic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dramatic trong giao tiếp hàng ngày.",
@@ -4638,27 +4862,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc đảo ngữ nhấn mạnh trang trọng",
-        "explanation": "Ngữ pháp nâng cao B2: Inversion for Emphasis & Drama.",
+        "title": "Cấu trúc đảo ngữ nhấn mạnh trang trọng (Dạng khẳng định)",
         "formula": "Never / Seldom / Rarely + Auxiliary + S + V",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Inversion for Emphasis & Drama.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Inversion for Emphasis & Drama.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Inversion\\\" trong câu:\",\"options\":[\"Inversion\",\"Inversions\",\"Inversioning\",\"Inversioned\"],\"correctAnswer\":\"Inversion\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Inversion\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Emphasis\\\" trong câu:\",\"options\":[\"Emphasis\",\"Emphasiss\",\"Emphasising\",\"Emphasised\"],\"correctAnswer\":\"Emphasis\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Emphasis\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Seldom\\\" trong câu:\",\"options\":[\"Seldom\",\"Seldoms\",\"Seldoming\",\"Seldomed\"],\"correctAnswer\":\"Seldom\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Seldom\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Rarely\\\" trong câu:\",\"options\":[\"Rarely\",\"Rarelys\",\"Rarelying\",\"Rarelyed\"],\"correctAnswer\":\"Rarely\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Rarely\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Scarcely\\\" trong câu:\",\"options\":[\"Scarcely\",\"Scarcelys\",\"Scarcelying\",\"Scarcelyed\"],\"correctAnswer\":\"Scarcely\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Scarcely\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Under no circumstances\\\" trong câu:\",\"options\":[\"Under no circumstances\",\"Under no circumstancess\",\"Under no circumstancesing\",\"Under no circumstancesed\"],\"correctAnswer\":\"Under no circumstances\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Under no circumstances\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Not only\\\" trong câu:\",\"options\":[\"Not only\",\"Not onlys\",\"Not onlying\",\"Not onlyed\"],\"correctAnswer\":\"Not only\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Not only\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Never / Seldom / Rarely + Auxiliary + S + V): Chọn dạng đúng của \\\"Little did he know\\\" trong câu:\",\"options\":[\"Little did he know\",\"Little did he knows\",\"Little did he knowing\",\"Little did he knowed\"],\"correctAnswer\":\"Little did he know\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Little did he know\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Inversion for Emphasis & Drama. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Inversion for Emphasis & Drama\".",
+        "examples": "[{\"en\":\"I use \\\"Inversion\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Inversion\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Emphasis\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Emphasis\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Seldom\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Seldom\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Inversion for Emphasis & Drama",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Inversion for Emphasis & Drama, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Inversion\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Inversion\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Emphasis\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Emphasis\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Seldom\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Seldom\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Inversion\\\" has a specific pronunciation: /inversion/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Inversion\\\" có phát âm cụ thể là /inversion/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Emphasis\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Emphasis\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 17: Inversion for Emphasis & Drama",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Inversion for Emphasis & Drama. In daily life, communication plays a vital role. For instance, words like \"Inversion\" and \"Emphasis\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Inversion for Emphasis & Drama. In my daily routine, I frequently use the word \"Inversion\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Emphasis\" with my classmates. In addition, knowing how to use \"Seldom\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Inversion for Emphasis & Drama\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Inversion for Emphasis & Drama\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Inversion for Emphasis & Drama\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Emphasis\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Emphasis\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Emphasis\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Rarely\\\" (Ít khi chứng kiến) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Rarely\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Scarcely\\\" (Vừa mới... thì...) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Scarcely\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Under no circumstances\\\" (Tuyệt đối trong mọi tình huống) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Under no circumstances\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Not only\\\" (Không những... mà còn...) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Not only\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Little did he know\\\" (Anh ấy chẳng hề hay biết) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Little did he know\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Emphasis\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Emphasis\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Emphasis' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Inversion for Emphasis & Drama",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Inversion for Emphasis & Drama.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Inversion for Emphasis & Drama?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Inversion for Emphasis & Drama chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Inversion\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Inversion\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Emphasis\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Emphasis\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 17: Inversion for Emphasis & Drama",
+        "passage": "Mastering the theme of \"Inversion for Emphasis & Drama\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Inversion\" (Cấu trúc đảo ngữ) and \"Emphasis\" (Sự nhấn mạnh đặc biệt) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Seldom\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Inversion for Emphasis & Drama\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Inversion\" (Cấu trúc đảo ngữ) và \"Emphasis\" (Sự nhấn mạnh đặc biệt) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Seldom\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Inversion for Emphasis & Drama\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Inversion for Emphasis & Drama\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Inversion for Emphasis & Drama\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Inversion\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Inversion for Emphasis & Drama\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Inversion for Emphasis & Drama\",\"explanation\":\"Đoạn văn khẳng định: \\\"Inversion\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4670,7 +4908,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"daily\",\"use\",\"in\",\"conversation\",\"Inversion\"]",
+        "options": "[\"I\",\"conversation\",\"in\",\"daily\",\"Inversion\",\"use\"]",
         "correctAnswer": "I use Inversion in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Inversion in daily conversation\"."
       },
@@ -4686,7 +4924,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Emphasis\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Emphasis",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Emphasis\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /emphasis/ - \"Emphasis\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4720,13 +4958,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Inversion\" là gì?",
-        "options": "[\"Cấu trúc đảo ngữ\",\"Sự nhấn mạnh đặc biệt\",\"Hiếm khi xảy ra\",\"Ít khi chứng kiến\"]",
+        "options": "[\"Cấu trúc đảo ngữ\",\"Hiếm khi xảy ra\",\"Sự nhấn mạnh đặc biệt\",\"Ít khi chứng kiến\"]",
         "correctAnswer": "Cấu trúc đảo ngữ",
-        "explanation": "\"Inversion\" có phiên âm /.../ và mang nghĩa là \"Cấu trúc đảo ngữ\"."
+        "explanation": "\"Inversion\" có phiên âm /inversion/ và mang nghĩa là \"Cấu trúc đảo ngữ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"Emphasis\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Emphasis\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Emphasis",
         "explanation": "\"Emphasis\" (Sự nhấn mạnh đặc biệt) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -4738,13 +4976,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Rarely\" là gì?",
-        "options": "[\"Ít khi chứng kiến\",\"Vừa mới... thì...\",\"Tuyệt đối trong mọi tình huống\",\"Không những... mà còn...\"]",
+        "options": "[\"Vừa mới... thì...\",\"Ít khi chứng kiến\",\"Không những... mà còn...\",\"Tuyệt đối trong mọi tình huống\"]",
         "correctAnswer": "Ít khi chứng kiến",
-        "explanation": "\"Rarely\" có phiên âm /.../ và mang nghĩa là \"Ít khi chứng kiến\"."
+        "explanation": "\"Rarely\" có phiên âm /rarely/ và mang nghĩa là \"Ít khi chứng kiến\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"Scarcely\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Scarcely\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Scarcely",
         "explanation": "\"Scarcely\" (Vừa mới... thì...) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -4756,9 +4994,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Not only\" là gì?",
-        "options": "[\"Không những... mà còn...\",\"Anh ấy chẳng hề hay biết\",\"Mang tính tu từ nghệ thuật\",\"Kịch tính ấn tượng\"]",
+        "options": "[\"Kịch tính ấn tượng\",\"Không những... mà còn...\",\"Anh ấy chẳng hề hay biết\",\"Mang tính tu từ nghệ thuật\"]",
         "correctAnswer": "Không những... mà còn...",
-        "explanation": "\"Not only\" có phiên âm /.../ và mang nghĩa là \"Không những... mà còn...\"."
+        "explanation": "\"Not only\" có phiên âm /not only/ và mang nghĩa là \"Không những... mà còn...\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
@@ -4774,13 +5012,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dramatic\" là gì?",
-        "options": "[\"Kịch tính ấn tượng\",\"Cấu trúc đảo ngữ\",\"Sự nhấn mạnh đặc biệt\",\"Hiếm khi xảy ra\"]",
+        "options": "[\"Hiếm khi xảy ra\",\"Kịch tính ấn tượng\",\"Sự nhấn mạnh đặc biệt\",\"Cấu trúc đảo ngữ\"]",
         "correctAnswer": "Kịch tính ấn tượng",
-        "explanation": "\"Dramatic\" có phiên âm /.../ và mang nghĩa là \"Kịch tính ấn tượng\"."
+        "explanation": "\"Dramatic\" có phiên âm /dramatic/ và mang nghĩa là \"Kịch tính ấn tượng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"Inversion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Inversion\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Inversion",
         "explanation": "\"Inversion\" (Cấu trúc đảo ngữ) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -4792,13 +5030,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Seldom\" là gì?",
-        "options": "[\"Hiếm khi xảy ra\",\"Ít khi chứng kiến\",\"Vừa mới... thì...\",\"Tuyệt đối trong mọi tình huống\"]",
+        "options": "[\"Tuyệt đối trong mọi tình huống\",\"Vừa mới... thì...\",\"Ít khi chứng kiến\",\"Hiếm khi xảy ra\"]",
         "correctAnswer": "Hiếm khi xảy ra",
-        "explanation": "\"Seldom\" có phiên âm /.../ và mang nghĩa là \"Hiếm khi xảy ra\"."
+        "explanation": "\"Seldom\" có phiên âm /seldom/ và mang nghĩa là \"Hiếm khi xảy ra\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Inversion for Emphasis & Drama, we need to practice _____.\"",
-        "options": "[\"Rarely\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Rarely\",\"bananas\"]",
         "correctAnswer": "Rarely",
         "explanation": "\"Rarely\" (Ít khi chứng kiến) là từ vựng chính xác trong ngữ cảnh chủ đề Inversion for Emphasis & Drama."
       },
@@ -4821,7 +5059,7 @@ module.exports = [
       {
         "word": "Notwithstanding",
         "meaning": "Mặc dù, bất chấp điều đó",
-        "pronunciation": "/.../",
+        "pronunciation": "/notwithstanding/",
         "partOfSpeech": "noun",
         "example": "I use Notwithstanding in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Notwithstanding trong giao tiếp hàng ngày.",
@@ -4831,7 +5069,7 @@ module.exports = [
       {
         "word": "Furthermore",
         "meaning": "Hơn thế nữa",
-        "pronunciation": "/.../",
+        "pronunciation": "/furthermore/",
         "partOfSpeech": "noun",
         "example": "I use Furthermore in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Furthermore trong giao tiếp hàng ngày.",
@@ -4841,7 +5079,7 @@ module.exports = [
       {
         "word": "Whereas",
         "meaning": "Trong khi trái lại",
-        "pronunciation": "/.../",
+        "pronunciation": "/whereas/",
         "partOfSpeech": "noun",
         "example": "I use Whereas in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Whereas trong giao tiếp hàng ngày.",
@@ -4851,7 +5089,7 @@ module.exports = [
       {
         "word": "Consequently",
         "meaning": "Hậu quả kéo theo là",
-        "pronunciation": "/.../",
+        "pronunciation": "/consequently/",
         "partOfSpeech": "noun",
         "example": "I use Consequently in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consequently trong giao tiếp hàng ngày.",
@@ -4861,7 +5099,7 @@ module.exports = [
       {
         "word": "In contrast",
         "meaning": "Ngược lại hoàn toàn",
-        "pronunciation": "/.../",
+        "pronunciation": "/in contrast/",
         "partOfSpeech": "noun",
         "example": "I use In contrast in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ In contrast trong giao tiếp hàng ngày.",
@@ -4871,7 +5109,7 @@ module.exports = [
       {
         "word": "Subsequently",
         "meaning": "Kế tiếp sau đó",
-        "pronunciation": "/.../",
+        "pronunciation": "/subsequently/",
         "partOfSpeech": "noun",
         "example": "I use Subsequently in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Subsequently trong giao tiếp hàng ngày.",
@@ -4881,7 +5119,7 @@ module.exports = [
       {
         "word": "Hence",
         "meaning": "Do đó, vì thế cho nên",
-        "pronunciation": "/.../",
+        "pronunciation": "/hence/",
         "partOfSpeech": "noun",
         "example": "I use Hence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hence trong giao tiếp hàng ngày.",
@@ -4891,7 +5129,7 @@ module.exports = [
       {
         "word": "Cohesion",
         "meaning": "Sự liên kết mạch lạc",
-        "pronunciation": "/.../",
+        "pronunciation": "/cohesion/",
         "partOfSpeech": "noun",
         "example": "I use Cohesion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cohesion trong giao tiếp hàng ngày.",
@@ -4901,7 +5139,7 @@ module.exports = [
       {
         "word": "Syntax",
         "meaning": "Cú pháp câu văn",
-        "pronunciation": "/.../",
+        "pronunciation": "/syntax/",
         "partOfSpeech": "noun",
         "example": "I use Syntax in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Syntax trong giao tiếp hàng ngày.",
@@ -4911,7 +5149,7 @@ module.exports = [
       {
         "word": "Sophisticated",
         "meaning": "Tinh tế, uyên thâm",
-        "pronunciation": "/.../",
+        "pronunciation": "/sophisticated/",
         "partOfSpeech": "noun",
         "example": "I use Sophisticated in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sophisticated trong giao tiếp hàng ngày.",
@@ -4921,27 +5159,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Sử dụng từ nối cao cấp trong văn viết",
-        "explanation": "Ngữ pháp nâng cao B2: Complex Sentence Structures.",
+        "title": "Sử dụng từ nối cao cấp trong văn viết (Dạng khẳng định)",
         "formula": "Notwithstanding the risks, the executive approved the venture",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Complex Sentence Structures.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Complex Sentence Structures.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"Notwithstanding\\\" trong câu:\",\"options\":[\"Notwithstanding\",\"Notwithstandings\",\"Notwithstandinging\",\"Notwithstandinged\"],\"correctAnswer\":\"Notwithstanding\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Notwithstanding\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"Furthermore\\\" trong câu:\",\"options\":[\"Furthermore\",\"Furthermores\",\"Furthermoreing\",\"Furthermoreed\"],\"correctAnswer\":\"Furthermore\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Furthermore\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"Whereas\\\" trong câu:\",\"options\":[\"Whereas\",\"Whereass\",\"Whereasing\",\"Whereased\"],\"correctAnswer\":\"Whereas\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Whereas\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"Consequently\\\" trong câu:\",\"options\":[\"Consequently\",\"Consequentlys\",\"Consequentlying\",\"Consequentlyed\"],\"correctAnswer\":\"Consequently\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Consequently\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"In contrast\\\" trong câu:\",\"options\":[\"In contrast\",\"In contrasts\",\"In contrasting\",\"In contrasted\"],\"correctAnswer\":\"In contrast\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"In contrast\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"Subsequently\\\" trong câu:\",\"options\":[\"Subsequently\",\"Subsequentlys\",\"Subsequentlying\",\"Subsequentlyed\"],\"correctAnswer\":\"Subsequently\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Subsequently\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"Hence\\\" trong câu:\",\"options\":[\"Hence\",\"Hences\",\"Henceing\",\"Henceed\"],\"correctAnswer\":\"Hence\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hence\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Notwithstanding the risks, the executive approved the venture): Chọn dạng đúng của \\\"Cohesion\\\" trong câu:\",\"options\":[\"Cohesion\",\"Cohesions\",\"Cohesioning\",\"Cohesioned\"],\"correctAnswer\":\"Cohesion\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cohesion\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Complex Sentence Structures. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Complex Sentence Structures\".",
+        "examples": "[{\"en\":\"I use \\\"Notwithstanding\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Notwithstanding\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Furthermore\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Furthermore\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Whereas\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Whereas\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Complex Sentence Structures",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Complex Sentence Structures, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Notwithstanding\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Notwithstanding\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Furthermore\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Furthermore\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Whereas\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Whereas\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Notwithstanding\\\" has a specific pronunciation: /notwithstanding/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Notwithstanding\\\" có phát âm cụ thể là /notwithstanding/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Furthermore\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Furthermore\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 18: Complex Sentence Structures",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Complex Sentence Structures. In daily life, communication plays a vital role. For instance, words like \"Notwithstanding\" and \"Furthermore\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Complex Sentence Structures. In my daily routine, I frequently use the word \"Notwithstanding\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Furthermore\" with my classmates. In addition, knowing how to use \"Whereas\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Complex Sentence Structures\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Complex Sentence Structures\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Complex Sentence Structures\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Furthermore\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Furthermore\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Furthermore\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Consequently\\\" (Hậu quả kéo theo là) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Consequently\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"In contrast\\\" (Ngược lại hoàn toàn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"In contrast\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Subsequently\\\" (Kế tiếp sau đó) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Subsequently\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Hence\\\" (Do đó, vì thế cho nên) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Hence\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Cohesion\\\" (Sự liên kết mạch lạc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Cohesion\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Furthermore\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Furthermore\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Furthermore' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Complex Sentence Structures",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Complex Sentence Structures.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Complex Sentence Structures?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Complex Sentence Structures chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Notwithstanding\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Notwithstanding\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Furthermore\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Furthermore\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 18: Complex Sentence Structures",
+        "passage": "Mastering the theme of \"Complex Sentence Structures\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Notwithstanding\" (Mặc dù, bất chấp điều đó) and \"Furthermore\" (Hơn thế nữa) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Whereas\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Complex Sentence Structures\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Notwithstanding\" (Mặc dù, bất chấp điều đó) và \"Furthermore\" (Hơn thế nữa) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Whereas\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Complex Sentence Structures\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Complex Sentence Structures\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Complex Sentence Structures\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Notwithstanding\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Complex Sentence Structures\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Complex Sentence Structures\",\"explanation\":\"Đoạn văn khẳng định: \\\"Notwithstanding\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4953,7 +5205,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Notwithstanding\",\"conversation\",\"in\",\"daily\"]",
+        "options": "[\"in\",\"Notwithstanding\",\"conversation\",\"use\",\"daily\",\"I\"]",
         "correctAnswer": "I use Notwithstanding in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Notwithstanding in daily conversation\"."
       },
@@ -4969,7 +5221,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Furthermore\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Furthermore",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Furthermore\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /furthermore/ - \"Furthermore\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5003,13 +5255,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Notwithstanding\" là gì?",
-        "options": "[\"Mặc dù, bất chấp điều đó\",\"Hơn thế nữa\",\"Trong khi trái lại\",\"Hậu quả kéo theo là\"]",
+        "options": "[\"Hậu quả kéo theo là\",\"Mặc dù, bất chấp điều đó\",\"Hơn thế nữa\",\"Trong khi trái lại\"]",
         "correctAnswer": "Mặc dù, bất chấp điều đó",
-        "explanation": "\"Notwithstanding\" có phiên âm /.../ và mang nghĩa là \"Mặc dù, bất chấp điều đó\"."
+        "explanation": "\"Notwithstanding\" có phiên âm /notwithstanding/ và mang nghĩa là \"Mặc dù, bất chấp điều đó\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"Furthermore\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Furthermore\"]",
         "correctAnswer": "Furthermore",
         "explanation": "\"Furthermore\" (Hơn thế nữa) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5021,13 +5273,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consequently\" là gì?",
-        "options": "[\"Hậu quả kéo theo là\",\"Ngược lại hoàn toàn\",\"Kế tiếp sau đó\",\"Do đó, vì thế cho nên\"]",
+        "options": "[\"Ngược lại hoàn toàn\",\"Hậu quả kéo theo là\",\"Kế tiếp sau đó\",\"Do đó, vì thế cho nên\"]",
         "correctAnswer": "Hậu quả kéo theo là",
-        "explanation": "\"Consequently\" có phiên âm /.../ và mang nghĩa là \"Hậu quả kéo theo là\"."
+        "explanation": "\"Consequently\" có phiên âm /consequently/ và mang nghĩa là \"Hậu quả kéo theo là\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"In contrast\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"In contrast\"]",
         "correctAnswer": "In contrast",
         "explanation": "\"In contrast\" (Ngược lại hoàn toàn) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5041,11 +5293,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hence\" là gì?",
         "options": "[\"Do đó, vì thế cho nên\",\"Sự liên kết mạch lạc\",\"Cú pháp câu văn\",\"Tinh tế, uyên thâm\"]",
         "correctAnswer": "Do đó, vì thế cho nên",
-        "explanation": "\"Hence\" có phiên âm /.../ và mang nghĩa là \"Do đó, vì thế cho nên\"."
+        "explanation": "\"Hence\" có phiên âm /hence/ và mang nghĩa là \"Do đó, vì thế cho nên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"Cohesion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Cohesion\"]",
         "correctAnswer": "Cohesion",
         "explanation": "\"Cohesion\" (Sự liên kết mạch lạc) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5059,11 +5311,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sophisticated\" là gì?",
         "options": "[\"Tinh tế, uyên thâm\",\"Mặc dù, bất chấp điều đó\",\"Hơn thế nữa\",\"Trong khi trái lại\"]",
         "correctAnswer": "Tinh tế, uyên thâm",
-        "explanation": "\"Sophisticated\" có phiên âm /.../ và mang nghĩa là \"Tinh tế, uyên thâm\"."
+        "explanation": "\"Sophisticated\" có phiên âm /sophisticated/ và mang nghĩa là \"Tinh tế, uyên thâm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"Notwithstanding\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Notwithstanding\"]",
         "correctAnswer": "Notwithstanding",
         "explanation": "\"Notwithstanding\" (Mặc dù, bất chấp điều đó) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5075,13 +5327,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Whereas\" là gì?",
-        "options": "[\"Trong khi trái lại\",\"Hậu quả kéo theo là\",\"Ngược lại hoàn toàn\",\"Kế tiếp sau đó\"]",
+        "options": "[\"Kế tiếp sau đó\",\"Ngược lại hoàn toàn\",\"Hậu quả kéo theo là\",\"Trong khi trái lại\"]",
         "correctAnswer": "Trong khi trái lại",
-        "explanation": "\"Whereas\" có phiên âm /.../ và mang nghĩa là \"Trong khi trái lại\"."
+        "explanation": "\"Whereas\" có phiên âm /whereas/ và mang nghĩa là \"Trong khi trái lại\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Complex Sentence Structures, we need to practice _____.\"",
-        "options": "[\"Consequently\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Consequently\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Consequently",
         "explanation": "\"Consequently\" (Hậu quả kéo theo là) là từ vựng chính xác trong ngữ cảnh chủ đề Complex Sentence Structures."
       },
@@ -5104,7 +5356,7 @@ module.exports = [
       {
         "word": "Pitch",
         "meaning": "Bài thuyết trình chào hàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/pitch/",
         "partOfSpeech": "noun",
         "example": "I use Pitch in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pitch trong giao tiếp hàng ngày.",
@@ -5114,7 +5366,7 @@ module.exports = [
       {
         "word": "Hook",
         "meaning": "Chi tiết câu dẫn mở đầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/hook/",
         "partOfSpeech": "noun",
         "example": "I use Hook in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hook trong giao tiếp hàng ngày.",
@@ -5124,7 +5376,7 @@ module.exports = [
       {
         "word": "Articulate",
         "meaning": "Diễn đạt khúc chiết rõ ràng",
-        "pronunciation": "/.../",
+        "pronunciation": "/articulate/",
         "partOfSpeech": "noun",
         "example": "I use Articulate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Articulate trong giao tiếp hàng ngày.",
@@ -5134,7 +5386,7 @@ module.exports = [
       {
         "word": "Persuasion",
         "meaning": "Nghệ thuật thuyết phục",
-        "pronunciation": "/.../",
+        "pronunciation": "/persuasion/",
         "partOfSpeech": "noun",
         "example": "I use Persuasion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Persuasion trong giao tiếp hàng ngày.",
@@ -5144,7 +5396,7 @@ module.exports = [
       {
         "word": "Compelling",
         "meaning": "Hấp dẫn khó cưỡng",
-        "pronunciation": "/.../",
+        "pronunciation": "/compelling/",
         "partOfSpeech": "noun",
         "example": "I use Compelling in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Compelling trong giao tiếp hàng ngày.",
@@ -5154,7 +5406,7 @@ module.exports = [
       {
         "word": "Value proposition",
         "meaning": "Giá trị cốt lõi",
-        "pronunciation": "/.../",
+        "pronunciation": "/value proposition/",
         "partOfSpeech": "noun",
         "example": "I use Value proposition in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Value proposition trong giao tiếp hàng ngày.",
@@ -5164,7 +5416,7 @@ module.exports = [
       {
         "word": "Call to action",
         "meaning": "Lời kêu gọi hành động",
-        "pronunciation": "/.../",
+        "pronunciation": "/call to action/",
         "partOfSpeech": "noun",
         "example": "I use Call to action in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Call to action trong giao tiếp hàng ngày.",
@@ -5174,7 +5426,7 @@ module.exports = [
       {
         "word": "Presence",
         "meaning": "Thần thái sân khấu",
-        "pronunciation": "/.../",
+        "pronunciation": "/presence/",
         "partOfSpeech": "noun",
         "example": "I use Presence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Presence trong giao tiếp hàng ngày.",
@@ -5184,7 +5436,7 @@ module.exports = [
       {
         "word": "Credibility",
         "meaning": "Uy tín chuyên gia",
-        "pronunciation": "/.../",
+        "pronunciation": "/credibility/",
         "partOfSpeech": "noun",
         "example": "I use Credibility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Credibility trong giao tiếp hàng ngày.",
@@ -5194,7 +5446,7 @@ module.exports = [
       {
         "word": "Enthusiasm",
         "meaning": "Sự nhiệt huyết lôi cuốn",
-        "pronunciation": "/.../",
+        "pronunciation": "/enthusiasm/",
         "partOfSpeech": "noun",
         "example": "I use Enthusiasm in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Enthusiasm trong giao tiếp hàng ngày.",
@@ -5204,27 +5456,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc thuyết trình thuyết phục",
-        "explanation": "Ngữ pháp nâng cao B2: Public Speaking: Persuasive Pitching.",
+        "title": "Cấu trúc thuyết trình thuyết phục (Dạng khẳng định)",
         "formula": "Hook the audience, articulate the problem, deliver the solution",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Public Speaking: Persuasive Pitching.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Public Speaking: Persuasive Pitching.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Pitch\\\" trong câu:\",\"options\":[\"Pitch\",\"Pitchs\",\"Pitching\",\"Pitched\"],\"correctAnswer\":\"Pitch\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Pitch\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Hook\\\" trong câu:\",\"options\":[\"Hook\",\"Hooks\",\"Hooking\",\"Hooked\"],\"correctAnswer\":\"Hook\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hook\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Articulate\\\" trong câu:\",\"options\":[\"Articulate\",\"Articulates\",\"Articulateing\",\"Articulateed\"],\"correctAnswer\":\"Articulate\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Articulate\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Persuasion\\\" trong câu:\",\"options\":[\"Persuasion\",\"Persuasions\",\"Persuasioning\",\"Persuasioned\"],\"correctAnswer\":\"Persuasion\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Persuasion\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Compelling\\\" trong câu:\",\"options\":[\"Compelling\",\"Compellings\",\"Compellinging\",\"Compellinged\"],\"correctAnswer\":\"Compelling\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Compelling\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Value proposition\\\" trong câu:\",\"options\":[\"Value proposition\",\"Value propositions\",\"Value propositioning\",\"Value propositioned\"],\"correctAnswer\":\"Value proposition\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Value proposition\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Call to action\\\" trong câu:\",\"options\":[\"Call to action\",\"Call to actions\",\"Call to actioning\",\"Call to actioned\"],\"correctAnswer\":\"Call to action\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Call to action\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Hook the audience, articulate the problem, deliver the solution): Chọn dạng đúng của \\\"Presence\\\" trong câu:\",\"options\":[\"Presence\",\"Presences\",\"Presenceing\",\"Presenceed\"],\"correctAnswer\":\"Presence\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Presence\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Public Speaking: Persuasive Pitching. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Public Speaking: Persuasive Pitching\".",
+        "examples": "[{\"en\":\"I use \\\"Pitch\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Pitch\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Hook\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Hook\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Articulate\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Articulate\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Public Speaking: Persuasive Pitching",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Public Speaking: Persuasive Pitching, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Pitch\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Pitch\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Hook\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Hook\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Articulate\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Articulate\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Pitch\\\" has a specific pronunciation: /pitch/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Pitch\\\" có phát âm cụ thể là /pitch/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Hook\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Hook\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 19: Public Speaking: Persuasive Pitching",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Public Speaking: Persuasive Pitching. In daily life, communication plays a vital role. For instance, words like \"Pitch\" and \"Hook\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Public Speaking: Persuasive Pitching. In my daily routine, I frequently use the word \"Pitch\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Hook\" with my classmates. In addition, knowing how to use \"Articulate\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Public Speaking: Persuasive Pitching\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Public Speaking: Persuasive Pitching\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Public Speaking: Persuasive Pitching\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Hook\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Hook\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Hook\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Persuasion\\\" (Nghệ thuật thuyết phục) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Persuasion\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Compelling\\\" (Hấp dẫn khó cưỡng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Compelling\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Value proposition\\\" (Giá trị cốt lõi) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Value proposition\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Call to action\\\" (Lời kêu gọi hành động) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Call to action\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Presence\\\" (Thần thái sân khấu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Presence\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Hook\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Hook\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Hook' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Public Speaking: Persuasive Pitching",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Public Speaking: Persuasive Pitching.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Public Speaking: Persuasive Pitching?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Public Speaking: Persuasive Pitching chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Pitch\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Pitch\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Hook\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Hook\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 19: Public Speaking: Persuasive Pitching",
+        "passage": "Mastering the theme of \"Public Speaking: Persuasive Pitching\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Pitch\" (Bài thuyết trình chào hàng) and \"Hook\" (Chi tiết câu dẫn mở đầu) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Articulate\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Public Speaking: Persuasive Pitching\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Pitch\" (Bài thuyết trình chào hàng) và \"Hook\" (Chi tiết câu dẫn mở đầu) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Articulate\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Public Speaking: Persuasive Pitching\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Public Speaking: Persuasive Pitching\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Public Speaking: Persuasive Pitching\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Pitch\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Public Speaking: Persuasive Pitching\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Public Speaking: Persuasive Pitching\",\"explanation\":\"Đoạn văn khẳng định: \\\"Pitch\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -5236,7 +5502,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Pitch\",\"conversation\",\"I\",\"daily\",\"use\",\"in\"]",
+        "options": "[\"Pitch\",\"in\",\"use\",\"daily\",\"I\",\"conversation\"]",
         "correctAnswer": "I use Pitch in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Pitch in daily conversation\"."
       },
@@ -5252,7 +5518,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Hook\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Hook",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Hook\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /hook/ - \"Hook\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5286,13 +5552,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pitch\" là gì?",
-        "options": "[\"Bài thuyết trình chào hàng\",\"Chi tiết câu dẫn mở đầu\",\"Diễn đạt khúc chiết rõ ràng\",\"Nghệ thuật thuyết phục\"]",
+        "options": "[\"Nghệ thuật thuyết phục\",\"Diễn đạt khúc chiết rõ ràng\",\"Chi tiết câu dẫn mở đầu\",\"Bài thuyết trình chào hàng\"]",
         "correctAnswer": "Bài thuyết trình chào hàng",
-        "explanation": "\"Pitch\" có phiên âm /.../ và mang nghĩa là \"Bài thuyết trình chào hàng\"."
+        "explanation": "\"Pitch\" có phiên âm /pitch/ và mang nghĩa là \"Bài thuyết trình chào hàng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"Hook\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hook\"]",
         "correctAnswer": "Hook",
         "explanation": "\"Hook\" (Chi tiết câu dẫn mở đầu) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5306,11 +5572,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Persuasion\" là gì?",
         "options": "[\"Nghệ thuật thuyết phục\",\"Hấp dẫn khó cưỡng\",\"Giá trị cốt lõi\",\"Lời kêu gọi hành động\"]",
         "correctAnswer": "Nghệ thuật thuyết phục",
-        "explanation": "\"Persuasion\" có phiên âm /.../ và mang nghĩa là \"Nghệ thuật thuyết phục\"."
+        "explanation": "\"Persuasion\" có phiên âm /persuasion/ và mang nghĩa là \"Nghệ thuật thuyết phục\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"Compelling\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Compelling\",\"umbrellas\"]",
         "correctAnswer": "Compelling",
         "explanation": "\"Compelling\" (Hấp dẫn khó cưỡng) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5322,13 +5588,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Call to action\" là gì?",
-        "options": "[\"Lời kêu gọi hành động\",\"Thần thái sân khấu\",\"Uy tín chuyên gia\",\"Sự nhiệt huyết lôi cuốn\"]",
+        "options": "[\"Lời kêu gọi hành động\",\"Uy tín chuyên gia\",\"Thần thái sân khấu\",\"Sự nhiệt huyết lôi cuốn\"]",
         "correctAnswer": "Lời kêu gọi hành động",
-        "explanation": "\"Call to action\" có phiên âm /.../ và mang nghĩa là \"Lời kêu gọi hành động\"."
+        "explanation": "\"Call to action\" có phiên âm /call to action/ và mang nghĩa là \"Lời kêu gọi hành động\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"Presence\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Presence\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Presence",
         "explanation": "\"Presence\" (Thần thái sân khấu) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5342,11 +5608,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Enthusiasm\" là gì?",
         "options": "[\"Sự nhiệt huyết lôi cuốn\",\"Bài thuyết trình chào hàng\",\"Chi tiết câu dẫn mở đầu\",\"Diễn đạt khúc chiết rõ ràng\"]",
         "correctAnswer": "Sự nhiệt huyết lôi cuốn",
-        "explanation": "\"Enthusiasm\" có phiên âm /.../ và mang nghĩa là \"Sự nhiệt huyết lôi cuốn\"."
+        "explanation": "\"Enthusiasm\" có phiên âm /enthusiasm/ và mang nghĩa là \"Sự nhiệt huyết lôi cuốn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"Pitch\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Pitch\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Pitch",
         "explanation": "\"Pitch\" (Bài thuyết trình chào hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5358,13 +5624,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Articulate\" là gì?",
-        "options": "[\"Diễn đạt khúc chiết rõ ràng\",\"Nghệ thuật thuyết phục\",\"Hấp dẫn khó cưỡng\",\"Giá trị cốt lõi\"]",
+        "options": "[\"Nghệ thuật thuyết phục\",\"Diễn đạt khúc chiết rõ ràng\",\"Giá trị cốt lõi\",\"Hấp dẫn khó cưỡng\"]",
         "correctAnswer": "Diễn đạt khúc chiết rõ ràng",
-        "explanation": "\"Articulate\" có phiên âm /.../ và mang nghĩa là \"Diễn đạt khúc chiết rõ ràng\"."
+        "explanation": "\"Articulate\" có phiên âm /articulate/ và mang nghĩa là \"Diễn đạt khúc chiết rõ ràng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Public Speaking: Persuasive Pitching, we need to practice _____.\"",
-        "options": "[\"Persuasion\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Persuasion\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Persuasion",
         "explanation": "\"Persuasion\" (Nghệ thuật thuyết phục) là từ vựng chính xác trong ngữ cảnh chủ đề Public Speaking: Persuasive Pitching."
       },
@@ -5387,7 +5653,7 @@ module.exports = [
       {
         "word": "Q&A session",
         "meaning": "Phần hỏi đáp giao lưu",
-        "pronunciation": "/.../",
+        "pronunciation": "/q&a session/",
         "partOfSpeech": "noun",
         "example": "I use Q&A session in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Q&A session trong giao tiếp hàng ngày.",
@@ -5397,7 +5663,7 @@ module.exports = [
       {
         "word": "Reframe",
         "meaning": "Định hình lại câu hỏi",
-        "pronunciation": "/.../",
+        "pronunciation": "/reframe/",
         "partOfSpeech": "noun",
         "example": "I use Reframe in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Reframe trong giao tiếp hàng ngày.",
@@ -5407,7 +5673,7 @@ module.exports = [
       {
         "word": "Skeptical",
         "meaning": "Hoài nghi, thắc mắc",
-        "pronunciation": "/.../",
+        "pronunciation": "/skeptical/",
         "partOfSpeech": "noun",
         "example": "I use Skeptical in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Skeptical trong giao tiếp hàng ngày.",
@@ -5417,7 +5683,7 @@ module.exports = [
       {
         "word": "Clarify",
         "meaning": "Làm rõ nội hàm",
-        "pronunciation": "/.../",
+        "pronunciation": "/clarify/",
         "partOfSpeech": "noun",
         "example": "I use Clarify in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clarify trong giao tiếp hàng ngày.",
@@ -5427,7 +5693,7 @@ module.exports = [
       {
         "word": "Acknowledge",
         "meaning": "Thừa nhận ý kiến",
-        "pronunciation": "/.../",
+        "pronunciation": "/acknowledge/",
         "partOfSpeech": "noun",
         "example": "I use Acknowledge in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Acknowledge trong giao tiếp hàng ngày.",
@@ -5437,7 +5703,7 @@ module.exports = [
       {
         "word": "Concise",
         "meaning": "Ngắn gọn súc tích",
-        "pronunciation": "/.../",
+        "pronunciation": "/concise/",
         "partOfSpeech": "noun",
         "example": "I use Concise in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Concise trong giao tiếp hàng ngày.",
@@ -5447,7 +5713,7 @@ module.exports = [
       {
         "word": "Defuse",
         "meaning": "Xoa dịu không khí căng thẳng",
-        "pronunciation": "/.../",
+        "pronunciation": "/defuse/",
         "partOfSpeech": "noun",
         "example": "I use Defuse in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Defuse trong giao tiếp hàng ngày.",
@@ -5457,7 +5723,7 @@ module.exports = [
       {
         "word": "Expertise",
         "meaning": "Kiến thức chuyên môn sâu",
-        "pronunciation": "/.../",
+        "pronunciation": "/expertise/",
         "partOfSpeech": "noun",
         "example": "I use Expertise in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Expertise trong giao tiếp hàng ngày.",
@@ -5467,7 +5733,7 @@ module.exports = [
       {
         "word": "Poised",
         "meaning": "Bình tĩnh đĩnh đạc",
-        "pronunciation": "/.../",
+        "pronunciation": "/poised/",
         "partOfSpeech": "noun",
         "example": "I use Poised in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Poised trong giao tiếp hàng ngày.",
@@ -5477,7 +5743,7 @@ module.exports = [
       {
         "word": "Follow up",
         "meaning": "Trao đổi thêm sau giờ họp",
-        "pronunciation": "/.../",
+        "pronunciation": "/follow up/",
         "partOfSpeech": "noun",
         "example": "I use Follow up in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Follow up trong giao tiếp hàng ngày.",
@@ -5487,27 +5753,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Kỹ năng trả lời chất vấn tự tin",
-        "explanation": "Ngữ pháp nâng cao B2: Handling Q&A Sessions with Confidence.",
+        "title": "Kỹ năng trả lời chất vấn tự tin (Dạng khẳng định)",
         "formula": "Thank the questioner, reframe the core concern, provide evidence",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Handling Q&A Sessions with Confidence.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Handling Q&A Sessions with Confidence.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Q&A session\\\" trong câu:\",\"options\":[\"Q&A session\",\"Q&A sessions\",\"Q&A sessioning\",\"Q&A sessioned\"],\"correctAnswer\":\"Q&A session\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Q&A session\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Reframe\\\" trong câu:\",\"options\":[\"Reframe\",\"Reframes\",\"Reframeing\",\"Reframeed\"],\"correctAnswer\":\"Reframe\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Reframe\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Skeptical\\\" trong câu:\",\"options\":[\"Skeptical\",\"Skepticals\",\"Skepticaling\",\"Skepticaled\"],\"correctAnswer\":\"Skeptical\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Skeptical\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Clarify\\\" trong câu:\",\"options\":[\"Clarify\",\"Clarifys\",\"Clarifying\",\"Clarifyed\"],\"correctAnswer\":\"Clarify\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Clarify\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Acknowledge\\\" trong câu:\",\"options\":[\"Acknowledge\",\"Acknowledges\",\"Acknowledgeing\",\"Acknowledgeed\"],\"correctAnswer\":\"Acknowledge\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Acknowledge\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Concise\\\" trong câu:\",\"options\":[\"Concise\",\"Concises\",\"Conciseing\",\"Conciseed\"],\"correctAnswer\":\"Concise\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Concise\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Defuse\\\" trong câu:\",\"options\":[\"Defuse\",\"Defuses\",\"Defuseing\",\"Defuseed\"],\"correctAnswer\":\"Defuse\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Defuse\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thank the questioner, reframe the core concern, provide evidence): Chọn dạng đúng của \\\"Expertise\\\" trong câu:\",\"options\":[\"Expertise\",\"Expertises\",\"Expertiseing\",\"Expertiseed\"],\"correctAnswer\":\"Expertise\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Expertise\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Handling Q&A Sessions with Confidence. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Handling Q&A Sessions with Confidence\".",
+        "examples": "[{\"en\":\"I use \\\"Q&A session\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Q&A session\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Reframe\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Reframe\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Skeptical\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Skeptical\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Handling Q&A Sessions with Confidence",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Handling Q&A Sessions with Confidence, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Q&A session\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Q&A session\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Reframe\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Reframe\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Skeptical\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Skeptical\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Q&A session\\\" has a specific pronunciation: /q&a session/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Q&A session\\\" có phát âm cụ thể là /q&a session/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Reframe\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Reframe\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 20: Handling Q&A Sessions with Confidence",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Handling Q&A Sessions with Confidence. In daily life, communication plays a vital role. For instance, words like \"Q&A session\" and \"Reframe\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Handling Q&A Sessions with Confidence. In my daily routine, I frequently use the word \"Q&A session\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Reframe\" with my classmates. In addition, knowing how to use \"Skeptical\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Handling Q&A Sessions with Confidence\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Handling Q&A Sessions with Confidence\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Handling Q&A Sessions with Confidence\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Reframe\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Reframe\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Reframe\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Clarify\\\" (Làm rõ nội hàm) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Clarify\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Acknowledge\\\" (Thừa nhận ý kiến) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Acknowledge\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Concise\\\" (Ngắn gọn súc tích) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Concise\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Defuse\\\" (Xoa dịu không khí căng thẳng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Defuse\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Expertise\\\" (Kiến thức chuyên môn sâu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Expertise\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Reframe\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Reframe\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Reframe' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Handling Q&A Sessions with Confidence",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Handling Q&A Sessions with Confidence.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Handling Q&A Sessions with Confidence?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Handling Q&A Sessions with Confidence chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Q&A session\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Q&A session\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Reframe\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Reframe\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 20: Handling Q&A Sessions with Confidence",
+        "passage": "Mastering the theme of \"Handling Q&A Sessions with Confidence\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Q&A session\" (Phần hỏi đáp giao lưu) and \"Reframe\" (Định hình lại câu hỏi) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Skeptical\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Handling Q&A Sessions with Confidence\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Q&A session\" (Phần hỏi đáp giao lưu) và \"Reframe\" (Định hình lại câu hỏi) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Skeptical\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Handling Q&A Sessions with Confidence\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Handling Q&A Sessions with Confidence\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Handling Q&A Sessions with Confidence\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Q&A session\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Handling Q&A Sessions with Confidence\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Handling Q&A Sessions with Confidence\",\"explanation\":\"Đoạn văn khẳng định: \\\"Q&A session\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -5519,7 +5799,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Q&A\",\"session\",\"in\",\"daily\"]",
+        "options": "[\"use\",\"Q&A\",\"session\",\"in\",\"I\",\"daily\"]",
         "correctAnswer": "I use Q&A session in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Q&A session in daily\"."
       },
@@ -5535,7 +5815,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Reframe\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Reframe",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Reframe\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /reframe/ - \"Reframe\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5569,13 +5849,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Q&A session\" là gì?",
-        "options": "[\"Phần hỏi đáp giao lưu\",\"Định hình lại câu hỏi\",\"Hoài nghi, thắc mắc\",\"Làm rõ nội hàm\"]",
+        "options": "[\"Phần hỏi đáp giao lưu\",\"Định hình lại câu hỏi\",\"Làm rõ nội hàm\",\"Hoài nghi, thắc mắc\"]",
         "correctAnswer": "Phần hỏi đáp giao lưu",
-        "explanation": "\"Q&A session\" có phiên âm /.../ và mang nghĩa là \"Phần hỏi đáp giao lưu\"."
+        "explanation": "\"Q&A session\" có phiên âm /q&a session/ và mang nghĩa là \"Phần hỏi đáp giao lưu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"Reframe\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Reframe\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Reframe",
         "explanation": "\"Reframe\" (Định hình lại câu hỏi) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5587,13 +5867,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Clarify\" là gì?",
-        "options": "[\"Làm rõ nội hàm\",\"Thừa nhận ý kiến\",\"Ngắn gọn súc tích\",\"Xoa dịu không khí căng thẳng\"]",
+        "options": "[\"Ngắn gọn súc tích\",\"Làm rõ nội hàm\",\"Xoa dịu không khí căng thẳng\",\"Thừa nhận ý kiến\"]",
         "correctAnswer": "Làm rõ nội hàm",
-        "explanation": "\"Clarify\" có phiên âm /.../ và mang nghĩa là \"Làm rõ nội hàm\"."
+        "explanation": "\"Clarify\" có phiên âm /clarify/ và mang nghĩa là \"Làm rõ nội hàm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"Acknowledge\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Acknowledge\",\"airplanes\"]",
         "correctAnswer": "Acknowledge",
         "explanation": "\"Acknowledge\" (Thừa nhận ý kiến) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5605,13 +5885,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Defuse\" là gì?",
-        "options": "[\"Xoa dịu không khí căng thẳng\",\"Kiến thức chuyên môn sâu\",\"Bình tĩnh đĩnh đạc\",\"Trao đổi thêm sau giờ họp\"]",
+        "options": "[\"Trao đổi thêm sau giờ họp\",\"Bình tĩnh đĩnh đạc\",\"Kiến thức chuyên môn sâu\",\"Xoa dịu không khí căng thẳng\"]",
         "correctAnswer": "Xoa dịu không khí căng thẳng",
-        "explanation": "\"Defuse\" có phiên âm /.../ và mang nghĩa là \"Xoa dịu không khí căng thẳng\"."
+        "explanation": "\"Defuse\" có phiên âm /defuse/ và mang nghĩa là \"Xoa dịu không khí căng thẳng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"Expertise\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Expertise\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Expertise",
         "explanation": "\"Expertise\" (Kiến thức chuyên môn sâu) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5623,13 +5903,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Follow up\" là gì?",
-        "options": "[\"Trao đổi thêm sau giờ họp\",\"Phần hỏi đáp giao lưu\",\"Định hình lại câu hỏi\",\"Hoài nghi, thắc mắc\"]",
+        "options": "[\"Định hình lại câu hỏi\",\"Trao đổi thêm sau giờ họp\",\"Phần hỏi đáp giao lưu\",\"Hoài nghi, thắc mắc\"]",
         "correctAnswer": "Trao đổi thêm sau giờ họp",
-        "explanation": "\"Follow up\" có phiên âm /.../ và mang nghĩa là \"Trao đổi thêm sau giờ họp\"."
+        "explanation": "\"Follow up\" có phiên âm /follow up/ và mang nghĩa là \"Trao đổi thêm sau giờ họp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"Q&A session\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Q&A session\",\"umbrellas\"]",
         "correctAnswer": "Q&A session",
         "explanation": "\"Q&A session\" (Phần hỏi đáp giao lưu) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5641,13 +5921,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Skeptical\" là gì?",
-        "options": "[\"Hoài nghi, thắc mắc\",\"Làm rõ nội hàm\",\"Thừa nhận ý kiến\",\"Ngắn gọn súc tích\"]",
+        "options": "[\"Ngắn gọn súc tích\",\"Hoài nghi, thắc mắc\",\"Làm rõ nội hàm\",\"Thừa nhận ý kiến\"]",
         "correctAnswer": "Hoài nghi, thắc mắc",
-        "explanation": "\"Skeptical\" có phiên âm /.../ và mang nghĩa là \"Hoài nghi, thắc mắc\"."
+        "explanation": "\"Skeptical\" có phiên âm /skeptical/ và mang nghĩa là \"Hoài nghi, thắc mắc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Handling Q&A Sessions with Confidence, we need to practice _____.\"",
-        "options": "[\"Clarify\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Clarify\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Clarify",
         "explanation": "\"Clarify\" (Làm rõ nội hàm) là từ vựng chính xác trong ngữ cảnh chủ đề Handling Q&A Sessions with Confidence."
       },
@@ -5670,7 +5950,7 @@ module.exports = [
       {
         "word": "Cognitive bias",
         "meaning": "Thiên kiến nhận thức",
-        "pronunciation": "/.../",
+        "pronunciation": "/cognitive bias/",
         "partOfSpeech": "noun",
         "example": "I use Cognitive bias in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cognitive bias trong giao tiếp hàng ngày.",
@@ -5680,7 +5960,7 @@ module.exports = [
       {
         "word": "Confirmation bias",
         "meaning": "Xu hướng thiên vị xác nhận",
-        "pronunciation": "/.../",
+        "pronunciation": "/confirmation bias/",
         "partOfSpeech": "noun",
         "example": "I use Confirmation bias in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Confirmation bias trong giao tiếp hàng ngày.",
@@ -5690,7 +5970,7 @@ module.exports = [
       {
         "word": "Anchoring",
         "meaning": "Hiệu ứng mỏ neo tâm lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/anchoring/",
         "partOfSpeech": "noun",
         "example": "I use Anchoring in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Anchoring trong giao tiếp hàng ngày.",
@@ -5700,7 +5980,7 @@ module.exports = [
       {
         "word": "Heuristic",
         "meaning": "Lối tắt tư duy suy nghiệm",
-        "pronunciation": "/.../",
+        "pronunciation": "/heuristic/",
         "partOfSpeech": "noun",
         "example": "I use Heuristic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Heuristic trong giao tiếp hàng ngày.",
@@ -5710,7 +5990,7 @@ module.exports = [
       {
         "word": "Subconscious",
         "meaning": "Tiềm thức con người",
-        "pronunciation": "/.../",
+        "pronunciation": "/subconscious/",
         "partOfSpeech": "noun",
         "example": "I use Subconscious in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Subconscious trong giao tiếp hàng ngày.",
@@ -5720,7 +6000,7 @@ module.exports = [
       {
         "word": "Rationality",
         "meaning": "Tính duy lý khách quan",
-        "pronunciation": "/.../",
+        "pronunciation": "/rationality/",
         "partOfSpeech": "noun",
         "example": "I use Rationality in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rationality trong giao tiếp hàng ngày.",
@@ -5730,7 +6010,7 @@ module.exports = [
       {
         "word": "Impulse",
         "meaning": "Hành động bốc đồng",
-        "pronunciation": "/.../",
+        "pronunciation": "/impulse/",
         "partOfSpeech": "noun",
         "example": "I use Impulse in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Impulse trong giao tiếp hàng ngày.",
@@ -5740,7 +6020,7 @@ module.exports = [
       {
         "word": "Fallacy",
         "meaning": "Ngụy biện sai lầm",
-        "pronunciation": "/.../",
+        "pronunciation": "/fallacy/",
         "partOfSpeech": "noun",
         "example": "I use Fallacy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fallacy trong giao tiếp hàng ngày.",
@@ -5750,7 +6030,7 @@ module.exports = [
       {
         "word": "Introspection",
         "meaning": "Sự nội quan suy ngẫm",
-        "pronunciation": "/.../",
+        "pronunciation": "/introspection/",
         "partOfSpeech": "noun",
         "example": "I use Introspection in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Introspection trong giao tiếp hàng ngày.",
@@ -5760,7 +6040,7 @@ module.exports = [
       {
         "word": "Perception",
         "meaning": "Sự tiếp nhận cảm quan",
-        "pronunciation": "/.../",
+        "pronunciation": "/perception/",
         "partOfSpeech": "noun",
         "example": "I use Perception in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Perception trong giao tiếp hàng ngày.",
@@ -5770,27 +6050,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Phân tích các thiên kiến tâm lý con người",
-        "explanation": "Ngữ pháp nâng cao B2: Psychology: Cognitive Bias & Decision Making.",
+        "title": "Phân tích các thiên kiến tâm lý con người (Dạng khẳng định)",
         "formula": "Confirmation bias leads individuals to filter out opposing data",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Psychology: Cognitive Bias & Decision Making.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Psychology: Cognitive Bias & Decision Making.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Cognitive bias\\\" trong câu:\",\"options\":[\"Cognitive bias\",\"Cognitive biass\",\"Cognitive biasing\",\"Cognitive biased\"],\"correctAnswer\":\"Cognitive bias\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cognitive bias\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Confirmation bias\\\" trong câu:\",\"options\":[\"Confirmation bias\",\"Confirmation biass\",\"Confirmation biasing\",\"Confirmation biased\"],\"correctAnswer\":\"Confirmation bias\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Confirmation bias\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Anchoring\\\" trong câu:\",\"options\":[\"Anchoring\",\"Anchorings\",\"Anchoringing\",\"Anchoringed\"],\"correctAnswer\":\"Anchoring\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Anchoring\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Heuristic\\\" trong câu:\",\"options\":[\"Heuristic\",\"Heuristics\",\"Heuristicing\",\"Heuristiced\"],\"correctAnswer\":\"Heuristic\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Heuristic\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Subconscious\\\" trong câu:\",\"options\":[\"Subconscious\",\"Subconsciouss\",\"Subconsciousing\",\"Subconscioused\"],\"correctAnswer\":\"Subconscious\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Subconscious\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Rationality\\\" trong câu:\",\"options\":[\"Rationality\",\"Rationalitys\",\"Rationalitying\",\"Rationalityed\"],\"correctAnswer\":\"Rationality\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Rationality\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Impulse\\\" trong câu:\",\"options\":[\"Impulse\",\"Impulses\",\"Impulseing\",\"Impulseed\"],\"correctAnswer\":\"Impulse\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Impulse\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Confirmation bias leads individuals to filter out opposing data): Chọn dạng đúng của \\\"Fallacy\\\" trong câu:\",\"options\":[\"Fallacy\",\"Fallacys\",\"Fallacying\",\"Fallacyed\"],\"correctAnswer\":\"Fallacy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Fallacy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Psychology: Cognitive Bias & Decision Making. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Psychology: Cognitive Bias & Decision Making\".",
+        "examples": "[{\"en\":\"I use \\\"Cognitive bias\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Cognitive bias\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Confirmation bias\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Confirmation bias\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Anchoring\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Anchoring\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Psychology: Cognitive Bias & Decision Making",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Psychology: Cognitive Bias & Decision Making, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Cognitive bias\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Cognitive bias\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Confirmation bias\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Confirmation bias\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Anchoring\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Anchoring\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Cognitive bias\\\" has a specific pronunciation: /cognitive bias/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Cognitive bias\\\" có phát âm cụ thể là /cognitive bias/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Confirmation bias\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Confirmation bias\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 21: Psychology: Cognitive Bias & Decision Making",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Psychology: Cognitive Bias & Decision Making. In daily life, communication plays a vital role. For instance, words like \"Cognitive bias\" and \"Confirmation bias\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Psychology: Cognitive Bias & Decision Making. In my daily routine, I frequently use the word \"Cognitive bias\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Confirmation bias\" with my classmates. In addition, knowing how to use \"Anchoring\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Psychology: Cognitive Bias & Decision Making\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Psychology: Cognitive Bias & Decision Making\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Psychology: Cognitive Bias & Decision Making\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Confirmation bias\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Confirmation bias\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Confirmation bias\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Heuristic\\\" (Lối tắt tư duy suy nghiệm) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Heuristic\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Subconscious\\\" (Tiềm thức con người) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Subconscious\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Rationality\\\" (Tính duy lý khách quan) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Rationality\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Impulse\\\" (Hành động bốc đồng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Impulse\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Fallacy\\\" (Ngụy biện sai lầm) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Fallacy\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Confirmation bias\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Confirmation bias\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Confirmation bias' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Psychology: Cognitive Bias & Decision Making",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Psychology: Cognitive Bias & Decision Making.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Psychology: Cognitive Bias & Decision Making?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Psychology: Cognitive Bias & Decision Making chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Cognitive bias\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Cognitive bias\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Confirmation bias\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Confirmation bias\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 21: Psychology: Cognitive Bias & Decision Making",
+        "passage": "Mastering the theme of \"Psychology: Cognitive Bias & Decision Making\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Cognitive bias\" (Thiên kiến nhận thức) and \"Confirmation bias\" (Xu hướng thiên vị xác nhận) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Anchoring\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Psychology: Cognitive Bias & Decision Making\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Cognitive bias\" (Thiên kiến nhận thức) và \"Confirmation bias\" (Xu hướng thiên vị xác nhận) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Anchoring\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Psychology: Cognitive Bias & Decision Making\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Psychology: Cognitive Bias & Decision Making\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Psychology: Cognitive Bias & Decision Making\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Cognitive bias\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Psychology: Cognitive Bias & Decision Making\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Psychology: Cognitive Bias & Decision Making\",\"explanation\":\"Đoạn văn khẳng định: \\\"Cognitive bias\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -5802,7 +6096,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"Cognitive\",\"in\",\"daily\",\"bias\"]",
+        "options": "[\"Cognitive\",\"I\",\"bias\",\"in\",\"use\",\"daily\"]",
         "correctAnswer": "I use Cognitive bias in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Cognitive bias in daily\"."
       },
@@ -5818,7 +6112,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Confirmation bias\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Confirmation bias",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Confirmation bias\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /confirmation bias/ - \"Confirmation bias\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5852,13 +6146,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cognitive bias\" là gì?",
-        "options": "[\"Thiên kiến nhận thức\",\"Xu hướng thiên vị xác nhận\",\"Hiệu ứng mỏ neo tâm lý\",\"Lối tắt tư duy suy nghiệm\"]",
+        "options": "[\"Lối tắt tư duy suy nghiệm\",\"Hiệu ứng mỏ neo tâm lý\",\"Xu hướng thiên vị xác nhận\",\"Thiên kiến nhận thức\"]",
         "correctAnswer": "Thiên kiến nhận thức",
-        "explanation": "\"Cognitive bias\" có phiên âm /.../ và mang nghĩa là \"Thiên kiến nhận thức\"."
+        "explanation": "\"Cognitive bias\" có phiên âm /cognitive bias/ và mang nghĩa là \"Thiên kiến nhận thức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
-        "options": "[\"Confirmation bias\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Confirmation bias\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Confirmation bias",
         "explanation": "\"Confirmation bias\" (Xu hướng thiên vị xác nhận) là từ vựng chính xác trong ngữ cảnh chủ đề Psychology: Cognitive Bias & Decision Making."
       },
@@ -5870,13 +6164,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Heuristic\" là gì?",
-        "options": "[\"Lối tắt tư duy suy nghiệm\",\"Tiềm thức con người\",\"Tính duy lý khách quan\",\"Hành động bốc đồng\"]",
+        "options": "[\"Hành động bốc đồng\",\"Tiềm thức con người\",\"Lối tắt tư duy suy nghiệm\",\"Tính duy lý khách quan\"]",
         "correctAnswer": "Lối tắt tư duy suy nghiệm",
-        "explanation": "\"Heuristic\" có phiên âm /.../ và mang nghĩa là \"Lối tắt tư duy suy nghiệm\"."
+        "explanation": "\"Heuristic\" có phiên âm /heuristic/ và mang nghĩa là \"Lối tắt tư duy suy nghiệm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
-        "options": "[\"Subconscious\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Subconscious\",\"airplanes\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Subconscious",
         "explanation": "\"Subconscious\" (Tiềm thức con người) là từ vựng chính xác trong ngữ cảnh chủ đề Psychology: Cognitive Bias & Decision Making."
       },
@@ -5888,13 +6182,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Impulse\" là gì?",
-        "options": "[\"Hành động bốc đồng\",\"Ngụy biện sai lầm\",\"Sự nội quan suy ngẫm\",\"Sự tiếp nhận cảm quan\"]",
+        "options": "[\"Ngụy biện sai lầm\",\"Sự nội quan suy ngẫm\",\"Sự tiếp nhận cảm quan\",\"Hành động bốc đồng\"]",
         "correctAnswer": "Hành động bốc đồng",
-        "explanation": "\"Impulse\" có phiên âm /.../ và mang nghĩa là \"Hành động bốc đồng\"."
+        "explanation": "\"Impulse\" có phiên âm /impulse/ và mang nghĩa là \"Hành động bốc đồng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
-        "options": "[\"Fallacy\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Fallacy\",\"airplanes\"]",
         "correctAnswer": "Fallacy",
         "explanation": "\"Fallacy\" (Ngụy biện sai lầm) là từ vựng chính xác trong ngữ cảnh chủ đề Psychology: Cognitive Bias & Decision Making."
       },
@@ -5908,7 +6202,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Perception\" là gì?",
         "options": "[\"Sự tiếp nhận cảm quan\",\"Thiên kiến nhận thức\",\"Xu hướng thiên vị xác nhận\",\"Hiệu ứng mỏ neo tâm lý\"]",
         "correctAnswer": "Sự tiếp nhận cảm quan",
-        "explanation": "\"Perception\" có phiên âm /.../ và mang nghĩa là \"Sự tiếp nhận cảm quan\"."
+        "explanation": "\"Perception\" có phiên âm /perception/ và mang nghĩa là \"Sự tiếp nhận cảm quan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
@@ -5926,11 +6220,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Anchoring\" là gì?",
         "options": "[\"Hiệu ứng mỏ neo tâm lý\",\"Lối tắt tư duy suy nghiệm\",\"Tiềm thức con người\",\"Tính duy lý khách quan\"]",
         "correctAnswer": "Hiệu ứng mỏ neo tâm lý",
-        "explanation": "\"Anchoring\" có phiên âm /.../ và mang nghĩa là \"Hiệu ứng mỏ neo tâm lý\"."
+        "explanation": "\"Anchoring\" có phiên âm /anchoring/ và mang nghĩa là \"Hiệu ứng mỏ neo tâm lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Psychology: Cognitive Bias & Decision Making, we need to practice _____.\"",
-        "options": "[\"Heuristic\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Heuristic\",\"umbrellas\"]",
         "correctAnswer": "Heuristic",
         "explanation": "\"Heuristic\" (Lối tắt tư duy suy nghiệm) là từ vựng chính xác trong ngữ cảnh chủ đề Psychology: Cognitive Bias & Decision Making."
       },
@@ -5953,7 +6247,7 @@ module.exports = [
       {
         "word": "Dilemma",
         "meaning": "Tình thế tiến thoái lưỡng nan",
-        "pronunciation": "/.../",
+        "pronunciation": "/dilemma/",
         "partOfSpeech": "noun",
         "example": "I use Dilemma in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dilemma trong giao tiếp hàng ngày.",
@@ -5963,7 +6257,7 @@ module.exports = [
       {
         "word": "Utilitarianism",
         "meaning": "Thuyết vị lợi công lợi",
-        "pronunciation": "/.../",
+        "pronunciation": "/utilitarianism/",
         "partOfSpeech": "noun",
         "example": "I use Utilitarianism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Utilitarianism trong giao tiếp hàng ngày.",
@@ -5973,7 +6267,7 @@ module.exports = [
       {
         "word": "Deontology",
         "meaning": "Thuyết nghĩa vụ luân lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/deontology/",
         "partOfSpeech": "noun",
         "example": "I use Deontology in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Deontology trong giao tiếp hàng ngày.",
@@ -5983,7 +6277,7 @@ module.exports = [
       {
         "word": "Principle",
         "meaning": "Nguyên tắc sống bất biến",
-        "pronunciation": "/.../",
+        "pronunciation": "/principle/",
         "partOfSpeech": "noun",
         "example": "I use Principle in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Principle trong giao tiếp hàng ngày.",
@@ -5993,7 +6287,7 @@ module.exports = [
       {
         "word": "Virtue",
         "meaning": "Đức hạnh con người",
-        "pronunciation": "/.../",
+        "pronunciation": "/virtue/",
         "partOfSpeech": "noun",
         "example": "I use Virtue in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Virtue trong giao tiếp hàng ngày.",
@@ -6003,7 +6297,7 @@ module.exports = [
       {
         "word": "Justice",
         "meaning": "Sự công bằng công lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/justice/",
         "partOfSpeech": "noun",
         "example": "I use Justice in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Justice trong giao tiếp hàng ngày.",
@@ -6013,7 +6307,7 @@ module.exports = [
       {
         "word": "Conscience",
         "meaning": "Lương tâm chức trách",
-        "pronunciation": "/.../",
+        "pronunciation": "/conscience/",
         "partOfSpeech": "noun",
         "example": "I use Conscience in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Conscience trong giao tiếp hàng ngày.",
@@ -6023,7 +6317,7 @@ module.exports = [
       {
         "word": "Sacrifice",
         "meaning": "Sự hy sinh cao cả",
-        "pronunciation": "/.../",
+        "pronunciation": "/sacrifice/",
         "partOfSpeech": "noun",
         "example": "I use Sacrifice in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sacrifice trong giao tiếp hàng ngày.",
@@ -6033,7 +6327,7 @@ module.exports = [
       {
         "word": "Integrity",
         "meaning": "Sự chính trực liêm chính",
-        "pronunciation": "/.../",
+        "pronunciation": "/integrity/",
         "partOfSpeech": "noun",
         "example": "I use Integrity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Integrity trong giao tiếp hàng ngày.",
@@ -6043,7 +6337,7 @@ module.exports = [
       {
         "word": "Philosophy",
         "meaning": "Triết học nhân sinh",
-        "pronunciation": "/.../",
+        "pronunciation": "/philosophy/",
         "partOfSpeech": "noun",
         "example": "I use Philosophy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Philosophy trong giao tiếp hàng ngày.",
@@ -6053,27 +6347,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Bàn luận về các nghịch lý đạo đức",
-        "explanation": "Ngữ pháp nâng cao B2: Philosophy: Moral Dilemmas & Ethics.",
+        "title": "Bàn luận về các nghịch lý đạo đức (Dạng khẳng định)",
         "formula": "Weighing the greater good against individual human rights",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Philosophy: Moral Dilemmas & Ethics.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Philosophy: Moral Dilemmas & Ethics.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Dilemma\\\" trong câu:\",\"options\":[\"Dilemma\",\"Dilemmas\",\"Dilemmaing\",\"Dilemmaed\"],\"correctAnswer\":\"Dilemma\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Dilemma\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Utilitarianism\\\" trong câu:\",\"options\":[\"Utilitarianism\",\"Utilitarianisms\",\"Utilitarianisming\",\"Utilitarianismed\"],\"correctAnswer\":\"Utilitarianism\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Utilitarianism\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Deontology\\\" trong câu:\",\"options\":[\"Deontology\",\"Deontologys\",\"Deontologying\",\"Deontologyed\"],\"correctAnswer\":\"Deontology\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Deontology\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Principle\\\" trong câu:\",\"options\":[\"Principle\",\"Principles\",\"Principleing\",\"Principleed\"],\"correctAnswer\":\"Principle\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Principle\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Virtue\\\" trong câu:\",\"options\":[\"Virtue\",\"Virtues\",\"Virtueing\",\"Virtueed\"],\"correctAnswer\":\"Virtue\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Virtue\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Justice\\\" trong câu:\",\"options\":[\"Justice\",\"Justices\",\"Justiceing\",\"Justiceed\"],\"correctAnswer\":\"Justice\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Justice\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Conscience\\\" trong câu:\",\"options\":[\"Conscience\",\"Consciences\",\"Conscienceing\",\"Conscienceed\"],\"correctAnswer\":\"Conscience\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Conscience\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Weighing the greater good against individual human rights): Chọn dạng đúng của \\\"Sacrifice\\\" trong câu:\",\"options\":[\"Sacrifice\",\"Sacrifices\",\"Sacrificeing\",\"Sacrificeed\"],\"correctAnswer\":\"Sacrifice\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sacrifice\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Philosophy: Moral Dilemmas & Ethics. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Philosophy: Moral Dilemmas & Ethics\".",
+        "examples": "[{\"en\":\"I use \\\"Dilemma\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Dilemma\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Utilitarianism\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Utilitarianism\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Deontology\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Deontology\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Philosophy: Moral Dilemmas & Ethics",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Philosophy: Moral Dilemmas & Ethics, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Dilemma\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Dilemma\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Utilitarianism\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Utilitarianism\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Deontology\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Deontology\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Dilemma\\\" has a specific pronunciation: /dilemma/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Dilemma\\\" có phát âm cụ thể là /dilemma/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Utilitarianism\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Utilitarianism\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 22: Philosophy: Moral Dilemmas & Ethics",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Philosophy: Moral Dilemmas & Ethics. In daily life, communication plays a vital role. For instance, words like \"Dilemma\" and \"Utilitarianism\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Philosophy: Moral Dilemmas & Ethics. In my daily routine, I frequently use the word \"Dilemma\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Utilitarianism\" with my classmates. In addition, knowing how to use \"Deontology\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Philosophy: Moral Dilemmas & Ethics\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Philosophy: Moral Dilemmas & Ethics\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Philosophy: Moral Dilemmas & Ethics\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Utilitarianism\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Utilitarianism\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Utilitarianism\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Principle\\\" (Nguyên tắc sống bất biến) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Principle\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Virtue\\\" (Đức hạnh con người) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Virtue\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Justice\\\" (Sự công bằng công lý) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Justice\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Conscience\\\" (Lương tâm chức trách) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Conscience\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Sacrifice\\\" (Sự hy sinh cao cả) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Sacrifice\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Utilitarianism\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Utilitarianism\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Utilitarianism' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Philosophy: Moral Dilemmas & Ethics",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Philosophy: Moral Dilemmas & Ethics.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Philosophy: Moral Dilemmas & Ethics?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Philosophy: Moral Dilemmas & Ethics chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Dilemma\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Dilemma\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Utilitarianism\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Utilitarianism\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 22: Philosophy: Moral Dilemmas & Ethics",
+        "passage": "Mastering the theme of \"Philosophy: Moral Dilemmas & Ethics\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Dilemma\" (Tình thế tiến thoái lưỡng nan) and \"Utilitarianism\" (Thuyết vị lợi công lợi) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Deontology\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Philosophy: Moral Dilemmas & Ethics\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Dilemma\" (Tình thế tiến thoái lưỡng nan) và \"Utilitarianism\" (Thuyết vị lợi công lợi) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Deontology\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Philosophy: Moral Dilemmas & Ethics\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Philosophy: Moral Dilemmas & Ethics\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Philosophy: Moral Dilemmas & Ethics\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Dilemma\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Philosophy: Moral Dilemmas & Ethics\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Philosophy: Moral Dilemmas & Ethics\",\"explanation\":\"Đoạn văn khẳng định: \\\"Dilemma\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6085,7 +6393,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"I\",\"use\",\"Dilemma\",\"daily\",\"in\"]",
+        "options": "[\"I\",\"daily\",\"conversation\",\"use\",\"Dilemma\",\"in\"]",
         "correctAnswer": "I use Dilemma in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Dilemma in daily conversation\"."
       },
@@ -6101,7 +6409,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Utilitarianism\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Utilitarianism",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Utilitarianism\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /utilitarianism/ - \"Utilitarianism\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6135,13 +6443,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dilemma\" là gì?",
-        "options": "[\"Tình thế tiến thoái lưỡng nan\",\"Thuyết vị lợi công lợi\",\"Thuyết nghĩa vụ luân lý\",\"Nguyên tắc sống bất biến\"]",
+        "options": "[\"Thuyết vị lợi công lợi\",\"Nguyên tắc sống bất biến\",\"Tình thế tiến thoái lưỡng nan\",\"Thuyết nghĩa vụ luân lý\"]",
         "correctAnswer": "Tình thế tiến thoái lưỡng nan",
-        "explanation": "\"Dilemma\" có phiên âm /.../ và mang nghĩa là \"Tình thế tiến thoái lưỡng nan\"."
+        "explanation": "\"Dilemma\" có phiên âm /dilemma/ và mang nghĩa là \"Tình thế tiến thoái lưỡng nan\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"Utilitarianism\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Utilitarianism\",\"airplanes\"]",
         "correctAnswer": "Utilitarianism",
         "explanation": "\"Utilitarianism\" (Thuyết vị lợi công lợi) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6153,13 +6461,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Principle\" là gì?",
-        "options": "[\"Nguyên tắc sống bất biến\",\"Đức hạnh con người\",\"Sự công bằng công lý\",\"Lương tâm chức trách\"]",
+        "options": "[\"Đức hạnh con người\",\"Lương tâm chức trách\",\"Sự công bằng công lý\",\"Nguyên tắc sống bất biến\"]",
         "correctAnswer": "Nguyên tắc sống bất biến",
-        "explanation": "\"Principle\" có phiên âm /.../ và mang nghĩa là \"Nguyên tắc sống bất biến\"."
+        "explanation": "\"Principle\" có phiên âm /principle/ và mang nghĩa là \"Nguyên tắc sống bất biến\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"Virtue\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Virtue\"]",
         "correctAnswer": "Virtue",
         "explanation": "\"Virtue\" (Đức hạnh con người) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6171,13 +6479,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Conscience\" là gì?",
-        "options": "[\"Lương tâm chức trách\",\"Sự hy sinh cao cả\",\"Sự chính trực liêm chính\",\"Triết học nhân sinh\"]",
+        "options": "[\"Triết học nhân sinh\",\"Lương tâm chức trách\",\"Sự hy sinh cao cả\",\"Sự chính trực liêm chính\"]",
         "correctAnswer": "Lương tâm chức trách",
-        "explanation": "\"Conscience\" có phiên âm /.../ và mang nghĩa là \"Lương tâm chức trách\"."
+        "explanation": "\"Conscience\" có phiên âm /conscience/ và mang nghĩa là \"Lương tâm chức trách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"Sacrifice\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Sacrifice\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Sacrifice",
         "explanation": "\"Sacrifice\" (Sự hy sinh cao cả) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6189,13 +6497,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Philosophy\" là gì?",
-        "options": "[\"Triết học nhân sinh\",\"Tình thế tiến thoái lưỡng nan\",\"Thuyết vị lợi công lợi\",\"Thuyết nghĩa vụ luân lý\"]",
+        "options": "[\"Thuyết nghĩa vụ luân lý\",\"Thuyết vị lợi công lợi\",\"Tình thế tiến thoái lưỡng nan\",\"Triết học nhân sinh\"]",
         "correctAnswer": "Triết học nhân sinh",
-        "explanation": "\"Philosophy\" có phiên âm /.../ và mang nghĩa là \"Triết học nhân sinh\"."
+        "explanation": "\"Philosophy\" có phiên âm /philosophy/ và mang nghĩa là \"Triết học nhân sinh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
-        "options": "[\"Dilemma\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Dilemma\"]",
         "correctAnswer": "Dilemma",
         "explanation": "\"Dilemma\" (Tình thế tiến thoái lưỡng nan) là từ vựng chính xác trong ngữ cảnh chủ đề Philosophy: Moral Dilemmas & Ethics."
       },
@@ -6207,9 +6515,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Deontology\" là gì?",
-        "options": "[\"Thuyết nghĩa vụ luân lý\",\"Nguyên tắc sống bất biến\",\"Đức hạnh con người\",\"Sự công bằng công lý\"]",
+        "options": "[\"Sự công bằng công lý\",\"Đức hạnh con người\",\"Nguyên tắc sống bất biến\",\"Thuyết nghĩa vụ luân lý\"]",
         "correctAnswer": "Thuyết nghĩa vụ luân lý",
-        "explanation": "\"Deontology\" có phiên âm /.../ và mang nghĩa là \"Thuyết nghĩa vụ luân lý\"."
+        "explanation": "\"Deontology\" có phiên âm /deontology/ và mang nghĩa là \"Thuyết nghĩa vụ luân lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Philosophy: Moral Dilemmas & Ethics, we need to practice _____.\"",
@@ -6236,7 +6544,7 @@ module.exports = [
       {
         "word": "Remote work",
         "meaning": "Làm việc từ xa",
-        "pronunciation": "/.../",
+        "pronunciation": "/remote work/",
         "partOfSpeech": "noun",
         "example": "I use Remote work in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Remote work trong giao tiếp hàng ngày.",
@@ -6246,7 +6554,7 @@ module.exports = [
       {
         "word": "Asynchronous",
         "meaning": "Giao tiếp bất đồng bộ",
-        "pronunciation": "/.../",
+        "pronunciation": "/asynchronous/",
         "partOfSpeech": "noun",
         "example": "I use Asynchronous in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Asynchronous trong giao tiếp hàng ngày.",
@@ -6256,7 +6564,7 @@ module.exports = [
       {
         "word": "Autonomy",
         "meaning": "Quyền tự chủ làm việc",
-        "pronunciation": "/.../",
+        "pronunciation": "/autonomy/",
         "partOfSpeech": "noun",
         "example": "I use Autonomy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Autonomy trong giao tiếp hàng ngày.",
@@ -6266,7 +6574,7 @@ module.exports = [
       {
         "word": "Burnout",
         "meaning": "Hội chứng kiệt sức",
-        "pronunciation": "/.../",
+        "pronunciation": "/burnout/",
         "partOfSpeech": "noun",
         "example": "I use Burnout in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Burnout trong giao tiếp hàng ngày.",
@@ -6276,7 +6584,7 @@ module.exports = [
       {
         "word": "Time zone",
         "meaning": "Múi giờ quốc tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/time zone/",
         "partOfSpeech": "noun",
         "example": "I use Time zone in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Time zone trong giao tiếp hàng ngày.",
@@ -6286,7 +6594,7 @@ module.exports = [
       {
         "word": "Virtual team",
         "meaning": "Đội ngũ làm việc ảo",
-        "pronunciation": "/.../",
+        "pronunciation": "/virtual team/",
         "partOfSpeech": "noun",
         "example": "I use Virtual team in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Virtual team trong giao tiếp hàng ngày.",
@@ -6296,7 +6604,7 @@ module.exports = [
       {
         "word": "Connectivity",
         "meaning": "Mức độ kết nối mạng",
-        "pronunciation": "/.../",
+        "pronunciation": "/connectivity/",
         "partOfSpeech": "noun",
         "example": "I use Connectivity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Connectivity trong giao tiếp hàng ngày.",
@@ -6306,7 +6614,7 @@ module.exports = [
       {
         "word": "Work-life balance",
         "meaning": "Cân bằng công việc đời sống",
-        "pronunciation": "/.../",
+        "pronunciation": "/work-life balance/",
         "partOfSpeech": "noun",
         "example": "I use Work-life balance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Work-life balance trong giao tiếp hàng ngày.",
@@ -6316,7 +6624,7 @@ module.exports = [
       {
         "word": "Productivity",
         "meaning": "Năng suất lao động",
-        "pronunciation": "/.../",
+        "pronunciation": "/productivity/",
         "partOfSpeech": "noun",
         "example": "I use Productivity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Productivity trong giao tiếp hàng ngày.",
@@ -6326,7 +6634,7 @@ module.exports = [
       {
         "word": "Isolation",
         "meaning": "Cảm giác cô lập xa cách",
-        "pronunciation": "/.../",
+        "pronunciation": "/isolation/",
         "partOfSpeech": "noun",
         "example": "I use Isolation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Isolation trong giao tiếp hàng ngày.",
@@ -6336,27 +6644,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Giao tiếp làm việc bất đồng bộ (Async)",
-        "explanation": "Ngữ pháp nâng cao B2: The Future of Remote Work & Global Teams.",
+        "title": "Giao tiếp làm việc bất đồng bộ (Async) (Dạng khẳng định)",
         "formula": "Asynchronous communication empowers autonomy across time zones",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for The Future of Remote Work & Global Teams.\",\"vi\":\"Ví dụ đối thoại nâng cao cho The Future of Remote Work & Global Teams.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Remote work\\\" trong câu:\",\"options\":[\"Remote work\",\"Remote works\",\"Remote working\",\"Remote worked\"],\"correctAnswer\":\"Remote work\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Remote work\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Asynchronous\\\" trong câu:\",\"options\":[\"Asynchronous\",\"Asynchronouss\",\"Asynchronousing\",\"Asynchronoused\"],\"correctAnswer\":\"Asynchronous\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Asynchronous\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Autonomy\\\" trong câu:\",\"options\":[\"Autonomy\",\"Autonomys\",\"Autonomying\",\"Autonomyed\"],\"correctAnswer\":\"Autonomy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Autonomy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Burnout\\\" trong câu:\",\"options\":[\"Burnout\",\"Burnouts\",\"Burnouting\",\"Burnouted\"],\"correctAnswer\":\"Burnout\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Burnout\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Time zone\\\" trong câu:\",\"options\":[\"Time zone\",\"Time zones\",\"Time zoneing\",\"Time zoneed\"],\"correctAnswer\":\"Time zone\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Time zone\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Virtual team\\\" trong câu:\",\"options\":[\"Virtual team\",\"Virtual teams\",\"Virtual teaming\",\"Virtual teamed\"],\"correctAnswer\":\"Virtual team\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Virtual team\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Connectivity\\\" trong câu:\",\"options\":[\"Connectivity\",\"Connectivitys\",\"Connectivitying\",\"Connectivityed\"],\"correctAnswer\":\"Connectivity\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Connectivity\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Asynchronous communication empowers autonomy across time zones): Chọn dạng đúng của \\\"Work-life balance\\\" trong câu:\",\"options\":[\"Work-life balance\",\"Work-life balances\",\"Work-life balanceing\",\"Work-life balanceed\"],\"correctAnswer\":\"Work-life balance\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Work-life balance\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: The Future of Remote Work & Global Teams. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"The Future of Remote Work & Global Teams\".",
+        "examples": "[{\"en\":\"I use \\\"Remote work\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Remote work\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Asynchronous\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Asynchronous\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Autonomy\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Autonomy\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - The Future of Remote Work & Global Teams",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề The Future of Remote Work & Global Teams, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Remote work\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Remote work\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Asynchronous\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Asynchronous\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Autonomy\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Autonomy\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Remote work\\\" has a specific pronunciation: /remote work/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Remote work\\\" có phát âm cụ thể là /remote work/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Asynchronous\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Asynchronous\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 23: The Future of Remote Work & Global Teams",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of The Future of Remote Work & Global Teams. In daily life, communication plays a vital role. For instance, words like \"Remote work\" and \"Asynchronous\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with The Future of Remote Work & Global Teams. In my daily routine, I frequently use the word \"Remote work\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Asynchronous\" with my classmates. In addition, knowing how to use \"Autonomy\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"The Future of Remote Work & Global Teams\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"The Future of Remote Work & Global Teams\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"The Future of Remote Work & Global Teams\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Asynchronous\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Asynchronous\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Asynchronous\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Burnout\\\" (Hội chứng kiệt sức) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Burnout\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Time zone\\\" (Múi giờ quốc tế) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Time zone\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Virtual team\\\" (Đội ngũ làm việc ảo) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Virtual team\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Connectivity\\\" (Mức độ kết nối mạng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Connectivity\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Work-life balance\\\" (Cân bằng công việc đời sống) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Work-life balance\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Asynchronous\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Asynchronous\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Asynchronous' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: The Future of Remote Work & Global Teams",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề The Future of Remote Work & Global Teams.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on The Future of Remote Work & Global Teams?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về The Future of Remote Work & Global Teams chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Remote work\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Remote work\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Asynchronous\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Asynchronous\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 23: The Future of Remote Work & Global Teams",
+        "passage": "Mastering the theme of \"The Future of Remote Work & Global Teams\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Remote work\" (Làm việc từ xa) and \"Asynchronous\" (Giao tiếp bất đồng bộ) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Autonomy\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"The Future of Remote Work & Global Teams\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Remote work\" (Làm việc từ xa) và \"Asynchronous\" (Giao tiếp bất đồng bộ) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Autonomy\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Future of Remote Work & Global Teams\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề The Future of Remote Work & Global Teams\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"The Future of Remote Work & Global Teams\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Remote work\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề The Future of Remote Work & Global Teams\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề The Future of Remote Work & Global Teams\",\"explanation\":\"Đoạn văn khẳng định: \\\"Remote work\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6368,7 +6690,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"work\",\"daily\",\"Remote\",\"use\",\"I\"]",
+        "options": "[\"work\",\"use\",\"daily\",\"I\",\"in\",\"Remote\"]",
         "correctAnswer": "I use Remote work in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Remote work in daily\"."
       },
@@ -6384,7 +6706,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Asynchronous\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Asynchronous",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Asynchronous\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /asynchronous/ - \"Asynchronous\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6420,11 +6742,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Remote work\" là gì?",
         "options": "[\"Làm việc từ xa\",\"Giao tiếp bất đồng bộ\",\"Quyền tự chủ làm việc\",\"Hội chứng kiệt sức\"]",
         "correctAnswer": "Làm việc từ xa",
-        "explanation": "\"Remote work\" có phiên âm /.../ và mang nghĩa là \"Làm việc từ xa\"."
+        "explanation": "\"Remote work\" có phiên âm /remote work/ và mang nghĩa là \"Làm việc từ xa\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"Asynchronous\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Asynchronous\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Asynchronous",
         "explanation": "\"Asynchronous\" (Giao tiếp bất đồng bộ) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6436,13 +6758,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Burnout\" là gì?",
-        "options": "[\"Hội chứng kiệt sức\",\"Múi giờ quốc tế\",\"Đội ngũ làm việc ảo\",\"Mức độ kết nối mạng\"]",
+        "options": "[\"Mức độ kết nối mạng\",\"Hội chứng kiệt sức\",\"Múi giờ quốc tế\",\"Đội ngũ làm việc ảo\"]",
         "correctAnswer": "Hội chứng kiệt sức",
-        "explanation": "\"Burnout\" có phiên âm /.../ và mang nghĩa là \"Hội chứng kiệt sức\"."
+        "explanation": "\"Burnout\" có phiên âm /burnout/ và mang nghĩa là \"Hội chứng kiệt sức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"Time zone\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Time zone\"]",
         "correctAnswer": "Time zone",
         "explanation": "\"Time zone\" (Múi giờ quốc tế) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6454,9 +6776,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Connectivity\" là gì?",
-        "options": "[\"Mức độ kết nối mạng\",\"Cân bằng công việc đời sống\",\"Năng suất lao động\",\"Cảm giác cô lập xa cách\"]",
+        "options": "[\"Năng suất lao động\",\"Mức độ kết nối mạng\",\"Cân bằng công việc đời sống\",\"Cảm giác cô lập xa cách\"]",
         "correctAnswer": "Mức độ kết nối mạng",
-        "explanation": "\"Connectivity\" có phiên âm /.../ và mang nghĩa là \"Mức độ kết nối mạng\"."
+        "explanation": "\"Connectivity\" có phiên âm /connectivity/ và mang nghĩa là \"Mức độ kết nối mạng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
@@ -6472,13 +6794,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Isolation\" là gì?",
-        "options": "[\"Cảm giác cô lập xa cách\",\"Làm việc từ xa\",\"Giao tiếp bất đồng bộ\",\"Quyền tự chủ làm việc\"]",
+        "options": "[\"Quyền tự chủ làm việc\",\"Giao tiếp bất đồng bộ\",\"Làm việc từ xa\",\"Cảm giác cô lập xa cách\"]",
         "correctAnswer": "Cảm giác cô lập xa cách",
-        "explanation": "\"Isolation\" có phiên âm /.../ và mang nghĩa là \"Cảm giác cô lập xa cách\"."
+        "explanation": "\"Isolation\" có phiên âm /isolation/ và mang nghĩa là \"Cảm giác cô lập xa cách\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"Remote work\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Remote work\"]",
         "correctAnswer": "Remote work",
         "explanation": "\"Remote work\" (Làm việc từ xa) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6492,11 +6814,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Autonomy\" là gì?",
         "options": "[\"Quyền tự chủ làm việc\",\"Hội chứng kiệt sức\",\"Múi giờ quốc tế\",\"Đội ngũ làm việc ảo\"]",
         "correctAnswer": "Quyền tự chủ làm việc",
-        "explanation": "\"Autonomy\" có phiên âm /.../ và mang nghĩa là \"Quyền tự chủ làm việc\"."
+        "explanation": "\"Autonomy\" có phiên âm /autonomy/ và mang nghĩa là \"Quyền tự chủ làm việc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on The Future of Remote Work & Global Teams, we need to practice _____.\"",
-        "options": "[\"Burnout\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Burnout\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Burnout",
         "explanation": "\"Burnout\" (Hội chứng kiệt sức) là từ vựng chính xác trong ngữ cảnh chủ đề The Future of Remote Work & Global Teams."
       },
@@ -6519,7 +6841,7 @@ module.exports = [
       {
         "word": "Architecture",
         "meaning": "Kiến trúc công trình",
-        "pronunciation": "/.../",
+        "pronunciation": "/architecture/",
         "partOfSpeech": "noun",
         "example": "I use Architecture in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Architecture trong giao tiếp hàng ngày.",
@@ -6529,7 +6851,7 @@ module.exports = [
       {
         "word": "Passive design",
         "meaning": "Thiết kế năng lượng thụ động",
-        "pronunciation": "/.../",
+        "pronunciation": "/passive design/",
         "partOfSpeech": "noun",
         "example": "I use Passive design in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Passive design trong giao tiếp hàng ngày.",
@@ -6539,7 +6861,7 @@ module.exports = [
       {
         "word": "Ventilation",
         "meaning": "Sự thông gió tự nhiên",
-        "pronunciation": "/.../",
+        "pronunciation": "/ventilation/",
         "partOfSpeech": "noun",
         "example": "I use Ventilation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ventilation trong giao tiếp hàng ngày.",
@@ -6549,7 +6871,7 @@ module.exports = [
       {
         "word": "Insulation",
         "meaning": "Vật liệu cách nhiệt",
-        "pronunciation": "/.../",
+        "pronunciation": "/insulation/",
         "partOfSpeech": "noun",
         "example": "I use Insulation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Insulation trong giao tiếp hàng ngày.",
@@ -6559,7 +6881,7 @@ module.exports = [
       {
         "word": "Materials",
         "meaning": "Vật liệu xây dựng xanh",
-        "pronunciation": "/.../",
+        "pronunciation": "/materials/",
         "partOfSpeech": "noun",
         "example": "I use Materials in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Materials trong giao tiếp hàng ngày.",
@@ -6569,7 +6891,7 @@ module.exports = [
       {
         "word": "Aesthetics",
         "meaning": "Tính thẩm mỹ nghệ thuật",
-        "pronunciation": "/.../",
+        "pronunciation": "/aesthetics/",
         "partOfSpeech": "noun",
         "example": "I use Aesthetics in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Aesthetics trong giao tiếp hàng ngày.",
@@ -6579,7 +6901,7 @@ module.exports = [
       {
         "word": "Functional",
         "meaning": "Mang tính công năng cao",
-        "pronunciation": "/.../",
+        "pronunciation": "/functional/",
         "partOfSpeech": "noun",
         "example": "I use Functional in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Functional trong giao tiếp hàng ngày.",
@@ -6589,7 +6911,7 @@ module.exports = [
       {
         "word": "Urban fabric",
         "meaning": "Cấu trúc cảnh quan đô thị",
-        "pronunciation": "/.../",
+        "pronunciation": "/urban fabric/",
         "partOfSpeech": "noun",
         "example": "I use Urban fabric in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Urban fabric trong giao tiếp hàng ngày.",
@@ -6599,7 +6921,7 @@ module.exports = [
       {
         "word": "Renewable",
         "meaning": "Tái tạo năng lượng",
-        "pronunciation": "/.../",
+        "pronunciation": "/renewable/",
         "partOfSpeech": "noun",
         "example": "I use Renewable in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Renewable trong giao tiếp hàng ngày.",
@@ -6609,7 +6931,7 @@ module.exports = [
       {
         "word": "Harmony",
         "meaning": "Sự hòa hợp với thiên nhiên",
-        "pronunciation": "/.../",
+        "pronunciation": "/harmony/",
         "partOfSpeech": "noun",
         "example": "I use Harmony in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Harmony trong giao tiếp hàng ngày.",
@@ -6619,27 +6941,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Nguyên lý kiến trúc xanh bền vững",
-        "explanation": "Ngữ pháp nâng cao B2: Sustainable Architecture & Design.",
+        "title": "Nguyên lý kiến trúc xanh bền vững (Dạng khẳng định)",
         "formula": "Passive solar design reduces heating demands considerably",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Sustainable Architecture & Design.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Sustainable Architecture & Design.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Architecture\\\" trong câu:\",\"options\":[\"Architecture\",\"Architectures\",\"Architectureing\",\"Architectureed\"],\"correctAnswer\":\"Architecture\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Architecture\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Passive design\\\" trong câu:\",\"options\":[\"Passive design\",\"Passive designs\",\"Passive designing\",\"Passive designed\"],\"correctAnswer\":\"Passive design\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Passive design\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Ventilation\\\" trong câu:\",\"options\":[\"Ventilation\",\"Ventilations\",\"Ventilationing\",\"Ventilationed\"],\"correctAnswer\":\"Ventilation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Ventilation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Insulation\\\" trong câu:\",\"options\":[\"Insulation\",\"Insulations\",\"Insulationing\",\"Insulationed\"],\"correctAnswer\":\"Insulation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Insulation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Materials\\\" trong câu:\",\"options\":[\"Materials\",\"Materialss\",\"Materialsing\",\"Materialsed\"],\"correctAnswer\":\"Materials\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Materials\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Aesthetics\\\" trong câu:\",\"options\":[\"Aesthetics\",\"Aestheticss\",\"Aestheticsing\",\"Aestheticsed\"],\"correctAnswer\":\"Aesthetics\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Aesthetics\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Functional\\\" trong câu:\",\"options\":[\"Functional\",\"Functionals\",\"Functionaling\",\"Functionaled\"],\"correctAnswer\":\"Functional\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Functional\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Passive solar design reduces heating demands considerably): Chọn dạng đúng của \\\"Urban fabric\\\" trong câu:\",\"options\":[\"Urban fabric\",\"Urban fabrics\",\"Urban fabricing\",\"Urban fabriced\"],\"correctAnswer\":\"Urban fabric\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Urban fabric\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Sustainable Architecture & Design. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Sustainable Architecture & Design\".",
+        "examples": "[{\"en\":\"I use \\\"Architecture\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Architecture\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Passive design\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Passive design\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Ventilation\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Ventilation\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Sustainable Architecture & Design",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Sustainable Architecture & Design, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Architecture\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Architecture\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Passive design\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Passive design\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Ventilation\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Ventilation\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Architecture\\\" has a specific pronunciation: /architecture/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Architecture\\\" có phát âm cụ thể là /architecture/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Passive design\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Passive design\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 24: Sustainable Architecture & Design",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Sustainable Architecture & Design. In daily life, communication plays a vital role. For instance, words like \"Architecture\" and \"Passive design\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Sustainable Architecture & Design. In my daily routine, I frequently use the word \"Architecture\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Passive design\" with my classmates. In addition, knowing how to use \"Ventilation\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Sustainable Architecture & Design\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Sustainable Architecture & Design\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Sustainable Architecture & Design\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Passive design\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Passive design\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Passive design\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Insulation\\\" (Vật liệu cách nhiệt) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Insulation\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Materials\\\" (Vật liệu xây dựng xanh) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Materials\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Aesthetics\\\" (Tính thẩm mỹ nghệ thuật) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Aesthetics\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Functional\\\" (Mang tính công năng cao) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Functional\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Urban fabric\\\" (Cấu trúc cảnh quan đô thị) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Urban fabric\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Passive design\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Passive design\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Passive design' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Sustainable Architecture & Design",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Sustainable Architecture & Design.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Sustainable Architecture & Design?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Sustainable Architecture & Design chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Architecture\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Architecture\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Passive design\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Passive design\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 24: Sustainable Architecture & Design",
+        "passage": "Mastering the theme of \"Sustainable Architecture & Design\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Architecture\" (Kiến trúc công trình) and \"Passive design\" (Thiết kế năng lượng thụ động) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Ventilation\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Sustainable Architecture & Design\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Architecture\" (Kiến trúc công trình) và \"Passive design\" (Thiết kế năng lượng thụ động) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Ventilation\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Sustainable Architecture & Design\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Sustainable Architecture & Design\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Sustainable Architecture & Design\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Architecture\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Sustainable Architecture & Design\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Sustainable Architecture & Design\",\"explanation\":\"Đoạn văn khẳng định: \\\"Architecture\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6651,7 +6987,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"in\",\"conversation\",\"Architecture\",\"use\",\"I\"]",
+        "options": "[\"daily\",\"use\",\"conversation\",\"I\",\"Architecture\",\"in\"]",
         "correctAnswer": "I use Architecture in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Architecture in daily conversation\"."
       },
@@ -6667,7 +7003,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Passive design\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Passive design",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Passive design\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /passive design/ - \"Passive design\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6701,13 +7037,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Architecture\" là gì?",
-        "options": "[\"Kiến trúc công trình\",\"Thiết kế năng lượng thụ động\",\"Sự thông gió tự nhiên\",\"Vật liệu cách nhiệt\"]",
+        "options": "[\"Vật liệu cách nhiệt\",\"Sự thông gió tự nhiên\",\"Thiết kế năng lượng thụ động\",\"Kiến trúc công trình\"]",
         "correctAnswer": "Kiến trúc công trình",
-        "explanation": "\"Architecture\" có phiên âm /.../ và mang nghĩa là \"Kiến trúc công trình\"."
+        "explanation": "\"Architecture\" có phiên âm /architecture/ và mang nghĩa là \"Kiến trúc công trình\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"Passive design\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"umbrellas\",\"Passive design\"]",
         "correctAnswer": "Passive design",
         "explanation": "\"Passive design\" (Thiết kế năng lượng thụ động) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -6719,13 +7055,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Insulation\" là gì?",
-        "options": "[\"Vật liệu cách nhiệt\",\"Vật liệu xây dựng xanh\",\"Tính thẩm mỹ nghệ thuật\",\"Mang tính công năng cao\"]",
+        "options": "[\"Mang tính công năng cao\",\"Tính thẩm mỹ nghệ thuật\",\"Vật liệu xây dựng xanh\",\"Vật liệu cách nhiệt\"]",
         "correctAnswer": "Vật liệu cách nhiệt",
-        "explanation": "\"Insulation\" có phiên âm /.../ và mang nghĩa là \"Vật liệu cách nhiệt\"."
+        "explanation": "\"Insulation\" có phiên âm /insulation/ và mang nghĩa là \"Vật liệu cách nhiệt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"Materials\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Materials\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Materials",
         "explanation": "\"Materials\" (Vật liệu xây dựng xanh) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -6737,9 +7073,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Functional\" là gì?",
-        "options": "[\"Mang tính công năng cao\",\"Cấu trúc cảnh quan đô thị\",\"Tái tạo năng lượng\",\"Sự hòa hợp với thiên nhiên\"]",
+        "options": "[\"Tái tạo năng lượng\",\"Cấu trúc cảnh quan đô thị\",\"Mang tính công năng cao\",\"Sự hòa hợp với thiên nhiên\"]",
         "correctAnswer": "Mang tính công năng cao",
-        "explanation": "\"Functional\" có phiên âm /.../ và mang nghĩa là \"Mang tính công năng cao\"."
+        "explanation": "\"Functional\" có phiên âm /functional/ và mang nghĩa là \"Mang tính công năng cao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
@@ -6755,9 +7091,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Harmony\" là gì?",
-        "options": "[\"Sự hòa hợp với thiên nhiên\",\"Kiến trúc công trình\",\"Thiết kế năng lượng thụ động\",\"Sự thông gió tự nhiên\"]",
+        "options": "[\"Sự hòa hợp với thiên nhiên\",\"Sự thông gió tự nhiên\",\"Kiến trúc công trình\",\"Thiết kế năng lượng thụ động\"]",
         "correctAnswer": "Sự hòa hợp với thiên nhiên",
-        "explanation": "\"Harmony\" có phiên âm /.../ và mang nghĩa là \"Sự hòa hợp với thiên nhiên\"."
+        "explanation": "\"Harmony\" có phiên âm /harmony/ và mang nghĩa là \"Sự hòa hợp với thiên nhiên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
@@ -6773,13 +7109,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ventilation\" là gì?",
-        "options": "[\"Sự thông gió tự nhiên\",\"Vật liệu cách nhiệt\",\"Vật liệu xây dựng xanh\",\"Tính thẩm mỹ nghệ thuật\"]",
+        "options": "[\"Vật liệu cách nhiệt\",\"Sự thông gió tự nhiên\",\"Tính thẩm mỹ nghệ thuật\",\"Vật liệu xây dựng xanh\"]",
         "correctAnswer": "Sự thông gió tự nhiên",
-        "explanation": "\"Ventilation\" có phiên âm /.../ và mang nghĩa là \"Sự thông gió tự nhiên\"."
+        "explanation": "\"Ventilation\" có phiên âm /ventilation/ và mang nghĩa là \"Sự thông gió tự nhiên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Sustainable Architecture & Design, we need to practice _____.\"",
-        "options": "[\"Insulation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Insulation\"]",
         "correctAnswer": "Insulation",
         "explanation": "\"Insulation\" (Vật liệu cách nhiệt) là từ vựng chính xác trong ngữ cảnh chủ đề Sustainable Architecture & Design."
       },
@@ -6802,7 +7138,7 @@ module.exports = [
       {
         "word": "Ecotourism",
         "meaning": "Du lịch sinh thái",
-        "pronunciation": "/.../",
+        "pronunciation": "/ecotourism/",
         "partOfSpeech": "noun",
         "example": "I use Ecotourism in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ecotourism trong giao tiếp hàng ngày.",
@@ -6812,7 +7148,7 @@ module.exports = [
       {
         "word": "Conservation",
         "meaning": "Bảo tồn đa dạng sinh học",
-        "pronunciation": "/.../",
+        "pronunciation": "/conservation/",
         "partOfSpeech": "noun",
         "example": "I use Conservation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Conservation trong giao tiếp hàng ngày.",
@@ -6822,7 +7158,7 @@ module.exports = [
       {
         "word": "Indigenous",
         "meaning": "Bản địa, thổ dân",
-        "pronunciation": "/.../",
+        "pronunciation": "/indigenous/",
         "partOfSpeech": "noun",
         "example": "I use Indigenous in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Indigenous trong giao tiếp hàng ngày.",
@@ -6832,7 +7168,7 @@ module.exports = [
       {
         "word": "Preservation",
         "meaning": "Giữ gìn nguyên vẹn",
-        "pronunciation": "/.../",
+        "pronunciation": "/preservation/",
         "partOfSpeech": "noun",
         "example": "I use Preservation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Preservation trong giao tiếp hàng ngày.",
@@ -6842,7 +7178,7 @@ module.exports = [
       {
         "word": "Fragile",
         "meaning": "Dễ tổn thương",
-        "pronunciation": "/.../",
+        "pronunciation": "/fragile/",
         "partOfSpeech": "noun",
         "example": "I use Fragile in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fragile trong giao tiếp hàng ngày.",
@@ -6852,7 +7188,7 @@ module.exports = [
       {
         "word": "Footprint",
         "meaning": "Dấu chân tác động",
-        "pronunciation": "/.../",
+        "pronunciation": "/footprint/",
         "partOfSpeech": "noun",
         "example": "I use Footprint in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Footprint trong giao tiếp hàng ngày.",
@@ -6862,7 +7198,7 @@ module.exports = [
       {
         "word": "Authentic",
         "meaning": "Chân thực nguyên bản",
-        "pronunciation": "/.../",
+        "pronunciation": "/authentic/",
         "partOfSpeech": "noun",
         "example": "I use Authentic in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Authentic trong giao tiếp hàng ngày.",
@@ -6872,7 +7208,7 @@ module.exports = [
       {
         "word": "Empowerment",
         "meaning": "Trao quyền tự chủ địa phương",
-        "pronunciation": "/.../",
+        "pronunciation": "/empowerment/",
         "partOfSpeech": "noun",
         "example": "I use Empowerment in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Empowerment trong giao tiếp hàng ngày.",
@@ -6882,7 +7218,7 @@ module.exports = [
       {
         "word": "Biodiversity",
         "meaning": "Đa dạng sinh thái",
-        "pronunciation": "/.../",
+        "pronunciation": "/biodiversity/",
         "partOfSpeech": "noun",
         "example": "I use Biodiversity in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Biodiversity trong giao tiếp hàng ngày.",
@@ -6892,7 +7228,7 @@ module.exports = [
       {
         "word": "Responsibility",
         "meaning": "Ý thức trách nhiệm cao",
-        "pronunciation": "/.../",
+        "pronunciation": "/responsibility/",
         "partOfSpeech": "noun",
         "example": "I use Responsibility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Responsibility trong giao tiếp hàng ngày.",
@@ -6902,27 +7238,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Du lịch bền vững có trách nhiệm",
-        "explanation": "Ngữ pháp nâng cao B2: Global Ecotourism & Cultural Impact.",
+        "title": "Du lịch bền vững có trách nhiệm (Dạng khẳng định)",
         "formula": "Ecotourism seeks to minimize footprint while enriching locals",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Global Ecotourism & Cultural Impact.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Global Ecotourism & Cultural Impact.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Ecotourism\\\" trong câu:\",\"options\":[\"Ecotourism\",\"Ecotourisms\",\"Ecotourisming\",\"Ecotourismed\"],\"correctAnswer\":\"Ecotourism\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Ecotourism\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Conservation\\\" trong câu:\",\"options\":[\"Conservation\",\"Conservations\",\"Conservationing\",\"Conservationed\"],\"correctAnswer\":\"Conservation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Conservation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Indigenous\\\" trong câu:\",\"options\":[\"Indigenous\",\"Indigenouss\",\"Indigenousing\",\"Indigenoused\"],\"correctAnswer\":\"Indigenous\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Indigenous\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Preservation\\\" trong câu:\",\"options\":[\"Preservation\",\"Preservations\",\"Preservationing\",\"Preservationed\"],\"correctAnswer\":\"Preservation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Preservation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Fragile\\\" trong câu:\",\"options\":[\"Fragile\",\"Fragiles\",\"Fragileing\",\"Fragileed\"],\"correctAnswer\":\"Fragile\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Fragile\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Footprint\\\" trong câu:\",\"options\":[\"Footprint\",\"Footprints\",\"Footprinting\",\"Footprinted\"],\"correctAnswer\":\"Footprint\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Footprint\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Authentic\\\" trong câu:\",\"options\":[\"Authentic\",\"Authentics\",\"Authenticing\",\"Authenticed\"],\"correctAnswer\":\"Authentic\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Authentic\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Ecotourism seeks to minimize footprint while enriching locals): Chọn dạng đúng của \\\"Empowerment\\\" trong câu:\",\"options\":[\"Empowerment\",\"Empowerments\",\"Empowermenting\",\"Empowermented\"],\"correctAnswer\":\"Empowerment\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Empowerment\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Global Ecotourism & Cultural Impact. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Global Ecotourism & Cultural Impact\".",
+        "examples": "[{\"en\":\"I use \\\"Ecotourism\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Ecotourism\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Conservation\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Conservation\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Indigenous\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Indigenous\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Global Ecotourism & Cultural Impact",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Global Ecotourism & Cultural Impact, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Ecotourism\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Ecotourism\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Conservation\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Conservation\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Indigenous\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Indigenous\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Ecotourism\\\" has a specific pronunciation: /ecotourism/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Ecotourism\\\" có phát âm cụ thể là /ecotourism/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Conservation\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Conservation\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 25: Global Ecotourism & Cultural Impact",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Global Ecotourism & Cultural Impact. In daily life, communication plays a vital role. For instance, words like \"Ecotourism\" and \"Conservation\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Global Ecotourism & Cultural Impact. In my daily routine, I frequently use the word \"Ecotourism\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Conservation\" with my classmates. In addition, knowing how to use \"Indigenous\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Global Ecotourism & Cultural Impact\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Global Ecotourism & Cultural Impact\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Global Ecotourism & Cultural Impact\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Conservation\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Conservation\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Conservation\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Preservation\\\" (Giữ gìn nguyên vẹn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Preservation\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Fragile\\\" (Dễ tổn thương) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Fragile\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Footprint\\\" (Dấu chân tác động) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Footprint\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Authentic\\\" (Chân thực nguyên bản) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Authentic\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Empowerment\\\" (Trao quyền tự chủ địa phương) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Empowerment\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Conservation\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Conservation\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Conservation' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Global Ecotourism & Cultural Impact",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Global Ecotourism & Cultural Impact.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Global Ecotourism & Cultural Impact?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Global Ecotourism & Cultural Impact chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Ecotourism\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Ecotourism\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Conservation\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Conservation\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 25: Global Ecotourism & Cultural Impact",
+        "passage": "Mastering the theme of \"Global Ecotourism & Cultural Impact\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Ecotourism\" (Du lịch sinh thái) and \"Conservation\" (Bảo tồn đa dạng sinh học) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Indigenous\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Global Ecotourism & Cultural Impact\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Ecotourism\" (Du lịch sinh thái) và \"Conservation\" (Bảo tồn đa dạng sinh học) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Indigenous\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Global Ecotourism & Cultural Impact\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Global Ecotourism & Cultural Impact\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Global Ecotourism & Cultural Impact\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Ecotourism\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Global Ecotourism & Cultural Impact\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Global Ecotourism & Cultural Impact\",\"explanation\":\"Đoạn văn khẳng định: \\\"Ecotourism\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6934,7 +7284,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"daily\",\"use\",\"conversation\",\"in\",\"Ecotourism\"]",
+        "options": "[\"use\",\"in\",\"conversation\",\"daily\",\"I\",\"Ecotourism\"]",
         "correctAnswer": "I use Ecotourism in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Ecotourism in daily conversation\"."
       },
@@ -6950,7 +7300,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Conservation\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Conservation",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Conservation\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /conservation/ - \"Conservation\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6984,13 +7334,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ecotourism\" là gì?",
-        "options": "[\"Du lịch sinh thái\",\"Bảo tồn đa dạng sinh học\",\"Bản địa, thổ dân\",\"Giữ gìn nguyên vẹn\"]",
+        "options": "[\"Bản địa, thổ dân\",\"Bảo tồn đa dạng sinh học\",\"Du lịch sinh thái\",\"Giữ gìn nguyên vẹn\"]",
         "correctAnswer": "Du lịch sinh thái",
-        "explanation": "\"Ecotourism\" có phiên âm /.../ và mang nghĩa là \"Du lịch sinh thái\"."
+        "explanation": "\"Ecotourism\" có phiên âm /ecotourism/ và mang nghĩa là \"Du lịch sinh thái\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"Conservation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Conservation\",\"umbrellas\"]",
         "correctAnswer": "Conservation",
         "explanation": "\"Conservation\" (Bảo tồn đa dạng sinh học) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7002,13 +7352,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Preservation\" là gì?",
-        "options": "[\"Giữ gìn nguyên vẹn\",\"Dễ tổn thương\",\"Dấu chân tác động\",\"Chân thực nguyên bản\"]",
+        "options": "[\"Chân thực nguyên bản\",\"Dấu chân tác động\",\"Giữ gìn nguyên vẹn\",\"Dễ tổn thương\"]",
         "correctAnswer": "Giữ gìn nguyên vẹn",
-        "explanation": "\"Preservation\" có phiên âm /.../ và mang nghĩa là \"Giữ gìn nguyên vẹn\"."
+        "explanation": "\"Preservation\" có phiên âm /preservation/ và mang nghĩa là \"Giữ gìn nguyên vẹn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"Fragile\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Fragile\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Fragile",
         "explanation": "\"Fragile\" (Dễ tổn thương) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7020,13 +7370,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Authentic\" là gì?",
-        "options": "[\"Chân thực nguyên bản\",\"Trao quyền tự chủ địa phương\",\"Đa dạng sinh thái\",\"Ý thức trách nhiệm cao\"]",
+        "options": "[\"Trao quyền tự chủ địa phương\",\"Chân thực nguyên bản\",\"Đa dạng sinh thái\",\"Ý thức trách nhiệm cao\"]",
         "correctAnswer": "Chân thực nguyên bản",
-        "explanation": "\"Authentic\" có phiên âm /.../ và mang nghĩa là \"Chân thực nguyên bản\"."
+        "explanation": "\"Authentic\" có phiên âm /authentic/ và mang nghĩa là \"Chân thực nguyên bản\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"Empowerment\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Empowerment\",\"airplanes\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Empowerment",
         "explanation": "\"Empowerment\" (Trao quyền tự chủ địa phương) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7038,9 +7388,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Responsibility\" là gì?",
-        "options": "[\"Ý thức trách nhiệm cao\",\"Du lịch sinh thái\",\"Bảo tồn đa dạng sinh học\",\"Bản địa, thổ dân\"]",
+        "options": "[\"Bản địa, thổ dân\",\"Ý thức trách nhiệm cao\",\"Du lịch sinh thái\",\"Bảo tồn đa dạng sinh học\"]",
         "correctAnswer": "Ý thức trách nhiệm cao",
-        "explanation": "\"Responsibility\" có phiên âm /.../ và mang nghĩa là \"Ý thức trách nhiệm cao\"."
+        "explanation": "\"Responsibility\" có phiên âm /responsibility/ và mang nghĩa là \"Ý thức trách nhiệm cao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
@@ -7056,13 +7406,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Indigenous\" là gì?",
-        "options": "[\"Bản địa, thổ dân\",\"Giữ gìn nguyên vẹn\",\"Dễ tổn thương\",\"Dấu chân tác động\"]",
+        "options": "[\"Dễ tổn thương\",\"Dấu chân tác động\",\"Giữ gìn nguyên vẹn\",\"Bản địa, thổ dân\"]",
         "correctAnswer": "Bản địa, thổ dân",
-        "explanation": "\"Indigenous\" có phiên âm /.../ và mang nghĩa là \"Bản địa, thổ dân\"."
+        "explanation": "\"Indigenous\" có phiên âm /indigenous/ và mang nghĩa là \"Bản địa, thổ dân\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Global Ecotourism & Cultural Impact, we need to practice _____.\"",
-        "options": "[\"Preservation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Preservation\"]",
         "correctAnswer": "Preservation",
         "explanation": "\"Preservation\" (Giữ gìn nguyên vẹn) là từ vựng chính xác trong ngữ cảnh chủ đề Global Ecotourism & Cultural Impact."
       },
@@ -7085,7 +7435,7 @@ module.exports = [
       {
         "word": "Consumer protection",
         "meaning": "Bảo vệ người tiêu dùng",
-        "pronunciation": "/.../",
+        "pronunciation": "/consumer protection/",
         "partOfSpeech": "noun",
         "example": "I use Consumer protection in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consumer protection trong giao tiếp hàng ngày.",
@@ -7095,7 +7445,7 @@ module.exports = [
       {
         "word": "Data privacy",
         "meaning": "Quyền bảo mật dữ liệu",
-        "pronunciation": "/.../",
+        "pronunciation": "/data privacy/",
         "partOfSpeech": "noun",
         "example": "I use Data privacy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Data privacy trong giao tiếp hàng ngày.",
@@ -7105,7 +7455,7 @@ module.exports = [
       {
         "word": "Consent",
         "meaning": "Sự đồng thuận rõ ràng",
-        "pronunciation": "/.../",
+        "pronunciation": "/consent/",
         "partOfSpeech": "noun",
         "example": "I use Consent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Consent trong giao tiếp hàng ngày.",
@@ -7115,7 +7465,7 @@ module.exports = [
       {
         "word": "Breach",
         "meaning": "Vụ rò rỉ xâm phạm dữ liệu",
-        "pronunciation": "/.../",
+        "pronunciation": "/breach/",
         "partOfSpeech": "noun",
         "example": "I use Breach in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Breach trong giao tiếp hàng ngày.",
@@ -7125,7 +7475,7 @@ module.exports = [
       {
         "word": "Compliance",
         "meaning": "Sự tuân thủ pháp luật",
-        "pronunciation": "/.../",
+        "pronunciation": "/compliance/",
         "partOfSpeech": "noun",
         "example": "I use Compliance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Compliance trong giao tiếp hàng ngày.",
@@ -7135,7 +7485,7 @@ module.exports = [
       {
         "word": "Penalty",
         "meaning": "Mức tiền phạt xử lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/penalty/",
         "partOfSpeech": "noun",
         "example": "I use Penalty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Penalty trong giao tiếp hàng ngày.",
@@ -7145,7 +7495,7 @@ module.exports = [
       {
         "word": "Enforce",
         "meaning": "Thực thi pháp lý",
-        "pronunciation": "/.../",
+        "pronunciation": "/enforce/",
         "partOfSpeech": "noun",
         "example": "I use Enforce in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Enforce trong giao tiếp hàng ngày.",
@@ -7155,7 +7505,7 @@ module.exports = [
       {
         "word": "Jurisdiction",
         "meaning": "Quyền tài phán",
-        "pronunciation": "/.../",
+        "pronunciation": "/jurisdiction/",
         "partOfSpeech": "noun",
         "example": "I use Jurisdiction in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Jurisdiction trong giao tiếp hàng ngày.",
@@ -7165,7 +7515,7 @@ module.exports = [
       {
         "word": "Rights",
         "meaning": "Các quyền căn bản",
-        "pronunciation": "/.../",
+        "pronunciation": "/rights/",
         "partOfSpeech": "noun",
         "example": "I use Rights in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rights trong giao tiếp hàng ngày.",
@@ -7175,7 +7525,7 @@ module.exports = [
       {
         "word": "Remedy",
         "meaning": "Biện pháp khắc phục bồi thường",
-        "pronunciation": "/.../",
+        "pronunciation": "/remedy/",
         "partOfSpeech": "noun",
         "example": "I use Remedy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Remedy trong giao tiếp hàng ngày.",
@@ -7185,27 +7535,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Quyền công dân trong kỷ nguyên dữ liệu số",
-        "explanation": "Ngữ pháp nâng cao B2: Consumer Protection & Digital Privacy Law.",
+        "title": "Quyền công dân trong kỷ nguyên dữ liệu số (Dạng khẳng định)",
         "formula": "Users retain the fundamental right to data deletion and security",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Consumer Protection & Digital Privacy Law.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Consumer Protection & Digital Privacy Law.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Consumer protection\\\" trong câu:\",\"options\":[\"Consumer protection\",\"Consumer protections\",\"Consumer protectioning\",\"Consumer protectioned\"],\"correctAnswer\":\"Consumer protection\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Consumer protection\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Data privacy\\\" trong câu:\",\"options\":[\"Data privacy\",\"Data privacys\",\"Data privacying\",\"Data privacyed\"],\"correctAnswer\":\"Data privacy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Data privacy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Consent\\\" trong câu:\",\"options\":[\"Consent\",\"Consents\",\"Consenting\",\"Consented\"],\"correctAnswer\":\"Consent\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Consent\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Breach\\\" trong câu:\",\"options\":[\"Breach\",\"Breachs\",\"Breaching\",\"Breached\"],\"correctAnswer\":\"Breach\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Breach\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Compliance\\\" trong câu:\",\"options\":[\"Compliance\",\"Compliances\",\"Complianceing\",\"Complianceed\"],\"correctAnswer\":\"Compliance\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Compliance\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Penalty\\\" trong câu:\",\"options\":[\"Penalty\",\"Penaltys\",\"Penaltying\",\"Penaltyed\"],\"correctAnswer\":\"Penalty\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Penalty\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Enforce\\\" trong câu:\",\"options\":[\"Enforce\",\"Enforces\",\"Enforceing\",\"Enforceed\"],\"correctAnswer\":\"Enforce\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Enforce\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Users retain the fundamental right to data deletion and security): Chọn dạng đúng của \\\"Jurisdiction\\\" trong câu:\",\"options\":[\"Jurisdiction\",\"Jurisdictions\",\"Jurisdictioning\",\"Jurisdictioned\"],\"correctAnswer\":\"Jurisdiction\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Jurisdiction\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Consumer Protection & Digital Privacy Law. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Consumer Protection & Digital Privacy Law\".",
+        "examples": "[{\"en\":\"I use \\\"Consumer protection\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Consumer protection\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Data privacy\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Data privacy\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Consent\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Consent\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Consumer Protection & Digital Privacy Law",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Consumer Protection & Digital Privacy Law, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Consumer protection\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Consumer protection\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Data privacy\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Data privacy\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Consent\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Consent\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Consumer protection\\\" has a specific pronunciation: /consumer protection/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Consumer protection\\\" có phát âm cụ thể là /consumer protection/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Data privacy\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Data privacy\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 26: Consumer Protection & Digital Privacy Law",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Consumer Protection & Digital Privacy Law. In daily life, communication plays a vital role. For instance, words like \"Consumer protection\" and \"Data privacy\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Consumer Protection & Digital Privacy Law. In my daily routine, I frequently use the word \"Consumer protection\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Data privacy\" with my classmates. In addition, knowing how to use \"Consent\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Consumer Protection & Digital Privacy Law\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Consumer Protection & Digital Privacy Law\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Consumer Protection & Digital Privacy Law\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Data privacy\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Data privacy\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Data privacy\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Breach\\\" (Vụ rò rỉ xâm phạm dữ liệu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Breach\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Compliance\\\" (Sự tuân thủ pháp luật) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Compliance\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Penalty\\\" (Mức tiền phạt xử lý) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Penalty\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Enforce\\\" (Thực thi pháp lý) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Enforce\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Jurisdiction\\\" (Quyền tài phán) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Jurisdiction\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Data privacy\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Data privacy\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Data privacy' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Consumer Protection & Digital Privacy Law",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Consumer Protection & Digital Privacy Law.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Consumer Protection & Digital Privacy Law?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Consumer Protection & Digital Privacy Law chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Consumer protection\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Consumer protection\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Data privacy\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Data privacy\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 26: Consumer Protection & Digital Privacy Law",
+        "passage": "Mastering the theme of \"Consumer Protection & Digital Privacy Law\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Consumer protection\" (Bảo vệ người tiêu dùng) and \"Data privacy\" (Quyền bảo mật dữ liệu) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Consent\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Consumer Protection & Digital Privacy Law\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Consumer protection\" (Bảo vệ người tiêu dùng) và \"Data privacy\" (Quyền bảo mật dữ liệu) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Consent\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Consumer Protection & Digital Privacy Law\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Consumer Protection & Digital Privacy Law\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Consumer Protection & Digital Privacy Law\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Consumer protection\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Consumer Protection & Digital Privacy Law\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Consumer Protection & Digital Privacy Law\",\"explanation\":\"Đoạn văn khẳng định: \\\"Consumer protection\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -7217,7 +7581,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Consumer\",\"protection\",\"daily\",\"use\",\"I\",\"in\"]",
+        "options": "[\"Consumer\",\"use\",\"I\",\"protection\",\"in\",\"daily\"]",
         "correctAnswer": "I use Consumer protection in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Consumer protection in daily\"."
       },
@@ -7233,7 +7597,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Data privacy\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Data privacy",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Data privacy\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /data privacy/ - \"Data privacy\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7267,9 +7631,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consumer protection\" là gì?",
-        "options": "[\"Bảo vệ người tiêu dùng\",\"Quyền bảo mật dữ liệu\",\"Sự đồng thuận rõ ràng\",\"Vụ rò rỉ xâm phạm dữ liệu\"]",
+        "options": "[\"Quyền bảo mật dữ liệu\",\"Bảo vệ người tiêu dùng\",\"Sự đồng thuận rõ ràng\",\"Vụ rò rỉ xâm phạm dữ liệu\"]",
         "correctAnswer": "Bảo vệ người tiêu dùng",
-        "explanation": "\"Consumer protection\" có phiên âm /.../ và mang nghĩa là \"Bảo vệ người tiêu dùng\"."
+        "explanation": "\"Consumer protection\" có phiên âm /consumer protection/ và mang nghĩa là \"Bảo vệ người tiêu dùng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
@@ -7285,13 +7649,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Breach\" là gì?",
-        "options": "[\"Vụ rò rỉ xâm phạm dữ liệu\",\"Sự tuân thủ pháp luật\",\"Mức tiền phạt xử lý\",\"Thực thi pháp lý\"]",
+        "options": "[\"Mức tiền phạt xử lý\",\"Thực thi pháp lý\",\"Sự tuân thủ pháp luật\",\"Vụ rò rỉ xâm phạm dữ liệu\"]",
         "correctAnswer": "Vụ rò rỉ xâm phạm dữ liệu",
-        "explanation": "\"Breach\" có phiên âm /.../ và mang nghĩa là \"Vụ rò rỉ xâm phạm dữ liệu\"."
+        "explanation": "\"Breach\" có phiên âm /breach/ và mang nghĩa là \"Vụ rò rỉ xâm phạm dữ liệu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"Compliance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Compliance\",\"umbrellas\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Compliance",
         "explanation": "\"Compliance\" (Sự tuân thủ pháp luật) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7303,9 +7667,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Enforce\" là gì?",
-        "options": "[\"Thực thi pháp lý\",\"Quyền tài phán\",\"Các quyền căn bản\",\"Biện pháp khắc phục bồi thường\"]",
+        "options": "[\"Biện pháp khắc phục bồi thường\",\"Quyền tài phán\",\"Thực thi pháp lý\",\"Các quyền căn bản\"]",
         "correctAnswer": "Thực thi pháp lý",
-        "explanation": "\"Enforce\" có phiên âm /.../ và mang nghĩa là \"Thực thi pháp lý\"."
+        "explanation": "\"Enforce\" có phiên âm /enforce/ và mang nghĩa là \"Thực thi pháp lý\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
@@ -7321,13 +7685,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Remedy\" là gì?",
-        "options": "[\"Biện pháp khắc phục bồi thường\",\"Bảo vệ người tiêu dùng\",\"Quyền bảo mật dữ liệu\",\"Sự đồng thuận rõ ràng\"]",
+        "options": "[\"Sự đồng thuận rõ ràng\",\"Quyền bảo mật dữ liệu\",\"Bảo vệ người tiêu dùng\",\"Biện pháp khắc phục bồi thường\"]",
         "correctAnswer": "Biện pháp khắc phục bồi thường",
-        "explanation": "\"Remedy\" có phiên âm /.../ và mang nghĩa là \"Biện pháp khắc phục bồi thường\"."
+        "explanation": "\"Remedy\" có phiên âm /remedy/ và mang nghĩa là \"Biện pháp khắc phục bồi thường\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"Consumer protection\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Consumer protection\"]",
         "correctAnswer": "Consumer protection",
         "explanation": "\"Consumer protection\" (Bảo vệ người tiêu dùng) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7339,13 +7703,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Consent\" là gì?",
-        "options": "[\"Sự đồng thuận rõ ràng\",\"Vụ rò rỉ xâm phạm dữ liệu\",\"Sự tuân thủ pháp luật\",\"Mức tiền phạt xử lý\"]",
+        "options": "[\"Sự đồng thuận rõ ràng\",\"Mức tiền phạt xử lý\",\"Vụ rò rỉ xâm phạm dữ liệu\",\"Sự tuân thủ pháp luật\"]",
         "correctAnswer": "Sự đồng thuận rõ ràng",
-        "explanation": "\"Consent\" có phiên âm /.../ và mang nghĩa là \"Sự đồng thuận rõ ràng\"."
+        "explanation": "\"Consent\" có phiên âm /consent/ và mang nghĩa là \"Sự đồng thuận rõ ràng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Consumer Protection & Digital Privacy Law, we need to practice _____.\"",
-        "options": "[\"Breach\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Breach\"]",
         "correctAnswer": "Breach",
         "explanation": "\"Breach\" (Vụ rò rỉ xâm phạm dữ liệu) là từ vựng chính xác trong ngữ cảnh chủ đề Consumer Protection & Digital Privacy Law."
       },
@@ -7368,7 +7732,7 @@ module.exports = [
       {
         "word": "Conflict resolution",
         "meaning": "Giải quyết xung đột mâu thuẫn",
-        "pronunciation": "/.../",
+        "pronunciation": "/conflict resolution/",
         "partOfSpeech": "noun",
         "example": "I use Conflict resolution in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Conflict resolution trong giao tiếp hàng ngày.",
@@ -7378,7 +7742,7 @@ module.exports = [
       {
         "word": "De-escalation",
         "meaning": "Hạ nhiệt căng thẳng",
-        "pronunciation": "/.../",
+        "pronunciation": "/de-escalation/",
         "partOfSpeech": "noun",
         "example": "I use De-escalation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ De-escalation trong giao tiếp hàng ngày.",
@@ -7388,7 +7752,7 @@ module.exports = [
       {
         "word": "Mediation",
         "meaning": "Sự hòa giải trung gian",
-        "pronunciation": "/.../",
+        "pronunciation": "/mediation/",
         "partOfSpeech": "noun",
         "example": "I use Mediation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Mediation trong giao tiếp hàng ngày.",
@@ -7398,7 +7762,7 @@ module.exports = [
       {
         "word": "Hostility",
         "meaning": "Thái độ thù địch gay gắt",
-        "pronunciation": "/.../",
+        "pronunciation": "/hostility/",
         "partOfSpeech": "noun",
         "example": "I use Hostility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hostility trong giao tiếp hàng ngày.",
@@ -7408,7 +7772,7 @@ module.exports = [
       {
         "word": "Active listening",
         "meaning": "Lắng nghe chủ động sâu sắc",
-        "pronunciation": "/.../",
+        "pronunciation": "/active listening/",
         "partOfSpeech": "noun",
         "example": "I use Active listening in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Active listening trong giao tiếp hàng ngày.",
@@ -7418,7 +7782,7 @@ module.exports = [
       {
         "word": "Empathy",
         "meaning": "Đặt mình vào vị trí đối phương",
-        "pronunciation": "/.../",
+        "pronunciation": "/empathy/",
         "partOfSpeech": "noun",
         "example": "I use Empathy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Empathy trong giao tiếp hàng ngày.",
@@ -7428,7 +7792,7 @@ module.exports = [
       {
         "word": "Grievance",
         "meaning": "Mối bất bình uất ức",
-        "pronunciation": "/.../",
+        "pronunciation": "/grievance/",
         "partOfSpeech": "noun",
         "example": "I use Grievance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Grievance trong giao tiếp hàng ngày.",
@@ -7438,7 +7802,7 @@ module.exports = [
       {
         "word": "Reconcile",
         "meaning": "Hàn gắn làm hòa",
-        "pronunciation": "/.../",
+        "pronunciation": "/reconcile/",
         "partOfSpeech": "noun",
         "example": "I use Reconcile in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Reconcile trong giao tiếp hàng ngày.",
@@ -7448,7 +7812,7 @@ module.exports = [
       {
         "word": "Constructive",
         "meaning": "Mang tính xây dựng",
-        "pronunciation": "/.../",
+        "pronunciation": "/constructive/",
         "partOfSpeech": "noun",
         "example": "I use Constructive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Constructive trong giao tiếp hàng ngày.",
@@ -7458,7 +7822,7 @@ module.exports = [
       {
         "word": "Agreement",
         "meaning": "Thỏa thuận đạt được",
-        "pronunciation": "/.../",
+        "pronunciation": "/agreement/",
         "partOfSpeech": "noun",
         "example": "I use Agreement in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Agreement trong giao tiếp hàng ngày.",
@@ -7468,27 +7832,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hòa giải tranh chấp hòa bình",
-        "explanation": "Ngữ pháp nâng cao B2: Conflict Resolution & De-escalation.",
+        "title": "Hòa giải tranh chấp hòa bình (Dạng khẳng định)",
         "formula": "Active listening and non-violent communication dismantle hostility",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Conflict Resolution & De-escalation.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Conflict Resolution & De-escalation.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"Conflict resolution\\\" trong câu:\",\"options\":[\"Conflict resolution\",\"Conflict resolutions\",\"Conflict resolutioning\",\"Conflict resolutioned\"],\"correctAnswer\":\"Conflict resolution\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Conflict resolution\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"De-escalation\\\" trong câu:\",\"options\":[\"De-escalation\",\"De-escalations\",\"De-escalationing\",\"De-escalationed\"],\"correctAnswer\":\"De-escalation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"De-escalation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"Mediation\\\" trong câu:\",\"options\":[\"Mediation\",\"Mediations\",\"Mediationing\",\"Mediationed\"],\"correctAnswer\":\"Mediation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Mediation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"Hostility\\\" trong câu:\",\"options\":[\"Hostility\",\"Hostilitys\",\"Hostilitying\",\"Hostilityed\"],\"correctAnswer\":\"Hostility\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hostility\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"Active listening\\\" trong câu:\",\"options\":[\"Active listening\",\"Active listenings\",\"Active listeninging\",\"Active listeninged\"],\"correctAnswer\":\"Active listening\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Active listening\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"Empathy\\\" trong câu:\",\"options\":[\"Empathy\",\"Empathys\",\"Empathying\",\"Empathyed\"],\"correctAnswer\":\"Empathy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Empathy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"Grievance\\\" trong câu:\",\"options\":[\"Grievance\",\"Grievances\",\"Grievanceing\",\"Grievanceed\"],\"correctAnswer\":\"Grievance\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Grievance\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Active listening and non-violent communication dismantle hostility): Chọn dạng đúng của \\\"Reconcile\\\" trong câu:\",\"options\":[\"Reconcile\",\"Reconciles\",\"Reconcileing\",\"Reconcileed\"],\"correctAnswer\":\"Reconcile\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Reconcile\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Conflict Resolution & De-escalation. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Conflict Resolution & De-escalation\".",
+        "examples": "[{\"en\":\"I use \\\"Conflict resolution\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Conflict resolution\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"De-escalation\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"De-escalation\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Mediation\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Mediation\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Conflict Resolution & De-escalation",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Conflict Resolution & De-escalation, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Conflict resolution\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Conflict resolution\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"De-escalation\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"De-escalation\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Mediation\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Mediation\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Conflict resolution\\\" has a specific pronunciation: /conflict resolution/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Conflict resolution\\\" có phát âm cụ thể là /conflict resolution/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"De-escalation\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"De-escalation\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 27: Conflict Resolution & De-escalation",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Conflict Resolution & De-escalation. In daily life, communication plays a vital role. For instance, words like \"Conflict resolution\" and \"De-escalation\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Conflict Resolution & De-escalation. In my daily routine, I frequently use the word \"Conflict resolution\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"De-escalation\" with my classmates. In addition, knowing how to use \"Mediation\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Conflict Resolution & De-escalation\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Conflict Resolution & De-escalation\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Conflict Resolution & De-escalation\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"De-escalation\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"De-escalation\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"De-escalation\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Hostility\\\" (Thái độ thù địch gay gắt) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Hostility\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Active listening\\\" (Lắng nghe chủ động sâu sắc) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Active listening\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Empathy\\\" (Đặt mình vào vị trí đối phương) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Empathy\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Grievance\\\" (Mối bất bình uất ức) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Grievance\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Reconcile\\\" (Hàn gắn làm hòa) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Reconcile\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"De-escalation\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"De-escalation\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'De-escalation' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Conflict Resolution & De-escalation",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Conflict Resolution & De-escalation.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Conflict Resolution & De-escalation?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Conflict Resolution & De-escalation chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Conflict resolution\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Conflict resolution\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"De-escalation\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"De-escalation\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 27: Conflict Resolution & De-escalation",
+        "passage": "Mastering the theme of \"Conflict Resolution & De-escalation\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Conflict resolution\" (Giải quyết xung đột mâu thuẫn) and \"De-escalation\" (Hạ nhiệt căng thẳng) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Mediation\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Conflict Resolution & De-escalation\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Conflict resolution\" (Giải quyết xung đột mâu thuẫn) và \"De-escalation\" (Hạ nhiệt căng thẳng) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Mediation\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Conflict Resolution & De-escalation\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Conflict Resolution & De-escalation\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Conflict Resolution & De-escalation\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Conflict resolution\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Conflict Resolution & De-escalation\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Conflict Resolution & De-escalation\",\"explanation\":\"Đoạn văn khẳng định: \\\"Conflict resolution\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -7500,7 +7878,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"resolution\",\"Conflict\",\"daily\",\"in\",\"use\",\"I\"]",
+        "options": "[\"I\",\"resolution\",\"use\",\"Conflict\",\"in\",\"daily\"]",
         "correctAnswer": "I use Conflict resolution in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Conflict resolution in daily\"."
       },
@@ -7516,7 +7894,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"De-escalation\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "De-escalation",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"De-escalation\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /de-escalation/ - \"De-escalation\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7550,13 +7928,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Conflict resolution\" là gì?",
-        "options": "[\"Giải quyết xung đột mâu thuẫn\",\"Hạ nhiệt căng thẳng\",\"Sự hòa giải trung gian\",\"Thái độ thù địch gay gắt\"]",
+        "options": "[\"Thái độ thù địch gay gắt\",\"Giải quyết xung đột mâu thuẫn\",\"Hạ nhiệt căng thẳng\",\"Sự hòa giải trung gian\"]",
         "correctAnswer": "Giải quyết xung đột mâu thuẫn",
-        "explanation": "\"Conflict resolution\" có phiên âm /.../ và mang nghĩa là \"Giải quyết xung đột mâu thuẫn\"."
+        "explanation": "\"Conflict resolution\" có phiên âm /conflict resolution/ và mang nghĩa là \"Giải quyết xung đột mâu thuẫn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"De-escalation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"De-escalation\"]",
         "correctAnswer": "De-escalation",
         "explanation": "\"De-escalation\" (Hạ nhiệt căng thẳng) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -7568,13 +7946,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hostility\" là gì?",
-        "options": "[\"Thái độ thù địch gay gắt\",\"Lắng nghe chủ động sâu sắc\",\"Đặt mình vào vị trí đối phương\",\"Mối bất bình uất ức\"]",
+        "options": "[\"Đặt mình vào vị trí đối phương\",\"Lắng nghe chủ động sâu sắc\",\"Mối bất bình uất ức\",\"Thái độ thù địch gay gắt\"]",
         "correctAnswer": "Thái độ thù địch gay gắt",
-        "explanation": "\"Hostility\" có phiên âm /.../ và mang nghĩa là \"Thái độ thù địch gay gắt\"."
+        "explanation": "\"Hostility\" có phiên âm /hostility/ và mang nghĩa là \"Thái độ thù địch gay gắt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"Active listening\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Active listening\"]",
         "correctAnswer": "Active listening",
         "explanation": "\"Active listening\" (Lắng nghe chủ động sâu sắc) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -7586,13 +7964,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Grievance\" là gì?",
-        "options": "[\"Mối bất bình uất ức\",\"Hàn gắn làm hòa\",\"Mang tính xây dựng\",\"Thỏa thuận đạt được\"]",
+        "options": "[\"Hàn gắn làm hòa\",\"Mối bất bình uất ức\",\"Mang tính xây dựng\",\"Thỏa thuận đạt được\"]",
         "correctAnswer": "Mối bất bình uất ức",
-        "explanation": "\"Grievance\" có phiên âm /.../ và mang nghĩa là \"Mối bất bình uất ức\"."
+        "explanation": "\"Grievance\" có phiên âm /grievance/ và mang nghĩa là \"Mối bất bình uất ức\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"Reconcile\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Reconcile\"]",
         "correctAnswer": "Reconcile",
         "explanation": "\"Reconcile\" (Hàn gắn làm hòa) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -7606,11 +7984,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Agreement\" là gì?",
         "options": "[\"Thỏa thuận đạt được\",\"Giải quyết xung đột mâu thuẫn\",\"Hạ nhiệt căng thẳng\",\"Sự hòa giải trung gian\"]",
         "correctAnswer": "Thỏa thuận đạt được",
-        "explanation": "\"Agreement\" có phiên âm /.../ và mang nghĩa là \"Thỏa thuận đạt được\"."
+        "explanation": "\"Agreement\" có phiên âm /agreement/ và mang nghĩa là \"Thỏa thuận đạt được\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
-        "options": "[\"Conflict resolution\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Conflict resolution\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Conflict resolution",
         "explanation": "\"Conflict resolution\" (Giải quyết xung đột mâu thuẫn) là từ vựng chính xác trong ngữ cảnh chủ đề Conflict Resolution & De-escalation."
       },
@@ -7622,9 +8000,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mediation\" là gì?",
-        "options": "[\"Sự hòa giải trung gian\",\"Thái độ thù địch gay gắt\",\"Lắng nghe chủ động sâu sắc\",\"Đặt mình vào vị trí đối phương\"]",
+        "options": "[\"Lắng nghe chủ động sâu sắc\",\"Đặt mình vào vị trí đối phương\",\"Thái độ thù địch gay gắt\",\"Sự hòa giải trung gian\"]",
         "correctAnswer": "Sự hòa giải trung gian",
-        "explanation": "\"Mediation\" có phiên âm /.../ và mang nghĩa là \"Sự hòa giải trung gian\"."
+        "explanation": "\"Mediation\" có phiên âm /mediation/ và mang nghĩa là \"Sự hòa giải trung gian\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Conflict Resolution & De-escalation, we need to practice _____.\"",
@@ -7651,7 +8029,7 @@ module.exports = [
       {
         "word": "Argumentative",
         "meaning": "Mang tính nghị luận sắc sảo",
-        "pronunciation": "/.../",
+        "pronunciation": "/argumentative/",
         "partOfSpeech": "noun",
         "example": "I use Argumentative in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Argumentative trong giao tiếp hàng ngày.",
@@ -7661,7 +8039,7 @@ module.exports = [
       {
         "word": "Thesis statement",
         "meaning": "Câu tuyên ngôn luận đề",
-        "pronunciation": "/.../",
+        "pronunciation": "/thesis statement/",
         "partOfSpeech": "noun",
         "example": "I use Thesis statement in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Thesis statement trong giao tiếp hàng ngày.",
@@ -7671,7 +8049,7 @@ module.exports = [
       {
         "word": "Evidence",
         "meaning": "Luận cứ minh chứng",
-        "pronunciation": "/.../",
+        "pronunciation": "/evidence/",
         "partOfSpeech": "noun",
         "example": "I use Evidence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Evidence trong giao tiếp hàng ngày.",
@@ -7681,7 +8059,7 @@ module.exports = [
       {
         "word": "Counter-argument",
         "meaning": "Luận điểm phản bác đối lập",
-        "pronunciation": "/.../",
+        "pronunciation": "/counter-argument/",
         "partOfSpeech": "noun",
         "example": "I use Counter-argument in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Counter-argument trong giao tiếp hàng ngày.",
@@ -7691,7 +8069,7 @@ module.exports = [
       {
         "word": "Rebuttal",
         "meaning": "Lập luận bẻ gãy phản bác",
-        "pronunciation": "/.../",
+        "pronunciation": "/rebuttal/",
         "partOfSpeech": "noun",
         "example": "I use Rebuttal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rebuttal trong giao tiếp hàng ngày.",
@@ -7701,7 +8079,7 @@ module.exports = [
       {
         "word": "Persuasion",
         "meaning": "Sức mạnh thuyết phục",
-        "pronunciation": "/.../",
+        "pronunciation": "/persuasion/",
         "partOfSpeech": "noun",
         "example": "I use Persuasion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Persuasion trong giao tiếp hàng ngày.",
@@ -7711,7 +8089,7 @@ module.exports = [
       {
         "word": "Coherence",
         "meaning": "Tính mạch lạc chặt chẽ",
-        "pronunciation": "/.../",
+        "pronunciation": "/coherence/",
         "partOfSpeech": "noun",
         "example": "I use Coherence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Coherence trong giao tiếp hàng ngày.",
@@ -7721,7 +8099,7 @@ module.exports = [
       {
         "word": "Soundness",
         "meaning": "Tính xác đáng logic",
-        "pronunciation": "/.../",
+        "pronunciation": "/soundness/",
         "partOfSpeech": "noun",
         "example": "I use Soundness in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Soundness trong giao tiếp hàng ngày.",
@@ -7731,7 +8109,7 @@ module.exports = [
       {
         "word": "Conclusion",
         "meaning": "Phần kết luận đanh thép",
-        "pronunciation": "/.../",
+        "pronunciation": "/conclusion/",
         "partOfSpeech": "noun",
         "example": "I use Conclusion in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Conclusion trong giao tiếp hàng ngày.",
@@ -7741,7 +8119,7 @@ module.exports = [
       {
         "word": "Rhetoric",
         "meaning": "Nghệ thuật tu từ hùng biện",
-        "pronunciation": "/.../",
+        "pronunciation": "/rhetoric/",
         "partOfSpeech": "noun",
         "example": "I use Rhetoric in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rhetoric trong giao tiếp hàng ngày.",
@@ -7751,27 +8129,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc bài luận nghị luận chuẩn mực",
-        "explanation": "Ngữ pháp nâng cao B2: Writing Argumentative & Persuasive Essays.",
+        "title": "Cấu trúc bài luận nghị luận chuẩn mực (Dạng khẳng định)",
         "formula": "Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Writing Argumentative & Persuasive Essays.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Writing Argumentative & Persuasive Essays.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Argumentative\\\" trong câu:\",\"options\":[\"Argumentative\",\"Argumentatives\",\"Argumentativeing\",\"Argumentativeed\"],\"correctAnswer\":\"Argumentative\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Argumentative\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Thesis statement\\\" trong câu:\",\"options\":[\"Thesis statement\",\"Thesis statements\",\"Thesis statementing\",\"Thesis statemented\"],\"correctAnswer\":\"Thesis statement\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Thesis statement\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Evidence\\\" trong câu:\",\"options\":[\"Evidence\",\"Evidences\",\"Evidenceing\",\"Evidenceed\"],\"correctAnswer\":\"Evidence\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Evidence\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Counter-argument\\\" trong câu:\",\"options\":[\"Counter-argument\",\"Counter-arguments\",\"Counter-argumenting\",\"Counter-argumented\"],\"correctAnswer\":\"Counter-argument\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Counter-argument\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Rebuttal\\\" trong câu:\",\"options\":[\"Rebuttal\",\"Rebuttals\",\"Rebuttaling\",\"Rebuttaled\"],\"correctAnswer\":\"Rebuttal\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Rebuttal\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Persuasion\\\" trong câu:\",\"options\":[\"Persuasion\",\"Persuasions\",\"Persuasioning\",\"Persuasioned\"],\"correctAnswer\":\"Persuasion\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Persuasion\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Coherence\\\" trong câu:\",\"options\":[\"Coherence\",\"Coherences\",\"Coherenceing\",\"Coherenceed\"],\"correctAnswer\":\"Coherence\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Coherence\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Thesis statement -> Supporting claims -> Counter-argument -> Rebuttal): Chọn dạng đúng của \\\"Soundness\\\" trong câu:\",\"options\":[\"Soundness\",\"Soundnesss\",\"Soundnessing\",\"Soundnessed\"],\"correctAnswer\":\"Soundness\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Soundness\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Writing Argumentative & Persuasive Essays. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Writing Argumentative & Persuasive Essays\".",
+        "examples": "[{\"en\":\"I use \\\"Argumentative\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Argumentative\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Thesis statement\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Thesis statement\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Evidence\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Evidence\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Writing Argumentative & Persuasive Essays",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Writing Argumentative & Persuasive Essays, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Argumentative\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Argumentative\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Thesis statement\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Thesis statement\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Evidence\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Evidence\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Argumentative\\\" has a specific pronunciation: /argumentative/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Argumentative\\\" có phát âm cụ thể là /argumentative/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Thesis statement\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Thesis statement\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 28: Writing Argumentative & Persuasive Essays",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Writing Argumentative & Persuasive Essays. In daily life, communication plays a vital role. For instance, words like \"Argumentative\" and \"Thesis statement\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Writing Argumentative & Persuasive Essays. In my daily routine, I frequently use the word \"Argumentative\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Thesis statement\" with my classmates. In addition, knowing how to use \"Evidence\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Writing Argumentative & Persuasive Essays\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Writing Argumentative & Persuasive Essays\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Writing Argumentative & Persuasive Essays\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Thesis statement\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Thesis statement\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Thesis statement\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Counter-argument\\\" (Luận điểm phản bác đối lập) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Counter-argument\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Rebuttal\\\" (Lập luận bẻ gãy phản bác) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Rebuttal\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Persuasion\\\" (Sức mạnh thuyết phục) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Persuasion\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Coherence\\\" (Tính mạch lạc chặt chẽ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Coherence\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Soundness\\\" (Tính xác đáng logic) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Soundness\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Thesis statement\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Thesis statement\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Thesis statement' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Writing Argumentative & Persuasive Essays",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Writing Argumentative & Persuasive Essays.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Writing Argumentative & Persuasive Essays?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Writing Argumentative & Persuasive Essays chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Argumentative\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Argumentative\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Thesis statement\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Thesis statement\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 28: Writing Argumentative & Persuasive Essays",
+        "passage": "Mastering the theme of \"Writing Argumentative & Persuasive Essays\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Argumentative\" (Mang tính nghị luận sắc sảo) and \"Thesis statement\" (Câu tuyên ngôn luận đề) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Evidence\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Writing Argumentative & Persuasive Essays\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Argumentative\" (Mang tính nghị luận sắc sảo) và \"Thesis statement\" (Câu tuyên ngôn luận đề) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Evidence\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Writing Argumentative & Persuasive Essays\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Writing Argumentative & Persuasive Essays\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Writing Argumentative & Persuasive Essays\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Argumentative\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Writing Argumentative & Persuasive Essays\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Writing Argumentative & Persuasive Essays\",\"explanation\":\"Đoạn văn khẳng định: \\\"Argumentative\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -7783,7 +8175,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"I\",\"in\",\"daily\",\"Argumentative\",\"conversation\"]",
+        "options": "[\"daily\",\"in\",\"Argumentative\",\"use\",\"I\",\"conversation\"]",
         "correctAnswer": "I use Argumentative in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Argumentative in daily conversation\"."
       },
@@ -7799,7 +8191,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Thesis statement\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Thesis statement",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Thesis statement\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /thesis statement/ - \"Thesis statement\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7833,13 +8225,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Argumentative\" là gì?",
-        "options": "[\"Mang tính nghị luận sắc sảo\",\"Câu tuyên ngôn luận đề\",\"Luận cứ minh chứng\",\"Luận điểm phản bác đối lập\"]",
+        "options": "[\"Mang tính nghị luận sắc sảo\",\"Câu tuyên ngôn luận đề\",\"Luận điểm phản bác đối lập\",\"Luận cứ minh chứng\"]",
         "correctAnswer": "Mang tính nghị luận sắc sảo",
-        "explanation": "\"Argumentative\" có phiên âm /.../ và mang nghĩa là \"Mang tính nghị luận sắc sảo\"."
+        "explanation": "\"Argumentative\" có phiên âm /argumentative/ và mang nghĩa là \"Mang tính nghị luận sắc sảo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"Thesis statement\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Thesis statement\"]",
         "correctAnswer": "Thesis statement",
         "explanation": "\"Thesis statement\" (Câu tuyên ngôn luận đề) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -7851,13 +8243,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Counter-argument\" là gì?",
-        "options": "[\"Luận điểm phản bác đối lập\",\"Lập luận bẻ gãy phản bác\",\"Sức mạnh thuyết phục\",\"Tính mạch lạc chặt chẽ\"]",
+        "options": "[\"Tính mạch lạc chặt chẽ\",\"Luận điểm phản bác đối lập\",\"Lập luận bẻ gãy phản bác\",\"Sức mạnh thuyết phục\"]",
         "correctAnswer": "Luận điểm phản bác đối lập",
-        "explanation": "\"Counter-argument\" có phiên âm /.../ và mang nghĩa là \"Luận điểm phản bác đối lập\"."
+        "explanation": "\"Counter-argument\" có phiên âm /counter-argument/ và mang nghĩa là \"Luận điểm phản bác đối lập\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"Rebuttal\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Rebuttal\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Rebuttal",
         "explanation": "\"Rebuttal\" (Lập luận bẻ gãy phản bác) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -7869,13 +8261,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Coherence\" là gì?",
-        "options": "[\"Tính mạch lạc chặt chẽ\",\"Tính xác đáng logic\",\"Phần kết luận đanh thép\",\"Nghệ thuật tu từ hùng biện\"]",
+        "options": "[\"Nghệ thuật tu từ hùng biện\",\"Phần kết luận đanh thép\",\"Tính mạch lạc chặt chẽ\",\"Tính xác đáng logic\"]",
         "correctAnswer": "Tính mạch lạc chặt chẽ",
-        "explanation": "\"Coherence\" có phiên âm /.../ và mang nghĩa là \"Tính mạch lạc chặt chẽ\"."
+        "explanation": "\"Coherence\" có phiên âm /coherence/ và mang nghĩa là \"Tính mạch lạc chặt chẽ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"Soundness\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Soundness\"]",
         "correctAnswer": "Soundness",
         "explanation": "\"Soundness\" (Tính xác đáng logic) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -7887,13 +8279,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Rhetoric\" là gì?",
-        "options": "[\"Nghệ thuật tu từ hùng biện\",\"Mang tính nghị luận sắc sảo\",\"Câu tuyên ngôn luận đề\",\"Luận cứ minh chứng\"]",
+        "options": "[\"Câu tuyên ngôn luận đề\",\"Luận cứ minh chứng\",\"Nghệ thuật tu từ hùng biện\",\"Mang tính nghị luận sắc sảo\"]",
         "correctAnswer": "Nghệ thuật tu từ hùng biện",
-        "explanation": "\"Rhetoric\" có phiên âm /.../ và mang nghĩa là \"Nghệ thuật tu từ hùng biện\"."
+        "explanation": "\"Rhetoric\" có phiên âm /rhetoric/ và mang nghĩa là \"Nghệ thuật tu từ hùng biện\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"Argumentative\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Argumentative\",\"umbrellas\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Argumentative",
         "explanation": "\"Argumentative\" (Mang tính nghị luận sắc sảo) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -7905,13 +8297,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Evidence\" là gì?",
-        "options": "[\"Luận cứ minh chứng\",\"Luận điểm phản bác đối lập\",\"Lập luận bẻ gãy phản bác\",\"Sức mạnh thuyết phục\"]",
+        "options": "[\"Sức mạnh thuyết phục\",\"Luận điểm phản bác đối lập\",\"Luận cứ minh chứng\",\"Lập luận bẻ gãy phản bác\"]",
         "correctAnswer": "Luận cứ minh chứng",
-        "explanation": "\"Evidence\" có phiên âm /.../ và mang nghĩa là \"Luận cứ minh chứng\"."
+        "explanation": "\"Evidence\" có phiên âm /evidence/ và mang nghĩa là \"Luận cứ minh chứng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Writing Argumentative & Persuasive Essays, we need to practice _____.\"",
-        "options": "[\"Counter-argument\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Counter-argument\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Counter-argument",
         "explanation": "\"Counter-argument\" (Luận điểm phản bác đối lập) là từ vựng chính xác trong ngữ cảnh chủ đề Writing Argumentative & Persuasive Essays."
       },
@@ -7934,7 +8326,7 @@ module.exports = [
       {
         "word": "Case study",
         "meaning": "Nghiên cứu tình huống",
-        "pronunciation": "/.../",
+        "pronunciation": "/case study/",
         "partOfSpeech": "noun",
         "example": "I use Case study in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Case study trong giao tiếp hàng ngày.",
@@ -7944,7 +8336,7 @@ module.exports = [
       {
         "word": "SWOT analysis",
         "meaning": "Phân tích điểm mạnh/yếu/cơ hội/nguy cơ",
-        "pronunciation": "/.../",
+        "pronunciation": "/swot analysis/",
         "partOfSpeech": "noun",
         "example": "I use SWOT analysis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ SWOT analysis trong giao tiếp hàng ngày.",
@@ -7954,7 +8346,7 @@ module.exports = [
       {
         "word": "Diagnosis",
         "meaning": "Chẩn đoán nguyên nhân gốc rễ",
-        "pronunciation": "/.../",
+        "pronunciation": "/diagnosis/",
         "partOfSpeech": "noun",
         "example": "I use Diagnosis in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Diagnosis trong giao tiếp hàng ngày.",
@@ -7964,7 +8356,7 @@ module.exports = [
       {
         "word": "Recommendation",
         "meaning": "Đề xuất giải pháp khả thi",
-        "pronunciation": "/.../",
+        "pronunciation": "/recommendation/",
         "partOfSpeech": "noun",
         "example": "I use Recommendation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Recommendation trong giao tiếp hàng ngày.",
@@ -7974,7 +8366,7 @@ module.exports = [
       {
         "word": "Implementation",
         "meaning": "Kế hoạch triển khai hành động",
-        "pronunciation": "/.../",
+        "pronunciation": "/implementation/",
         "partOfSpeech": "noun",
         "example": "I use Implementation in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Implementation trong giao tiếp hàng ngày.",
@@ -7984,7 +8376,7 @@ module.exports = [
       {
         "word": "Feasibility",
         "meaning": "Tính khả thi thực tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/feasibility/",
         "partOfSpeech": "noun",
         "example": "I use Feasibility in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Feasibility trong giao tiếp hàng ngày.",
@@ -7994,7 +8386,7 @@ module.exports = [
       {
         "word": "Risk assessment",
         "meaning": "Đánh giá rủi ro tiềm ẩn",
-        "pronunciation": "/.../",
+        "pronunciation": "/risk assessment/",
         "partOfSpeech": "noun",
         "example": "I use Risk assessment in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Risk assessment trong giao tiếp hàng ngày.",
@@ -8004,7 +8396,7 @@ module.exports = [
       {
         "word": "Profitability",
         "meaning": "Khả năng sinh lời kinh tế",
-        "pronunciation": "/.../",
+        "pronunciation": "/profitability/",
         "partOfSpeech": "noun",
         "example": "I use Profitability in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Profitability trong giao tiếp hàng ngày.",
@@ -8014,7 +8406,7 @@ module.exports = [
       {
         "word": "Competitive edge",
         "meaning": "Lợi thế cạnh tranh vượt trội",
-        "pronunciation": "/.../",
+        "pronunciation": "/competitive edge/",
         "partOfSpeech": "noun",
         "example": "I use Competitive edge in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Competitive edge trong giao tiếp hàng ngày.",
@@ -8024,7 +8416,7 @@ module.exports = [
       {
         "word": "Outcome",
         "meaning": "Kết quả định lượng",
-        "pronunciation": "/.../",
+        "pronunciation": "/outcome/",
         "partOfSpeech": "noun",
         "example": "I use Outcome in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Outcome trong giao tiếp hàng ngày.",
@@ -8034,27 +8426,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Phân tích tình huống kinh doanh (Case Method)",
-        "explanation": "Ngữ pháp nâng cao B2: Business Case Study Analysis.",
+        "title": "Phân tích tình huống kinh doanh (Case Method) (Dạng khẳng định)",
         "formula": "Identify root problems, evaluate options, recommend strategic action",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Business Case Study Analysis.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Business Case Study Analysis.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"Case study\\\" trong câu:\",\"options\":[\"Case study\",\"Case studys\",\"Case studying\",\"Case studyed\"],\"correctAnswer\":\"Case study\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Case study\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"SWOT analysis\\\" trong câu:\",\"options\":[\"SWOT analysis\",\"SWOT analysiss\",\"SWOT analysising\",\"SWOT analysised\"],\"correctAnswer\":\"SWOT analysis\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"SWOT analysis\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"Diagnosis\\\" trong câu:\",\"options\":[\"Diagnosis\",\"Diagnosiss\",\"Diagnosising\",\"Diagnosised\"],\"correctAnswer\":\"Diagnosis\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Diagnosis\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"Recommendation\\\" trong câu:\",\"options\":[\"Recommendation\",\"Recommendations\",\"Recommendationing\",\"Recommendationed\"],\"correctAnswer\":\"Recommendation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Recommendation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"Implementation\\\" trong câu:\",\"options\":[\"Implementation\",\"Implementations\",\"Implementationing\",\"Implementationed\"],\"correctAnswer\":\"Implementation\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Implementation\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"Feasibility\\\" trong câu:\",\"options\":[\"Feasibility\",\"Feasibilitys\",\"Feasibilitying\",\"Feasibilityed\"],\"correctAnswer\":\"Feasibility\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Feasibility\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"Risk assessment\\\" trong câu:\",\"options\":[\"Risk assessment\",\"Risk assessments\",\"Risk assessmenting\",\"Risk assessmented\"],\"correctAnswer\":\"Risk assessment\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Risk assessment\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Identify root problems, evaluate options, recommend strategic action): Chọn dạng đúng của \\\"Profitability\\\" trong câu:\",\"options\":[\"Profitability\",\"Profitabilitys\",\"Profitabilitying\",\"Profitabilityed\"],\"correctAnswer\":\"Profitability\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Profitability\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Business Case Study Analysis. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Business Case Study Analysis\".",
+        "examples": "[{\"en\":\"I use \\\"Case study\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Case study\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"SWOT analysis\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"SWOT analysis\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Diagnosis\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Diagnosis\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Business Case Study Analysis",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Business Case Study Analysis, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Case study\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Case study\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"SWOT analysis\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"SWOT analysis\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Diagnosis\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Diagnosis\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Case study\\\" has a specific pronunciation: /case study/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Case study\\\" có phát âm cụ thể là /case study/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"SWOT analysis\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"SWOT analysis\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 29: Business Case Study Analysis",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Business Case Study Analysis. In daily life, communication plays a vital role. For instance, words like \"Case study\" and \"SWOT analysis\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Business Case Study Analysis. In my daily routine, I frequently use the word \"Case study\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"SWOT analysis\" with my classmates. In addition, knowing how to use \"Diagnosis\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Business Case Study Analysis\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Business Case Study Analysis\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Business Case Study Analysis\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"SWOT analysis\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"SWOT analysis\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"SWOT analysis\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Recommendation\\\" (Đề xuất giải pháp khả thi) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Recommendation\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Implementation\\\" (Kế hoạch triển khai hành động) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Implementation\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Feasibility\\\" (Tính khả thi thực tế) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Feasibility\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Risk assessment\\\" (Đánh giá rủi ro tiềm ẩn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Risk assessment\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Profitability\\\" (Khả năng sinh lời kinh tế) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Profitability\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"SWOT analysis\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"SWOT analysis\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'SWOT analysis' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Business Case Study Analysis",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Business Case Study Analysis.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Business Case Study Analysis?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Business Case Study Analysis chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Case study\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Case study\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"SWOT analysis\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"SWOT analysis\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 29: Business Case Study Analysis",
+        "passage": "Mastering the theme of \"Business Case Study Analysis\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Case study\" (Nghiên cứu tình huống) and \"SWOT analysis\" (Phân tích điểm mạnh/yếu/cơ hội/nguy cơ) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Diagnosis\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Business Case Study Analysis\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Case study\" (Nghiên cứu tình huống) và \"SWOT analysis\" (Phân tích điểm mạnh/yếu/cơ hội/nguy cơ) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Diagnosis\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Business Case Study Analysis\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Business Case Study Analysis\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Business Case Study Analysis\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Case study\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Business Case Study Analysis\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Business Case Study Analysis\",\"explanation\":\"Đoạn văn khẳng định: \\\"Case study\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -8066,7 +8472,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"study\",\"daily\",\"Case\",\"use\",\"in\",\"I\"]",
+        "options": "[\"daily\",\"in\",\"study\",\"Case\",\"use\",\"I\"]",
         "correctAnswer": "I use Case study in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Case study in daily\"."
       },
@@ -8082,7 +8488,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"SWOT analysis\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "SWOT analysis",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"SWOT analysis\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /swot analysis/ - \"SWOT analysis\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -8116,13 +8522,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Case study\" là gì?",
-        "options": "[\"Nghiên cứu tình huống\",\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\",\"Chẩn đoán nguyên nhân gốc rễ\",\"Đề xuất giải pháp khả thi\"]",
+        "options": "[\"Chẩn đoán nguyên nhân gốc rễ\",\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\",\"Nghiên cứu tình huống\",\"Đề xuất giải pháp khả thi\"]",
         "correctAnswer": "Nghiên cứu tình huống",
-        "explanation": "\"Case study\" có phiên âm /.../ và mang nghĩa là \"Nghiên cứu tình huống\"."
+        "explanation": "\"Case study\" có phiên âm /case study/ và mang nghĩa là \"Nghiên cứu tình huống\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"SWOT analysis\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"SWOT analysis\"]",
         "correctAnswer": "SWOT analysis",
         "explanation": "\"SWOT analysis\" (Phân tích điểm mạnh/yếu/cơ hội/nguy cơ) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8136,11 +8542,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Recommendation\" là gì?",
         "options": "[\"Đề xuất giải pháp khả thi\",\"Kế hoạch triển khai hành động\",\"Tính khả thi thực tế\",\"Đánh giá rủi ro tiềm ẩn\"]",
         "correctAnswer": "Đề xuất giải pháp khả thi",
-        "explanation": "\"Recommendation\" có phiên âm /.../ và mang nghĩa là \"Đề xuất giải pháp khả thi\"."
+        "explanation": "\"Recommendation\" có phiên âm /recommendation/ và mang nghĩa là \"Đề xuất giải pháp khả thi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"Implementation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Implementation\"]",
         "correctAnswer": "Implementation",
         "explanation": "\"Implementation\" (Kế hoạch triển khai hành động) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8154,7 +8560,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Risk assessment\" là gì?",
         "options": "[\"Đánh giá rủi ro tiềm ẩn\",\"Khả năng sinh lời kinh tế\",\"Lợi thế cạnh tranh vượt trội\",\"Kết quả định lượng\"]",
         "correctAnswer": "Đánh giá rủi ro tiềm ẩn",
-        "explanation": "\"Risk assessment\" có phiên âm /.../ và mang nghĩa là \"Đánh giá rủi ro tiềm ẩn\"."
+        "explanation": "\"Risk assessment\" có phiên âm /risk assessment/ và mang nghĩa là \"Đánh giá rủi ro tiềm ẩn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
@@ -8170,13 +8576,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Outcome\" là gì?",
-        "options": "[\"Kết quả định lượng\",\"Nghiên cứu tình huống\",\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\",\"Chẩn đoán nguyên nhân gốc rễ\"]",
+        "options": "[\"Nghiên cứu tình huống\",\"Kết quả định lượng\",\"Phân tích điểm mạnh/yếu/cơ hội/nguy cơ\",\"Chẩn đoán nguyên nhân gốc rễ\"]",
         "correctAnswer": "Kết quả định lượng",
-        "explanation": "\"Outcome\" có phiên âm /.../ và mang nghĩa là \"Kết quả định lượng\"."
+        "explanation": "\"Outcome\" có phiên âm /outcome/ và mang nghĩa là \"Kết quả định lượng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"Case study\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Case study\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Case study",
         "explanation": "\"Case study\" (Nghiên cứu tình huống) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8188,13 +8594,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Diagnosis\" là gì?",
-        "options": "[\"Chẩn đoán nguyên nhân gốc rễ\",\"Đề xuất giải pháp khả thi\",\"Kế hoạch triển khai hành động\",\"Tính khả thi thực tế\"]",
+        "options": "[\"Kế hoạch triển khai hành động\",\"Chẩn đoán nguyên nhân gốc rễ\",\"Đề xuất giải pháp khả thi\",\"Tính khả thi thực tế\"]",
         "correctAnswer": "Chẩn đoán nguyên nhân gốc rễ",
-        "explanation": "\"Diagnosis\" có phiên âm /.../ và mang nghĩa là \"Chẩn đoán nguyên nhân gốc rễ\"."
+        "explanation": "\"Diagnosis\" có phiên âm /diagnosis/ và mang nghĩa là \"Chẩn đoán nguyên nhân gốc rễ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Business Case Study Analysis, we need to practice _____.\"",
-        "options": "[\"Recommendation\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Recommendation\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Recommendation",
         "explanation": "\"Recommendation\" (Đề xuất giải pháp khả thi) là từ vựng chính xác trong ngữ cảnh chủ đề Business Case Study Analysis."
       },
@@ -8217,7 +8623,7 @@ module.exports = [
       {
         "word": "Upper-intermediate",
         "meaning": "Trung cao cấp B2",
-        "pronunciation": "/.../",
+        "pronunciation": "/upper-intermediate/",
         "partOfSpeech": "noun",
         "example": "I use Upper-intermediate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Upper-intermediate trong giao tiếp hàng ngày.",
@@ -8227,7 +8633,7 @@ module.exports = [
       {
         "word": "Nuanced",
         "meaning": "Có nhiều tầng sắc thái nghĩa",
-        "pronunciation": "/.../",
+        "pronunciation": "/nuanced/",
         "partOfSpeech": "noun",
         "example": "I use Nuanced in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Nuanced trong giao tiếp hàng ngày.",
@@ -8237,7 +8643,7 @@ module.exports = [
       {
         "word": "Articulate",
         "meaning": "Diễn đạt trôi chảy chuẩn xác",
-        "pronunciation": "/.../",
+        "pronunciation": "/articulate/",
         "partOfSpeech": "noun",
         "example": "I use Articulate in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Articulate trong giao tiếp hàng ngày.",
@@ -8247,7 +8653,7 @@ module.exports = [
       {
         "word": "Milestone",
         "meaning": "Cột mốc vinh quang",
-        "pronunciation": "/.../",
+        "pronunciation": "/milestone/",
         "partOfSpeech": "noun",
         "example": "I use Milestone in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Milestone trong giao tiếp hàng ngày.",
@@ -8257,7 +8663,7 @@ module.exports = [
       {
         "word": "Sophistication",
         "meaning": "Sự tinh xảo uyên thâm",
-        "pronunciation": "/.../",
+        "pronunciation": "/sophistication/",
         "partOfSpeech": "noun",
         "example": "I use Sophistication in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sophistication trong giao tiếp hàng ngày.",
@@ -8267,7 +8673,7 @@ module.exports = [
       {
         "word": "Command",
         "meaning": "Khả năng làm chủ ngôn ngữ",
-        "pronunciation": "/.../",
+        "pronunciation": "/command/",
         "partOfSpeech": "noun",
         "example": "I use Command in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Command trong giao tiếp hàng ngày.",
@@ -8277,7 +8683,7 @@ module.exports = [
       {
         "word": "Readiness",
         "meaning": "Sự sẵn sàng cho bậc cao",
-        "pronunciation": "/.../",
+        "pronunciation": "/readiness/",
         "partOfSpeech": "noun",
         "example": "I use Readiness in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Readiness trong giao tiếp hàng ngày.",
@@ -8287,7 +8693,7 @@ module.exports = [
       {
         "word": "Distinction",
         "meaning": "Sự xuất sắc nổi bật",
-        "pronunciation": "/.../",
+        "pronunciation": "/distinction/",
         "partOfSpeech": "noun",
         "example": "I use Distinction in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Distinction trong giao tiếp hàng ngày.",
@@ -8297,7 +8703,7 @@ module.exports = [
       {
         "word": "Global competency",
         "meaning": "Năng lực hội nhập toàn cầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/global competency/",
         "partOfSpeech": "noun",
         "example": "I use Global competency in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Global competency trong giao tiếp hàng ngày.",
@@ -8307,7 +8713,7 @@ module.exports = [
       {
         "word": "Excellence",
         "meaning": "Sự tuyệt hảo đỉnh cao",
-        "pronunciation": "/.../",
+        "pronunciation": "/excellence/",
         "partOfSpeech": "noun",
         "example": "I use Excellence in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Excellence trong giao tiếp hàng ngày.",
@@ -8317,27 +8723,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Tổng kết năng lực Trung cao cấp B2",
-        "explanation": "Ngữ pháp nâng cao B2: Review & Upper-Intermediate Milestone.",
+        "title": "Tổng kết năng lực Trung cao cấp B2 (Dạng khẳng định)",
         "formula": "B2 Upper-Intermediate CEFR Mastery",
-        "examples": "{\"list\":[{\"en\":\"Advanced discourse example for Review & Upper-Intermediate Milestone.\",\"vi\":\"Ví dụ đối thoại nâng cao cho Review & Upper-Intermediate Milestone.\"},{\"en\":\"Thorough preparation empowers compelling articulation.\",\"vi\":\"Sự chuẩn bị thấu đáo mang lại khả năng diễn đạt đầy sức thuyết phục.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Upper-intermediate\\\" trong câu:\",\"options\":[\"Upper-intermediate\",\"Upper-intermediates\",\"Upper-intermediateing\",\"Upper-intermediateed\"],\"correctAnswer\":\"Upper-intermediate\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Upper-intermediate\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Nuanced\\\" trong câu:\",\"options\":[\"Nuanced\",\"Nuanceds\",\"Nuanceding\",\"Nuanceded\"],\"correctAnswer\":\"Nuanced\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Nuanced\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Articulate\\\" trong câu:\",\"options\":[\"Articulate\",\"Articulates\",\"Articulateing\",\"Articulateed\"],\"correctAnswer\":\"Articulate\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Articulate\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Milestone\\\" trong câu:\",\"options\":[\"Milestone\",\"Milestones\",\"Milestoneing\",\"Milestoneed\"],\"correctAnswer\":\"Milestone\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Milestone\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Sophistication\\\" trong câu:\",\"options\":[\"Sophistication\",\"Sophistications\",\"Sophisticationing\",\"Sophisticationed\"],\"correctAnswer\":\"Sophistication\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sophistication\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":6,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Command\\\" trong câu:\",\"options\":[\"Command\",\"Commands\",\"Commanding\",\"Commanded\"],\"correctAnswer\":\"Command\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Command\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":7,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Readiness\\\" trong câu:\",\"options\":[\"Readiness\",\"Readinesss\",\"Readinessing\",\"Readinessed\"],\"correctAnswer\":\"Readiness\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Readiness\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":8,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (B2 Upper-Intermediate CEFR Mastery): Chọn dạng đúng của \\\"Distinction\\\" trong câu:\",\"options\":[\"Distinction\",\"Distinctions\",\"Distinctioning\",\"Distinctioned\"],\"correctAnswer\":\"Distinction\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Distinction\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Ngữ pháp nâng cao B2: Review & Upper-Intermediate Milestone. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Review & Upper-Intermediate Milestone\".",
+        "examples": "[{\"en\":\"I use \\\"Upper-intermediate\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Upper-intermediate\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Nuanced\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Nuanced\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Articulate\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Articulate\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Review & Upper-Intermediate Milestone",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Review & Upper-Intermediate Milestone, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Upper-intermediate\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Upper-intermediate\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Nuanced\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Nuanced\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Articulate\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Articulate\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Upper-intermediate\\\" has a specific pronunciation: /upper-intermediate/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Upper-intermediate\\\" có phát âm cụ thể là /upper-intermediate/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Nuanced\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Nuanced\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 30: Review & Upper-Intermediate Milestone",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Review & Upper-Intermediate Milestone. In daily life, communication plays a vital role. For instance, words like \"Upper-intermediate\" and \"Nuanced\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Review & Upper-Intermediate Milestone. In my daily routine, I frequently use the word \"Upper-intermediate\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Nuanced\" with my classmates. In addition, knowing how to use \"Articulate\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Review & Upper-Intermediate Milestone\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Review & Upper-Intermediate Milestone\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Review & Upper-Intermediate Milestone\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Nuanced\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Nuanced\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Nuanced\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Milestone\\\" (Cột mốc vinh quang) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Milestone\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Sophistication\\\" (Sự tinh xảo uyên thâm) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Sophistication\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Command\\\" (Khả năng làm chủ ngôn ngữ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Command\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Readiness\\\" (Sự sẵn sàng cho bậc cao) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Readiness\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Distinction\\\" (Sự xuất sắc nổi bật) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Distinction\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Nuanced\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Nuanced\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Nuanced' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Review & Upper-Intermediate Milestone",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Review & Upper-Intermediate Milestone.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Review & Upper-Intermediate Milestone?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Review & Upper-Intermediate Milestone chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Upper-intermediate\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Upper-intermediate\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Nuanced\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Nuanced\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"},{\"speaker\":\"Taylor\",\"text\":\"Let's keep challenging ourselves with the next exercises!\",\"meaning\":\"Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!\"}]"
+        "title": "Đọc hiểu bài 30: Review & Upper-Intermediate Milestone",
+        "passage": "Mastering the theme of \"Review & Upper-Intermediate Milestone\" is a valuable step for every English learner at level B2.\n\nWhen exploring this topic, everyday words such as \"Upper-intermediate\" (Trung cao cấp B2) and \"Nuanced\" (Có nhiều tầng sắc thái nghĩa) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Articulate\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Review & Upper-Intermediate Milestone\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ B2.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Upper-intermediate\" (Trung cao cấp B2) và \"Nuanced\" (Có nhiều tầng sắc thái nghĩa) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Articulate\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Review & Upper-Intermediate Milestone\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Review & Upper-Intermediate Milestone\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Review & Upper-Intermediate Milestone\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Upper-intermediate\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Review & Upper-Intermediate Milestone\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Review & Upper-Intermediate Milestone\",\"explanation\":\"Đoạn văn khẳng định: \\\"Upper-intermediate\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -8349,7 +8769,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"I\",\"conversation\",\"use\",\"Upper-intermediate\",\"in\"]",
+        "options": "[\"in\",\"use\",\"daily\",\"Upper-intermediate\",\"conversation\",\"I\"]",
         "correctAnswer": "I use Upper-intermediate in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Upper-intermediate in daily conversation\"."
       },
@@ -8365,7 +8785,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Nuanced\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Nuanced",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Nuanced\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /nuanced/ - \"Nuanced\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -8399,13 +8819,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Upper-intermediate\" là gì?",
-        "options": "[\"Trung cao cấp B2\",\"Có nhiều tầng sắc thái nghĩa\",\"Diễn đạt trôi chảy chuẩn xác\",\"Cột mốc vinh quang\"]",
+        "options": "[\"Cột mốc vinh quang\",\"Trung cao cấp B2\",\"Diễn đạt trôi chảy chuẩn xác\",\"Có nhiều tầng sắc thái nghĩa\"]",
         "correctAnswer": "Trung cao cấp B2",
-        "explanation": "\"Upper-intermediate\" có phiên âm /.../ và mang nghĩa là \"Trung cao cấp B2\"."
+        "explanation": "\"Upper-intermediate\" có phiên âm /upper-intermediate/ và mang nghĩa là \"Trung cao cấp B2\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
-        "options": "[\"Nuanced\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Nuanced\",\"airplanes\",\"bananas\",\"umbrellas\"]",
         "correctAnswer": "Nuanced",
         "explanation": "\"Nuanced\" (Có nhiều tầng sắc thái nghĩa) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Upper-Intermediate Milestone."
       },
@@ -8417,9 +8837,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Milestone\" là gì?",
-        "options": "[\"Cột mốc vinh quang\",\"Sự tinh xảo uyên thâm\",\"Khả năng làm chủ ngôn ngữ\",\"Sự sẵn sàng cho bậc cao\"]",
+        "options": "[\"Sự sẵn sàng cho bậc cao\",\"Khả năng làm chủ ngôn ngữ\",\"Sự tinh xảo uyên thâm\",\"Cột mốc vinh quang\"]",
         "correctAnswer": "Cột mốc vinh quang",
-        "explanation": "\"Milestone\" có phiên âm /.../ và mang nghĩa là \"Cột mốc vinh quang\"."
+        "explanation": "\"Milestone\" có phiên âm /milestone/ và mang nghĩa là \"Cột mốc vinh quang\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
@@ -8435,13 +8855,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Readiness\" là gì?",
-        "options": "[\"Sự sẵn sàng cho bậc cao\",\"Sự xuất sắc nổi bật\",\"Năng lực hội nhập toàn cầu\",\"Sự tuyệt hảo đỉnh cao\"]",
+        "options": "[\"Năng lực hội nhập toàn cầu\",\"Sự sẵn sàng cho bậc cao\",\"Sự xuất sắc nổi bật\",\"Sự tuyệt hảo đỉnh cao\"]",
         "correctAnswer": "Sự sẵn sàng cho bậc cao",
-        "explanation": "\"Readiness\" có phiên âm /.../ và mang nghĩa là \"Sự sẵn sàng cho bậc cao\"."
+        "explanation": "\"Readiness\" có phiên âm /readiness/ và mang nghĩa là \"Sự sẵn sàng cho bậc cao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
-        "options": "[\"Distinction\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Distinction\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Distinction",
         "explanation": "\"Distinction\" (Sự xuất sắc nổi bật) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Upper-Intermediate Milestone."
       },
@@ -8453,13 +8873,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Excellence\" là gì?",
-        "options": "[\"Sự tuyệt hảo đỉnh cao\",\"Trung cao cấp B2\",\"Có nhiều tầng sắc thái nghĩa\",\"Diễn đạt trôi chảy chuẩn xác\"]",
+        "options": "[\"Sự tuyệt hảo đỉnh cao\",\"Có nhiều tầng sắc thái nghĩa\",\"Trung cao cấp B2\",\"Diễn đạt trôi chảy chuẩn xác\"]",
         "correctAnswer": "Sự tuyệt hảo đỉnh cao",
-        "explanation": "\"Excellence\" có phiên âm /.../ và mang nghĩa là \"Sự tuyệt hảo đỉnh cao\"."
+        "explanation": "\"Excellence\" có phiên âm /excellence/ và mang nghĩa là \"Sự tuyệt hảo đỉnh cao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",
-        "options": "[\"Upper-intermediate\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Upper-intermediate\"]",
         "correctAnswer": "Upper-intermediate",
         "explanation": "\"Upper-intermediate\" (Trung cao cấp B2) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Upper-Intermediate Milestone."
       },
@@ -8471,9 +8891,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Articulate\" là gì?",
-        "options": "[\"Diễn đạt trôi chảy chuẩn xác\",\"Cột mốc vinh quang\",\"Sự tinh xảo uyên thâm\",\"Khả năng làm chủ ngôn ngữ\"]",
+        "options": "[\"Diễn đạt trôi chảy chuẩn xác\",\"Khả năng làm chủ ngôn ngữ\",\"Cột mốc vinh quang\",\"Sự tinh xảo uyên thâm\"]",
         "correctAnswer": "Diễn đạt trôi chảy chuẩn xác",
-        "explanation": "\"Articulate\" có phiên âm /.../ và mang nghĩa là \"Diễn đạt trôi chảy chuẩn xác\"."
+        "explanation": "\"Articulate\" có phiên âm /articulate/ và mang nghĩa là \"Diễn đạt trôi chảy chuẩn xác\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Upper-Intermediate Milestone, we need to practice _____.\"",

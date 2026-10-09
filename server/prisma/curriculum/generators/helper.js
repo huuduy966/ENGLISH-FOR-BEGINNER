@@ -1,4 +1,4 @@
-// helper.js - Lesson generation helper with rich multi-modal interactive questions
+// helper.js - Lesson generation helper with 7-step roadmap data (Multi-point grammar, specific listening, reading comprehension)
 function createLesson({
   level,
   orderNumber,
@@ -9,24 +9,25 @@ function createLesson({
   vocabularies = [],
   grammar = {},
   listening = {},
+  reading = {},
   conversation = {},
   exercises = [],
   quizzes = [],
 }) {
   // Determine question quotas based on CEFR level
   const targetCounts = {
-    A1: { grammarQs: 5, listeningQs: 5, dialogueTurns: 5, quizQs: 10, exerciseQs: 6 },
-    A2: { grammarQs: 6, listeningQs: 6, dialogueTurns: 5, quizQs: 12, exerciseQs: 7 },
-    B1: { grammarQs: 8, listeningQs: 8, dialogueTurns: 6, quizQs: 15, exerciseQs: 8 },
-    B2: { grammarQs: 8, listeningQs: 8, dialogueTurns: 6, quizQs: 15, exerciseQs: 8 },
-    C1: { grammarQs: 10, listeningQs: 10, dialogueTurns: 8, quizQs: 18, exerciseQs: 10 },
-    C2: { grammarQs: 10, listeningQs: 10, dialogueTurns: 8, quizQs: 20, exerciseQs: 10 },
-  }[level] || { grammarQs: 5, listeningQs: 5, dialogueTurns: 5, quizQs: 10, exerciseQs: 6 };
+    A1: { quizQs: 10, exerciseQs: 6 },
+    A2: { quizQs: 12, exerciseQs: 7 },
+    B1: { quizQs: 15, exerciseQs: 8 },
+    B2: { quizQs: 15, exerciseQs: 8 },
+    C1: { quizQs: 18, exerciseQs: 10 },
+    C2: { quizQs: 20, exerciseQs: 10 },
+  }[level] || { quizQs: 10, exerciseQs: 6 };
 
   const vocabsFormatted = vocabularies.map((v) => ({
     word: v.word,
     meaning: v.meaning,
-    pronunciation: v.pronunciation || '/.../',
+    pronunciation: v.pronunciation || `/${v.word.toLowerCase()}/`,
     partOfSpeech: v.partOfSpeech || 'noun',
     example: v.example || `I use ${v.word} in daily conversation.`,
     exampleMeaning: v.exampleMeaning || `Tôi sử dụng từ ${v.word} trong giao tiếp hàng ngày.`,
@@ -39,101 +40,195 @@ function createLesson({
   const thirdVocab = vocabsFormatted[2] || { word: 'Practice', meaning: 'Luyện tập', pronunciation: '/ˈpræktɪs/' };
   const fourthVocab = vocabsFormatted[3] || { word: 'Language', meaning: 'Ngôn ngữ', pronunciation: '/ˈlæŋɡwɪdʒ/' };
 
-  // 1. Build Grammar Practice Questions (5 to 10 questions)
-  const grammarRuleTitle = grammar.title || `Quy tắc ngữ pháp: ${title}`;
+  // 1. Build Multi-Point Grammar Points (No practice questions)
+  const grammarRuleTitle = grammar.title || `Cấu trúc trọng tâm: ${title}`;
   const grammarFormula = grammar.formula || 'S + V + O';
   const grammarExplanation = grammar.explanation || `Hướng dẫn cấu trúc ngữ pháp then chốt cho chủ đề ${title}.`;
 
-  const grammarPracticeList = [];
-  for (let i = 0; i < targetCounts.grammarQs; i++) {
-    const v = vocabsFormatted[i % vocabsFormatted.length] || primaryVocab;
-    grammarPracticeList.push({
-      id: i + 1,
-      type: i % 2 === 0 ? 'FILL_BLANK' : 'MULTIPLE_CHOICE',
-      question: `Áp dụng công thức (${grammarFormula}): Chọn dạng đúng của "${v.word}" trong câu:`,
-      options: [
-        `${v.word}`,
-        `${v.word}s`,
-        `${v.word}ing`,
-        `${v.word}ed`
-      ],
-      correctAnswer: `${v.word}`,
-      explanation: `Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu "${v.word}" là lựa chọn phù hợp nhất trong cấu trúc này.`,
-    });
-  }
-
-  // 2. Build Listening Transcript and Questions (5 to 10 questions)
-  const listeningTranscript = listening.transcript ||
-    `Hello and welcome to today's English session. Today we are exploring the theme of ${title}. In daily life, communication plays a vital role. For instance, words like "${primaryVocab.word}" and "${secondaryVocab.word}" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!`;
-
-  const listeningQuestionsList = [];
-  for (let i = 0; i < targetCounts.listeningQs; i++) {
-    const v = vocabsFormatted[i % vocabsFormatted.length] || primaryVocab;
-    if (i === 0) {
-      listeningQuestionsList.push({
-        question: `Chủ đề chính được người nói đề cập trong bài nghe là gì?`,
-        options: [title, 'Thời tiết ở Tokyo', 'Nấu ăn gia đình', 'Lịch sử cổ đại'],
-        correctAnswer: title,
-        explanation: `Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: "${title}".`,
-      });
-    } else if (i === 1) {
-      listeningQuestionsList.push({
-        question: `Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?`,
-        options: [v.word, 'Pencil', 'Banana', 'Motorcycle'],
-        correctAnswer: v.word,
-        explanation: `Người nói đã nhấn mạnh tầm quan trọng của từ "${v.word}".`,
-      });
-    } else if (i === 2) {
-      listeningQuestionsList.push({
-        question: `Lời khuyên của người nói dành cho người học tiếng Anh là gì?`,
-        options: [
-          'Luyện tập kiên trì và tự tin từng bước',
-          'Không cần luyện nói hàng ngày',
-          'Chỉ học ngữ pháp, không cần nghe',
-          'Bỏ cuộc khi gặp bài khó'
-        ],
-        correctAnswer: 'Luyện tập kiên trì và tự tin từng bước',
-        explanation: 'Người nói khuyên: "practice regularly, and build confidence step by step".',
-      });
-    } else {
-      listeningQuestionsList.push({
-        question: `Theo nội dung bài nghe, việc nắm bắt từ "${v.word}" (${v.meaning}) giúp ích gì?`,
-        options: [
-          'Tăng cường sự tự tin khi giao tiếp',
-          'Làm bài thi bị trừ điểm',
-          'Không có tác dụng thực tế',
-          'Gây khó hiểu cho người đối diện'
-        ],
-        correctAnswer: 'Tăng cường sự tự tin khi giao tiếp',
-        explanation: `Từ "${v.word}" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.`,
-      });
-    }
-  }
-
-  // 3. Build Conversation Dialogue (5 to 8 turns) and Situational Response
-  const dialogueTurns = [
-    { speaker: 'Alex', text: `Hi there! Are you ready for our lesson on ${title}?`, meaning: `Chào bạn! Bạn đã sẵn sàng cho bài học về ${title} chưa?` },
-    { speaker: 'Taylor', text: `Yes, absolutely! I want to master words like "${primaryVocab.word}".`, meaning: `Chắc chắn rồi! Mình rất muốn nắm vững những từ như "${primaryVocab.word}".` },
-    { speaker: 'Alex', text: `That's great. How do you usually use "${secondaryVocab.word}" in real life?`, meaning: `Tuyệt quá. Bạn thường dùng từ "${secondaryVocab.word}" thế nào trong đời sống?` },
-    { speaker: 'Taylor', text: `I try to make complete sentences and practice with friends daily.`, meaning: `Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.` },
-    { speaker: 'Alex', text: `Excellent strategy! Consistency always brings remarkable results.`, meaning: `Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.` },
+  const grammarPointsList = [
+    {
+      title: `${grammarRuleTitle} (Dạng khẳng định)`,
+      formula: grammarFormula,
+      explanation: `${grammarExplanation} Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến "${title}".`,
+      examples: JSON.stringify([
+        {
+          en: `I use "${primaryVocab.word}" regularly when communicating with others.`,
+          vi: `Tôi sử dụng từ "${primaryVocab.word}" thường xuyên khi giao tiếp với mọi người.`,
+        },
+        {
+          en: `She practices "${secondaryVocab.word}" every morning to improve her skills.`,
+          vi: `Cô ấy luyện tập "${secondaryVocab.word}" mỗi sáng để nâng cao kỹ năng của mình.`,
+        },
+        {
+          en: `We understand the importance of "${thirdVocab.word}" in real-life contexts.`,
+          vi: `Chúng tôi thấu hiểu tầm quan trọng của "${thirdVocab.word}" trong các ngữ cảnh đời thực.`,
+        },
+      ]),
+    },
+    {
+      title: `Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - ${title}`,
+      formula: `S + do/does not + V... | Do/Does + S + V...?`,
+      explanation: `Khi muốn phủ định hoặc đặt câu hỏi về chủ đề ${title}, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.`,
+      examples: JSON.stringify([
+        {
+          en: `I do not forget to practice "${primaryVocab.word}" every single day.`,
+          vi: `Tôi không quên luyện tập "${primaryVocab.word}" mỗi ngày.`,
+        },
+        {
+          en: `Does he know how to apply "${secondaryVocab.word}" correctly?`,
+          vi: `Cậu ấy có biết cách áp dụng "${secondaryVocab.word}" một cách chính xác không?`,
+        },
+        {
+          en: `They do not have any difficulty with "${thirdVocab.word}".`,
+          vi: `Họ không gặp bất kỳ khó khăn nào với "${thirdVocab.word}".`,
+        },
+      ]),
+    },
+    {
+      title: `Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn`,
+      formula: `Phân biệt cách dùng thực tế trong giao tiếp`,
+      explanation: `Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.`,
+      examples: JSON.stringify([
+        {
+          en: `He always remembers: "${primaryVocab.word}" has a specific pronunciation: ${primaryVocab.pronunciation}.`,
+          vi: `Anh ấy luôn ghi nhớ: "${primaryVocab.word}" có phát âm cụ thể là ${primaryVocab.pronunciation}.`,
+        },
+        {
+          en: `Avoid saying wrong words; choose "${secondaryVocab.word}" for natural expression.`,
+          vi: `Tránh dùng từ sai; hãy chọn "${secondaryVocab.word}" để diễn đạt tự nhiên nhất.`,
+        },
+      ]),
+    },
   ];
 
-  if (targetCounts.dialogueTurns >= 6) {
-    dialogueTurns.push({
-      speaker: 'Taylor',
-      text: `Let's keep challenging ourselves with the next exercises!`,
-      meaning: `Hãy cùng tiếp tục thử thách bản thân với các bài tập tiếp theo nhé!`,
-    });
-  }
-  if (targetCounts.dialogueTurns >= 8) {
-    dialogueTurns.push(
-      { speaker: 'Alex', text: `Agreed! Let's review the pronunciation once more.`, meaning: `Đồng ý! Hãy cùng nghe lại phát âm một lần nữa nhé.` },
-      { speaker: 'Taylor', text: `Sounds like a solid plan. Here we go!`, meaning: `Kế hoạch rất chắc chắn. Chúng ta bắt đầu thôi!` }
-    );
-  }
+  // 2. Build Realistic Listening Audio Transcript and 5 Specific Detail Questions
+  const speakerName = 'Anna';
+  const speakerAge = '21';
+  const speakerCity = 'London';
+  const speakerJob = 'sinh viên chuyên ngành Ngôn ngữ';
 
-  // 4. Build Multi-Modal Interactive Exercises (Matching, Word Order, Error Correction, Translation, Listen Choose)
+  const listeningTranscript = listening.transcript ||
+    `Hello everyone! My name is ${speakerName}. I am ${speakerAge} years old and I currently live in ${speakerCity}. I am a university student studying languages. Today, I am very excited to share my experience with ${title}. In my daily routine, I frequently use the word "${primaryVocab.word}" when talking with friends. Yesterday afternoon, I spent one hour practicing "${secondaryVocab.word}" with my classmates. In addition, knowing how to use "${thirdVocab.word}" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!`;
+
+  const listeningQuestionsList = [
+    {
+      question: `Người nói trong đoạn audio giới thiệu tên của mình là gì?`,
+      options: [speakerName, 'David', 'Taylor', 'Jessica'],
+      correctAnswer: speakerName,
+      explanation: `Đoạn audio mở đầu với lời giới thiệu: "My name is ${speakerName}."`,
+    },
+    {
+      question: `Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?`,
+      options: [
+        `${speakerAge} tuổi, sống tại ${speakerCity}`,
+        '18 tuổi, sống tại New York',
+        '25 tuổi, sống tại Tokyo',
+        '30 tuổi, sống tại Paris',
+      ],
+      correctAnswer: `${speakerAge} tuổi, sống tại ${speakerCity}`,
+      explanation: `Trong bài nghe, người nói chia sẻ: "I am ${speakerAge} years old and I currently live in ${speakerCity}."`,
+    },
+    {
+      question: `Nghề nghiệp / vai trò hiện tại của người nói là gì?`,
+      options: [
+        'Sinh viên đại học (university student)',
+        'Kỹ sư phần mềm',
+        'Bác sĩ bệnh viện',
+        'Hướng dẫn viên du lịch',
+      ],
+      correctAnswer: 'Sinh viên đại học (university student)',
+      explanation: `Người nói nêu rõ: "I am a university student studying languages."`,
+    },
+    {
+      question: `Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?`,
+      options: [
+        secondaryVocab.word,
+        'Motorcycle',
+        'Helicopter',
+        'Refrigerator',
+      ],
+      correctAnswer: secondaryVocab.word,
+      explanation: `Bài nghe có câu: "Yesterday afternoon, I spent one hour practicing '${secondaryVocab.word}' with my classmates."`,
+    },
+    {
+      question: `Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?`,
+      options: [
+        'Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)',
+        'Chỉ học ngữ pháp, không bao giờ nói',
+        'Không cần luyện tập nghe nói',
+        'Bỏ cuộc ngay khi gặp từ vựng khó',
+      ],
+      correctAnswer: 'Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)',
+      explanation: `Người nói khuyên: "practicing for fifteen minutes every day is the best secret to becoming confident."`,
+    },
+  ];
+
+  // 3. Build Reading Comprehension Passage & 5 MCQs
+  const readingPassage = reading.passage ||
+    `Mastering the theme of "${title}" is a valuable step for every English learner at level ${level}.\n\nWhen exploring this topic, everyday words such as "${primaryVocab.word}" (${primaryVocab.meaning}) and "${secondaryVocab.word}" (${secondaryVocab.meaning}) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how "${thirdVocab.word}" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.`;
+
+  const readingTranslation = reading.translation ||
+    `Làm chủ chủ đề "${title}" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ ${level}.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như "${primaryVocab.word}" (${primaryVocab.meaning}) và "${secondaryVocab.word}" (${secondaryVocab.meaning}) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ "${thirdVocab.word}" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.`;
+
+  const readingQuestionsList = [
+    {
+      question: `Ý chính của đoạn văn trên là gì?`,
+      options: [
+        `Tầm quan trọng và phương pháp học hiệu quả chủ đề ${title}`,
+        'Lịch sử ngành hàng không thế giới',
+        'Quy trình chế biến các món ăn truyền thống',
+        'Dự báo thời tiết các mùa trong năm',
+      ],
+      correctAnswer: `Tầm quan trọng và phương pháp học hiệu quả chủ đề ${title}`,
+      explanation: `Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề "${title}".`,
+    },
+    {
+      question: `Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?`,
+      options: [
+        'Liên kết từ mới với tình huống thực tế đời sống',
+        'Học thuộc lòng từ điển từ A đến Z',
+        'Tránh đọc và tránh luyện phát âm',
+        'Chỉ học ngữ pháp mà không cần biết nghĩa từ',
+      ],
+      correctAnswer: 'Liên kết từ mới với tình huống thực tế đời sống',
+      explanation: `Đoạn văn nêu: "connecting new vocabulary to real-life situations creates lasting memory pathways in the brain."`,
+    },
+    {
+      question: `Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?`,
+      options: [
+        'Hai mươi phút mỗi ngày (twenty minutes daily)',
+        'Mười tiếng liên tục vào cuối tuần',
+        'Một phút mỗi tháng',
+        'Không cần dành thời gian mỗi ngày',
+      ],
+      correctAnswer: 'Hai mươi phút mỗi ngày (twenty minutes daily)',
+      explanation: `Bài viết chỉ ra: "students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast."`,
+    },
+    {
+      question: `Trong đoạn văn, từ "${primaryVocab.word}" được xem là gì?`,
+      options: [
+        'Viên gạch nền tảng trong giao tiếp chủ đề ' + title,
+        'Từ vựng không cần học',
+        'Một thuật ngữ khoa học khó hiểu',
+        'Từ cổ không còn dùng trong tiếng Anh hiện đại',
+      ],
+      correctAnswer: 'Viên gạch nền tảng trong giao tiếp chủ đề ' + title,
+      explanation: `Đoạn văn khẳng định: "${primaryVocab.word}" serves as the foundational building block.`,
+    },
+    {
+      question: `Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?`,
+      options: [
+        'Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)',
+        'Tiền bạc, may mắn và danh vọng',
+        'Tốc độ, phán đoán và sự vội vàng',
+        'Chỉ dựa vào máy dịch tự động',
+      ],
+      correctAnswer: 'Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)',
+      explanation: `Đoạn văn kết luận: "Consistency, curiosity, and patience are the three essential keys to language mastery."`,
+    },
+  ];
+
+  // 4. Build Multi-Modal Interactive Exercises
   const exerciseList = [];
 
   // Ex 1: MATCHING PAIRS (Interactive Game)
@@ -159,7 +254,7 @@ function createLesson({
     explanation: `Trật tự câu chuẩn ngữ pháp tiếng Anh: "${cleanWords.join(' ')}".`,
   });
 
-  // Ex 3: FILL_BLANK_INPUT (Gõ từ còn thiếu)
+  // Ex 3: FILL_BLANK (Chọn từ thích hợp)
   exerciseList.push({
     type: 'FILL_BLANK',
     question: `Chọn từ thích hợp để hoàn thành câu: "In daily life, ${primaryVocab.word} is _____."`,
@@ -167,7 +262,7 @@ function createLesson({
       primaryVocab.meaning,
       'không cần thiết',
       'bị cấm đoán',
-      'vô nghĩa'
+      'vô nghĩa',
     ]),
     correctAnswer: primaryVocab.meaning,
     explanation: `Từ "${primaryVocab.word}" mang nghĩa là "${primaryVocab.meaning}".`,
@@ -181,7 +276,7 @@ function createLesson({
       secondaryVocab.word,
       'Computer',
       'Umbrella',
-      'Telephone'
+      'Telephone',
     ]),
     correctAnswer: secondaryVocab.word,
     explanation: `Phát âm chuẩn IPA của từ là ${secondaryVocab.pronunciation} - "${secondaryVocab.word}".`,
@@ -195,7 +290,7 @@ function createLesson({
       'study → studies',
       'English → Englishes',
       'with → at',
-      'high → highly'
+      'high → highly',
     ]),
     correctAnswer: 'study → studies',
     explanation: `Chủ ngữ "She" là ngôi thứ ba số ít, động từ "study" cần chia thành "studies".`,
@@ -209,13 +304,13 @@ function createLesson({
       'I learn new vocabulary every day.',
       'I learning new vocabulary every day.',
       'I learns new vocabulary everyday.',
-      'Me learn new vocabulary daily.'
+      'Me learn new vocabulary daily.',
     ]),
     correctAnswer: 'I learn new vocabulary every day.',
     explanation: `Cấu trúc thì hiện tại đơn với chủ ngữ "I": S + V(nguyên thể) + O.`,
   });
 
-  // Scale up for higher levels (B1, B2, C1, C2)
+  // Scale up for higher levels
   if (targetCounts.exerciseQs >= 7) {
     exerciseList.push({
       type: 'MULTIPLE_CHOICE',
@@ -224,7 +319,7 @@ function createLesson({
         thirdVocab.word,
         'Impossible',
         'Different',
-        'Unlikely'
+        'Unlikely',
       ]),
       correctAnswer: thirdVocab.word,
       explanation: `"${thirdVocab.word}" biểu đạt nghĩa: ${thirdVocab.meaning}.`,
@@ -239,14 +334,14 @@ function createLesson({
         fourthVocab.partOfSpeech,
         'conjunction',
         'interjection',
-        'preposition'
+        'preposition',
       ]),
       correctAnswer: fourthVocab.partOfSpeech,
       explanation: `"${fourthVocab.word}" là một ${fourthVocab.partOfSpeech} trong ngữ pháp tiếng Anh.`,
     });
   }
 
-  // 5. Build Comprehensive Final Quiz (10 to 20 questions)
+  // 5. Build Comprehensive Final Quiz
   const quizList = [];
   for (let qIdx = 0; qIdx < targetCounts.quizQs; qIdx++) {
     const v = vocabsFormatted[qIdx % vocabsFormatted.length] || primaryVocab;
@@ -255,30 +350,27 @@ function createLesson({
     const distractor3 = vocabsFormatted[(qIdx + 3) % vocabsFormatted.length]?.meaning || 'Quyển sách';
 
     if (qIdx % 3 === 0) {
-      // Meaning selection
       quizList.push({
         question: `Nghĩa tiếng Việt chuẩn xác của từ "${v.word}" là gì?`,
-        options: JSON.stringify([v.meaning, distractor1, distractor2, distractor3]),
+        options: JSON.stringify([v.meaning, distractor1, distractor2, distractor3].sort(() => 0.5 - Math.random())),
         correctAnswer: v.meaning,
         explanation: `"${v.word}" có phiên âm ${v.pronunciation} và mang nghĩa là "${v.meaning}".`,
       });
     } else if (qIdx % 3 === 1) {
-      // Word completion in sentence
       quizList.push({
         question: `Hoàn thiện câu: "In our study session on ${title}, we need to practice _____."`,
-        options: JSON.stringify([v.word, 'bananas', 'airplanes', 'umbrellas']),
+        options: JSON.stringify([v.word, 'bananas', 'airplanes', 'umbrellas'].sort(() => 0.5 - Math.random())),
         correctAnswer: v.word,
         explanation: `"${v.word}" (${v.meaning}) là từ vựng chính xác trong ngữ cảnh chủ đề ${title}.`,
       });
     } else {
-      // Grammar / usage application
       quizList.push({
         question: `Câu nào dưới đây sử dụng đúng ngữ pháp và cấu trúc của bài học?`,
         options: JSON.stringify([
           `We use "${v.word}" effectively in communication.`,
           `We using "${v.word}" effective.`,
           `We uses "${v.word}" wrongly.`,
-          `We is use "${v.word}".`
+          `We is use "${v.word}".`,
         ]),
         correctAnswer: `We use "${v.word}" effectively in communication.`,
         explanation: `Chủ ngữ số nhiều "We" đi với động từ nguyên mẫu "use" và trạng từ "effectively".`,
@@ -294,21 +386,7 @@ function createLesson({
     category,
     durationMinutes,
     vocabularies: vocabsFormatted,
-    grammarPoints: [
-      {
-        title: grammarRuleTitle,
-        explanation: grammarExplanation,
-        formula: grammarFormula,
-        examples: JSON.stringify({
-          list: grammar.examples || [
-            { en: `Example sentence for ${title}.`, vi: `Câu ví dụ minh họa cho chủ đề ${title}.` },
-            { en: `She uses ${primaryVocab.word} with confidence.`, vi: `Cô ấy sử dụng từ ${primaryVocab.word} với sự tự tin.` },
-            { en: `They practice ${secondaryVocab.word} every day.`, vi: `Họ luyện tập ${secondaryVocab.word} mỗi ngày.` },
-          ],
-          questions: grammarPracticeList,
-        }),
-      },
-    ],
+    grammarPoints: grammarPointsList,
     listenings: [
       {
         title: listening.title || `Luyện nghe bài ${orderNumber}: ${title}`,
@@ -317,13 +395,15 @@ function createLesson({
         questions: JSON.stringify(listeningQuestionsList),
       },
     ],
-    conversations: [
+    readings: [
       {
-        title: conversation.title || `Hội thoại: ${title}`,
-        context: conversation.context || `Tình huống đàm thoại thực tế theo vai về chủ đề ${title}.`,
-        dialogue: JSON.stringify(dialogueTurns),
+        title: reading.title || `Đọc hiểu bài ${orderNumber}: ${title}`,
+        passage: readingPassage,
+        translation: readingTranslation,
+        questions: JSON.stringify(readingQuestionsList),
       },
     ],
+    conversations: [],
     exercises: exerciseList,
     quizzes: quizList,
   };

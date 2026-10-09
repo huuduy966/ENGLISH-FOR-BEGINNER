@@ -110,27 +110,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cách tự giới thiệu bản thân với My name is & I am",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Greetings & Introductions.",
+        "title": "Cách tự giới thiệu bản thân với My name is & I am (Dạng khẳng định)",
         "formula": "My name is + [Tên] / I am + [Tên]",
-        "examples": "{\"list\":[{\"en\":\"Example for Greetings & Introductions.\",\"vi\":\"Ví dụ minh họa cho Greetings & Introductions.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (My name is + [Tên] / I am + [Tên]): Chọn dạng đúng của \\\"Hello\\\" trong câu:\",\"options\":[\"Hello\",\"Hellos\",\"Helloing\",\"Helloed\"],\"correctAnswer\":\"Hello\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hello\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (My name is + [Tên] / I am + [Tên]): Chọn dạng đúng của \\\"Good morning\\\" trong câu:\",\"options\":[\"Good morning\",\"Good mornings\",\"Good morninging\",\"Good morninged\"],\"correctAnswer\":\"Good morning\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Good morning\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (My name is + [Tên] / I am + [Tên]): Chọn dạng đúng của \\\"Good afternoon\\\" trong câu:\",\"options\":[\"Good afternoon\",\"Good afternoons\",\"Good afternooning\",\"Good afternooned\"],\"correctAnswer\":\"Good afternoon\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Good afternoon\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (My name is + [Tên] / I am + [Tên]): Chọn dạng đúng của \\\"Good evening\\\" trong câu:\",\"options\":[\"Good evening\",\"Good evenings\",\"Good eveninging\",\"Good eveninged\"],\"correctAnswer\":\"Good evening\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Good evening\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (My name is + [Tên] / I am + [Tên]): Chọn dạng đúng của \\\"Goodbye\\\" trong câu:\",\"options\":[\"Goodbye\",\"Goodbyes\",\"Goodbyeing\",\"Goodbyeed\"],\"correctAnswer\":\"Goodbye\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Goodbye\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Greetings & Introductions. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Greetings & Introductions\".",
+        "examples": "[{\"en\":\"I use \\\"Hello\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Hello\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Good morning\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Good morning\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Good afternoon\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Good afternoon\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Greetings & Introductions",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Greetings & Introductions, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Hello\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Hello\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Good morning\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Good morning\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Good afternoon\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Good afternoon\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Hello\\\" has a specific pronunciation: /həˈloʊ/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Hello\\\" có phát âm cụ thể là /həˈloʊ/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Good morning\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Good morning\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 1: Greetings & Introductions",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Greetings & Introductions. In daily life, communication plays a vital role. For instance, words like \"Hello\" and \"Good morning\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Greetings & Introductions. In my daily routine, I frequently use the word \"Hello\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Good morning\" with my classmates. In addition, knowing how to use \"Good afternoon\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Greetings & Introductions\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Greetings & Introductions\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Greetings & Introductions\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Good morning\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Good morning\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Good morning\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Good evening\\\" (Chào buổi tối) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Good evening\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Goodbye\\\" (Tạm biệt) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Goodbye\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Good morning\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Good morning\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Good morning' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Greetings & Introductions",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Greetings & Introductions.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Greetings & Introductions?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Greetings & Introductions chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Hello\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Hello\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Good morning\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Good morning\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 1: Greetings & Introductions",
+        "passage": "Mastering the theme of \"Greetings & Introductions\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Hello\" (Xin chào) and \"Good morning\" (Chào buổi sáng) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Good afternoon\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Greetings & Introductions\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Hello\" (Xin chào) và \"Good morning\" (Chào buổi sáng) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Good afternoon\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Greetings & Introductions\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Greetings & Introductions\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Greetings & Introductions\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Hello\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Greetings & Introductions\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Greetings & Introductions\",\"explanation\":\"Đoạn văn khẳng định: \\\"Hello\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -142,7 +156,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Hello\",\"meet\",\"you\",\"nice\",\"to\"]",
+        "options": "[\"Hello\",\"nice\",\"meet\",\"to\",\"you\"]",
         "correctAnswer": "Hello nice to meet you",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Hello nice to meet you\"."
       },
@@ -178,7 +192,7 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hello\" là gì?",
-        "options": "[\"Xin chào\",\"Chào buổi sáng\",\"Chào buổi chiều\",\"Chào buổi tối\"]",
+        "options": "[\"Chào buổi chiều\",\"Xin chào\",\"Chào buổi sáng\",\"Chào buổi tối\"]",
         "correctAnswer": "Xin chào",
         "explanation": "\"Hello\" có phiên âm /həˈloʊ/ và mang nghĩa là \"Xin chào\"."
       },
@@ -196,13 +210,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Good evening\" là gì?",
-        "options": "[\"Chào buổi tối\",\"Tạm biệt\",\"Tên\",\"Gặp gỡ\"]",
+        "options": "[\"Chào buổi tối\",\"Tạm biệt\",\"Gặp gỡ\",\"Tên\"]",
         "correctAnswer": "Chào buổi tối",
         "explanation": "\"Good evening\" có phiên âm /ɡʊd ˈiːvnɪŋ/ và mang nghĩa là \"Chào buổi tối\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Greetings & Introductions, we need to practice _____.\"",
-        "options": "[\"Goodbye\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Goodbye\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Goodbye",
         "explanation": "\"Goodbye\" (Tạm biệt) là từ vựng chính xác trong ngữ cảnh chủ đề Greetings & Introductions."
       },
@@ -220,7 +234,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Greetings & Introductions, we need to practice _____.\"",
-        "options": "[\"Please\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Please\",\"airplanes\"]",
         "correctAnswer": "Please",
         "explanation": "\"Please\" (Làm ơn / Xin vui lòng) là từ vựng chính xác trong ngữ cảnh chủ đề Greetings & Introductions."
       },
@@ -349,27 +363,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Động từ To Be ở thì Hiện tại đơn",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Personal Pronouns & Verb To Be.",
+        "title": "Động từ To Be ở thì Hiện tại đơn (Dạng khẳng định)",
         "formula": "S + am / is / are + N / Adj",
-        "examples": "{\"list\":[{\"en\":\"Example for Personal Pronouns & Verb To Be.\",\"vi\":\"Ví dụ minh họa cho Personal Pronouns & Verb To Be.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (S + am / is / are + N / Adj): Chọn dạng đúng của \\\"I\\\" trong câu:\",\"options\":[\"I\",\"Is\",\"Iing\",\"Ied\"],\"correctAnswer\":\"I\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"I\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (S + am / is / are + N / Adj): Chọn dạng đúng của \\\"You\\\" trong câu:\",\"options\":[\"You\",\"Yous\",\"Youing\",\"Youed\"],\"correctAnswer\":\"You\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"You\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (S + am / is / are + N / Adj): Chọn dạng đúng của \\\"He\\\" trong câu:\",\"options\":[\"He\",\"Hes\",\"Heing\",\"Heed\"],\"correctAnswer\":\"He\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"He\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (S + am / is / are + N / Adj): Chọn dạng đúng của \\\"She\\\" trong câu:\",\"options\":[\"She\",\"Shes\",\"Sheing\",\"Sheed\"],\"correctAnswer\":\"She\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"She\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (S + am / is / are + N / Adj): Chọn dạng đúng của \\\"It\\\" trong câu:\",\"options\":[\"It\",\"Its\",\"Iting\",\"Ited\"],\"correctAnswer\":\"It\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"It\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Personal Pronouns & Verb To Be. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Personal Pronouns & Verb To Be\".",
+        "examples": "[{\"en\":\"I use \\\"I\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"I\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"You\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"You\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"He\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"He\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Personal Pronouns & Verb To Be",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Personal Pronouns & Verb To Be, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"I\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"I\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"You\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"You\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"He\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"He\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"I\\\" has a specific pronunciation: /aɪ/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"I\\\" có phát âm cụ thể là /aɪ/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"You\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"You\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 2: Personal Pronouns & Verb To Be",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Personal Pronouns & Verb To Be. In daily life, communication plays a vital role. For instance, words like \"I\" and \"You\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Personal Pronouns & Verb To Be. In my daily routine, I frequently use the word \"I\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"You\" with my classmates. In addition, knowing how to use \"He\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Personal Pronouns & Verb To Be\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Personal Pronouns & Verb To Be\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Personal Pronouns & Verb To Be\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"You\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"You\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"You\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"She\\\" (Cô ấy / Chị ấy) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"She\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"It\\\" (Nó (con vật, đồ vật)) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"It\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"You\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"You\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'You' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Personal Pronouns & Verb To Be",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Personal Pronouns & Verb To Be.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Personal Pronouns & Verb To Be?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Personal Pronouns & Verb To Be chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"I\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"I\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"You\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"You\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 2: Personal Pronouns & Verb To Be",
+        "passage": "Mastering the theme of \"Personal Pronouns & Verb To Be\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"I\" (Tôi) and \"You\" (Bạn / Các bạn) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"He\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Personal Pronouns & Verb To Be\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"I\" (Tôi) và \"You\" (Bạn / Các bạn) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"He\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Personal Pronouns & Verb To Be\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Personal Pronouns & Verb To Be\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Personal Pronouns & Verb To Be\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"I\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Personal Pronouns & Verb To Be\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Personal Pronouns & Verb To Be\",\"explanation\":\"Đoạn văn khẳng định: \\\"I\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -381,7 +409,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"a\",\"am\",\"I\",\"student\"]",
+        "options": "[\"student\",\"a\",\"am\",\"I\"]",
         "correctAnswer": "I am a student",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I am a student\"."
       },
@@ -417,13 +445,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"I\" là gì?",
-        "options": "[\"Tôi\",\"Bạn / Các bạn\",\"Anh ấy / Cậu ấy\",\"Cô ấy / Chị ấy\"]",
+        "options": "[\"Cô ấy / Chị ấy\",\"Anh ấy / Cậu ấy\",\"Bạn / Các bạn\",\"Tôi\"]",
         "correctAnswer": "Tôi",
         "explanation": "\"I\" có phiên âm /aɪ/ và mang nghĩa là \"Tôi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Personal Pronouns & Verb To Be, we need to practice _____.\"",
-        "options": "[\"You\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"You\"]",
         "correctAnswer": "You",
         "explanation": "\"You\" (Bạn / Các bạn) là từ vựng chính xác trong ngữ cảnh chủ đề Personal Pronouns & Verb To Be."
       },
@@ -435,13 +463,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"She\" là gì?",
-        "options": "[\"Cô ấy / Chị ấy\",\"Nó (con vật, đồ vật)\",\"Chúng tôi / Chúng ta\",\"Họ / Chúng nó\"]",
+        "options": "[\"Họ / Chúng nó\",\"Chúng tôi / Chúng ta\",\"Nó (con vật, đồ vật)\",\"Cô ấy / Chị ấy\"]",
         "correctAnswer": "Cô ấy / Chị ấy",
         "explanation": "\"She\" có phiên âm /ʃiː/ và mang nghĩa là \"Cô ấy / Chị ấy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Personal Pronouns & Verb To Be, we need to practice _____.\"",
-        "options": "[\"It\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"It\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "It",
         "explanation": "\"It\" (Nó (con vật, đồ vật)) là từ vựng chính xác trong ngữ cảnh chủ đề Personal Pronouns & Verb To Be."
       },
@@ -459,7 +487,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Personal Pronouns & Verb To Be, we need to practice _____.\"",
-        "options": "[\"Student\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Student\"]",
         "correctAnswer": "Student",
         "explanation": "\"Student\" (Học sinh, sinh viên) là từ vựng chính xác trong ngữ cảnh chủ đề Personal Pronouns & Verb To Be."
       },
@@ -471,7 +499,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Doctor\" là gì?",
-        "options": "[\"Bác sĩ\",\"Tôi\",\"Bạn / Các bạn\",\"Anh ấy / Cậu ấy\"]",
+        "options": "[\"Bác sĩ\",\"Tôi\",\"Anh ấy / Cậu ấy\",\"Bạn / Các bạn\"]",
         "correctAnswer": "Bác sĩ",
         "explanation": "\"Doctor\" có phiên âm /ˈdɑːktər/ và mang nghĩa là \"Bác sĩ\"."
       }
@@ -588,27 +616,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cách hỏi và đánh vần tên riêng",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Alphabet & Spelling.",
+        "title": "Cách hỏi và đánh vần tên riêng (Dạng khẳng định)",
         "formula": "How do you spell + [Từ / Tên]?",
-        "examples": "{\"list\":[{\"en\":\"Example for Alphabet & Spelling.\",\"vi\":\"Ví dụ minh họa cho Alphabet & Spelling.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How do you spell + [Từ / Tên]?): Chọn dạng đúng của \\\"Letter\\\" trong câu:\",\"options\":[\"Letter\",\"Letters\",\"Lettering\",\"Lettered\"],\"correctAnswer\":\"Letter\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Letter\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How do you spell + [Từ / Tên]?): Chọn dạng đúng của \\\"Alphabet\\\" trong câu:\",\"options\":[\"Alphabet\",\"Alphabets\",\"Alphabeting\",\"Alphabeted\"],\"correctAnswer\":\"Alphabet\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Alphabet\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How do you spell + [Từ / Tên]?): Chọn dạng đúng của \\\"Spell\\\" trong câu:\",\"options\":[\"Spell\",\"Spells\",\"Spelling\",\"Spelled\"],\"correctAnswer\":\"Spell\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Spell\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How do you spell + [Từ / Tên]?): Chọn dạng đúng của \\\"Vowel\\\" trong câu:\",\"options\":[\"Vowel\",\"Vowels\",\"Voweling\",\"Voweled\"],\"correctAnswer\":\"Vowel\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Vowel\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How do you spell + [Từ / Tên]?): Chọn dạng đúng của \\\"Consonant\\\" trong câu:\",\"options\":[\"Consonant\",\"Consonants\",\"Consonanting\",\"Consonanted\"],\"correctAnswer\":\"Consonant\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Consonant\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Alphabet & Spelling. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Alphabet & Spelling\".",
+        "examples": "[{\"en\":\"I use \\\"Letter\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Letter\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Alphabet\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Alphabet\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Spell\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Spell\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Alphabet & Spelling",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Alphabet & Spelling, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Letter\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Letter\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Alphabet\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Alphabet\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Spell\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Spell\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Letter\\\" has a specific pronunciation: /ˈletər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Letter\\\" có phát âm cụ thể là /ˈletər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Alphabet\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Alphabet\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 3: Alphabet & Spelling",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Alphabet & Spelling. In daily life, communication plays a vital role. For instance, words like \"Letter\" and \"Alphabet\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Alphabet & Spelling. In my daily routine, I frequently use the word \"Letter\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Alphabet\" with my classmates. In addition, knowing how to use \"Spell\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Alphabet & Spelling\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Alphabet & Spelling\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Alphabet & Spelling\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Alphabet\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Alphabet\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Alphabet\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Vowel\\\" (Nguyên âm) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Vowel\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Consonant\\\" (Phụ âm) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Consonant\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Alphabet\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Alphabet\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Alphabet' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Alphabet & Spelling",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Alphabet & Spelling.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Alphabet & Spelling?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Alphabet & Spelling chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Letter\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Letter\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Alphabet\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Alphabet\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 3: Alphabet & Spelling",
+        "passage": "Mastering the theme of \"Alphabet & Spelling\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Letter\" (Chữ cái) and \"Alphabet\" (Bảng chữ cái) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Spell\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Alphabet & Spelling\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Letter\" (Chữ cái) và \"Alphabet\" (Bảng chữ cái) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Spell\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Alphabet & Spelling\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Alphabet & Spelling\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Alphabet & Spelling\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Letter\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Alphabet & Spelling\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Alphabet & Spelling\",\"explanation\":\"Đoạn văn khẳng định: \\\"Letter\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -656,13 +698,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Letter\" là gì?",
-        "options": "[\"Chữ cái\",\"Bảng chữ cái\",\"Đánh vần\",\"Nguyên âm\"]",
+        "options": "[\"Nguyên âm\",\"Chữ cái\",\"Bảng chữ cái\",\"Đánh vần\"]",
         "correctAnswer": "Chữ cái",
         "explanation": "\"Letter\" có phiên âm /ˈletər/ và mang nghĩa là \"Chữ cái\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Alphabet & Spelling, we need to practice _____.\"",
-        "options": "[\"Alphabet\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Alphabet\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Alphabet",
         "explanation": "\"Alphabet\" (Bảng chữ cái) là từ vựng chính xác trong ngữ cảnh chủ đề Alphabet & Spelling."
       },
@@ -674,13 +716,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Vowel\" là gì?",
-        "options": "[\"Nguyên âm\",\"Phụ âm\",\"Từ ngữ\",\"Âm thanh, phát âm\"]",
+        "options": "[\"Nguyên âm\",\"Âm thanh, phát âm\",\"Phụ âm\",\"Từ ngữ\"]",
         "correctAnswer": "Nguyên âm",
         "explanation": "\"Vowel\" có phiên âm /ˈvaʊəl/ và mang nghĩa là \"Nguyên âm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Alphabet & Spelling, we need to practice _____.\"",
-        "options": "[\"Consonant\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"Consonant\",\"airplanes\"]",
         "correctAnswer": "Consonant",
         "explanation": "\"Consonant\" (Phụ âm) là từ vựng chính xác trong ngữ cảnh chủ đề Alphabet & Spelling."
       },
@@ -692,13 +734,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sound\" là gì?",
-        "options": "[\"Âm thanh, phát âm\",\"Đọc\",\"Viết\",\"Nhắc lại\"]",
+        "options": "[\"Viết\",\"Âm thanh, phát âm\",\"Đọc\",\"Nhắc lại\"]",
         "correctAnswer": "Âm thanh, phát âm",
         "explanation": "\"Sound\" có phiên âm /saʊnd/ và mang nghĩa là \"Âm thanh, phát âm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Alphabet & Spelling, we need to practice _____.\"",
-        "options": "[\"Read\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Read\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Read",
         "explanation": "\"Read\" (Đọc) là từ vựng chính xác trong ngữ cảnh chủ đề Alphabet & Spelling."
       },
@@ -710,7 +752,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Repeat\" là gì?",
-        "options": "[\"Nhắc lại\",\"Chữ cái\",\"Bảng chữ cái\",\"Đánh vần\"]",
+        "options": "[\"Bảng chữ cái\",\"Đánh vần\",\"Nhắc lại\",\"Chữ cái\"]",
         "correctAnswer": "Nhắc lại",
         "explanation": "\"Repeat\" có phiên âm /rɪˈpiːt/ và mang nghĩa là \"Nhắc lại\"."
       }
@@ -827,27 +869,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cách hỏi số lượng với How many",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Numbers & Counting.",
+        "title": "Cách hỏi số lượng với How many (Dạng khẳng định)",
         "formula": "How many + [Danh từ số nhiều] + are there?",
-        "examples": "{\"list\":[{\"en\":\"Example for Numbers & Counting.\",\"vi\":\"Ví dụ minh họa cho Numbers & Counting.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How many + [Danh từ số nhiều] + are there?): Chọn dạng đúng của \\\"One\\\" trong câu:\",\"options\":[\"One\",\"Ones\",\"Oneing\",\"Oneed\"],\"correctAnswer\":\"One\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"One\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How many + [Danh từ số nhiều] + are there?): Chọn dạng đúng của \\\"Two\\\" trong câu:\",\"options\":[\"Two\",\"Twos\",\"Twoing\",\"Twoed\"],\"correctAnswer\":\"Two\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Two\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How many + [Danh từ số nhiều] + are there?): Chọn dạng đúng của \\\"Three\\\" trong câu:\",\"options\":[\"Three\",\"Threes\",\"Threeing\",\"Threeed\"],\"correctAnswer\":\"Three\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Three\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How many + [Danh từ số nhiều] + are there?): Chọn dạng đúng của \\\"Four\\\" trong câu:\",\"options\":[\"Four\",\"Fours\",\"Fouring\",\"Foured\"],\"correctAnswer\":\"Four\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Four\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How many + [Danh từ số nhiều] + are there?): Chọn dạng đúng của \\\"Five\\\" trong câu:\",\"options\":[\"Five\",\"Fives\",\"Fiveing\",\"Fiveed\"],\"correctAnswer\":\"Five\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Five\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Numbers & Counting. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Numbers & Counting\".",
+        "examples": "[{\"en\":\"I use \\\"One\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"One\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Two\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Two\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Three\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Three\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Numbers & Counting",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Numbers & Counting, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"One\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"One\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Two\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Two\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Three\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Three\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"One\\\" has a specific pronunciation: /wʌn/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"One\\\" có phát âm cụ thể là /wʌn/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Two\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Two\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 4: Numbers & Counting",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Numbers & Counting. In daily life, communication plays a vital role. For instance, words like \"One\" and \"Two\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Numbers & Counting. In my daily routine, I frequently use the word \"One\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Two\" with my classmates. In addition, knowing how to use \"Three\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Numbers & Counting\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Numbers & Counting\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Numbers & Counting\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Two\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Two\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Two\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Four\\\" (Số bốn (4)) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Four\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Five\\\" (Số năm (5)) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Five\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Two\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Two\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Two' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Numbers & Counting",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Numbers & Counting.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Numbers & Counting?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Numbers & Counting chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"One\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"One\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Two\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Two\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 4: Numbers & Counting",
+        "passage": "Mastering the theme of \"Numbers & Counting\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"One\" (Số một (1)) and \"Two\" (Số hai (2)) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Three\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Numbers & Counting\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"One\" (Số một (1)) và \"Two\" (Số hai (2)) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Three\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Numbers & Counting\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Numbers & Counting\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Numbers & Counting\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"One\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Numbers & Counting\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Numbers & Counting\",\"explanation\":\"Đoạn văn khẳng định: \\\"One\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -859,7 +915,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"sister\",\"I\",\"have\",\"one\"]",
+        "options": "[\"I\",\"sister\",\"have\",\"one\"]",
         "correctAnswer": "I have one sister",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I have one sister\"."
       },
@@ -901,7 +957,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Numbers & Counting, we need to practice _____.\"",
-        "options": "[\"Two\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"Two\",\"bananas\"]",
         "correctAnswer": "Two",
         "explanation": "\"Two\" (Số hai (2)) là từ vựng chính xác trong ngữ cảnh chủ đề Numbers & Counting."
       },
@@ -919,7 +975,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Numbers & Counting, we need to practice _____.\"",
-        "options": "[\"Five\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Five\"]",
         "correctAnswer": "Five",
         "explanation": "\"Five\" (Số năm (5)) là từ vựng chính xác trong ngữ cảnh chủ đề Numbers & Counting."
       },
@@ -931,7 +987,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hundred\" là gì?",
-        "options": "[\"Một trăm (100)\",\"Con số, số điện thoại\",\"Đếm\",\"Nhiều\"]",
+        "options": "[\"Một trăm (100)\",\"Con số, số điện thoại\",\"Nhiều\",\"Đếm\"]",
         "correctAnswer": "Một trăm (100)",
         "explanation": "\"Hundred\" có phiên âm /ˈhʌndrəd/ và mang nghĩa là \"Một trăm (100)\"."
       },
@@ -949,7 +1005,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Many\" là gì?",
-        "options": "[\"Nhiều\",\"Số một (1)\",\"Số hai (2)\",\"Số ba (3)\"]",
+        "options": "[\"Số ba (3)\",\"Số một (1)\",\"Nhiều\",\"Số hai (2)\"]",
         "correctAnswer": "Nhiều",
         "explanation": "\"Many\" có phiên âm /ˈmeni/ và mang nghĩa là \"Nhiều\"."
       }
@@ -1066,27 +1122,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi màu sắc của đồ vật",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Colors & Shapes.",
+        "title": "Hỏi màu sắc của đồ vật (Dạng khẳng định)",
         "formula": "What color is + [Vật]?",
-        "examples": "{\"list\":[{\"en\":\"Example for Colors & Shapes.\",\"vi\":\"Ví dụ minh họa cho Colors & Shapes.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What color is + [Vật]?): Chọn dạng đúng của \\\"Red\\\" trong câu:\",\"options\":[\"Red\",\"Reds\",\"Reding\",\"Reded\"],\"correctAnswer\":\"Red\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Red\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (What color is + [Vật]?): Chọn dạng đúng của \\\"Blue\\\" trong câu:\",\"options\":[\"Blue\",\"Blues\",\"Blueing\",\"Blueed\"],\"correctAnswer\":\"Blue\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Blue\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What color is + [Vật]?): Chọn dạng đúng của \\\"Yellow\\\" trong câu:\",\"options\":[\"Yellow\",\"Yellows\",\"Yellowing\",\"Yellowed\"],\"correctAnswer\":\"Yellow\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Yellow\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (What color is + [Vật]?): Chọn dạng đúng của \\\"Green\\\" trong câu:\",\"options\":[\"Green\",\"Greens\",\"Greening\",\"Greened\"],\"correctAnswer\":\"Green\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Green\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What color is + [Vật]?): Chọn dạng đúng của \\\"White\\\" trong câu:\",\"options\":[\"White\",\"Whites\",\"Whiteing\",\"Whiteed\"],\"correctAnswer\":\"White\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"White\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Colors & Shapes. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Colors & Shapes\".",
+        "examples": "[{\"en\":\"I use \\\"Red\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Red\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Blue\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Blue\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Yellow\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Yellow\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Colors & Shapes",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Colors & Shapes, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Red\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Red\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Blue\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Blue\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Yellow\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Yellow\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Red\\\" has a specific pronunciation: /red/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Red\\\" có phát âm cụ thể là /red/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Blue\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Blue\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 5: Colors & Shapes",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Colors & Shapes. In daily life, communication plays a vital role. For instance, words like \"Red\" and \"Blue\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Colors & Shapes. In my daily routine, I frequently use the word \"Red\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Blue\" with my classmates. In addition, knowing how to use \"Yellow\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Colors & Shapes\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Colors & Shapes\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Colors & Shapes\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Blue\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Blue\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Blue\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Green\\\" (Màu xanh lá cây) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Green\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"White\\\" (Màu trắng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"White\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Blue\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Blue\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Blue' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Colors & Shapes",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Colors & Shapes.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Colors & Shapes?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Colors & Shapes chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Red\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Red\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Blue\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Blue\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 5: Colors & Shapes",
+        "passage": "Mastering the theme of \"Colors & Shapes\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Red\" (Màu đỏ) and \"Blue\" (Màu xanh da trời) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Yellow\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Colors & Shapes\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Red\" (Màu đỏ) và \"Blue\" (Màu xanh da trời) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Yellow\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Colors & Shapes\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Colors & Shapes\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Colors & Shapes\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Red\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Colors & Shapes\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Colors & Shapes\",\"explanation\":\"Đoạn văn khẳng định: \\\"Red\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -1098,7 +1168,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"has\",\"She\",\"a\",\"red\",\"apple\"]",
+        "options": "[\"a\",\"has\",\"She\",\"apple\",\"red\"]",
         "correctAnswer": "She has a red apple",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"She has a red apple\"."
       },
@@ -1134,13 +1204,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Red\" là gì?",
-        "options": "[\"Màu đỏ\",\"Màu xanh da trời\",\"Màu vàng\",\"Màu xanh lá cây\"]",
+        "options": "[\"Màu vàng\",\"Màu xanh da trời\",\"Màu đỏ\",\"Màu xanh lá cây\"]",
         "correctAnswer": "Màu đỏ",
         "explanation": "\"Red\" có phiên âm /red/ và mang nghĩa là \"Màu đỏ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Colors & Shapes, we need to practice _____.\"",
-        "options": "[\"Blue\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Blue\",\"umbrellas\"]",
         "correctAnswer": "Blue",
         "explanation": "\"Blue\" (Màu xanh da trời) là từ vựng chính xác trong ngữ cảnh chủ đề Colors & Shapes."
       },
@@ -1152,13 +1222,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Green\" là gì?",
-        "options": "[\"Màu xanh lá cây\",\"Màu trắng\",\"Màu đen\",\"Hình tròn\"]",
+        "options": "[\"Hình tròn\",\"Màu đen\",\"Màu trắng\",\"Màu xanh lá cây\"]",
         "correctAnswer": "Màu xanh lá cây",
         "explanation": "\"Green\" có phiên âm /ɡriːn/ và mang nghĩa là \"Màu xanh lá cây\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Colors & Shapes, we need to practice _____.\"",
-        "options": "[\"White\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"White\"]",
         "correctAnswer": "White",
         "explanation": "\"White\" (Màu trắng) là từ vựng chính xác trong ngữ cảnh chủ đề Colors & Shapes."
       },
@@ -1170,7 +1240,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Circle\" là gì?",
-        "options": "[\"Hình tròn\",\"Hình vuông\",\"Màu sắc\",\"Sáng sủa, tươi sáng\"]",
+        "options": "[\"Sáng sủa, tươi sáng\",\"Màu sắc\",\"Hình vuông\",\"Hình tròn\"]",
         "correctAnswer": "Hình tròn",
         "explanation": "\"Circle\" có phiên âm /ˈsɜːrkl/ và mang nghĩa là \"Hình tròn\"."
       },
@@ -1188,7 +1258,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bright\" là gì?",
-        "options": "[\"Sáng sủa, tươi sáng\",\"Màu đỏ\",\"Màu xanh da trời\",\"Màu vàng\"]",
+        "options": "[\"Màu xanh da trời\",\"Sáng sủa, tươi sáng\",\"Màu đỏ\",\"Màu vàng\"]",
         "correctAnswer": "Sáng sủa, tươi sáng",
         "explanation": "\"Bright\" có phiên âm /braɪt/ và mang nghĩa là \"Sáng sủa, tươi sáng\"."
       }
@@ -1305,27 +1375,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Giới thiệu thành viên gia đình",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Family & Relatives.",
+        "title": "Giới thiệu thành viên gia đình (Dạng khẳng định)",
         "formula": "This is my + [Thành viên gia đình]",
-        "examples": "{\"list\":[{\"en\":\"Example for Family & Relatives.\",\"vi\":\"Ví dụ minh họa cho Family & Relatives.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (This is my + [Thành viên gia đình]): Chọn dạng đúng của \\\"Father\\\" trong câu:\",\"options\":[\"Father\",\"Fathers\",\"Fathering\",\"Fathered\"],\"correctAnswer\":\"Father\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Father\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (This is my + [Thành viên gia đình]): Chọn dạng đúng của \\\"Mother\\\" trong câu:\",\"options\":[\"Mother\",\"Mothers\",\"Mothering\",\"Mothered\"],\"correctAnswer\":\"Mother\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Mother\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (This is my + [Thành viên gia đình]): Chọn dạng đúng của \\\"Parents\\\" trong câu:\",\"options\":[\"Parents\",\"Parentss\",\"Parentsing\",\"Parentsed\"],\"correctAnswer\":\"Parents\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Parents\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (This is my + [Thành viên gia đình]): Chọn dạng đúng của \\\"Brother\\\" trong câu:\",\"options\":[\"Brother\",\"Brothers\",\"Brothering\",\"Brothered\"],\"correctAnswer\":\"Brother\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Brother\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (This is my + [Thành viên gia đình]): Chọn dạng đúng của \\\"Sister\\\" trong câu:\",\"options\":[\"Sister\",\"Sisters\",\"Sistering\",\"Sistered\"],\"correctAnswer\":\"Sister\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sister\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Family & Relatives. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Family & Relatives\".",
+        "examples": "[{\"en\":\"I use \\\"Father\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Father\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Mother\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Mother\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Parents\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Parents\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Family & Relatives",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Family & Relatives, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Father\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Father\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Mother\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Mother\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Parents\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Parents\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Father\\\" has a specific pronunciation: /ˈfɑːðər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Father\\\" có phát âm cụ thể là /ˈfɑːðər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Mother\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Mother\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 6: Family & Relatives",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Family & Relatives. In daily life, communication plays a vital role. For instance, words like \"Father\" and \"Mother\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Family & Relatives. In my daily routine, I frequently use the word \"Father\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Mother\" with my classmates. In addition, knowing how to use \"Parents\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Family & Relatives\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Family & Relatives\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Family & Relatives\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Mother\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Mother\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Mother\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Brother\\\" (Anh trai / Em trai) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Brother\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Sister\\\" (Chị gái / Em gái) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Sister\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Mother\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Mother\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Mother' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Family & Relatives",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Family & Relatives.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Family & Relatives?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Family & Relatives chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Father\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Father\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Mother\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Mother\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 6: Family & Relatives",
+        "passage": "Mastering the theme of \"Family & Relatives\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Father\" (Bố, cha) and \"Mother\" (Mẹ) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Parents\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Family & Relatives\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Father\" (Bố, cha) và \"Mother\" (Mẹ) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Parents\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Family & Relatives\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Family & Relatives\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Family & Relatives\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Father\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Family & Relatives\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Family & Relatives\",\"explanation\":\"Đoạn văn khẳng định: \\\"Father\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -1337,7 +1421,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"an\",\"is\",\"father\",\"engineer\",\"My\"]",
+        "options": "[\"engineer\",\"an\",\"is\",\"father\",\"My\"]",
         "correctAnswer": "My father is an engineer",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"My father is an engineer\"."
       },
@@ -1391,7 +1475,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Brother\" là gì?",
-        "options": "[\"Anh trai / Em trai\",\"Chị gái / Em gái\",\"Con trai\",\"Con gái\"]",
+        "options": "[\"Con gái\",\"Con trai\",\"Chị gái / Em gái\",\"Anh trai / Em trai\"]",
         "correctAnswer": "Anh trai / Em trai",
         "explanation": "\"Brother\" có phiên âm /ˈbrʌðər/ và mang nghĩa là \"Anh trai / Em trai\"."
       },
@@ -1409,7 +1493,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Daughter\" là gì?",
-        "options": "[\"Con gái\",\"Ông nội / Ông ngoại\",\"Bà nội / Bà ngoại\",\"Gia đình\"]",
+        "options": "[\"Gia đình\",\"Bà nội / Bà ngoại\",\"Ông nội / Ông ngoại\",\"Con gái\"]",
         "correctAnswer": "Con gái",
         "explanation": "\"Daughter\" có phiên âm /ˈdɔːtər/ và mang nghĩa là \"Con gái\"."
       },
@@ -1427,7 +1511,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Family\" là gì?",
-        "options": "[\"Gia đình\",\"Bố, cha\",\"Mẹ\",\"Bố mẹ, phụ huynh\"]",
+        "options": "[\"Bố mẹ, phụ huynh\",\"Mẹ\",\"Bố, cha\",\"Gia đình\"]",
         "correctAnswer": "Gia đình",
         "explanation": "\"Family\" có phiên âm /ˈfæməli/ và mang nghĩa là \"Gia đình\"."
       }
@@ -1544,27 +1628,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc miêu tả nơi chốn với There is / There are",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Home & Rooms.",
+        "title": "Cấu trúc miêu tả nơi chốn với There is / There are (Dạng khẳng định)",
         "formula": "There is / There are + [Phòng / Đồ vật]",
-        "examples": "{\"list\":[{\"en\":\"Example for Home & Rooms.\",\"vi\":\"Ví dụ minh họa cho Home & Rooms.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (There is / There are + [Phòng / Đồ vật]): Chọn dạng đúng của \\\"House\\\" trong câu:\",\"options\":[\"House\",\"Houses\",\"Houseing\",\"Houseed\"],\"correctAnswer\":\"House\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"House\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (There is / There are + [Phòng / Đồ vật]): Chọn dạng đúng của \\\"Room\\\" trong câu:\",\"options\":[\"Room\",\"Rooms\",\"Rooming\",\"Roomed\"],\"correctAnswer\":\"Room\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Room\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (There is / There are + [Phòng / Đồ vật]): Chọn dạng đúng của \\\"Living room\\\" trong câu:\",\"options\":[\"Living room\",\"Living rooms\",\"Living rooming\",\"Living roomed\"],\"correctAnswer\":\"Living room\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Living room\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (There is / There are + [Phòng / Đồ vật]): Chọn dạng đúng của \\\"Bedroom\\\" trong câu:\",\"options\":[\"Bedroom\",\"Bedrooms\",\"Bedrooming\",\"Bedroomed\"],\"correctAnswer\":\"Bedroom\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bedroom\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (There is / There are + [Phòng / Đồ vật]): Chọn dạng đúng của \\\"Kitchen\\\" trong câu:\",\"options\":[\"Kitchen\",\"Kitchens\",\"Kitchening\",\"Kitchened\"],\"correctAnswer\":\"Kitchen\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Kitchen\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Home & Rooms. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Home & Rooms\".",
+        "examples": "[{\"en\":\"I use \\\"House\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"House\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Room\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Room\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Living room\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Living room\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Home & Rooms",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Home & Rooms, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"House\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"House\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Room\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Room\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Living room\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Living room\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"House\\\" has a specific pronunciation: /haʊs/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"House\\\" có phát âm cụ thể là /haʊs/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Room\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Room\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 7: Home & Rooms",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Home & Rooms. In daily life, communication plays a vital role. For instance, words like \"House\" and \"Room\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Home & Rooms. In my daily routine, I frequently use the word \"House\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Room\" with my classmates. In addition, knowing how to use \"Living room\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Home & Rooms\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Home & Rooms\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Home & Rooms\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Room\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Room\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Room\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Bedroom\\\" (Phòng ngủ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Bedroom\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Kitchen\\\" (Nhà bếp) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Kitchen\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Room\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Room\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Room' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Home & Rooms",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Home & Rooms.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Home & Rooms?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Home & Rooms chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"House\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"House\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Room\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Room\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 7: Home & Rooms",
+        "passage": "Mastering the theme of \"Home & Rooms\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"House\" (Ngôi nhà) and \"Room\" (Căn phòng) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Living room\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Home & Rooms\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"House\" (Ngôi nhà) và \"Room\" (Căn phòng) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Living room\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Home & Rooms\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Home & Rooms\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Home & Rooms\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"House\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Home & Rooms\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Home & Rooms\",\"explanation\":\"Đoạn văn khẳng định: \\\"House\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -1576,7 +1674,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"We\",\"live\",\"in\",\"small\",\"a\",\"house\"]",
+        "options": "[\"in\",\"live\",\"small\",\"We\",\"a\",\"house\"]",
         "correctAnswer": "We live in a small house",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"We live in a small house\"."
       },
@@ -1612,13 +1710,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"House\" là gì?",
-        "options": "[\"Ngôi nhà\",\"Căn phòng\",\"Phòng khách\",\"Phòng ngủ\"]",
+        "options": "[\"Căn phòng\",\"Ngôi nhà\",\"Phòng khách\",\"Phòng ngủ\"]",
         "correctAnswer": "Ngôi nhà",
         "explanation": "\"House\" có phiên âm /haʊs/ và mang nghĩa là \"Ngôi nhà\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Home & Rooms, we need to practice _____.\"",
-        "options": "[\"Room\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Room\"]",
         "correctAnswer": "Room",
         "explanation": "\"Room\" (Căn phòng) là từ vựng chính xác trong ngữ cảnh chủ đề Home & Rooms."
       },
@@ -1630,13 +1728,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bedroom\" là gì?",
-        "options": "[\"Phòng ngủ\",\"Nhà bếp\",\"Phòng tắm, vệ sinh\",\"Cửa ra vào\"]",
+        "options": "[\"Phòng ngủ\",\"Cửa ra vào\",\"Nhà bếp\",\"Phòng tắm, vệ sinh\"]",
         "correctAnswer": "Phòng ngủ",
         "explanation": "\"Bedroom\" có phiên âm /ˈbedruːm/ và mang nghĩa là \"Phòng ngủ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Home & Rooms, we need to practice _____.\"",
-        "options": "[\"Kitchen\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Kitchen\",\"umbrellas\"]",
         "correctAnswer": "Kitchen",
         "explanation": "\"Kitchen\" (Nhà bếp) là từ vựng chính xác trong ngữ cảnh chủ đề Home & Rooms."
       },
@@ -1648,13 +1746,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Door\" là gì?",
-        "options": "[\"Cửa ra vào\",\"Cửa sổ\",\"Khu vườn\",\"Tổ ấm, mái nhà\"]",
+        "options": "[\"Cửa ra vào\",\"Cửa sổ\",\"Tổ ấm, mái nhà\",\"Khu vườn\"]",
         "correctAnswer": "Cửa ra vào",
         "explanation": "\"Door\" có phiên âm /dɔːr/ và mang nghĩa là \"Cửa ra vào\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Home & Rooms, we need to practice _____.\"",
-        "options": "[\"Window\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Window\"]",
         "correctAnswer": "Window",
         "explanation": "\"Window\" (Cửa sổ) là từ vựng chính xác trong ngữ cảnh chủ đề Home & Rooms."
       },
@@ -1783,27 +1881,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Giới từ chỉ vị trí in, on, under",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Furniture & Household Items.",
+        "title": "Giới từ chỉ vị trí in, on, under (Dạng khẳng định)",
         "formula": "The + [Đồ vật] + is on / in / under + [Vị trí]",
-        "examples": "{\"list\":[{\"en\":\"Example for Furniture & Household Items.\",\"vi\":\"Ví dụ minh họa cho Furniture & Household Items.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (The + [Đồ vật] + is on / in / under + [Vị trí]): Chọn dạng đúng của \\\"Table\\\" trong câu:\",\"options\":[\"Table\",\"Tables\",\"Tableing\",\"Tableed\"],\"correctAnswer\":\"Table\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Table\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (The + [Đồ vật] + is on / in / under + [Vị trí]): Chọn dạng đúng của \\\"Chair\\\" trong câu:\",\"options\":[\"Chair\",\"Chairs\",\"Chairing\",\"Chaired\"],\"correctAnswer\":\"Chair\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Chair\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (The + [Đồ vật] + is on / in / under + [Vị trí]): Chọn dạng đúng của \\\"Bed\\\" trong câu:\",\"options\":[\"Bed\",\"Beds\",\"Beding\",\"Beded\"],\"correctAnswer\":\"Bed\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bed\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (The + [Đồ vật] + is on / in / under + [Vị trí]): Chọn dạng đúng của \\\"Desk\\\" trong câu:\",\"options\":[\"Desk\",\"Desks\",\"Desking\",\"Desked\"],\"correctAnswer\":\"Desk\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Desk\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (The + [Đồ vật] + is on / in / under + [Vị trí]): Chọn dạng đúng của \\\"Lamp\\\" trong câu:\",\"options\":[\"Lamp\",\"Lamps\",\"Lamping\",\"Lamped\"],\"correctAnswer\":\"Lamp\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Lamp\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Furniture & Household Items. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Furniture & Household Items\".",
+        "examples": "[{\"en\":\"I use \\\"Table\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Table\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Chair\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Chair\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Bed\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Bed\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Furniture & Household Items",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Furniture & Household Items, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Table\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Table\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Chair\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Chair\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Bed\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Bed\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Table\\\" has a specific pronunciation: /ˈteɪbl/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Table\\\" có phát âm cụ thể là /ˈteɪbl/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Chair\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Chair\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 8: Furniture & Household Items",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Furniture & Household Items. In daily life, communication plays a vital role. For instance, words like \"Table\" and \"Chair\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Furniture & Household Items. In my daily routine, I frequently use the word \"Table\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Chair\" with my classmates. In addition, knowing how to use \"Bed\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Furniture & Household Items\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Furniture & Household Items\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Furniture & Household Items\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Chair\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Chair\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Chair\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Desk\\\" (Bàn làm việc / học) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Desk\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Lamp\\\" (Đèn bàn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Lamp\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Chair\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Chair\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Chair' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Furniture & Household Items",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Furniture & Household Items.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Furniture & Household Items?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Furniture & Household Items chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Table\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Table\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Chair\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Chair\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 8: Furniture & Household Items",
+        "passage": "Mastering the theme of \"Furniture & Household Items\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Table\" (Cái bàn) and \"Chair\" (Cái ghế) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Bed\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Furniture & Household Items\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Table\" (Cái bàn) và \"Chair\" (Cái ghế) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Bed\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Furniture & Household Items\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Furniture & Household Items\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Furniture & Household Items\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Table\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Furniture & Household Items\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Furniture & Household Items\",\"explanation\":\"Đoạn văn khẳng định: \\\"Table\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -1815,7 +1927,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"the\",\"Put\",\"table\",\"keys\",\"on\",\"the\"]",
+        "options": "[\"on\",\"keys\",\"the\",\"the\",\"Put\",\"table\"]",
         "correctAnswer": "Put the keys on the table",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Put the keys on the table\"."
       },
@@ -1851,13 +1963,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Table\" là gì?",
-        "options": "[\"Cái bàn\",\"Cái ghế\",\"Cái giường\",\"Bàn làm việc / học\"]",
+        "options": "[\"Cái ghế\",\"Cái giường\",\"Bàn làm việc / học\",\"Cái bàn\"]",
         "correctAnswer": "Cái bàn",
         "explanation": "\"Table\" có phiên âm /ˈteɪbl/ và mang nghĩa là \"Cái bàn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Furniture & Household Items, we need to practice _____.\"",
-        "options": "[\"Chair\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Chair\",\"umbrellas\"]",
         "correctAnswer": "Chair",
         "explanation": "\"Chair\" (Cái ghế) là từ vựng chính xác trong ngữ cảnh chủ đề Furniture & Household Items."
       },
@@ -1869,7 +1981,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Desk\" là gì?",
-        "options": "[\"Bàn làm việc / học\",\"Đèn bàn\",\"Ghế sofa\",\"Đồng hồ treo tường\"]",
+        "options": "[\"Đồng hồ treo tường\",\"Bàn làm việc / học\",\"Đèn bàn\",\"Ghế sofa\"]",
         "correctAnswer": "Bàn làm việc / học",
         "explanation": "\"Desk\" có phiên âm /desk/ và mang nghĩa là \"Bàn làm việc / học\"."
       },
@@ -1893,7 +2005,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Furniture & Household Items, we need to practice _____.\"",
-        "options": "[\"Picture\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Picture\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Picture",
         "explanation": "\"Picture\" (Bức tranh / ảnh) là từ vựng chính xác trong ngữ cảnh chủ đề Furniture & Household Items."
       },
@@ -1905,7 +2017,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Mirror\" là gì?",
-        "options": "[\"Gương soi\",\"Cái bàn\",\"Cái ghế\",\"Cái giường\"]",
+        "options": "[\"Gương soi\",\"Cái bàn\",\"Cái giường\",\"Cái ghế\"]",
         "correctAnswer": "Gương soi",
         "explanation": "\"Mirror\" có phiên âm /ˈmɪrər/ và mang nghĩa là \"Gương soi\"."
       }
@@ -2022,27 +2134,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Diễn đạt sở thích ăn uống với like / don't like",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Food & Basic Groceries.",
+        "title": "Diễn đạt sở thích ăn uống với like / don't like (Dạng khẳng định)",
         "formula": "I like + [Món ăn] / I don't like + [Món ăn]",
-        "examples": "{\"list\":[{\"en\":\"Example for Food & Basic Groceries.\",\"vi\":\"Ví dụ minh họa cho Food & Basic Groceries.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I like + [Món ăn] / I don't like + [Món ăn]): Chọn dạng đúng của \\\"Bread\\\" trong câu:\",\"options\":[\"Bread\",\"Breads\",\"Breading\",\"Breaded\"],\"correctAnswer\":\"Bread\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bread\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I like + [Món ăn] / I don't like + [Món ăn]): Chọn dạng đúng của \\\"Rice\\\" trong câu:\",\"options\":[\"Rice\",\"Rices\",\"Riceing\",\"Riceed\"],\"correctAnswer\":\"Rice\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Rice\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I like + [Món ăn] / I don't like + [Món ăn]): Chọn dạng đúng của \\\"Meat\\\" trong câu:\",\"options\":[\"Meat\",\"Meats\",\"Meating\",\"Meated\"],\"correctAnswer\":\"Meat\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Meat\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I like + [Món ăn] / I don't like + [Món ăn]): Chọn dạng đúng của \\\"Fish\\\" trong câu:\",\"options\":[\"Fish\",\"Fishs\",\"Fishing\",\"Fished\"],\"correctAnswer\":\"Fish\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Fish\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I like + [Món ăn] / I don't like + [Món ăn]): Chọn dạng đúng của \\\"Egg\\\" trong câu:\",\"options\":[\"Egg\",\"Eggs\",\"Egging\",\"Egged\"],\"correctAnswer\":\"Egg\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Egg\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Food & Basic Groceries. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Food & Basic Groceries\".",
+        "examples": "[{\"en\":\"I use \\\"Bread\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Bread\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Rice\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Rice\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Meat\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Meat\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Food & Basic Groceries",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Food & Basic Groceries, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Bread\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Bread\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Rice\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Rice\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Meat\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Meat\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Bread\\\" has a specific pronunciation: /bred/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bread\\\" có phát âm cụ thể là /bred/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Rice\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Rice\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 9: Food & Basic Groceries",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Food & Basic Groceries. In daily life, communication plays a vital role. For instance, words like \"Bread\" and \"Rice\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Food & Basic Groceries. In my daily routine, I frequently use the word \"Bread\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Rice\" with my classmates. In addition, knowing how to use \"Meat\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Food & Basic Groceries\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Food & Basic Groceries\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Food & Basic Groceries\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Rice\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Rice\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Rice\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Fish\\\" (Cá) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Fish\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Egg\\\" (Quả trứng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Egg\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Rice\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Rice\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Rice' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Food & Basic Groceries",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Food & Basic Groceries.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Food & Basic Groceries?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Food & Basic Groceries chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Bread\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Bread\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Rice\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Rice\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 9: Food & Basic Groceries",
+        "passage": "Mastering the theme of \"Food & Basic Groceries\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Bread\" (Bánh mì) and \"Rice\" (Cơm, gạo) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Meat\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Food & Basic Groceries\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Bread\" (Bánh mì) và \"Rice\" (Cơm, gạo) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Meat\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Food & Basic Groceries\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Food & Basic Groceries\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Food & Basic Groceries\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Bread\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Food & Basic Groceries\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Food & Basic Groceries\",\"explanation\":\"Đoạn văn khẳng định: \\\"Bread\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2054,7 +2180,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Fresh\",\"bread\",\"in\",\"the\",\"morning\"]",
+        "options": "[\"bread\",\"in\",\"morning\",\"Fresh\",\"the\"]",
         "correctAnswer": "Fresh bread in the morning",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Fresh bread in the morning\"."
       },
@@ -2096,7 +2222,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Food & Basic Groceries, we need to practice _____.\"",
-        "options": "[\"Rice\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Rice\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Rice",
         "explanation": "\"Rice\" (Cơm, gạo) là từ vựng chính xác trong ngữ cảnh chủ đề Food & Basic Groceries."
       },
@@ -2108,7 +2234,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Fish\" là gì?",
-        "options": "[\"Cá\",\"Quả trứng\",\"Quả táo\",\"Quả chuối\"]",
+        "options": "[\"Cá\",\"Quả trứng\",\"Quả chuối\",\"Quả táo\"]",
         "correctAnswer": "Cá",
         "explanation": "\"Fish\" có phiên âm /fɪʃ/ và mang nghĩa là \"Cá\"."
       },
@@ -2144,7 +2270,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Delicious\" là gì?",
-        "options": "[\"Ngon miệng\",\"Bánh mì\",\"Cơm, gạo\",\"Thịt\"]",
+        "options": "[\"Ngon miệng\",\"Cơm, gạo\",\"Bánh mì\",\"Thịt\"]",
         "correctAnswer": "Ngon miệng",
         "explanation": "\"Delicious\" có phiên âm /dɪˈlɪʃəs/ và mang nghĩa là \"Ngon miệng\"."
       }
@@ -2261,27 +2387,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Gọi đồ uống lịch sự với Can I have...",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Drinks & Beverages.",
+        "title": "Gọi đồ uống lịch sự với Can I have... (Dạng khẳng định)",
         "formula": "Can I have a cup of + [Đồ uống]?",
-        "examples": "{\"list\":[{\"en\":\"Example for Drinks & Beverages.\",\"vi\":\"Ví dụ minh họa cho Drinks & Beverages.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Can I have a cup of + [Đồ uống]?): Chọn dạng đúng của \\\"Water\\\" trong câu:\",\"options\":[\"Water\",\"Waters\",\"Watering\",\"Watered\"],\"correctAnswer\":\"Water\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Water\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Can I have a cup of + [Đồ uống]?): Chọn dạng đúng của \\\"Coffee\\\" trong câu:\",\"options\":[\"Coffee\",\"Coffees\",\"Coffeeing\",\"Coffeeed\"],\"correctAnswer\":\"Coffee\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Coffee\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Can I have a cup of + [Đồ uống]?): Chọn dạng đúng của \\\"Tea\\\" trong câu:\",\"options\":[\"Tea\",\"Teas\",\"Teaing\",\"Teaed\"],\"correctAnswer\":\"Tea\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Tea\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Can I have a cup of + [Đồ uống]?): Chọn dạng đúng của \\\"Milk\\\" trong câu:\",\"options\":[\"Milk\",\"Milks\",\"Milking\",\"Milked\"],\"correctAnswer\":\"Milk\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Milk\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Can I have a cup of + [Đồ uống]?): Chọn dạng đúng của \\\"Juice\\\" trong câu:\",\"options\":[\"Juice\",\"Juices\",\"Juiceing\",\"Juiceed\"],\"correctAnswer\":\"Juice\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Juice\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Drinks & Beverages. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Drinks & Beverages\".",
+        "examples": "[{\"en\":\"I use \\\"Water\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Water\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Coffee\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Coffee\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Tea\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Tea\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Drinks & Beverages",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Drinks & Beverages, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Water\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Water\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Coffee\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Coffee\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Tea\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Tea\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Water\\\" has a specific pronunciation: /ˈwɔːtər/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Water\\\" có phát âm cụ thể là /ˈwɔːtər/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Coffee\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Coffee\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 10: Drinks & Beverages",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Drinks & Beverages. In daily life, communication plays a vital role. For instance, words like \"Water\" and \"Coffee\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Drinks & Beverages. In my daily routine, I frequently use the word \"Water\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Coffee\" with my classmates. In addition, knowing how to use \"Tea\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Drinks & Beverages\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Drinks & Beverages\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Drinks & Beverages\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Coffee\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Coffee\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Coffee\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Milk\\\" (Sữa tươi) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Milk\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Juice\\\" (Nước ép trái cây) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Juice\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Coffee\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Coffee\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Coffee' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Drinks & Beverages",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Drinks & Beverages.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Drinks & Beverages?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Drinks & Beverages chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Water\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Water\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Coffee\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Coffee\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 10: Drinks & Beverages",
+        "passage": "Mastering the theme of \"Drinks & Beverages\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Water\" (Nước lọc) and \"Coffee\" (Cà phê) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Tea\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Drinks & Beverages\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Water\" (Nước lọc) và \"Coffee\" (Cà phê) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Tea\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Drinks & Beverages\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Drinks & Beverages\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Drinks & Beverages\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Water\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Drinks & Beverages\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Drinks & Beverages\",\"explanation\":\"Đoạn văn khẳng định: \\\"Water\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2293,7 +2433,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Drink\",\"plenty\",\"of\",\"water\"]",
+        "options": "[\"Drink\",\"water\",\"plenty\",\"of\"]",
         "correctAnswer": "Drink plenty of water",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"Drink plenty of water\"."
       },
@@ -2329,13 +2469,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Water\" là gì?",
-        "options": "[\"Nước lọc\",\"Cà phê\",\"Trà\",\"Sữa tươi\"]",
+        "options": "[\"Cà phê\",\"Trà\",\"Sữa tươi\",\"Nước lọc\"]",
         "correctAnswer": "Nước lọc",
         "explanation": "\"Water\" có phiên âm /ˈwɔːtər/ và mang nghĩa là \"Nước lọc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Drinks & Beverages, we need to practice _____.\"",
-        "options": "[\"Coffee\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Coffee\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Coffee",
         "explanation": "\"Coffee\" (Cà phê) là từ vựng chính xác trong ngữ cảnh chủ đề Drinks & Beverages."
       },
@@ -2347,13 +2487,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Milk\" là gì?",
-        "options": "[\"Sữa tươi\",\"Nước ép trái cây\",\"Tách, chén\",\"Ly thủy tinh\"]",
+        "options": "[\"Nước ép trái cây\",\"Ly thủy tinh\",\"Sữa tươi\",\"Tách, chén\"]",
         "correctAnswer": "Sữa tươi",
         "explanation": "\"Milk\" có phiên âm /mɪlk/ và mang nghĩa là \"Sữa tươi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Drinks & Beverages, we need to practice _____.\"",
-        "options": "[\"Juice\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Juice\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Juice",
         "explanation": "\"Juice\" (Nước ép trái cây) là từ vựng chính xác trong ngữ cảnh chủ đề Drinks & Beverages."
       },
@@ -2371,7 +2511,7 @@ module.exports = [
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Drinks & Beverages, we need to practice _____.\"",
-        "options": "[\"Bottle\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Bottle\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Bottle",
         "explanation": "\"Bottle\" (Chai nước) là từ vựng chính xác trong ngữ cảnh chủ đề Drinks & Beverages."
       },
@@ -2383,7 +2523,7 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ice\" là gì?",
-        "options": "[\"Đá lạnh\",\"Nước lọc\",\"Cà phê\",\"Trà\"]",
+        "options": "[\"Trà\",\"Cà phê\",\"Nước lọc\",\"Đá lạnh\"]",
         "correctAnswer": "Đá lạnh",
         "explanation": "\"Ice\" có phiên âm /aɪs/ và mang nghĩa là \"Đá lạnh\"."
       }
@@ -2400,7 +2540,7 @@ module.exports = [
       {
         "word": "Burger",
         "meaning": "Bánh bơ-gơ",
-        "pronunciation": "/.../",
+        "pronunciation": "/burger/",
         "partOfSpeech": "noun",
         "example": "I use Burger in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Burger trong giao tiếp hàng ngày.",
@@ -2410,7 +2550,7 @@ module.exports = [
       {
         "word": "Pizza",
         "meaning": "Bánh pizza",
-        "pronunciation": "/.../",
+        "pronunciation": "/pizza/",
         "partOfSpeech": "noun",
         "example": "I use Pizza in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pizza trong giao tiếp hàng ngày.",
@@ -2420,7 +2560,7 @@ module.exports = [
       {
         "word": "Menu",
         "meaning": "Thực đơn",
-        "pronunciation": "/.../",
+        "pronunciation": "/menu/",
         "partOfSpeech": "noun",
         "example": "I use Menu in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Menu trong giao tiếp hàng ngày.",
@@ -2430,7 +2570,7 @@ module.exports = [
       {
         "word": "Order",
         "meaning": "Gọi món",
-        "pronunciation": "/.../",
+        "pronunciation": "/order/",
         "partOfSpeech": "noun",
         "example": "I use Order in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Order trong giao tiếp hàng ngày.",
@@ -2440,7 +2580,7 @@ module.exports = [
       {
         "word": "Bill",
         "meaning": "Hóa đơn",
-        "pronunciation": "/.../",
+        "pronunciation": "/bill/",
         "partOfSpeech": "noun",
         "example": "I use Bill in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bill trong giao tiếp hàng ngày.",
@@ -2450,7 +2590,7 @@ module.exports = [
       {
         "word": "Waiter",
         "meaning": "Bồi bàn",
-        "pronunciation": "/.../",
+        "pronunciation": "/waiter/",
         "partOfSpeech": "noun",
         "example": "I use Waiter in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Waiter trong giao tiếp hàng ngày.",
@@ -2460,7 +2600,7 @@ module.exports = [
       {
         "word": "Eat",
         "meaning": "Ăn",
-        "pronunciation": "/.../",
+        "pronunciation": "/eat/",
         "partOfSpeech": "noun",
         "example": "I use Eat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eat trong giao tiếp hàng ngày.",
@@ -2470,7 +2610,7 @@ module.exports = [
       {
         "word": "Drink",
         "meaning": "Uống",
-        "pronunciation": "/.../",
+        "pronunciation": "/drink/",
         "partOfSpeech": "noun",
         "example": "I use Drink in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Drink trong giao tiếp hàng ngày.",
@@ -2480,7 +2620,7 @@ module.exports = [
       {
         "word": "Hungry",
         "meaning": "Đói bụng",
-        "pronunciation": "/.../",
+        "pronunciation": "/hungry/",
         "partOfSpeech": "noun",
         "example": "I use Hungry in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hungry trong giao tiếp hàng ngày.",
@@ -2490,7 +2630,7 @@ module.exports = [
       {
         "word": "Thirsty",
         "meaning": "Khát nước",
-        "pronunciation": "/.../",
+        "pronunciation": "/thirsty/",
         "partOfSpeech": "noun",
         "example": "I use Thirsty in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Thirsty trong giao tiếp hàng ngày.",
@@ -2500,27 +2640,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Gọi món với I would like",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Eating Out & Ordering Fast Food.",
+        "title": "Gọi món với I would like (Dạng khẳng định)",
         "formula": "I would like + [Món]",
-        "examples": "{\"list\":[{\"en\":\"Example for Eating Out & Ordering Fast Food.\",\"vi\":\"Ví dụ minh họa cho Eating Out & Ordering Fast Food.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I would like + [Món]): Chọn dạng đúng của \\\"Burger\\\" trong câu:\",\"options\":[\"Burger\",\"Burgers\",\"Burgering\",\"Burgered\"],\"correctAnswer\":\"Burger\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Burger\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I would like + [Món]): Chọn dạng đúng của \\\"Pizza\\\" trong câu:\",\"options\":[\"Pizza\",\"Pizzas\",\"Pizzaing\",\"Pizzaed\"],\"correctAnswer\":\"Pizza\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Pizza\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I would like + [Món]): Chọn dạng đúng của \\\"Menu\\\" trong câu:\",\"options\":[\"Menu\",\"Menus\",\"Menuing\",\"Menued\"],\"correctAnswer\":\"Menu\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Menu\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I would like + [Món]): Chọn dạng đúng của \\\"Order\\\" trong câu:\",\"options\":[\"Order\",\"Orders\",\"Ordering\",\"Ordered\"],\"correctAnswer\":\"Order\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Order\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I would like + [Món]): Chọn dạng đúng của \\\"Bill\\\" trong câu:\",\"options\":[\"Bill\",\"Bills\",\"Billing\",\"Billed\"],\"correctAnswer\":\"Bill\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bill\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Eating Out & Ordering Fast Food. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Eating Out & Ordering Fast Food\".",
+        "examples": "[{\"en\":\"I use \\\"Burger\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Burger\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Pizza\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Pizza\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Menu\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Menu\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Eating Out & Ordering Fast Food",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Eating Out & Ordering Fast Food, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Burger\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Burger\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Pizza\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Pizza\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Menu\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Menu\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Burger\\\" has a specific pronunciation: /burger/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Burger\\\" có phát âm cụ thể là /burger/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Pizza\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Pizza\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 11: Eating Out & Ordering Fast Food",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Eating Out & Ordering Fast Food. In daily life, communication plays a vital role. For instance, words like \"Burger\" and \"Pizza\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Eating Out & Ordering Fast Food. In my daily routine, I frequently use the word \"Burger\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Pizza\" with my classmates. In addition, knowing how to use \"Menu\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Eating Out & Ordering Fast Food\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Eating Out & Ordering Fast Food\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Eating Out & Ordering Fast Food\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Pizza\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Pizza\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Pizza\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Order\\\" (Gọi món) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Order\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Bill\\\" (Hóa đơn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Bill\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Pizza\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Pizza\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Pizza' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Eating Out & Ordering Fast Food",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Eating Out & Ordering Fast Food.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Eating Out & Ordering Fast Food?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Eating Out & Ordering Fast Food chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Burger\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Burger\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Pizza\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Pizza\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 11: Eating Out & Ordering Fast Food",
+        "passage": "Mastering the theme of \"Eating Out & Ordering Fast Food\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Burger\" (Bánh bơ-gơ) and \"Pizza\" (Bánh pizza) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Menu\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Eating Out & Ordering Fast Food\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Burger\" (Bánh bơ-gơ) và \"Pizza\" (Bánh pizza) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Menu\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Eating Out & Ordering Fast Food\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Eating Out & Ordering Fast Food\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Eating Out & Ordering Fast Food\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Burger\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Eating Out & Ordering Fast Food\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Eating Out & Ordering Fast Food\",\"explanation\":\"Đoạn văn khẳng định: \\\"Burger\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2532,7 +2686,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"conversation\",\"Burger\",\"in\",\"daily\"]",
+        "options": "[\"in\",\"Burger\",\"conversation\",\"daily\",\"use\",\"I\"]",
         "correctAnswer": "I use Burger in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Burger in daily conversation\"."
       },
@@ -2548,7 +2702,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Pizza\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Pizza",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Pizza\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /pizza/ - \"Pizza\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2568,13 +2722,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Burger\" là gì?",
-        "options": "[\"Bánh bơ-gơ\",\"Bánh pizza\",\"Thực đơn\",\"Gọi món\"]",
+        "options": "[\"Bánh pizza\",\"Gọi món\",\"Thực đơn\",\"Bánh bơ-gơ\"]",
         "correctAnswer": "Bánh bơ-gơ",
-        "explanation": "\"Burger\" có phiên âm /.../ và mang nghĩa là \"Bánh bơ-gơ\"."
+        "explanation": "\"Burger\" có phiên âm /burger/ và mang nghĩa là \"Bánh bơ-gơ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Eating Out & Ordering Fast Food, we need to practice _____.\"",
-        "options": "[\"Pizza\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"bananas\",\"airplanes\",\"Pizza\"]",
         "correctAnswer": "Pizza",
         "explanation": "\"Pizza\" (Bánh pizza) là từ vựng chính xác trong ngữ cảnh chủ đề Eating Out & Ordering Fast Food."
       },
@@ -2586,13 +2740,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Order\" là gì?",
-        "options": "[\"Gọi món\",\"Hóa đơn\",\"Bồi bàn\",\"Ăn\"]",
+        "options": "[\"Bồi bàn\",\"Ăn\",\"Hóa đơn\",\"Gọi món\"]",
         "correctAnswer": "Gọi món",
-        "explanation": "\"Order\" có phiên âm /.../ và mang nghĩa là \"Gọi món\"."
+        "explanation": "\"Order\" có phiên âm /order/ và mang nghĩa là \"Gọi món\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Eating Out & Ordering Fast Food, we need to practice _____.\"",
-        "options": "[\"Bill\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Bill\"]",
         "correctAnswer": "Bill",
         "explanation": "\"Bill\" (Hóa đơn) là từ vựng chính xác trong ngữ cảnh chủ đề Eating Out & Ordering Fast Food."
       },
@@ -2604,13 +2758,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eat\" là gì?",
-        "options": "[\"Ăn\",\"Uống\",\"Đói bụng\",\"Khát nước\"]",
+        "options": "[\"Khát nước\",\"Đói bụng\",\"Uống\",\"Ăn\"]",
         "correctAnswer": "Ăn",
-        "explanation": "\"Eat\" có phiên âm /.../ và mang nghĩa là \"Ăn\"."
+        "explanation": "\"Eat\" có phiên âm /eat/ và mang nghĩa là \"Ăn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Eating Out & Ordering Fast Food, we need to practice _____.\"",
-        "options": "[\"Drink\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Drink\"]",
         "correctAnswer": "Drink",
         "explanation": "\"Drink\" (Uống) là từ vựng chính xác trong ngữ cảnh chủ đề Eating Out & Ordering Fast Food."
       },
@@ -2622,9 +2776,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Thirsty\" là gì?",
-        "options": "[\"Khát nước\",\"Bánh bơ-gơ\",\"Bánh pizza\",\"Thực đơn\"]",
+        "options": "[\"Thực đơn\",\"Khát nước\",\"Bánh bơ-gơ\",\"Bánh pizza\"]",
         "correctAnswer": "Khát nước",
-        "explanation": "\"Thirsty\" có phiên âm /.../ và mang nghĩa là \"Khát nước\"."
+        "explanation": "\"Thirsty\" có phiên âm /thirsty/ và mang nghĩa là \"Khát nước\"."
       }
     ]
   },
@@ -2639,7 +2793,7 @@ module.exports = [
       {
         "word": "Pen",
         "meaning": "Bút mực",
-        "pronunciation": "/.../",
+        "pronunciation": "/pen/",
         "partOfSpeech": "noun",
         "example": "I use Pen in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pen trong giao tiếp hàng ngày.",
@@ -2649,7 +2803,7 @@ module.exports = [
       {
         "word": "Pencil",
         "meaning": "Bút chì",
-        "pronunciation": "/.../",
+        "pronunciation": "/pencil/",
         "partOfSpeech": "noun",
         "example": "I use Pencil in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pencil trong giao tiếp hàng ngày.",
@@ -2659,7 +2813,7 @@ module.exports = [
       {
         "word": "Book",
         "meaning": "Quyển sách",
-        "pronunciation": "/.../",
+        "pronunciation": "/book/",
         "partOfSpeech": "noun",
         "example": "I use Book in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Book trong giao tiếp hàng ngày.",
@@ -2669,7 +2823,7 @@ module.exports = [
       {
         "word": "Notebook",
         "meaning": "Vở ghi bài",
-        "pronunciation": "/.../",
+        "pronunciation": "/notebook/",
         "partOfSpeech": "noun",
         "example": "I use Notebook in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Notebook trong giao tiếp hàng ngày.",
@@ -2679,7 +2833,7 @@ module.exports = [
       {
         "word": "Ruler",
         "meaning": "Cây thước kẻ",
-        "pronunciation": "/.../",
+        "pronunciation": "/ruler/",
         "partOfSpeech": "noun",
         "example": "I use Ruler in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ruler trong giao tiếp hàng ngày.",
@@ -2689,7 +2843,7 @@ module.exports = [
       {
         "word": "Bag",
         "meaning": "Cặp sách",
-        "pronunciation": "/.../",
+        "pronunciation": "/bag/",
         "partOfSpeech": "noun",
         "example": "I use Bag in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bag trong giao tiếp hàng ngày.",
@@ -2699,7 +2853,7 @@ module.exports = [
       {
         "word": "Eraser",
         "meaning": "Cục tẩy",
-        "pronunciation": "/.../",
+        "pronunciation": "/eraser/",
         "partOfSpeech": "noun",
         "example": "I use Eraser in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eraser trong giao tiếp hàng ngày.",
@@ -2709,7 +2863,7 @@ module.exports = [
       {
         "word": "Board",
         "meaning": "Bảng viết",
-        "pronunciation": "/.../",
+        "pronunciation": "/board/",
         "partOfSpeech": "noun",
         "example": "I use Board in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Board trong giao tiếp hàng ngày.",
@@ -2719,7 +2873,7 @@ module.exports = [
       {
         "word": "Paper",
         "meaning": "Tờ giấy",
-        "pronunciation": "/.../",
+        "pronunciation": "/paper/",
         "partOfSpeech": "noun",
         "example": "I use Paper in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Paper trong giao tiếp hàng ngày.",
@@ -2729,7 +2883,7 @@ module.exports = [
       {
         "word": "Lesson",
         "meaning": "Bài học",
-        "pronunciation": "/.../",
+        "pronunciation": "/lesson/",
         "partOfSpeech": "noun",
         "example": "I use Lesson in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Lesson trong giao tiếp hàng ngày.",
@@ -2739,27 +2893,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Mệnh lệnh cách trong lớp học",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: School & Classroom Objects.",
+        "title": "Mệnh lệnh cách trong lớp học (Dạng khẳng định)",
         "formula": "Give me the + [Đồ vật]",
-        "examples": "{\"list\":[{\"en\":\"Example for School & Classroom Objects.\",\"vi\":\"Ví dụ minh họa cho School & Classroom Objects.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Give me the + [Đồ vật]): Chọn dạng đúng của \\\"Pen\\\" trong câu:\",\"options\":[\"Pen\",\"Pens\",\"Pening\",\"Pened\"],\"correctAnswer\":\"Pen\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Pen\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Give me the + [Đồ vật]): Chọn dạng đúng của \\\"Pencil\\\" trong câu:\",\"options\":[\"Pencil\",\"Pencils\",\"Penciling\",\"Penciled\"],\"correctAnswer\":\"Pencil\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Pencil\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Give me the + [Đồ vật]): Chọn dạng đúng của \\\"Book\\\" trong câu:\",\"options\":[\"Book\",\"Books\",\"Booking\",\"Booked\"],\"correctAnswer\":\"Book\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Book\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Give me the + [Đồ vật]): Chọn dạng đúng của \\\"Notebook\\\" trong câu:\",\"options\":[\"Notebook\",\"Notebooks\",\"Notebooking\",\"Notebooked\"],\"correctAnswer\":\"Notebook\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Notebook\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Give me the + [Đồ vật]): Chọn dạng đúng của \\\"Ruler\\\" trong câu:\",\"options\":[\"Ruler\",\"Rulers\",\"Rulering\",\"Rulered\"],\"correctAnswer\":\"Ruler\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Ruler\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: School & Classroom Objects. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"School & Classroom Objects\".",
+        "examples": "[{\"en\":\"I use \\\"Pen\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Pen\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Pencil\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Pencil\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Book\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Book\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - School & Classroom Objects",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề School & Classroom Objects, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Pen\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Pen\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Pencil\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Pencil\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Book\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Book\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Pen\\\" has a specific pronunciation: /pen/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Pen\\\" có phát âm cụ thể là /pen/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Pencil\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Pencil\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 12: School & Classroom Objects",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of School & Classroom Objects. In daily life, communication plays a vital role. For instance, words like \"Pen\" and \"Pencil\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with School & Classroom Objects. In my daily routine, I frequently use the word \"Pen\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Pencil\" with my classmates. In addition, knowing how to use \"Book\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"School & Classroom Objects\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"School & Classroom Objects\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"School & Classroom Objects\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Pencil\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Pencil\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Pencil\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Notebook\\\" (Vở ghi bài) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Notebook\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Ruler\\\" (Cây thước kẻ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Ruler\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Pencil\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Pencil\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Pencil' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: School & Classroom Objects",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề School & Classroom Objects.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on School & Classroom Objects?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về School & Classroom Objects chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Pen\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Pen\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Pencil\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Pencil\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 12: School & Classroom Objects",
+        "passage": "Mastering the theme of \"School & Classroom Objects\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Pen\" (Bút mực) and \"Pencil\" (Bút chì) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Book\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"School & Classroom Objects\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Pen\" (Bút mực) và \"Pencil\" (Bút chì) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Book\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề School & Classroom Objects\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề School & Classroom Objects\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"School & Classroom Objects\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Pen\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề School & Classroom Objects\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề School & Classroom Objects\",\"explanation\":\"Đoạn văn khẳng định: \\\"Pen\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -2771,7 +2939,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"Pen\",\"use\",\"daily\",\"I\",\"conversation\"]",
+        "options": "[\"daily\",\"conversation\",\"in\",\"Pen\",\"use\",\"I\"]",
         "correctAnswer": "I use Pen in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Pen in daily conversation\"."
       },
@@ -2787,7 +2955,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Pencil\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Pencil",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Pencil\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /pencil/ - \"Pencil\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -2807,13 +2975,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pen\" là gì?",
-        "options": "[\"Bút mực\",\"Bút chì\",\"Quyển sách\",\"Vở ghi bài\"]",
+        "options": "[\"Bút chì\",\"Bút mực\",\"Vở ghi bài\",\"Quyển sách\"]",
         "correctAnswer": "Bút mực",
-        "explanation": "\"Pen\" có phiên âm /.../ và mang nghĩa là \"Bút mực\"."
+        "explanation": "\"Pen\" có phiên âm /pen/ và mang nghĩa là \"Bút mực\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on School & Classroom Objects, we need to practice _____.\"",
-        "options": "[\"Pencil\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Pencil\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Pencil",
         "explanation": "\"Pencil\" (Bút chì) là từ vựng chính xác trong ngữ cảnh chủ đề School & Classroom Objects."
       },
@@ -2825,13 +2993,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Notebook\" là gì?",
-        "options": "[\"Vở ghi bài\",\"Cây thước kẻ\",\"Cặp sách\",\"Cục tẩy\"]",
+        "options": "[\"Cây thước kẻ\",\"Cặp sách\",\"Vở ghi bài\",\"Cục tẩy\"]",
         "correctAnswer": "Vở ghi bài",
-        "explanation": "\"Notebook\" có phiên âm /.../ và mang nghĩa là \"Vở ghi bài\"."
+        "explanation": "\"Notebook\" có phiên âm /notebook/ và mang nghĩa là \"Vở ghi bài\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on School & Classroom Objects, we need to practice _____.\"",
-        "options": "[\"Ruler\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Ruler\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Ruler",
         "explanation": "\"Ruler\" (Cây thước kẻ) là từ vựng chính xác trong ngữ cảnh chủ đề School & Classroom Objects."
       },
@@ -2843,13 +3011,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eraser\" là gì?",
-        "options": "[\"Cục tẩy\",\"Bảng viết\",\"Tờ giấy\",\"Bài học\"]",
+        "options": "[\"Cục tẩy\",\"Bài học\",\"Bảng viết\",\"Tờ giấy\"]",
         "correctAnswer": "Cục tẩy",
-        "explanation": "\"Eraser\" có phiên âm /.../ và mang nghĩa là \"Cục tẩy\"."
+        "explanation": "\"Eraser\" có phiên âm /eraser/ và mang nghĩa là \"Cục tẩy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on School & Classroom Objects, we need to practice _____.\"",
-        "options": "[\"Board\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"airplanes\",\"Board\",\"umbrellas\"]",
         "correctAnswer": "Board",
         "explanation": "\"Board\" (Bảng viết) là từ vựng chính xác trong ngữ cảnh chủ đề School & Classroom Objects."
       },
@@ -2861,9 +3029,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Lesson\" là gì?",
-        "options": "[\"Bài học\",\"Bút mực\",\"Bút chì\",\"Quyển sách\"]",
+        "options": "[\"Quyển sách\",\"Bút chì\",\"Bút mực\",\"Bài học\"]",
         "correctAnswer": "Bài học",
-        "explanation": "\"Lesson\" có phiên âm /.../ và mang nghĩa là \"Bài học\"."
+        "explanation": "\"Lesson\" có phiên âm /lesson/ và mang nghĩa là \"Bài học\"."
       }
     ]
   },
@@ -2878,7 +3046,7 @@ module.exports = [
       {
         "word": "Engineer",
         "meaning": "Kỹ sư",
-        "pronunciation": "/.../",
+        "pronunciation": "/engineer/",
         "partOfSpeech": "noun",
         "example": "I use Engineer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Engineer trong giao tiếp hàng ngày.",
@@ -2888,7 +3056,7 @@ module.exports = [
       {
         "word": "Nurse",
         "meaning": "Y tá",
-        "pronunciation": "/.../",
+        "pronunciation": "/nurse/",
         "partOfSpeech": "noun",
         "example": "I use Nurse in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Nurse trong giao tiếp hàng ngày.",
@@ -2898,7 +3066,7 @@ module.exports = [
       {
         "word": "Driver",
         "meaning": "Tài xế",
-        "pronunciation": "/.../",
+        "pronunciation": "/driver/",
         "partOfSpeech": "noun",
         "example": "I use Driver in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Driver trong giao tiếp hàng ngày.",
@@ -2908,7 +3076,7 @@ module.exports = [
       {
         "word": "Cook",
         "meaning": "Đầu bếp",
-        "pronunciation": "/.../",
+        "pronunciation": "/cook/",
         "partOfSpeech": "noun",
         "example": "I use Cook in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cook trong giao tiếp hàng ngày.",
@@ -2918,7 +3086,7 @@ module.exports = [
       {
         "word": "Worker",
         "meaning": "Công nhân",
-        "pronunciation": "/.../",
+        "pronunciation": "/worker/",
         "partOfSpeech": "noun",
         "example": "I use Worker in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Worker trong giao tiếp hàng ngày.",
@@ -2928,7 +3096,7 @@ module.exports = [
       {
         "word": "Farmer",
         "meaning": "Nông dân",
-        "pronunciation": "/.../",
+        "pronunciation": "/farmer/",
         "partOfSpeech": "noun",
         "example": "I use Farmer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Farmer trong giao tiếp hàng ngày.",
@@ -2938,7 +3106,7 @@ module.exports = [
       {
         "word": "Office",
         "meaning": "Văn phòng",
-        "pronunciation": "/.../",
+        "pronunciation": "/office/",
         "partOfSpeech": "noun",
         "example": "I use Office in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Office trong giao tiếp hàng ngày.",
@@ -2948,7 +3116,7 @@ module.exports = [
       {
         "word": "Hospital",
         "meaning": "Bệnh viện",
-        "pronunciation": "/.../",
+        "pronunciation": "/hospital/",
         "partOfSpeech": "noun",
         "example": "I use Hospital in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hospital trong giao tiếp hàng ngày.",
@@ -2958,7 +3126,7 @@ module.exports = [
       {
         "word": "Work",
         "meaning": "Làm việc",
-        "pronunciation": "/.../",
+        "pronunciation": "/work/",
         "partOfSpeech": "noun",
         "example": "I use Work in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Work trong giao tiếp hàng ngày.",
@@ -2968,7 +3136,7 @@ module.exports = [
       {
         "word": "Company",
         "meaning": "Công ty",
-        "pronunciation": "/.../",
+        "pronunciation": "/company/",
         "partOfSpeech": "noun",
         "example": "I use Company in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Company trong giao tiếp hàng ngày.",
@@ -2978,27 +3146,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi nghề nghiệp với What do you do?",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Jobs & Occupations.",
+        "title": "Hỏi nghề nghiệp với What do you do? (Dạng khẳng định)",
         "formula": "What do you do? - I am a/an + [Nghề]",
-        "examples": "{\"list\":[{\"en\":\"Example for Jobs & Occupations.\",\"vi\":\"Ví dụ minh họa cho Jobs & Occupations.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What do you do? - I am a/an + [Nghề]): Chọn dạng đúng của \\\"Engineer\\\" trong câu:\",\"options\":[\"Engineer\",\"Engineers\",\"Engineering\",\"Engineered\"],\"correctAnswer\":\"Engineer\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Engineer\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (What do you do? - I am a/an + [Nghề]): Chọn dạng đúng của \\\"Nurse\\\" trong câu:\",\"options\":[\"Nurse\",\"Nurses\",\"Nurseing\",\"Nurseed\"],\"correctAnswer\":\"Nurse\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Nurse\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What do you do? - I am a/an + [Nghề]): Chọn dạng đúng của \\\"Driver\\\" trong câu:\",\"options\":[\"Driver\",\"Drivers\",\"Drivering\",\"Drivered\"],\"correctAnswer\":\"Driver\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Driver\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (What do you do? - I am a/an + [Nghề]): Chọn dạng đúng của \\\"Cook\\\" trong câu:\",\"options\":[\"Cook\",\"Cooks\",\"Cooking\",\"Cooked\"],\"correctAnswer\":\"Cook\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cook\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What do you do? - I am a/an + [Nghề]): Chọn dạng đúng của \\\"Worker\\\" trong câu:\",\"options\":[\"Worker\",\"Workers\",\"Workering\",\"Workered\"],\"correctAnswer\":\"Worker\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Worker\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Jobs & Occupations. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Jobs & Occupations\".",
+        "examples": "[{\"en\":\"I use \\\"Engineer\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Engineer\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Nurse\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Nurse\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Driver\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Driver\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Jobs & Occupations",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Jobs & Occupations, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Engineer\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Engineer\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Nurse\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Nurse\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Driver\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Driver\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Engineer\\\" has a specific pronunciation: /engineer/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Engineer\\\" có phát âm cụ thể là /engineer/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Nurse\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Nurse\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 13: Jobs & Occupations",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Jobs & Occupations. In daily life, communication plays a vital role. For instance, words like \"Engineer\" and \"Nurse\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Jobs & Occupations. In my daily routine, I frequently use the word \"Engineer\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Nurse\" with my classmates. In addition, knowing how to use \"Driver\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Jobs & Occupations\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Jobs & Occupations\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Jobs & Occupations\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Nurse\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Nurse\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Nurse\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Cook\\\" (Đầu bếp) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Cook\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Worker\\\" (Công nhân) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Worker\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Nurse\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Nurse\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Nurse' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Jobs & Occupations",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Jobs & Occupations.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Jobs & Occupations?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Jobs & Occupations chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Engineer\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Engineer\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Nurse\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Nurse\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 13: Jobs & Occupations",
+        "passage": "Mastering the theme of \"Jobs & Occupations\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Engineer\" (Kỹ sư) and \"Nurse\" (Y tá) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Driver\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Jobs & Occupations\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Engineer\" (Kỹ sư) và \"Nurse\" (Y tá) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Driver\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Jobs & Occupations\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Jobs & Occupations\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Jobs & Occupations\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Engineer\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Jobs & Occupations\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Jobs & Occupations\",\"explanation\":\"Đoạn văn khẳng định: \\\"Engineer\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3010,7 +3192,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"conversation\",\"use\",\"daily\",\"in\",\"I\",\"Engineer\"]",
+        "options": "[\"I\",\"in\",\"use\",\"Engineer\",\"conversation\",\"daily\"]",
         "correctAnswer": "I use Engineer in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Engineer in daily conversation\"."
       },
@@ -3026,7 +3208,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Nurse\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Nurse",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Nurse\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /nurse/ - \"Nurse\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3046,13 +3228,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Engineer\" là gì?",
-        "options": "[\"Kỹ sư\",\"Y tá\",\"Tài xế\",\"Đầu bếp\"]",
+        "options": "[\"Đầu bếp\",\"Tài xế\",\"Y tá\",\"Kỹ sư\"]",
         "correctAnswer": "Kỹ sư",
-        "explanation": "\"Engineer\" có phiên âm /.../ và mang nghĩa là \"Kỹ sư\"."
+        "explanation": "\"Engineer\" có phiên âm /engineer/ và mang nghĩa là \"Kỹ sư\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Jobs & Occupations, we need to practice _____.\"",
-        "options": "[\"Nurse\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Nurse\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Nurse",
         "explanation": "\"Nurse\" (Y tá) là từ vựng chính xác trong ngữ cảnh chủ đề Jobs & Occupations."
       },
@@ -3064,13 +3246,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cook\" là gì?",
-        "options": "[\"Đầu bếp\",\"Công nhân\",\"Nông dân\",\"Văn phòng\"]",
+        "options": "[\"Văn phòng\",\"Công nhân\",\"Nông dân\",\"Đầu bếp\"]",
         "correctAnswer": "Đầu bếp",
-        "explanation": "\"Cook\" có phiên âm /.../ và mang nghĩa là \"Đầu bếp\"."
+        "explanation": "\"Cook\" có phiên âm /cook/ và mang nghĩa là \"Đầu bếp\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Jobs & Occupations, we need to practice _____.\"",
-        "options": "[\"Worker\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Worker\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Worker",
         "explanation": "\"Worker\" (Công nhân) là từ vựng chính xác trong ngữ cảnh chủ đề Jobs & Occupations."
       },
@@ -3082,13 +3264,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Office\" là gì?",
-        "options": "[\"Văn phòng\",\"Bệnh viện\",\"Làm việc\",\"Công ty\"]",
+        "options": "[\"Bệnh viện\",\"Làm việc\",\"Công ty\",\"Văn phòng\"]",
         "correctAnswer": "Văn phòng",
-        "explanation": "\"Office\" có phiên âm /.../ và mang nghĩa là \"Văn phòng\"."
+        "explanation": "\"Office\" có phiên âm /office/ và mang nghĩa là \"Văn phòng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Jobs & Occupations, we need to practice _____.\"",
-        "options": "[\"Hospital\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Hospital\"]",
         "correctAnswer": "Hospital",
         "explanation": "\"Hospital\" (Bệnh viện) là từ vựng chính xác trong ngữ cảnh chủ đề Jobs & Occupations."
       },
@@ -3100,9 +3282,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Company\" là gì?",
-        "options": "[\"Công ty\",\"Kỹ sư\",\"Y tá\",\"Tài xế\"]",
+        "options": "[\"Kỹ sư\",\"Tài xế\",\"Công ty\",\"Y tá\"]",
         "correctAnswer": "Công ty",
-        "explanation": "\"Company\" có phiên âm /.../ và mang nghĩa là \"Công ty\"."
+        "explanation": "\"Company\" có phiên âm /company/ và mang nghĩa là \"Công ty\"."
       }
     ]
   },
@@ -3117,7 +3299,7 @@ module.exports = [
       {
         "word": "Monday",
         "meaning": "Thứ Hai",
-        "pronunciation": "/.../",
+        "pronunciation": "/monday/",
         "partOfSpeech": "noun",
         "example": "I use Monday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Monday trong giao tiếp hàng ngày.",
@@ -3127,7 +3309,7 @@ module.exports = [
       {
         "word": "Tuesday",
         "meaning": "Thứ Ba",
-        "pronunciation": "/.../",
+        "pronunciation": "/tuesday/",
         "partOfSpeech": "noun",
         "example": "I use Tuesday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tuesday trong giao tiếp hàng ngày.",
@@ -3137,7 +3319,7 @@ module.exports = [
       {
         "word": "Wednesday",
         "meaning": "Thứ Tư",
-        "pronunciation": "/.../",
+        "pronunciation": "/wednesday/",
         "partOfSpeech": "noun",
         "example": "I use Wednesday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wednesday trong giao tiếp hàng ngày.",
@@ -3147,7 +3329,7 @@ module.exports = [
       {
         "word": "Thursday",
         "meaning": "Thứ Năm",
-        "pronunciation": "/.../",
+        "pronunciation": "/thursday/",
         "partOfSpeech": "noun",
         "example": "I use Thursday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Thursday trong giao tiếp hàng ngày.",
@@ -3157,7 +3339,7 @@ module.exports = [
       {
         "word": "Friday",
         "meaning": "Thứ Sáu",
-        "pronunciation": "/.../",
+        "pronunciation": "/friday/",
         "partOfSpeech": "noun",
         "example": "I use Friday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Friday trong giao tiếp hàng ngày.",
@@ -3167,7 +3349,7 @@ module.exports = [
       {
         "word": "Saturday",
         "meaning": "Thứ Bảy",
-        "pronunciation": "/.../",
+        "pronunciation": "/saturday/",
         "partOfSpeech": "noun",
         "example": "I use Saturday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Saturday trong giao tiếp hàng ngày.",
@@ -3177,7 +3359,7 @@ module.exports = [
       {
         "word": "Sunday",
         "meaning": "Chủ Nhật",
-        "pronunciation": "/.../",
+        "pronunciation": "/sunday/",
         "partOfSpeech": "noun",
         "example": "I use Sunday in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sunday trong giao tiếp hàng ngày.",
@@ -3187,7 +3369,7 @@ module.exports = [
       {
         "word": "Week",
         "meaning": "Tuần lễ",
-        "pronunciation": "/.../",
+        "pronunciation": "/week/",
         "partOfSpeech": "noun",
         "example": "I use Week in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Week trong giao tiếp hàng ngày.",
@@ -3197,7 +3379,7 @@ module.exports = [
       {
         "word": "Month",
         "meaning": "Tháng",
-        "pronunciation": "/.../",
+        "pronunciation": "/month/",
         "partOfSpeech": "noun",
         "example": "I use Month in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Month trong giao tiếp hàng ngày.",
@@ -3207,7 +3389,7 @@ module.exports = [
       {
         "word": "Year",
         "meaning": "Năm",
-        "pronunciation": "/.../",
+        "pronunciation": "/year/",
         "partOfSpeech": "noun",
         "example": "I use Year in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Year trong giao tiếp hàng ngày.",
@@ -3217,27 +3399,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Giới từ chỉ thời gian on và in",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Days of the Week & Months.",
+        "title": "Giới từ chỉ thời gian on và in (Dạng khẳng định)",
         "formula": "On + [Thứ trong tuần] / In + [Tháng]",
-        "examples": "{\"list\":[{\"en\":\"Example for Days of the Week & Months.\",\"vi\":\"Ví dụ minh họa cho Days of the Week & Months.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (On + [Thứ trong tuần] / In + [Tháng]): Chọn dạng đúng của \\\"Monday\\\" trong câu:\",\"options\":[\"Monday\",\"Mondays\",\"Mondaying\",\"Mondayed\"],\"correctAnswer\":\"Monday\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Monday\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (On + [Thứ trong tuần] / In + [Tháng]): Chọn dạng đúng của \\\"Tuesday\\\" trong câu:\",\"options\":[\"Tuesday\",\"Tuesdays\",\"Tuesdaying\",\"Tuesdayed\"],\"correctAnswer\":\"Tuesday\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Tuesday\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (On + [Thứ trong tuần] / In + [Tháng]): Chọn dạng đúng của \\\"Wednesday\\\" trong câu:\",\"options\":[\"Wednesday\",\"Wednesdays\",\"Wednesdaying\",\"Wednesdayed\"],\"correctAnswer\":\"Wednesday\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Wednesday\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (On + [Thứ trong tuần] / In + [Tháng]): Chọn dạng đúng của \\\"Thursday\\\" trong câu:\",\"options\":[\"Thursday\",\"Thursdays\",\"Thursdaying\",\"Thursdayed\"],\"correctAnswer\":\"Thursday\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Thursday\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (On + [Thứ trong tuần] / In + [Tháng]): Chọn dạng đúng của \\\"Friday\\\" trong câu:\",\"options\":[\"Friday\",\"Fridays\",\"Fridaying\",\"Fridayed\"],\"correctAnswer\":\"Friday\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Friday\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Days of the Week & Months. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Days of the Week & Months\".",
+        "examples": "[{\"en\":\"I use \\\"Monday\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Monday\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Tuesday\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Tuesday\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Wednesday\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Wednesday\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Days of the Week & Months",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Days of the Week & Months, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Monday\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Monday\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Tuesday\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Tuesday\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Wednesday\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Wednesday\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Monday\\\" has a specific pronunciation: /monday/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Monday\\\" có phát âm cụ thể là /monday/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Tuesday\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Tuesday\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 14: Days of the Week & Months",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Days of the Week & Months. In daily life, communication plays a vital role. For instance, words like \"Monday\" and \"Tuesday\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Days of the Week & Months. In my daily routine, I frequently use the word \"Monday\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Tuesday\" with my classmates. In addition, knowing how to use \"Wednesday\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Days of the Week & Months\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Days of the Week & Months\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Days of the Week & Months\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Tuesday\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Tuesday\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Tuesday\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Thursday\\\" (Thứ Năm) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Thursday\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Friday\\\" (Thứ Sáu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Friday\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Tuesday\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Tuesday\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Tuesday' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Days of the Week & Months",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Days of the Week & Months.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Days of the Week & Months?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Days of the Week & Months chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Monday\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Monday\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Tuesday\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Tuesday\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 14: Days of the Week & Months",
+        "passage": "Mastering the theme of \"Days of the Week & Months\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Monday\" (Thứ Hai) and \"Tuesday\" (Thứ Ba) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Wednesday\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Days of the Week & Months\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Monday\" (Thứ Hai) và \"Tuesday\" (Thứ Ba) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Wednesday\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Days of the Week & Months\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Days of the Week & Months\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Days of the Week & Months\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Monday\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Days of the Week & Months\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Days of the Week & Months\",\"explanation\":\"Đoạn văn khẳng định: \\\"Monday\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3249,7 +3445,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"Monday\",\"use\",\"daily\",\"I\",\"conversation\"]",
+        "options": "[\"daily\",\"I\",\"use\",\"in\",\"conversation\",\"Monday\"]",
         "correctAnswer": "I use Monday in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Monday in daily conversation\"."
       },
@@ -3265,7 +3461,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Tuesday\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Tuesday",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Tuesday\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /tuesday/ - \"Tuesday\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3287,11 +3483,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Monday\" là gì?",
         "options": "[\"Thứ Hai\",\"Thứ Ba\",\"Thứ Tư\",\"Thứ Năm\"]",
         "correctAnswer": "Thứ Hai",
-        "explanation": "\"Monday\" có phiên âm /.../ và mang nghĩa là \"Thứ Hai\"."
+        "explanation": "\"Monday\" có phiên âm /monday/ và mang nghĩa là \"Thứ Hai\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Days of the Week & Months, we need to practice _____.\"",
-        "options": "[\"Tuesday\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Tuesday\"]",
         "correctAnswer": "Tuesday",
         "explanation": "\"Tuesday\" (Thứ Ba) là từ vựng chính xác trong ngữ cảnh chủ đề Days of the Week & Months."
       },
@@ -3305,7 +3501,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Thursday\" là gì?",
         "options": "[\"Thứ Năm\",\"Thứ Sáu\",\"Thứ Bảy\",\"Chủ Nhật\"]",
         "correctAnswer": "Thứ Năm",
-        "explanation": "\"Thursday\" có phiên âm /.../ và mang nghĩa là \"Thứ Năm\"."
+        "explanation": "\"Thursday\" có phiên âm /thursday/ và mang nghĩa là \"Thứ Năm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Days of the Week & Months, we need to practice _____.\"",
@@ -3321,9 +3517,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sunday\" là gì?",
-        "options": "[\"Chủ Nhật\",\"Tuần lễ\",\"Tháng\",\"Năm\"]",
+        "options": "[\"Năm\",\"Tuần lễ\",\"Chủ Nhật\",\"Tháng\"]",
         "correctAnswer": "Chủ Nhật",
-        "explanation": "\"Sunday\" có phiên âm /.../ và mang nghĩa là \"Chủ Nhật\"."
+        "explanation": "\"Sunday\" có phiên âm /sunday/ và mang nghĩa là \"Chủ Nhật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Days of the Week & Months, we need to practice _____.\"",
@@ -3339,9 +3535,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Year\" là gì?",
-        "options": "[\"Năm\",\"Thứ Hai\",\"Thứ Ba\",\"Thứ Tư\"]",
+        "options": "[\"Thứ Hai\",\"Thứ Tư\",\"Năm\",\"Thứ Ba\"]",
         "correctAnswer": "Năm",
-        "explanation": "\"Year\" có phiên âm /.../ và mang nghĩa là \"Năm\"."
+        "explanation": "\"Year\" có phiên âm /year/ và mang nghĩa là \"Năm\"."
       }
     ]
   },
@@ -3356,7 +3552,7 @@ module.exports = [
       {
         "word": "Time",
         "meaning": "Thời gian",
-        "pronunciation": "/.../",
+        "pronunciation": "/time/",
         "partOfSpeech": "noun",
         "example": "I use Time in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Time trong giao tiếp hàng ngày.",
@@ -3366,7 +3562,7 @@ module.exports = [
       {
         "word": "Hour",
         "meaning": "Giờ đồng hồ",
-        "pronunciation": "/.../",
+        "pronunciation": "/hour/",
         "partOfSpeech": "noun",
         "example": "I use Hour in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hour trong giao tiếp hàng ngày.",
@@ -3376,7 +3572,7 @@ module.exports = [
       {
         "word": "Minute",
         "meaning": "Phút",
-        "pronunciation": "/.../",
+        "pronunciation": "/minute/",
         "partOfSpeech": "noun",
         "example": "I use Minute in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Minute trong giao tiếp hàng ngày.",
@@ -3386,7 +3582,7 @@ module.exports = [
       {
         "word": "Second",
         "meaning": "Giây",
-        "pronunciation": "/.../",
+        "pronunciation": "/second/",
         "partOfSpeech": "noun",
         "example": "I use Second in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Second trong giao tiếp hàng ngày.",
@@ -3396,7 +3592,7 @@ module.exports = [
       {
         "word": "Morning",
         "meaning": "Buổi sáng",
-        "pronunciation": "/.../",
+        "pronunciation": "/morning/",
         "partOfSpeech": "noun",
         "example": "I use Morning in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Morning trong giao tiếp hàng ngày.",
@@ -3406,7 +3602,7 @@ module.exports = [
       {
         "word": "Noon",
         "meaning": "Buổi trưa",
-        "pronunciation": "/.../",
+        "pronunciation": "/noon/",
         "partOfSpeech": "noun",
         "example": "I use Noon in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Noon trong giao tiếp hàng ngày.",
@@ -3416,7 +3612,7 @@ module.exports = [
       {
         "word": "Night",
         "meaning": "Ban đêm",
-        "pronunciation": "/.../",
+        "pronunciation": "/night/",
         "partOfSpeech": "noun",
         "example": "I use Night in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Night trong giao tiếp hàng ngày.",
@@ -3426,7 +3622,7 @@ module.exports = [
       {
         "word": "Midnight",
         "meaning": "Nửa đêm",
-        "pronunciation": "/.../",
+        "pronunciation": "/midnight/",
         "partOfSpeech": "noun",
         "example": "I use Midnight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Midnight trong giao tiếp hàng ngày.",
@@ -3436,7 +3632,7 @@ module.exports = [
       {
         "word": "Early",
         "meaning": "Sớm",
-        "pronunciation": "/.../",
+        "pronunciation": "/early/",
         "partOfSpeech": "noun",
         "example": "I use Early in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Early trong giao tiếp hàng ngày.",
@@ -3446,7 +3642,7 @@ module.exports = [
       {
         "word": "Late",
         "meaning": "Muộn",
-        "pronunciation": "/.../",
+        "pronunciation": "/late/",
         "partOfSpeech": "noun",
         "example": "I use Late in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Late trong giao tiếp hàng ngày.",
@@ -3456,27 +3652,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi giờ với What time is it?",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Telling Time & Daily Schedule.",
+        "title": "Hỏi giờ với What time is it? (Dạng khẳng định)",
         "formula": "What time is it? - It is + [Giờ]",
-        "examples": "{\"list\":[{\"en\":\"Example for Telling Time & Daily Schedule.\",\"vi\":\"Ví dụ minh họa cho Telling Time & Daily Schedule.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What time is it? - It is + [Giờ]): Chọn dạng đúng của \\\"Time\\\" trong câu:\",\"options\":[\"Time\",\"Times\",\"Timeing\",\"Timeed\"],\"correctAnswer\":\"Time\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Time\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (What time is it? - It is + [Giờ]): Chọn dạng đúng của \\\"Hour\\\" trong câu:\",\"options\":[\"Hour\",\"Hours\",\"Houring\",\"Houred\"],\"correctAnswer\":\"Hour\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hour\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What time is it? - It is + [Giờ]): Chọn dạng đúng của \\\"Minute\\\" trong câu:\",\"options\":[\"Minute\",\"Minutes\",\"Minuteing\",\"Minuteed\"],\"correctAnswer\":\"Minute\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Minute\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (What time is it? - It is + [Giờ]): Chọn dạng đúng của \\\"Second\\\" trong câu:\",\"options\":[\"Second\",\"Seconds\",\"Seconding\",\"Seconded\"],\"correctAnswer\":\"Second\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Second\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (What time is it? - It is + [Giờ]): Chọn dạng đúng của \\\"Morning\\\" trong câu:\",\"options\":[\"Morning\",\"Mornings\",\"Morninging\",\"Morninged\"],\"correctAnswer\":\"Morning\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Morning\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Telling Time & Daily Schedule. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Telling Time & Daily Schedule\".",
+        "examples": "[{\"en\":\"I use \\\"Time\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Time\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Hour\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Hour\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Minute\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Minute\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Telling Time & Daily Schedule",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Telling Time & Daily Schedule, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Time\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Time\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Hour\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Hour\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Minute\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Minute\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Time\\\" has a specific pronunciation: /time/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Time\\\" có phát âm cụ thể là /time/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Hour\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Hour\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 15: Telling Time & Daily Schedule",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Telling Time & Daily Schedule. In daily life, communication plays a vital role. For instance, words like \"Time\" and \"Hour\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Telling Time & Daily Schedule. In my daily routine, I frequently use the word \"Time\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Hour\" with my classmates. In addition, knowing how to use \"Minute\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Telling Time & Daily Schedule\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Telling Time & Daily Schedule\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Telling Time & Daily Schedule\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Hour\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Hour\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Hour\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Second\\\" (Giây) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Second\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Morning\\\" (Buổi sáng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Morning\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Hour\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Hour\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Hour' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Telling Time & Daily Schedule",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Telling Time & Daily Schedule.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Telling Time & Daily Schedule?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Telling Time & Daily Schedule chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Time\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Time\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Hour\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Hour\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 15: Telling Time & Daily Schedule",
+        "passage": "Mastering the theme of \"Telling Time & Daily Schedule\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Time\" (Thời gian) and \"Hour\" (Giờ đồng hồ) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Minute\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Telling Time & Daily Schedule\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Time\" (Thời gian) và \"Hour\" (Giờ đồng hồ) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Minute\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Telling Time & Daily Schedule\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Telling Time & Daily Schedule\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Telling Time & Daily Schedule\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Time\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Telling Time & Daily Schedule\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Telling Time & Daily Schedule\",\"explanation\":\"Đoạn văn khẳng định: \\\"Time\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3488,7 +3698,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"Time\",\"I\",\"conversation\",\"use\",\"in\"]",
+        "options": "[\"daily\",\"I\",\"in\",\"Time\",\"conversation\",\"use\"]",
         "correctAnswer": "I use Time in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Time in daily conversation\"."
       },
@@ -3504,7 +3714,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Hour\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Hour",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Hour\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /hour/ - \"Hour\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3524,13 +3734,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Time\" là gì?",
-        "options": "[\"Thời gian\",\"Giờ đồng hồ\",\"Phút\",\"Giây\"]",
+        "options": "[\"Giây\",\"Thời gian\",\"Giờ đồng hồ\",\"Phút\"]",
         "correctAnswer": "Thời gian",
-        "explanation": "\"Time\" có phiên âm /.../ và mang nghĩa là \"Thời gian\"."
+        "explanation": "\"Time\" có phiên âm /time/ và mang nghĩa là \"Thời gian\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Telling Time & Daily Schedule, we need to practice _____.\"",
-        "options": "[\"Hour\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Hour\"]",
         "correctAnswer": "Hour",
         "explanation": "\"Hour\" (Giờ đồng hồ) là từ vựng chính xác trong ngữ cảnh chủ đề Telling Time & Daily Schedule."
       },
@@ -3542,13 +3752,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Second\" là gì?",
-        "options": "[\"Giây\",\"Buổi sáng\",\"Buổi trưa\",\"Ban đêm\"]",
+        "options": "[\"Ban đêm\",\"Buổi trưa\",\"Buổi sáng\",\"Giây\"]",
         "correctAnswer": "Giây",
-        "explanation": "\"Second\" có phiên âm /.../ và mang nghĩa là \"Giây\"."
+        "explanation": "\"Second\" có phiên âm /second/ và mang nghĩa là \"Giây\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Telling Time & Daily Schedule, we need to practice _____.\"",
-        "options": "[\"Morning\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Morning\"]",
         "correctAnswer": "Morning",
         "explanation": "\"Morning\" (Buổi sáng) là từ vựng chính xác trong ngữ cảnh chủ đề Telling Time & Daily Schedule."
       },
@@ -3560,13 +3770,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Night\" là gì?",
-        "options": "[\"Ban đêm\",\"Nửa đêm\",\"Sớm\",\"Muộn\"]",
+        "options": "[\"Nửa đêm\",\"Sớm\",\"Muộn\",\"Ban đêm\"]",
         "correctAnswer": "Ban đêm",
-        "explanation": "\"Night\" có phiên âm /.../ và mang nghĩa là \"Ban đêm\"."
+        "explanation": "\"Night\" có phiên âm /night/ và mang nghĩa là \"Ban đêm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Telling Time & Daily Schedule, we need to practice _____.\"",
-        "options": "[\"Midnight\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Midnight\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Midnight",
         "explanation": "\"Midnight\" (Nửa đêm) là từ vựng chính xác trong ngữ cảnh chủ đề Telling Time & Daily Schedule."
       },
@@ -3580,7 +3790,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Late\" là gì?",
         "options": "[\"Muộn\",\"Thời gian\",\"Giờ đồng hồ\",\"Phút\"]",
         "correctAnswer": "Muộn",
-        "explanation": "\"Late\" có phiên âm /.../ và mang nghĩa là \"Muộn\"."
+        "explanation": "\"Late\" có phiên âm /late/ và mang nghĩa là \"Muộn\"."
       }
     ]
   },
@@ -3595,7 +3805,7 @@ module.exports = [
       {
         "word": "Wake up",
         "meaning": "Thức dậy",
-        "pronunciation": "/.../",
+        "pronunciation": "/wake up/",
         "partOfSpeech": "noun",
         "example": "I use Wake up in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wake up trong giao tiếp hàng ngày.",
@@ -3605,7 +3815,7 @@ module.exports = [
       {
         "word": "Wash",
         "meaning": "Rửa, giặt",
-        "pronunciation": "/.../",
+        "pronunciation": "/wash/",
         "partOfSpeech": "noun",
         "example": "I use Wash in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wash trong giao tiếp hàng ngày.",
@@ -3615,7 +3825,7 @@ module.exports = [
       {
         "word": "Brush",
         "meaning": "Đánh răng",
-        "pronunciation": "/.../",
+        "pronunciation": "/brush/",
         "partOfSpeech": "noun",
         "example": "I use Brush in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Brush trong giao tiếp hàng ngày.",
@@ -3625,7 +3835,7 @@ module.exports = [
       {
         "word": "Breakfast",
         "meaning": "Bữa sáng",
-        "pronunciation": "/.../",
+        "pronunciation": "/breakfast/",
         "partOfSpeech": "noun",
         "example": "I use Breakfast in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Breakfast trong giao tiếp hàng ngày.",
@@ -3635,7 +3845,7 @@ module.exports = [
       {
         "word": "Shower",
         "meaning": "Tắm vòi sen",
-        "pronunciation": "/.../",
+        "pronunciation": "/shower/",
         "partOfSpeech": "noun",
         "example": "I use Shower in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shower trong giao tiếp hàng ngày.",
@@ -3645,7 +3855,7 @@ module.exports = [
       {
         "word": "Dress",
         "meaning": "Mặc quần áo",
-        "pronunciation": "/.../",
+        "pronunciation": "/dress/",
         "partOfSpeech": "noun",
         "example": "I use Dress in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dress trong giao tiếp hàng ngày.",
@@ -3655,7 +3865,7 @@ module.exports = [
       {
         "word": "Comb",
         "meaning": "Chải tóc",
-        "pronunciation": "/.../",
+        "pronunciation": "/comb/",
         "partOfSpeech": "noun",
         "example": "I use Comb in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Comb trong giao tiếp hàng ngày.",
@@ -3665,7 +3875,7 @@ module.exports = [
       {
         "word": "Leave",
         "meaning": "Rời nhà",
-        "pronunciation": "/.../",
+        "pronunciation": "/leave/",
         "partOfSpeech": "noun",
         "example": "I use Leave in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Leave trong giao tiếp hàng ngày.",
@@ -3675,7 +3885,7 @@ module.exports = [
       {
         "word": "Start",
         "meaning": "Bắt đầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/start/",
         "partOfSpeech": "noun",
         "example": "I use Start in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Start trong giao tiếp hàng ngày.",
@@ -3685,7 +3895,7 @@ module.exports = [
       {
         "word": "Always",
         "meaning": "Luôn luôn",
-        "pronunciation": "/.../",
+        "pronunciation": "/always/",
         "partOfSpeech": "noun",
         "example": "I use Always in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Always trong giao tiếp hàng ngày.",
@@ -3695,27 +3905,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hiện tại đơn với thói quen buổi sáng",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Daily Morning Routine.",
+        "title": "Hiện tại đơn với thói quen buổi sáng (Dạng khẳng định)",
         "formula": "I + [Động từ] + in the morning",
-        "examples": "{\"list\":[{\"en\":\"Example for Daily Morning Routine.\",\"vi\":\"Ví dụ minh họa cho Daily Morning Routine.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I + [Động từ] + in the morning): Chọn dạng đúng của \\\"Wake up\\\" trong câu:\",\"options\":[\"Wake up\",\"Wake ups\",\"Wake uping\",\"Wake uped\"],\"correctAnswer\":\"Wake up\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Wake up\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I + [Động từ] + in the morning): Chọn dạng đúng của \\\"Wash\\\" trong câu:\",\"options\":[\"Wash\",\"Washs\",\"Washing\",\"Washed\"],\"correctAnswer\":\"Wash\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Wash\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I + [Động từ] + in the morning): Chọn dạng đúng của \\\"Brush\\\" trong câu:\",\"options\":[\"Brush\",\"Brushs\",\"Brushing\",\"Brushed\"],\"correctAnswer\":\"Brush\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Brush\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I + [Động từ] + in the morning): Chọn dạng đúng của \\\"Breakfast\\\" trong câu:\",\"options\":[\"Breakfast\",\"Breakfasts\",\"Breakfasting\",\"Breakfasted\"],\"correctAnswer\":\"Breakfast\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Breakfast\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I + [Động từ] + in the morning): Chọn dạng đúng của \\\"Shower\\\" trong câu:\",\"options\":[\"Shower\",\"Showers\",\"Showering\",\"Showered\"],\"correctAnswer\":\"Shower\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Shower\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Daily Morning Routine. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Daily Morning Routine\".",
+        "examples": "[{\"en\":\"I use \\\"Wake up\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Wake up\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Wash\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Wash\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Brush\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Brush\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Daily Morning Routine",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Daily Morning Routine, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Wake up\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Wake up\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Wash\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Wash\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Brush\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Brush\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Wake up\\\" has a specific pronunciation: /wake up/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Wake up\\\" có phát âm cụ thể là /wake up/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Wash\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Wash\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 16: Daily Morning Routine",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Daily Morning Routine. In daily life, communication plays a vital role. For instance, words like \"Wake up\" and \"Wash\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Daily Morning Routine. In my daily routine, I frequently use the word \"Wake up\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Wash\" with my classmates. In addition, knowing how to use \"Brush\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Daily Morning Routine\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Daily Morning Routine\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Daily Morning Routine\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Wash\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Wash\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Wash\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Breakfast\\\" (Bữa sáng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Breakfast\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Shower\\\" (Tắm vòi sen) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Shower\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Wash\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Wash\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Wash' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Daily Morning Routine",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Daily Morning Routine.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Daily Morning Routine?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Daily Morning Routine chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Wake up\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Wake up\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Wash\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Wash\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 16: Daily Morning Routine",
+        "passage": "Mastering the theme of \"Daily Morning Routine\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Wake up\" (Thức dậy) and \"Wash\" (Rửa, giặt) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Brush\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Daily Morning Routine\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Wake up\" (Thức dậy) và \"Wash\" (Rửa, giặt) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Brush\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Daily Morning Routine\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Daily Morning Routine\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Daily Morning Routine\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Wake up\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Daily Morning Routine\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Daily Morning Routine\",\"explanation\":\"Đoạn văn khẳng định: \\\"Wake up\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3727,7 +3951,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Wake\",\"I\",\"up\",\"daily\",\"use\",\"in\"]",
+        "options": "[\"use\",\"up\",\"daily\",\"I\",\"in\",\"Wake\"]",
         "correctAnswer": "I use Wake up in daily",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Wake up in daily\"."
       },
@@ -3743,7 +3967,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Wash\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Wash",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Wash\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /wash/ - \"Wash\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -3765,11 +3989,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Wake up\" là gì?",
         "options": "[\"Thức dậy\",\"Rửa, giặt\",\"Đánh răng\",\"Bữa sáng\"]",
         "correctAnswer": "Thức dậy",
-        "explanation": "\"Wake up\" có phiên âm /.../ và mang nghĩa là \"Thức dậy\"."
+        "explanation": "\"Wake up\" có phiên âm /wake up/ và mang nghĩa là \"Thức dậy\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Morning Routine, we need to practice _____.\"",
-        "options": "[\"Wash\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Wash\"]",
         "correctAnswer": "Wash",
         "explanation": "\"Wash\" (Rửa, giặt) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Morning Routine."
       },
@@ -3783,11 +4007,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Breakfast\" là gì?",
         "options": "[\"Bữa sáng\",\"Tắm vòi sen\",\"Mặc quần áo\",\"Chải tóc\"]",
         "correctAnswer": "Bữa sáng",
-        "explanation": "\"Breakfast\" có phiên âm /.../ và mang nghĩa là \"Bữa sáng\"."
+        "explanation": "\"Breakfast\" có phiên âm /breakfast/ và mang nghĩa là \"Bữa sáng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Morning Routine, we need to practice _____.\"",
-        "options": "[\"Shower\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Shower\",\"umbrellas\"]",
         "correctAnswer": "Shower",
         "explanation": "\"Shower\" (Tắm vòi sen) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Morning Routine."
       },
@@ -3799,13 +4023,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Comb\" là gì?",
-        "options": "[\"Chải tóc\",\"Rời nhà\",\"Bắt đầu\",\"Luôn luôn\"]",
+        "options": "[\"Luôn luôn\",\"Bắt đầu\",\"Rời nhà\",\"Chải tóc\"]",
         "correctAnswer": "Chải tóc",
-        "explanation": "\"Comb\" có phiên âm /.../ và mang nghĩa là \"Chải tóc\"."
+        "explanation": "\"Comb\" có phiên âm /comb/ và mang nghĩa là \"Chải tóc\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Morning Routine, we need to practice _____.\"",
-        "options": "[\"Leave\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"Leave\",\"umbrellas\",\"bananas\"]",
         "correctAnswer": "Leave",
         "explanation": "\"Leave\" (Rời nhà) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Morning Routine."
       },
@@ -3819,7 +4043,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Always\" là gì?",
         "options": "[\"Luôn luôn\",\"Thức dậy\",\"Rửa, giặt\",\"Đánh răng\"]",
         "correctAnswer": "Luôn luôn",
-        "explanation": "\"Always\" có phiên âm /.../ và mang nghĩa là \"Luôn luôn\"."
+        "explanation": "\"Always\" có phiên âm /always/ và mang nghĩa là \"Luôn luôn\"."
       }
     ]
   },
@@ -3834,7 +4058,7 @@ module.exports = [
       {
         "word": "Dinner",
         "meaning": "Bữa tối",
-        "pronunciation": "/.../",
+        "pronunciation": "/dinner/",
         "partOfSpeech": "noun",
         "example": "I use Dinner in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dinner trong giao tiếp hàng ngày.",
@@ -3844,7 +4068,7 @@ module.exports = [
       {
         "word": "Watch TV",
         "meaning": "Xem truyền hình",
-        "pronunciation": "/.../",
+        "pronunciation": "/watch tv/",
         "partOfSpeech": "noun",
         "example": "I use Watch TV in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Watch TV trong giao tiếp hàng ngày.",
@@ -3854,7 +4078,7 @@ module.exports = [
       {
         "word": "Listen",
         "meaning": "Lắng nghe",
-        "pronunciation": "/.../",
+        "pronunciation": "/listen/",
         "partOfSpeech": "noun",
         "example": "I use Listen in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Listen trong giao tiếp hàng ngày.",
@@ -3864,7 +4088,7 @@ module.exports = [
       {
         "word": "Relax",
         "meaning": "Thư giãn",
-        "pronunciation": "/.../",
+        "pronunciation": "/relax/",
         "partOfSpeech": "noun",
         "example": "I use Relax in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Relax trong giao tiếp hàng ngày.",
@@ -3874,7 +4098,7 @@ module.exports = [
       {
         "word": "Sleep",
         "meaning": "Ngủ",
-        "pronunciation": "/.../",
+        "pronunciation": "/sleep/",
         "partOfSpeech": "noun",
         "example": "I use Sleep in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sleep trong giao tiếp hàng ngày.",
@@ -3884,7 +4108,7 @@ module.exports = [
       {
         "word": "Tired",
         "meaning": "Mệt mỏi",
-        "pronunciation": "/.../",
+        "pronunciation": "/tired/",
         "partOfSpeech": "noun",
         "example": "I use Tired in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tired trong giao tiếp hàng ngày.",
@@ -3894,7 +4118,7 @@ module.exports = [
       {
         "word": "Quiet",
         "meaning": "Yên tĩnh",
-        "pronunciation": "/.../",
+        "pronunciation": "/quiet/",
         "partOfSpeech": "noun",
         "example": "I use Quiet in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Quiet trong giao tiếp hàng ngày.",
@@ -3904,7 +4128,7 @@ module.exports = [
       {
         "word": "Book",
         "meaning": "Sách đọc",
-        "pronunciation": "/.../",
+        "pronunciation": "/book/",
         "partOfSpeech": "noun",
         "example": "I use Book in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Book trong giao tiếp hàng ngày.",
@@ -3914,7 +4138,7 @@ module.exports = [
       {
         "word": "Dark",
         "meaning": "Tối trời",
-        "pronunciation": "/.../",
+        "pronunciation": "/dark/",
         "partOfSpeech": "noun",
         "example": "I use Dark in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dark trong giao tiếp hàng ngày.",
@@ -3924,7 +4148,7 @@ module.exports = [
       {
         "word": "Goodnight",
         "meaning": "Chúc ngủ ngon",
-        "pronunciation": "/.../",
+        "pronunciation": "/goodnight/",
         "partOfSpeech": "noun",
         "example": "I use Goodnight in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Goodnight trong giao tiếp hàng ngày.",
@@ -3934,27 +4158,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Diễn đạt thói quen buổi tối",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Daily Evening Routine.",
+        "title": "Diễn đạt thói quen buổi tối (Dạng khẳng định)",
         "formula": "Before bed, I + [Hoạt động]",
-        "examples": "{\"list\":[{\"en\":\"Example for Daily Evening Routine.\",\"vi\":\"Ví dụ minh họa cho Daily Evening Routine.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Before bed, I + [Hoạt động]): Chọn dạng đúng của \\\"Dinner\\\" trong câu:\",\"options\":[\"Dinner\",\"Dinners\",\"Dinnering\",\"Dinnered\"],\"correctAnswer\":\"Dinner\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Dinner\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Before bed, I + [Hoạt động]): Chọn dạng đúng của \\\"Watch TV\\\" trong câu:\",\"options\":[\"Watch TV\",\"Watch TVs\",\"Watch TVing\",\"Watch TVed\"],\"correctAnswer\":\"Watch TV\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Watch TV\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Before bed, I + [Hoạt động]): Chọn dạng đúng của \\\"Listen\\\" trong câu:\",\"options\":[\"Listen\",\"Listens\",\"Listening\",\"Listened\"],\"correctAnswer\":\"Listen\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Listen\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Before bed, I + [Hoạt động]): Chọn dạng đúng của \\\"Relax\\\" trong câu:\",\"options\":[\"Relax\",\"Relaxs\",\"Relaxing\",\"Relaxed\"],\"correctAnswer\":\"Relax\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Relax\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Before bed, I + [Hoạt động]): Chọn dạng đúng của \\\"Sleep\\\" trong câu:\",\"options\":[\"Sleep\",\"Sleeps\",\"Sleeping\",\"Sleeped\"],\"correctAnswer\":\"Sleep\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sleep\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Daily Evening Routine. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Daily Evening Routine\".",
+        "examples": "[{\"en\":\"I use \\\"Dinner\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Dinner\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Watch TV\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Watch TV\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Listen\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Listen\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Daily Evening Routine",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Daily Evening Routine, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Dinner\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Dinner\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Watch TV\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Watch TV\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Listen\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Listen\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Dinner\\\" has a specific pronunciation: /dinner/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Dinner\\\" có phát âm cụ thể là /dinner/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Watch TV\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Watch TV\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 17: Daily Evening Routine",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Daily Evening Routine. In daily life, communication plays a vital role. For instance, words like \"Dinner\" and \"Watch TV\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Daily Evening Routine. In my daily routine, I frequently use the word \"Dinner\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Watch TV\" with my classmates. In addition, knowing how to use \"Listen\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Daily Evening Routine\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Daily Evening Routine\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Daily Evening Routine\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Watch TV\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Watch TV\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Watch TV\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Relax\\\" (Thư giãn) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Relax\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Sleep\\\" (Ngủ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Sleep\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Watch TV\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Watch TV\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Watch TV' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Daily Evening Routine",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Daily Evening Routine.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Daily Evening Routine?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Daily Evening Routine chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Dinner\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Dinner\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Watch TV\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Watch TV\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 17: Daily Evening Routine",
+        "passage": "Mastering the theme of \"Daily Evening Routine\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Dinner\" (Bữa tối) and \"Watch TV\" (Xem truyền hình) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Listen\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Daily Evening Routine\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Dinner\" (Bữa tối) và \"Watch TV\" (Xem truyền hình) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Listen\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Daily Evening Routine\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Daily Evening Routine\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Daily Evening Routine\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Dinner\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Daily Evening Routine\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Daily Evening Routine\",\"explanation\":\"Đoạn văn khẳng định: \\\"Dinner\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -3966,7 +4204,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"in\",\"use\",\"Dinner\",\"conversation\",\"daily\"]",
+        "options": "[\"conversation\",\"in\",\"I\",\"use\",\"Dinner\",\"daily\"]",
         "correctAnswer": "I use Dinner in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Dinner in daily conversation\"."
       },
@@ -3982,7 +4220,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Watch TV\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Watch TV",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Watch TV\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /watch tv/ - \"Watch TV\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4002,13 +4240,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dinner\" là gì?",
-        "options": "[\"Bữa tối\",\"Xem truyền hình\",\"Lắng nghe\",\"Thư giãn\"]",
+        "options": "[\"Lắng nghe\",\"Xem truyền hình\",\"Thư giãn\",\"Bữa tối\"]",
         "correctAnswer": "Bữa tối",
-        "explanation": "\"Dinner\" có phiên âm /.../ và mang nghĩa là \"Bữa tối\"."
+        "explanation": "\"Dinner\" có phiên âm /dinner/ và mang nghĩa là \"Bữa tối\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Evening Routine, we need to practice _____.\"",
-        "options": "[\"Watch TV\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"umbrellas\",\"Watch TV\"]",
         "correctAnswer": "Watch TV",
         "explanation": "\"Watch TV\" (Xem truyền hình) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Evening Routine."
       },
@@ -4020,13 +4258,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Relax\" là gì?",
-        "options": "[\"Thư giãn\",\"Ngủ\",\"Mệt mỏi\",\"Yên tĩnh\"]",
+        "options": "[\"Ngủ\",\"Mệt mỏi\",\"Yên tĩnh\",\"Thư giãn\"]",
         "correctAnswer": "Thư giãn",
-        "explanation": "\"Relax\" có phiên âm /.../ và mang nghĩa là \"Thư giãn\"."
+        "explanation": "\"Relax\" có phiên âm /relax/ và mang nghĩa là \"Thư giãn\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Evening Routine, we need to practice _____.\"",
-        "options": "[\"Sleep\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Sleep\",\"airplanes\"]",
         "correctAnswer": "Sleep",
         "explanation": "\"Sleep\" (Ngủ) là từ vựng chính xác trong ngữ cảnh chủ đề Daily Evening Routine."
       },
@@ -4038,9 +4276,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Quiet\" là gì?",
-        "options": "[\"Yên tĩnh\",\"Sách đọc\",\"Tối trời\",\"Chúc ngủ ngon\"]",
+        "options": "[\"Chúc ngủ ngon\",\"Sách đọc\",\"Tối trời\",\"Yên tĩnh\"]",
         "correctAnswer": "Yên tĩnh",
-        "explanation": "\"Quiet\" có phiên âm /.../ và mang nghĩa là \"Yên tĩnh\"."
+        "explanation": "\"Quiet\" có phiên âm /quiet/ và mang nghĩa là \"Yên tĩnh\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Daily Evening Routine, we need to practice _____.\"",
@@ -4056,9 +4294,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Goodnight\" là gì?",
-        "options": "[\"Chúc ngủ ngon\",\"Bữa tối\",\"Xem truyền hình\",\"Lắng nghe\"]",
+        "options": "[\"Xem truyền hình\",\"Lắng nghe\",\"Bữa tối\",\"Chúc ngủ ngon\"]",
         "correctAnswer": "Chúc ngủ ngon",
-        "explanation": "\"Goodnight\" có phiên âm /.../ và mang nghĩa là \"Chúc ngủ ngon\"."
+        "explanation": "\"Goodnight\" có phiên âm /goodnight/ và mang nghĩa là \"Chúc ngủ ngon\"."
       }
     ]
   },
@@ -4073,7 +4311,7 @@ module.exports = [
       {
         "word": "Sunny",
         "meaning": "Có nắng",
-        "pronunciation": "/.../",
+        "pronunciation": "/sunny/",
         "partOfSpeech": "noun",
         "example": "I use Sunny in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sunny trong giao tiếp hàng ngày.",
@@ -4083,7 +4321,7 @@ module.exports = [
       {
         "word": "Rainy",
         "meaning": "Có mưa",
-        "pronunciation": "/.../",
+        "pronunciation": "/rainy/",
         "partOfSpeech": "noun",
         "example": "I use Rainy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rainy trong giao tiếp hàng ngày.",
@@ -4093,7 +4331,7 @@ module.exports = [
       {
         "word": "Cloudy",
         "meaning": "Nhiều mây",
-        "pronunciation": "/.../",
+        "pronunciation": "/cloudy/",
         "partOfSpeech": "noun",
         "example": "I use Cloudy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cloudy trong giao tiếp hàng ngày.",
@@ -4103,7 +4341,7 @@ module.exports = [
       {
         "word": "Windy",
         "meaning": "Nhiều gió",
-        "pronunciation": "/.../",
+        "pronunciation": "/windy/",
         "partOfSpeech": "noun",
         "example": "I use Windy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Windy trong giao tiếp hàng ngày.",
@@ -4113,7 +4351,7 @@ module.exports = [
       {
         "word": "Hot",
         "meaning": "Nóng bức",
-        "pronunciation": "/.../",
+        "pronunciation": "/hot/",
         "partOfSpeech": "noun",
         "example": "I use Hot in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hot trong giao tiếp hàng ngày.",
@@ -4123,7 +4361,7 @@ module.exports = [
       {
         "word": "Cold",
         "meaning": "Lạnh giá",
-        "pronunciation": "/.../",
+        "pronunciation": "/cold/",
         "partOfSpeech": "noun",
         "example": "I use Cold in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cold trong giao tiếp hàng ngày.",
@@ -4133,7 +4371,7 @@ module.exports = [
       {
         "word": "Spring",
         "meaning": "Mùa xuân",
-        "pronunciation": "/.../",
+        "pronunciation": "/spring/",
         "partOfSpeech": "noun",
         "example": "I use Spring in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Spring trong giao tiếp hàng ngày.",
@@ -4143,7 +4381,7 @@ module.exports = [
       {
         "word": "Summer",
         "meaning": "Mùa hè",
-        "pronunciation": "/.../",
+        "pronunciation": "/summer/",
         "partOfSpeech": "noun",
         "example": "I use Summer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Summer trong giao tiếp hàng ngày.",
@@ -4153,7 +4391,7 @@ module.exports = [
       {
         "word": "Autumn",
         "meaning": "Mùa thu",
-        "pronunciation": "/.../",
+        "pronunciation": "/autumn/",
         "partOfSpeech": "noun",
         "example": "I use Autumn in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Autumn trong giao tiếp hàng ngày.",
@@ -4163,7 +4401,7 @@ module.exports = [
       {
         "word": "Winter",
         "meaning": "Mùa đông",
-        "pronunciation": "/.../",
+        "pronunciation": "/winter/",
         "partOfSpeech": "noun",
         "example": "I use Winter in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Winter trong giao tiếp hàng ngày.",
@@ -4173,27 +4411,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi thời tiết với How is the weather?",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Weather & Seasons.",
+        "title": "Hỏi thời tiết với How is the weather? (Dạng khẳng định)",
         "formula": "How is the weather? - It is + [Thời tiết]",
-        "examples": "{\"list\":[{\"en\":\"Example for Weather & Seasons.\",\"vi\":\"Ví dụ minh họa cho Weather & Seasons.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How is the weather? - It is + [Thời tiết]): Chọn dạng đúng của \\\"Sunny\\\" trong câu:\",\"options\":[\"Sunny\",\"Sunnys\",\"Sunnying\",\"Sunnyed\"],\"correctAnswer\":\"Sunny\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sunny\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How is the weather? - It is + [Thời tiết]): Chọn dạng đúng của \\\"Rainy\\\" trong câu:\",\"options\":[\"Rainy\",\"Rainys\",\"Rainying\",\"Rainyed\"],\"correctAnswer\":\"Rainy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Rainy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How is the weather? - It is + [Thời tiết]): Chọn dạng đúng của \\\"Cloudy\\\" trong câu:\",\"options\":[\"Cloudy\",\"Cloudys\",\"Cloudying\",\"Cloudyed\"],\"correctAnswer\":\"Cloudy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cloudy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How is the weather? - It is + [Thời tiết]): Chọn dạng đúng của \\\"Windy\\\" trong câu:\",\"options\":[\"Windy\",\"Windys\",\"Windying\",\"Windyed\"],\"correctAnswer\":\"Windy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Windy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How is the weather? - It is + [Thời tiết]): Chọn dạng đúng của \\\"Hot\\\" trong câu:\",\"options\":[\"Hot\",\"Hots\",\"Hoting\",\"Hoted\"],\"correctAnswer\":\"Hot\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Hot\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Weather & Seasons. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Weather & Seasons\".",
+        "examples": "[{\"en\":\"I use \\\"Sunny\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Sunny\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Rainy\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Rainy\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Cloudy\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Cloudy\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Weather & Seasons",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Weather & Seasons, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Sunny\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Sunny\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Rainy\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Rainy\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Cloudy\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Cloudy\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Sunny\\\" has a specific pronunciation: /sunny/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Sunny\\\" có phát âm cụ thể là /sunny/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Rainy\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Rainy\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 18: Weather & Seasons",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Weather & Seasons. In daily life, communication plays a vital role. For instance, words like \"Sunny\" and \"Rainy\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Weather & Seasons. In my daily routine, I frequently use the word \"Sunny\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Rainy\" with my classmates. In addition, knowing how to use \"Cloudy\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Weather & Seasons\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Weather & Seasons\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Weather & Seasons\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Rainy\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Rainy\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Rainy\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Windy\\\" (Nhiều gió) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Windy\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Hot\\\" (Nóng bức) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Hot\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Rainy\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Rainy\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Rainy' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Weather & Seasons",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Weather & Seasons.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Weather & Seasons?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Weather & Seasons chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Sunny\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Sunny\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Rainy\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Rainy\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 18: Weather & Seasons",
+        "passage": "Mastering the theme of \"Weather & Seasons\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Sunny\" (Có nắng) and \"Rainy\" (Có mưa) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Cloudy\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Weather & Seasons\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Sunny\" (Có nắng) và \"Rainy\" (Có mưa) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Cloudy\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Weather & Seasons\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Weather & Seasons\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Weather & Seasons\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Sunny\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Weather & Seasons\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Weather & Seasons\",\"explanation\":\"Đoạn văn khẳng định: \\\"Sunny\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4205,7 +4457,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"in\",\"I\",\"conversation\",\"Sunny\",\"use\"]",
+        "options": "[\"Sunny\",\"daily\",\"use\",\"in\",\"I\",\"conversation\"]",
         "correctAnswer": "I use Sunny in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Sunny in daily conversation\"."
       },
@@ -4221,7 +4473,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Rainy\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Rainy",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Rainy\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /rainy/ - \"Rainy\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4241,13 +4493,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sunny\" là gì?",
-        "options": "[\"Có nắng\",\"Có mưa\",\"Nhiều mây\",\"Nhiều gió\"]",
+        "options": "[\"Có nắng\",\"Nhiều gió\",\"Có mưa\",\"Nhiều mây\"]",
         "correctAnswer": "Có nắng",
-        "explanation": "\"Sunny\" có phiên âm /.../ và mang nghĩa là \"Có nắng\"."
+        "explanation": "\"Sunny\" có phiên âm /sunny/ và mang nghĩa là \"Có nắng\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Weather & Seasons, we need to practice _____.\"",
-        "options": "[\"Rainy\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Rainy\"]",
         "correctAnswer": "Rainy",
         "explanation": "\"Rainy\" (Có mưa) là từ vựng chính xác trong ngữ cảnh chủ đề Weather & Seasons."
       },
@@ -4261,11 +4513,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Windy\" là gì?",
         "options": "[\"Nhiều gió\",\"Nóng bức\",\"Lạnh giá\",\"Mùa xuân\"]",
         "correctAnswer": "Nhiều gió",
-        "explanation": "\"Windy\" có phiên âm /.../ và mang nghĩa là \"Nhiều gió\"."
+        "explanation": "\"Windy\" có phiên âm /windy/ và mang nghĩa là \"Nhiều gió\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Weather & Seasons, we need to practice _____.\"",
-        "options": "[\"Hot\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Hot\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Hot",
         "explanation": "\"Hot\" (Nóng bức) là từ vựng chính xác trong ngữ cảnh chủ đề Weather & Seasons."
       },
@@ -4277,13 +4529,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Spring\" là gì?",
-        "options": "[\"Mùa xuân\",\"Mùa hè\",\"Mùa thu\",\"Mùa đông\"]",
+        "options": "[\"Mùa hè\",\"Mùa đông\",\"Mùa xuân\",\"Mùa thu\"]",
         "correctAnswer": "Mùa xuân",
-        "explanation": "\"Spring\" có phiên âm /.../ và mang nghĩa là \"Mùa xuân\"."
+        "explanation": "\"Spring\" có phiên âm /spring/ và mang nghĩa là \"Mùa xuân\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Weather & Seasons, we need to practice _____.\"",
-        "options": "[\"Summer\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Summer\"]",
         "correctAnswer": "Summer",
         "explanation": "\"Summer\" (Mùa hè) là từ vựng chính xác trong ngữ cảnh chủ đề Weather & Seasons."
       },
@@ -4295,9 +4547,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Winter\" là gì?",
-        "options": "[\"Mùa đông\",\"Có nắng\",\"Có mưa\",\"Nhiều mây\"]",
+        "options": "[\"Mùa đông\",\"Nhiều mây\",\"Có nắng\",\"Có mưa\"]",
         "correctAnswer": "Mùa đông",
-        "explanation": "\"Winter\" có phiên âm /.../ và mang nghĩa là \"Mùa đông\"."
+        "explanation": "\"Winter\" có phiên âm /winter/ và mang nghĩa là \"Mùa đông\"."
       }
     ]
   },
@@ -4312,7 +4564,7 @@ module.exports = [
       {
         "word": "Shirt",
         "meaning": "Áo sơ mi",
-        "pronunciation": "/.../",
+        "pronunciation": "/shirt/",
         "partOfSpeech": "noun",
         "example": "I use Shirt in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shirt trong giao tiếp hàng ngày.",
@@ -4322,7 +4574,7 @@ module.exports = [
       {
         "word": "T-shirt",
         "meaning": "Áo phông",
-        "pronunciation": "/.../",
+        "pronunciation": "/t-shirt/",
         "partOfSpeech": "noun",
         "example": "I use T-shirt in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ T-shirt trong giao tiếp hàng ngày.",
@@ -4332,7 +4584,7 @@ module.exports = [
       {
         "word": "Pants",
         "meaning": "Quần dài",
-        "pronunciation": "/.../",
+        "pronunciation": "/pants/",
         "partOfSpeech": "noun",
         "example": "I use Pants in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pants trong giao tiếp hàng ngày.",
@@ -4342,7 +4594,7 @@ module.exports = [
       {
         "word": "Dress",
         "meaning": "Váy liền",
-        "pronunciation": "/.../",
+        "pronunciation": "/dress/",
         "partOfSpeech": "noun",
         "example": "I use Dress in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dress trong giao tiếp hàng ngày.",
@@ -4352,7 +4604,7 @@ module.exports = [
       {
         "word": "Skirt",
         "meaning": "Chân váy",
-        "pronunciation": "/.../",
+        "pronunciation": "/skirt/",
         "partOfSpeech": "noun",
         "example": "I use Skirt in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Skirt trong giao tiếp hàng ngày.",
@@ -4362,7 +4614,7 @@ module.exports = [
       {
         "word": "Shoes",
         "meaning": "Đôi giày",
-        "pronunciation": "/.../",
+        "pronunciation": "/shoes/",
         "partOfSpeech": "noun",
         "example": "I use Shoes in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Shoes trong giao tiếp hàng ngày.",
@@ -4372,7 +4624,7 @@ module.exports = [
       {
         "word": "Hat",
         "meaning": "Cái mũ",
-        "pronunciation": "/.../",
+        "pronunciation": "/hat/",
         "partOfSpeech": "noun",
         "example": "I use Hat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hat trong giao tiếp hàng ngày.",
@@ -4382,7 +4634,7 @@ module.exports = [
       {
         "word": "Coat",
         "meaning": "Áo khoác",
-        "pronunciation": "/.../",
+        "pronunciation": "/coat/",
         "partOfSpeech": "noun",
         "example": "I use Coat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Coat trong giao tiếp hàng ngày.",
@@ -4392,7 +4644,7 @@ module.exports = [
       {
         "word": "Wear",
         "meaning": "Mặc, đeo",
-        "pronunciation": "/.../",
+        "pronunciation": "/wear/",
         "partOfSpeech": "noun",
         "example": "I use Wear in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Wear trong giao tiếp hàng ngày.",
@@ -4402,7 +4654,7 @@ module.exports = [
       {
         "word": "Clean",
         "meaning": "Sạch sẽ",
-        "pronunciation": "/.../",
+        "pronunciation": "/clean/",
         "partOfSpeech": "noun",
         "example": "I use Clean in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Clean trong giao tiếp hàng ngày.",
@@ -4412,27 +4664,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Thì Hiện tại tiếp diễn chỉ trang phục đang mặc",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Clothes & Daily Dressing.",
+        "title": "Thì Hiện tại tiếp diễn chỉ trang phục đang mặc (Dạng khẳng định)",
         "formula": "I am wearing + [Trang phục]",
-        "examples": "{\"list\":[{\"en\":\"Example for Clothes & Daily Dressing.\",\"vi\":\"Ví dụ minh họa cho Clothes & Daily Dressing.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I am wearing + [Trang phục]): Chọn dạng đúng của \\\"Shirt\\\" trong câu:\",\"options\":[\"Shirt\",\"Shirts\",\"Shirting\",\"Shirted\"],\"correctAnswer\":\"Shirt\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Shirt\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I am wearing + [Trang phục]): Chọn dạng đúng của \\\"T-shirt\\\" trong câu:\",\"options\":[\"T-shirt\",\"T-shirts\",\"T-shirting\",\"T-shirted\"],\"correctAnswer\":\"T-shirt\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"T-shirt\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I am wearing + [Trang phục]): Chọn dạng đúng của \\\"Pants\\\" trong câu:\",\"options\":[\"Pants\",\"Pantss\",\"Pantsing\",\"Pantsed\"],\"correctAnswer\":\"Pants\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Pants\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I am wearing + [Trang phục]): Chọn dạng đúng của \\\"Dress\\\" trong câu:\",\"options\":[\"Dress\",\"Dresss\",\"Dressing\",\"Dressed\"],\"correctAnswer\":\"Dress\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Dress\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I am wearing + [Trang phục]): Chọn dạng đúng của \\\"Skirt\\\" trong câu:\",\"options\":[\"Skirt\",\"Skirts\",\"Skirting\",\"Skirted\"],\"correctAnswer\":\"Skirt\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Skirt\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Clothes & Daily Dressing. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Clothes & Daily Dressing\".",
+        "examples": "[{\"en\":\"I use \\\"Shirt\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Shirt\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"T-shirt\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"T-shirt\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Pants\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Pants\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Clothes & Daily Dressing",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Clothes & Daily Dressing, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Shirt\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Shirt\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"T-shirt\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"T-shirt\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Pants\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Pants\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Shirt\\\" has a specific pronunciation: /shirt/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Shirt\\\" có phát âm cụ thể là /shirt/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"T-shirt\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"T-shirt\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 19: Clothes & Daily Dressing",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Clothes & Daily Dressing. In daily life, communication plays a vital role. For instance, words like \"Shirt\" and \"T-shirt\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Clothes & Daily Dressing. In my daily routine, I frequently use the word \"Shirt\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"T-shirt\" with my classmates. In addition, knowing how to use \"Pants\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Clothes & Daily Dressing\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Clothes & Daily Dressing\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Clothes & Daily Dressing\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"T-shirt\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"T-shirt\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"T-shirt\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Dress\\\" (Váy liền) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Dress\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Skirt\\\" (Chân váy) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Skirt\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"T-shirt\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"T-shirt\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'T-shirt' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Clothes & Daily Dressing",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Clothes & Daily Dressing.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Clothes & Daily Dressing?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Clothes & Daily Dressing chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Shirt\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Shirt\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"T-shirt\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"T-shirt\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 19: Clothes & Daily Dressing",
+        "passage": "Mastering the theme of \"Clothes & Daily Dressing\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Shirt\" (Áo sơ mi) and \"T-shirt\" (Áo phông) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Pants\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Clothes & Daily Dressing\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Shirt\" (Áo sơ mi) và \"T-shirt\" (Áo phông) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Pants\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Clothes & Daily Dressing\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Clothes & Daily Dressing\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Clothes & Daily Dressing\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Shirt\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Clothes & Daily Dressing\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Clothes & Daily Dressing\",\"explanation\":\"Đoạn văn khẳng định: \\\"Shirt\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4444,7 +4710,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"daily\",\"use\",\"Shirt\",\"in\",\"conversation\"]",
+        "options": "[\"I\",\"use\",\"Shirt\",\"in\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Shirt in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Shirt in daily conversation\"."
       },
@@ -4460,7 +4726,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"T-shirt\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "T-shirt",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"T-shirt\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /t-shirt/ - \"T-shirt\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4480,13 +4746,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Shirt\" là gì?",
-        "options": "[\"Áo sơ mi\",\"Áo phông\",\"Quần dài\",\"Váy liền\"]",
+        "options": "[\"Quần dài\",\"Áo phông\",\"Áo sơ mi\",\"Váy liền\"]",
         "correctAnswer": "Áo sơ mi",
-        "explanation": "\"Shirt\" có phiên âm /.../ và mang nghĩa là \"Áo sơ mi\"."
+        "explanation": "\"Shirt\" có phiên âm /shirt/ và mang nghĩa là \"Áo sơ mi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Clothes & Daily Dressing, we need to practice _____.\"",
-        "options": "[\"T-shirt\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"T-shirt\"]",
         "correctAnswer": "T-shirt",
         "explanation": "\"T-shirt\" (Áo phông) là từ vựng chính xác trong ngữ cảnh chủ đề Clothes & Daily Dressing."
       },
@@ -4498,13 +4764,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dress\" là gì?",
-        "options": "[\"Váy liền\",\"Chân váy\",\"Đôi giày\",\"Cái mũ\"]",
+        "options": "[\"Cái mũ\",\"Đôi giày\",\"Chân váy\",\"Váy liền\"]",
         "correctAnswer": "Váy liền",
-        "explanation": "\"Dress\" có phiên âm /.../ và mang nghĩa là \"Váy liền\"."
+        "explanation": "\"Dress\" có phiên âm /dress/ và mang nghĩa là \"Váy liền\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Clothes & Daily Dressing, we need to practice _____.\"",
-        "options": "[\"Skirt\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Skirt\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Skirt",
         "explanation": "\"Skirt\" (Chân váy) là từ vựng chính xác trong ngữ cảnh chủ đề Clothes & Daily Dressing."
       },
@@ -4516,13 +4782,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Hat\" là gì?",
-        "options": "[\"Cái mũ\",\"Áo khoác\",\"Mặc, đeo\",\"Sạch sẽ\"]",
+        "options": "[\"Mặc, đeo\",\"Sạch sẽ\",\"Cái mũ\",\"Áo khoác\"]",
         "correctAnswer": "Cái mũ",
-        "explanation": "\"Hat\" có phiên âm /.../ và mang nghĩa là \"Cái mũ\"."
+        "explanation": "\"Hat\" có phiên âm /hat/ và mang nghĩa là \"Cái mũ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Clothes & Daily Dressing, we need to practice _____.\"",
-        "options": "[\"Coat\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Coat\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Coat",
         "explanation": "\"Coat\" (Áo khoác) là từ vựng chính xác trong ngữ cảnh chủ đề Clothes & Daily Dressing."
       },
@@ -4534,9 +4800,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Clean\" là gì?",
-        "options": "[\"Sạch sẽ\",\"Áo sơ mi\",\"Áo phông\",\"Quần dài\"]",
+        "options": "[\"Quần dài\",\"Áo phông\",\"Áo sơ mi\",\"Sạch sẽ\"]",
         "correctAnswer": "Sạch sẽ",
-        "explanation": "\"Clean\" có phiên âm /.../ và mang nghĩa là \"Sạch sẽ\"."
+        "explanation": "\"Clean\" có phiên âm /clean/ và mang nghĩa là \"Sạch sẽ\"."
       }
     ]
   },
@@ -4551,7 +4817,7 @@ module.exports = [
       {
         "word": "Tall",
         "meaning": "Cao ráo",
-        "pronunciation": "/.../",
+        "pronunciation": "/tall/",
         "partOfSpeech": "noun",
         "example": "I use Tall in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Tall trong giao tiếp hàng ngày.",
@@ -4561,7 +4827,7 @@ module.exports = [
       {
         "word": "Short",
         "meaning": "Thấp, lùn",
-        "pronunciation": "/.../",
+        "pronunciation": "/short/",
         "partOfSpeech": "noun",
         "example": "I use Short in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Short trong giao tiếp hàng ngày.",
@@ -4571,7 +4837,7 @@ module.exports = [
       {
         "word": "Slim",
         "meaning": "Thon thả",
-        "pronunciation": "/.../",
+        "pronunciation": "/slim/",
         "partOfSpeech": "noun",
         "example": "I use Slim in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Slim trong giao tiếp hàng ngày.",
@@ -4581,7 +4847,7 @@ module.exports = [
       {
         "word": "Young",
         "meaning": "Trẻ tuổi",
-        "pronunciation": "/.../",
+        "pronunciation": "/young/",
         "partOfSpeech": "noun",
         "example": "I use Young in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Young trong giao tiếp hàng ngày.",
@@ -4591,7 +4857,7 @@ module.exports = [
       {
         "word": "Old",
         "meaning": "Cao tuổi, già",
-        "pronunciation": "/.../",
+        "pronunciation": "/old/",
         "partOfSpeech": "noun",
         "example": "I use Old in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Old trong giao tiếp hàng ngày.",
@@ -4601,7 +4867,7 @@ module.exports = [
       {
         "word": "Hair",
         "meaning": "Mái tóc",
-        "pronunciation": "/.../",
+        "pronunciation": "/hair/",
         "partOfSpeech": "noun",
         "example": "I use Hair in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hair trong giao tiếp hàng ngày.",
@@ -4611,7 +4877,7 @@ module.exports = [
       {
         "word": "Eyes",
         "meaning": "Đôi mắt",
-        "pronunciation": "/.../",
+        "pronunciation": "/eyes/",
         "partOfSpeech": "noun",
         "example": "I use Eyes in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Eyes trong giao tiếp hàng ngày.",
@@ -4621,7 +4887,7 @@ module.exports = [
       {
         "word": "Face",
         "meaning": "Khuôn mặt",
-        "pronunciation": "/.../",
+        "pronunciation": "/face/",
         "partOfSpeech": "noun",
         "example": "I use Face in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Face trong giao tiếp hàng ngày.",
@@ -4631,7 +4897,7 @@ module.exports = [
       {
         "word": "Smile",
         "meaning": "Nụ cười",
-        "pronunciation": "/.../",
+        "pronunciation": "/smile/",
         "partOfSpeech": "noun",
         "example": "I use Smile in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Smile trong giao tiếp hàng ngày.",
@@ -4641,7 +4907,7 @@ module.exports = [
       {
         "word": "Beautiful",
         "meaning": "Xinh đẹp",
-        "pronunciation": "/.../",
+        "pronunciation": "/beautiful/",
         "partOfSpeech": "noun",
         "example": "I use Beautiful in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Beautiful trong giao tiếp hàng ngày.",
@@ -4651,27 +4917,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Miêu tả ngoại hình với have / be",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Physical Appearance & Descriptions.",
+        "title": "Miêu tả ngoại hình với have / be (Dạng khẳng định)",
         "formula": "He/She has + [Đặc điểm] / He/She is + [Tính từ]",
-        "examples": "{\"list\":[{\"en\":\"Example for Physical Appearance & Descriptions.\",\"vi\":\"Ví dụ minh họa cho Physical Appearance & Descriptions.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (He/She has + [Đặc điểm] / He/She is + [Tính từ]): Chọn dạng đúng của \\\"Tall\\\" trong câu:\",\"options\":[\"Tall\",\"Talls\",\"Talling\",\"Talled\"],\"correctAnswer\":\"Tall\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Tall\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (He/She has + [Đặc điểm] / He/She is + [Tính từ]): Chọn dạng đúng của \\\"Short\\\" trong câu:\",\"options\":[\"Short\",\"Shorts\",\"Shorting\",\"Shorted\"],\"correctAnswer\":\"Short\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Short\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (He/She has + [Đặc điểm] / He/She is + [Tính từ]): Chọn dạng đúng của \\\"Slim\\\" trong câu:\",\"options\":[\"Slim\",\"Slims\",\"Sliming\",\"Slimed\"],\"correctAnswer\":\"Slim\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Slim\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (He/She has + [Đặc điểm] / He/She is + [Tính từ]): Chọn dạng đúng của \\\"Young\\\" trong câu:\",\"options\":[\"Young\",\"Youngs\",\"Younging\",\"Younged\"],\"correctAnswer\":\"Young\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Young\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (He/She has + [Đặc điểm] / He/She is + [Tính từ]): Chọn dạng đúng của \\\"Old\\\" trong câu:\",\"options\":[\"Old\",\"Olds\",\"Olding\",\"Olded\"],\"correctAnswer\":\"Old\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Old\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Physical Appearance & Descriptions. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Physical Appearance & Descriptions\".",
+        "examples": "[{\"en\":\"I use \\\"Tall\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Tall\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Short\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Short\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Slim\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Slim\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Physical Appearance & Descriptions",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Physical Appearance & Descriptions, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Tall\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Tall\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Short\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Short\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Slim\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Slim\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Tall\\\" has a specific pronunciation: /tall/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Tall\\\" có phát âm cụ thể là /tall/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Short\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Short\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 20: Physical Appearance & Descriptions",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Physical Appearance & Descriptions. In daily life, communication plays a vital role. For instance, words like \"Tall\" and \"Short\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Physical Appearance & Descriptions. In my daily routine, I frequently use the word \"Tall\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Short\" with my classmates. In addition, knowing how to use \"Slim\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Physical Appearance & Descriptions\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Physical Appearance & Descriptions\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Physical Appearance & Descriptions\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Short\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Short\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Short\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Young\\\" (Trẻ tuổi) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Young\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Old\\\" (Cao tuổi, già) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Old\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Short\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Short\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Short' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Physical Appearance & Descriptions",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Physical Appearance & Descriptions.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Physical Appearance & Descriptions?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Physical Appearance & Descriptions chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Tall\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Tall\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Short\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Short\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 20: Physical Appearance & Descriptions",
+        "passage": "Mastering the theme of \"Physical Appearance & Descriptions\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Tall\" (Cao ráo) and \"Short\" (Thấp, lùn) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Slim\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Physical Appearance & Descriptions\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Tall\" (Cao ráo) và \"Short\" (Thấp, lùn) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Slim\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Physical Appearance & Descriptions\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Physical Appearance & Descriptions\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Physical Appearance & Descriptions\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Tall\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Physical Appearance & Descriptions\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Physical Appearance & Descriptions\",\"explanation\":\"Đoạn văn khẳng định: \\\"Tall\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4683,7 +4963,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"use\",\"I\",\"Tall\",\"conversation\",\"in\",\"daily\"]",
+        "options": "[\"conversation\",\"I\",\"use\",\"Tall\",\"in\",\"daily\"]",
         "correctAnswer": "I use Tall in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Tall in daily conversation\"."
       },
@@ -4699,7 +4979,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Short\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Short",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Short\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /short/ - \"Short\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4721,11 +5001,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Tall\" là gì?",
         "options": "[\"Cao ráo\",\"Thấp, lùn\",\"Thon thả\",\"Trẻ tuổi\"]",
         "correctAnswer": "Cao ráo",
-        "explanation": "\"Tall\" có phiên âm /.../ và mang nghĩa là \"Cao ráo\"."
+        "explanation": "\"Tall\" có phiên âm /tall/ và mang nghĩa là \"Cao ráo\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Physical Appearance & Descriptions, we need to practice _____.\"",
-        "options": "[\"Short\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Short\"]",
         "correctAnswer": "Short",
         "explanation": "\"Short\" (Thấp, lùn) là từ vựng chính xác trong ngữ cảnh chủ đề Physical Appearance & Descriptions."
       },
@@ -4739,7 +5019,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Young\" là gì?",
         "options": "[\"Trẻ tuổi\",\"Cao tuổi, già\",\"Mái tóc\",\"Đôi mắt\"]",
         "correctAnswer": "Trẻ tuổi",
-        "explanation": "\"Young\" có phiên âm /.../ và mang nghĩa là \"Trẻ tuổi\"."
+        "explanation": "\"Young\" có phiên âm /young/ và mang nghĩa là \"Trẻ tuổi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Physical Appearance & Descriptions, we need to practice _____.\"",
@@ -4755,13 +5035,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Eyes\" là gì?",
-        "options": "[\"Đôi mắt\",\"Khuôn mặt\",\"Nụ cười\",\"Xinh đẹp\"]",
+        "options": "[\"Nụ cười\",\"Khuôn mặt\",\"Xinh đẹp\",\"Đôi mắt\"]",
         "correctAnswer": "Đôi mắt",
-        "explanation": "\"Eyes\" có phiên âm /.../ và mang nghĩa là \"Đôi mắt\"."
+        "explanation": "\"Eyes\" có phiên âm /eyes/ và mang nghĩa là \"Đôi mắt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Physical Appearance & Descriptions, we need to practice _____.\"",
-        "options": "[\"Face\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Face\",\"umbrellas\"]",
         "correctAnswer": "Face",
         "explanation": "\"Face\" (Khuôn mặt) là từ vựng chính xác trong ngữ cảnh chủ đề Physical Appearance & Descriptions."
       },
@@ -4773,9 +5053,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Beautiful\" là gì?",
-        "options": "[\"Xinh đẹp\",\"Cao ráo\",\"Thấp, lùn\",\"Thon thả\"]",
+        "options": "[\"Thon thả\",\"Xinh đẹp\",\"Cao ráo\",\"Thấp, lùn\"]",
         "correctAnswer": "Xinh đẹp",
-        "explanation": "\"Beautiful\" có phiên âm /.../ và mang nghĩa là \"Xinh đẹp\"."
+        "explanation": "\"Beautiful\" có phiên âm /beautiful/ và mang nghĩa là \"Xinh đẹp\"."
       }
     ]
   },
@@ -4790,7 +5070,7 @@ module.exports = [
       {
         "word": "Happy",
         "meaning": "Hạnh phúc, vui",
-        "pronunciation": "/.../",
+        "pronunciation": "/happy/",
         "partOfSpeech": "noun",
         "example": "I use Happy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Happy trong giao tiếp hàng ngày.",
@@ -4800,7 +5080,7 @@ module.exports = [
       {
         "word": "Sad",
         "meaning": "Buồn bã",
-        "pronunciation": "/.../",
+        "pronunciation": "/sad/",
         "partOfSpeech": "noun",
         "example": "I use Sad in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sad trong giao tiếp hàng ngày.",
@@ -4810,7 +5090,7 @@ module.exports = [
       {
         "word": "Angry",
         "meaning": "Tức giận",
-        "pronunciation": "/.../",
+        "pronunciation": "/angry/",
         "partOfSpeech": "noun",
         "example": "I use Angry in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Angry trong giao tiếp hàng ngày.",
@@ -4820,7 +5100,7 @@ module.exports = [
       {
         "word": "Surprised",
         "meaning": "Ngạc nhiên",
-        "pronunciation": "/.../",
+        "pronunciation": "/surprised/",
         "partOfSpeech": "noun",
         "example": "I use Surprised in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Surprised trong giao tiếp hàng ngày.",
@@ -4830,7 +5110,7 @@ module.exports = [
       {
         "word": "Bored",
         "meaning": "Buồn chán",
-        "pronunciation": "/.../",
+        "pronunciation": "/bored/",
         "partOfSpeech": "noun",
         "example": "I use Bored in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bored trong giao tiếp hàng ngày.",
@@ -4840,7 +5120,7 @@ module.exports = [
       {
         "word": "Excited",
         "meaning": "Hào hứng",
-        "pronunciation": "/.../",
+        "pronunciation": "/excited/",
         "partOfSpeech": "noun",
         "example": "I use Excited in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Excited trong giao tiếp hàng ngày.",
@@ -4850,7 +5130,7 @@ module.exports = [
       {
         "word": "Scared",
         "meaning": "Sợ hãi",
-        "pronunciation": "/.../",
+        "pronunciation": "/scared/",
         "partOfSpeech": "noun",
         "example": "I use Scared in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Scared trong giao tiếp hàng ngày.",
@@ -4860,7 +5140,7 @@ module.exports = [
       {
         "word": "Calm",
         "meaning": "Bình tĩnh",
-        "pronunciation": "/.../",
+        "pronunciation": "/calm/",
         "partOfSpeech": "noun",
         "example": "I use Calm in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Calm trong giao tiếp hàng ngày.",
@@ -4870,7 +5150,7 @@ module.exports = [
       {
         "word": "Feel",
         "meaning": "Cảm thấy",
-        "pronunciation": "/.../",
+        "pronunciation": "/feel/",
         "partOfSpeech": "noun",
         "example": "I use Feel in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Feel trong giao tiếp hàng ngày.",
@@ -4880,7 +5160,7 @@ module.exports = [
       {
         "word": "Smile",
         "meaning": "Mỉm cười",
-        "pronunciation": "/.../",
+        "pronunciation": "/smile/",
         "partOfSpeech": "noun",
         "example": "I use Smile in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Smile trong giao tiếp hàng ngày.",
@@ -4890,27 +5170,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Bày tỏ cảm xúc hiện tại",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Feelings & Simple Emotions.",
+        "title": "Bày tỏ cảm xúc hiện tại (Dạng khẳng định)",
         "formula": "I feel + [Cảm xúc] / I am + [Cảm xúc]",
-        "examples": "{\"list\":[{\"en\":\"Example for Feelings & Simple Emotions.\",\"vi\":\"Ví dụ minh họa cho Feelings & Simple Emotions.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I feel + [Cảm xúc] / I am + [Cảm xúc]): Chọn dạng đúng của \\\"Happy\\\" trong câu:\",\"options\":[\"Happy\",\"Happys\",\"Happying\",\"Happyed\"],\"correctAnswer\":\"Happy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Happy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I feel + [Cảm xúc] / I am + [Cảm xúc]): Chọn dạng đúng của \\\"Sad\\\" trong câu:\",\"options\":[\"Sad\",\"Sads\",\"Sading\",\"Saded\"],\"correctAnswer\":\"Sad\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sad\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I feel + [Cảm xúc] / I am + [Cảm xúc]): Chọn dạng đúng của \\\"Angry\\\" trong câu:\",\"options\":[\"Angry\",\"Angrys\",\"Angrying\",\"Angryed\"],\"correctAnswer\":\"Angry\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Angry\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I feel + [Cảm xúc] / I am + [Cảm xúc]): Chọn dạng đúng của \\\"Surprised\\\" trong câu:\",\"options\":[\"Surprised\",\"Surpriseds\",\"Surpriseding\",\"Surpriseded\"],\"correctAnswer\":\"Surprised\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Surprised\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I feel + [Cảm xúc] / I am + [Cảm xúc]): Chọn dạng đúng của \\\"Bored\\\" trong câu:\",\"options\":[\"Bored\",\"Boreds\",\"Boreding\",\"Boreded\"],\"correctAnswer\":\"Bored\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bored\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Feelings & Simple Emotions. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Feelings & Simple Emotions\".",
+        "examples": "[{\"en\":\"I use \\\"Happy\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Happy\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Sad\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Sad\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Angry\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Angry\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Feelings & Simple Emotions",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Feelings & Simple Emotions, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Happy\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Happy\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Sad\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Sad\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Angry\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Angry\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Happy\\\" has a specific pronunciation: /happy/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Happy\\\" có phát âm cụ thể là /happy/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sad\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sad\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 21: Feelings & Simple Emotions",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Feelings & Simple Emotions. In daily life, communication plays a vital role. For instance, words like \"Happy\" and \"Sad\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Feelings & Simple Emotions. In my daily routine, I frequently use the word \"Happy\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Sad\" with my classmates. In addition, knowing how to use \"Angry\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Feelings & Simple Emotions\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Feelings & Simple Emotions\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Feelings & Simple Emotions\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Sad\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Sad\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Sad\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Surprised\\\" (Ngạc nhiên) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Surprised\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Bored\\\" (Buồn chán) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Bored\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Sad\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Sad\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Sad' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Feelings & Simple Emotions",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Feelings & Simple Emotions.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Feelings & Simple Emotions?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Feelings & Simple Emotions chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Happy\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Happy\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Sad\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Sad\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 21: Feelings & Simple Emotions",
+        "passage": "Mastering the theme of \"Feelings & Simple Emotions\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Happy\" (Hạnh phúc, vui) and \"Sad\" (Buồn bã) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Angry\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Feelings & Simple Emotions\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Happy\" (Hạnh phúc, vui) và \"Sad\" (Buồn bã) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Angry\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Feelings & Simple Emotions\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Feelings & Simple Emotions\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Feelings & Simple Emotions\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Happy\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Feelings & Simple Emotions\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Feelings & Simple Emotions\",\"explanation\":\"Đoạn văn khẳng định: \\\"Happy\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -4922,7 +5216,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"use\",\"Happy\",\"conversation\",\"I\",\"daily\"]",
+        "options": "[\"daily\",\"Happy\",\"conversation\",\"use\",\"in\",\"I\"]",
         "correctAnswer": "I use Happy in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Happy in daily conversation\"."
       },
@@ -4938,7 +5232,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Sad\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Sad",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Sad\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /sad/ - \"Sad\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -4958,13 +5252,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Happy\" là gì?",
-        "options": "[\"Hạnh phúc, vui\",\"Buồn bã\",\"Tức giận\",\"Ngạc nhiên\"]",
+        "options": "[\"Hạnh phúc, vui\",\"Ngạc nhiên\",\"Buồn bã\",\"Tức giận\"]",
         "correctAnswer": "Hạnh phúc, vui",
-        "explanation": "\"Happy\" có phiên âm /.../ và mang nghĩa là \"Hạnh phúc, vui\"."
+        "explanation": "\"Happy\" có phiên âm /happy/ và mang nghĩa là \"Hạnh phúc, vui\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Feelings & Simple Emotions, we need to practice _____.\"",
-        "options": "[\"Sad\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Sad\",\"umbrellas\"]",
         "correctAnswer": "Sad",
         "explanation": "\"Sad\" (Buồn bã) là từ vựng chính xác trong ngữ cảnh chủ đề Feelings & Simple Emotions."
       },
@@ -4976,13 +5270,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Surprised\" là gì?",
-        "options": "[\"Ngạc nhiên\",\"Buồn chán\",\"Hào hứng\",\"Sợ hãi\"]",
+        "options": "[\"Ngạc nhiên\",\"Sợ hãi\",\"Buồn chán\",\"Hào hứng\"]",
         "correctAnswer": "Ngạc nhiên",
-        "explanation": "\"Surprised\" có phiên âm /.../ và mang nghĩa là \"Ngạc nhiên\"."
+        "explanation": "\"Surprised\" có phiên âm /surprised/ và mang nghĩa là \"Ngạc nhiên\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Feelings & Simple Emotions, we need to practice _____.\"",
-        "options": "[\"Bored\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Bored\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Bored",
         "explanation": "\"Bored\" (Buồn chán) là từ vựng chính xác trong ngữ cảnh chủ đề Feelings & Simple Emotions."
       },
@@ -4996,11 +5290,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Scared\" là gì?",
         "options": "[\"Sợ hãi\",\"Bình tĩnh\",\"Cảm thấy\",\"Mỉm cười\"]",
         "correctAnswer": "Sợ hãi",
-        "explanation": "\"Scared\" có phiên âm /.../ và mang nghĩa là \"Sợ hãi\"."
+        "explanation": "\"Scared\" có phiên âm /scared/ và mang nghĩa là \"Sợ hãi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Feelings & Simple Emotions, we need to practice _____.\"",
-        "options": "[\"Calm\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Calm\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Calm",
         "explanation": "\"Calm\" (Bình tĩnh) là từ vựng chính xác trong ngữ cảnh chủ đề Feelings & Simple Emotions."
       },
@@ -5014,7 +5308,7 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Smile\" là gì?",
         "options": "[\"Mỉm cười\",\"Hạnh phúc, vui\",\"Buồn bã\",\"Tức giận\"]",
         "correctAnswer": "Mỉm cười",
-        "explanation": "\"Smile\" có phiên âm /.../ và mang nghĩa là \"Mỉm cười\"."
+        "explanation": "\"Smile\" có phiên âm /smile/ và mang nghĩa là \"Mỉm cười\"."
       }
     ]
   },
@@ -5029,7 +5323,7 @@ module.exports = [
       {
         "word": "Dog",
         "meaning": "Con chó",
-        "pronunciation": "/.../",
+        "pronunciation": "/dog/",
         "partOfSpeech": "noun",
         "example": "I use Dog in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dog trong giao tiếp hàng ngày.",
@@ -5039,7 +5333,7 @@ module.exports = [
       {
         "word": "Cat",
         "meaning": "Con mèo",
-        "pronunciation": "/.../",
+        "pronunciation": "/cat/",
         "partOfSpeech": "noun",
         "example": "I use Cat in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cat trong giao tiếp hàng ngày.",
@@ -5049,7 +5343,7 @@ module.exports = [
       {
         "word": "Bird",
         "meaning": "Con chim",
-        "pronunciation": "/.../",
+        "pronunciation": "/bird/",
         "partOfSpeech": "noun",
         "example": "I use Bird in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bird trong giao tiếp hàng ngày.",
@@ -5059,7 +5353,7 @@ module.exports = [
       {
         "word": "Fish",
         "meaning": "Con cá",
-        "pronunciation": "/.../",
+        "pronunciation": "/fish/",
         "partOfSpeech": "noun",
         "example": "I use Fish in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fish trong giao tiếp hàng ngày.",
@@ -5069,7 +5363,7 @@ module.exports = [
       {
         "word": "Rabbit",
         "meaning": "Con thỏ",
-        "pronunciation": "/.../",
+        "pronunciation": "/rabbit/",
         "partOfSpeech": "noun",
         "example": "I use Rabbit in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Rabbit trong giao tiếp hàng ngày.",
@@ -5079,7 +5373,7 @@ module.exports = [
       {
         "word": "Pet",
         "meaning": "Thú cưng",
-        "pronunciation": "/.../",
+        "pronunciation": "/pet/",
         "partOfSpeech": "noun",
         "example": "I use Pet in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pet trong giao tiếp hàng ngày.",
@@ -5089,7 +5383,7 @@ module.exports = [
       {
         "word": "Animal",
         "meaning": "Động vật",
-        "pronunciation": "/.../",
+        "pronunciation": "/animal/",
         "partOfSpeech": "noun",
         "example": "I use Animal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Animal trong giao tiếp hàng ngày.",
@@ -5099,7 +5393,7 @@ module.exports = [
       {
         "word": "Cute",
         "meaning": "Dễ thương",
-        "pronunciation": "/.../",
+        "pronunciation": "/cute/",
         "partOfSpeech": "noun",
         "example": "I use Cute in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cute trong giao tiếp hàng ngày.",
@@ -5109,7 +5403,7 @@ module.exports = [
       {
         "word": "Feed",
         "meaning": "Cho ăn",
-        "pronunciation": "/.../",
+        "pronunciation": "/feed/",
         "partOfSpeech": "noun",
         "example": "I use Feed in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Feed trong giao tiếp hàng ngày.",
@@ -5119,7 +5413,7 @@ module.exports = [
       {
         "word": "Play",
         "meaning": "Chơi đùa",
-        "pronunciation": "/.../",
+        "pronunciation": "/play/",
         "partOfSpeech": "noun",
         "example": "I use Play in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Play trong giao tiếp hàng ngày.",
@@ -5129,27 +5423,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi về thú cưng với Do you have...",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Common Animals & Pets.",
+        "title": "Hỏi về thú cưng với Do you have... (Dạng khẳng định)",
         "formula": "Do you have a pet? - I have a + [Thú cưng]",
-        "examples": "{\"list\":[{\"en\":\"Example for Common Animals & Pets.\",\"vi\":\"Ví dụ minh họa cho Common Animals & Pets.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Do you have a pet? - I have a + [Thú cưng]): Chọn dạng đúng của \\\"Dog\\\" trong câu:\",\"options\":[\"Dog\",\"Dogs\",\"Doging\",\"Doged\"],\"correctAnswer\":\"Dog\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Dog\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Do you have a pet? - I have a + [Thú cưng]): Chọn dạng đúng của \\\"Cat\\\" trong câu:\",\"options\":[\"Cat\",\"Cats\",\"Cating\",\"Cated\"],\"correctAnswer\":\"Cat\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cat\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Do you have a pet? - I have a + [Thú cưng]): Chọn dạng đúng của \\\"Bird\\\" trong câu:\",\"options\":[\"Bird\",\"Birds\",\"Birding\",\"Birded\"],\"correctAnswer\":\"Bird\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bird\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Do you have a pet? - I have a + [Thú cưng]): Chọn dạng đúng của \\\"Fish\\\" trong câu:\",\"options\":[\"Fish\",\"Fishs\",\"Fishing\",\"Fished\"],\"correctAnswer\":\"Fish\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Fish\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Do you have a pet? - I have a + [Thú cưng]): Chọn dạng đúng của \\\"Rabbit\\\" trong câu:\",\"options\":[\"Rabbit\",\"Rabbits\",\"Rabbiting\",\"Rabbited\"],\"correctAnswer\":\"Rabbit\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Rabbit\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Common Animals & Pets. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Common Animals & Pets\".",
+        "examples": "[{\"en\":\"I use \\\"Dog\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Dog\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Cat\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Cat\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Bird\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Bird\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Common Animals & Pets",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Common Animals & Pets, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Dog\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Dog\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Cat\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Cat\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Bird\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Bird\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Dog\\\" has a specific pronunciation: /dog/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Dog\\\" có phát âm cụ thể là /dog/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Cat\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Cat\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 22: Common Animals & Pets",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Common Animals & Pets. In daily life, communication plays a vital role. For instance, words like \"Dog\" and \"Cat\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Common Animals & Pets. In my daily routine, I frequently use the word \"Dog\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Cat\" with my classmates. In addition, knowing how to use \"Bird\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Common Animals & Pets\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Common Animals & Pets\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Common Animals & Pets\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Cat\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Cat\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Cat\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Fish\\\" (Con cá) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Fish\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Rabbit\\\" (Con thỏ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Rabbit\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Cat\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Cat\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Cat' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Common Animals & Pets",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Common Animals & Pets.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Common Animals & Pets?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Common Animals & Pets chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Dog\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Dog\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Cat\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Cat\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 22: Common Animals & Pets",
+        "passage": "Mastering the theme of \"Common Animals & Pets\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Dog\" (Con chó) and \"Cat\" (Con mèo) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Bird\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Common Animals & Pets\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Dog\" (Con chó) và \"Cat\" (Con mèo) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Bird\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Common Animals & Pets\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Common Animals & Pets\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Common Animals & Pets\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Dog\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Common Animals & Pets\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Common Animals & Pets\",\"explanation\":\"Đoạn văn khẳng định: \\\"Dog\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -5161,7 +5469,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"daily\",\"Dog\",\"conversation\",\"in\",\"use\",\"I\"]",
+        "options": "[\"in\",\"I\",\"daily\",\"Dog\",\"use\",\"conversation\"]",
         "correctAnswer": "I use Dog in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Dog in daily conversation\"."
       },
@@ -5177,7 +5485,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Cat\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Cat",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Cat\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /cat/ - \"Cat\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5197,13 +5505,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dog\" là gì?",
-        "options": "[\"Con chó\",\"Con mèo\",\"Con chim\",\"Con cá\"]",
+        "options": "[\"Con chó\",\"Con mèo\",\"Con cá\",\"Con chim\"]",
         "correctAnswer": "Con chó",
-        "explanation": "\"Dog\" có phiên âm /.../ và mang nghĩa là \"Con chó\"."
+        "explanation": "\"Dog\" có phiên âm /dog/ và mang nghĩa là \"Con chó\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Common Animals & Pets, we need to practice _____.\"",
-        "options": "[\"Cat\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Cat\"]",
         "correctAnswer": "Cat",
         "explanation": "\"Cat\" (Con mèo) là từ vựng chính xác trong ngữ cảnh chủ đề Common Animals & Pets."
       },
@@ -5215,13 +5523,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Fish\" là gì?",
-        "options": "[\"Con cá\",\"Con thỏ\",\"Thú cưng\",\"Động vật\"]",
+        "options": "[\"Con cá\",\"Động vật\",\"Con thỏ\",\"Thú cưng\"]",
         "correctAnswer": "Con cá",
-        "explanation": "\"Fish\" có phiên âm /.../ và mang nghĩa là \"Con cá\"."
+        "explanation": "\"Fish\" có phiên âm /fish/ và mang nghĩa là \"Con cá\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Common Animals & Pets, we need to practice _____.\"",
-        "options": "[\"Rabbit\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Rabbit\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Rabbit",
         "explanation": "\"Rabbit\" (Con thỏ) là từ vựng chính xác trong ngữ cảnh chủ đề Common Animals & Pets."
       },
@@ -5233,9 +5541,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Animal\" là gì?",
-        "options": "[\"Động vật\",\"Dễ thương\",\"Cho ăn\",\"Chơi đùa\"]",
+        "options": "[\"Động vật\",\"Chơi đùa\",\"Cho ăn\",\"Dễ thương\"]",
         "correctAnswer": "Động vật",
-        "explanation": "\"Animal\" có phiên âm /.../ và mang nghĩa là \"Động vật\"."
+        "explanation": "\"Animal\" có phiên âm /animal/ và mang nghĩa là \"Động vật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Common Animals & Pets, we need to practice _____.\"",
@@ -5251,9 +5559,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Play\" là gì?",
-        "options": "[\"Chơi đùa\",\"Con chó\",\"Con mèo\",\"Con chim\"]",
+        "options": "[\"Con chim\",\"Con mèo\",\"Chơi đùa\",\"Con chó\"]",
         "correctAnswer": "Chơi đùa",
-        "explanation": "\"Play\" có phiên âm /.../ và mang nghĩa là \"Chơi đùa\"."
+        "explanation": "\"Play\" có phiên âm /play/ và mang nghĩa là \"Chơi đùa\"."
       }
     ]
   },
@@ -5268,7 +5576,7 @@ module.exports = [
       {
         "word": "City",
         "meaning": "Thành phố",
-        "pronunciation": "/.../",
+        "pronunciation": "/city/",
         "partOfSpeech": "noun",
         "example": "I use City in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ City trong giao tiếp hàng ngày.",
@@ -5278,7 +5586,7 @@ module.exports = [
       {
         "word": "Park",
         "meaning": "Công viên",
-        "pronunciation": "/.../",
+        "pronunciation": "/park/",
         "partOfSpeech": "noun",
         "example": "I use Park in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Park trong giao tiếp hàng ngày.",
@@ -5288,7 +5596,7 @@ module.exports = [
       {
         "word": "Library",
         "meaning": "Thư viện",
-        "pronunciation": "/.../",
+        "pronunciation": "/library/",
         "partOfSpeech": "noun",
         "example": "I use Library in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Library trong giao tiếp hàng ngày.",
@@ -5298,7 +5606,7 @@ module.exports = [
       {
         "word": "Market",
         "meaning": "Khu chợ",
-        "pronunciation": "/.../",
+        "pronunciation": "/market/",
         "partOfSpeech": "noun",
         "example": "I use Market in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Market trong giao tiếp hàng ngày.",
@@ -5308,7 +5616,7 @@ module.exports = [
       {
         "word": "Bank",
         "meaning": "Ngân hàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/bank/",
         "partOfSpeech": "noun",
         "example": "I use Bank in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bank trong giao tiếp hàng ngày.",
@@ -5318,7 +5626,7 @@ module.exports = [
       {
         "word": "Street",
         "meaning": "Đường phố",
-        "pronunciation": "/.../",
+        "pronunciation": "/street/",
         "partOfSpeech": "noun",
         "example": "I use Street in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Street trong giao tiếp hàng ngày.",
@@ -5328,7 +5636,7 @@ module.exports = [
       {
         "word": "Bridge",
         "meaning": "Cây cầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/bridge/",
         "partOfSpeech": "noun",
         "example": "I use Bridge in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bridge trong giao tiếp hàng ngày.",
@@ -5338,7 +5646,7 @@ module.exports = [
       {
         "word": "Near",
         "meaning": "Gần đây",
-        "pronunciation": "/.../",
+        "pronunciation": "/near/",
         "partOfSpeech": "noun",
         "example": "I use Near in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Near trong giao tiếp hàng ngày.",
@@ -5348,7 +5656,7 @@ module.exports = [
       {
         "word": "Far",
         "meaning": "Xa xôi",
-        "pronunciation": "/.../",
+        "pronunciation": "/far/",
         "partOfSpeech": "noun",
         "example": "I use Far in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Far trong giao tiếp hàng ngày.",
@@ -5358,7 +5666,7 @@ module.exports = [
       {
         "word": "Place",
         "meaning": "Địa điểm",
-        "pronunciation": "/.../",
+        "pronunciation": "/place/",
         "partOfSpeech": "noun",
         "example": "I use Place in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Place trong giao tiếp hàng ngày.",
@@ -5368,27 +5676,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi vị trí địa điểm công cộng",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: In the City & Public Places.",
+        "title": "Hỏi vị trí địa điểm công cộng (Dạng khẳng định)",
         "formula": "Where is the + [Địa điểm]?",
-        "examples": "{\"list\":[{\"en\":\"Example for In the City & Public Places.\",\"vi\":\"Ví dụ minh họa cho In the City & Public Places.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Where is the + [Địa điểm]?): Chọn dạng đúng của \\\"City\\\" trong câu:\",\"options\":[\"City\",\"Citys\",\"Citying\",\"Cityed\"],\"correctAnswer\":\"City\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"City\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Where is the + [Địa điểm]?): Chọn dạng đúng của \\\"Park\\\" trong câu:\",\"options\":[\"Park\",\"Parks\",\"Parking\",\"Parked\"],\"correctAnswer\":\"Park\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Park\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Where is the + [Địa điểm]?): Chọn dạng đúng của \\\"Library\\\" trong câu:\",\"options\":[\"Library\",\"Librarys\",\"Librarying\",\"Libraryed\"],\"correctAnswer\":\"Library\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Library\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Where is the + [Địa điểm]?): Chọn dạng đúng của \\\"Market\\\" trong câu:\",\"options\":[\"Market\",\"Markets\",\"Marketing\",\"Marketed\"],\"correctAnswer\":\"Market\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Market\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Where is the + [Địa điểm]?): Chọn dạng đúng của \\\"Bank\\\" trong câu:\",\"options\":[\"Bank\",\"Banks\",\"Banking\",\"Banked\"],\"correctAnswer\":\"Bank\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bank\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: In the City & Public Places. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"In the City & Public Places\".",
+        "examples": "[{\"en\":\"I use \\\"City\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"City\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Park\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Park\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Library\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Library\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - In the City & Public Places",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề In the City & Public Places, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"City\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"City\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Park\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Park\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Library\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Library\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"City\\\" has a specific pronunciation: /city/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"City\\\" có phát âm cụ thể là /city/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Park\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Park\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 23: In the City & Public Places",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of In the City & Public Places. In daily life, communication plays a vital role. For instance, words like \"City\" and \"Park\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with In the City & Public Places. In my daily routine, I frequently use the word \"City\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Park\" with my classmates. In addition, knowing how to use \"Library\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"In the City & Public Places\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"In the City & Public Places\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"In the City & Public Places\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Park\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Park\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Park\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Market\\\" (Khu chợ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Market\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Bank\\\" (Ngân hàng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Bank\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Park\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Park\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Park' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: In the City & Public Places",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề In the City & Public Places.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on In the City & Public Places?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về In the City & Public Places chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"City\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"City\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Park\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Park\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 23: In the City & Public Places",
+        "passage": "Mastering the theme of \"In the City & Public Places\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"City\" (Thành phố) and \"Park\" (Công viên) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Library\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"In the City & Public Places\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"City\" (Thành phố) và \"Park\" (Công viên) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Library\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề In the City & Public Places\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề In the City & Public Places\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"In the City & Public Places\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"City\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề In the City & Public Places\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề In the City & Public Places\",\"explanation\":\"Đoạn văn khẳng định: \\\"City\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -5400,7 +5722,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"City\",\"use\",\"in\",\"daily\",\"I\",\"conversation\"]",
+        "options": "[\"I\",\"daily\",\"use\",\"City\",\"conversation\",\"in\"]",
         "correctAnswer": "I use City in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use City in daily conversation\"."
       },
@@ -5416,7 +5738,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Park\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Park",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Park\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /park/ - \"Park\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5438,11 +5760,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"City\" là gì?",
         "options": "[\"Thành phố\",\"Công viên\",\"Thư viện\",\"Khu chợ\"]",
         "correctAnswer": "Thành phố",
-        "explanation": "\"City\" có phiên âm /.../ và mang nghĩa là \"Thành phố\"."
+        "explanation": "\"City\" có phiên âm /city/ và mang nghĩa là \"Thành phố\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on In the City & Public Places, we need to practice _____.\"",
-        "options": "[\"Park\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"umbrellas\",\"bananas\",\"Park\"]",
         "correctAnswer": "Park",
         "explanation": "\"Park\" (Công viên) là từ vựng chính xác trong ngữ cảnh chủ đề In the City & Public Places."
       },
@@ -5454,13 +5776,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Market\" là gì?",
-        "options": "[\"Khu chợ\",\"Ngân hàng\",\"Đường phố\",\"Cây cầu\"]",
+        "options": "[\"Ngân hàng\",\"Khu chợ\",\"Cây cầu\",\"Đường phố\"]",
         "correctAnswer": "Khu chợ",
-        "explanation": "\"Market\" có phiên âm /.../ và mang nghĩa là \"Khu chợ\"."
+        "explanation": "\"Market\" có phiên âm /market/ và mang nghĩa là \"Khu chợ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on In the City & Public Places, we need to practice _____.\"",
-        "options": "[\"Bank\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Bank\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Bank",
         "explanation": "\"Bank\" (Ngân hàng) là từ vựng chính xác trong ngữ cảnh chủ đề In the City & Public Places."
       },
@@ -5472,13 +5794,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bridge\" là gì?",
-        "options": "[\"Cây cầu\",\"Gần đây\",\"Xa xôi\",\"Địa điểm\"]",
+        "options": "[\"Xa xôi\",\"Gần đây\",\"Cây cầu\",\"Địa điểm\"]",
         "correctAnswer": "Cây cầu",
-        "explanation": "\"Bridge\" có phiên âm /.../ và mang nghĩa là \"Cây cầu\"."
+        "explanation": "\"Bridge\" có phiên âm /bridge/ và mang nghĩa là \"Cây cầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on In the City & Public Places, we need to practice _____.\"",
-        "options": "[\"Near\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Near\",\"umbrellas\"]",
         "correctAnswer": "Near",
         "explanation": "\"Near\" (Gần đây) là từ vựng chính xác trong ngữ cảnh chủ đề In the City & Public Places."
       },
@@ -5490,9 +5812,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Place\" là gì?",
-        "options": "[\"Địa điểm\",\"Thành phố\",\"Công viên\",\"Thư viện\"]",
+        "options": "[\"Thư viện\",\"Công viên\",\"Thành phố\",\"Địa điểm\"]",
         "correctAnswer": "Địa điểm",
-        "explanation": "\"Place\" có phiên âm /.../ và mang nghĩa là \"Địa điểm\"."
+        "explanation": "\"Place\" có phiên âm /place/ và mang nghĩa là \"Địa điểm\"."
       }
     ]
   },
@@ -5507,7 +5829,7 @@ module.exports = [
       {
         "word": "Bus",
         "meaning": "Xe buýt",
-        "pronunciation": "/.../",
+        "pronunciation": "/bus/",
         "partOfSpeech": "noun",
         "example": "I use Bus in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bus trong giao tiếp hàng ngày.",
@@ -5517,7 +5839,7 @@ module.exports = [
       {
         "word": "Bike",
         "meaning": "Xe đạp",
-        "pronunciation": "/.../",
+        "pronunciation": "/bike/",
         "partOfSpeech": "noun",
         "example": "I use Bike in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Bike trong giao tiếp hàng ngày.",
@@ -5527,7 +5849,7 @@ module.exports = [
       {
         "word": "Motorbike",
         "meaning": "Xe máy",
-        "pronunciation": "/.../",
+        "pronunciation": "/motorbike/",
         "partOfSpeech": "noun",
         "example": "I use Motorbike in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Motorbike trong giao tiếp hàng ngày.",
@@ -5537,7 +5859,7 @@ module.exports = [
       {
         "word": "Car",
         "meaning": "Xe ô tô",
-        "pronunciation": "/.../",
+        "pronunciation": "/car/",
         "partOfSpeech": "noun",
         "example": "I use Car in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Car trong giao tiếp hàng ngày.",
@@ -5547,7 +5869,7 @@ module.exports = [
       {
         "word": "Train",
         "meaning": "Tàu hỏa",
-        "pronunciation": "/.../",
+        "pronunciation": "/train/",
         "partOfSpeech": "noun",
         "example": "I use Train in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Train trong giao tiếp hàng ngày.",
@@ -5557,7 +5879,7 @@ module.exports = [
       {
         "word": "Walk",
         "meaning": "Đi bộ",
-        "pronunciation": "/.../",
+        "pronunciation": "/walk/",
         "partOfSpeech": "noun",
         "example": "I use Walk in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Walk trong giao tiếp hàng ngày.",
@@ -5567,7 +5889,7 @@ module.exports = [
       {
         "word": "Drive",
         "meaning": "Lái xe",
-        "pronunciation": "/.../",
+        "pronunciation": "/drive/",
         "partOfSpeech": "noun",
         "example": "I use Drive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Drive trong giao tiếp hàng ngày.",
@@ -5577,7 +5899,7 @@ module.exports = [
       {
         "word": "Ride",
         "meaning": "Cưỡi, lái xe 2 bánh",
-        "pronunciation": "/.../",
+        "pronunciation": "/ride/",
         "partOfSpeech": "noun",
         "example": "I use Ride in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ride trong giao tiếp hàng ngày.",
@@ -5587,7 +5909,7 @@ module.exports = [
       {
         "word": "Station",
         "meaning": "Nhà ga, bến xe",
-        "pronunciation": "/.../",
+        "pronunciation": "/station/",
         "partOfSpeech": "noun",
         "example": "I use Station in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Station trong giao tiếp hàng ngày.",
@@ -5597,7 +5919,7 @@ module.exports = [
       {
         "word": "Ticket",
         "meaning": "Vé đi xe",
-        "pronunciation": "/.../",
+        "pronunciation": "/ticket/",
         "partOfSpeech": "noun",
         "example": "I use Ticket in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ticket trong giao tiếp hàng ngày.",
@@ -5607,27 +5929,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Giới từ by chỉ phương tiện đi lại",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Means of Transport.",
+        "title": "Giới từ by chỉ phương tiện đi lại (Dạng khẳng định)",
         "formula": "I go to work by + [Phương tiện]",
-        "examples": "{\"list\":[{\"en\":\"Example for Means of Transport.\",\"vi\":\"Ví dụ minh họa cho Means of Transport.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I go to work by + [Phương tiện]): Chọn dạng đúng của \\\"Bus\\\" trong câu:\",\"options\":[\"Bus\",\"Buss\",\"Busing\",\"Bused\"],\"correctAnswer\":\"Bus\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bus\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I go to work by + [Phương tiện]): Chọn dạng đúng của \\\"Bike\\\" trong câu:\",\"options\":[\"Bike\",\"Bikes\",\"Bikeing\",\"Bikeed\"],\"correctAnswer\":\"Bike\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Bike\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I go to work by + [Phương tiện]): Chọn dạng đúng của \\\"Motorbike\\\" trong câu:\",\"options\":[\"Motorbike\",\"Motorbikes\",\"Motorbikeing\",\"Motorbikeed\"],\"correctAnswer\":\"Motorbike\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Motorbike\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I go to work by + [Phương tiện]): Chọn dạng đúng của \\\"Car\\\" trong câu:\",\"options\":[\"Car\",\"Cars\",\"Caring\",\"Cared\"],\"correctAnswer\":\"Car\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Car\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I go to work by + [Phương tiện]): Chọn dạng đúng của \\\"Train\\\" trong câu:\",\"options\":[\"Train\",\"Trains\",\"Training\",\"Trained\"],\"correctAnswer\":\"Train\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Train\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Means of Transport. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Means of Transport\".",
+        "examples": "[{\"en\":\"I use \\\"Bus\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Bus\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Bike\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Bike\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Motorbike\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Motorbike\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Means of Transport",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Means of Transport, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Bus\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Bus\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Bike\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Bike\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Motorbike\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Motorbike\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Bus\\\" has a specific pronunciation: /bus/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Bus\\\" có phát âm cụ thể là /bus/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Bike\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Bike\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 24: Means of Transport",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Means of Transport. In daily life, communication plays a vital role. For instance, words like \"Bus\" and \"Bike\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Means of Transport. In my daily routine, I frequently use the word \"Bus\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Bike\" with my classmates. In addition, knowing how to use \"Motorbike\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Means of Transport\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Means of Transport\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Means of Transport\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Bike\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Bike\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Bike\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Car\\\" (Xe ô tô) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Car\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Train\\\" (Tàu hỏa) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Train\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Bike\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Bike\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Bike' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Means of Transport",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Means of Transport.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Means of Transport?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Means of Transport chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Bus\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Bus\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Bike\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Bike\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 24: Means of Transport",
+        "passage": "Mastering the theme of \"Means of Transport\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Bus\" (Xe buýt) and \"Bike\" (Xe đạp) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Motorbike\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Means of Transport\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Bus\" (Xe buýt) và \"Bike\" (Xe đạp) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Motorbike\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Means of Transport\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Means of Transport\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Means of Transport\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Bus\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Means of Transport\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Means of Transport\",\"explanation\":\"Đoạn văn khẳng định: \\\"Bus\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -5639,7 +5975,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"Bus\",\"use\",\"daily\",\"conversation\",\"in\",\"I\"]",
+        "options": "[\"in\",\"Bus\",\"conversation\",\"daily\",\"use\",\"I\"]",
         "correctAnswer": "I use Bus in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Bus in daily conversation\"."
       },
@@ -5655,7 +5991,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Bike\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Bike",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Bike\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /bike/ - \"Bike\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5675,13 +6011,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Bus\" là gì?",
-        "options": "[\"Xe buýt\",\"Xe đạp\",\"Xe máy\",\"Xe ô tô\"]",
+        "options": "[\"Xe ô tô\",\"Xe máy\",\"Xe đạp\",\"Xe buýt\"]",
         "correctAnswer": "Xe buýt",
-        "explanation": "\"Bus\" có phiên âm /.../ và mang nghĩa là \"Xe buýt\"."
+        "explanation": "\"Bus\" có phiên âm /bus/ và mang nghĩa là \"Xe buýt\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Means of Transport, we need to practice _____.\"",
-        "options": "[\"Bike\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Bike\"]",
         "correctAnswer": "Bike",
         "explanation": "\"Bike\" (Xe đạp) là từ vựng chính xác trong ngữ cảnh chủ đề Means of Transport."
       },
@@ -5693,13 +6029,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Car\" là gì?",
-        "options": "[\"Xe ô tô\",\"Tàu hỏa\",\"Đi bộ\",\"Lái xe\"]",
+        "options": "[\"Xe ô tô\",\"Tàu hỏa\",\"Lái xe\",\"Đi bộ\"]",
         "correctAnswer": "Xe ô tô",
-        "explanation": "\"Car\" có phiên âm /.../ và mang nghĩa là \"Xe ô tô\"."
+        "explanation": "\"Car\" có phiên âm /car/ và mang nghĩa là \"Xe ô tô\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Means of Transport, we need to practice _____.\"",
-        "options": "[\"Train\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Train\"]",
         "correctAnswer": "Train",
         "explanation": "\"Train\" (Tàu hỏa) là từ vựng chính xác trong ngữ cảnh chủ đề Means of Transport."
       },
@@ -5713,11 +6049,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Drive\" là gì?",
         "options": "[\"Lái xe\",\"Cưỡi, lái xe 2 bánh\",\"Nhà ga, bến xe\",\"Vé đi xe\"]",
         "correctAnswer": "Lái xe",
-        "explanation": "\"Drive\" có phiên âm /.../ và mang nghĩa là \"Lái xe\"."
+        "explanation": "\"Drive\" có phiên âm /drive/ và mang nghĩa là \"Lái xe\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Means of Transport, we need to practice _____.\"",
-        "options": "[\"Ride\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Ride\"]",
         "correctAnswer": "Ride",
         "explanation": "\"Ride\" (Cưỡi, lái xe 2 bánh) là từ vựng chính xác trong ngữ cảnh chủ đề Means of Transport."
       },
@@ -5729,9 +6065,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ticket\" là gì?",
-        "options": "[\"Vé đi xe\",\"Xe buýt\",\"Xe đạp\",\"Xe máy\"]",
+        "options": "[\"Vé đi xe\",\"Xe buýt\",\"Xe máy\",\"Xe đạp\"]",
         "correctAnswer": "Vé đi xe",
-        "explanation": "\"Ticket\" có phiên âm /.../ và mang nghĩa là \"Vé đi xe\"."
+        "explanation": "\"Ticket\" có phiên âm /ticket/ và mang nghĩa là \"Vé đi xe\"."
       }
     ]
   },
@@ -5746,7 +6082,7 @@ module.exports = [
       {
         "word": "Soccer",
         "meaning": "Bóng đá",
-        "pronunciation": "/.../",
+        "pronunciation": "/soccer/",
         "partOfSpeech": "noun",
         "example": "I use Soccer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Soccer trong giao tiếp hàng ngày.",
@@ -5756,7 +6092,7 @@ module.exports = [
       {
         "word": "Swim",
         "meaning": "Bơi lội",
-        "pronunciation": "/.../",
+        "pronunciation": "/swim/",
         "partOfSpeech": "noun",
         "example": "I use Swim in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Swim trong giao tiếp hàng ngày.",
@@ -5766,7 +6102,7 @@ module.exports = [
       {
         "word": "Music",
         "meaning": "Âm nhạc",
-        "pronunciation": "/.../",
+        "pronunciation": "/music/",
         "partOfSpeech": "noun",
         "example": "I use Music in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Music trong giao tiếp hàng ngày.",
@@ -5776,7 +6112,7 @@ module.exports = [
       {
         "word": "Sing",
         "meaning": "Ca hát",
-        "pronunciation": "/.../",
+        "pronunciation": "/sing/",
         "partOfSpeech": "noun",
         "example": "I use Sing in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sing trong giao tiếp hàng ngày.",
@@ -5786,7 +6122,7 @@ module.exports = [
       {
         "word": "Dance",
         "meaning": "Khiêu vũ",
-        "pronunciation": "/.../",
+        "pronunciation": "/dance/",
         "partOfSpeech": "noun",
         "example": "I use Dance in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dance trong giao tiếp hàng ngày.",
@@ -5796,7 +6132,7 @@ module.exports = [
       {
         "word": "Game",
         "meaning": "Trò chơi",
-        "pronunciation": "/.../",
+        "pronunciation": "/game/",
         "partOfSpeech": "noun",
         "example": "I use Game in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Game trong giao tiếp hàng ngày.",
@@ -5806,7 +6142,7 @@ module.exports = [
       {
         "word": "Sport",
         "meaning": "Thể thao",
-        "pronunciation": "/.../",
+        "pronunciation": "/sport/",
         "partOfSpeech": "noun",
         "example": "I use Sport in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sport trong giao tiếp hàng ngày.",
@@ -5816,7 +6152,7 @@ module.exports = [
       {
         "word": "Hobby",
         "meaning": "Sở thích",
-        "pronunciation": "/.../",
+        "pronunciation": "/hobby/",
         "partOfSpeech": "noun",
         "example": "I use Hobby in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Hobby trong giao tiếp hàng ngày.",
@@ -5826,7 +6162,7 @@ module.exports = [
       {
         "word": "Like",
         "meaning": "Thích thú",
-        "pronunciation": "/.../",
+        "pronunciation": "/like/",
         "partOfSpeech": "noun",
         "example": "I use Like in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Like trong giao tiếp hàng ngày.",
@@ -5836,7 +6172,7 @@ module.exports = [
       {
         "word": "Enjoy",
         "meaning": "Tận hưởng",
-        "pronunciation": "/.../",
+        "pronunciation": "/enjoy/",
         "partOfSpeech": "noun",
         "example": "I use Enjoy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Enjoy trong giao tiếp hàng ngày.",
@@ -5846,27 +6182,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Nói về sở thích cá nhân",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Hobbies & Sports.",
+        "title": "Nói về sở thích cá nhân (Dạng khẳng định)",
         "formula": "My hobby is + [V-ing]",
-        "examples": "{\"list\":[{\"en\":\"Example for Hobbies & Sports.\",\"vi\":\"Ví dụ minh họa cho Hobbies & Sports.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (My hobby is + [V-ing]): Chọn dạng đúng của \\\"Soccer\\\" trong câu:\",\"options\":[\"Soccer\",\"Soccers\",\"Soccering\",\"Soccered\"],\"correctAnswer\":\"Soccer\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Soccer\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (My hobby is + [V-ing]): Chọn dạng đúng của \\\"Swim\\\" trong câu:\",\"options\":[\"Swim\",\"Swims\",\"Swiming\",\"Swimed\"],\"correctAnswer\":\"Swim\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Swim\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (My hobby is + [V-ing]): Chọn dạng đúng của \\\"Music\\\" trong câu:\",\"options\":[\"Music\",\"Musics\",\"Musicing\",\"Musiced\"],\"correctAnswer\":\"Music\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Music\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (My hobby is + [V-ing]): Chọn dạng đúng của \\\"Sing\\\" trong câu:\",\"options\":[\"Sing\",\"Sings\",\"Singing\",\"Singed\"],\"correctAnswer\":\"Sing\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sing\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (My hobby is + [V-ing]): Chọn dạng đúng của \\\"Dance\\\" trong câu:\",\"options\":[\"Dance\",\"Dances\",\"Danceing\",\"Danceed\"],\"correctAnswer\":\"Dance\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Dance\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Hobbies & Sports. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Hobbies & Sports\".",
+        "examples": "[{\"en\":\"I use \\\"Soccer\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Soccer\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Swim\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Swim\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Music\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Music\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Hobbies & Sports",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Hobbies & Sports, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Soccer\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Soccer\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Swim\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Swim\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Music\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Music\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Soccer\\\" has a specific pronunciation: /soccer/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Soccer\\\" có phát âm cụ thể là /soccer/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Swim\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Swim\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 25: Hobbies & Sports",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Hobbies & Sports. In daily life, communication plays a vital role. For instance, words like \"Soccer\" and \"Swim\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Hobbies & Sports. In my daily routine, I frequently use the word \"Soccer\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Swim\" with my classmates. In addition, knowing how to use \"Music\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Hobbies & Sports\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Hobbies & Sports\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Hobbies & Sports\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Swim\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Swim\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Swim\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Sing\\\" (Ca hát) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Sing\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Dance\\\" (Khiêu vũ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Dance\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Swim\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Swim\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Swim' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Hobbies & Sports",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Hobbies & Sports.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Hobbies & Sports?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Hobbies & Sports chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Soccer\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Soccer\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Swim\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Swim\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 25: Hobbies & Sports",
+        "passage": "Mastering the theme of \"Hobbies & Sports\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Soccer\" (Bóng đá) and \"Swim\" (Bơi lội) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Music\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Hobbies & Sports\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Soccer\" (Bóng đá) và \"Swim\" (Bơi lội) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Music\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Hobbies & Sports\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Hobbies & Sports\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Hobbies & Sports\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Soccer\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Hobbies & Sports\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Hobbies & Sports\",\"explanation\":\"Đoạn văn khẳng định: \\\"Soccer\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -5878,7 +6228,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"I\",\"conversation\",\"daily\",\"use\",\"Soccer\"]",
+        "options": "[\"conversation\",\"Soccer\",\"use\",\"I\",\"daily\",\"in\"]",
         "correctAnswer": "I use Soccer in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Soccer in daily conversation\"."
       },
@@ -5894,7 +6244,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Swim\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Swim",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Swim\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /swim/ - \"Swim\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -5914,9 +6264,9 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Soccer\" là gì?",
-        "options": "[\"Bóng đá\",\"Bơi lội\",\"Âm nhạc\",\"Ca hát\"]",
+        "options": "[\"Bóng đá\",\"Âm nhạc\",\"Bơi lội\",\"Ca hát\"]",
         "correctAnswer": "Bóng đá",
-        "explanation": "\"Soccer\" có phiên âm /.../ và mang nghĩa là \"Bóng đá\"."
+        "explanation": "\"Soccer\" có phiên âm /soccer/ và mang nghĩa là \"Bóng đá\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Hobbies & Sports, we need to practice _____.\"",
@@ -5932,13 +6282,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sing\" là gì?",
-        "options": "[\"Ca hát\",\"Khiêu vũ\",\"Trò chơi\",\"Thể thao\"]",
+        "options": "[\"Trò chơi\",\"Khiêu vũ\",\"Ca hát\",\"Thể thao\"]",
         "correctAnswer": "Ca hát",
-        "explanation": "\"Sing\" có phiên âm /.../ và mang nghĩa là \"Ca hát\"."
+        "explanation": "\"Sing\" có phiên âm /sing/ và mang nghĩa là \"Ca hát\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Hobbies & Sports, we need to practice _____.\"",
-        "options": "[\"Dance\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"airplanes\",\"Dance\"]",
         "correctAnswer": "Dance",
         "explanation": "\"Dance\" (Khiêu vũ) là từ vựng chính xác trong ngữ cảnh chủ đề Hobbies & Sports."
       },
@@ -5950,13 +6300,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sport\" là gì?",
-        "options": "[\"Thể thao\",\"Sở thích\",\"Thích thú\",\"Tận hưởng\"]",
+        "options": "[\"Sở thích\",\"Thể thao\",\"Thích thú\",\"Tận hưởng\"]",
         "correctAnswer": "Thể thao",
-        "explanation": "\"Sport\" có phiên âm /.../ và mang nghĩa là \"Thể thao\"."
+        "explanation": "\"Sport\" có phiên âm /sport/ và mang nghĩa là \"Thể thao\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Hobbies & Sports, we need to practice _____.\"",
-        "options": "[\"Hobby\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Hobby\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Hobby",
         "explanation": "\"Hobby\" (Sở thích) là từ vựng chính xác trong ngữ cảnh chủ đề Hobbies & Sports."
       },
@@ -5968,9 +6318,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Enjoy\" là gì?",
-        "options": "[\"Tận hưởng\",\"Bóng đá\",\"Bơi lội\",\"Âm nhạc\"]",
+        "options": "[\"Tận hưởng\",\"Âm nhạc\",\"Bóng đá\",\"Bơi lội\"]",
         "correctAnswer": "Tận hưởng",
-        "explanation": "\"Enjoy\" có phiên âm /.../ và mang nghĩa là \"Tận hưởng\"."
+        "explanation": "\"Enjoy\" có phiên âm /enjoy/ và mang nghĩa là \"Tận hưởng\"."
       }
     ]
   },
@@ -5985,7 +6335,7 @@ module.exports = [
       {
         "word": "Vietnam",
         "meaning": "Việt Nam",
-        "pronunciation": "/.../",
+        "pronunciation": "/vietnam/",
         "partOfSpeech": "noun",
         "example": "I use Vietnam in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Vietnam trong giao tiếp hàng ngày.",
@@ -5995,7 +6345,7 @@ module.exports = [
       {
         "word": "Vietnamese",
         "meaning": "Người Việt Nam",
-        "pronunciation": "/.../",
+        "pronunciation": "/vietnamese/",
         "partOfSpeech": "noun",
         "example": "I use Vietnamese in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Vietnamese trong giao tiếp hàng ngày.",
@@ -6005,7 +6355,7 @@ module.exports = [
       {
         "word": "America",
         "meaning": "Nước Mỹ",
-        "pronunciation": "/.../",
+        "pronunciation": "/america/",
         "partOfSpeech": "noun",
         "example": "I use America in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ America trong giao tiếp hàng ngày.",
@@ -6015,7 +6365,7 @@ module.exports = [
       {
         "word": "American",
         "meaning": "Người Mỹ",
-        "pronunciation": "/.../",
+        "pronunciation": "/american/",
         "partOfSpeech": "noun",
         "example": "I use American in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ American trong giao tiếp hàng ngày.",
@@ -6025,7 +6375,7 @@ module.exports = [
       {
         "word": "England",
         "meaning": "Nước Anh",
-        "pronunciation": "/.../",
+        "pronunciation": "/england/",
         "partOfSpeech": "noun",
         "example": "I use England in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ England trong giao tiếp hàng ngày.",
@@ -6035,7 +6385,7 @@ module.exports = [
       {
         "word": "English",
         "meaning": "Người Anh, tiếng Anh",
-        "pronunciation": "/.../",
+        "pronunciation": "/english/",
         "partOfSpeech": "noun",
         "example": "I use English in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ English trong giao tiếp hàng ngày.",
@@ -6045,7 +6395,7 @@ module.exports = [
       {
         "word": "Japan",
         "meaning": "Nước Nhật",
-        "pronunciation": "/.../",
+        "pronunciation": "/japan/",
         "partOfSpeech": "noun",
         "example": "I use Japan in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Japan trong giao tiếp hàng ngày.",
@@ -6055,7 +6405,7 @@ module.exports = [
       {
         "word": "Country",
         "meaning": "Đất nước",
-        "pronunciation": "/.../",
+        "pronunciation": "/country/",
         "partOfSpeech": "noun",
         "example": "I use Country in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Country trong giao tiếp hàng ngày.",
@@ -6065,7 +6415,7 @@ module.exports = [
       {
         "word": "World",
         "meaning": "Thế giới",
-        "pronunciation": "/.../",
+        "pronunciation": "/world/",
         "partOfSpeech": "noun",
         "example": "I use World in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ World trong giao tiếp hàng ngày.",
@@ -6075,7 +6425,7 @@ module.exports = [
       {
         "word": "Live",
         "meaning": "Sống, sinh sống",
-        "pronunciation": "/.../",
+        "pronunciation": "/live/",
         "partOfSpeech": "noun",
         "example": "I use Live in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Live trong giao tiếp hàng ngày.",
@@ -6085,27 +6435,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Nói xuất thân với I am from...",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Countries & Nationalities.",
+        "title": "Nói xuất thân với I am from... (Dạng khẳng định)",
         "formula": "I am from + [Nước] / I am + [Quốc tịch]",
-        "examples": "{\"list\":[{\"en\":\"Example for Countries & Nationalities.\",\"vi\":\"Ví dụ minh họa cho Countries & Nationalities.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I am from + [Nước] / I am + [Quốc tịch]): Chọn dạng đúng của \\\"Vietnam\\\" trong câu:\",\"options\":[\"Vietnam\",\"Vietnams\",\"Vietnaming\",\"Vietnamed\"],\"correctAnswer\":\"Vietnam\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Vietnam\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I am from + [Nước] / I am + [Quốc tịch]): Chọn dạng đúng của \\\"Vietnamese\\\" trong câu:\",\"options\":[\"Vietnamese\",\"Vietnameses\",\"Vietnameseing\",\"Vietnameseed\"],\"correctAnswer\":\"Vietnamese\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Vietnamese\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I am from + [Nước] / I am + [Quốc tịch]): Chọn dạng đúng của \\\"America\\\" trong câu:\",\"options\":[\"America\",\"Americas\",\"Americaing\",\"Americaed\"],\"correctAnswer\":\"America\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"America\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (I am from + [Nước] / I am + [Quốc tịch]): Chọn dạng đúng của \\\"American\\\" trong câu:\",\"options\":[\"American\",\"Americans\",\"Americaning\",\"Americaned\"],\"correctAnswer\":\"American\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"American\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (I am from + [Nước] / I am + [Quốc tịch]): Chọn dạng đúng của \\\"England\\\" trong câu:\",\"options\":[\"England\",\"Englands\",\"Englanding\",\"Englanded\"],\"correctAnswer\":\"England\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"England\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Countries & Nationalities. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Countries & Nationalities\".",
+        "examples": "[{\"en\":\"I use \\\"Vietnam\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Vietnam\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Vietnamese\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Vietnamese\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"America\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"America\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Countries & Nationalities",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Countries & Nationalities, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Vietnam\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Vietnam\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Vietnamese\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Vietnamese\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"America\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"America\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Vietnam\\\" has a specific pronunciation: /vietnam/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Vietnam\\\" có phát âm cụ thể là /vietnam/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Vietnamese\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Vietnamese\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 26: Countries & Nationalities",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Countries & Nationalities. In daily life, communication plays a vital role. For instance, words like \"Vietnam\" and \"Vietnamese\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Countries & Nationalities. In my daily routine, I frequently use the word \"Vietnam\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Vietnamese\" with my classmates. In addition, knowing how to use \"America\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Countries & Nationalities\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Countries & Nationalities\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Countries & Nationalities\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Vietnamese\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Vietnamese\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Vietnamese\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"American\\\" (Người Mỹ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"American\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"England\\\" (Nước Anh) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"England\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Vietnamese\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Vietnamese\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Vietnamese' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Countries & Nationalities",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Countries & Nationalities.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Countries & Nationalities?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Countries & Nationalities chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Vietnam\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Vietnam\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Vietnamese\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Vietnamese\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 26: Countries & Nationalities",
+        "passage": "Mastering the theme of \"Countries & Nationalities\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Vietnam\" (Việt Nam) and \"Vietnamese\" (Người Việt Nam) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"America\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Countries & Nationalities\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Vietnam\" (Việt Nam) và \"Vietnamese\" (Người Việt Nam) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"America\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Countries & Nationalities\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Countries & Nationalities\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Countries & Nationalities\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Vietnam\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Countries & Nationalities\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Countries & Nationalities\",\"explanation\":\"Đoạn văn khẳng định: \\\"Vietnam\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6117,7 +6481,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"conversation\",\"Vietnam\",\"use\",\"daily\",\"I\"]",
+        "options": "[\"I\",\"conversation\",\"use\",\"Vietnam\",\"in\",\"daily\"]",
         "correctAnswer": "I use Vietnam in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Vietnam in daily conversation\"."
       },
@@ -6133,7 +6497,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Vietnamese\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Vietnamese",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Vietnamese\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /vietnamese/ - \"Vietnamese\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6153,13 +6517,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Vietnam\" là gì?",
-        "options": "[\"Việt Nam\",\"Người Việt Nam\",\"Nước Mỹ\",\"Người Mỹ\"]",
+        "options": "[\"Người Mỹ\",\"Việt Nam\",\"Người Việt Nam\",\"Nước Mỹ\"]",
         "correctAnswer": "Việt Nam",
-        "explanation": "\"Vietnam\" có phiên âm /.../ và mang nghĩa là \"Việt Nam\"."
+        "explanation": "\"Vietnam\" có phiên âm /vietnam/ và mang nghĩa là \"Việt Nam\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Countries & Nationalities, we need to practice _____.\"",
-        "options": "[\"Vietnamese\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Vietnamese\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Vietnamese",
         "explanation": "\"Vietnamese\" (Người Việt Nam) là từ vựng chính xác trong ngữ cảnh chủ đề Countries & Nationalities."
       },
@@ -6173,11 +6537,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"American\" là gì?",
         "options": "[\"Người Mỹ\",\"Nước Anh\",\"Người Anh, tiếng Anh\",\"Nước Nhật\"]",
         "correctAnswer": "Người Mỹ",
-        "explanation": "\"American\" có phiên âm /.../ và mang nghĩa là \"Người Mỹ\"."
+        "explanation": "\"American\" có phiên âm /american/ và mang nghĩa là \"Người Mỹ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Countries & Nationalities, we need to practice _____.\"",
-        "options": "[\"England\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"England\",\"umbrellas\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "England",
         "explanation": "\"England\" (Nước Anh) là từ vựng chính xác trong ngữ cảnh chủ đề Countries & Nationalities."
       },
@@ -6189,13 +6553,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Japan\" là gì?",
-        "options": "[\"Nước Nhật\",\"Đất nước\",\"Thế giới\",\"Sống, sinh sống\"]",
+        "options": "[\"Đất nước\",\"Thế giới\",\"Nước Nhật\",\"Sống, sinh sống\"]",
         "correctAnswer": "Nước Nhật",
-        "explanation": "\"Japan\" có phiên âm /.../ và mang nghĩa là \"Nước Nhật\"."
+        "explanation": "\"Japan\" có phiên âm /japan/ và mang nghĩa là \"Nước Nhật\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Countries & Nationalities, we need to practice _____.\"",
-        "options": "[\"Country\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Country\",\"airplanes\"]",
         "correctAnswer": "Country",
         "explanation": "\"Country\" (Đất nước) là từ vựng chính xác trong ngữ cảnh chủ đề Countries & Nationalities."
       },
@@ -6207,9 +6571,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Live\" là gì?",
-        "options": "[\"Sống, sinh sống\",\"Việt Nam\",\"Người Việt Nam\",\"Nước Mỹ\"]",
+        "options": "[\"Người Việt Nam\",\"Nước Mỹ\",\"Việt Nam\",\"Sống, sinh sống\"]",
         "correctAnswer": "Sống, sinh sống",
-        "explanation": "\"Live\" có phiên âm /.../ và mang nghĩa là \"Sống, sinh sống\"."
+        "explanation": "\"Live\" có phiên âm /live/ và mang nghĩa là \"Sống, sinh sống\"."
       }
     ]
   },
@@ -6224,7 +6588,7 @@ module.exports = [
       {
         "word": "Buy",
         "meaning": "Mua sắm",
-        "pronunciation": "/.../",
+        "pronunciation": "/buy/",
         "partOfSpeech": "noun",
         "example": "I use Buy in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Buy trong giao tiếp hàng ngày.",
@@ -6234,7 +6598,7 @@ module.exports = [
       {
         "word": "Sell",
         "meaning": "Bán hàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/sell/",
         "partOfSpeech": "noun",
         "example": "I use Sell in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sell trong giao tiếp hàng ngày.",
@@ -6244,7 +6608,7 @@ module.exports = [
       {
         "word": "Cost",
         "meaning": "Giá cả",
-        "pronunciation": "/.../",
+        "pronunciation": "/cost/",
         "partOfSpeech": "noun",
         "example": "I use Cost in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cost trong giao tiếp hàng ngày.",
@@ -6254,7 +6618,7 @@ module.exports = [
       {
         "word": "Cheap",
         "meaning": "Giá rẻ",
-        "pronunciation": "/.../",
+        "pronunciation": "/cheap/",
         "partOfSpeech": "noun",
         "example": "I use Cheap in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Cheap trong giao tiếp hàng ngày.",
@@ -6264,7 +6628,7 @@ module.exports = [
       {
         "word": "Expensive",
         "meaning": "Đắt đỏ",
-        "pronunciation": "/.../",
+        "pronunciation": "/expensive/",
         "partOfSpeech": "noun",
         "example": "I use Expensive in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Expensive trong giao tiếp hàng ngày.",
@@ -6274,7 +6638,7 @@ module.exports = [
       {
         "word": "Money",
         "meaning": "Tiền bạc",
-        "pronunciation": "/.../",
+        "pronunciation": "/money/",
         "partOfSpeech": "noun",
         "example": "I use Money in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Money trong giao tiếp hàng ngày.",
@@ -6284,7 +6648,7 @@ module.exports = [
       {
         "word": "Pay",
         "meaning": "Thanh toán",
-        "pronunciation": "/.../",
+        "pronunciation": "/pay/",
         "partOfSpeech": "noun",
         "example": "I use Pay in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pay trong giao tiếp hàng ngày.",
@@ -6294,7 +6658,7 @@ module.exports = [
       {
         "word": "Store",
         "meaning": "Cửa hàng",
-        "pronunciation": "/.../",
+        "pronunciation": "/store/",
         "partOfSpeech": "noun",
         "example": "I use Store in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Store trong giao tiếp hàng ngày.",
@@ -6304,7 +6668,7 @@ module.exports = [
       {
         "word": "Price",
         "meaning": "Mức giá",
-        "pronunciation": "/.../",
+        "pronunciation": "/price/",
         "partOfSpeech": "noun",
         "example": "I use Price in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Price trong giao tiếp hàng ngày.",
@@ -6314,7 +6678,7 @@ module.exports = [
       {
         "word": "Dollar",
         "meaning": "Đô la",
-        "pronunciation": "/.../",
+        "pronunciation": "/dollar/",
         "partOfSpeech": "noun",
         "example": "I use Dollar in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Dollar trong giao tiếp hàng ngày.",
@@ -6324,27 +6688,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Hỏi giá với How much is it?",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Basic Shopping & Asking Prices.",
+        "title": "Hỏi giá với How much is it? (Dạng khẳng định)",
         "formula": "How much is it? - It is + [Giá tiền]",
-        "examples": "{\"list\":[{\"en\":\"Example for Basic Shopping & Asking Prices.\",\"vi\":\"Ví dụ minh họa cho Basic Shopping & Asking Prices.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How much is it? - It is + [Giá tiền]): Chọn dạng đúng của \\\"Buy\\\" trong câu:\",\"options\":[\"Buy\",\"Buys\",\"Buying\",\"Buyed\"],\"correctAnswer\":\"Buy\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Buy\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How much is it? - It is + [Giá tiền]): Chọn dạng đúng của \\\"Sell\\\" trong câu:\",\"options\":[\"Sell\",\"Sells\",\"Selling\",\"Selled\"],\"correctAnswer\":\"Sell\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sell\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How much is it? - It is + [Giá tiền]): Chọn dạng đúng của \\\"Cost\\\" trong câu:\",\"options\":[\"Cost\",\"Costs\",\"Costing\",\"Costed\"],\"correctAnswer\":\"Cost\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cost\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (How much is it? - It is + [Giá tiền]): Chọn dạng đúng của \\\"Cheap\\\" trong câu:\",\"options\":[\"Cheap\",\"Cheaps\",\"Cheaping\",\"Cheaped\"],\"correctAnswer\":\"Cheap\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Cheap\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (How much is it? - It is + [Giá tiền]): Chọn dạng đúng của \\\"Expensive\\\" trong câu:\",\"options\":[\"Expensive\",\"Expensives\",\"Expensiveing\",\"Expensiveed\"],\"correctAnswer\":\"Expensive\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Expensive\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Basic Shopping & Asking Prices. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Basic Shopping & Asking Prices\".",
+        "examples": "[{\"en\":\"I use \\\"Buy\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Buy\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Sell\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Sell\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Cost\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Cost\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Basic Shopping & Asking Prices",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Basic Shopping & Asking Prices, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Buy\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Buy\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Sell\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Sell\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Cost\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Cost\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Buy\\\" has a specific pronunciation: /buy/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Buy\\\" có phát âm cụ thể là /buy/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Sell\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Sell\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 27: Basic Shopping & Asking Prices",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Basic Shopping & Asking Prices. In daily life, communication plays a vital role. For instance, words like \"Buy\" and \"Sell\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Basic Shopping & Asking Prices. In my daily routine, I frequently use the word \"Buy\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Sell\" with my classmates. In addition, knowing how to use \"Cost\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Basic Shopping & Asking Prices\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Basic Shopping & Asking Prices\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Basic Shopping & Asking Prices\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Sell\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Sell\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Sell\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Cheap\\\" (Giá rẻ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Cheap\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Expensive\\\" (Đắt đỏ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Expensive\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Sell\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Sell\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Sell' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Basic Shopping & Asking Prices",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Basic Shopping & Asking Prices.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Basic Shopping & Asking Prices?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Basic Shopping & Asking Prices chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Buy\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Buy\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Sell\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Sell\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 27: Basic Shopping & Asking Prices",
+        "passage": "Mastering the theme of \"Basic Shopping & Asking Prices\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Buy\" (Mua sắm) and \"Sell\" (Bán hàng) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Cost\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Basic Shopping & Asking Prices\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Buy\" (Mua sắm) và \"Sell\" (Bán hàng) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Cost\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Basic Shopping & Asking Prices\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Basic Shopping & Asking Prices\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Basic Shopping & Asking Prices\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Buy\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Basic Shopping & Asking Prices\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Basic Shopping & Asking Prices\",\"explanation\":\"Đoạn văn khẳng định: \\\"Buy\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6356,7 +6734,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"in\",\"use\",\"conversation\",\"daily\",\"I\",\"Buy\"]",
+        "options": "[\"I\",\"use\",\"Buy\",\"in\",\"daily\",\"conversation\"]",
         "correctAnswer": "I use Buy in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Buy in daily conversation\"."
       },
@@ -6372,7 +6750,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Sell\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Sell",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Sell\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /sell/ - \"Sell\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6394,11 +6772,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Buy\" là gì?",
         "options": "[\"Mua sắm\",\"Bán hàng\",\"Giá cả\",\"Giá rẻ\"]",
         "correctAnswer": "Mua sắm",
-        "explanation": "\"Buy\" có phiên âm /.../ và mang nghĩa là \"Mua sắm\"."
+        "explanation": "\"Buy\" có phiên âm /buy/ và mang nghĩa là \"Mua sắm\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Basic Shopping & Asking Prices, we need to practice _____.\"",
-        "options": "[\"Sell\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Sell\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Sell",
         "explanation": "\"Sell\" (Bán hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Basic Shopping & Asking Prices."
       },
@@ -6410,13 +6788,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Cheap\" là gì?",
-        "options": "[\"Giá rẻ\",\"Đắt đỏ\",\"Tiền bạc\",\"Thanh toán\"]",
+        "options": "[\"Đắt đỏ\",\"Tiền bạc\",\"Giá rẻ\",\"Thanh toán\"]",
         "correctAnswer": "Giá rẻ",
-        "explanation": "\"Cheap\" có phiên âm /.../ và mang nghĩa là \"Giá rẻ\"."
+        "explanation": "\"Cheap\" có phiên âm /cheap/ và mang nghĩa là \"Giá rẻ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Basic Shopping & Asking Prices, we need to practice _____.\"",
-        "options": "[\"Expensive\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"airplanes\",\"bananas\",\"Expensive\",\"umbrellas\"]",
         "correctAnswer": "Expensive",
         "explanation": "\"Expensive\" (Đắt đỏ) là từ vựng chính xác trong ngữ cảnh chủ đề Basic Shopping & Asking Prices."
       },
@@ -6430,11 +6808,11 @@ module.exports = [
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Pay\" là gì?",
         "options": "[\"Thanh toán\",\"Cửa hàng\",\"Mức giá\",\"Đô la\"]",
         "correctAnswer": "Thanh toán",
-        "explanation": "\"Pay\" có phiên âm /.../ và mang nghĩa là \"Thanh toán\"."
+        "explanation": "\"Pay\" có phiên âm /pay/ và mang nghĩa là \"Thanh toán\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Basic Shopping & Asking Prices, we need to practice _____.\"",
-        "options": "[\"Store\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Store\",\"airplanes\",\"bananas\"]",
         "correctAnswer": "Store",
         "explanation": "\"Store\" (Cửa hàng) là từ vựng chính xác trong ngữ cảnh chủ đề Basic Shopping & Asking Prices."
       },
@@ -6446,9 +6824,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Dollar\" là gì?",
-        "options": "[\"Đô la\",\"Mua sắm\",\"Bán hàng\",\"Giá cả\"]",
+        "options": "[\"Bán hàng\",\"Giá cả\",\"Mua sắm\",\"Đô la\"]",
         "correctAnswer": "Đô la",
-        "explanation": "\"Dollar\" có phiên âm /.../ và mang nghĩa là \"Đô la\"."
+        "explanation": "\"Dollar\" có phiên âm /dollar/ và mang nghĩa là \"Đô la\"."
       }
     ]
   },
@@ -6463,7 +6841,7 @@ module.exports = [
       {
         "word": "Sorry",
         "meaning": "Xin lỗi",
-        "pronunciation": "/.../",
+        "pronunciation": "/sorry/",
         "partOfSpeech": "noun",
         "example": "I use Sorry in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sorry trong giao tiếp hàng ngày.",
@@ -6473,7 +6851,7 @@ module.exports = [
       {
         "word": "Excuse me",
         "meaning": "Xin thứ lỗi / Cho hỏi",
-        "pronunciation": "/.../",
+        "pronunciation": "/excuse me/",
         "partOfSpeech": "noun",
         "example": "I use Excuse me in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Excuse me trong giao tiếp hàng ngày.",
@@ -6483,7 +6861,7 @@ module.exports = [
       {
         "word": "Pardon",
         "meaning": "Xin nhắc lại",
-        "pronunciation": "/.../",
+        "pronunciation": "/pardon/",
         "partOfSpeech": "noun",
         "example": "I use Pardon in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Pardon trong giao tiếp hàng ngày.",
@@ -6493,7 +6871,7 @@ module.exports = [
       {
         "word": "Help",
         "meaning": "Giúp đỡ",
-        "pronunciation": "/.../",
+        "pronunciation": "/help/",
         "partOfSpeech": "noun",
         "example": "I use Help in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Help trong giao tiếp hàng ngày.",
@@ -6503,7 +6881,7 @@ module.exports = [
       {
         "word": "Kind",
         "meaning": "Tốt bụng",
-        "pronunciation": "/.../",
+        "pronunciation": "/kind/",
         "partOfSpeech": "noun",
         "example": "I use Kind in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Kind trong giao tiếp hàng ngày.",
@@ -6513,7 +6891,7 @@ module.exports = [
       {
         "word": "Polite",
         "meaning": "Lịch sự",
-        "pronunciation": "/.../",
+        "pronunciation": "/polite/",
         "partOfSpeech": "noun",
         "example": "I use Polite in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Polite trong giao tiếp hàng ngày.",
@@ -6523,7 +6901,7 @@ module.exports = [
       {
         "word": "Sure",
         "meaning": "Chắc chắn rồi",
-        "pronunciation": "/.../",
+        "pronunciation": "/sure/",
         "partOfSpeech": "noun",
         "example": "I use Sure in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Sure trong giao tiếp hàng ngày.",
@@ -6533,7 +6911,7 @@ module.exports = [
       {
         "word": "Problem",
         "meaning": "Vấn đề",
-        "pronunciation": "/.../",
+        "pronunciation": "/problem/",
         "partOfSpeech": "noun",
         "example": "I use Problem in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Problem trong giao tiếp hàng ngày.",
@@ -6543,7 +6921,7 @@ module.exports = [
       {
         "word": "Matter",
         "meaning": "Chuyện, điều gì",
-        "pronunciation": "/.../",
+        "pronunciation": "/matter/",
         "partOfSpeech": "noun",
         "example": "I use Matter in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Matter trong giao tiếp hàng ngày.",
@@ -6553,7 +6931,7 @@ module.exports = [
       {
         "word": "Careful",
         "meaning": "Cẩn thận",
-        "pronunciation": "/.../",
+        "pronunciation": "/careful/",
         "partOfSpeech": "noun",
         "example": "I use Careful in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Careful trong giao tiếp hàng ngày.",
@@ -6563,27 +6941,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Các cụm từ xã giao lịch sự",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Giving Thanks & Polite Phrases.",
+        "title": "Các cụm từ xã giao lịch sự (Dạng khẳng định)",
         "formula": "Excuse me, could you + [Động từ]?",
-        "examples": "{\"list\":[{\"en\":\"Example for Giving Thanks & Polite Phrases.\",\"vi\":\"Ví dụ minh họa cho Giving Thanks & Polite Phrases.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Excuse me, could you + [Động từ]?): Chọn dạng đúng của \\\"Sorry\\\" trong câu:\",\"options\":[\"Sorry\",\"Sorrys\",\"Sorrying\",\"Sorryed\"],\"correctAnswer\":\"Sorry\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Sorry\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Excuse me, could you + [Động từ]?): Chọn dạng đúng của \\\"Excuse me\\\" trong câu:\",\"options\":[\"Excuse me\",\"Excuse mes\",\"Excuse meing\",\"Excuse meed\"],\"correctAnswer\":\"Excuse me\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Excuse me\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Excuse me, could you + [Động từ]?): Chọn dạng đúng của \\\"Pardon\\\" trong câu:\",\"options\":[\"Pardon\",\"Pardons\",\"Pardoning\",\"Pardoned\"],\"correctAnswer\":\"Pardon\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Pardon\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Excuse me, could you + [Động từ]?): Chọn dạng đúng của \\\"Help\\\" trong câu:\",\"options\":[\"Help\",\"Helps\",\"Helping\",\"Helped\"],\"correctAnswer\":\"Help\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Help\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Excuse me, could you + [Động từ]?): Chọn dạng đúng của \\\"Kind\\\" trong câu:\",\"options\":[\"Kind\",\"Kinds\",\"Kinding\",\"Kinded\"],\"correctAnswer\":\"Kind\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Kind\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Giving Thanks & Polite Phrases. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Giving Thanks & Polite Phrases\".",
+        "examples": "[{\"en\":\"I use \\\"Sorry\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Sorry\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Excuse me\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Excuse me\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Pardon\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Pardon\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Giving Thanks & Polite Phrases",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Giving Thanks & Polite Phrases, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Sorry\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Sorry\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Excuse me\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Excuse me\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Pardon\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Pardon\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Sorry\\\" has a specific pronunciation: /sorry/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Sorry\\\" có phát âm cụ thể là /sorry/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Excuse me\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Excuse me\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 28: Giving Thanks & Polite Phrases",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Giving Thanks & Polite Phrases. In daily life, communication plays a vital role. For instance, words like \"Sorry\" and \"Excuse me\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Giving Thanks & Polite Phrases. In my daily routine, I frequently use the word \"Sorry\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Excuse me\" with my classmates. In addition, knowing how to use \"Pardon\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Giving Thanks & Polite Phrases\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Giving Thanks & Polite Phrases\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Giving Thanks & Polite Phrases\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Excuse me\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Excuse me\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Excuse me\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Help\\\" (Giúp đỡ) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Help\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Kind\\\" (Tốt bụng) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Kind\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Excuse me\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Excuse me\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Excuse me' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Giving Thanks & Polite Phrases",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Giving Thanks & Polite Phrases.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Giving Thanks & Polite Phrases?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Giving Thanks & Polite Phrases chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Sorry\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Sorry\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Excuse me\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Excuse me\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 28: Giving Thanks & Polite Phrases",
+        "passage": "Mastering the theme of \"Giving Thanks & Polite Phrases\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Sorry\" (Xin lỗi) and \"Excuse me\" (Xin thứ lỗi / Cho hỏi) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Pardon\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Giving Thanks & Polite Phrases\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Sorry\" (Xin lỗi) và \"Excuse me\" (Xin thứ lỗi / Cho hỏi) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Pardon\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Giving Thanks & Polite Phrases\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Giving Thanks & Polite Phrases\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Giving Thanks & Polite Phrases\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Sorry\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Giving Thanks & Polite Phrases\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Giving Thanks & Polite Phrases\",\"explanation\":\"Đoạn văn khẳng định: \\\"Sorry\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6595,7 +6987,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"in\",\"daily\",\"conversation\",\"Sorry\"]",
+        "options": "[\"I\",\"Sorry\",\"daily\",\"conversation\",\"use\",\"in\"]",
         "correctAnswer": "I use Sorry in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Sorry in daily conversation\"."
       },
@@ -6611,7 +7003,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Excuse me\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Excuse me",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Excuse me\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /excuse me/ - \"Excuse me\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6631,13 +7023,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sorry\" là gì?",
-        "options": "[\"Xin lỗi\",\"Xin thứ lỗi / Cho hỏi\",\"Xin nhắc lại\",\"Giúp đỡ\"]",
+        "options": "[\"Giúp đỡ\",\"Xin lỗi\",\"Xin thứ lỗi / Cho hỏi\",\"Xin nhắc lại\"]",
         "correctAnswer": "Xin lỗi",
-        "explanation": "\"Sorry\" có phiên âm /.../ và mang nghĩa là \"Xin lỗi\"."
+        "explanation": "\"Sorry\" có phiên âm /sorry/ và mang nghĩa là \"Xin lỗi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Giving Thanks & Polite Phrases, we need to practice _____.\"",
-        "options": "[\"Excuse me\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"Excuse me\",\"bananas\",\"umbrellas\",\"airplanes\"]",
         "correctAnswer": "Excuse me",
         "explanation": "\"Excuse me\" (Xin thứ lỗi / Cho hỏi) là từ vựng chính xác trong ngữ cảnh chủ đề Giving Thanks & Polite Phrases."
       },
@@ -6649,9 +7041,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Help\" là gì?",
-        "options": "[\"Giúp đỡ\",\"Tốt bụng\",\"Lịch sự\",\"Chắc chắn rồi\"]",
+        "options": "[\"Chắc chắn rồi\",\"Lịch sự\",\"Tốt bụng\",\"Giúp đỡ\"]",
         "correctAnswer": "Giúp đỡ",
-        "explanation": "\"Help\" có phiên âm /.../ và mang nghĩa là \"Giúp đỡ\"."
+        "explanation": "\"Help\" có phiên âm /help/ và mang nghĩa là \"Giúp đỡ\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Giving Thanks & Polite Phrases, we need to practice _____.\"",
@@ -6667,9 +7059,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Sure\" là gì?",
-        "options": "[\"Chắc chắn rồi\",\"Vấn đề\",\"Chuyện, điều gì\",\"Cẩn thận\"]",
+        "options": "[\"Cẩn thận\",\"Vấn đề\",\"Chuyện, điều gì\",\"Chắc chắn rồi\"]",
         "correctAnswer": "Chắc chắn rồi",
-        "explanation": "\"Sure\" có phiên âm /.../ và mang nghĩa là \"Chắc chắn rồi\"."
+        "explanation": "\"Sure\" có phiên âm /sure/ và mang nghĩa là \"Chắc chắn rồi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Giving Thanks & Polite Phrases, we need to practice _____.\"",
@@ -6685,9 +7077,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Careful\" là gì?",
-        "options": "[\"Cẩn thận\",\"Xin lỗi\",\"Xin thứ lỗi / Cho hỏi\",\"Xin nhắc lại\"]",
+        "options": "[\"Xin lỗi\",\"Cẩn thận\",\"Xin thứ lỗi / Cho hỏi\",\"Xin nhắc lại\"]",
         "correctAnswer": "Cẩn thận",
-        "explanation": "\"Careful\" có phiên âm /.../ và mang nghĩa là \"Cẩn thận\"."
+        "explanation": "\"Careful\" có phiên âm /careful/ và mang nghĩa là \"Cẩn thận\"."
       }
     ]
   },
@@ -6702,7 +7094,7 @@ module.exports = [
       {
         "word": "What",
         "meaning": "Cái gì",
-        "pronunciation": "/.../",
+        "pronunciation": "/what/",
         "partOfSpeech": "noun",
         "example": "I use What in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ What trong giao tiếp hàng ngày.",
@@ -6712,7 +7104,7 @@ module.exports = [
       {
         "word": "Where",
         "meaning": "Ở đâu",
-        "pronunciation": "/.../",
+        "pronunciation": "/where/",
         "partOfSpeech": "noun",
         "example": "I use Where in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Where trong giao tiếp hàng ngày.",
@@ -6722,7 +7114,7 @@ module.exports = [
       {
         "word": "When",
         "meaning": "Khi nào",
-        "pronunciation": "/.../",
+        "pronunciation": "/when/",
         "partOfSpeech": "noun",
         "example": "I use When in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ When trong giao tiếp hàng ngày.",
@@ -6732,7 +7124,7 @@ module.exports = [
       {
         "word": "Who",
         "meaning": "Là ai",
-        "pronunciation": "/.../",
+        "pronunciation": "/who/",
         "partOfSpeech": "noun",
         "example": "I use Who in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Who trong giao tiếp hàng ngày.",
@@ -6742,7 +7134,7 @@ module.exports = [
       {
         "word": "Why",
         "meaning": "Tại sao",
-        "pronunciation": "/.../",
+        "pronunciation": "/why/",
         "partOfSpeech": "noun",
         "example": "I use Why in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Why trong giao tiếp hàng ngày.",
@@ -6752,7 +7144,7 @@ module.exports = [
       {
         "word": "Which",
         "meaning": "Cái nào",
-        "pronunciation": "/.../",
+        "pronunciation": "/which/",
         "partOfSpeech": "noun",
         "example": "I use Which in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Which trong giao tiếp hàng ngày.",
@@ -6762,7 +7154,7 @@ module.exports = [
       {
         "word": "Ask",
         "meaning": "Hỏi",
-        "pronunciation": "/.../",
+        "pronunciation": "/ask/",
         "partOfSpeech": "noun",
         "example": "I use Ask in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Ask trong giao tiếp hàng ngày.",
@@ -6772,7 +7164,7 @@ module.exports = [
       {
         "word": "Answer",
         "meaning": "Trả lời",
-        "pronunciation": "/.../",
+        "pronunciation": "/answer/",
         "partOfSpeech": "noun",
         "example": "I use Answer in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Answer trong giao tiếp hàng ngày.",
@@ -6782,7 +7174,7 @@ module.exports = [
       {
         "word": "Question",
         "meaning": "Câu hỏi",
-        "pronunciation": "/.../",
+        "pronunciation": "/question/",
         "partOfSpeech": "noun",
         "example": "I use Question in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Question trong giao tiếp hàng ngày.",
@@ -6792,7 +7184,7 @@ module.exports = [
       {
         "word": "Know",
         "meaning": "Biết, thấu hiểu",
-        "pronunciation": "/.../",
+        "pronunciation": "/know/",
         "partOfSpeech": "noun",
         "example": "I use Know in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Know trong giao tiếp hàng ngày.",
@@ -6802,27 +7194,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Cấu trúc câu hỏi Wh- trong Hiện tại đơn",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Asking Simple Questions.",
+        "title": "Cấu trúc câu hỏi Wh- trong Hiện tại đơn (Dạng khẳng định)",
         "formula": "Wh-word + do/does + S + V?",
-        "examples": "{\"list\":[{\"en\":\"Example for Asking Simple Questions.\",\"vi\":\"Ví dụ minh họa cho Asking Simple Questions.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Wh-word + do/does + S + V?): Chọn dạng đúng của \\\"What\\\" trong câu:\",\"options\":[\"What\",\"Whats\",\"Whating\",\"Whated\"],\"correctAnswer\":\"What\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"What\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Wh-word + do/does + S + V?): Chọn dạng đúng của \\\"Where\\\" trong câu:\",\"options\":[\"Where\",\"Wheres\",\"Whereing\",\"Whereed\"],\"correctAnswer\":\"Where\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Where\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Wh-word + do/does + S + V?): Chọn dạng đúng của \\\"When\\\" trong câu:\",\"options\":[\"When\",\"Whens\",\"Whening\",\"Whened\"],\"correctAnswer\":\"When\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"When\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (Wh-word + do/does + S + V?): Chọn dạng đúng của \\\"Who\\\" trong câu:\",\"options\":[\"Who\",\"Whos\",\"Whoing\",\"Whoed\"],\"correctAnswer\":\"Who\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Who\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (Wh-word + do/does + S + V?): Chọn dạng đúng của \\\"Why\\\" trong câu:\",\"options\":[\"Why\",\"Whys\",\"Whying\",\"Whyed\"],\"correctAnswer\":\"Why\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Why\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Asking Simple Questions. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Asking Simple Questions\".",
+        "examples": "[{\"en\":\"I use \\\"What\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"What\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Where\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Where\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"When\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"When\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Asking Simple Questions",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Asking Simple Questions, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"What\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"What\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Where\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Where\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"When\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"When\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"What\\\" has a specific pronunciation: /what/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"What\\\" có phát âm cụ thể là /what/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Where\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Where\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 29: Asking Simple Questions",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Asking Simple Questions. In daily life, communication plays a vital role. For instance, words like \"What\" and \"Where\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Asking Simple Questions. In my daily routine, I frequently use the word \"What\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Where\" with my classmates. In addition, knowing how to use \"When\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Asking Simple Questions\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Asking Simple Questions\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Asking Simple Questions\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Where\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Where\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Where\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Who\\\" (Là ai) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Who\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Why\\\" (Tại sao) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Why\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Where\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Where\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Where' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Asking Simple Questions",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Asking Simple Questions.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Asking Simple Questions?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Asking Simple Questions chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"What\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"What\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Where\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Where\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 29: Asking Simple Questions",
+        "passage": "Mastering the theme of \"Asking Simple Questions\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"What\" (Cái gì) and \"Where\" (Ở đâu) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"When\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Asking Simple Questions\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"What\" (Cái gì) và \"Where\" (Ở đâu) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"When\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Asking Simple Questions\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Asking Simple Questions\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Asking Simple Questions\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"What\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Asking Simple Questions\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Asking Simple Questions\",\"explanation\":\"Đoạn văn khẳng định: \\\"What\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -6834,7 +7240,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"conversation\",\"use\",\"What\",\"in\",\"daily\"]",
+        "options": "[\"What\",\"in\",\"daily\",\"conversation\",\"use\",\"I\"]",
         "correctAnswer": "I use What in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use What in daily conversation\"."
       },
@@ -6850,7 +7256,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Where\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Where",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Where\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /where/ - \"Where\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -6870,13 +7276,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"What\" là gì?",
-        "options": "[\"Cái gì\",\"Ở đâu\",\"Khi nào\",\"Là ai\"]",
+        "options": "[\"Ở đâu\",\"Khi nào\",\"Là ai\",\"Cái gì\"]",
         "correctAnswer": "Cái gì",
-        "explanation": "\"What\" có phiên âm /.../ và mang nghĩa là \"Cái gì\"."
+        "explanation": "\"What\" có phiên âm /what/ và mang nghĩa là \"Cái gì\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Asking Simple Questions, we need to practice _____.\"",
-        "options": "[\"Where\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Where\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Where",
         "explanation": "\"Where\" (Ở đâu) là từ vựng chính xác trong ngữ cảnh chủ đề Asking Simple Questions."
       },
@@ -6888,9 +7294,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Who\" là gì?",
-        "options": "[\"Là ai\",\"Tại sao\",\"Cái nào\",\"Hỏi\"]",
+        "options": "[\"Là ai\",\"Tại sao\",\"Hỏi\",\"Cái nào\"]",
         "correctAnswer": "Là ai",
-        "explanation": "\"Who\" có phiên âm /.../ và mang nghĩa là \"Là ai\"."
+        "explanation": "\"Who\" có phiên âm /who/ và mang nghĩa là \"Là ai\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Asking Simple Questions, we need to practice _____.\"",
@@ -6906,13 +7312,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Ask\" là gì?",
-        "options": "[\"Hỏi\",\"Trả lời\",\"Câu hỏi\",\"Biết, thấu hiểu\"]",
+        "options": "[\"Biết, thấu hiểu\",\"Câu hỏi\",\"Trả lời\",\"Hỏi\"]",
         "correctAnswer": "Hỏi",
-        "explanation": "\"Ask\" có phiên âm /.../ và mang nghĩa là \"Hỏi\"."
+        "explanation": "\"Ask\" có phiên âm /ask/ và mang nghĩa là \"Hỏi\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Asking Simple Questions, we need to practice _____.\"",
-        "options": "[\"Answer\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"Answer\",\"bananas\",\"airplanes\"]",
         "correctAnswer": "Answer",
         "explanation": "\"Answer\" (Trả lời) là từ vựng chính xác trong ngữ cảnh chủ đề Asking Simple Questions."
       },
@@ -6924,9 +7330,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Know\" là gì?",
-        "options": "[\"Biết, thấu hiểu\",\"Cái gì\",\"Ở đâu\",\"Khi nào\"]",
+        "options": "[\"Khi nào\",\"Cái gì\",\"Ở đâu\",\"Biết, thấu hiểu\"]",
         "correctAnswer": "Biết, thấu hiểu",
-        "explanation": "\"Know\" có phiên âm /.../ và mang nghĩa là \"Biết, thấu hiểu\"."
+        "explanation": "\"Know\" có phiên âm /know/ và mang nghĩa là \"Biết, thấu hiểu\"."
       }
     ]
   },
@@ -6941,7 +7347,7 @@ module.exports = [
       {
         "word": "Practice",
         "meaning": "Luyện tập",
-        "pronunciation": "/.../",
+        "pronunciation": "/practice/",
         "partOfSpeech": "noun",
         "example": "I use Practice in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Practice trong giao tiếp hàng ngày.",
@@ -6951,7 +7357,7 @@ module.exports = [
       {
         "word": "Improve",
         "meaning": "Cải thiện",
-        "pronunciation": "/.../",
+        "pronunciation": "/improve/",
         "partOfSpeech": "noun",
         "example": "I use Improve in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Improve trong giao tiếp hàng ngày.",
@@ -6961,7 +7367,7 @@ module.exports = [
       {
         "word": "Progress",
         "meaning": "Tiến bộ",
-        "pronunciation": "/.../",
+        "pronunciation": "/progress/",
         "partOfSpeech": "noun",
         "example": "I use Progress in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Progress trong giao tiếp hàng ngày.",
@@ -6971,7 +7377,7 @@ module.exports = [
       {
         "word": "Beginner",
         "meaning": "Người mới bắt đầu",
-        "pronunciation": "/.../",
+        "pronunciation": "/beginner/",
         "partOfSpeech": "noun",
         "example": "I use Beginner in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Beginner trong giao tiếp hàng ngày.",
@@ -6981,7 +7387,7 @@ module.exports = [
       {
         "word": "Confident",
         "meaning": "Tự tin",
-        "pronunciation": "/.../",
+        "pronunciation": "/confident/",
         "partOfSpeech": "noun",
         "example": "I use Confident in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Confident trong giao tiếp hàng ngày.",
@@ -6991,7 +7397,7 @@ module.exports = [
       {
         "word": "Fluent",
         "meaning": "Lưu loát",
-        "pronunciation": "/.../",
+        "pronunciation": "/fluent/",
         "partOfSpeech": "noun",
         "example": "I use Fluent in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Fluent trong giao tiếp hàng ngày.",
@@ -7001,7 +7407,7 @@ module.exports = [
       {
         "word": "Review",
         "meaning": "Ôn tập",
-        "pronunciation": "/.../",
+        "pronunciation": "/review/",
         "partOfSpeech": "noun",
         "example": "I use Review in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Review trong giao tiếp hàng ngày.",
@@ -7011,7 +7417,7 @@ module.exports = [
       {
         "word": "Success",
         "meaning": "Thành công",
-        "pronunciation": "/.../",
+        "pronunciation": "/success/",
         "partOfSpeech": "noun",
         "example": "I use Success in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Success trong giao tiếp hàng ngày.",
@@ -7021,7 +7427,7 @@ module.exports = [
       {
         "word": "Goal",
         "meaning": "Mục tiêu",
-        "pronunciation": "/.../",
+        "pronunciation": "/goal/",
         "partOfSpeech": "noun",
         "example": "I use Goal in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Goal trong giao tiếp hàng ngày.",
@@ -7031,7 +7437,7 @@ module.exports = [
       {
         "word": "Future",
         "meaning": "Tương lai",
-        "pronunciation": "/.../",
+        "pronunciation": "/future/",
         "partOfSpeech": "noun",
         "example": "I use Future in daily conversation.",
         "exampleMeaning": "Tôi sử dụng từ Future trong giao tiếp hàng ngày.",
@@ -7041,27 +7447,41 @@ module.exports = [
     ],
     "grammarPoints": [
       {
-        "title": "Ôn tập toàn diện trình độ A1",
-        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Review & Beginner Milestone.",
+        "title": "Ôn tập toàn diện trình độ A1 (Dạng khẳng định)",
         "formula": "All A1 structures reviewed",
-        "examples": "{\"list\":[{\"en\":\"Example for Review & Beginner Milestone.\",\"vi\":\"Ví dụ minh họa cho Review & Beginner Milestone.\"},{\"en\":\"I study English every day.\",\"vi\":\"Tôi học tiếng Anh mỗi ngày.\"}],\"questions\":[{\"id\":1,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (All A1 structures reviewed): Chọn dạng đúng của \\\"Practice\\\" trong câu:\",\"options\":[\"Practice\",\"Practices\",\"Practiceing\",\"Practiceed\"],\"correctAnswer\":\"Practice\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Practice\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":2,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (All A1 structures reviewed): Chọn dạng đúng của \\\"Improve\\\" trong câu:\",\"options\":[\"Improve\",\"Improves\",\"Improveing\",\"Improveed\"],\"correctAnswer\":\"Improve\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Improve\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":3,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (All A1 structures reviewed): Chọn dạng đúng của \\\"Progress\\\" trong câu:\",\"options\":[\"Progress\",\"Progresss\",\"Progressing\",\"Progressed\"],\"correctAnswer\":\"Progress\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Progress\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":4,\"type\":\"MULTIPLE_CHOICE\",\"question\":\"Áp dụng công thức (All A1 structures reviewed): Chọn dạng đúng của \\\"Beginner\\\" trong câu:\",\"options\":[\"Beginner\",\"Beginners\",\"Beginnering\",\"Beginnered\"],\"correctAnswer\":\"Beginner\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Beginner\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"},{\"id\":5,\"type\":\"FILL_BLANK\",\"question\":\"Áp dụng công thức (All A1 structures reviewed): Chọn dạng đúng của \\\"Confident\\\" trong câu:\",\"options\":[\"Confident\",\"Confidents\",\"Confidenting\",\"Confidented\"],\"correctAnswer\":\"Confident\",\"explanation\":\"Theo quy tắc ngữ pháp của bài học, dạng nguyên mẫu \\\"Confident\\\" là lựa chọn phù hợp nhất trong cấu trúc này.\"}]}"
+        "explanation": "Hướng dẫn cấu trúc trọng tâm trong bài: Review & Beginner Milestone. Dạng khẳng định dùng để diễn đạt sự thật, thói quen hoặc thông tin cơ bản liên quan đến \"Review & Beginner Milestone\".",
+        "examples": "[{\"en\":\"I use \\\"Practice\\\" regularly when communicating with others.\",\"vi\":\"Tôi sử dụng từ \\\"Practice\\\" thường xuyên khi giao tiếp với mọi người.\"},{\"en\":\"She practices \\\"Improve\\\" every morning to improve her skills.\",\"vi\":\"Cô ấy luyện tập \\\"Improve\\\" mỗi sáng để nâng cao kỹ năng của mình.\"},{\"en\":\"We understand the importance of \\\"Progress\\\" in real-life contexts.\",\"vi\":\"Chúng tôi thấu hiểu tầm quan trọng của \\\"Progress\\\" trong các ngữ cảnh đời thực.\"}]"
+      },
+      {
+        "title": "Thể phủ định và nghi vấn (Câu hỏi & Từ chối) - Review & Beginner Milestone",
+        "formula": "S + do/does not + V... | Do/Does + S + V...?",
+        "explanation": "Khi muốn phủ định hoặc đặt câu hỏi về chủ đề Review & Beginner Milestone, hãy sử dụng trợ động từ phù hợp với chủ ngữ. Động từ chính luôn quay về dạng nguyên mẫu.",
+        "examples": "[{\"en\":\"I do not forget to practice \\\"Practice\\\" every single day.\",\"vi\":\"Tôi không quên luyện tập \\\"Practice\\\" mỗi ngày.\"},{\"en\":\"Does he know how to apply \\\"Improve\\\" correctly?\",\"vi\":\"Cậu ấy có biết cách áp dụng \\\"Improve\\\" một cách chính xác không?\"},{\"en\":\"They do not have any difficulty with \\\"Progress\\\".\",\"vi\":\"Họ không gặp bất kỳ khó khăn nào với \\\"Progress\\\".\"}]"
+      },
+      {
+        "title": "Lưu ý sử dụng & Phân biệt các cấu trúc dễ nhầm lẫn",
+        "formula": "Phân biệt cách dùng thực tế trong giao tiếp",
+        "explanation": "Học viên thường hay nhầm lẫn giữa việc dịch từng từ (word-by-word) từ tiếng Việt sang tiếng Anh. Hãy chú ý chia động từ theo ngôi số ít (he/she/it) và sử dụng đúng giới từ đi kèm.",
+        "examples": "[{\"en\":\"He always remembers: \\\"Practice\\\" has a specific pronunciation: /practice/.\",\"vi\":\"Anh ấy luôn ghi nhớ: \\\"Practice\\\" có phát âm cụ thể là /practice/.\"},{\"en\":\"Avoid saying wrong words; choose \\\"Improve\\\" for natural expression.\",\"vi\":\"Tránh dùng từ sai; hãy chọn \\\"Improve\\\" để diễn đạt tự nhiên nhất.\"}]"
       }
     ],
     "listenings": [
       {
         "title": "Luyện nghe bài 30: Review & Beginner Milestone",
-        "transcript": "Hello and welcome to today's English session. Today we are exploring the theme of Review & Beginner Milestone. In daily life, communication plays a vital role. For instance, words like \"Practice\" and \"Improve\" frequently appear. Remember to listen carefully, practice regularly, and build confidence step by step. Have a wonderful study session!",
+        "transcript": "Hello everyone! My name is Anna. I am 21 years old and I currently live in London. I am a university student studying languages. Today, I am very excited to share my experience with Review & Beginner Milestone. In my daily routine, I frequently use the word \"Practice\" when talking with friends. Yesterday afternoon, I spent one hour practicing \"Improve\" with my classmates. In addition, knowing how to use \"Progress\" correctly helps me communicate much more naturally. I believe that practicing for fifteen minutes every day is the best secret to becoming confident. Thank you very much for listening!",
         "audioUrl": null,
-        "questions": "[{\"question\":\"Chủ đề chính được người nói đề cập trong bài nghe là gì?\",\"options\":[\"Review & Beginner Milestone\",\"Thời tiết ở Tokyo\",\"Nấu ăn gia đình\",\"Lịch sử cổ đại\"],\"correctAnswer\":\"Review & Beginner Milestone\",\"explanation\":\"Đoạn audio mở đầu giới thiệu rõ ràng về chủ đề: \\\"Review & Beginner Milestone\\\".\"},{\"question\":\"Người nói đã nhắc đến từ vựng nào sau đây trong bài nghe?\",\"options\":[\"Improve\",\"Pencil\",\"Banana\",\"Motorcycle\"],\"correctAnswer\":\"Improve\",\"explanation\":\"Người nói đã nhấn mạnh tầm quan trọng của từ \\\"Improve\\\".\"},{\"question\":\"Lời khuyên của người nói dành cho người học tiếng Anh là gì?\",\"options\":[\"Luyện tập kiên trì và tự tin từng bước\",\"Không cần luyện nói hàng ngày\",\"Chỉ học ngữ pháp, không cần nghe\",\"Bỏ cuộc khi gặp bài khó\"],\"correctAnswer\":\"Luyện tập kiên trì và tự tin từng bước\",\"explanation\":\"Người nói khuyên: \\\"practice regularly, and build confidence step by step\\\".\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Beginner\\\" (Người mới bắt đầu) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Beginner\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"},{\"question\":\"Theo nội dung bài nghe, việc nắm bắt từ \\\"Confident\\\" (Tự tin) giúp ích gì?\",\"options\":[\"Tăng cường sự tự tin khi giao tiếp\",\"Làm bài thi bị trừ điểm\",\"Không có tác dụng thực tế\",\"Gây khó hiểu cho người đối diện\"],\"correctAnswer\":\"Tăng cường sự tự tin khi giao tiếp\",\"explanation\":\"Từ \\\"Confident\\\" là từ khóa quan trọng giúp nâng cao phản xạ tự nhiên.\"}]"
+        "questions": "[{\"question\":\"Người nói trong đoạn audio giới thiệu tên của mình là gì?\",\"options\":[\"Anna\",\"David\",\"Taylor\",\"Jessica\"],\"correctAnswer\":\"Anna\",\"explanation\":\"Đoạn audio mở đầu với lời giới thiệu: \\\"My name is Anna.\\\"\"},{\"question\":\"Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?\",\"options\":[\"21 tuổi, sống tại London\",\"18 tuổi, sống tại New York\",\"25 tuổi, sống tại Tokyo\",\"30 tuổi, sống tại Paris\"],\"correctAnswer\":\"21 tuổi, sống tại London\",\"explanation\":\"Trong bài nghe, người nói chia sẻ: \\\"I am 21 years old and I currently live in London.\\\"\"},{\"question\":\"Nghề nghiệp / vai trò hiện tại của người nói là gì?\",\"options\":[\"Sinh viên đại học (university student)\",\"Kỹ sư phần mềm\",\"Bác sĩ bệnh viện\",\"Hướng dẫn viên du lịch\"],\"correctAnswer\":\"Sinh viên đại học (university student)\",\"explanation\":\"Người nói nêu rõ: \\\"I am a university student studying languages.\\\"\"},{\"question\":\"Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?\",\"options\":[\"Improve\",\"Motorcycle\",\"Helicopter\",\"Refrigerator\"],\"correctAnswer\":\"Improve\",\"explanation\":\"Bài nghe có câu: \\\"Yesterday afternoon, I spent one hour practicing 'Improve' with my classmates.\\\"\"},{\"question\":\"Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?\",\"options\":[\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"Chỉ học ngữ pháp, không bao giờ nói\",\"Không cần luyện tập nghe nói\",\"Bỏ cuộc ngay khi gặp từ vựng khó\"],\"correctAnswer\":\"Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)\",\"explanation\":\"Người nói khuyên: \\\"practicing for fifteen minutes every day is the best secret to becoming confident.\\\"\"}]"
       }
     ],
-    "conversations": [
+    "readings": [
       {
-        "title": "Hội thoại: Review & Beginner Milestone",
-        "context": "Tình huống đàm thoại thực tế theo vai về chủ đề Review & Beginner Milestone.",
-        "dialogue": "[{\"speaker\":\"Alex\",\"text\":\"Hi there! Are you ready for our lesson on Review & Beginner Milestone?\",\"meaning\":\"Chào bạn! Bạn đã sẵn sàng cho bài học về Review & Beginner Milestone chưa?\"},{\"speaker\":\"Taylor\",\"text\":\"Yes, absolutely! I want to master words like \\\"Practice\\\".\",\"meaning\":\"Chắc chắn rồi! Mình rất muốn nắm vững những từ như \\\"Practice\\\".\"},{\"speaker\":\"Alex\",\"text\":\"That's great. How do you usually use \\\"Improve\\\" in real life?\",\"meaning\":\"Tuyệt quá. Bạn thường dùng từ \\\"Improve\\\" thế nào trong đời sống?\"},{\"speaker\":\"Taylor\",\"text\":\"I try to make complete sentences and practice with friends daily.\",\"meaning\":\"Mình cố gắng đặt câu hoàn chỉnh và luyện tập cùng bạn bè mỗi ngày.\"},{\"speaker\":\"Alex\",\"text\":\"Excellent strategy! Consistency always brings remarkable results.\",\"meaning\":\"Chiến lược tuyệt vời! Sự kiên trì luôn mang lại kết quả đáng kinh ngạc.\"}]"
+        "title": "Đọc hiểu bài 30: Review & Beginner Milestone",
+        "passage": "Mastering the theme of \"Review & Beginner Milestone\" is a valuable step for every English learner at level A1.\n\nWhen exploring this topic, everyday words such as \"Practice\" (Luyện tập) and \"Improve\" (Cải thiện) serve as the foundational building blocks. Language experts recommend that beginners should not merely memorize isolated definitions. Instead, connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\n\nFor example, when you understand how \"Progress\" functions within a complete sentence, you gain the confidence to express your thoughts clearly. Studies show that students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast as passive learners. Consistency, curiosity, and patience are the three essential keys to language mastery.",
+        "translation": "Làm chủ chủ đề \"Review & Beginner Milestone\" là một bước tiến giá trị cho mọi người học tiếng Anh ở trình độ A1.\n\nKhi khám phá chủ đề này, những từ vựng quen thuộc như \"Practice\" (Luyện tập) và \"Improve\" (Cải thiện) đóng vai trò là những viên gạch nền tảng. Các chuyên gia ngôn ngữ khuyên rằng người mới bắt đầu không nên chỉ học vẹt các định nghĩa rời rạc. Thay vào đó, việc liên kết từ mới với các tình huống đời thực sẽ tạo ra những đường dẫn ghi nhớ lâu dài trong não bộ.\n\nVí dụ, khi bạn hiểu cách từ \"Progress\" hoạt động trong một câu hoàn chỉnh, bạn sẽ có được sự tự tin để diễn đạt suy nghĩ một cách rõ ràng. Các nghiên cứu chỉ ra rằng những học viên dành hai mươi phút mỗi ngày để đọc và nhắc lại to các câu mẫu sẽ tiến bộ nhanh gấp đôi so với người học thụ động. Sự kiên trì, lòng tò mò và tính kiên nhẫn chính là ba chìa khóa thiết yếu để làm chủ ngôn ngữ.",
+        "questions": "[{\"question\":\"Ý chính của đoạn văn trên là gì?\",\"options\":[\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Review & Beginner Milestone\",\"Lịch sử ngành hàng không thế giới\",\"Quy trình chế biến các món ăn truyền thống\",\"Dự báo thời tiết các mùa trong năm\"],\"correctAnswer\":\"Tầm quan trọng và phương pháp học hiệu quả chủ đề Review & Beginner Milestone\",\"explanation\":\"Đoạn văn mở đầu và xuyên suốt tập trung vào giá trị cũng như cách học hiệu quả chủ đề \\\"Review & Beginner Milestone\\\".\"},{\"question\":\"Các chuyên gia ngôn ngữ khuyên người mới bắt đầu nên làm gì thay vì chỉ ghi nhớ từ rời rạc?\",\"options\":[\"Liên kết từ mới với tình huống thực tế đời sống\",\"Học thuộc lòng từ điển từ A đến Z\",\"Tránh đọc và tránh luyện phát âm\",\"Chỉ học ngữ pháp mà không cần biết nghĩa từ\"],\"correctAnswer\":\"Liên kết từ mới với tình huống thực tế đời sống\",\"explanation\":\"Đoạn văn nêu: \\\"connecting new vocabulary to real-life situations creates lasting memory pathways in the brain.\\\"\"},{\"question\":\"Theo bài đọc, học viên dành bao nhiêu thời gian mỗi ngày đọc to sẽ tiến bộ nhanh gấp đôi?\",\"options\":[\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"Mười tiếng liên tục vào cuối tuần\",\"Một phút mỗi tháng\",\"Không cần dành thời gian mỗi ngày\"],\"correctAnswer\":\"Hai mươi phút mỗi ngày (twenty minutes daily)\",\"explanation\":\"Bài viết chỉ ra: \\\"students who spend twenty minutes daily reading and repeating sentences aloud progress twice as fast.\\\"\"},{\"question\":\"Trong đoạn văn, từ \\\"Practice\\\" được xem là gì?\",\"options\":[\"Viên gạch nền tảng trong giao tiếp chủ đề Review & Beginner Milestone\",\"Từ vựng không cần học\",\"Một thuật ngữ khoa học khó hiểu\",\"Từ cổ không còn dùng trong tiếng Anh hiện đại\"],\"correctAnswer\":\"Viên gạch nền tảng trong giao tiếp chủ đề Review & Beginner Milestone\",\"explanation\":\"Đoạn văn khẳng định: \\\"Practice\\\" serves as the foundational building block.\"},{\"question\":\"Ba chìa khóa thiết yếu để làm chủ ngôn ngữ được nêu ở cuối bài đọc là gì?\",\"options\":[\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"Tiền bạc, may mắn và danh vọng\",\"Tốc độ, phán đoán và sự vội vàng\",\"Chỉ dựa vào máy dịch tự động\"],\"correctAnswer\":\"Sự kiên trì, lòng tò mò và tính kiên nhẫn (Consistency, curiosity, patience)\",\"explanation\":\"Đoạn văn kết luận: \\\"Consistency, curiosity, and patience are the three essential keys to language mastery.\\\"\"}]"
       }
     ],
+    "conversations": [],
     "exercises": [
       {
         "type": "MATCHING",
@@ -7073,7 +7493,7 @@ module.exports = [
       {
         "type": "WORD_ORDER",
         "question": "Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:",
-        "options": "[\"I\",\"use\",\"conversation\",\"Practice\",\"in\",\"daily\"]",
+        "options": "[\"I\",\"use\",\"daily\",\"conversation\",\"Practice\",\"in\"]",
         "correctAnswer": "I use Practice in daily conversation",
         "explanation": "Trật tự câu chuẩn ngữ pháp tiếng Anh: \"I use Practice in daily conversation\"."
       },
@@ -7089,7 +7509,7 @@ module.exports = [
         "question": "Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:",
         "options": "[\"Improve\",\"Computer\",\"Umbrella\",\"Telephone\"]",
         "correctAnswer": "Improve",
-        "explanation": "Phát âm chuẩn IPA của từ là /.../ - \"Improve\"."
+        "explanation": "Phát âm chuẩn IPA của từ là /improve/ - \"Improve\"."
       },
       {
         "type": "ERROR_CORRECTION",
@@ -7109,13 +7529,13 @@ module.exports = [
     "quizzes": [
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Practice\" là gì?",
-        "options": "[\"Luyện tập\",\"Cải thiện\",\"Tiến bộ\",\"Người mới bắt đầu\"]",
+        "options": "[\"Cải thiện\",\"Tiến bộ\",\"Người mới bắt đầu\",\"Luyện tập\"]",
         "correctAnswer": "Luyện tập",
-        "explanation": "\"Practice\" có phiên âm /.../ và mang nghĩa là \"Luyện tập\"."
+        "explanation": "\"Practice\" có phiên âm /practice/ và mang nghĩa là \"Luyện tập\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Beginner Milestone, we need to practice _____.\"",
-        "options": "[\"Improve\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"umbrellas\",\"Improve\",\"airplanes\"]",
         "correctAnswer": "Improve",
         "explanation": "\"Improve\" (Cải thiện) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Beginner Milestone."
       },
@@ -7127,13 +7547,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Beginner\" là gì?",
-        "options": "[\"Người mới bắt đầu\",\"Tự tin\",\"Lưu loát\",\"Ôn tập\"]",
+        "options": "[\"Ôn tập\",\"Tự tin\",\"Người mới bắt đầu\",\"Lưu loát\"]",
         "correctAnswer": "Người mới bắt đầu",
-        "explanation": "\"Beginner\" có phiên âm /.../ và mang nghĩa là \"Người mới bắt đầu\"."
+        "explanation": "\"Beginner\" có phiên âm /beginner/ và mang nghĩa là \"Người mới bắt đầu\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Beginner Milestone, we need to practice _____.\"",
-        "options": "[\"Confident\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"bananas\",\"Confident\",\"airplanes\",\"umbrellas\"]",
         "correctAnswer": "Confident",
         "explanation": "\"Confident\" (Tự tin) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Beginner Milestone."
       },
@@ -7145,13 +7565,13 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Review\" là gì?",
-        "options": "[\"Ôn tập\",\"Thành công\",\"Mục tiêu\",\"Tương lai\"]",
+        "options": "[\"Ôn tập\",\"Tương lai\",\"Mục tiêu\",\"Thành công\"]",
         "correctAnswer": "Ôn tập",
-        "explanation": "\"Review\" có phiên âm /.../ và mang nghĩa là \"Ôn tập\"."
+        "explanation": "\"Review\" có phiên âm /review/ và mang nghĩa là \"Ôn tập\"."
       },
       {
         "question": "Hoàn thiện câu: \"In our study session on Review & Beginner Milestone, we need to practice _____.\"",
-        "options": "[\"Success\",\"bananas\",\"airplanes\",\"umbrellas\"]",
+        "options": "[\"umbrellas\",\"airplanes\",\"bananas\",\"Success\"]",
         "correctAnswer": "Success",
         "explanation": "\"Success\" (Thành công) là từ vựng chính xác trong ngữ cảnh chủ đề Review & Beginner Milestone."
       },
@@ -7163,9 +7583,9 @@ module.exports = [
       },
       {
         "question": "Nghĩa tiếng Việt chuẩn xác của từ \"Future\" là gì?",
-        "options": "[\"Tương lai\",\"Luyện tập\",\"Cải thiện\",\"Tiến bộ\"]",
+        "options": "[\"Cải thiện\",\"Tiến bộ\",\"Luyện tập\",\"Tương lai\"]",
         "correctAnswer": "Tương lai",
-        "explanation": "\"Future\" có phiên âm /.../ và mang nghĩa là \"Tương lai\"."
+        "explanation": "\"Future\" có phiên âm /future/ và mang nghĩa là \"Tương lai\"."
       }
     ]
   }
