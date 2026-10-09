@@ -14,6 +14,7 @@ async function getDashboard(req, res) {
         level: true,
         goal: true,
         xp: true,
+        practiceScore: true,
         streakDays: true,
       },
     });
@@ -105,6 +106,7 @@ async function getDashboard(req, res) {
       stats: {
         streakDays: user.streakDays,
         xp: user.xp,
+        practiceScore: user.practiceScore || 0,
         wordsLearned: userWordsCount,
         lessonsCompleted: completedLessonsCount,
         totalLessons: allLessons.length,

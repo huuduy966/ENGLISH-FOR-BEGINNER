@@ -8,6 +8,7 @@ const vocabRoutes = require('./routes/vocabRoutes');
 const testRoutes = require('./routes/testRoutes');
 const dashboardRoutes = require('./routes/dashboardRoutes');
 const adminRoutes = require('./routes/adminRoutes');
+const dailyPracticeRoutes = require('./routes/dailyPracticeRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -35,6 +36,7 @@ app.use('/api/vocabulary', vocabRoutes);
 app.use('/api', testRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/daily-practice', dailyPracticeRoutes);
 
 // 404 handler
 app.use((req, res) => {

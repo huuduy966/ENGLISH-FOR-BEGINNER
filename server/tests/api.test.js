@@ -200,8 +200,66 @@ async function runTests() {
       dashRes.status === 200 &&
       dashData.user &&
       dashData.stats &&
+      dashData.stats.practiceScore !== undefined &&
       dashData.todaysPackage,
-      'GET /api/dashboard returns Today\'s Learning package and user stats'
+      'GET /api/dashboard returns Today\'s Learning package and practiceScore in stats'
+    );
+
+    // 11b. GET /api/daily-practice/today
+    const dailyRes = await fetch(`${BASE_URL}/daily-practice/today`, {
+      headers: { Authorization: `Bearer ${studentToken}` },
+    });
+    const dailyData = await dailyRes.json();
+    assert(
+      dailyRes.status === 200 &&
+      dailyData.session.totalQuestions === 60 &&
+      dailyData.session.parts.length === 5,
+      'GET /api/daily-practice/today returns 60 questions across 5 parts'
+    );
+
+    // 11c. POST /api/daily-practice/answer (Correct answer gives +4)
+    const firstQ = dailyData.session.parts[0].questions[0];
+    const answerCorrectRes = await fetch(`${BASE_URL}/daily-practice/answer`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${studentToken}`,
+      },
+      body: JSON.stringify({
+        partNumber: 1,
+        questionIndex: 0,
+        selectedOption: firstQ.correctAnswer,
+      }),
+    });
+    const answerCorrectData = await answerCorrectRes.json();
+    assert(
+      answerCorrectRes.status === 200 &&
+      answerCorrectData.isCorrect === true &&
+      answerCorrectData.pointsDelta === 4,
+      'POST /api/daily-practice/answer awards +4 points on correct answer'
+    );
+
+    // 11d. POST /api/daily-practice/answer (Wrong answer deducts -2)
+    const secondQ = dailyData.session.parts[0].questions[1];
+    const wrongOption = secondQ.options.find(o => o !== secondQ.correctAnswer) || 'Wrong';
+    const answerWrongRes = await fetch(`${BASE_URL}/daily-practice/answer`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${studentToken}`,
+      },
+      body: JSON.stringify({
+        partNumber: 1,
+        questionIndex: 1,
+        selectedOption: wrongOption,
+      }),
+    });
+    const answerWrongData = await answerWrongRes.json();
+    assert(
+      answerWrongRes.status === 200 &&
+      answerWrongData.isCorrect === false &&
+      answerWrongData.pointsDelta === -2,
+      'POST /api/daily-practice/answer deducts -2 points on wrong answer'
     );
 
     // 12. Security: Student forbidden from admin endpoints
