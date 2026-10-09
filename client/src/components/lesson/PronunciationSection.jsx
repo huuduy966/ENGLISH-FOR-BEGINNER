@@ -86,6 +86,43 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
     }
   };
 
+  // Helper to calculate speech match score between target and spoken text
+  const evaluatePronunciation = (targetWord, spokenText) => {
+    if (!spokenText || !spokenText.trim()) return 0;
+    const cleanTarget = targetWord.toLowerCase().trim().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
+    const cleanSpoken = spokenText.toLowerCase().trim().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
+    if (!cleanSpoken) return 0;
+
+    // Exact match
+    if (cleanSpoken === cleanTarget) return 100;
+
+    const targetWords = cleanTarget.split(/\s+/).filter(Boolean);
+    const spokenWords = cleanSpoken.split(/\s+/).filter(Boolean);
+
+    // Multi-word phrase check
+    if (targetWords.length > 1) {
+      if (cleanSpoken.includes(cleanTarget)) return 95;
+      const matchedCount = targetWords.filter((w) => spokenWords.includes(w)).length;
+      return Math.round((matchedCount / targetWords.length) * 100);
+    }
+
+    // Single target word: check if user said that word
+    if (spokenWords.includes(cleanTarget)) return 95;
+
+    // Character similarity check for slight mispronunciations
+    if (cleanSpoken.length >= 2 && cleanTarget.length >= 2) {
+      let matchChars = 0;
+      const minLen = Math.min(cleanTarget.length, cleanSpoken.length);
+      for (let i = 0; i < minLen; i++) {
+        if (cleanTarget[i] === cleanSpoken[i]) matchChars++;
+      }
+      const similarity = Math.round((matchChars / Math.max(cleanTarget.length, cleanSpoken.length)) * 100);
+      return similarity >= 60 ? similarity : 25;
+    }
+
+    return 20;
+  };
+
   // Start speech recording
   const handleStartRecording = () => {
     clearAutoAdvanceTimer();
@@ -98,30 +135,28 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
     const recognizer = createSpeechRecognizer({
       onResult: (transcript) => {
         setIsRecording(false);
-        setSpeechTranscript(transcript);
+        const trimmed = (transcript || '').trim();
+        setSpeechTranscript(trimmed);
 
-        const target = currentWord.word.toLowerCase().trim();
-        const spoken = transcript.toLowerCase().trim();
-
-        // Calculate score
-        let score = 50;
-        if (spoken === target || spoken.includes(target) || target.includes(spoken)) {
-          score = 95;
-        } else {
-          let matchChars = 0;
-          for (let i = 0; i < Math.min(target.length, spoken.length); i++) {
-            if (target[i] === spoken[i]) matchChars++;
-          }
-          score = Math.max(Math.round((matchChars / Math.max(target.length, spoken.length)) * 100), 40);
+        // Guard: empty transcript means silence or no speech
+        if (!trimmed) {
+          setSpeechScore(0);
+          setSpeechFeedback({
+            isPass: false,
+            title: '⚠️ Chưa nhận diện được giọng nói',
+            message: 'Hệ thống chưa nghe thấy giọng của bạn. Vui lòng bấm micro và phát âm to, rõ ràng hơn.',
+          });
+          return;
         }
 
+        const score = evaluatePronunciation(currentWord.word, trimmed);
         setSpeechScore(score);
 
-        const nextCompleted = new Set(completedWordIds);
-        nextCompleted.add(currentWord.id);
-        setCompletedWordIds(nextCompleted);
-
         if (score >= 70) {
+          const nextCompleted = new Set(completedWordIds);
+          nextCompleted.add(currentWord.id);
+          setCompletedWordIds(nextCompleted);
+
           setSpeechFeedback({
             isPass: true,
             title: score >= 85 ? '🎉 Xuất sắc! Phát âm rất chuẩn' : '👍 Rất tốt! Đạt yêu cầu',
@@ -143,17 +178,31 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
           setSpeechFeedback({
             isPass: false,
             title: '💪 Cần thử lại!',
-            message: `Bạn vừa nói: "${transcript}". Hãy nghe mẫu và thu âm lại để phát âm rõ hơn nhé.`,
+            message: `Hệ thống nghe được: "${trimmed}" (${score}%). Hãy nghe mẫu và thử phát âm lại nhé.`,
           });
         }
       },
       onError: (err) => {
         setIsRecording(false);
-        setMicError(
-          typeof err === 'string'
-            ? err
-            : 'Không thể truy cập Microphone. Hãy kiểm tra quyền truy cập micro trên trình duyệt của bạn.'
-        );
+        const errType = typeof err === 'string' ? err : err?.error;
+        if (errType === 'no-speech') {
+          setSpeechScore(0);
+          setSpeechFeedback({
+            isPass: false,
+            title: '⚠️ Không nghe thấy âm thanh',
+            message: 'Microphone chưa thu được giọng nói. Vui lòng phát âm to và rõ hơn nhé.',
+          });
+        } else if (errType === 'aborted') {
+          // Manual stop / abort, do not trigger error
+        } else if (errType === 'not-allowed') {
+          setMicError('Trình duyệt chưa được cấp quyền Microphone. Hãy cấp quyền micro để tiếp tục.');
+        } else {
+          setMicError(
+            typeof err === 'string'
+              ? err
+              : 'Không thể truy cập Microphone. Hãy kiểm tra quyền truy cập micro trên trình duyệt của bạn.'
+          );
+        }
       },
       onEnd: () => {
         setIsRecording(false);
