@@ -153,7 +153,7 @@ async function main() {
 
   // 3. Seed Placement Test Questions
   for (const q of placementQuestions) {
-    const { partNumber, ...qData } = q;
+    const { id, ...qData } = q;
     await prisma.placementQuestion.create({
       data: qData,
     });
