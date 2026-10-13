@@ -47,7 +47,7 @@ async function getUsers(req, res) {
         role: true,
         level: true,
         goal: true,
-        xp: true,
+        practiceScore: true,
         streakDays: true,
         createdAt: true,
       },

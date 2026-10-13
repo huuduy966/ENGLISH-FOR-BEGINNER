@@ -8,10 +8,7 @@ const prisma = new PrismaClient();
 async function main() {
   console.log(`--- Seeding Comprehensive 6-Level CEFR Curriculum: ${allLessons.length} Lessons ---`);
 
-  // Clean existing tables to avoid duplicate or broken foreign keys
-  await prisma.quizAttempt.deleteMany();
-  await prisma.userProgress.deleteMany();
-  await prisma.userVocabulary.deleteMany();
+  // Clean curriculum tables to avoid duplicate content (PRESERVES all user accounts)
   await prisma.exercise.deleteMany();
   await prisma.quizQuestion.deleteMany();
   await prisma.conversation.deleteMany();
@@ -21,14 +18,15 @@ async function main() {
   await prisma.vocabulary.deleteMany();
   await prisma.lesson.deleteMany();
   await prisma.placementQuestion.deleteMany();
-  await prisma.user.deleteMany();
 
-  // 1. Create Default Users (Admin & Student)
+  // 1. Create Default Users if not exist (Admin & Student) - NEVER delete existing user accounts!
   const adminPassword = await bcrypt.hash('admin123', 10);
   const studentPassword = await bcrypt.hash('student123', 10);
 
-  const admin = await prisma.user.create({
-    data: {
+  const admin = await prisma.user.upsert({
+    where: { email: 'admin@e4b.com' },
+    update: {},
+    create: {
       name: 'Admin E4B',
       email: 'admin@e4b.com',
       password: adminPassword,
@@ -40,8 +38,10 @@ async function main() {
     },
   });
 
-  const student = await prisma.user.create({
-    data: {
+  const student = await prisma.user.upsert({
+    where: { email: 'student@e4b.com' },
+    update: {},
+    create: {
       name: 'Duy Phạm',
       email: 'student@e4b.com',
       password: studentPassword,
@@ -153,8 +153,9 @@ async function main() {
 
   // 3. Seed Placement Test Questions
   for (const q of placementQuestions) {
+    const { partNumber, ...qData } = q;
     await prisma.placementQuestion.create({
-      data: q,
+      data: qData,
     });
   }
   console.log(`Seeded ${placementQuestions.length} Placement Questions.`);

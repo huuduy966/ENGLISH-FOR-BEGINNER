@@ -232,7 +232,7 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
             Hoàn thành Bước 2: Thu âm từ vựng!
           </h3>
           <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-md mx-auto">
-            Bạn đã xuất sắc thu âm và luyện phát âm toàn bộ {vocabularies.length} từ vựng trong bài học.
+            Bạn đã xuất sắc luyện phát âm toàn bộ {vocabularies.length} từ vựng trong bài học.
           </p>
         </div>
         <div className="pt-2 flex justify-center gap-3">
@@ -256,39 +256,39 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
   return (
     <div className="w-full space-y-4 animate-fade-in pb-4">
       {/* 1. Top Header Tracker */}
-      <div className="bg-white px-4 py-3 sm:px-5 sm:py-3.5 rounded-2xl border border-slate-200/80 shadow-xs flex items-center justify-between text-xs font-semibold">
-        <div className="flex items-center gap-2.5">
-          <span className="text-sm font-black text-slate-800">
+      <div className="bg-white px-3.5 sm:px-5 py-2.5 sm:py-3.5 rounded-2xl border border-slate-200/80 shadow-xs flex items-center justify-between text-xs font-semibold flex-wrap gap-2">
+        <div className="flex items-center gap-2 sm:gap-2.5">
+          <span className="text-xs sm:text-sm font-black text-slate-800">
             Thu âm từ {currentIndex + 1} / {vocabularies.length}
           </span>
           <span className="text-slate-300">•</span>
-          <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full border bg-blue-50 text-blue-700 border-blue-200">
+          <span className="text-[10px] sm:text-[11px] font-bold px-2 sm:px-2.5 py-0.5 rounded-full border bg-blue-50 text-blue-700 border-blue-200">
             {currentWord.category || 'Thu âm từ vựng'}
           </span>
         </div>
 
         <div className="flex items-center gap-2">
-          <span className="text-slate-500 font-bold">
+          <span className="text-slate-500 font-bold text-[11px] sm:text-xs">
             Đã đạt: <strong className="text-emerald-600">{completedWordIds.size}</strong> / {vocabularies.length}
           </span>
         </div>
       </div>
 
       {/* 2. Main Recording Card */}
-      <div className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm text-center space-y-6">
+      <div className="bg-white rounded-2xl p-4 sm:p-8 border border-slate-200 shadow-sm text-center space-y-4 sm:space-y-6">
         {/* Word Display & Explicit IPA Label */}
-        <div className="space-y-3">
-          <h2 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
+        <div className="space-y-2.5 sm:space-y-3">
+          <h2 className="text-2xl xs:text-3xl sm:text-5xl font-black text-slate-900 tracking-tight break-words">
             {currentWord.word}
           </h2>
 
           {/* Explicit IPA label */}
           <div className="flex flex-wrap items-center justify-center gap-2">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-blue-50/80 border border-blue-200 shadow-2xs">
-              <span className="text-xs font-black text-blue-700 uppercase tracking-wider">
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1 sm:py-1.5 rounded-xl bg-blue-50/80 border border-blue-200 shadow-2xs">
+              <span className="text-[10px] sm:text-xs font-black text-blue-700 uppercase tracking-wider">
                 Phiên âm IPA:
               </span>
-              <span className="font-mono text-base sm:text-lg font-bold text-blue-900 tracking-wider">
+              <span className="font-mono text-sm sm:text-lg font-bold text-blue-900 tracking-wider">
                 {formattedIpa}
               </span>
             </div>
@@ -299,7 +299,7 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
             )}
           </div>
 
-          <p className="text-sm text-slate-600 font-medium max-w-md mx-auto">
+          <p className="text-xs sm:text-sm text-slate-600 font-medium max-w-md mx-auto">
             Nghĩa: <strong className="text-slate-800">{currentWord.meaning}</strong>
           </p>
         </div>
@@ -310,7 +310,7 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
             type="button"
             onClick={() => speakText(currentWord.word)}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 font-bold text-xs border border-slate-200 transition shadow-2xs active:scale-95"
-            title="Bấm để nghe giọng phát âm bản xứ"
+            title="Bấm để nghe"
           >
             <Volume2 className="w-4 h-4 text-blue-600" />
             <span>Nghe mẫu phát âm</span>
@@ -318,7 +318,7 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
         </div>
 
         {/* Big Interactive Recording Button */}
-        <div className="py-2 flex flex-col items-center justify-center space-y-3">
+        <div className="py-1 sm:py-2 flex flex-col items-center justify-center space-y-3">
           <div className="relative">
             {isRecording && (
               <div className="absolute -inset-3 rounded-full bg-rose-500/20 animate-ping pointer-events-none" />
@@ -326,13 +326,13 @@ export default function PronunciationSection({ vocabularies = [], onStepComplete
             <button
               type="button"
               onClick={isRecording ? handleStopRecording : handleStartRecording}
-              className={`w-20 h-20 sm:w-24 sm:h-24 rounded-full font-bold shadow-lg transition-all flex flex-col items-center justify-center gap-1 active:scale-95 relative z-10 ${
+              className={`w-16 h-16 sm:w-24 sm:h-24 rounded-full font-bold shadow-lg transition-all flex flex-col items-center justify-center gap-1 active:scale-95 relative z-10 ${
                 isRecording
                   ? 'bg-rose-600 text-white shadow-rose-600/30 animate-pulse ring-4 ring-rose-200'
                   : 'bg-gradient-to-tr from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white shadow-blue-500/30'
               }`}
             >
-              <Mic className="w-8 h-8 sm:w-10 sm:h-10" />
+              <Mic className="w-7 h-7 sm:w-10 sm:h-10" />
             </button>
           </div>
 

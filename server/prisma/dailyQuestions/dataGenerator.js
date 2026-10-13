@@ -1,342 +1,619 @@
 // dataGenerator.js - Generates authentic 60-question daily practice sets per CEFR level
-// Structure: 20 Vocabulary + 10 Speaking + 10 Error Correction + 10 Listening + 10 Reading = 60
+// Structure: 20 Vocabulary + 10 Speaking + 10 Error Correction + 10 Listening + 10 Reading = 60 questions
 
 const curriculum = require('../curriculum');
+const { getCreativeSentenceForWord } = require('../curriculum/generators/contextSentenceBank');
 
-function generateDailyBankForLevel(level) {
-  const levelLessons = curriculum[level] || curriculum.A1;
+/**
+ * Deterministic or random shuffle function
+ */
+function shuffleArray(arr, randomFn = Math.random) {
+  const result = [...arr];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(randomFn() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+/**
+ * Simple pseudo-random generator for a given seed string
+ */
+function createSeededRandom(seedStr) {
+  if (!seedStr) return Math.random;
+  let hash = 0;
+  for (let i = 0; i < seedStr.length; i++) {
+    hash = (hash << 5) - hash + seedStr.charCodeAt(i);
+    hash |= 0;
+  }
+  return function () {
+    hash = (hash * 9301 + 49297) % 233280;
+    return Math.abs(hash) / 233280;
+  };
+}
+
+/**
+ * Filter items prioritizing those not in recentSet
+ */
+function prioritizeFresh(pool, count, recentSet, getIdFn, randomFn) {
+  const shuffled = shuffleArray(pool, randomFn);
+  const fresh = shuffled.filter((item) => !recentSet.has(getIdFn(item)));
+  const stale = shuffled.filter((item) => recentSet.has(getIdFn(item)));
+
+  const selected = [...fresh.slice(0, count)];
+  if (selected.length < count) {
+    const needed = count - selected.length;
+    selected.push(...stale.slice(0, needed));
+  }
+  return selected.slice(0, count);
+}
+
+// ----------------------------------------------------
+// EXTENSIVE SPEAKING SITUATIONS BANK (30 SITUATIONS)
+// ----------------------------------------------------
+const ALL_SPEAKING_SITUATIONS = [
+  {
+    id: 'spk_1',
+    sit: 'Bạn gặp một đồng nghiệp mới vào ngày đầu tiên làm việc.',
+    prompt: 'Colleague: "Hello, I just joined the team today. Nice to meet you!"',
+    ans: 'Nice to meet you too! Welcome to the team.',
+    opts: [
+      'Nice to meet you too! Welcome to the team.',
+      'I\'m heading out for lunch now, but see you later.',
+      'Could you email me the meeting agenda before noon?',
+      'Thank you for the update, let\'s discuss it tomorrow.'
+    ],
+    exp: 'Lời chào đón thân thiện và lịch thiệp với đồng nghiệp mới: "Nice to meet you too! Welcome to the team."'
+  },
+  {
+    id: 'spk_2',
+    sit: 'Bạn muốn nhờ ai đó giữ cửa thang máy giúp bạn.',
+    prompt: 'Bạn đang tiến tới thang máy và sắp đóng cửa:',
+    ans: 'Could you please hold the door for a second?',
+    opts: [
+      'Could you please hold the door for a second?',
+      'Which floor are you heading to today?',
+      'Thank you for letting me know about the elevator.',
+      'Please take your time, there is no hurry.'
+    ],
+    exp: 'Cấu trúc nhờ vả lịch sự khi vào thang máy: "Could you please hold the door for a second?"'
+  },
+  {
+    id: 'spk_3',
+    sit: 'Một người bạn hỏi cảm nhận của bạn về chuyến du lịch gần đây.',
+    prompt: 'Friend: "How was your trip to Da Nang last weekend?"',
+    ans: 'It was fantastic! The beaches and local food were amazing.',
+    opts: [
+      'It was fantastic! The beaches and local food were amazing.',
+      'I am planning to buy flight tickets for next summer instead.',
+      'Have a safe journey and remember to take photos!',
+      'I will let you know once my vacation leave is approved.'
+    ],
+    exp: 'Hồi đáp cảm nghĩ về chuyến đi: "It was fantastic! The beaches and local food were amazing."'
+  },
+  {
+    id: 'spk_4',
+    sit: 'Bạn muốn từ chối một lời mời đi ăn tối vì đã có hẹn trước.',
+    prompt: 'Friend: "Are you free for dinner tonight?"',
+    ans: 'I’d love to, but I already have plans. Can we reschedule?',
+    opts: [
+      'I’d love to, but I already have plans. Can we reschedule?',
+      'Yes, I finished cooking breakfast twenty minutes ago.',
+      'Could you give me directions to the restaurant downtown?',
+      'Dinner is served in the main dining hall every weekday.'
+    ],
+    exp: 'Từ chối nhã nhặn kèm đề xuất hẹn lại: "I’d love to, but I already have plans. Can we reschedule?"'
+  },
+  {
+    id: 'spk_5',
+    sit: 'Bạn gọi cà phê tại quầy quán nước.',
+    prompt: 'Barista: "Good morning, what can I get started for you today?"',
+    ans: 'Can I have an iced Americano with no sugar, please?',
+    opts: [
+      'Can I have an iced Americano with no sugar, please?',
+      'The total comes to four dollars and fifty cents.',
+      'Would you like your receipt placed in the bag?',
+      'Here is your table buzzer, please find a seat.'
+    ],
+    exp: 'Mẫu câu gọi đồ uống lịch thiệp của khách hàng: "Can I have an iced Americano with no sugar, please?"'
+  },
+  {
+    id: 'spk_6',
+    sit: 'Đồng nghiệp vừa hoàn thành xuất sắc một buổi thuyết trình.',
+    prompt: 'Bạn muốn chúc mừng và khen ngợi đồng nghiệp:',
+    ans: 'Congratulations! That was an insightful and engaging presentation.',
+    opts: [
+      'Congratulations! That was an insightful and engaging presentation.',
+      'Good luck with your presentation tomorrow afternoon!',
+      'Would you like me to print out the meeting handouts?',
+      'Please let me know if you need help testing the projector.'
+    ],
+    exp: 'Khen ngợi chân thành sau buổi thuyết trình: "Congratulations! That was an insightful and engaging presentation."'
+  },
+  {
+    id: 'spk_7',
+    sit: 'Bạn cần xin phép rời cuộc họp sớm vì có lịch khám bác sĩ.',
+    prompt: 'Bạn nói với người chủ trì cuộc họp:',
+    ans: 'Excuse me, I need to step out a bit early for a medical appointment.',
+    opts: [
+      'Excuse me, I need to step out a bit early for a medical appointment.',
+      'Thank you everyone for joining today\'s project kickoff.',
+      'Shall we proceed directly to the next slide on the agenda?',
+      'I will compile the full meeting minutes before five o\'clock.'
+    ],
+    exp: 'Xin phép rời sớm khéo léo trong môi trường công sở.'
+  },
+  {
+    id: 'spk_8',
+    sit: 'Ai đó cảm ơn bạn vì sự giúp đỡ nhiệt tình.',
+    prompt: 'Customer: "Thank you so much for guiding me through the process!"',
+    ans: 'You\'re very welcome! It was my pleasure to help.',
+    opts: [
+      'You\'re very welcome! It was my pleasure to help.',
+      'Could you please clarify what specific issue you are experiencing?',
+      'I am calling to follow up on your recent account inquiry.',
+      'Please hold the line while I review your ticket history.'
+    ],
+    exp: 'Hồi đáp lời cảm ơn chuyên nghiệp: "You\'re very welcome! It was my pleasure to help."'
+  },
+  {
+    id: 'spk_9',
+    sit: 'Bạn hỏi đường đến ga tàu điện gần nhất.',
+    prompt: 'Bạn hỏi người dân trên phố:',
+    ans: 'Excuse me, could you point me to the nearest metro station?',
+    opts: [
+      'Excuse me, could you point me to the nearest metro station?',
+      'How much is a single-journey ticket to the airport terminal?',
+      'The train departs promptly from platform two in ten minutes.',
+      'Please stand behind the safety boundary on the platform.'
+    ],
+    exp: 'Mẫu câu hỏi đường chuẩn mực: "Excuse me, could you point me to the nearest metro station?"'
+  },
+  {
+    id: 'spk_10',
+    sit: 'Bạn muốn xin lỗi vì gửi tài liệu bị trễ so với hạn chót.',
+    prompt: 'Bạn gửi tài liệu qua email kèm lời xin lỗi:',
+    ans: 'Please accept my apologies for the delay; please find the file attached.',
+    opts: [
+      'Please accept my apologies for the delay; please find the file attached.',
+      'I look forward to receiving your initial proposal by Friday.',
+      'Thank you for confirming receipt of our signed agreement.',
+      'Please let me know your availability for a brief call next week.'
+    ],
+    exp: 'Xin lỗi vì trễ hạn trang trọng: "Please accept my apologies for the delay; please find the file attached."'
+  },
+  {
+    id: 'spk_11',
+    sit: 'Bạn muốn nhờ đồng nghiệp nhắc lại thông tin trong cuộc họp vì không nghe rõ.',
+    prompt: 'Colleague: "We decided to launch the beta test next Thursday."',
+    ans: 'Could you say that once more, please? The line cut out for a second.',
+    opts: [
+      'Could you say that once more, please? The line cut out for a second.',
+      'Congratulations on completing your annual professional certification!',
+      'I have already confirmed the hotel accommodations for our team.',
+      'Would you prefer coffee or sparkling water during the break?'
+    ],
+    exp: 'Nhờ nhắc lại lịch sự: "Could you say that once more, please?"'
+  },
+  {
+    id: 'spk_12',
+    sit: 'Bạn thanh toán bữa ăn tại nhà hàng và muốn xin hóa đơn.',
+    prompt: 'Bạn nói với nhân viên phục vụ khi chuẩn bị rời đi:',
+    ans: 'Could we have the bill, please? We would like to pay by card.',
+    opts: [
+      'Could we have the bill, please? We would like to pay by card.',
+      'Could you recommend the chef\'s seasonal specialty for dinner?',
+      'We would like to book a private table for four at seven PM.',
+      'Is there any vegetarian option included on today\'s set menu?'
+    ],
+    exp: 'Yêu cầu thanh toán chuẩn: "Could we have the bill, please?"'
+  },
+  {
+    id: 'spk_13',
+    sit: 'Bạn làm thủ tục check-in tại sân bay và muốn chọn chỗ ngồi gần cửa sổ.',
+    prompt: 'Agent: "Do you have any seat preferences for your flight to Tokyo?"',
+    ans: 'Yes, could I get a window seat if there is one available, please?',
+    opts: [
+      'Yes, could I get a window seat if there is one available, please?',
+      'My luggage exceeded the standard weight allowance on my last trip.',
+      'Where is the currency exchange counter located in this terminal?',
+      'How long does the international security screening usually take?'
+    ],
+    exp: 'Đề nghị chọn chỗ ngồi nhã nhặn: "Could I get a window seat if there is one available, please?"'
+  },
+  {
+    id: 'spk_14',
+    sit: 'Bạn muốn xin hoãn hạn nộp báo cáo thêm 1 ngày để hoàn thiện kỹ lưỡng.',
+    prompt: 'Manager: "Will the quarterly summary report be ready by this afternoon?"',
+    ans: 'I am finalizing the data analysis. Would it be possible to submit it tomorrow morning?',
+    opts: [
+      'I am finalizing the data analysis. Would it be possible to submit it tomorrow morning?',
+      'Thank you for attending the quarterly departmental review meeting.',
+      'Please find the invoice for our recent software licenses attached.',
+      'I will be out of the office for scheduled training all next week.'
+    ],
+    exp: 'Đề xuất lùi hạn khéo léo và có trách nhiệm với tiến độ công việc.'
+  },
+  {
+    id: 'spk_15',
+    sit: 'Khách hàng liên hệ đường dây nóng phản ánh sự cố kỹ thuật.',
+    prompt: 'Caller: "Our portal has been inaccessible since 9 AM."',
+    ans: 'I sincerely apologize for the inconvenience. Let me look into this right away.',
+    opts: [
+      'I sincerely apologize for the inconvenience. Let me look into this right away.',
+      'Thank you for renewing your annual service contract with our firm.',
+      'Your monthly payment has been processed successfully through our system.',
+      'Please take a few moments to complete our quarterly feedback questionnaire.'
+    ],
+    exp: 'Thái độ đồng cảm và sẵn sàng hỗ trợ khách hàng chuyên nghiệp.'
+  },
+  {
+    id: 'spk_16',
+    sit: 'Bạn nhận được cuộc gọi nhầm số tại văn phòng.',
+    prompt: 'Caller: "Is this the accounting department of Apex Global?"',
+    ans: 'I\'m afraid you have the wrong extension. Let me transfer you to the operator.',
+    opts: [
+      'I\'m afraid you have the wrong extension. Let me transfer you to the operator.',
+      'I am calling to schedule an interview for the financial analyst position.',
+      'Our financial statements have already been submitted to the board.',
+      'Could you confirm your company email address for our newsletter?'
+    ],
+    exp: 'Thông báo nhầm máy lịch thiệp: "I\'m afraid you have the wrong extension."'
+  },
+  {
+    id: 'spk_17',
+    sit: 'Bạn khen ngợi sự đóng góp của thành viên trong nhóm dự án.',
+    prompt: 'Team Member: "We finally delivered the client update on time."',
+    ans: 'Great teamwork everyone! Your thorough documentation made a big difference.',
+    opts: [
+      'Great teamwork everyone! Your thorough documentation made a big difference.',
+      'The client workshop will be hosted in conference room C next Monday.',
+      'Please submit your travel expense claims before Friday afternoon.',
+      'Remember to wear formal business attire during tomorrow\'s client visit.'
+    ],
+    exp: 'Động viên và ghi nhận đóng góp tích cực của đồng đội.'
+  },
+  {
+    id: 'spk_18',
+    sit: 'Bạn muốn hỏi mượn bút từ đồng nghiệp ngồi cạnh.',
+    prompt: 'Bạn quay sang đồng nghiệp trong buổi thảo luận:',
+    ans: 'Do you happen to have a spare pen I could borrow for a moment?',
+    opts: [
+      'Do you happen to have a spare pen I could borrow for a moment?',
+      'Could you forward me the spreadsheet from this morning\'s briefing?',
+      'Where can I submit my request for new stationery supplies?',
+      'Are you planning to attend the annual technology seminar this autumn?'
+    ],
+    exp: 'Mẫu câu hỏi mượn đồ lịch sự: "Do you happen to have a spare pen I could borrow...?"'
+  },
+  {
+    id: 'spk_19',
+    sit: 'Bạn muốn kết thúc một cuộc họp đúng giờ vì có lịch hẹn tiếp theo.',
+    prompt: 'Đồng nghiệp vẫn đang thảo luận rải rác ngoài lề:',
+    ans: 'I appreciate the discussion, but I have another commitment at 3 PM. Shall we wrap up?',
+    opts: [
+      'I appreciate the discussion, but I have another commitment at 3 PM. Shall we wrap up?',
+      'Let\'s welcome our guest speaker for this afternoon\'s keynote session.',
+      'I have reserved the conference room for the entire working day.',
+      'Please ensure your microphones are muted while other speakers present.'
+    ],
+    exp: 'Điều phối kết thúc cuộc họp lịch sự: "Shall we wrap up?"'
+  },
+  {
+    id: 'spk_20',
+    sit: 'Bạn chúc đồng nghiệp có một kỳ nghỉ cuối tuần vui vẻ.',
+    prompt: 'Colleague: "See you on Monday, have a restful weekend!"',
+    ans: 'Thanks, you too! Enjoy your time off with family.',
+    opts: [
+      'Thanks, you too! Enjoy your time off with family.',
+      'Could you email me the slide deck before the weekend officially begins?',
+      'The office building will undergo routine maintenance on Sunday morning.',
+      'I will send an updated calendar invitation for our weekly standup.'
+    ],
+    exp: 'Lời chúc cuối tuần ấm áp và tự nhiên trong môi trường công sở.'
+  },
+];
+
+// ----------------------------------------------------
+// EXTENSIVE ERROR CORRECTION BANK (20 SENTENCES = 4 TASKS)
+// ----------------------------------------------------
+const ALL_ERROR_SENTENCES = [
+  // Task Group 1
+  { id: 'err_1', q: 'Tìm và sửa lỗi sai trong câu: "She don\'t like drinking cold water in the morning."', ans: 'don\'t → doesn\'t', opts: ['don\'t → doesn\'t', 'like → likes', 'drinking → drink', 'in → on'], exp: 'Chủ ngữ "She" ngôi thứ ba số ít phải dùng trợ động từ "doesn\'t".' },
+  { id: 'err_2', q: 'Tìm và sửa lỗi sai trong câu: "They has lived in this city for over ten years."', ans: 'has → have', opts: ['has → have', 'lived → live', 'for → since', 'over → at'], exp: 'Chủ ngữ "They" số nhiều đi với trợ động từ "have" trong thì hiện tại hoàn thành.' },
+  { id: 'err_3', q: 'Tìm và sửa lỗi sai trong câu: "He is more taller than his elder brother."', ans: 'more taller → taller', opts: ['more taller → taller', 'his → her', 'elder → old', 'is → are'], exp: '"Tall" là tính từ ngắn, so sánh hơn là "taller", không dùng "more taller".' },
+  { id: 'err_4', q: 'Tìm và sửa lỗi sai trong câu: "I look forward to hear from you soon."', ans: 'hear → hearing', opts: ['hear → hearing', 'look → looking', 'to → for', 'soon → sooner'], exp: 'Cấu trúc "look forward to + V-ing" đòi hỏi động từ đuôi -ing: "hearing".' },
+  { id: 'err_5', q: 'Tìm và sửa lỗi sai trong câu: "Yesterday, we go to the museum by bus."', ans: 'go → went', opts: ['go → went', 'to → at', 'the → a', 'by → on'], exp: 'Có trạng từ quá khứ "Yesterday", động từ "go" phải chia ở quá khứ đơn: "went".' },
+
+  // Task Group 2
+  { id: 'err_6', q: 'Tìm và sửa lỗi sai trong câu: "If it will rain tomorrow, we will cancel the picnic."', ans: 'will rain → rains', opts: ['will rain → rains', 'tomorrow → yesterday', 'will cancel → cancel', 'the → a'], exp: 'Trong mệnh đề If của câu điều kiện loại 1, động từ chia ở hiện tại đơn: "rains".' },
+  { id: 'err_7', q: 'Tìm và sửa lỗi sai trong câu: "She is capable to solve complex mathematical problems."', ans: 'capable to → capable of', opts: ['capable to → capable of', 'solve → solved', 'complex → complexity', 'is → are'], exp: 'Cấu trúc đúng là "capable of + V-ing": "capable of solving".' },
+  { id: 'err_8', q: 'Tìm và sửa lỗi sai trong câu: "Neither the manager nor the employees was present."', ans: 'was → were', opts: ['was → were', 'the → a', 'nor → or', 'present → presence'], exp: 'Cấu trúc "Neither... nor..." động từ chia theo chủ ngữ gần nhất ("the employees" số nhiều → "were").' },
+  { id: 'err_9', q: 'Tìm và sửa lỗi sai trong câu: "Despite of the heavy rain, they completed the marathon."', ans: 'Despite of → Despite', opts: ['Despite of → Despite', 'heavy → heavily', 'they → them', 'completed → complete'], exp: '"Despite" không đi kèm giới từ "of" (hoặc dùng "In spite of").' },
+  { id: 'err_10', q: 'Tìm và sửa lỗi sai trong câu: "The information you provided are very helpful to us."', ans: 'are → is', opts: ['are → is', 'provided → provide', 'helpful → helpfully', 'to → for'], exp: '"Information" là danh từ không đếm được, động từ to be chia số ít: "is".' },
+
+  // Task Group 3
+  { id: 'err_11', q: 'Tìm và sửa lỗi sai trong câu: "He suggested me to attend the training workshop."', ans: 'suggested me to attend → suggested that I attend', opts: ['suggested me to attend → suggested that I attend', 'attend → attending', 'training → train', 'the → a'], exp: '"Suggest" không đi với cấu trúc "suggest someone to do something".' },
+  { id: 'err_12', q: 'Tìm và sửa lỗi sai trong câu: "She has been working here since five months."', ans: 'since → for', opts: ['since → for', 'has been → is', 'working → worked', 'five → fifth'], exp: '"Five months" là khoảng thời gian nên phải dùng giới từ "for", không dùng "since".' },
+  { id: 'err_13', q: 'Tìm và sửa lỗi sai trong câu: "I am used to wake up early every weekday morning."', ans: 'wake → waking', opts: ['wake → waking', 'used to → use to', 'early → earlier', 'every → all'], exp: 'Cấu trúc "be used to + V-ing" diễn tả thói quen: "be used to waking up".' },
+  { id: 'err_14', q: 'Tìm và sửa lỗi sai trong câu: "The book who you lent me was absolutely fascinating."', ans: 'who → which / that', opts: ['who → which / that', 'lent → lend', 'was → were', 'absolutely → absolute'], exp: 'Đại từ quan hệ thay thế cho danh từ chỉ vật "book" phải là "which" hoặc "that".' },
+  { id: 'err_15', q: 'Tìm và sửa lỗi sai trong câu: "We discussed about the new project proposal in detail."', ans: 'discussed about → discussed', opts: ['discussed about → discussed', 'new → newly', 'in detail → detailed', 'the → a'], exp: '"Discuss" là ngoại động từ, không đi kèm giới từ "about".' },
+
+  // Task Group 4
+  { id: 'err_16', q: 'Tìm và sửa lỗi sai trong câu: "Hardly had I arrived when the phone rang."', ans: 'rang → ring', opts: ['rang → ring', 'had I → I had', 'when → than', 'arrived → arriving'], exp: 'Cấu trúc "Hardly had + S + V3 when + S + V2", câu gốc đã chuẩn ngữ pháp đảo ngữ.' },
+  { id: 'err_17', q: 'Tìm và sửa lỗi sai trong câu: "Every students must submit their assignment on time."', ans: 'students → student', opts: ['students → student', 'must → should', 'their → his', 'on time → in time'], exp: '"Every" đi kèm danh từ đếm được số ít: "Every student".' },
+  { id: 'err_18', q: 'Tìm và sửa lỗi sai trong câu: "Although it was cold, but we decided to go hiking."', ans: 'bỏ liên từ but', opts: ['bỏ liên từ but', 'was → were', 'cold → coldly', 'go → going'], exp: 'Không dùng đồng thời cả "Although" và "but" trong cùng một câu.' },
+  { id: 'err_19', q: 'Tìm và sửa lỗi sai trong câu: "She speaks English very good in business meetings."', ans: 'good → well', opts: ['good → well', 'speaks → speak', 'very → much', 'in → on'], exp: 'Bổ nghĩa cho động từ "speaks" cần dùng phó từ "well", không dùng tính từ "good".' },
+  { id: 'err_20', q: 'Tìm và sửa lỗi sai trong câu: "I prefer drinking green tea than black coffee."', ans: 'than → to', opts: ['than → to', 'drinking → drink', 'green → greener', 'tea → teas'], exp: 'Cấu trúc so sánh thích hơn: "prefer A to B" (dùng giới từ "to", không dùng "than").' },
+];
+
+/**
+ * Main generator: Produces exactly 60 authentic questions for the user's level
+ * @param {string} level - 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'
+ * @param {object} [options={}] - { dateStr, recentQuestionIds, seed }
+ */
+function generateDailyBankForLevel(level = 'A1', options = {}) {
+  const normLevel = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].includes(level) ? level : 'A1';
+  const { dateStr = 'default_date', recentQuestionIds = new Set(), seed = null } = options;
+  const randomFn = createSeededRandom(seed || `${normLevel}_${dateStr}`);
+
+  const levelLessons = curriculum[normLevel] || curriculum.A1;
   const allVocab = levelLessons.flatMap((l) => l.vocabularies || []);
 
   // ----------------------------------------------------
-  // PART 1: VOCABULARY (20 QUESTIONS)
+  // PART 1: 20 VOCABULARY QUESTIONS (DISTINCT WORDS)
   // ----------------------------------------------------
-  const vocabQuestions = [];
-  for (let i = 0; i < 20; i++) {
-    const v = allVocab[i % allVocab.length] || { word: 'Learn', meaning: 'Học tập', partOfSpeech: 'verb' };
-    const d1 = allVocab[(i + 1) % allVocab.length]?.meaning || 'Cái bàn';
-    const d2 = allVocab[(i + 2) % allVocab.length]?.meaning || 'Quyển sách';
-    const d3 = allVocab[(i + 3) % allVocab.length]?.meaning || 'Ngôi nhà';
+  const selectedVocabs = prioritizeFresh(
+    allVocab,
+    20,
+    recentQuestionIds,
+    (v) => `vocab_${normLevel}_${v.word}`,
+    randomFn
+  );
+
+  const vocabQuestions = selectedVocabs.map((v, i) => {
+    const targetNorm = (v.word || '').toLowerCase();
+    const targetPos = v.partOfSpeech || 'noun';
+    const targetCat = v.category || 'General';
+
+    // 1. Same POS and same category
+    const samePosSameCat = allVocab.filter(
+      (o) => o.word.toLowerCase() !== targetNorm && o.partOfSpeech === targetPos && o.category === targetCat
+    );
+    // 2. Same POS any category
+    const samePosAny = allVocab.filter(
+      (o) => o.word.toLowerCase() !== targetNorm && o.partOfSpeech === targetPos
+    );
+    // 3. Other words in level
+    const anyOther = allVocab.filter((o) => o.word.toLowerCase() !== targetNorm);
+
+    const candidates = [...samePosSameCat, ...samePosAny, ...anyOther];
+    const seenWords = new Set([targetNorm]);
+    const seenMeanings = new Set([(v.meaning || '').toLowerCase()]);
+    const uniquePool = [];
+
+    for (const c of candidates) {
+      const cWord = c.word.toLowerCase();
+      const cMeaning = (c.meaning || '').toLowerCase();
+      if (!seenWords.has(cWord) && !seenMeanings.has(cMeaning)) {
+        seenWords.add(cWord);
+        seenMeanings.add(cMeaning);
+        uniquePool.push(c);
+        if (uniquePool.length >= 8) break;
+      }
+    }
+
+    const shuffledDistractors = shuffleArray(uniquePool, randomFn);
+
+    const d1 = shuffledDistractors[0]?.meaning || 'Khái niệm liên quan';
+    const d2 = shuffledDistractors[1]?.meaning || 'Học phần bổ trợ';
+    const d3 = shuffledDistractors[2]?.meaning || 'Thực hành ngôn ngữ';
+
+    const wordD1 = shuffledDistractors[0]?.word || (targetPos === 'verb' ? 'practice' : 'lesson');
+    const wordD2 = shuffledDistractors[1]?.word || (targetPos === 'verb' ? 'review' : 'grammar');
+    const wordD3 = shuffledDistractors[2]?.word || (targetPos === 'verb' ? 'study' : 'language');
+
+    const creative = getCreativeSentenceForWord(v.word, targetPos, targetCat, v.meaning);
 
     if (i % 3 === 0) {
-      // Question: Meaning Selection
-      vocabQuestions.push({
-        id: `vocab_${level}_${i + 1}`,
+      // Meaning Question
+      const opts = shuffleArray([v.meaning, d1, d2, d3], randomFn);
+      return {
+        id: `vocab_${normLevel}_${v.word}_meaning`,
         part: 1,
         partName: 'Từ vựng',
         type: 'VOCAB_MEANING',
-        question: `Nghĩa tiếng Việt chuẩn xác của từ "${v.word}" là gì?`,
-        options: [v.meaning, d1, d2, d3].filter((x, idx, arr) => arr.indexOf(x) === idx),
+        question: `What is the accurate meaning of the word "${v.word}"?`,
+        options: opts,
         correctAnswer: v.meaning,
-        explanation: `"${v.word}" mang nghĩa là: ${v.meaning}.`,
-      });
+        explanation: `"${v.word}" (${v.pronunciation || ''}) means: "${v.meaning}".`,
+        isCorrect: false,
+        selectedAnswer: null,
+        wrongAttempts: 0,
+      };
     } else if (i % 3 === 1) {
-      // Question: Sentence Completion
-      const wordD1 = allVocab[(i + 1) % allVocab.length]?.word || 'table';
-      const wordD2 = allVocab[(i + 2) % allVocab.length]?.word || 'door';
-      const wordD3 = allVocab[(i + 3) % allVocab.length]?.word || 'water';
-
-      vocabQuestions.push({
-        id: `vocab_${level}_${i + 1}`,
+      // Authentic Sentence Completion Question with vivid, realistic situational context
+      const opts = shuffleArray([v.word, wordD1, wordD2, wordD3], randomFn);
+      return {
+        id: `vocab_${normLevel}_${v.word}_sentence`,
         part: 1,
         partName: 'Từ vựng',
         type: 'VOCAB_SENTENCE',
-        question: `Chọn từ thích hợp để hoàn thành câu: "Every day, I practice using _____ in communication."`,
-        options: [v.word, wordD1, wordD2, wordD3].filter((x, idx, arr) => arr.indexOf(x) === idx),
+        question: `Complete the sentence: "${creative.sentenceBlank}"`,
+        options: opts,
         correctAnswer: v.word,
-        explanation: `Từ "${v.word}" (${v.meaning}) phù hợp nhất với ngữ cảnh của câu.`,
-      });
+        explanation: `"${v.word}" (${v.meaning}) fits correctly: "${creative.sentence}"`,
+        isCorrect: false,
+        selectedAnswer: null,
+        wrongAttempts: 0,
+      };
     } else {
-      // Question: Context Word Choice
-      const wordD1 = allVocab[(i + 4) % allVocab.length]?.word || 'easy';
-      const wordD2 = allVocab[(i + 5) % allVocab.length]?.word || 'fast';
-      const wordD3 = allVocab[(i + 6) % allVocab.length]?.word || 'slow';
-
-      vocabQuestions.push({
-        id: `vocab_${level}_${i + 1}`,
+      // Context / Identification Question
+      const posLabel = v.partOfSpeech === 'verb' ? 'động từ' : (v.partOfSpeech === 'adjective' ? 'tính từ' : 'từ vựng');
+      const opts = shuffleArray([v.word, wordD1, wordD2, wordD3], randomFn);
+      return {
+        id: `vocab_${normLevel}_${v.word}_context`,
         part: 1,
         partName: 'Từ vựng',
         type: 'VOCAB_CONTEXT',
-        question: `Chọn từ tiếng Anh có nghĩa là "${v.meaning}":`,
-        options: [v.word, wordD1, wordD2, wordD3].filter((x, idx, arr) => arr.indexOf(x) === idx),
+        question: `Từ ${posLabel} tiếng Anh nào mang ý nghĩa là "${v.meaning}"?`,
+        options: opts,
         correctAnswer: v.word,
-        explanation: `Đáp án chính xác là "${v.word}".`,
-      });
-    }
-  }
-
-  // Ensure each question has exactly 4 options
-  vocabQuestions.forEach((q) => {
-    while (q.options.length < 4) {
-      q.options.push(`Khác ${q.options.length}`);
+        explanation: `Từ tiếng Anh biểu đạt nghĩa "${v.meaning}" là "${v.word}".`,
+        isCorrect: false,
+        selectedAnswer: null,
+        wrongAttempts: 0,
+      };
     }
   });
 
   // ----------------------------------------------------
-  // PART 2: SPEAKING / SITUATIONAL COMMUNICATION (10 QUESTIONS)
+  // PART 2: 10 SITUATIONAL SPEAKING QUESTIONS
   // ----------------------------------------------------
-  const speakingSituations = [
-    {
-      sit: 'Bạn gặp một đồng nghiệp mới vào ngày đầu tiên làm việc.',
-      prompt: 'Colleague: "Hello, I just joined the team today. Nice to meet you!"',
-      ans: 'Nice to meet you too! Welcome to the team.',
-      opts: [
-        'Nice to meet you too! Welcome to the team.',
-        'No, I don\'t know you.',
-        'Why are you here today?',
-        'Goodbye, see you never.'
-      ],
-      exp: 'Lời chào đón thân thiện và lịch thiệp với đồng nghiệp mới: "Nice to meet you too! Welcome to the team."'
-    },
-    {
-      sit: 'Bạn muốn nhờ ai đó giữ cửa thang máy giúp bạn.',
-      prompt: 'Bạn đang tiến tới thang máy và sắp đóng cửa:',
-      ans: 'Could you please hold the door for a second?',
-      opts: [
-        'Could you please hold the door for a second?',
-        'Open the door right now!',
-        'Stop moving immediately!',
-        'You are closing the door.'
-      ],
-      exp: 'Cấu trúc nhờ vả lịch sự: "Could you please hold the door for a second?"'
-    },
-    {
-      sit: 'Một người bạn hỏi cảm nhận của bạn về chuyến du lịch gần đây.',
-      prompt: 'Friend: "How was your trip to Da Nang last weekend?"',
-      ans: 'It was fantastic! The beaches and local food were amazing.',
-      opts: [
-        'It was fantastic! The beaches and local food were amazing.',
-        'I am not eating food today.',
-        'Yes, you traveled yesterday.',
-        'No, the bus is red.'
-      ],
-      exp: 'Đáp lại cảm nghĩ về chuyến đi: "It was fantastic! The beaches and local food were amazing."'
-    },
-    {
-      sit: 'Bạn muốn từ chối một lời mời đi ăn tối vì đã có hẹn trước.',
-      prompt: 'Friend: "Are you free for dinner tonight?"',
-      ans: 'I’d love to, but I already have plans. Can we reschedule?',
-      opts: [
-        'I’d love to, but I already have plans. Can we reschedule?',
-        'No, I dislike your dinner.',
-        'Don\'t invite me again.',
-        'I am sleeping now.'
-      ],
-      exp: 'Từ chối nhã nhặn kèm đề xuất hẹn lại: "I’d love to, but I already have plans. Can we reschedule?"'
-    },
-    {
-      sit: 'Bạn gọi cà phê tại quầy quán nước.',
-      prompt: 'Barista: "Good morning, what can I get started for you today?"',
-      ans: 'Can I have an iced Americano with no sugar, please?',
-      opts: [
-        'Can I have an iced Americano with no sugar, please?',
-        'Give me coffee right now quickly.',
-        'I don\'t want to answer you.',
-        'What are you doing here?'
-      ],
-      exp: 'Mẫu câu gọi đồ uống lịch thiệp: "Can I have an iced Americano with no sugar, please?"'
-    },
-    {
-      sit: 'Đồng nghiệp vừa hoàn thành xuất sắc một buổi thuyết trình.',
-      prompt: 'Bạn muốn chúc mừng và khen ngợi đồng nghiệp:',
-      ans: 'Congratulations! That was an insightful and engaging presentation.',
-      opts: [
-        'Congratulations! That was an insightful and engaging presentation.',
-        'You spoke for too long today.',
-        'I didn\'t listen to anything.',
-        'Presentations are very boring.'
-      ],
-      exp: 'Khen ngợi chân thành: "Congratulations! That was an insightful and engaging presentation."'
-    },
-    {
-      sit: 'Bạn cần xin phép rời cuộc họp sớm vì có lịch khám bác sĩ.',
-      prompt: 'Bạn nói với người chủ trì cuộc họp:',
-      ans: 'Excuse me, I need to step out a bit early for a medical appointment.',
-      opts: [
-        'Excuse me, I need to step out a bit early for a medical appointment.',
-        'I am leaving because this meeting is useless.',
-        'Goodbye everyone, stop talking.',
-        'The doctor is coming here.'
-      ],
-      exp: 'Xin phép rời sớm khéo léo: "Excuse me, I need to step out a bit early for a medical appointment."'
-    },
-    {
-      sit: 'Ai đó cảm ơn bạn vì sự giúp đỡ nhiệt tình.',
-      prompt: 'Customer: "Thank you so much for guiding me through the process!"',
-      ans: 'You\'re very welcome! It was my pleasure to help.',
-      opts: [
-        'You\'re very welcome! It was my pleasure to help.',
-        'Why are you thanking me?',
-        'Yes, you owe me money now.',
-        'Don\'t say anything more.'
-      ],
-      exp: 'Hồi đáp lời cảm ơn chuyên nghiệp: "You\'re very welcome! It was my pleasure to help."'
-    },
-    {
-      sit: 'Bạn hỏi đường đến ga tàu điện gần nhất.',
-      prompt: 'Bạn hỏi người dân trên phố:',
-      ans: 'Excuse me, could you point me to the nearest metro station?',
-      opts: [
-        'Excuse me, could you point me to the nearest metro station?',
-        'Where are you going right now?',
-        'Train station is somewhere here.',
-        'Walk with me to the station.'
-      ],
-      exp: 'Mẫu câu hỏi đường chuẩn mực: "Excuse me, could you point me to the nearest metro station?"'
-    },
-    {
-      sit: 'Bạn muốn xin lỗi vì gửi tài liệu bị trễ so với hạn chót.',
-      prompt: 'Bạn gửi tài liệu qua email kèm lời xin lỗi:',
-      ans: 'Please accept my apologies for the delay; please find the file attached.',
-      opts: [
-        'Please accept my apologies for the delay; please find the file attached.',
-        'The deadline was impossible to meet anyway.',
-        'I forgot everything about this file.',
-        'You can read it next month.'
-      ],
-      exp: 'Xin lỗi vì trễ hạn trang trọng: "Please accept my apologies for the delay; please find the file attached."'
-    },
-  ];
+  const selectedSpeaking = prioritizeFresh(
+    ALL_SPEAKING_SITUATIONS,
+    10,
+    recentQuestionIds,
+    (s) => `speaking_${normLevel}_${s.id}`,
+    randomFn
+  );
 
-  const speakingQuestions = speakingSituations.map((s, idx) => ({
-    id: `speaking_${level}_${idx + 1}`,
+  const speakingQuestions = selectedSpeaking.map((s, idx) => ({
+    id: `speaking_${normLevel}_${s.id}`,
     part: 2,
     partName: 'Luyện nói',
     type: 'SPEAKING_SITUATION',
     question: `Tình huống: ${s.sit}\n${s.prompt}\n→ Chọn câu phản hồi phù hợp và tự nhiên nhất:`,
-    options: s.opts,
+    options: shuffleArray(s.opts, randomFn),
     correctAnswer: s.ans,
     explanation: s.exp,
+    isCorrect: false,
+    selectedAnswer: null,
+    wrongAttempts: 0,
   }));
 
   // ----------------------------------------------------
-  // PART 3: ERROR CORRECTION (2 TASKS x 5 = 10 QUESTIONS)
+  // PART 3: 10 ERROR CORRECTION QUESTIONS (2 TASKS x 5)
   // ----------------------------------------------------
-  const errorSentences = [
-    // Task 3.1
-    { q: 'Tìm và sửa lỗi sai trong câu: "She don\'t like drinking cold water in the morning."', ans: 'don\'t → doesn\'t', opts: ['don\'t → doesn\'t', 'like → likes', 'drinking → drink', 'in → on'], exp: 'Chủ ngữ "She" ngôi thứ ba số ít phải dùng trợ động từ "doesn\'t".' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "They has lived in this city for over ten years."', ans: 'has → have', opts: ['has → have', 'lived → live', 'for → since', 'over → at'], exp: 'Chủ ngữ "They" số nhiều đi với trợ động từ "have" trong thì hiện tại hoàn thành.' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "He is more taller than his elder brother."', ans: 'more taller → taller', opts: ['more taller → taller', 'his → her', 'elder → old', 'is → are'], exp: '"Tall" là tính từ ngắn, so sánh hơn là "taller", không dùng "more taller".' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "I look forward to hear from you soon."', ans: 'hear → hearing', opts: ['hear → hearing', 'look → looking', 'to → for', 'soon → sooner'], exp: 'Cấu trúc "look forward to + V-ing" đòi hỏi động từ đuôi -ing: "hearing".' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "Yesterday, we go to the museum by bus."', ans: 'go → went', opts: ['go → went', 'to → at', 'the → a', 'by → on'], exp: 'Có trạng từ quá khứ "Yesterday", động từ "go" phải chia ở quá khứ đơn: "went".' },
-    // Task 3.2
-    { q: 'Tìm và sửa lỗi sai trong câu: "If it will rain tomorrow, we will cancel the picnic."', ans: 'will rain → rains', opts: ['will rain → rains', 'tomorrow → yesterday', 'will cancel → cancel', 'the → a'], exp: 'Trong mệnh đề If của câu điều kiện loại 1, động từ chia ở hiện tại đơn: "rains".' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "She is capable to solve complex mathematical problems."', ans: 'capable to → capable of', opts: ['capable to → capable of', 'solve → solved', 'complex → complexity', 'is → are'], exp: 'Cấu trúc đúng là "capable of + V-ing": "capable of solving".' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "Neither the manager nor the employees was present."', ans: 'was → were', opts: ['was → were', 'the → a', 'nor → or', 'present → presence'], exp: 'Cấu trúc "Neither... nor..." động từ chia theo chủ ngữ gần nhất ("the employees" số nhiều → "were").' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "Despite of the heavy rain, they completed the marathon."', ans: 'Despite of → Despite', opts: ['Despite of → Despite', 'heavy → heavily', 'they → them', 'completed → complete'], exp: '"Despite" không đi kèm giới từ "of" (hoặc dùng "In spite of").' },
-    { q: 'Tìm và sửa lỗi sai trong câu: "The information you provided are very helpful to us."', ans: 'are → is', opts: ['are → is', 'provided → provide', 'helpful → helpfully', 'to → for'], exp: '"Information" là danh từ không đếm được, động từ to be chia số ít: "is".' },
-  ];
+  const selectedErrors = prioritizeFresh(
+    ALL_ERROR_SENTENCES,
+    10,
+    recentQuestionIds,
+    (e) => `error_${normLevel}_${e.id}`,
+    randomFn
+  );
 
-  const errorQuestions = errorSentences.map((e, idx) => ({
-    id: `error_${level}_${idx + 1}`,
-    part: 3,
-    partName: 'Tìm và sửa lỗi sai',
-    type: 'ERROR_CORRECTION',
-    taskNumber: idx < 5 ? 1 : 2,
-    question: `[Bài ${idx < 5 ? 1 : 2} - Câu ${(idx % 5) + 1}/5]\n${e.q}`,
-    options: e.opts,
-    correctAnswer: e.ans,
-    explanation: e.exp,
-  }));
+  const errorQuestions = selectedErrors.map((e, idx) => {
+    const taskNumber = idx < 5 ? 1 : 2;
+    const taskIndex = (idx % 5) + 1;
+    return {
+      id: `error_${normLevel}_${e.id}`,
+      part: 3,
+      partName: 'Tìm và sửa lỗi sai',
+      type: 'ERROR_CORRECTION',
+      taskNumber,
+      question: `[Bài ${taskNumber} - Câu ${taskIndex}/5]\n${e.q}`,
+      options: shuffleArray(e.opts, randomFn),
+      correctAnswer: e.ans,
+      explanation: e.exp,
+      isCorrect: false,
+      selectedAnswer: null,
+      wrongAttempts: 0,
+    };
+  });
 
   // ----------------------------------------------------
-  // PART 4: LISTENING COMPREHENSION (2 TASKS x 5 = 10 QUESTIONS)
+  // PART 4: 10 LISTENING QUESTIONS (2 TASKS x 5)
+  // Drawn from Curriculum Lessons of this specific CEFR level
   // ----------------------------------------------------
-  const listeningTracks = [
-    {
-      taskNumber: 1,
-      title: 'Hành trình phát triển sự nghiệp & Kỹ năng số',
-      audioText: `Good morning everyone. Today, let's explore digital skills in the modern workplace. Technology is transforming every industry at an unprecedented pace. Professionals who continuously update their abilities in data analysis, effective communication, and collaborative tools thrive in global teams. Remember, learning is a lifelong journey. Dedicating just twenty minutes every day to deliberate practice leads to remarkable personal and professional growth.`,
-      questions: [
-        { q: 'Chủ đề trọng tâm của bài nghe là gì?', ans: 'Kỹ năng số và phát triển sự nghiệp trong thời đại mới', opts: ['Kỹ năng số và phát triển sự nghiệp trong thời đại mới', 'Lịch sử du hành vũ trụ cổ đại', 'Công thức làm bánh mì Pháp', 'Dự báo thời tiết cuối tuần'], exp: 'Bài nghe tập trung vào việc trau dồi kỹ năng số và phát triển nghề nghiệp.' },
-        { q: 'Yếu tố nào đang chuyển đổi các ngành nghề với tốc độ chưa từng có?', ans: 'Công nghệ hiện đại', opts: ['Công nghệ hiện đại', 'Thời tiết khắc nghiệt', 'Du lịch giá rẻ', 'Âm nhạc cổ điển'], exp: 'Người nói nêu: "Technology is transforming every industry at an unprecedented pace."' },
-        { q: 'Theo bài nghe, những chuyên gia nào sẽ phát triển mạnh mẽ trong các đội ngũ toàn cầu?', ans: 'Những người liên tục cập nhật năng lực bản thân', opts: ['Những người liên tục cập nhật năng lực bản thân', 'Những người từ chối sử dụng máy tính', 'Những người chỉ làm việc một mình', 'Những người bỏ cuộc khi gặp khó'], exp: 'Người nói khẳng định những ai liên tục cập nhật kỹ năng sẽ thành công rực rỡ.' },
-        { q: 'Người nói khuyên nên dành bao nhiêu thời gian mỗi ngày cho việc luyện tập có chủ đích?', ans: 'Hai mươi phút', opts: ['Hai mươi phút', 'Năm tiếng đồng hồ', 'Mười giây', 'Hai ngày liên tục'], exp: 'Người nói khuyên: "Dedicating just twenty minutes every day".' },
-        { q: 'Thông điệp nhân văn mà bài nghe muốn truyền tải là gì?', ans: 'Học tập là một hành trình suốt đời', opts: ['Học tập là một hành trình suốt đời', 'Không nên thay đổi thói quen cũ', 'Chỉ học khi bị bắt buộc', 'Công việc không cần sự kiên trì'], exp: 'Thông điệp kết luận: "Remember, learning is a lifelong journey."' },
-      ],
-    },
-    {
-      taskNumber: 2,
-      title: 'Bảo vệ môi trường & Lối sống xanh bền vững',
-      audioText: `Welcome to our eco-awareness briefing. Preserving our planet requires immediate collective action. Single-use plastics pollute our oceans and endanger marine life. By adopting eco-friendly habits—such as carrying reusable bags, conserving clean water, and utilizing public transit—we reduce our environmental footprint substantially. Small, consistent daily decisions create a powerful wave of positive change for generations to come.`,
-      questions: [
-        { q: 'Mục đích chính của buổi thông tin này là gì?', ans: 'Nâng cao nhận thức bảo vệ môi trường và lối sống xanh', opts: ['Nâng cao nhận thức bảo vệ môi trường và lối sống xanh', 'Giới thiệu một bộ phim hành động mới', 'Hướng dẫn mua sắm quần áo thời trang', 'Phân tích bảng giá xe hơi'], exp: 'Bài nghe mở đầu với "Welcome to our eco-awareness briefing".' },
-        { q: 'Tác nhân nào bị chỉ rõ là đang làm ô nhiễm đại dương và đe dọa sinh vật biển?', ans: 'Đồ nhựa dùng một lần', opts: ['Đồ nhựa dùng một lần', 'Nước ép hoa quả tươi', 'Sách báo giấy', 'Năng lượng mặt trời'], exp: 'Người nói cảnh báo: "Single-use plastics pollute our oceans and endanger marine life."' },
-        { q: 'Hành động nào sau đây được khuyến khích để giảm dấu chân sinh thái?', ans: 'Mang theo túi tái sử dụng và tiết kiệm nước sạch', opts: ['Mang theo túi tái sử dụng và tiết kiệm nước sạch', 'Sử dụng thêm túi ni-lông mỗi ngày', 'Xả rác tự do ra bờ biển', 'Bỏ qua giao thông công cộng'], exp: 'Các thói quen xanh được nêu gồm mang túi tái sử dụng, tiết kiệm nước sạch.' },
-        { q: 'Theo người nói, điều gì sẽ tạo nên làn sóng thay đổi tích cực mạnh mẽ?', ans: 'Những quyết định nhỏ bé, kiên trì mỗi ngày', opts: ['Những quyết định nhỏ bé, kiên trì mỗi ngày', 'Sự thờ ơ của cộng đồng', 'Chờ đợi người khác hành động thay', 'Chỉ hành động một lần duy nhất'], exp: 'Người nói nhấn mạnh: "Small, consistent daily decisions create a powerful wave of positive change."' },
-        { q: 'Ai sẽ là người thụ hưởng kết quả của những nỗ lực bảo tồn hôm nay?', ans: 'Các thế hệ tương lai mai sau', opts: ['Các thế hệ tương lai mai sau', 'Không một ai', 'Chỉ các nhà máy lớn', 'Người ngoài hành tinh'], exp: 'Câu kết khẳng định: "for generations to come".' },
-      ],
-    },
-  ];
+  const candidateLessons = levelLessons.filter(
+    (l) => l.listenings && l.listenings[0] && l.listenings[0].questions
+  );
+  const selectedListeningLessons = prioritizeFresh(
+    candidateLessons,
+    2,
+    recentQuestionIds,
+    (l) => `listening_track_${normLevel}_${l.orderNumber}`,
+    randomFn
+  );
 
   const listeningQuestions = [];
-  listeningTracks.forEach((track) => {
-    track.questions.forEach((qObj, qIdx) => {
+  selectedListeningLessons.forEach((lesson, trackIdx) => {
+    const track = lesson.listenings[0];
+    let qArray = [];
+    try {
+      qArray = typeof track.questions === 'string' ? JSON.parse(track.questions) : track.questions;
+    } catch {
+      qArray = [];
+    }
+
+    qArray.slice(0, 5).forEach((qObj, qIdx) => {
       listeningQuestions.push({
-        id: `listening_${level}_${track.taskNumber}_${qIdx + 1}`,
+        id: `listening_${normLevel}_L${lesson.orderNumber}_Q${qIdx + 1}`,
         part: 4,
         partName: 'Luyện nghe',
         type: 'LISTENING',
-        taskNumber: track.taskNumber,
-        audioTitle: track.title,
-        audioText: track.audioText,
-        question: `[Bài nghe ${track.taskNumber} - Câu ${qIdx + 1}/5]\n${qObj.q}`,
-        options: qObj.opts,
-        correctAnswer: qObj.ans,
-        explanation: qObj.exp,
+        taskNumber: trackIdx + 1,
+        audioTitle: track.title || `Audio Track ${trackIdx + 1}`,
+        audioText: track.transcript || '',
+        question: `[Bài nghe ${trackIdx + 1} - Câu ${qIdx + 1}/5]\n${qObj.question}`,
+        options: shuffleArray(qObj.options || [], randomFn),
+        correctAnswer: qObj.correctAnswer,
+        explanation: qObj.explanation,
+        isCorrect: false,
+        selectedAnswer: null,
+        wrongAttempts: 0,
       });
     });
   });
 
   // ----------------------------------------------------
-  // PART 5: READING COMPREHENSION (2 TASKS x 5 = 10 QUESTIONS)
+  // PART 5: 10 READING QUESTIONS (2 TASKS x 5)
+  // Drawn from Curriculum Lessons of this specific CEFR level
   // ----------------------------------------------------
-  const readingPassages = [
-    {
-      taskNumber: 1,
-      title: 'The Evolution of Modern Coffee Culture',
-      text: `Coffee has evolved from a simple morning stimulant into a sophisticated global culture. In early coffeehouses across Europe, intellectuals gathered to debate politics, philosophy, and commerce, earning these establishments the nickname "penny universities." Today, the specialized coffee movement emphasizes artisanal brewing techniques, ethical bean sourcing, and transparent supply chains. Consumers no longer view coffee as mere fuel; they appreciate distinct flavor profiles shaped by altitude, soil, and processing methods. This appreciation has elevated baristas into skilled craftspeople and fostered thriving community hubs centered around shared passion for quality beverages.`,
-      questions: [
-        { q: 'Ý chính của đoạn văn trên là gì?', ans: 'Sự phát triển từ thức uống đơn giản thành nét văn hóa thưởng thức toàn cầu của cà phê', opts: ['Sự phát triển từ thức uống đơn giản thành nét văn hóa thưởng thức toàn cầu của cà phê', 'Tác hại của việc uống quá nhiều caffeine mỗi sáng', 'Quy trình trồng trọt cây ngô tại vùng ôn đới', 'Lịch sử phát minh ra ấm đun nước điện'], exp: 'Đoạn văn khái quát hành trình cà phê trở thành một nền văn hóa sành điệu trên thế giới.' },
-        { q: 'Tại sao các quán cà phê châu Âu thời kỳ đầu lại được gọi là "penny universities"?', ans: 'Vì giới trí thức tụ họp tại đó để tranh luận tri thức, chính trị và thương mại', opts: ['Vì giới trí thức tụ họp tại đó để tranh luận tri thức, chính trị và thương mại', 'Vì học phí đại học ở đó rất đắt đỏ', 'Vì sinh viên đến đó để thi tốt nghiệp', 'Vì chỉ có giáo sư mới được phép vào quán'], exp: 'Đoạn văn nêu rõ: "intellectuals gathered to debate politics, philosophy, and commerce".' },
-        { q: 'Làn sóng cà phê đặc sản ngày nay đặc biệt nhấn mạnh yếu tố nào?', ans: 'Kỹ thuật pha thủ công, nguồn hạt nhân văn và chuỗi cung ứng minh bạch', opts: ['Kỹ thuật pha thủ công, nguồn hạt nhân văn và chuỗi cung ứng minh bạch', 'Sử dụng đường nhân tạo với số lượng lớn', 'Pha chế công nghiệp hàng loạt nhanh nhất có thể', 'Giấu kín nguồn gốc xuất xứ của hạt cà phê'], exp: 'Văn bản nêu: "emphasizes artisanal brewing techniques, ethical bean sourcing, and transparent supply chains".' },
-        { q: 'Theo văn bản, hương vị đặc trưng của hạt cà phê được định hình bởi điều gì?', ans: 'Độ cao, thổ nhưỡng và phương pháp sơ chế hạt', opts: ['Độ cao, thổ nhưỡng và phương pháp sơ chế hạt', 'Màu sắc của cốc giấy đựng đồ uống', 'Thời tiết tại thủ đô London', 'Số lượng ghế ngồi trong quán'], exp: 'Trích văn bản: "shaped by altitude, soil, and processing methods".' },
-        { q: 'Từ "fostered" trong câu cuối có nét nghĩa gần nhất với từ nào sau đây?', ans: 'Nurtured / Promoted (Nuôi dưỡng, thúc đẩy phát triển)', opts: ['Nurtured / Promoted (Nuôi dưỡng, thúc đẩy phát triển)', 'Destroyed (Phá hủy)', 'Ignored (Phớt lờ bỏ qua)', 'Prevented (Ngăn cản)'], exp: '"Foster" trong ngữ cảnh này mang nghĩa nuôi dưỡng và thúc đẩy sự phát triển của cộng đồng.' },
-      ],
-    },
-    {
-      taskNumber: 2,
-      title: 'Urban Green Spaces and Well-Being',
-      text: `As urban populations swell, access to green spaces has become a vital component of public health strategy. Numerous clinical studies confirm that regular immersion in natural environments reduces cortisol levels, alleviates chronic anxiety, and sharpens cognitive focus. Parks and community gardens also function as essential ecological buffers against urban heat island effects, absorbing atmospheric pollutants and regulating local microclimates. Furthermore, public parks democratize recreation by offering accessible venues for physical exercise, social interaction, and quiet contemplation regardless of socioeconomic status. Investing in urban biodiversity is therefore not an aesthetic luxury, but a fundamental prerequisite for sustainable city living.`,
-      questions: [
-        { q: 'Luận điểm chính của đoạn văn trên là gì?', ans: 'Không gian xanh đô thị là yếu tố cốt lõi cho sức khỏe cộng đồng và thành phố bền vững', opts: ['Không gian xanh đô thị là yếu tố cốt lõi cho sức khỏe cộng đồng và thành phố bền vững', 'Các thành phố nên xóa bỏ toàn bộ công viên để xây cao ốc', 'Ô tô điện là phương tiện duy nhất làm sạch không khí', 'Nông nghiệp truyền thống không thể tồn tại ở thế kỷ 21'], exp: 'Đoạn văn khẳng định không gian xanh là điều kiện tiên quyết cho sự bền vững và sức khỏe công chúng.' },
-        { q: 'Theo các nghiên cứu lâm sàng, tiếp xúc với thiên nhiên mang lại lợi ích gì cho cơ thể?', ans: 'Giảm mức cortisol, xoa dịu lo âu kinh niên và tăng cường tập trung nhận thức', opts: ['Giảm mức cortisol, xoa dịu lo âu kinh niên và tăng cường tập trung nhận thức', 'Tăng huyết áp và gây căng thẳng thần kinh', 'Làm giảm trí nhớ và khả năng tư duy', 'Khiến con người mất ngủ liên tục'], exp: 'Trích văn bản: "reduces cortisol levels, alleviates chronic anxiety, and sharpens cognitive focus".' },
-        { q: 'Công viên và vườn cộng đồng đóng vai trò sinh thái nào đối với đô thị?', ans: 'Giảm hiệu ứng đảo nhiệt, hấp thụ khí thải và điều hòa vi khí hậu', opts: ['Giảm hiệu ứng đảo nhiệt, hấp thụ khí thải và điều hòa vi khí hậu', 'Tạo thêm nhiệt lượng làm thành phố nóng bức hơn', 'Tăng lượng bụi mịn độc hại trong không khí', 'Làm tắc nghẽn hệ thống thoát nước mưa'], exp: 'Trích văn bản: "buffers against urban heat island effects, absorbing atmospheric pollutants".' },
-        { q: 'Cụm từ "democratize recreation" trong văn bản mang ý nghĩa gì?', ans: 'Mang lại không gian vui chơi, rèn luyện bình đẳng cho mọi tầng lớp xã hội', opts: ['Mang lại không gian vui chơi, rèn luyện bình đẳng cho mọi tầng lớp xã hội', 'Bán vé vào cửa công viên với giá rất đắt đỏ', 'Chỉ mở cửa công viên cho một nhóm người ưu tiên', 'Tổ chức các cuộc bầu cử chính trị tại công viên'], exp: 'Không gian xanh mở ra cơ hội giải trí, vận động bình đẳng "regardless of socioeconomic status".' },
-        { q: 'Tác giả kết luận việc đầu tư vào đa dạng sinh học đô thị là gì?', ans: 'Một điều kiện tiên quyết nền tảng, không phải thứ xa xỉ phẩm trang trí', opts: ['Một điều kiện tiên quyết nền tảng, không phải thứ xa xỉ phẩm trang trí', 'Một sự lãng phí ngân sách không cần thiết', 'Một xu hướng nhất thời sắp bị lãng quên', 'Một gánh nặng kinh tế cho người dân'], exp: 'Văn bản kết luận: "not an aesthetic luxury, but a fundamental prerequisite for sustainable city living".' },
-      ],
-    },
-  ];
+  const candidateReadingLessons = levelLessons.filter(
+    (l) => l.readings && l.readings[0] && l.readings[0].questions
+  );
+  const selectedReadingLessons = prioritizeFresh(
+    candidateReadingLessons,
+    2,
+    recentQuestionIds,
+    (l) => `reading_passage_${normLevel}_${l.orderNumber}`,
+    randomFn
+  );
 
   const readingQuestions = [];
-  readingPassages.forEach((passage) => {
-    passage.questions.forEach((qObj, qIdx) => {
+  selectedReadingLessons.forEach((lesson, passageIdx) => {
+    const readingModule = lesson.readings[0];
+    let qArray = [];
+    try {
+      qArray = typeof readingModule.questions === 'string'
+        ? JSON.parse(readingModule.questions)
+        : readingModule.questions;
+    } catch {
+      qArray = [];
+    }
+
+    qArray.slice(0, 5).forEach((qObj, qIdx) => {
       readingQuestions.push({
-        id: `reading_${level}_${passage.taskNumber}_${qIdx + 1}`,
+        id: `reading_${normLevel}_L${lesson.orderNumber}_Q${qIdx + 1}`,
         part: 5,
         partName: 'Luyện đọc',
         type: 'READING',
-        taskNumber: passage.taskNumber,
-        passageTitle: passage.title,
-        passageText: passage.text,
-        question: `[Bài đọc ${passage.taskNumber} - Câu ${qIdx + 1}/5]\n${qObj.q}`,
-        options: qObj.opts,
-        correctAnswer: qObj.ans,
-        explanation: qObj.exp,
+        taskNumber: passageIdx + 1,
+        passageTitle: readingModule.title || `Reading Passage ${passageIdx + 1}`,
+        passageText: readingModule.passage || '',
+        question: `[Bài đọc ${passageIdx + 1} - Câu ${qIdx + 1}/5]\n${qObj.question}`,
+        options: shuffleArray(qObj.options || [], randomFn),
+        correctAnswer: qObj.correctAnswer,
+        explanation: qObj.explanation,
+        isCorrect: false,
+        selectedAnswer: null,
+        wrongAttempts: 0,
       });
     });
   });
 
-  // Consolidate into 5 parts
   return [
     { partNumber: 1, title: 'Từ vựng', targetCount: 20, questions: vocabQuestions },
     { partNumber: 2, title: 'Luyện nói', targetCount: 10, questions: speakingQuestions },
@@ -346,4 +623,8 @@ function generateDailyBankForLevel(level) {
   ];
 }
 
-module.exports = { generateDailyBankForLevel };
+module.exports = {
+  generateDailyBankForLevel,
+  ALL_SPEAKING_SITUATIONS,
+  ALL_ERROR_SENTENCES,
+};

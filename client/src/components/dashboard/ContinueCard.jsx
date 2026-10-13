@@ -11,7 +11,7 @@ export default function ContinueCard({ continueLesson }) {
     <div className="rounded-3xl bg-white border border-slate-200/80 p-6 shadow-sm hover:shadow-md transition">
       <div className="flex items-center justify-between mb-3">
         <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-          Tiếp tục học dở dang
+          Tiếp tục học
         </span>
         <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">
           Bài {continueLesson.orderNumber}
@@ -42,7 +42,7 @@ export default function ContinueCard({ continueLesson }) {
         className="w-full py-2.5 px-4 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center justify-center gap-2 transition"
       >
         <PlayCircle className="w-4 h-4" />
-        <span>Tiếp tục học ngay</span>
+        <span>Tiếp tục học</span>
       </button>
     </div>
   );

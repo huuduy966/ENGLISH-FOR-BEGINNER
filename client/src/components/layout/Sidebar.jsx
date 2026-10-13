@@ -5,12 +5,13 @@ import {
   Home,
   BookOpen,
   Search,
-  CheckSquare,
+  ClipboardCheck,
   BarChart2,
   User,
   ShieldCheck,
-  Star,
+  Target,
   LogOut,
+  X,
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
@@ -21,7 +22,7 @@ export default function Sidebar({ isOpen, onClose }) {
     { name: 'Trang chủ', path: '/dashboard', icon: Home },
     { name: 'Bài học', path: '/lessons', icon: BookOpen },
     { name: 'Tra từ điển', path: '/dictionary', icon: Search },
-    { name: 'Kiểm tra đầu vào', path: '/placement-test', icon: CheckSquare },
+    { name: 'Bài kiểm tra', path: '/exam', icon: ClipboardCheck },
     { name: 'Tiến độ học', path: '/progress', icon: BarChart2 },
     { name: 'Hồ sơ cá nhân', path: '/profile', icon: User },
   ];
@@ -51,8 +52,16 @@ export default function Sidebar({ isOpen, onClose }) {
         }`}
       >
         {/* Brand header */}
-        <div className="h-16 flex items-center px-5 border-b border-slate-100">
+        <div className="h-16 flex items-center justify-between px-5 border-b border-slate-100">
           <Logo size="sm" to="/dashboard" />
+          <button
+            type="button"
+            onClick={onClose}
+            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 lg:hidden transition"
+            aria-label="Đóng menu"
+          >
+            <X className="w-5 h-5" />
+          </button>
         </div>
 
         {/* Navigation list */}
@@ -98,8 +107,8 @@ export default function Sidebar({ isOpen, onClose }) {
               </span>
             </div>
             <div className="flex items-center gap-2 mt-2 pt-2 border-t border-blue-200/50 text-xs text-slate-600">
-              <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
-              <span>{user.xp || 0} XP tích lũy</span>
+              <Target className="w-4 h-4 text-blue-600" />
+              <span>{user.practiceScore || 0} điểm làm bài</span>
             </div>
           </div>
         )}

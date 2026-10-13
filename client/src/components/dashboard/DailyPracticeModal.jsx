@@ -23,6 +23,8 @@ import {
 } from 'lucide-react';
 import api from '../../services/api';
 import { speakText } from '../../utils/speech';
+import { getVietnamDateString } from '../../utils/vietnamTime';
+import { useAuth } from '../../contexts/AuthContext';
 
 export default function DailyPracticeModal({
   isOpen,
@@ -32,6 +34,7 @@ export default function DailyPracticeModal({
   sessionData,
   onSessionUpdated,
 }) {
+  const { user, updateUser } = useAuth();
   const [currentPartNum, setCurrentPartNum] = useState(initialPartNumber);
   const [currentQIndex, setCurrentQIndex] = useState(initialQuestionIndex);
   const [selectedOption, setSelectedOption] = useState(null);
@@ -44,6 +47,8 @@ export default function DailyPracticeModal({
   const [session, setSession] = useState(sessionData);
 
   const autoAdvanceTimerRef = useRef(null);
+  const handleNextQuestionRef = useRef(null);
+  const wasOpenRef = useRef(false);
 
   const clearTimer = () => {
     if (autoAdvanceTimerRef.current) {
@@ -70,29 +75,29 @@ export default function DailyPracticeModal({
     }
   }, [isOpen]);
 
-  // Only initialize position on initial mount / open
-  const initializedRef = useRef(false);
-
+  // Only initialize position when modal transitions to open
   useEffect(() => {
-    if (!initializedRef.current && sessionData) {
-      initializedRef.current = true;
+    if (isOpen && !wasOpenRef.current && sessionData) {
+      wasOpenRef.current = true;
       setSession(sessionData);
       setCurrentPartNum(initialPartNumber || 1);
-      setCurrentQIndex(initialQuestionIndex || 0);
+      setCurrentQIndex(initialQuestionIndex !== undefined ? initialQuestionIndex : 0);
       const isDone = sessionData.completed || (sessionData.completedCount >= (sessionData.totalQuestions || 60) && sessionData.completedCount > 0);
       setIsDayFinished(isDone);
+    } else if (!isOpen) {
+      wasOpenRef.current = false;
     }
-  }, [initialPartNumber, initialQuestionIndex, sessionData]);
+  }, [isOpen, initialPartNumber, initialQuestionIndex, sessionData]);
 
-  // If sessionData updates from outside, update data without resetting navigation index
+  // If sessionData updates from outside while open, update data without resetting navigation index
   useEffect(() => {
-    if (sessionData && initializedRef.current) {
+    if (sessionData && isOpen) {
       setSession(sessionData);
       if (sessionData.completed || (sessionData.completedCount >= (sessionData.totalQuestions || 60) && sessionData.completedCount > 0)) {
         setIsDayFinished(true);
       }
     }
-  }, [sessionData]);
+  }, [sessionData, isOpen]);
 
   // Reset feedback & options when question changes
   useEffect(() => {
@@ -102,6 +107,21 @@ export default function DailyPracticeModal({
     setIsPlayingAudio(false);
     window.speechSynthesis?.cancel();
   }, [currentPartNum, currentQIndex]);
+
+  // Active check: If time passes 00:00 VN while modal is open, cancel timers & close modal
+  useEffect(() => {
+    const checkMidnightPassing = () => {
+      const todayVn = getVietnamDateString();
+      if (session?.date && session.date !== todayVn) {
+        clearTimer();
+        window.speechSynthesis?.cancel();
+        if (onClose) onClose();
+      }
+    };
+
+    const interval = setInterval(checkMidnightPassing, 3000);
+    return () => clearInterval(interval);
+  }, [session?.date, onClose]);
 
   if (!isOpen || !session || !session.parts) return null;
 
@@ -137,37 +157,65 @@ export default function DailyPracticeModal({
   // Advance to next question
   const handleNextQuestion = () => {
     clearTimer();
-    const nextQ = currentQIndex + 1;
     const totalInPart = currentPart?.questions?.length || 10;
-    const pNum = currentPartNum;
+    let nextP = currentPartNum;
+    let nextQ = currentQIndex + 1;
 
-    if (nextQ < totalInPart) {
-      setCurrentQIndex(nextQ);
-    } else if (pNum < 5) {
-      setCurrentPartNum(pNum + 1);
-      setCurrentQIndex(0);
-    } else {
-      setIsDayFinished(true);
+    if (nextQ >= totalInPart) {
+      if (nextP < 5) {
+        nextP += 1;
+        nextQ = 0;
+      } else {
+        setIsDayFinished(true);
+        return;
+      }
     }
+
+    setCurrentPartNum(nextP);
+    setCurrentQIndex(nextQ);
+
+    // Update session cursor and inform parent
+    setSession((prev) => {
+      const next = {
+        ...prev,
+        activePartNumber: nextP,
+        activeQuestionIndex: nextQ,
+      };
+      if (onSessionUpdated) {
+        onSessionUpdated(next);
+      }
+      return next;
+    });
+
+    // Persist position to server
+    api.post('/daily-practice/progress', {
+      currentPart: nextP,
+      currentQuestionIndex: nextQ,
+    }).catch((err) => console.warn('Save progress error:', err.message));
   };
+
+  handleNextQuestionRef.current = handleNextQuestion;
 
   // Immediate Option Click Verification
   const handleSelectOption = async (option) => {
     if (submitting || feedback) return;
 
+    clearTimer();
     setSelectedOption(option);
     setSubmitting(true);
 
     try {
       const res = await api.post('/daily-practice/answer', {
+        sessionId: session.id,
         partNumber: currentPartNum,
         questionIndex: currentQIndex,
         selectedOption: option,
       });
 
-      const { isCorrect, pointsDelta, newScore, userPracticeScore, explanation, isDayCompleted } = res.data;
+      const { isCorrect, pointsDelta, newScore, userPracticeScore, explanation, isDayCompleted, nextPartNum, nextQIndex } = res.data;
 
       // Update local session state
+      let updatedSession = null;
       setSession((prev) => {
         const next = JSON.parse(JSON.stringify(prev));
         next.score = newScore;
@@ -176,25 +224,47 @@ export default function DailyPracticeModal({
         if (p && p.questions[currentQIndex]) {
           p.questions[currentQIndex].isCorrect = isCorrect;
           p.questions[currentQIndex].selectedAnswer = option;
+          p.questions[currentQIndex].isAnswered = true;
         }
-        // Recalculate completed count
+        // Recalculate completed count (any answered question counts towards completion progress)
         let comp = 0;
         next.parts.forEach((part) => {
-          comp += part.questions.filter((q) => q.isCorrect).length;
+          comp += part.questions.filter((q) => q.isAnswered || q.isCorrect || (q.selectedAnswer !== undefined && q.selectedAnswer !== null)).length;
         });
         next.completedCount = comp;
         next.remainingCount = Math.max(0, 60 - comp);
-        next.completed = isDayCompleted || false;
+        next.completed = isDayCompleted || (comp >= 60);
+        if (nextPartNum) next.activePartNumber = nextPartNum;
+        if (nextQIndex !== undefined) next.activeQuestionIndex = nextQIndex;
 
-        if (onSessionUpdated) onSessionUpdated(next);
+        updatedSession = next;
         return next;
       });
+
+      if (onSessionUpdated && updatedSession) {
+        onSessionUpdated(updatedSession);
+      }
+
+      if (updateUser && (res.data?.userPracticeScore !== undefined || res.data?.streakDays !== undefined)) {
+        updateUser({
+          practiceScore: res.data.userPracticeScore !== undefined ? res.data.userPracticeScore : user?.practiceScore,
+          streakDays: res.data.streakDays !== undefined ? res.data.streakDays : user?.streakDays,
+        });
+      }
 
       setFeedback({
         isCorrect,
         pointsDelta: isCorrect ? 4 : -2,
         explanation: explanation || (isCorrect ? 'Chính xác!' : 'Đáp án chính xác là: ' + currentQ.correctAnswer),
       });
+
+      // Automatically advance to the next question (1.5s if correct, 2.5s if wrong to allow reading explanation)
+      const autoDelay = isCorrect ? 1500 : 2500;
+      autoAdvanceTimerRef.current = setTimeout(() => {
+        if (handleNextQuestionRef.current) {
+          handleNextQuestionRef.current();
+        }
+      }, autoDelay);
     } catch (err) {
       console.error('Answer submission error:', err);
       alert('Có lỗi khi kiểm tra đáp án. Vui lòng thử lại.');
@@ -207,6 +277,17 @@ export default function DailyPracticeModal({
   const handleClose = () => {
     clearTimer();
     window.speechSynthesis?.cancel();
+    if (onSessionUpdated && session) {
+      onSessionUpdated({
+        ...session,
+        activePartNumber: currentPartNum,
+        activeQuestionIndex: currentQIndex,
+      });
+    }
+    api.post('/daily-practice/progress', {
+      currentPart: currentPartNum,
+      currentQuestionIndex: currentQIndex,
+    }).catch(() => {});
     onClose();
   };
 
@@ -253,40 +334,40 @@ export default function DailyPracticeModal({
         ) : (
           <>
             {/* Modal Top Bar */}
-            <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between gap-3 bg-white sticky top-0 z-20">
-              <div className="flex items-center gap-2.5">
-                <div className={`p-2 rounded-xl border ${meta.color}`}>
+            <div className="px-3.5 sm:px-5 py-3 sm:py-4 border-b border-slate-100 flex items-center justify-between gap-2 bg-white sticky top-0 z-20">
+              <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
+                <div className={`p-1.5 sm:p-2 rounded-xl border ${meta.color} shrink-0`}>
                   <PartIcon className="w-4 h-4" />
                 </div>
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-xs font-black text-slate-800">
+                <div className="min-w-0">
+                  <div className="flex items-center gap-1.5 sm:gap-2">
+                    <span className="text-xs font-black text-slate-800 truncate">
                       Phần {currentPartNum}/5: {meta.name}
                     </span>
-                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-100">
+                    <span className="text-[10px] font-extrabold uppercase px-1.5 sm:px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-100 shrink-0">
                       {session.level}
                     </span>
                   </div>
-                  <p className="text-[11px] text-slate-400 font-medium">
+                  <p className="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate">
                     Câu {overallIndex} / 60 trong ngày (Câu {currentQIndex + 1} / {currentPart?.questions?.length || 10})
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2 sm:gap-4 shrink-0">
                 <div className="text-right">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
-                    Điểm hôm nay
+                  <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Điểm
                   </span>
-                  <span className="text-sm sm:text-base font-black text-blue-600">
-                    {session.score} điểm
+                  <span className="text-xs sm:text-base font-black text-blue-600">
+                    {session.score} đ
                   </span>
                 </div>
 
                 <button
                   type="button"
                   onClick={handleClose}
-                  className="p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition"
+                  className="p-1.5 sm:p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition shrink-0"
                   title="Thoát và lưu tiến độ"
                 >
                   <X className="w-5 h-5" />
@@ -318,26 +399,24 @@ export default function DailyPracticeModal({
                   🎉 Chúc mừng! Hoàn thành mục tiêu 60 câu!
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-500 mt-2 leading-relaxed">
-                  Bạn đã xuất sắc vượt qua toàn bộ 5 phần luyện tập hằng ngày cấp độ{' '}
+                  Bạn đã vượt qua toàn bộ luyện tập hằng ngày cấp độ{' '}
                   <strong className="text-blue-600">{session.level}</strong> của ngày hôm nay.
                 </p>
               </div>
 
               {/* Score summary metrics */}
-              <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 inline-flex items-center justify-center gap-8 shadow-xs">
-                <div>
-                  <p className="text-[11px] font-bold uppercase text-slate-400">Điểm hôm nay</p>
-                  <p className="text-2xl font-black text-blue-600 mt-0.5">+{session.score} đ</p>
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 grid grid-cols-3 gap-2 sm:gap-4 w-full max-w-md mx-auto shadow-xs text-center">
+                <div className="min-w-0">
+                  <p className="text-[10px] sm:text-[11px] font-bold uppercase text-slate-400 truncate">Hôm nay</p>
+                  <p className="text-lg sm:text-2xl font-black text-blue-600 mt-0.5 truncate">+{session.score} đ</p>
                 </div>
-                <div className="h-8 w-px bg-slate-200" />
-                <div>
-                  <p className="text-[11px] font-bold uppercase text-slate-400">Tổng điểm làm bài</p>
-                  <p className="text-2xl font-black text-emerald-600 mt-0.5">{session.userPracticeScore} đ</p>
+                <div className="min-w-0 border-x border-slate-200 px-1 sm:px-2">
+                  <p className="text-[10px] sm:text-[11px] font-bold uppercase text-slate-400 truncate">Tổng điểm</p>
+                  <p className="text-lg sm:text-2xl font-black text-emerald-600 mt-0.5 truncate">{session.userPracticeScore} đ</p>
                 </div>
-                <div className="h-8 w-px bg-slate-200" />
-                <div>
-                  <p className="text-[11px] font-bold uppercase text-slate-400">Hoàn thành</p>
-                  <p className="text-2xl font-black text-slate-800 mt-0.5">60 / 60</p>
+                <div className="min-w-0">
+                  <p className="text-[10px] sm:text-[11px] font-bold uppercase text-slate-400 truncate">Hoàn thành</p>
+                  <p className="text-lg sm:text-2xl font-black text-slate-800 mt-0.5 truncate">60/60</p>
                 </div>
               </div>
 
@@ -472,7 +551,9 @@ export default function DailyPracticeModal({
                     )}
                     <div className="space-y-1">
                       <p className="font-black text-sm sm:text-base">
-                        {feedback.isCorrect ? '🎉 Chính xác! +4 điểm' : 'Chưa chính xác! -2 điểm'}
+                        {feedback.isCorrect
+                          ? '🎉 Chính xác! +4 điểm (Tự động chuyển câu sau 1,5s...)'
+                          : 'Chưa chính xác! -2 điểm (Tự động chuyển câu sau 2,5s...)'}
                       </p>
                       <p className="text-xs opacity-90 leading-relaxed">
                         {feedback.explanation}

@@ -48,11 +48,11 @@ export default function LessonManager({ lessons = [], onRefresh }) {
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
         <h3 className="font-bold text-lg text-slate-900">Quản lý Bài học ({lessons.length})</h3>
         <button
           onClick={() => setShowAddModal(true)}
-          className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center gap-1.5 transition shadow-sm"
+          className="self-start sm:self-auto px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center gap-1.5 transition shadow-sm"
         >
           <Plus className="w-4 h-4" />
           <span>Thêm bài học mới</span>

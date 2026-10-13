@@ -1,5 +1,55 @@
 const prisma = require('../db');
 
+const CEFR_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+/**
+ * Determines which CEFR levels are unlocked for a user.
+ * Rules:
+ * 1. Admin has all levels unlocked.
+ * 2. Levels up to user.level (from placement test or manual assignment) are unlocked (e.g. tested into A2 -> A1, A2 unlocked).
+ * 3. Higher levels unlock when all lessons of the preceding level are completed (e.g. 30/30 of A1 completed -> A2 unlocked).
+ */
+async function getUnlockedLevelsForUser(userId, userLevel, isAdmin = false) {
+  const unlocked = new Set();
+  if (isAdmin) {
+    CEFR_ORDER.forEach((lvl) => unlocked.add(lvl));
+    return unlocked;
+  }
+
+  // 1. Current user level from profile (e.g. from placement test or profile setting)
+  const currentLvl = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].includes(userLevel) ? userLevel : 'A1';
+  const currentIdx = CEFR_ORDER.indexOf(currentLvl);
+
+  // All levels from A1 up to currentLvl are unlocked
+  for (let i = 0; i <= currentIdx; i++) {
+    unlocked.add(CEFR_ORDER[i]);
+  }
+
+  // 2. Progressive unlock: Check if levels beyond currentLvl are unlocked through completing prior levels
+  if (userId) {
+    for (let i = currentIdx + 1; i < CEFR_ORDER.length; i++) {
+      const prevLvl = CEFR_ORDER[i - 1];
+      const totalInPrev = await prisma.lesson.count({ where: { level: prevLvl } });
+      const completedInPrev = await prisma.userProgress.count({
+        where: {
+          userId,
+          completed: true,
+          lesson: { level: prevLvl },
+        },
+      });
+
+      // If user completed all lessons of previous level (e.g. 30/30), unlock this higher level
+      if (totalInPrev > 0 && completedInPrev >= totalInPrev) {
+        unlocked.add(CEFR_ORDER[i]);
+      } else {
+        break; // Progression is strictly sequential across levels
+      }
+    }
+  }
+
+  return unlocked;
+}
+
 async function getLessons(req, res) {
   try {
     const userId = req.user ? req.user.id : null;
@@ -104,17 +154,33 @@ async function getLessons(req, res) {
       },
     });
 
-    // Format and calculate sequential lock status per level
+    // Check which CEFR levels are unlocked for this user
+    const unlockedLevels = await getUnlockedLevelsForUser(userId, req.user?.level || 'A1', isAdmin);
+
+    // Format and calculate sequential lock status per level & cross-level
     let formatted = allMatchingLessons.map((l) => {
       const up = userProgressMap.get(l.id);
       const isCompleted = up ? up.completed : false;
 
-      // Independent Per-Level Sequential Progression:
-      // Lesson 1 of any level is never locked.
-      // Lesson N (N > 1) is unlocked if Lesson N - 1 in THAT SAME level is completed.
-      const levelSet = completedOrdersByLevel[l.level] || new Set();
-      const prevOrderCompleted = l.orderNumber === 1 || levelSet.has(l.orderNumber - 1);
-      const isLocked = !isAdmin && !prevOrderCompleted;
+      // Cross-Level Progression: Is this lesson's level unlocked for the student?
+      const isLevelUnlocked = isAdmin || unlockedLevels.has(l.level);
+
+      let isLocked = false;
+      let isLevelLocked = false;
+
+      if (!isLevelUnlocked) {
+        // Level is locked (e.g. A2 locked because A1 not yet completed and user not assessed A2)
+        isLocked = true;
+        isLevelLocked = true;
+      } else {
+        // Level is unlocked. Enforce in-level sequential lock:
+        // Lesson 1 is always unlocked.
+        // Lesson N (N > 1) is unlocked if Lesson N - 1 in that level was completed.
+        const levelSet = completedOrdersByLevel[l.level] || new Set();
+        const prevOrderCompleted = l.orderNumber === 1 || levelSet.has(l.orderNumber - 1);
+        isLocked = !isAdmin && !prevOrderCompleted;
+      }
+
       const isCurrentActive = !isCompleted && !isLocked;
 
       return {
@@ -130,6 +196,7 @@ async function getLessons(req, res) {
         completed: isCompleted,
         score: up ? up.score : 0,
         isLocked,
+        isLevelLocked,
         isCurrentActive,
       };
     });
@@ -165,6 +232,8 @@ async function getLessons(req, res) {
         learningInLevel,
       },
       categories,
+      unlockedLevels: Array.from(unlockedLevels),
+      isCurrentLevelLocked: !isAdmin && effectiveLevel !== 'All' && !unlockedLevels.has(effectiveLevel),
     });
   } catch (error) {
     console.error('getLessons error:', error);
@@ -201,24 +270,50 @@ async function getLessonById(req, res) {
       return res.status(404).json({ message: 'Không tìm thấy bài học.' });
     }
 
-    // Check sequential progression lock for non-admin students within the same level
-    if (userId && req.user.role !== 'ADMIN' && lesson.orderNumber > 1) {
-      const prevLesson = await prisma.lesson.findFirst({
-        where: { level: lesson.level, orderNumber: lesson.orderNumber - 1 },
-      });
-      if (prevLesson) {
-        const prevProgress = await prisma.userProgress.findUnique({
-          where: { userId_lessonId: { userId, lessonId: prevLesson.id } },
+    // Check progression lock for non-admin students
+    if (userId && req.user.role !== 'ADMIN') {
+      const unlockedLevels = await getUnlockedLevelsForUser(userId, req.user?.level || 'A1', false);
+
+      // 1. Cross-Level Check: Is this lesson's level unlocked for the student?
+      if (!unlockedLevels.has(lesson.level)) {
+        const lvlIdx = CEFR_ORDER.indexOf(lesson.level);
+        const prevLvl = lvlIdx > 0 ? CEFR_ORDER[lvlIdx - 1] : 'A1';
+        const totalInPrev = await prisma.lesson.count({ where: { level: prevLvl } });
+        const completedInPrev = await prisma.userProgress.count({
+          where: { userId, completed: true, lesson: { level: prevLvl } },
         });
-        if (!prevProgress || !prevProgress.completed) {
-          return res.status(403).json({
-            message: `Bài học này đang bị khóa. Bạn cần hoàn thành Bài ${prevLesson.orderNumber}: "${prevLesson.title}" của cấp độ ${lesson.level} theo thứ tự trước.`,
-            isLocked: true,
-            requiredLessonId: prevLesson.id,
-            requiredLessonTitle: prevLesson.title,
-            requiredOrderNumber: prevLesson.orderNumber,
-            level: lesson.level,
+
+        return res.status(403).json({
+          message: `Cấp độ ${lesson.level} đang bị khóa. Bạn cần hoàn thành tất cả ${totalInPrev} bài học của cấp độ ${prevLvl} (hoặc đạt cấp độ ${lesson.level} trong bài kiểm tra đầu vào) để mở khóa cấp độ này.`,
+          isLocked: true,
+          isLevelLocked: true,
+          lockedLevel: lesson.level,
+          requiredLevel: prevLvl,
+          requiredTotal: totalInPrev,
+          currentCompletedInPrev: completedInPrev,
+        });
+      }
+
+      // 2. In-Level Check: Lesson N (N > 1) requires Lesson N - 1 in that level completed
+      if (lesson.orderNumber > 1) {
+        const prevLesson = await prisma.lesson.findFirst({
+          where: { level: lesson.level, orderNumber: lesson.orderNumber - 1 },
+        });
+        if (prevLesson) {
+          const prevProgress = await prisma.userProgress.findUnique({
+            where: { userId_lessonId: { userId, lessonId: prevLesson.id } },
           });
+          if (!prevProgress || !prevProgress.completed) {
+            return res.status(403).json({
+              message: `Bài học này đang bị khóa. Bạn cần hoàn thành Bài ${prevLesson.orderNumber}: "${prevLesson.title}" của cấp độ ${lesson.level} theo thứ tự trước.`,
+              isLocked: true,
+              isLevelLocked: false,
+              requiredLessonId: prevLesson.id,
+              requiredLessonTitle: prevLesson.title,
+              requiredOrderNumber: prevLesson.orderNumber,
+              level: lesson.level,
+            });
+          }
         }
       }
     }
@@ -336,22 +431,9 @@ async function completeLesson(req, res) {
       },
     });
 
-    // Reward XP if first time completed
-    let xpGained = 0;
-    if (!wasCompleted) {
-      xpGained = 20;
-      await prisma.user.update({
-        where: { id: userId },
-        data: {
-          xp: { increment: xpGained },
-        },
-      });
-    }
-
     return res.json({
       message: 'Hoàn thành bài học thành công! Bài học tiếp theo đã được mở khóa.',
       progress,
-      xpGained,
     });
   } catch (error) {
     console.error('completeLesson error:', error);

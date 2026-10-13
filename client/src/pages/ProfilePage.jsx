@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { User, Mail, Target, Award, Flame, LogOut, CheckCircle2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { User, Mail, Target, Award, Flame, LogOut, CheckCircle2, Compass } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function ProfilePage() {
@@ -21,20 +22,20 @@ export default function ProfilePage() {
       </div>
 
       {/* Main Profile Info Card */}
-      <div className="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm space-y-6">
-        <div className="flex items-center gap-5 border-b border-slate-100 pb-6">
-          <div className="w-20 h-20 rounded-3xl bg-blue-600 text-white font-extrabold text-3xl flex items-center justify-center shadow-lg shadow-blue-500/20">
+      <div className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-8 border border-slate-200/80 shadow-xs space-y-5 sm:space-y-6">
+        <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 sm:gap-5 border-b border-slate-100 pb-5 sm:pb-6">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl sm:rounded-3xl bg-blue-600 text-white font-extrabold text-2xl sm:text-3xl flex items-center justify-center shadow-lg shadow-blue-500/20 shrink-0">
             {user.name?.charAt(0).toUpperCase() || 'U'}
           </div>
-          <div>
-            <h2 className="text-2xl font-bold text-slate-900">{user.name}</h2>
-            <p className="text-sm text-slate-500">{user.email}</p>
-            <div className="flex items-center gap-2 mt-2">
+          <div className="min-w-0">
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 truncate">{user.name}</h2>
+            <p className="text-xs sm:text-sm text-slate-500 truncate">{user.email}</p>
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5 sm:gap-2 mt-2">
               <span className="px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
                 Level {user.level || 'A1'}
               </span>
-              <span className="px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-700 text-xs font-bold border border-amber-200">
-                {user.xp || 0} XP
+              <span className="px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
+                {user.practiceScore || 0} điểm làm bài
               </span>
               {user.role === 'ADMIN' && (
                 <span className="px-2.5 py-0.5 rounded-full bg-purple-50 text-purple-700 text-xs font-bold border border-purple-200">
@@ -59,6 +60,29 @@ export default function ProfilePage() {
               {user.streakDays || 1} ngày streak
             </span>
           </div>
+        </div>
+
+        {/* Placement Test Status & Action Banner */}
+        <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blue-50 via-indigo-50 to-blue-50 border border-blue-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-2xs">
+          <div className="flex items-center gap-3">
+            <div className="p-2.5 rounded-xl bg-white text-blue-600 shadow-2xs">
+              <Compass className="w-5 h-5" />
+            </div>
+            <div>
+              <span className="text-xs font-black text-slate-900 block">Đánh giá trình độ đầu vào</span>
+              <span className="text-[11px] text-slate-500 font-medium">
+                {user.placementStatus === 'ASSESSED'
+                  ? `Đã hoàn thành đánh giá • Trình độ hiện tại: Level ${user.level || 'A1'}`
+                  : 'Trạng thái: Chưa đánh giá trình độ (Đang học từ đầu)'}
+              </span>
+            </div>
+          </div>
+          <Link
+            to="/placement-test"
+            className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition shadow-sm self-start sm:self-auto text-center"
+          >
+            {user.placementStatus === 'ASSESSED' ? 'Kiểm tra lại' : 'Làm bài kiểm tra ngay'}
+          </Link>
         </div>
 
         {/* Settings toggles */}

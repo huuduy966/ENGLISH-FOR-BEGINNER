@@ -45,7 +45,10 @@ async function register(req, res) {
         level: true,
         goal: true,
         xp: true,
+        practiceScore: true,
         streakDays: true,
+        placementStatus: true,
+        placementScore: true,
         createdAt: true,
       },
     });
@@ -115,7 +118,10 @@ async function login(req, res) {
         level: true,
         goal: true,
         xp: true,
+        practiceScore: true,
         streakDays: true,
+        placementStatus: true,
+        placementScore: true,
         createdAt: true,
       },
     });

@@ -29,9 +29,33 @@ export function AuthProvider({ children }) {
     }
   }, []);
 
+  const clearStaleLessonStorage = () => {
+    try {
+      const keysToRemove = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && (k.startsWith('e4b_lesson_') || k.includes('_lesson_') || k.startsWith('e4b_placement_'))) {
+          keysToRemove.push(k);
+        }
+      }
+      keysToRemove.forEach((k) => localStorage.removeItem(k));
+      sessionStorage.removeItem('e4b_placement_answers');
+      sessionStorage.removeItem('e4b_placement_index');
+    } catch {}
+  };
+
   const login = async (email, password) => {
     const res = await api.post('/auth/login', { email, password });
     const { token, user: userData } = res.data;
+    try {
+      const prevUser = localStorage.getItem('e4b_user');
+      if (prevUser) {
+        const parsed = JSON.parse(prevUser);
+        if (parsed?.id !== userData.id) {
+          clearStaleLessonStorage();
+        }
+      }
+    } catch {}
     localStorage.setItem('e4b_token', token);
     localStorage.setItem('e4b_user', JSON.stringify(userData));
     setUser(userData);
@@ -39,6 +63,7 @@ export function AuthProvider({ children }) {
   };
 
   const register = async (name, email, password, goal) => {
+    clearStaleLessonStorage();
     const res = await api.post('/auth/register', { name, email, password, goal });
     const { token, user: userData } = res.data;
     localStorage.setItem('e4b_token', token);
@@ -50,6 +75,7 @@ export function AuthProvider({ children }) {
   const logout = () => {
     localStorage.removeItem('e4b_token');
     localStorage.removeItem('e4b_user');
+    clearStaleLessonStorage();
     setUser(null);
   };
 

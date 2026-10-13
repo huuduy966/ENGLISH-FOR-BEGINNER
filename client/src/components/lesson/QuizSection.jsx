@@ -59,9 +59,6 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
       setQuizResult(res.data);
       if (res.data.passed) {
         if (onQuizPassed) onQuizPassed();
-        if (user && res.data.xpGained) {
-          updateUser({ xp: (user.xp || 0) + res.data.xpGained });
-        }
       }
     } catch (err) {
       alert('Có lỗi khi nộp bài quiz. Vui lòng thử lại.');
@@ -127,55 +124,43 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
 
     return (
       <div className="w-full space-y-6 animate-fade-in">
-        <div className="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-xl text-center space-y-6">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-10 border border-slate-200 shadow-xl text-center space-y-5 sm:space-y-6">
           <div
-            className={`w-20 h-20 mx-auto rounded-3xl flex items-center justify-center shadow-inner ${
+            className={`w-16 h-16 sm:w-20 sm:h-20 mx-auto rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-inner ${
               quizResult.passed ? 'bg-emerald-100 text-emerald-600' : 'bg-rose-100 text-rose-600'
             }`}
           >
-            {quizResult.passed ? <Award className="w-10 h-10" /> : <XCircle className="w-10 h-10" />}
+            {quizResult.passed ? <Award className="w-8 h-8 sm:w-10 sm:h-10" /> : <XCircle className="w-8 h-8 sm:w-10 sm:h-10" />}
           </div>
 
           <div>
-            <h3 className="text-2xl sm:text-3xl font-black text-slate-900">
+            <h3 className="text-xl sm:text-3xl font-black text-slate-900">
               {quizResult.passed ? '🎉 Hoàn thành xuất sắc bài học!' : 'Chưa đạt 80% điểm qua môn'}
             </h3>
-            <p className="text-sm text-slate-600 mt-2 max-w-lg mx-auto leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-lg mx-auto leading-relaxed">
               {quizResult.message}
             </p>
           </div>
 
           {/* Score card metrics */}
-          <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200 inline-flex flex-wrap items-center justify-center gap-6 sm:gap-8 shadow-2xs">
+          <div className="p-3.5 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200 inline-flex flex-wrap items-center justify-center gap-4 sm:gap-8 shadow-2xs">
             <div>
-              <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Số câu đúng</p>
-              <p className="text-2xl font-black text-slate-800 mt-0.5">
+              <p className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-400">Số câu đúng</p>
+              <p className="text-xl sm:text-2xl font-black text-slate-800 mt-0.5">
                 {quizResult.score} / {quizResult.total}
               </p>
             </div>
             <div className="h-8 w-px bg-slate-200 hidden sm:block" />
             <div>
-              <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Điểm số</p>
+              <p className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-400">Điểm số</p>
               <p
-                className={`text-2xl font-black mt-0.5 ${
+                className={`text-xl sm:text-2xl font-black mt-0.5 ${
                   quizResult.passed ? 'text-emerald-600' : 'text-rose-600'
                 }`}
               >
                 {quizResult.percentage}%
               </p>
             </div>
-            {quizResult.xpGained > 0 && (
-              <>
-                <div className="h-8 w-px bg-slate-200 hidden sm:block" />
-                <div>
-                  <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Thưởng XP</p>
-                  <p className="text-2xl font-black text-amber-500 flex items-center gap-1 mt-0.5">
-                    <Star className="w-5 h-5 fill-amber-500" />
-                    +{quizResult.xpGained} XP
-                  </p>
-                </div>
-              </>
-            )}
           </div>
 
           {/* Review items container with filter toggle */}
@@ -399,7 +384,7 @@ export default function QuizSection({ lessonId, quizzes = [], onQuizPassed }) {
               {activeFeedback.isCorrect ? (
                 <>
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                  <span>🎉 Chính xác! Đang tự động chuyển câu tiếp theo sau 1,5 giây...</span>
+                  <span>🎉 Chính xác!</span>
                 </>
               ) : (
                 <>

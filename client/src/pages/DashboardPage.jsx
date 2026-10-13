@@ -76,23 +76,23 @@ export default function DashboardPage() {
       {/* 2-Column: Today's Goal & Continue Learning */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Today's Goal - Synchronized with Today's Learning (60 Questions) */}
-        <div className="lg:col-span-2 rounded-3xl bg-white border border-slate-200/80 p-6 sm:p-7 shadow-sm space-y-6">
+        <div className="lg:col-span-2 rounded-2xl sm:rounded-3xl bg-white border border-slate-200/80 p-4 sm:p-7 shadow-xs space-y-5 sm:space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div className="flex items-center gap-2.5">
-              <div className="p-2.5 rounded-2xl bg-blue-50 text-blue-600">
+              <div className="p-2 sm:p-2.5 rounded-xl sm:rounded-2xl bg-blue-50 text-blue-600 shrink-0">
                 <Target className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-bold text-lg text-slate-900">Mục tiêu hôm nay (Today's Goal)</h3>
-                <p className="text-xs text-slate-400">Đồng bộ theo tiến độ 60 câu luyện tập hằng ngày</p>
+                <h3 className="font-bold text-base sm:text-lg text-slate-900">Mục tiêu hôm nay (Today's Goal)</h3>
+                <p className="text-[11px] sm:text-xs text-slate-400">Đồng bộ theo tiến độ 60 câu luyện tập hằng ngày</p>
               </div>
             </div>
 
-            <div className="flex items-center gap-2 self-start sm:self-auto">
-              <span className="text-xs font-bold text-slate-600 bg-slate-100 px-3 py-1 rounded-full">
+            <div className="flex items-center gap-2 self-start sm:self-auto flex-wrap">
+              <span className="text-[11px] sm:text-xs font-bold text-slate-600 bg-slate-100 px-2.5 sm:px-3 py-1 rounded-full">
                 {todaysGoal?.completedCount || 0} / 60 câu
               </span>
-              <span className="text-xs font-black text-emerald-600 bg-emerald-50 border border-emerald-100 px-3 py-1 rounded-full">
+              <span className="text-[11px] sm:text-xs font-black text-emerald-600 bg-emerald-50 border border-emerald-100 px-2.5 sm:px-3 py-1 rounded-full">
                 {todaysGoal?.progressPercent || 0}% hoàn thành
               </span>
             </div>

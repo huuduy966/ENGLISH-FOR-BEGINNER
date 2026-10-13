@@ -23,8 +23,11 @@ async function verifyToken(req, res, next) {
         level: true,
         goal: true,
         xp: true,
+        practiceScore: true,
         streakDays: true,
         lastStudyDate: true,
+        placementStatus: true,
+        placementScore: true,
         createdAt: true,
       },
     });

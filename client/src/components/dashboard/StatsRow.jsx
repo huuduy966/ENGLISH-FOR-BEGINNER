@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flame, Target, CheckCircle, Star } from 'lucide-react';
+import { Flame, Target, CheckCircle, ClipboardCheck } from 'lucide-react';
 
 export default function StatsRow({ stats }) {
   if (!stats) return null;
@@ -24,28 +24,28 @@ export default function StatsRow({ stats }) {
       color: 'text-emerald-500 bg-emerald-50 border-emerald-100',
     },
     {
-      label: 'Điểm kinh nghiệm',
-      value: `${stats.xp || 0} XP`,
-      icon: Star,
-      color: 'text-amber-500 bg-amber-50 border-amber-100',
+      label: 'Bài kiểm tra đã làm',
+      value: `${stats.examsCompleted || 0} bài`,
+      icon: ClipboardCheck,
+      color: 'text-purple-500 bg-purple-50 border-purple-100',
     },
   ];
 
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4">
       {statItems.map((item, idx) => {
         const Icon = item.icon;
         return (
           <div
             key={idx}
-            className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm flex items-center gap-4"
+            className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs flex items-center gap-2.5 sm:gap-4 min-w-0"
           >
-            <div className={`p-3 rounded-2xl ${item.color} border shrink-0`}>
-              <Icon className="w-6 h-6" />
+            <div className={`p-2.5 sm:p-3 rounded-xl sm:rounded-2xl ${item.color} border shrink-0`}>
+              <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <div>
-              <p className="text-xs text-slate-500 font-medium">{item.label}</p>
-              <p className="text-xl font-bold text-slate-900 mt-0.5">{item.value}</p>
+            <div className="min-w-0 flex-1">
+              <p className="text-[11px] sm:text-xs text-slate-500 font-medium leading-tight truncate">{item.label}</p>
+              <p className="text-base sm:text-xl font-bold text-slate-900 mt-0.5 truncate">{item.value}</p>
             </div>
           </div>
         );

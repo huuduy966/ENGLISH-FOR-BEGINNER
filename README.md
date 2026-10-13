@@ -18,13 +18,13 @@ Dự án được xây dựng bám sát 100% tài liệu định hướng `Engli
    - 🎧 **Luyện nghe (Listening):** Audio hội thoại thực tế, tùy chọn ẩn/hiện Transcript và câu hỏi kiểm tra khả năng nghe.
    - 💬 **Hội thoại phân vai (Roleplay Conversation):** Đóng vai nhân vật A/B trong các ngữ cảnh đời sống thường nhật.
    - 📝 **Bài tập đa dạng:** Trắc nghiệm, điền khuyết, sắp xếp từ thành câu (*Word Order*), nối từ vựng (*Matching*).
-   - 🏆 **Quiz cuối bài:** Đánh giá năng lực, chấm điểm tức thì, giải thích đáp án và thưởng điểm kinh nghiệm (XP).
+   - 🏆 **Quiz cuối bài:** Đánh giá năng lực, chấm điểm tức thì và giải thích đáp án chi tiết.
 3. **Kiểm tra trình độ đầu vào (Placement Test):**
    - Bộ đề 20 câu hỏi tăng dần độ khó từ A1 đến B1 theo khung chuẩn CEFR.
-   - Tự động phân loại trình độ và gợi ý bài học phù hợp kèm thưởng **+50 XP** khởi đầu.
+   - Tự động phân loại trình độ và gợi ý bài học phù hợp.
 4. **Hệ thống tạo động lực (Gamification):**
-   - Chuỗi ngày học liên tục (**Streak 🔥**).
-   - Điểm tích lũy kinh nghiệm (**XP ⭐**).
+   - Chuỗi ngày học liên tục (**Streak 🔥** tăng đều đặn khi luyện tập hàng ngày).
+   - Điểm làm bài tích lũy (**Practice Score**).
    - Mục tiêu học hôm nay (**Today's Goal Tracker**).
 5. **Tra cứu & Sổ tay Từ vựng:**
    - Sổ tay từ vựng: Bộ lọc từ yêu thích, từ cần ôn tập định kỳ.
@@ -65,14 +65,18 @@ npm run db:push
 npm run db:seed
 ```
 
-### 3. Khởi chạy Ứng dụng (Chạy song song cả Frontend & Backend):
+### 3. Khởi chạy Ứng dụng (Chạy song song cả Frontend, Backend & LibreTranslate):
 Chỉ cần chạy **1 câu lệnh duy nhất**:
 ```bash
 npm run dev
 ```
 
-- **Frontend:** Mở trình duyệt tại [http://localhost:5173](http://localhost:5173)
+Lệnh trên sẽ tự động khởi chạy đồng thời cả 3 dịch vụ:
+- **Frontend (Web):** Mở trình duyệt tại [http://localhost:5173](http://localhost:5173)
 - **Backend API:** Chạy tại [http://localhost:5000/api](http://localhost:5000/api)
+- **LibreTranslate (Dịch song ngữ Anh - Việt tự host):** Chạy tại [http://127.0.0.1:5001](http://127.0.0.1:5001)
+
+*(Nếu bạn chỉ muốn chạy riêng Frontend & Backend mà không cần LibreTranslate, có thể chạy `npm run dev:app`)*.
 
 ---
 
@@ -82,7 +86,7 @@ Hệ thống đã nạp sẵn 2 tài khoản mẫu (có nút bấm điền tự 
 
 | Vai trò | Email đăng nhập | Mật khẩu | Quyền hạn & Dữ liệu có sẵn |
 |---|---|---|---|
-| 👤 **Học viên mẫu (Student)** | `student@e4b.com` | `student123` | Đã có sẵn 4 ngày streak, 150 XP, đang học dở Bài 1 |
+| 👤 **Học viên mẫu (Student)** | `student@e4b.com` | `student123` | Đã có sẵn 4 ngày streak, đang học dở Bài 1 |
 | 🛡️ **Quản trị viên (Admin)** | `admin@e4b.com` | `admin123` | Toàn quyền vào trang Quản trị `/admin`, thêm/xóa bài học & từ vựng |
 
 *(Bạn cũng có thể tự do bấm **Đăng ký** tài khoản mới và làm bài kiểm tra đầu vào ngay lập tức!)*

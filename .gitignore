@@ -7,3 +7,6 @@ dev.db
 dev.db-journal
 .superpowers/
 extracted_doc.txt
+.claude/
+venv/
+libretranslate_service/

@@ -110,11 +110,11 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
             setSuggestions(words.slice(0, 5));
           } else {
             setData(null);
-            setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
+            setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại.`);
           }
         } catch {
           setData(null);
-          setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại chính tả.`);
+          setError(`Không tìm thấy từ "${term}". Vui lòng kiểm tra lại.`);
         }
       }
     } finally {
@@ -166,11 +166,11 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
   return (
     <div
       onClick={onClose}
-      className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-start sm:items-center justify-center p-4 pt-16 sm:pt-4 animate-fade-in"
+      className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-start sm:items-center justify-center p-3 sm:p-4 pt-12 sm:pt-4 animate-fade-in"
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="bg-white rounded-3xl max-w-lg w-full max-h-[82vh] shadow-2xl border border-slate-200/90 flex flex-col overflow-hidden animate-scale-up"
+        className="bg-white rounded-2xl sm:rounded-3xl max-w-lg w-full max-h-[85vh] shadow-2xl border border-slate-200/90 flex flex-col overflow-hidden animate-scale-up"
       >
         {/* Spotlight Top Search Header */}
         <div className="p-3.5 sm:p-4 border-b border-slate-100 bg-white">
@@ -209,7 +209,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
           </form>
 
           {/* Quick Suggestions Chips */}
-          <div className="flex items-center gap-1.5 mt-2.5 px-1 overflow-x-auto scrollbar-none text-xs">
+          <div className="flex items-center gap-1.5 mt-2.5 px-1 overflow-x-auto no-scrollbar scrollbar-none text-xs">
             <span className="text-[11px] font-semibold text-slate-400 shrink-0">Gợi ý:</span>
             {quickWords.map((w) => (
               <button
@@ -259,7 +259,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
               </div>
               <h4 className="font-bold text-sm text-slate-800">Sẵn sàng tra cứu</h4>
               <p className="text-xs text-slate-500 max-w-xs mx-auto leading-relaxed">
-                Nhập từ bạn muốn tra cứu vào ô phía trên hoặc chọn từ gợi ý nhanh.
+                Nhập từ bạn muốn tra cứu.
               </p>
             </div>
           )}
@@ -275,11 +275,11 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
                   </h4>
                   {didYouMean ? (
                     <p className="text-xs text-slate-500 mt-0.5">
-                      Có thể bạn đã viết nhầm chính tả. Có phải bạn muốn tìm từ này?
+                      Có thể bạn đã viết nhầm. Có phải bạn muốn tìm từ này?
                     </p>
                   ) : (
                     <p className="text-xs text-slate-500 mt-0.5">
-                      Vui lòng kiểm tra lại chính tả hoặc thử các từ tương tự.
+                      Vui lòng kiểm tra lại.
                     </p>
                   )}
                 </div>
@@ -377,7 +377,7 @@ export default function QuickDictionaryModal({ word = '', isOpen = false, onClos
               {data.vietnameseMeaning && (
                 <div className="p-3.5 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 text-xs">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-blue-600 block mb-0.5">
-                    Nghĩa tiếng Việt đối chiếu:
+                    Nghĩa tiếng Việt:
                   </span>
                   <p className="font-extrabold text-blue-950 text-sm">
                     {data.vietnameseMeaning}

@@ -2,10 +2,19 @@ const express = require('express');
 const router = express.Router();
 const testController = require('../controllers/testController');
 const { verifyToken } = require('../middlewares/auth');
+const { placementSubmitLimiter } = require('../middlewares/rateLimiter');
 
 // Placement test can be viewed publicly, but submission can link to user if logged in
 router.get('/placement-test', testController.getPlacementTest);
-router.post('/placement-test/submit', (req, res, next) => {
+router.post('/placement-test/skip', (req, res, next) => {
+  const authHeader = req.headers.authorization;
+  if (authHeader && authHeader.startsWith('Bearer ')) {
+    return verifyToken(req, res, next);
+  }
+  next();
+}, testController.skipPlacementTest);
+
+router.post('/placement-test/submit', placementSubmitLimiter, (req, res, next) => {
   // Optional auth
   const authHeader = req.headers.authorization;
   if (authHeader && authHeader.startsWith('Bearer ')) {

@@ -1,5 +1,35 @@
 // helper.js - Lesson generation helper with 7-step roadmap data (Multi-point grammar, specific listening, reading comprehension)
 const ipaDictionary = require('./ipaDictionary.json');
+const { getCreativeSentenceForWord } = require('./contextSentenceBank');
+
+function makeUnique4Options(correctAnswer, candidateDistractors = [], fallbackDistractors = []) {
+  const norm = (s) => (typeof s === 'string' ? s.trim().toLowerCase() : String(s));
+  const correctNorm = norm(correctAnswer);
+
+  const seen = new Set([correctNorm]);
+  const pool = [];
+
+  for (const item of [...candidateDistractors, ...fallbackDistractors]) {
+    const itemNorm = norm(item);
+    if (item && !seen.has(itemNorm)) {
+      seen.add(itemNorm);
+      pool.push(item);
+      if (pool.length === 3) break;
+    }
+  }
+
+  while (pool.length < 3) {
+    pool.push(`Lựa chọn bổ trợ ${pool.length + 1}`);
+  }
+
+  const result = [correctAnswer, ...pool.slice(0, 3)];
+  // Controlled pseudo-random shuffle
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
 
 function createLesson({
   level,
@@ -31,13 +61,20 @@ function createLesson({
     // Prioritize Cambridge standard IPA from dictionary with syllable dots
     const ipa = ipaDictionary[cleanKey] || v.pronunciation || `/${cleanKey}/`;
 
+    const hasAuthenticExample = v.example &&
+      !v.example.includes('in daily conversation') &&
+      !v.example.includes('practice using') &&
+      !v.example.toLowerCase().startsWith('i use ');
+
+    const creativeObj = getCreativeSentenceForWord(v.word, v.partOfSpeech, category, v.meaning);
+
     return {
       word: v.word,
       meaning: v.meaning,
       pronunciation: ipa,
       partOfSpeech: v.partOfSpeech || 'noun',
-      example: v.example || `I use ${v.word} in daily conversation.`,
-      exampleMeaning: v.exampleMeaning || `Tôi sử dụng từ ${v.word} trong giao tiếp hàng ngày.`,
+      example: hasAuthenticExample ? v.example : creativeObj.sentence,
+      exampleMeaning: hasAuthenticExample && v.exampleMeaning ? v.exampleMeaning : `Ví dụ minh họa: ${creativeObj.sentence}`,
       category: category,
       level: level,
     };
@@ -120,54 +157,58 @@ function createLesson({
 
   const listeningQuestionsList = [
     {
-      question: `Người nói trong đoạn audio giới thiệu tên của mình là gì?`,
-      options: [speakerName, 'David', 'Taylor', 'Jessica'],
+      question: `What is the speaker's name in the audio?`,
+      options: makeUnique4Options(speakerName, ['Emma', 'Sarah', 'Laura', 'Sophie']),
       correctAnswer: speakerName,
-      explanation: `Đoạn audio mở đầu với lời giới thiệu: "My name is ${speakerName}."`,
+      explanation: `The audio opens with the introduction: "My name is ${speakerName}."`,
     },
     {
-      question: `Người nói bao nhiêu tuổi và hiện đang sinh sống ở đâu?`,
-      options: [
-        `${speakerAge} tuổi, sống tại ${speakerCity}`,
-        '18 tuổi, sống tại New York',
-        '25 tuổi, sống tại Tokyo',
-        '30 tuổi, sống tại Paris',
-      ],
-      correctAnswer: `${speakerAge} tuổi, sống tại ${speakerCity}`,
-      explanation: `Trong bài nghe, người nói chia sẻ: "I am ${speakerAge} years old and I currently live in ${speakerCity}."`,
+      question: `How old is the speaker and where does she live?`,
+      options: makeUnique4Options(
+        `${speakerAge} years old, living in ${speakerCity}`,
+        [
+          '22 years old, living in Manchester',
+          '20 years old, living in Edinburgh',
+          '23 years old, living in Bristol',
+        ]
+      ),
+      correctAnswer: `${speakerAge} years old, living in ${speakerCity}`,
+      explanation: `In the audio, the speaker says: "I am ${speakerAge} years old and I currently live in ${speakerCity}."`,
     },
     {
-      question: `Nghề nghiệp / vai trò hiện tại của người nói là gì?`,
-      options: [
-        'Sinh viên đại học (university student)',
-        'Kỹ sư phần mềm',
-        'Bác sĩ bệnh viện',
-        'Hướng dẫn viên du lịch',
-      ],
-      correctAnswer: 'Sinh viên đại học (university student)',
-      explanation: `Người nói nêu rõ: "I am a university student studying languages."`,
+      question: `What is the speaker's current occupation or role?`,
+      options: makeUnique4Options(
+        'University student studying languages',
+        [
+          'Graduate teaching assistant in linguistics',
+          'Intern at an international cultural exchange center',
+          'Part-time language peer tutor',
+        ]
+      ),
+      correctAnswer: 'University student studying languages',
+      explanation: `The speaker clearly states: "I am a university student studying languages."`,
     },
     {
-      question: `Người nói đã nhắc đến việc dành thời gian luyện tập từ vựng nào vào chiều hôm qua?`,
-      options: [
+      question: `Which vocabulary word did the speaker practice yesterday afternoon?`,
+      options: makeUnique4Options(
         secondaryVocab.word,
-        'Motorcycle',
-        'Helicopter',
-        'Refrigerator',
-      ],
+        [primaryVocab.word, thirdVocab.word, fourthVocab.word, 'Vocabulary', 'Grammar']
+      ),
       correctAnswer: secondaryVocab.word,
-      explanation: `Bài nghe có câu: "Yesterday afternoon, I spent one hour practicing '${secondaryVocab.word}' with my classmates."`,
+      explanation: `The speaker mentions: "Yesterday afternoon, I spent one hour practicing '${secondaryVocab.word}' with my classmates."`,
     },
     {
-      question: `Theo người nói, bí quyết tốt nhất để trở nên tự tin khi giao tiếp là gì?`,
-      options: [
-        'Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)',
-        'Chỉ học ngữ pháp, không bao giờ nói',
-        'Không cần luyện tập nghe nói',
-        'Bỏ cuộc ngay khi gặp từ vựng khó',
-      ],
-      correctAnswer: 'Luyện tập 15 phút mỗi ngày (practicing for fifteen minutes every day)',
-      explanation: `Người nói khuyên: "practicing for fifteen minutes every day is the best secret to becoming confident."`,
+      question: `According to the speaker, what is the best secret to becoming confident?`,
+      options: makeUnique4Options(
+        'Practicing for fifteen minutes every day',
+        [
+          'Memorizing fifty words without speaking practice',
+          'Reviewing grammar rules once a month',
+          'Writing complex essays before practicing basic conversation',
+        ]
+      ),
+      correctAnswer: 'Practicing for fifteen minutes every day',
+      explanation: `The speaker recommends: "practicing for fifteen minutes every day is the best secret to becoming confident."`,
     },
   ];
 
@@ -181,56 +222,66 @@ function createLesson({
   const readingQuestionsList = [
     {
       question: `What is the main topic of the reading passage?`,
-      options: [
+      options: makeUnique4Options(
         `The importance and effective methods of mastering ${title}`,
-        'The global history of commercial aviation',
-        'Traditional culinary techniques and recipes',
-        'How to predict severe seasonal weather changes',
-      ],
+        [
+          `A comparative study on exam preparation strategies versus independent learning`,
+          `The psychological techniques for overcoming anxiety in public speaking`,
+          `A historical overview of grammatical shifts in modern English communication`,
+        ]
+      ),
       correctAnswer: `The importance and effective methods of mastering ${title}`,
       explanation: `The passage primarily highlights the value and learning strategies for "${title}".`,
     },
     {
       question: `What do language experts recommend instead of memorizing isolated definitions?`,
-      options: [
+      options: makeUnique4Options(
         'Connecting new vocabulary to real-life situations',
-        'Memorizing the entire dictionary alphabetically',
-        'Avoiding both reading and speaking practice',
-        'Studying only grammar rules without learning words',
-      ],
+        [
+          'Reviewing vocabulary lists only once every two weeks',
+          'Translating full paragraphs word-for-word into mother tongue',
+          'Focusing exclusively on grammatical formulas without practicing sentences',
+        ]
+      ),
       correctAnswer: 'Connecting new vocabulary to real-life situations',
       explanation: `The passage recommends connecting new vocabulary to real-life situations to create lasting memory pathways.`,
     },
     {
       question: `According to the passage, how much daily reading practice helps learners progress twice as fast?`,
-      options: [
+      options: makeUnique4Options(
         'Twenty minutes daily',
-        'Ten continuous hours on weekends',
-        'One minute each month',
-        'No regular practice is needed',
-      ],
+        [
+          'Forty-five minutes twice a week',
+          'One hour every weekend',
+          'Ten minutes before bedtime',
+        ]
+      ),
       correctAnswer: 'Twenty minutes daily',
       explanation: `The author notes that spending twenty minutes daily reading and repeating sentences aloud doubles learning progress.`,
     },
     {
       question: `In the passage, why is the word "${primaryVocab.word}" highlighted?`,
-      options: [
+      options: makeUnique4Options(
         `It serves as a foundational building block for the topic ${title}`,
-        'It is an outdated term that should be avoided',
-        'It is a rare scientific word with no daily application',
-        'It has no connection to effective communication',
-      ],
+        [
+          `It represents an exceptional irregular verb form to memorize`,
+          `It is an advanced idiom reserved only for academic writing`,
+          `It is primarily used as a formal greeting in business emails`,
+        ]
+      ),
       correctAnswer: `It serves as a foundational building block for the topic ${title}`,
       explanation: `The text points out that words like "${primaryVocab.word}" serve as foundational building blocks.`,
     },
     {
       question: `What are the three essential keys to language mastery mentioned in the conclusion?`,
-      options: [
+      options: makeUnique4Options(
         'Consistency, curiosity, and patience',
-        'Wealth, luck, and instant fame',
-        'Haste, guesswork, and shortcuts',
-        'Relying solely on automated translation tools',
-      ],
+        [
+          'Speed, repetition, and memorization',
+          'Fluency, grammar rules, and translation',
+          'Confidence, vocabulary breadth, and accent',
+        ]
+      ),
       correctAnswer: 'Consistency, curiosity, and patience',
       explanation: `The passage concludes that consistency, curiosity, and patience are the three essential keys.`,
     },
@@ -243,57 +294,61 @@ function createLesson({
   const matchingSlice = vocabsFormatted.slice(0, 4);
   exerciseList.push({
     type: 'MATCHING',
-    question: `Nối từ tiếng Anh với nghĩa tiếng Việt tương ứng:`,
+    question: `Match each English word with its corresponding meaning:`,
     options: JSON.stringify({
       pairs: matchingSlice.map((m) => ({ en: m.word, vi: m.meaning })),
     }),
     correctAnswer: matchingSlice.map((m) => `${m.word}:${m.meaning}`).join('|'),
-    explanation: `Ghép đúng tất cả các cặp từ vựng trọng tâm trong bài học.`,
+    explanation: `Correctly match all key vocabulary pairs from the lesson.`,
   });
 
   // Ex 2: WORD ORDER (Sắp xếp từ thành câu)
-  const sentenceToArrange = primaryVocab.example || `I practice English every single day.`;
+  const sentenceToArrange = (primaryVocab.example && !primaryVocab.example.includes('in daily conversation'))
+    ? primaryVocab.example
+    : `We practice English every single day.`;
   const cleanWords = sentenceToArrange.replace(/[.,!?"']/g, '').split(/\s+/).slice(0, 6);
   exerciseList.push({
     type: 'WORD_ORDER',
-    question: `Sắp xếp các từ sau thành câu tiếng Anh hoàn chỉnh:`,
+    question: `Arrange the words to make a complete English sentence:`,
     options: JSON.stringify([...cleanWords].sort(() => 0.5 - Math.random())),
     correctAnswer: cleanWords.join(' '),
-    explanation: `Trật tự câu chuẩn ngữ pháp tiếng Anh: "${cleanWords.join(' ')}".`,
+    explanation: `Standard English sentence structure: "${cleanWords.join(' ')}".`,
   });
 
   // Ex 3: FILL_BLANK (Chọn từ thích hợp)
   exerciseList.push({
     type: 'FILL_BLANK',
-    question: `Chọn từ thích hợp để hoàn thành câu: "In daily life, ${primaryVocab.word} is _____."`,
-    options: JSON.stringify([
-      primaryVocab.meaning,
-      'không cần thiết',
-      'bị cấm đoán',
-      'vô nghĩa',
-    ]),
+    question: `Choose the correct meaning: In daily life, "${primaryVocab.word}" means _____.`,
+    options: JSON.stringify(
+      makeUnique4Options(
+        primaryVocab.meaning,
+        vocabsFormatted.filter((x) => x.word !== primaryVocab.word).map((x) => x.meaning),
+        ['học tập', 'giao tiếp', 'luyện tập']
+      )
+    ),
     correctAnswer: primaryVocab.meaning,
-    explanation: `Từ "${primaryVocab.word}" mang nghĩa là "${primaryVocab.meaning}".`,
+    explanation: `The word "${primaryVocab.word}" means "${primaryVocab.meaning}".`,
   });
 
   // Ex 4: LISTEN_CHOOSE (Nghe phát âm rồi chọn từ)
   exerciseList.push({
     type: 'LISTEN_CHOOSE',
-    question: `Bấm loa nghe phát âm và chọn đúng từ vựng bạn vừa nghe:`,
-    options: JSON.stringify([
-      secondaryVocab.word,
-      'Computer',
-      'Umbrella',
-      'Telephone',
-    ]),
+    question: `Listen to the audio and choose the correct word you heard:`,
+    options: JSON.stringify(
+      makeUnique4Options(
+        secondaryVocab.word,
+        vocabsFormatted.filter((x) => x.word !== secondaryVocab.word).map((x) => x.word),
+        ['Practice', 'Study', 'Language']
+      )
+    ),
     correctAnswer: secondaryVocab.word,
-    explanation: `Phát âm chuẩn IPA của từ là ${secondaryVocab.pronunciation} - "${secondaryVocab.word}".`,
+    explanation: `Standard IPA pronunciation is ${secondaryVocab.pronunciation} - "${secondaryVocab.word}".`,
   });
 
   // Ex 5: ERROR_CORRECTION (Tìm và sửa lỗi sai)
   exerciseList.push({
     type: 'ERROR_CORRECTION',
-    question: `Tìm lỗi sai trong câu: "She study English every day with high motivation."`,
+    question: `Find the error in the sentence: "She study English every day with high motivation."`,
     options: JSON.stringify([
       'study → studies',
       'English → Englishes',
@@ -301,13 +356,13 @@ function createLesson({
       'high → highly',
     ]),
     correctAnswer: 'study → studies',
-    explanation: `Chủ ngữ "She" là ngôi thứ ba số ít, động từ "study" cần chia thành "studies".`,
+    explanation: `The subject "She" is third-person singular, so the verb "study" must be changed to "studies".`,
   });
 
   // Ex 6: TRANSLATION (Dịch câu)
   exerciseList.push({
     type: 'TRANSLATION',
-    question: `Dịch câu sau sang tiếng Anh: "Tôi học từ vựng mới mỗi ngày."`,
+    question: `Translate the following sentence into English: "Tôi học từ vựng mới mỗi ngày."`,
     options: JSON.stringify([
       'I learn new vocabulary every day.',
       'I learning new vocabulary every day.',
@@ -315,37 +370,38 @@ function createLesson({
       'Me learn new vocabulary daily.',
     ]),
     correctAnswer: 'I learn new vocabulary every day.',
-    explanation: `Cấu trúc thì hiện tại đơn với chủ ngữ "I": S + V(nguyên thể) + O.`,
+    explanation: `Present simple tense with subject "I": S + V(base) + O.`,
   });
 
   // Scale up for higher levels
   if (targetCounts.exerciseQs >= 7) {
     exerciseList.push({
       type: 'MULTIPLE_CHOICE',
-      question: `Từ nào sau đây là từ đồng nghĩa hoặc có nét nghĩa gần nhất với "${thirdVocab.word}"?`,
-      options: JSON.stringify([
-        thirdVocab.word,
-        'Impossible',
-        'Different',
-        'Unlikely',
-      ]),
+      question: `Which of the following words is the closest in meaning to "${thirdVocab.word}"?`,
+      options: JSON.stringify(
+        makeUnique4Options(
+          thirdVocab.word,
+          vocabsFormatted.filter((x) => x.word !== thirdVocab.word).map((x) => x.word),
+          ['Expression', 'Practice', 'Concept']
+        )
+      ),
       correctAnswer: thirdVocab.word,
-      explanation: `"${thirdVocab.word}" biểu đạt nghĩa: ${thirdVocab.meaning}.`,
+      explanation: `"${thirdVocab.word}" conveys the meaning: ${thirdVocab.meaning}.`,
     });
   }
 
   if (targetCounts.exerciseQs >= 8) {
     exerciseList.push({
       type: 'MULTIPLE_CHOICE',
-      question: `Trong ngữ cảnh chủ đề "${title}", từ "${fourthVocab.word}" (${fourthVocab.meaning}) đóng vai trò là loại từ gì?`,
-      options: JSON.stringify([
-        fourthVocab.partOfSpeech,
-        'conjunction',
-        'interjection',
-        'preposition',
-      ]),
+      question: `In the context of "${title}", what part of speech is "${fourthVocab.word}"?`,
+      options: JSON.stringify(
+        makeUnique4Options(
+          fourthVocab.partOfSpeech || 'noun',
+          ['adjective', 'verb', 'adverb', 'preposition', 'pronoun'].filter((pos) => pos !== (fourthVocab.partOfSpeech || 'noun'))
+        )
+      ),
       correctAnswer: fourthVocab.partOfSpeech,
-      explanation: `"${fourthVocab.word}" là một ${fourthVocab.partOfSpeech} trong ngữ pháp tiếng Anh.`,
+      explanation: `"${fourthVocab.word}" functions as a ${fourthVocab.partOfSpeech} in English grammar.`,
     });
   }
 
@@ -353,35 +409,45 @@ function createLesson({
   const quizList = [];
   for (let qIdx = 0; qIdx < targetCounts.quizQs; qIdx++) {
     const v = vocabsFormatted[qIdx % vocabsFormatted.length] || primaryVocab;
-    const distractor1 = vocabsFormatted[(qIdx + 1) % vocabsFormatted.length]?.meaning || 'Cái bàn';
-    const distractor2 = vocabsFormatted[(qIdx + 2) % vocabsFormatted.length]?.meaning || 'Ngôi nhà';
-    const distractor3 = vocabsFormatted[(qIdx + 3) % vocabsFormatted.length]?.meaning || 'Quyển sách';
+
+    const otherVocabsSamePos = vocabsFormatted.filter((o) => o.word !== v.word && o.partOfSpeech === v.partOfSpeech);
+    const otherVocabsAny = vocabsFormatted.filter((o) => o.word !== v.word);
+    const distractorPoolMeanings = [...otherVocabsSamePos, ...otherVocabsAny].map((o) => o.meaning);
+    const distractorPoolWords = [...otherVocabsSamePos, ...otherVocabsAny].map((o) => o.word);
 
     if (qIdx % 3 === 0) {
       quizList.push({
-        question: `Nghĩa tiếng Việt chuẩn xác của từ "${v.word}" là gì?`,
-        options: JSON.stringify([v.meaning, distractor1, distractor2, distractor3].sort(() => 0.5 - Math.random())),
+        question: `What is the accurate meaning of the word "${v.word}"?`,
+        options: JSON.stringify(
+          makeUnique4Options(v.meaning, distractorPoolMeanings, ['Ý niệm', 'Cấu trúc', 'Ngữ cảnh'])
+        ),
         correctAnswer: v.meaning,
-        explanation: `"${v.word}" có phiên âm ${v.pronunciation} và mang nghĩa là "${v.meaning}".`,
+        explanation: `"${v.word}" is pronounced ${v.pronunciation} and means "${v.meaning}".`,
       });
     } else if (qIdx % 3 === 1) {
       quizList.push({
-        question: `Hoàn thiện câu: "In our study session on ${title}, we need to practice _____."`,
-        options: JSON.stringify([v.word, 'bananas', 'airplanes', 'umbrellas'].sort(() => 0.5 - Math.random())),
+        question: `Complete the sentence: "In our study session on ${title}, we need to practice _____."`,
+        options: JSON.stringify(
+          makeUnique4Options(v.word, distractorPoolWords, ['Vocabulary', 'Grammar', 'Listening'])
+        ),
         correctAnswer: v.word,
-        explanation: `"${v.word}" (${v.meaning}) là từ vựng chính xác trong ngữ cảnh chủ đề ${title}.`,
+        explanation: `"${v.word}" (${v.meaning}) is the correct vocabulary word in the context of ${title}.`,
       });
     } else {
       quizList.push({
-        question: `Câu nào dưới đây sử dụng đúng ngữ pháp và cấu trúc của bài học?`,
-        options: JSON.stringify([
-          `We use "${v.word}" effectively in communication.`,
-          `We using "${v.word}" effective.`,
-          `We uses "${v.word}" wrongly.`,
-          `We is use "${v.word}".`,
-        ]),
+        question: `Which of the following sentences uses the correct grammar and structure of the lesson?`,
+        options: JSON.stringify(
+          makeUnique4Options(
+            `We use "${v.word}" effectively in communication.`,
+            [
+              `We using "${v.word}" effective.`,
+              `We uses "${v.word}" wrongly.`,
+              `We is use "${v.word}".`,
+            ]
+          )
+        ),
         correctAnswer: `We use "${v.word}" effectively in communication.`,
-        explanation: `Chủ ngữ số nhiều "We" đi với động từ nguyên mẫu "use" và trạng từ "effectively".`,
+        explanation: `The plural subject "We" takes the base verb "use" and the adverb "effectively".`,
       });
     }
   }

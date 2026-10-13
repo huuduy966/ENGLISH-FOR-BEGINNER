@@ -63,53 +63,53 @@ export default function AdminDashboardPage() {
       </div>
 
       {/* KPI Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="p-3 rounded-xl bg-purple-50 text-purple-600">
-            <Users className="w-6 h-6" />
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4">
+        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+          <div className="p-2 sm:p-3 rounded-xl bg-purple-50 text-purple-600 shrink-0">
+            <Users className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <p className="text-xs text-slate-500 font-medium">Tổng số học viên</p>
-            <p className="text-2xl font-black text-slate-900 mt-0.5">{stats?.counts?.totalUsers || 2}</p>
-          </div>
-        </div>
-
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="p-3 rounded-xl bg-blue-50 text-blue-600">
-            <BookOpen className="w-6 h-6" />
-          </div>
-          <div>
-            <p className="text-xs text-slate-500 font-medium">Tổng số bài học</p>
-            <p className="text-2xl font-black text-slate-900 mt-0.5">{stats?.counts?.totalLessons || 5}</p>
+          <div className="min-w-0 flex-1">
+            <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Tổng số học viên</p>
+            <p className="text-xl sm:text-2xl font-black text-slate-900 mt-0.5 truncate">{stats?.counts?.totalUsers || 2}</p>
           </div>
         </div>
 
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="p-3 rounded-xl bg-emerald-50 text-emerald-600">
-            <Layers className="w-6 h-6" />
+        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+          <div className="p-2 sm:p-3 rounded-xl bg-blue-50 text-blue-600 shrink-0">
+            <BookOpen className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <p className="text-xs text-slate-500 font-medium">Kho từ vựng</p>
-            <p className="text-2xl font-black text-slate-900 mt-0.5">{stats?.counts?.totalVocabulary || 35}</p>
+          <div className="min-w-0 flex-1">
+            <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Tổng số bài học</p>
+            <p className="text-xl sm:text-2xl font-black text-slate-900 mt-0.5 truncate">{stats?.counts?.totalLessons || 5}</p>
           </div>
         </div>
 
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="p-3 rounded-xl bg-amber-50 text-amber-600">
-            <Award className="w-6 h-6" />
+        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+          <div className="p-2 sm:p-3 rounded-xl bg-emerald-50 text-emerald-600 shrink-0">
+            <Layers className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <p className="text-xs text-slate-500 font-medium">Lượt làm Quiz</p>
-            <p className="text-2xl font-black text-slate-900 mt-0.5">{stats?.counts?.totalQuizAttempts || 0}</p>
+          <div className="min-w-0 flex-1">
+            <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Kho từ vựng</p>
+            <p className="text-xl sm:text-2xl font-black text-slate-900 mt-0.5 truncate">{stats?.counts?.totalVocabulary || 35}</p>
+          </div>
+        </div>
+
+        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+          <div className="p-2 sm:p-3 rounded-xl bg-amber-50 text-amber-600 shrink-0">
+            <Award className="w-5 h-5 sm:w-6 sm:h-6" />
+          </div>
+          <div className="min-w-0 flex-1">
+            <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Lượt làm Quiz</p>
+            <p className="text-xl sm:text-2xl font-black text-slate-900 mt-0.5 truncate">{stats?.counts?.totalQuizAttempts || 0}</p>
           </div>
         </div>
       </div>
 
       {/* Tabs Switcher */}
-      <div className="bg-white p-2 rounded-2xl border border-slate-200 shadow-sm flex gap-2">
+      <div className="bg-white p-1.5 sm:p-2 rounded-2xl border border-slate-200 shadow-sm flex flex-col sm:flex-row gap-1.5 sm:gap-2">
         <button
           onClick={() => setActiveTab('lessons')}
-          className={`flex-1 py-2.5 rounded-xl font-bold text-xs transition ${
+          className={`flex-1 py-2 sm:py-2.5 px-3 rounded-xl font-bold text-xs transition ${
             activeTab === 'lessons'
               ? 'bg-blue-600 text-white shadow-sm'
               : 'text-slate-600 hover:bg-slate-50'
@@ -120,7 +120,7 @@ export default function AdminDashboardPage() {
 
         <button
           onClick={() => setActiveTab('vocab')}
-          className={`flex-1 py-2.5 rounded-xl font-bold text-xs transition ${
+          className={`flex-1 py-2 sm:py-2.5 px-3 rounded-xl font-bold text-xs transition ${
             activeTab === 'vocab'
               ? 'bg-blue-600 text-white shadow-sm'
               : 'text-slate-600 hover:bg-slate-50'
@@ -131,7 +131,7 @@ export default function AdminDashboardPage() {
 
         <button
           onClick={() => setActiveTab('users')}
-          className={`flex-1 py-2.5 rounded-xl font-bold text-xs transition ${
+          className={`flex-1 py-2 sm:py-2.5 px-3 rounded-xl font-bold text-xs transition ${
             activeTab === 'users'
               ? 'bg-blue-600 text-white shadow-sm'
               : 'text-slate-600 hover:bg-slate-50'
@@ -161,7 +161,7 @@ export default function AdminDashboardPage() {
                   <th className="p-3.5">Email</th>
                   <th className="p-3.5">Vai trò</th>
                   <th className="p-3.5">Trình độ</th>
-                  <th className="p-3.5">XP</th>
+                  <th className="p-3.5">Điểm làm bài</th>
                   <th className="p-3.5">Streak</th>
                 </tr>
               </thead>
@@ -182,7 +182,7 @@ export default function AdminDashboardPage() {
                       </span>
                     </td>
                     <td className="p-3.5 font-bold">{u.level || 'A1'}</td>
-                    <td className="p-3.5 font-bold text-amber-600">{u.xp} XP</td>
+                    <td className="p-3.5 font-bold text-blue-600">{u.practiceScore || 0} điểm</td>
                     <td className="p-3.5 text-orange-600 font-bold">{u.streakDays} ngày</td>
                   </tr>
                 ))}

@@ -37,6 +37,13 @@ async function runTests() {
     assert(loginRes.status === 200 && !!loginData.token, 'POST /api/auth/login returns JWT token');
     const studentToken = loginData.token;
 
+    // Reset student level to A1 for predictable baseline progression
+    const prisma = require('../src/db');
+    await prisma.user.update({
+      where: { email: 'student@e4b.com' },
+      data: { level: 'A1' },
+    });
+
     // 3. Admin Login
     const adminLoginRes = await fetch(`${BASE_URL}/auth/login`, {
       method: 'POST',
@@ -68,7 +75,7 @@ async function runTests() {
       'GET /api/lessons?level=A1&page=1&limit=12 returns 12 lessons with 3 total pages'
     );
 
-    // 4c. Test Independent Per-Level Sequential Locking: B1 Lesson 1 is unlocked even if student is A1
+    // 4c. Test Cross-Level CEFR Locking: B1 Lesson 1 is locked because student is not yet B1
     const b1Res = await fetch(`${BASE_URL}/lessons?level=B1&page=1&limit=12`, {
       headers: { Authorization: `Bearer ${studentToken}` },
     });
@@ -76,8 +83,9 @@ async function runTests() {
     assert(
       b1Res.status === 200 &&
       b1Data.lessons[0].orderNumber === 1 &&
-      b1Data.lessons[0].isLocked === false,
-      'B1 Lesson 1 is unlocked independently for student'
+      b1Data.lessons[0].isLocked === true &&
+      b1Data.lessons[0].isLevelLocked === true,
+      'B1 Lesson 1 is locked for student who has not reached B1'
     );
 
     // 4d. Test In-Level Sequential Lock: In A1, Lesson 1 is completed -> Lesson 2 is unlocked -> Lesson 3 is locked

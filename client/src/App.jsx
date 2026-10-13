@@ -16,6 +16,7 @@ import LessonsListPage from './pages/LessonsListPage';
 import LessonDetailPage from './pages/LessonDetailPage';
 import VocabularyPage from './pages/VocabularyPage';
 import DictionaryPage from './pages/DictionaryPage';
+import ExamPage from './pages/ExamPage';
 import ProgressPage from './pages/ProgressPage';
 import ProfilePage from './pages/ProfilePage';
 
@@ -31,7 +32,14 @@ export default function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/placement-test" element={<PlacementTestPage />} />
+          <Route
+            path="/placement-test"
+            element={
+              <ProtectedRoute>
+                <PlacementTestPage />
+              </ProtectedRoute>
+            }
+          />
 
           {/* Protected Learning App Routes inside MainLayout */}
           <Route
@@ -46,6 +54,7 @@ export default function App() {
             <Route path="/lessons/:id" element={<LessonDetailPage />} />
             <Route path="/vocabulary" element={<VocabularyPage />} />
             <Route path="/dictionary" element={<DictionaryPage />} />
+            <Route path="/exam" element={<ExamPage />} />
             <Route path="/progress" element={<ProgressPage />} />
             <Route path="/profile" element={<ProfilePage />} />
 

@@ -35,12 +35,13 @@ export default function LessonsListPage() {
     { id: 'B2', name: 'B2 - Upper Int', desc: 'Trung cao cấp', color: 'amber', badgeBg: 'bg-amber-50 text-amber-700 border-amber-200', activeBg: 'bg-amber-600 text-white shadow-amber-500/25' },
     { id: 'C1', name: 'C1 - Advanced', desc: 'Cao cấp', color: 'purple', badgeBg: 'bg-purple-50 text-purple-700 border-purple-200', activeBg: 'bg-purple-600 text-white shadow-purple-500/25' },
     { id: 'C2', name: 'C2 - Proficiency', desc: 'Thành thạo', color: 'rose', badgeBg: 'bg-rose-50 text-rose-700 border-rose-200', activeBg: 'bg-rose-600 text-white shadow-rose-500/25' },
-    { id: 'All', name: 'Tất cả cấp độ', desc: 'Toàn bộ khoá', color: 'slate', badgeBg: 'bg-slate-100 text-slate-700 border-slate-200', activeBg: 'bg-slate-800 text-white shadow-slate-500/25' },
   ];
 
   // URL / Initial State
-  const initialLevel = searchParams.get('level') || user?.level || 'A1';
-  const [selectedLevel, setSelectedLevel] = useState(initialLevel);
+  const validLevel = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].includes(searchParams.get('level'))
+    ? searchParams.get('level')
+    : (['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].includes(user?.level) ? user.level : 'A1');
+  const [selectedLevel, setSelectedLevel] = useState(validLevel);
   const [searchKeyword, setSearchKeyword] = useState(searchParams.get('search') || '');
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'All');
   const [selectedStatus, setSelectedStatus] = useState(searchParams.get('status') || 'all');
@@ -51,6 +52,8 @@ export default function LessonsListPage() {
   const [pagination, setPagination] = useState({ page: 1, limit: 12, total: 0, totalPages: 1 });
   const [levelStats, setLevelStats] = useState({ totalInLevel: 30, completedInLevel: 0, learningInLevel: 0 });
   const [categoriesList, setCategoriesList] = useState([]);
+  const [unlockedLevels, setUnlockedLevels] = useState(['A1']);
+  const [isCurrentLevelLocked, setIsCurrentLevelLocked] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -76,6 +79,8 @@ export default function LessonsListPage() {
         if (res.data.pagination) setPagination(res.data.pagination);
         if (res.data.stats) setLevelStats(res.data.stats);
         if (res.data.categories) setCategoriesList(res.data.categories);
+        if (res.data.unlockedLevels) setUnlockedLevels(res.data.unlockedLevels);
+        setIsCurrentLevelLocked(Boolean(res.data.isCurrentLevelLocked));
       })
       .catch((err) => {
         console.error('Fetch lessons error:', err);
@@ -163,26 +168,26 @@ export default function LessonsListPage() {
             Kho Bài Học Toàn Diện (Curriculum)
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-1">
-            Lộ trình học chuẩn quốc tế từ số 0 đến thành thạo bản ngữ. Hoàn thành tuần tự để tự động mở khóa các bài tiếp theo.
           </p>
         </div>
 
-        {/* Quick placement test CTA if user wants to re-calibrate */}
+        {/* Quick exam CTA if user wants to test proficiency */}
         <Link
-          to="/placement-test"
+          to="/exam"
           className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white border border-slate-200 hover:border-blue-400 hover:text-blue-600 text-slate-700 font-bold text-xs transition shadow-xs shrink-0 self-start md:self-auto"
         >
           <Sparkles className="w-4 h-4 text-amber-500" />
-          <span>Kiểm tra lại trình độ đầu vào</span>
+          <span>Bài kiểm tra năng lực (40 câu)</span>
         </Link>
       </div>
 
-      {/* 1. Level Filter Tabs (6 CEFR Levels + All) */}
+      {/* 1. Level Filter Tabs (6 CEFR Levels: A1 - C2) */}
       <div className="bg-white p-2 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs">
         <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar py-1 px-1">
           {CEFR_LEVELS.map((lvl) => {
             const isSelected = selectedLevel === lvl.id;
             const isUserLevel = user?.level === lvl.id;
+            const isLevelLocked = !unlockedLevels.includes(lvl.id) && user?.role !== 'ADMIN';
 
             return (
               <button
@@ -196,7 +201,10 @@ export default function LessonsListPage() {
                 }`}
               >
                 <span>{lvl.name}</span>
-                {isUserLevel && !isSelected && (
+                {isLevelLocked && (
+                  <Lock className="w-3 h-3 text-slate-400" title="Cấp độ này đang bị khóa" />
+                )}
+                {isUserLevel && !isSelected && !isLevelLocked && (
                   <span className="w-2 h-2 rounded-full bg-blue-600" title="Trình độ hiện tại của bạn" />
                 )}
                 {isUserLevel && isSelected && (
@@ -356,6 +364,31 @@ export default function LessonsListPage() {
         </div>
       </div>
 
+      {/* Level Locked Alert Banner */}
+      {isCurrentLevelLocked && !loading && (
+        <div className="p-4 sm:p-5 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs animate-fade-in">
+          <div className="flex items-start gap-3">
+            <div className="p-2.5 rounded-xl bg-amber-100 text-amber-800 shrink-0">
+              <Lock className="w-5 h-5" />
+            </div>
+            <div className="space-y-0.5">
+              <h4 className="font-black text-sm text-amber-950">
+                Toàn bộ bài học cấp độ {selectedLevel} đang bị khóa
+              </h4>
+              <p className="text-xs text-amber-800 leading-relaxed font-medium">
+                Theo lộ trình chuẩn CEFR, bạn cần hoàn thành tất cả 30 bài học của cấp độ trước đó (hoặc đạt cấp độ {selectedLevel} trong bài kiểm tra đầu vào) để mở khóa khung chương trình này.
+              </p>
+            </div>
+          </div>
+          <Link
+            to="/placement-test"
+            className="px-4 py-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs transition shadow-sm shrink-0 self-start sm:self-auto text-center"
+          >
+            Làm bài test đầu vào
+          </Link>
+        </div>
+      )}
+
       {/* 4. Main Lessons Grid / Skeletons / Empty State */}
       {loading ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -454,7 +487,7 @@ export default function LessonsListPage() {
                     ) : isLocked ? (
                       <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-slate-500 bg-slate-200/70 px-2.5 py-1 rounded-full">
                         <Lock className="w-3 h-3 text-slate-400" />
-                        <span>Cần làm Bài {lesson.orderNumber - 1}</span>
+                        <span>{lesson.isLevelLocked ? `Khóa cấp độ ${lesson.level}` : `Cần làm Bài ${lesson.orderNumber - 1}`}</span>
                       </span>
                     ) : isCurrentActive ? (
                       <span className="inline-flex items-center gap-1 text-[11px] font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200 animate-pulse">
@@ -526,7 +559,7 @@ export default function LessonsListPage() {
                   {isLocked ? (
                     <div className="w-full py-2.5 px-4 rounded-xl bg-slate-100 text-slate-400 font-bold text-xs flex items-center justify-center gap-2 cursor-not-allowed border border-slate-200">
                       <Lock className="w-3.5 h-3.5 text-slate-400" />
-                      <span>Chưa mở khóa (Bài {lesson.orderNumber - 1})</span>
+                      <span>{lesson.isLevelLocked ? `Cấp độ ${lesson.level} đang bị khóa` : `Chưa mở khóa (Bài ${lesson.orderNumber - 1})`}</span>
                     </div>
                   ) : (
                     <Link

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon src/app.js",
     "start": "node src/app.js",
-    "test": "node tests/api.test.js"
+    "postinstall": "prisma generate",
+    "test": "node tests/api.test.js && node tests/readingApi.test.js && node tests/dailyPracticeReset.test.js && node tests/dictionaryTranslation.test.js && node tests/libretranslate.test.js && node tests/examApi.test.js && node tests/textTranslation.test.js && node tests/translationQuality.test.js && node tests/examRandomization.test.js && node tests/progressApi.test.js && node tests/placementTest.test.js && node tests/newAccountProgress.test.js && node tests/levelLocking.test.js && node tests/questionQualityValidation.test.js && node tests/placementRandomization.test.js && node tests/rateLimiting.test.js"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",

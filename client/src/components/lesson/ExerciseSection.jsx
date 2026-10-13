@@ -184,7 +184,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
             Hoàn thành toàn bộ Bài tập!
           </h3>
           <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-md mx-auto">
-            Bạn đã vượt qua tất cả các bài tập tương tác ({exercises.length} câu) với {correctCount} câu trả lời đúng và đạt {exerciseScore} điểm kỹ năng.
+            Bạn đã vượt qua tất cả các bài tập ({exercises.length} câu) với {correctCount} câu trả lời đúng và đạt {exerciseScore} điểm kỹ năng.
           </p>
         </div>
         <div className="pt-2 flex justify-center gap-3">
@@ -255,7 +255,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
           ...prev,
           [currentIndex]: {
             isCorrect: true,
-            explanation: current.explanation || 'Xuất sắc! Bạn đã nối chính xác tất cả các cặp từ.',
+            explanation: current.explanation || 'Xuất sắc!',
           },
         }));
 
@@ -468,7 +468,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
             Đúng: <strong className="text-emerald-600">{correctCount}</strong> / {exercises.length}
           </span>
           <span className="text-xs font-black text-blue-700 bg-blue-50 px-2.5 py-0.5 rounded-lg border border-blue-100">
-            +{exerciseScore} XP
+            +{exerciseScore} điểm
           </span>
         </div>
       </div>
@@ -494,7 +494,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
             </button>
             <div>
               <p className="text-xs font-bold text-purple-900">Bấm loa để nghe phát âm</p>
-              <p className="text-[11px] text-purple-600">Lắng nghe cẩn thận và chọn từ chính xác bên dưới</p>
+              <p className="text-[11px] text-purple-600">Lắng nghe và chọn từ chính xác bên dưới</p>
             </div>
           </div>
         )}
@@ -538,11 +538,11 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
             </svg>
 
             {/* 2 Columns: Left (EN) and Right (VI) */}
-            <div className="grid grid-cols-2 gap-6 sm:gap-10 relative z-20">
+            <div className="grid grid-cols-2 gap-2 sm:gap-6 md:gap-10 relative z-20">
               {/* Left Column (English words) */}
-              <div className="space-y-2.5">
-                <span className="text-[11px] font-black uppercase tracking-wider text-slate-400 block px-1">
-                  Cột A: Từ tiếng Anh
+              <div className="space-y-2 sm:space-y-2.5">
+                <span className="text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-slate-400 block px-1 truncate">
+                  Cột A: Tiếng Anh
                 </span>
                 {matchingPairs.leftItems.map((item, idx) => {
                   const isMatched = matchedPairs.has(item);
@@ -556,7 +556,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
                       type="button"
                       onClick={() => handleMatchingLeftClick(item)}
                       disabled={isMatched || isAdvancing}
-                      className={`w-full p-3.5 sm:p-4 rounded-2xl text-left font-bold text-xs sm:text-sm border transition-all flex items-center justify-between shadow-2xs relative ${
+                      className={`w-full p-2.5 sm:p-4 rounded-xl sm:rounded-2xl text-left font-bold text-xs sm:text-sm border transition-all flex items-center justify-between shadow-2xs relative ${
                         isMatched
                           ? 'bg-emerald-50 border-emerald-400 text-emerald-800'
                           : isWrong
@@ -566,10 +566,10 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
                           : 'bg-white border-slate-200 hover:border-blue-300 text-slate-800 hover:bg-slate-50'
                       }`}
                     >
-                      <span className="truncate pr-2">{item}</span>
-                      <div className="flex items-center gap-1.5 shrink-0">
+                      <span className="truncate pr-1 sm:pr-2 text-[11px] sm:text-xs md:text-sm">{item}</span>
+                      <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
                         {isMatched ? (
-                          <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                          <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-600" />
                         ) : (
                           <div
                             className={`w-2 h-2 rounded-full ${
@@ -584,9 +584,9 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
               </div>
 
               {/* Right Column (Vietnamese meanings) */}
-              <div className="space-y-2.5">
-                <span className="text-[11px] font-black uppercase tracking-wider text-slate-400 block px-1">
-                  Cột B: Nghĩa tiếng Việt
+              <div className="space-y-2 sm:space-y-2.5">
+                <span className="text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-slate-400 block px-1 truncate">
+                  Cột B: Tiếng Việt
                 </span>
                 {matchingPairs.rightItems.map((item, idx) => {
                   const isMatched = Array.from(matchedPairs).some(
@@ -602,7 +602,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
                       type="button"
                       onClick={() => handleMatchingRightClick(item)}
                       disabled={isMatched || isAdvancing}
-                      className={`w-full p-3.5 sm:p-4 rounded-2xl text-left font-bold text-xs sm:text-sm border transition-all flex items-center justify-between shadow-2xs relative ${
+                      className={`w-full p-2.5 sm:p-4 rounded-xl sm:rounded-2xl text-left font-bold text-xs sm:text-sm border transition-all flex items-center justify-between shadow-2xs relative ${
                         isMatched
                           ? 'bg-emerald-50 border-emerald-400 text-emerald-800'
                           : isWrong
@@ -612,9 +612,9 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
                           : 'bg-white border-slate-200 hover:border-blue-300 text-slate-800 hover:bg-slate-50'
                       }`}
                     >
-                      <div className="flex items-center gap-1.5 shrink-0 mr-2">
+                      <div className="flex items-center gap-1 sm:gap-1.5 shrink-0 mr-1 sm:mr-2">
                         {isMatched ? (
-                          <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                          <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-600" />
                         ) : (
                           <div
                             className={`w-2 h-2 rounded-full ${
@@ -623,7 +623,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
                           />
                         )}
                       </div>
-                      <span className="truncate text-right flex-1">{item}</span>
+                      <span className="truncate text-right flex-1 text-[11px] sm:text-xs md:text-sm">{item}</span>
                     </button>
                   );
                 })}
@@ -635,7 +635,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
               {matchedPairs.size === matchingPairs.leftItems.length ? (
                 <div className="p-3 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 font-bold flex items-center justify-center gap-2 animate-fade-in">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                  <span>🎉 Bạn đã nối đúng toàn bộ các cặp từ! Tự động chuyển tiếp sau 1,5 giây...</span>
+                  <span>🎉 Bạn đã nối đúng toàn bộ các cặp từ!</span>
                 </div>
               ) : (
                 <span>
@@ -775,7 +775,7 @@ export default function ExerciseSection({ exercises = [], onStepComplete }) {
             <div className="space-y-0.5">
               <p className="font-extrabold text-sm">
                 {currentFeedback.isCorrect
-                  ? 'Chính xác! Tự động chuyển câu tiếp theo sau 1,5 giây...'
+                  ? 'Chính xác!'
                   : 'Chưa chính xác! Vui lòng thử lại.'}
               </p>
               {currentFeedback.explanation && (

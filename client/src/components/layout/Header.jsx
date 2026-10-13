@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, Flame, Star, Search, Globe } from 'lucide-react';
+import { Menu, Flame, CheckCircle2, Search, Globe } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { Link } from 'react-router-dom';
 import QuickDictionaryModal from '../common/QuickDictionaryModal';
@@ -21,12 +21,13 @@ export default function Header({ onToggleSidebar }) {
 
   return (
     <>
-      <header className="h-16 bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-30 px-4 lg:px-8 flex items-center justify-between gap-4">
+      <header className="h-16 bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-30 px-2.5 sm:px-4 lg:px-8 flex items-center justify-between gap-1.5 sm:gap-4">
         {/* Left: Mobile hamburger & Greeting */}
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
           <button
             onClick={onToggleSidebar}
-            className="p-2 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-lg lg:hidden"
+            className="p-1.5 sm:p-2 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-lg lg:hidden"
+            aria-label="Mở menu"
           >
             <Menu className="w-5 h-5" />
           </button>
@@ -38,20 +39,20 @@ export default function Header({ onToggleSidebar }) {
         </div>
 
         {/* Center: Global Quick Dictionary Search Bar */}
-        <div className="flex-1 max-w-xs md:max-w-md mx-2">
+        <div className="flex-1 min-w-0 max-w-[140px] xs:max-w-xs md:max-w-md mx-1 sm:mx-2">
           <form
             onSubmit={handleHeaderSearch}
-            className="flex items-center bg-slate-50 hover:bg-white focus-within:bg-white rounded-xl border border-slate-200 focus-within:border-blue-600 focus-within:ring-2 focus-within:ring-blue-500/10 transition p-1"
+            className="flex items-center bg-slate-50 hover:bg-white focus-within:bg-white rounded-xl border border-slate-200 focus-within:border-blue-600 focus-within:ring-2 focus-within:ring-blue-500/10 transition p-0.5 sm:p-1"
           >
-            <div className="pl-2 pr-1.5 text-slate-400 flex items-center justify-center shrink-0">
+            <div className="pl-1.5 sm:pl-2 pr-1 text-slate-400 flex items-center justify-center shrink-0">
               <Search className="w-3.5 h-3.5" />
             </div>
             <input
               type="text"
               value={headerSearch}
               onChange={(e) => setHeaderSearch(e.target.value)}
-              placeholder="Tra nhanh từ vựng..."
-              className="flex-1 py-1 px-1 text-xs text-slate-800 placeholder-slate-400 bg-transparent outline-none"
+              placeholder="Tra từ nhanh..."
+              className="flex-1 min-w-0 py-1 px-1 text-xs text-slate-800 placeholder-slate-400 bg-transparent outline-none truncate"
             />
             <button
               type="submit"
@@ -63,28 +64,30 @@ export default function Header({ onToggleSidebar }) {
         </div>
 
         {/* Right: Gamification indicators & Profile */}
-        <div className="flex items-center gap-2.5 sm:gap-4 shrink-0">
+        <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
           {/* Streak indicator */}
-          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-orange-50 border border-orange-200 text-orange-600 text-xs sm:text-sm font-bold shadow-sm">
-            <Flame className="w-4 h-4 text-orange-500 fill-orange-500 animate-pulse" />
-            <span className="hidden xs:inline">{user?.streakDays || 1} ngày</span>
+          <div className="flex items-center gap-1 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-orange-50 border border-orange-200 text-orange-600 text-xs sm:text-sm font-bold shadow-2xs">
+            <Flame className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-orange-500 fill-orange-500 animate-pulse shrink-0" />
+            <span>{user?.streakDays || 1}</span>
+            <span className="hidden xs:inline">ngày</span>
           </div>
 
-          {/* XP indicator */}
-          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-700 text-xs sm:text-sm font-bold shadow-sm">
-            <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
-            <span>{user?.xp || 0} XP</span>
+          {/* Practice score indicator */}
+          <div className="flex items-center gap-1 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs sm:text-sm font-bold shadow-2xs">
+            <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600 shrink-0" />
+            <span>{user?.practiceScore || 0}</span>
+            <span className="hidden xs:inline">điểm</span>
           </div>
 
           {/* User Avatar */}
           <Link
             to="/profile"
-            className="flex items-center gap-2 p-1 pl-1.5 rounded-full hover:bg-slate-100 transition"
+            className="flex items-center gap-2 p-0.5 sm:p-1 pl-1 rounded-full hover:bg-slate-100 transition shrink-0"
           >
-            <div className="w-8 h-8 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs shadow-sm">
+            <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs shadow-2xs shrink-0">
               {user?.name ? user.name.charAt(0).toUpperCase() : 'U'}
             </div>
-            <span className="text-xs font-medium text-slate-700 hidden md:inline">
+            <span className="text-xs font-medium text-slate-700 hidden md:inline truncate max-w-[100px]">
               {user?.name}
             </span>
           </Link>

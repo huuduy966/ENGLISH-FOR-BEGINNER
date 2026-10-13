@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import Logo from '../components/common/Logo';
 import {
   BookOpen,
@@ -15,11 +15,35 @@ import {
   MessageSquare,
   Target,
   Clock,
+  LogIn,
+  UserPlus,
+  X,
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function LandingPage() {
   const { user } = useAuth();
+  const navigate = useNavigate();
+  const [authModalOpen, setAuthModalOpen] = useState(false);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && authModalOpen) {
+        setAuthModalOpen(false);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [authModalOpen]);
+
+  const handlePlacementClick = (e) => {
+    e.preventDefault();
+    if (user) {
+      navigate('/placement-test');
+    } else {
+      setAuthModalOpen(true);
+    }
+  };
 
   const features = [
     {
@@ -83,14 +107,14 @@ export default function LandingPage() {
     <div className="min-h-screen bg-slate-50 flex flex-col selection:bg-blue-600 selection:text-white">
       {/* Top Navbar */}
       <nav className="h-20 bg-white/90 backdrop-blur-md border-b border-slate-200 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 h-full flex items-center justify-between gap-2">
           <Logo size="md" to="/" />
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
             {user ? (
               <Link
                 to="/dashboard"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white font-semibold text-sm hover:bg-blue-700 transition shadow-md shadow-blue-500/20"
+                className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-blue-600 text-white font-semibold text-xs sm:text-sm hover:bg-blue-700 transition shadow-md shadow-blue-500/20"
               >
                 Vào học ngay
                 <ArrowRight className="w-4 h-4" />
@@ -99,13 +123,13 @@ export default function LandingPage() {
               <>
                 <Link
                   to="/login"
-                  className="px-4 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 hover:bg-slate-100 rounded-xl transition"
+                  className="px-2.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold text-slate-700 hover:text-blue-600 hover:bg-slate-100 rounded-xl transition"
                 >
                   Đăng nhập
                 </Link>
                 <Link
                   to="/register"
-                  className="px-5 py-2.5 rounded-xl bg-blue-600 text-white font-semibold text-sm hover:bg-blue-700 transition shadow-md shadow-blue-500/20"
+                  className="px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-blue-600 text-white font-semibold text-xs sm:text-sm hover:bg-blue-700 transition shadow-md shadow-blue-500/20"
                 >
                   Đăng ký miễn phí
                 </Link>
@@ -140,51 +164,52 @@ export default function LandingPage() {
             <span>Bắt đầu học ngay</span>
             <ArrowRight className="w-5 h-5" />
           </Link>
-          <Link
-            to="/placement-test"
-            className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white border border-slate-300 hover:border-blue-500 hover:text-blue-600 text-slate-800 font-bold text-base shadow-sm hover:bg-blue-50/50 transition flex items-center justify-center gap-3"
+          <button
+            type="button"
+            onClick={handlePlacementClick}
+            className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white border border-slate-300 hover:border-blue-500 hover:text-blue-600 text-slate-800 font-bold text-base shadow-sm hover:bg-blue-50/50 transition flex items-center justify-center gap-3 cursor-pointer"
           >
             <Compass className="w-5 h-5 text-blue-600" />
             <span>Kiểm tra trình độ đầu vào</span>
-          </Link>
+          </button>
         </div>
 
         {/* Gamification Highlights */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
-          <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm flex items-center gap-3">
-            <div className="p-2.5 rounded-xl bg-orange-100 text-orange-600 shrink-0">
-              <Flame className="w-6 h-6 fill-orange-500" />
+        <div className="mt-12 sm:mt-16 grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 max-w-4xl mx-auto text-left">
+          <div className="p-3 sm:p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <div className="p-2 sm:p-2.5 rounded-xl bg-orange-100 text-orange-600 shrink-0">
+              <Flame className="w-5 h-5 sm:w-6 sm:h-6 fill-orange-500" />
             </div>
-            <div>
-              <p className="text-xs text-slate-500 font-medium">Chuỗi ngày</p>
-              <p className="text-sm font-bold text-slate-800">Duy trì Streak</p>
-            </div>
-          </div>
-          <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm flex items-center gap-3">
-            <div className="p-2.5 rounded-xl bg-amber-100 text-amber-600 shrink-0">
-              <Award className="w-6 h-6 text-amber-500" />
-            </div>
-            <div>
-              <p className="text-xs text-slate-500 font-medium">Thành tích</p>
-              <p className="text-sm font-bold text-slate-800">Tích lũy XP</p>
+            <div className="min-w-0 flex-1">
+              <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Chuỗi ngày</p>
+              <p className="text-xs sm:text-sm font-bold text-slate-800 truncate">Duy trì Streak</p>
             </div>
           </div>
-          <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm flex items-center gap-3">
-            <div className="p-2.5 rounded-xl bg-blue-100 text-blue-600 shrink-0">
-              <BookOpen className="w-6 h-6" />
+          <div className="p-3 sm:p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <div className="p-2 sm:p-2.5 rounded-xl bg-amber-100 text-amber-600 shrink-0">
+              <Award className="w-5 h-5 sm:w-6 sm:h-6 text-amber-500" />
             </div>
-            <div>
-              <p className="text-xs text-slate-500 font-medium">Bài học nhỏ</p>
-              <p className="text-sm font-bold text-slate-800">15 phút / ngày</p>
+            <div className="min-w-0 flex-1">
+              <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Thành tích</p>
+              <p className="text-xs sm:text-sm font-bold text-slate-800 truncate">Điểm làm bài thực</p>
             </div>
           </div>
-          <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm flex items-center gap-3">
-            <div className="p-2.5 rounded-xl bg-emerald-100 text-emerald-600 shrink-0">
-              <CheckCircle2 className="w-6 h-6" />
+          <div className="p-3 sm:p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <div className="p-2 sm:p-2.5 rounded-xl bg-blue-100 text-blue-600 shrink-0">
+              <BookOpen className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <div>
-              <p className="text-xs text-slate-500 font-medium">Đánh giá</p>
-              <p className="text-sm font-bold text-slate-800">Quiz & Thử thách</p>
+            <div className="min-w-0 flex-1">
+              <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Bài học nhỏ</p>
+              <p className="text-xs sm:text-sm font-bold text-slate-800 truncate">15 phút / ngày</p>
+            </div>
+          </div>
+          <div className="p-3 sm:p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <div className="p-2 sm:p-2.5 rounded-xl bg-emerald-100 text-emerald-600 shrink-0">
+              <CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6" />
+            </div>
+            <div className="min-w-0 flex-1">
+              <p className="text-[11px] sm:text-xs text-slate-500 font-medium truncate">Đánh giá</p>
+              <p className="text-xs sm:text-sm font-bold text-slate-800 truncate">Quiz & Thử thách</p>
             </div>
           </div>
         </div>
@@ -270,6 +295,87 @@ export default function LandingPage() {
           </p>
         </div>
       </footer>
+
+      {/* Auth Requirement Modal for Placement Test */}
+      {authModalOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-fade-in"
+          onClick={() => setAuthModalOpen(false)}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border border-slate-200/80 relative animate-scale-up"
+          >
+            {/* Close button */}
+            <button
+              type="button"
+              onClick={() => setAuthModalOpen(false)}
+              className="absolute top-5 right-5 p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-full transition cursor-pointer"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            {/* Icon & Title */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-16 h-16 rounded-3xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mb-4 shadow-sm">
+                <Compass className="w-8 h-8" />
+              </div>
+
+              <span className="text-[11px] font-extrabold uppercase tracking-wider text-blue-600 bg-blue-50 border border-blue-100 px-3 py-1 rounded-full mb-2">
+                Bài kiểm tra chuẩn CEFR
+              </span>
+
+              <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Yêu cầu đăng nhập hoặc đăng ký
+              </h3>
+
+              <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+                Để làm bài kiểm tra trình độ đầu vào (25 câu từ A1 đến C2) và lưu kết quả xếp lớp vào hồ sơ cá nhân của bạn, vui lòng đăng nhập hoặc tạo tài khoản mới.
+              </p>
+            </div>
+
+            {/* Key benefits list */}
+            <div className="my-6 p-4 rounded-2xl bg-slate-50 border border-slate-100 space-y-2.5 text-left">
+              <div className="flex items-center gap-2.5 text-xs text-slate-700 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                <span>25 câu hỏi phân loại chuẩn quốc tế (Điền khuyết & Nghe hiểu)</span>
+              </div>
+              <div className="flex items-center gap-2.5 text-xs text-slate-700 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                <span>Tự động xếp lớp chính xác từ A1 đến C2</span>
+              </div>
+              <div className="flex items-center gap-2.5 text-xs text-slate-700 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                <span>Lưu giữ tiến độ và cấp độ học trong tài khoản cá nhân</span>
+              </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="space-y-3">
+              <button
+                type="button"
+                onClick={() => navigate('/login', { state: { from: { pathname: '/placement-test' } } })}
+                className="w-full py-3.5 px-5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md shadow-blue-500/20 transition flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <LogIn className="w-4 h-4" />
+                <span>Đăng nhập tài khoản</span>
+                <ArrowRight className="w-4 h-4 ml-auto" />
+              </button>
+
+              <button
+                type="button"
+                onClick={() => navigate('/register')}
+                className="w-full py-3 px-5 rounded-xl bg-white border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 text-slate-800 font-bold text-sm transition flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <UserPlus className="w-4 h-4 text-blue-600" />
+                <span>Đăng ký tài khoản miễn phí</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

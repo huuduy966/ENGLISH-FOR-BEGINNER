@@ -19,6 +19,9 @@ model User {
   practiceScore Int             @default(0)
   streakDays    Int             @default(0)
   lastStudyDate DateTime?
+  placementStatus String?       @default("UNASSESSED") // UNASSESSED | ASSESSED | SKIPPED
+  placementScore  Int?
+  placementDetails String?
   createdAt     DateTime        @default(now())
   updatedAt     DateTime        @updatedAt
 
@@ -26,6 +29,7 @@ model User {
   quizAttempts   QuizAttempt[]
   savedWords     UserVocabulary[]
   dailyPractices DailyPractice[]
+  examAttempts   ExamAttempt[]
 }
 
 model Lesson {
@@ -174,11 +178,14 @@ model QuizAttempt {
 model PlacementQuestion {
   id            Int      @id @default(autoincrement())
   orderNumber   Int      @default(1)
-  levelTarget   String   @default("A1") // A1, A2, B1, B2
+  partNumber    Int?     @default(1)
+  levelTarget   String   @default("A1") // A1, A2, B1, B2, C1, C2
+  category      String   // FillBlank, Listening, Grammar, Vocabulary
   question      String
   options       String   // JSON string of options
   correctAnswer String
-  category      String   // Vocabulary, Grammar, Reading, Listening
+  audioText     String?
+  explanation   String?
 }
 
 model DailyPractice {
@@ -196,4 +203,28 @@ model DailyPractice {
   updatedAt            DateTime @updatedAt
 
   @@unique([userId, date])
+}
+
+model ExamAttempt {
+  id              Int      @id @default(autoincrement())
+  userId          Int
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  level           String
+  examTitle       String
+  totalQuestions  Int      @default(40)
+  durationMinutes Int      @default(60)
+  startedAt       String
+  expiresAt       String
+  submittedAt     String?
+  isCompleted     Int      @default(0)
+  score           Float    @default(0)
+  correctCount    Int      @default(0)
+  wrongCount      Int      @default(0)
+  unansweredCount Int      @default(0)
+  currentPage     Int      @default(1)
+  answers         String   @default("{}")
+  examData        String
+  resultData      String?
+  createdAt       String?
+  updatedAt       String?
 }
