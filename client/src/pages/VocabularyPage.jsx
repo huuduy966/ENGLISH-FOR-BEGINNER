@@ -201,7 +201,7 @@ export default function VocabularyPage() {
           {vocabList.map((v) => (
             <div
               key={v.id}
-              className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between"
+              className="motion-surface bg-white rounded-2xl border border-slate-200/80 p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center justify-between mb-2">

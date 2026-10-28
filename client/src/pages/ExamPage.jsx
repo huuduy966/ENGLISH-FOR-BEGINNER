@@ -427,7 +427,7 @@ export default function ExamPage() {
         )}
 
         {/* 5 Parts Structure Grid */}
-        <div className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
+        <div className="motion-surface bg-white p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
           <div className="flex items-center justify-between border-b border-slate-100 pb-4">
             <div>
               <h3 className="text-lg font-bold text-slate-900">Cấu trúc đề thi</h3>

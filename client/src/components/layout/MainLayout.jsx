@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import ErrorBoundary from '../common/ErrorBoundary';
@@ -7,6 +7,7 @@ import ErrorBoundary from '../common/ErrorBoundary';
 export default function MainLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [lockLayout, setLockLayout] = useState(false);
+  const location = useLocation();
 
   return (
     <div className="min-h-screen bg-slate-50 flex overflow-x-hidden">
@@ -20,7 +21,9 @@ export default function MainLayout() {
 
         <main className={`flex-1 p-3 xs:p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto ${lockLayout ? 'pt-3 sm:pt-6' : ''}`}>
           <ErrorBoundary>
-            <Outlet context={{ setLockLayout }} />
+            <div key={location.pathname} className="motion-page">
+              <Outlet context={{ setLockLayout }} />
+            </div>
           </ErrorBoundary>
         </main>
       </div>

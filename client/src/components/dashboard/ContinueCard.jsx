@@ -8,7 +8,7 @@ export default function ContinueCard({ continueLesson }) {
   if (!continueLesson) return null;
 
   return (
-    <div className="rounded-3xl bg-white border border-slate-200/80 p-6 shadow-sm hover:shadow-md transition">
+    <div className="motion-surface rounded-3xl bg-white border border-slate-200/80 p-6 shadow-sm hover:shadow-md transition">
       <div className="flex items-center justify-between mb-3">
         <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
           Tiếp tục học

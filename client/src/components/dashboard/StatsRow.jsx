@@ -38,7 +38,7 @@ export default function StatsRow({ stats }) {
         return (
           <div
             key={idx}
-            className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs flex items-center gap-2.5 sm:gap-4 min-w-0"
+            className="motion-surface p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs flex items-center gap-2.5 sm:gap-4 min-w-0"
           >
             <div className={`p-2.5 sm:p-3 rounded-xl sm:rounded-2xl ${item.color} border shrink-0`}>
               <Icon className="w-5 h-5 sm:w-6 sm:h-6" />

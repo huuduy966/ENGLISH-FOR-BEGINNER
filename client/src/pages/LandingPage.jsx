@@ -104,7 +104,7 @@ export default function LandingPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col selection:bg-blue-600 selection:text-white">
+    <div className="motion-page min-h-screen bg-slate-50 flex flex-col selection:bg-blue-600 selection:text-white">
       {/* Top Navbar */}
       <nav className="h-20 bg-white/90 backdrop-blur-md border-b border-slate-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 h-full flex items-center justify-between gap-2">
@@ -230,7 +230,7 @@ export default function LandingPage() {
               return (
                 <div
                   key={idx}
-                  className="p-6 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all group"
+                  className="motion-surface p-6 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all group"
                 >
                   <div className={`w-12 h-12 rounded-xl ${item.color} flex items-center justify-center mb-5 shadow-md`}>
                     <Icon className="w-6 h-6" />
@@ -262,7 +262,7 @@ export default function LandingPage() {
             return (
               <div
                 key={idx}
-                className="p-6 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all group"
+                className="motion-surface p-6 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all group"
               >
                 <div className="flex items-center justify-between mb-5">
                   <div className={`w-12 h-12 rounded-xl ${item.color} flex items-center justify-center shadow-md`}>

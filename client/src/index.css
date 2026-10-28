@@ -8,6 +8,156 @@
   }
 }
 
+/* A small CSS motion system shared by the public pages and learning app. */
+@keyframes e4b-page-enter {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes e4b-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes e4b-scale-up {
+  from { opacity: 0; transform: translateY(10px) scale(.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes e4b-nav-enter {
+  from { opacity: 0; transform: translateX(-8px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes e4b-taskbar-reveal {
+  from { opacity: 0; transform: scaleX(.25); }
+  to { opacity: 1; transform: scaleX(1); }
+}
+
+.motion-page { animation: e4b-page-enter 360ms cubic-bezier(.22, 1, .36, 1) backwards; }
+.animate-fade-in { animation: e4b-fade-in 260ms ease-out both; }
+.animate-scale-up { animation: e4b-scale-up 320ms cubic-bezier(.22, 1, .36, 1) both; }
+
+.motion-surface {
+  transition: box-shadow 240ms ease, border-color 240ms ease, transform 240ms cubic-bezier(.22, 1, .36, 1);
+}
+
+@media (hover: hover) {
+  .motion-surface:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 32px -20px rgb(15 23 42 / .35);
+  }
+}
+
+.sidebar-nav-item {
+  position: relative;
+  animation: e4b-nav-enter 320ms cubic-bezier(.22, 1, .36, 1) backwards;
+  animation-delay: calc(var(--nav-index, 0) * 35ms);
+  transition: background-color 180ms ease, color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.sidebar-nav-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 50%;
+  width: 3px;
+  border-radius: 999px;
+  background: #2563eb;
+  opacity: 0;
+  transform: scaleY(.4);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+
+.sidebar-nav-item[aria-current='page']::before { opacity: 1; transform: scaleY(1); }
+.sidebar-nav-item svg { transition: transform 200ms ease; }
+
+.sidebar-active-indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: .75rem;
+  background: linear-gradient(110deg, #eff6ff, #e0e7ff);
+  box-shadow: 0 4px 14px -8px rgb(37 99 235 / .45);
+  pointer-events: none;
+  transition: top 340ms cubic-bezier(.22, 1, .36, 1), height 340ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.sidebar-panel { transition: transform 420ms cubic-bezier(.22, 1, .36, 1); }
+.taskbar-overlay { transition: opacity 360ms ease; }
+
+.taskbar-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: linear-gradient(90deg, #2563eb, #818cf8, #38bdf8);
+  transform-origin: left;
+  animation: e4b-taskbar-reveal 600ms cubic-bezier(.22, 1, .36, 1) backwards;
+}
+
+.taskbar-search svg,
+.taskbar-menu-button svg { transition: transform 220ms cubic-bezier(.22, 1, .36, 1); }
+.taskbar-search:focus-within svg { transform: scale(1.16); }
+
+.level-tab-indicator {
+  position: absolute;
+  border-radius: 1rem;
+  pointer-events: none;
+  transition: left 340ms cubic-bezier(.22, 1, .36, 1),
+    top 340ms cubic-bezier(.22, 1, .36, 1),
+    width 340ms cubic-bezier(.22, 1, .36, 1),
+    height 340ms cubic-bezier(.22, 1, .36, 1),
+    background-color 240ms ease,
+    box-shadow 240ms ease;
+}
+
+.level-tab {
+  transition: color 200ms ease, background-color 200ms ease, transform 180ms ease;
+}
+
+.level-tab:active { transform: scale(.97); }
+
+@media (hover: hover) {
+  .sidebar-nav-item:hover { transform: translateX(3px); }
+  .sidebar-nav-item:hover svg { transform: scale(1.1); }
+  .taskbar-menu-button:hover svg { transform: rotate(90deg); }
+  .level-tab:not([aria-pressed='true']):hover { transform: translateY(-2px); }
+}
+
+:where(button, a, input, textarea, select) {
+  transition-property: color, background-color, border-color, box-shadow, opacity, filter;
+  transition-duration: 180ms;
+  transition-timing-function: ease;
+}
+
+:where(button, a):focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+}
+
+.motion-press { transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease; }
+.motion-press:active:not(:disabled) { transform: scale(.97); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+  .motion-surface:hover,
+  .sidebar-nav-item:hover,
+  .motion-press:active:not(:disabled),
+  .taskbar-search:focus-within svg,
+  .taskbar-menu-button:hover svg,
+  .level-tab:active,
+  .level-tab:not([aria-pressed='true']):hover { transform: none; }
+}
+
 /* 3D Flip Card Effect for Flashcards */
 .perspective-1000 {
   perspective: 1000px;

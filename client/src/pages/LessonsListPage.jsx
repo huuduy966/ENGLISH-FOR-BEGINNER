@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import {
   BookOpen,
@@ -58,6 +58,34 @@ export default function LessonsListPage() {
   const [error, setError] = useState(null);
 
   const topRef = useRef(null);
+  const levelTabsRef = useRef(null);
+  const levelScrollRef = useRef(null);
+  const [levelIndicator, setLevelIndicator] = useState(null);
+
+  useLayoutEffect(() => {
+    const tabs = levelTabsRef.current;
+    const activeTab = tabs?.querySelector(`[data-level="${selectedLevel}"]`);
+    if (!tabs || !activeTab) return undefined;
+
+    const updateIndicator = () => {
+      setLevelIndicator({
+        left: activeTab.offsetLeft,
+        top: activeTab.offsetTop,
+        width: activeTab.offsetWidth,
+        height: activeTab.offsetHeight,
+      });
+    };
+
+    updateIndicator();
+    const observer = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(updateIndicator) : null;
+    observer?.observe(tabs);
+    observer?.observe(activeTab);
+    window.addEventListener('resize', updateIndicator);
+    return () => {
+      observer?.disconnect();
+      window.removeEventListener('resize', updateIndicator);
+    };
+  }, [selectedLevel]);
 
   // Fetch lessons when filters or page change
   const fetchLessons = () => {
@@ -96,6 +124,14 @@ export default function LessonsListPage() {
   // Handle Level Change
   const handleLevelChange = (levelId) => {
     setSelectedLevel(levelId);
+    const tab = levelTabsRef.current?.querySelector(`[data-level="${levelId}"]`);
+    const scroller = levelScrollRef.current;
+    if (tab && scroller) {
+      scroller.scrollTo({
+        left: tab.offsetLeft - (scroller.clientWidth - tab.offsetWidth) / 2,
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      });
+    }
     setSelectedCategory('All');
     setCurrentPage(1);
     setSearchParams((prev) => {
@@ -183,45 +219,56 @@ export default function LessonsListPage() {
 
       {/* 1. Level Filter Tabs (6 CEFR Levels: A1 - C2) */}
       <div className="bg-white p-2 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs">
-        <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar py-1 px-1">
-          {CEFR_LEVELS.map((lvl) => {
-            const isSelected = selectedLevel === lvl.id;
-            const isUserLevel = user?.level === lvl.id;
-            const isLevelLocked = !unlockedLevels.includes(lvl.id) && user?.role !== 'ADMIN';
+        <div ref={levelScrollRef} className="overflow-x-auto no-scrollbar">
+          <div ref={levelTabsRef} className="relative flex w-max min-w-full items-center gap-1.5 sm:gap-2 py-1 px-1">
+            {levelIndicator && (
+              <span
+                aria-hidden="true"
+                className={`level-tab-indicator ${CEFR_LEVELS.find((level) => level.id === selectedLevel)?.activeBg || 'bg-blue-600'} shadow-md`}
+                style={levelIndicator}
+              />
+            )}
+            {CEFR_LEVELS.map((lvl) => {
+              const isSelected = selectedLevel === lvl.id;
+              const isUserLevel = user?.level === lvl.id;
+              const isLevelLocked = !unlockedLevels.includes(lvl.id) && user?.role !== 'ADMIN';
 
-            return (
-              <button
-                key={lvl.id}
-                type="button"
-                onClick={() => handleLevelChange(lvl.id)}
-                className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl sm:rounded-2xl text-xs font-bold transition-all whitespace-nowrap shrink-0 ${
-                  isSelected
-                    ? `${lvl.activeBg} shadow-md`
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100/80 bg-transparent'
-                }`}
-              >
-                <span>{lvl.name}</span>
-                {isLevelLocked && (
-                  <Lock className="w-3 h-3 text-slate-400" title="Cấp độ này đang bị khóa" />
-                )}
-                {isUserLevel && !isSelected && !isLevelLocked && (
-                  <span className="w-2 h-2 rounded-full bg-blue-600" title="Trình độ hiện tại của bạn" />
-                )}
-                {isUserLevel && isSelected && (
-                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-white/25 text-white uppercase tracking-wider font-extrabold hidden md:inline">
-                    Hiện tại
-                  </span>
-                )}
-              </button>
-            );
-          })}
+              return (
+                <button
+                  key={lvl.id}
+                  type="button"
+                  onClick={() => handleLevelChange(lvl.id)}
+                  data-level={lvl.id}
+                  aria-pressed={isSelected}
+                  className={`level-tab relative z-10 flex items-center gap-2 px-3.5 py-2.5 rounded-xl sm:rounded-2xl text-xs font-bold whitespace-nowrap shrink-0 ${
+                    isSelected
+                      ? 'text-white'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100/80 bg-transparent'
+                  }`}
+                >
+                  <span>{lvl.name}</span>
+                  {isLevelLocked && (
+                    <Lock className="w-3 h-3 text-slate-400" title="Cấp độ này đang bị khóa" />
+                  )}
+                  {isUserLevel && !isSelected && !isLevelLocked && (
+                    <span className="w-2 h-2 rounded-full bg-blue-600" title="Trình độ hiện tại của bạn" />
+                  )}
+                  {isUserLevel && isSelected && (
+                    <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-white/25 text-white uppercase tracking-wider font-extrabold hidden md:inline">
+                      Hiện tại
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
 
       {/* 2. Level KPI Summary Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {/* Total Lessons */}
-        <div className="bg-white p-4 sm:p-5 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs flex items-center gap-4">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs flex items-center gap-4">
           <div className="p-3 rounded-2xl bg-blue-50 text-blue-600 shrink-0">
             <BookOpen className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
@@ -236,7 +283,7 @@ export default function LessonsListPage() {
         </div>
 
         {/* Completed Lessons with Level Progress Bar */}
-        <div className="bg-white p-4 sm:p-5 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs flex flex-col justify-between">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between gap-2 mb-2">
             <div className="flex items-center gap-2">
               <div className="p-2 rounded-xl bg-emerald-50 text-emerald-600">
@@ -267,7 +314,7 @@ export default function LessonsListPage() {
         </div>
 
         {/* Learning In Progress */}
-        <div className="bg-white p-4 sm:p-5 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs flex items-center gap-4">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-xs flex items-center gap-4">
           <div className="p-3 rounded-2xl bg-amber-50 text-amber-600 shrink-0">
             <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
@@ -449,7 +496,7 @@ export default function LessonsListPage() {
             return (
               <div
                 key={lesson.id}
-                className={`rounded-3xl p-6 transition-all flex flex-col justify-between ${
+                className={`rounded-3xl p-6 transition-all flex flex-col justify-between ${isLocked ? '' : 'motion-surface'} ${
                   isLocked
                     ? 'bg-slate-50/80 border border-dashed border-slate-300 opacity-80'
                     : isCurrentActive

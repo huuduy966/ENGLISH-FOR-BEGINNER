@@ -4,6 +4,11 @@
   "description": "English for Beginner (E4B) learning platform",
   "private": true,
   "scripts": {
+    "dev": "npm run dev:app",
+    "dev:app": "concurrently -k -n client,server \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
     "start": "cd server && npm start",
     "build": "cd client && npm install && npm run build && cd ../server && npm install && npx prisma db push && node prisma/seed.js",
     "build:render": "cd client && npm install && npm run build && cd ../server && npm install && npx prisma db push && node prisma/seed.js",

@@ -122,7 +122,7 @@ export default function TodaysLearningCard({ onScoreUpdated }) {
 
   return (
     <>
-      <div className="rounded-2xl sm:rounded-3xl bg-white border border-slate-200/90 shadow-sm p-4 sm:p-7 space-y-4 sm:space-y-6">
+      <div className="motion-surface rounded-2xl sm:rounded-3xl bg-white border border-slate-200/90 shadow-sm p-4 sm:p-7 space-y-4 sm:space-y-6">
         {/* Reset Notification Banner if auto-reset happened */}
         {resetNotice && (
           <div className="p-3.5 rounded-2xl bg-blue-50 border border-blue-200 text-blue-900 text-xs font-bold flex items-center justify-between animate-fade-in shadow-2xs">

@@ -37,7 +37,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col justify-center px-3.5 py-8 sm:py-12 sm:px-6 lg:px-8 selection:bg-blue-600 selection:text-white">
+    <div className="motion-page min-h-screen bg-slate-50 flex flex-col justify-center px-3.5 py-8 sm:py-12 sm:px-6 lg:px-8 selection:bg-blue-600 selection:text-white">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center">
         <div className="flex justify-center mb-6">
           <Logo size="lg" to="/" />

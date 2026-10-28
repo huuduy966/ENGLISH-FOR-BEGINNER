@@ -176,7 +176,7 @@ export default function ProgressPage() {
       {/* 2. 6 KPI Overview Cards */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-4">
         {/* Card 1: Completed Lessons */}
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Bài học</span>
             <div className="p-2 rounded-xl bg-emerald-50 text-emerald-600">
@@ -195,7 +195,7 @@ export default function ProgressPage() {
         </div>
 
         {/* Card 2: Practice Score */}
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Điểm làm bài</span>
             <div className="p-2 rounded-xl bg-blue-50 text-blue-600">
@@ -213,7 +213,7 @@ export default function ProgressPage() {
         </div>
 
         {/* Card 3: Words Learned */}
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Từ vựng</span>
             <div className="p-2 rounded-xl bg-purple-50 text-purple-600">
@@ -232,7 +232,7 @@ export default function ProgressPage() {
         </div>
 
         {/* Card 4: Study Time */}
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Thời gian học</span>
             <div className="p-2 rounded-xl bg-amber-50 text-amber-600">
@@ -251,7 +251,7 @@ export default function ProgressPage() {
         </div>
 
         {/* Card 5: Streak Days */}
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Chuỗi ngày</span>
             <div className="p-2 rounded-xl bg-orange-50 text-orange-600">
@@ -270,7 +270,7 @@ export default function ProgressPage() {
         </div>
 
         {/* Card 6: Accuracy */}
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
+        <div className="motion-surface bg-white p-4 sm:p-5 rounded-3xl border border-slate-200/90 shadow-sm flex flex-col justify-between space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Độ chính xác</span>
             <div className="p-2 rounded-xl bg-indigo-50 text-indigo-600">

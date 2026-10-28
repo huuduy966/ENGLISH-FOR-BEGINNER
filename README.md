@@ -65,18 +65,16 @@ npm run db:push
 npm run db:seed
 ```
 
-### 3. Khởi chạy Ứng dụng (Chạy song song cả Frontend, Backend & LibreTranslate):
+### 3. Khởi chạy Ứng dụng (Frontend & Backend):
 Chỉ cần chạy **1 câu lệnh duy nhất**:
 ```bash
 npm run dev
 ```
 
-Lệnh trên sẽ tự động khởi chạy đồng thời cả 3 dịch vụ:
+Lệnh trên sẽ tự động khởi chạy đồng thời 2 dịch vụ:
 - **Frontend (Web):** Mở trình duyệt tại [http://localhost:5173](http://localhost:5173)
 - **Backend API:** Chạy tại [http://localhost:5000/api](http://localhost:5000/api)
-- **LibreTranslate (Dịch song ngữ Anh - Việt tự host):** Chạy tại [http://127.0.0.1:5001](http://127.0.0.1:5001)
-
-*(Nếu bạn chỉ muốn chạy riêng Frontend & Backend mà không cần LibreTranslate, có thể chạy `npm run dev:app`)*.
+Nếu có LibreTranslate tự host, hãy chạy riêng tại [http://127.0.0.1:5001](http://127.0.0.1:5001) hoặc đặt `LIBRETRANSLATE_URL` cho backend. `npm run dev:app` tương đương `npm run dev`.
 
 ---
 

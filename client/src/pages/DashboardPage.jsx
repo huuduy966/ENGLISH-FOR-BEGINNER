@@ -76,7 +76,7 @@ export default function DashboardPage() {
       {/* 2-Column: Today's Goal & Continue Learning */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Today's Goal - Synchronized with Today's Learning (60 Questions) */}
-        <div className="lg:col-span-2 rounded-2xl sm:rounded-3xl bg-white border border-slate-200/80 p-4 sm:p-7 shadow-xs space-y-5 sm:space-y-6">
+        <div className="motion-surface lg:col-span-2 rounded-2xl sm:rounded-3xl bg-white border border-slate-200/80 p-4 sm:p-7 shadow-xs space-y-5 sm:space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div className="flex items-center gap-2.5">
               <div className="p-2 sm:p-2.5 rounded-xl sm:rounded-2xl bg-blue-50 text-blue-600 shrink-0">
@@ -191,7 +191,7 @@ export default function DashboardPage() {
           {continueLesson ? (
             <ContinueCard continueLesson={continueLesson} />
           ) : (
-            <div className="rounded-3xl bg-white border border-slate-200/80 p-6 shadow-sm flex flex-col justify-between h-full">
+            <div className="motion-surface rounded-3xl bg-white border border-slate-200/80 p-6 shadow-sm flex flex-col justify-between h-full">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
                   Luyện tập & Tra cứu

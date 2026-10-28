@@ -64,7 +64,7 @@ export default function AdminDashboardPage() {
 
       {/* KPI Cards */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4">
-        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+        <div className="motion-surface p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
           <div className="p-2 sm:p-3 rounded-xl bg-purple-50 text-purple-600 shrink-0">
             <Users className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
@@ -74,7 +74,7 @@ export default function AdminDashboardPage() {
           </div>
         </div>
 
-        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+        <div className="motion-surface p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
           <div className="p-2 sm:p-3 rounded-xl bg-blue-50 text-blue-600 shrink-0">
             <BookOpen className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
@@ -84,7 +84,7 @@ export default function AdminDashboardPage() {
           </div>
         </div>
 
-        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+        <div className="motion-surface p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
           <div className="p-2 sm:p-3 rounded-xl bg-emerald-50 text-emerald-600 shrink-0">
             <Layers className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
@@ -94,7 +94,7 @@ export default function AdminDashboardPage() {
           </div>
         </div>
 
-        <div className="p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
+        <div className="motion-surface p-3.5 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs flex items-center gap-2.5 sm:gap-4 min-w-0">
           <div className="p-2 sm:p-3 rounded-xl bg-amber-50 text-amber-600 shrink-0">
             <Award className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>

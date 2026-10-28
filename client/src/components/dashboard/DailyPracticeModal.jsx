@@ -316,7 +316,7 @@ export default function DailyPracticeModal({
       }}
     >
       <div
-        className="relative bg-white rounded-3xl border border-slate-200 shadow-2xl w-full max-w-4xl my-auto overflow-hidden flex flex-col max-h-[92vh] z-[101]"
+        className="animate-scale-up relative bg-white rounded-3xl border border-slate-200 shadow-2xl w-full max-w-4xl my-auto overflow-hidden flex flex-col max-h-[92vh] z-[101]"
         onClick={(e) => e.stopPropagation()}
       >
         {isCompleted ? (
